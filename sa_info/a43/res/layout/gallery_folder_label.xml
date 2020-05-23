@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout n1:background="@drawable/gallery_browser_label_background" n1:paddingLeft="8.0dip" n1:paddingRight="8.0dip" n1:layout_width="fill_parent" n1:layout_height="38.0dip" n1:layout_marginLeft="@dimen/gallery_browser_folder_margin" n1:layout_marginRight="@dimen/gallery_browser_folder_margin" n1:layout_marginBottom="@dimen/gallery_browser_folder_margin" n1:layout_alignLeft="@id/preview" n1:layout_alignRight="@id/preview" n1:layout_alignBottom="@id/preview"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/folderName" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="120.0dip" n1:singleLine="true" n2:textFont="robotoRegular" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/imageCounter" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dip" n1:singleLine="true" n3:textFont="robotoMedium" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</merge>

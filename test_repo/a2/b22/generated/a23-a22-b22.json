@@ -1,0 +1,171 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "douzifly.list:id/fab_add",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Reality is merely an illusion, albeit a very persistent one.",
+    "stepping_events": [],
+    "package": "douzifly.list",
+    "activity": ".ui.home.MainActivity",
+    "event_type": "gui",
+    "score": 0.3329132278494731,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "douzifly.list:id/fab_add",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Everything is done.",
+    "stepping_events": [],
+    "package": "douzifly.list",
+    "activity": ".ui.home.MainActivity",
+    "event_type": "gui",
+    "score": 0.5820818407648309,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "douzifly.list:id/fab_add",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Genius only means hard-working all one\u2019s life.",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.home.MainActivity",
+    "package": "douzifly.list",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "douzifly.list:id/edit_text",
+    "text": "Title",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.ImageButton",
+        "resource-id": "fab_add",
+        "id-prefix": "douzifly.list:id/",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "Genius only means hard-working all one\u2019s life.",
+        "action": [
+          "click"
+        ],
+        "activity": ".ui.home.MainActivity",
+        "package": "douzifly.list",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "douzifly.list",
+    "activity": ".ui.home.MainActivity",
+    "event_type": "gui",
+    "score": 0.6226943725365798,
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sample Todo"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "douzifly.list:id/fab_add",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Everything is done.",
+    "stepping_events": [],
+    "package": "douzifly.list",
+    "activity": ".ui.home.MainActivity",
+    "event_type": "gui",
+    "score": 0.554067134901961,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "douzifly.list:id/txt_thing",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "douzifly.list",
+    "activity": ".ui.home.MainActivity",
+    "event_type": "oracle",
+    "score": 0.6353387822544676,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Sample Todo"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "douzifly.list:id/txt_thing",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "douzifly.list",
+    "activity": ".ui.home.MainActivity",
+    "event_type": "gui",
+    "score": 0.6353387822544676,
+    "action": [
+      "swipe_right"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "douzifly.list:id/txt_title",
+    "text": "Default",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "douzifly.list",
+    "activity": ".ui.home.MainActivity",
+    "event_type": "gui",
+    "score": 0.6363394806996978,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  }
+]

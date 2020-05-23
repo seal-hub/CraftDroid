@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="250.0dip" android:minHeight="180.0dip" android:updatePeriodMillis="86400000" android:initialLayout="@layout/message_list_widget_layout" android:previewImage="@drawable/message_list_widget_preview" android:resizeMode="horizontal|vertical" android:minResizeWidth="180.0dip" android:minResizeHeight="110.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

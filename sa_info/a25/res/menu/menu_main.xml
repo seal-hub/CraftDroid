@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_delete_sweep_white_24dp" android:id="@id/action_delete_checked" android:title="@string/action_delete_checked" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_sort_white_24dp" android:title="@string/sort" app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@id/action_sort_a_to_z" android:title="@string/ascending" />
+            <item android:id="@id/action_sort_z_to_a" android:title="@string/descending" />
+            <item android:id="@id/action_sort_by_checked_desc" android:title="@string/unchecked_first" />
+            <item android:id="@id/action_sort_by_checked_asc" android:title="@string/checked_first" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/ic_playlist_add_white_24dp" android:id="@id/action_new_list" android:title="@string/new_list" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_share" android:title="@string/share" app:actionProviderClass="android.support.v7.widget.ShareActionProvider" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_delete_list" android:title="@string/delete_list" />
+    <item android:id="@id/action_view_about" android:title="@string/about" />
+    <item android:id="@id/action_settings" android:orderInCategory="100" android:title="@string/action_settings" />
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:icon="@drawable/icon_link" android:title="@string/setting_title_background" android:key="sp_background" android:summary="@string/setting_summary_background" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@drawable/icon_ui" android:title="@string/setting_title_themeDark" android:key="sp_darkUI" android:summary="@string/setting_summary_themeDark" android:defaultValue="false" />
+    <CheckBoxPreference android:icon="@drawable/icon_exit" android:title="@string/setting_title_confirm_exit" android:key="sp_close_browser_confirm" android:summary="@string/setting_summary_confirm_exit" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@drawable/icon_close" android:title="@string/setting_title_confirm_tab_close" android:key="sp_close_tab_confirm" android:summary="@string/setting_summary_confirm_tab_close" android:defaultValue="true" />
+    <ListPreference android:icon="@drawable/icon_tab_plus" android:entries="@array/setting_entries_tab" android:title="@string/setting_title_tab" android:key="start_tab" android:summary="@string/setting_summary_tab" android:defaultValue="0" android:entryValues="@array/setting_values_tab" />
+    <PreferenceCategory android:title="@string/setting_title_toolbar">
+        <CheckBoxPreference android:icon="@drawable/icon_swipe" android:title="@string/setting_title_omnibox_control" android:key="@string/sp_omnibox_control" android:summary="@string/setting_summary_omnibox_control" android:defaultValue="true" />
+        <ListPreference android:icon="@drawable/icon_fullscreen" android:entries="@array/setting_entries_toolbar" android:title="@string/setting_title_hideToolbar" android:key="sp_hideToolbar" android:summary="@string/setting_summary_hide" android:defaultValue="0" android:entryValues="@array/setting_values_toolbar" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_title_nav">
+        <ListPreference android:icon="@drawable/icon_eye_off" android:entries="@array/setting_entries_nav" android:title="@string/setting_title_nav_show" android:key="sp_hideNav" android:summary="@string/setting_summary_nav_show" android:defaultValue="0" android:entryValues="@array/setting_values_nav" />
+        <ListPreference android:icon="@drawable/icon_arrow_expand" android:entries="@array/setting_entries_nav_pos" android:title="@string/setting_title_nav_pos" android:key="nav_position" android:summary="@string/setting_summary_nav_pos" android:defaultValue="0" android:entryValues="@array/setting_values_nav_pos" />
+    </PreferenceCategory>
+</PreferenceScreen>

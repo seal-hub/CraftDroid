@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apg_deprecated_1" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" style="?android:textAppearanceMedium" />
+        <LinearLayout android:id="@id/layout_bullet_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/textView">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" style="@style/NegativeBulletPoint" />
+            <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apg_deprecated_bullet_1" style="?android:textAppearanceMedium" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/layout_bullet_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/layout_bullet_1" android:layout_alignLeft="@id/layout_bullet_1" android:layout_alignStart="@id/layout_bullet_1">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" style="@style/NegativeBulletPoint" />
+            <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apg_deprecated_bullet_2" style="?android:textAppearanceMedium" />
+        </LinearLayout>
+        <TextView android:id="@id/apg_support_removed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/apg_deprecated_2" android:layout_below="@id/layout_bullet_2" style="?android:textAppearanceMedium" />
+        <TextView android:id="@id/apg_learn_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/apg_learn_more" android:layout_below="@id/apg_support_removed" style="?android:textAppearanceMedium" />
+    </RelativeLayout>
+</ScrollView>

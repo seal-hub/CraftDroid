@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/write_message_container" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:contentInsetStartWithNavigation="72.0dip" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:background="@drawable/shadow_ab" n1:layout_width="fill_parent" n1:layout_height="@dimen/shadow_height" n1:layout_below="@id/toolbar" />
+    <FrameLayout n1:id="@id/fragment_container" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_below="@id/toolbar" />
+</RelativeLayout>

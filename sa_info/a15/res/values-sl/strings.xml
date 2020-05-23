@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Krmarjenje domov</string>
+    <string name="abc_action_bar_up_description">Krmarjenje navzgor</string>
+    <string name="abc_action_menu_overflow_description">Več možnosti</string>
+    <string name="abc_action_mode_done">Končano</string>
+    <string name="abc_activity_chooser_view_see_all">Pokaži vse</string>
+    <string name="abc_activitychooserview_choose_application">Izbira aplikacije</string>
+    <string name="abc_capital_off">IZKLOPLJENO</string>
+    <string name="abc_capital_on">VKLOPLJENO</string>
+    <string name="abc_search_hint">Iskanje …</string>
+    <string name="abc_searchview_description_clear">Izbris poizvedbe</string>
+    <string name="abc_searchview_description_query">Iskalna poizvedba</string>
+    <string name="abc_searchview_description_search">Iskanje</string>
+    <string name="abc_searchview_description_submit">Pošiljanje poizvedbe</string>
+    <string name="abc_searchview_description_voice">Glasovno iskanje</string>
+    <string name="abc_shareactionprovider_share_with">Deljenje z</string>
+    <string name="abc_shareactionprovider_share_with_application">Deljenje z drugimi prek aplikacije %s</string>
+    <string name="abc_toolbar_collapse_description">Strni</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s daje nadzor v va&amp;#353;e roke.&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>Uporabljajte ga kot zaseben brskalnik:
+  &lt;ul>
+    &lt;li>I&amp;#353;&amp;#269;ite in brskajte naravnost iz aplikacije&lt;/li>
+    &lt;li>Zavra&amp;#269;ajte sledilce (ali spremenite nastavitve zavra&amp;#269;anja sledilcev)&lt;/li>
+    &lt;li>Bri&amp;#353;ite pi&amp;#353;kotke ter zgodovino strani in iskanja&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s razvija Mozilla. Na&amp;#353;e poslanstvo je spodbujati zdrav in odprt internet.&lt;br/>
+&lt;a href=%2$s>Ve&amp;#269; o tem&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">Nalaganje</string>
+    <string name="accessibility_announcement_loading_finished">Spletna stran naložena</string>
+    <string name="accessibility_dismiss_find_in_page">Končaj iskanje na strani</string>
+    <string name="accessibility_find_in_page_result">%1$d od %2$d</string>
+    <string name="accessibility_next_result">Najdi naslednji zadetek</string>
+    <string name="accessibility_previous_result">Najdi prejšnji zadetek</string>
+    <string name="action_cancel">Prekliči</string>
+    <string name="action_ok">V redu</string>
+    <string name="action_option_add_search_engine">Dodaj iskalnik</string>
+    <string name="action_save">Shrani</string>
+    <string name="common_google_play_services_enable_button">Omogoči</string>
+    <string name="common_google_play_services_enable_text">Aplikacija %1$s ne bo delovala, če ne omogočite storitev Google Play.</string>
+    <string name="common_google_play_services_enable_title">Omogočanje storitev Google Play</string>
+    <string name="common_google_play_services_install_button">Namesti</string>
+    <string name="common_google_play_services_install_text">Aplikacija %1$s ne deluje brez storitev Google Play, vendar teh ni v napravi.</string>
+    <string name="common_google_play_services_install_title">Namestitev storitev Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Napaka storitev Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Aplikacija %1$s ima težave s storitvami Google Play. Poskusite znova.</string>
+    <string name="common_google_play_services_unsupported_text">Aplikacija %1$s ne deluje brez storitev Google Play, ki jih vaša naprava ne podpira.</string>
+    <string name="common_google_play_services_update_button">Posodobi</string>
+    <string name="common_google_play_services_update_text">Aplikacija %1$s ne bo delovala, če ne posodobite storitev Google Play.</string>
+    <string name="common_google_play_services_update_title">Posodobitev storitev Google Play</string>
+    <string name="common_google_play_services_updating_text">Aplikacija %1$s ne deluje brez storitev Google Play, ki se trenutno posodabljajo.</string>
+    <string name="common_google_play_services_wear_update_text">Potrebujete novo različico storitev Google Play. V kratkem se bodo posodobile.</string>
+    <string name="common_open_on_phone">Odpiranje v telefonu</string>
+    <string name="common_signin_button_text">Prijava</string>
+    <string name="common_signin_button_text_long">Prijava z Google Računom</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Krmari nazaj</string>
+    <string name="content_description_blocking_switch">Zavračaj sledilce</string>
+    <string name="content_description_clear_input">Počisti vnos</string>
+    <string name="content_description_customtab_exit">Nazaj na prejšnjo aplikacijo</string>
+    <string name="content_description_dismiss_input">Opusti</string>
+    <string name="content_description_erase">Počisti zgodovino brskanja</string>
+    <string name="content_description_forward">Krmari naprej</string>
+    <string name="content_description_lock">Varna povezava</string>
+    <string name="content_description_menu">Več možnosti</string>
+    <string name="content_description_reload">Ponovno naloži stran</string>
+    <string name="content_description_stop">Prekini nalaganje strani</string>
+    <string name="content_description_tab_counter">Odprtih zavihkov: %1$s</string>
+    <string name="contextmenu_image_copy">Kopiraj naslov slike</string>
+    <string name="contextmenu_image_save">Shrani sliko</string>
+    <string name="contextmenu_image_share">Deli sliko</string>
+    <string name="contextmenu_image_warning">Ob izbrisu zgodovine %1$sa shranjene in deljene slike &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>ne bodo izbrisane&lt;/b>.</string>
+    <string name="contextmenu_link_copy">Kopiraj naslov povezave</string>
+    <string name="contextmenu_link_share">Deli povezavo</string>
+    <string name="contextmenu_open_in_new_tab">Odpri povezavo v novem zavihku</string>
+    <string name="custom_autocomplete_quick_add">Dodaj spletni naslov po meri</string>
+    <string name="custom_tab_copy_url_action">Spletni naslov kopiran</string>
+    <string name="dialog_addtohomescreen_action_add">Dodaj</string>
+    <string name="dialog_addtohomescreen_action_cancel">Prekliči</string>
+    <string name="dialog_addtohomescreen_tracking_protection">Bližnjica se bo odprla z onemogočeno zaščito pred sledenjem</string>
+    <string name="download_dialog_action_cancel">Prekliči</string>
+    <string name="download_dialog_action_download">Prenesi</string>
+    <string name="download_dialog_title">Prenos datoteke</string>
+    <string name="download_dialog_warning">Ob izbrisu zgodovine %1$sa prenesene datoteke &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>ne bodo izbrisane&lt;/b>.</string>
+    <string name="download_firefox">Prenesite Firefox</string>
+    <string name="download_snackbar_finished">Datoteka %1$s končana</string>
+    <string name="download_snackbar_open">Odpri</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Stran trenutno morda ni na voljo ali je preobremenjena. Poskusite znova &amp;#269;ez nekaj trenutkov.&lt;/li>
+        &lt;li>&amp;#268;e ne morete nalo&amp;#382;iti nobene strani, na napravi preverite povezavo z omre&amp;#382;jem.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">Povezave ni mogoče vzpostaviti</string>
+    <string name="error_generic_message">Iz neznanega razloga ne moremo naložiti strani.</string>
+    <string name="error_generic_title">Ups</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Preverite naslov za tipkarske napake, na primer
+          &lt;strong>ww&lt;/strong>. example.com namesto
+          &lt;strong>www&lt;/strong>. example.com&lt;/li>
+        &lt;li>&amp;#268;e ne morete nalo&amp;#382;iti nobene strani, na napravi preverite povezavo z omre&amp;#382;jem.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">Strežnika ni mogoče najti</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Spletne naslove se obi&amp;#269;ajno pi&amp;#353;e v obliki &lt;strong>http://www.example.com/&lt;/strong>&lt;/li>
+  &lt;li>Prepri&amp;#269;ajte se, da uporabljate po&amp;#353;evnice naprej (t.j. &lt;strong>/&lt;/strong>).&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">Neveljaven naslov</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>To te&amp;#382;avo obi&amp;#269;ajno povzro&amp;#269;ajo onemogo&amp;#269;eni ali zavrnjeni pi&amp;#353;kotki.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">Stran se ne preusmerja pravilno</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Te&amp;#382;ava je morda v nastavitvah stre&amp;#382;nika ali pa nekdo posku&amp;#353;a
+ta stre&amp;#382;nik opona&amp;#353;ati.&lt;/li>
+  &lt;li>&amp;#268;e ste se v preteklosti &amp;#382;e uspe&amp;#353;no povezali na ta stre&amp;#382;nik, je morda
+napaka za&amp;#269;asna in lahko znova poskusite kasneje.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">Varna povezava ni uspela</string>
+    <string name="error_timeout_title">Povezava je potekla</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Za odpiranje tega naslova boste morda morali namestiti dodaten program.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">Naslova ni bilo mogoče razumeti</string>
+    <string name="errorpage_refresh">Poskusi znova</string>
+    <string name="errorpage_title">Napaka pri nalaganju strani</string>
+    <string name="external_app_prompt">Lahko zapustite %1$s in to povezavo odprete v %2$s.</string>
+    <string name="external_app_prompt_no_app">Nobena aplikacija na napravi ne more odpreti te povezave. Lahko zapustite %1$s in v %2$s poiščete aplikacijo, ki jo lahko.</string>
+    <string name="external_app_prompt_no_app_title">Poišči aplikacijo, ki lahko odpre povezavo</string>
+    <string name="external_app_prompt_title">Odpri povezavo v drugi aplikaciji</string>
+    <string name="external_multiple_apps_matched_exit">Končam zasebno brskanje?</string>
+    <string name="feedback_erase">Vaša zgodovina brskanja je bila izbrisana.</string>
+    <string name="find_in_page">Najdi na strani</string>
+    <string name="find_in_page_input">Najdi na strani</string>
+    <string name="find_in_page_result">%1$d/%2$d</string>
+    <string name="firstrun_close_button">V redu, razumem!</string>
+    <string name="firstrun_defaultbrowser_text2">Zasebno brskanje na višjem nivoju. Zavračajte oglase in drugo vsebino, ki vam lahko sledi prek strani, in pohitrite svoje brskanje.</string>
+    <string name="firstrun_defaultbrowser_title">Okrepite svojo zasebnost</string>
+    <string name="firstrun_next_button">Naprej</string>
+    <string name="firstrun_privacy_text">Nastavite %1$s kot privzet brskalnik in uživajte prednosti zasebnega brskanja, ko odprete spletne strani v drugih aplikacijah.</string>
+    <string name="firstrun_privacy_title">Naj zasebnost postane navada</string>
+    <string name="firstrun_search_text">Iščete nekaj drugačnega? V nastavitvah izberite drug privzeti iskalnik.</string>
+    <string name="firstrun_search_title">Vaše iskanje, na vaš način</string>
+    <string name="firstrun_shortcut_text">Hitro se vrnite na svoje priljubljene strani v %1$su. Preprosto izberite \"Dodaj na domač zaslon\" v %1$sovem meniju.</string>
+    <string name="firstrun_shortcut_title">Dodajte bližnjice na domač zaslon</string>
+    <string name="firstrun_skip_button">Preskoči</string>
+    <string name="gv_prompt_clear">Počisti</string>
+    <string name="gv_prompt_password_hint">Geslo</string>
+    <string name="gv_prompt_username_hint">Uporabniško ime</string>
+    <string name="http_auth_dialog_password">Geslo</string>
+    <string name="http_auth_dialog_title">Zahtevana je overitev</string>
+    <string name="http_auth_dialog_username">Uporabniško ime</string>
+    <string name="menu_about">Predstavitev</string>
+    <string name="menu_add_to_home_screen">Dodaj na domač zaslon</string>
+    <string name="menu_custom_tab_branding">Omogoča: %1$s</string>
+    <string name="menu_help">Pomoč</string>
+    <string name="menu_open_with_a_browser2">Odpri v …</string>
+    <string name="menu_open_with_default_browser2">Odpri v %1$s</string>
+    <string name="menu_report_site_issue">Prijavi napako strani</string>
+    <string name="menu_rights">Vaše pravice</string>
+    <string name="menu_settings">Nastavitve</string>
+    <string name="menu_share">Deli …</string>
+    <string name="menu_trackers_blocked_title">Zavrnjeni sledilci</string>
+    <string name="menu_whats_new">Kaj je novega</string>
+    <string name="notification_action_erase_and_open">Izbriši in odpri</string>
+    <string name="notification_action_open">Odpri</string>
+    <string name="notification_browsing_session_channel_description">Obvestila vam omogočajo izbrisati %1$sovo sejo z enim dotikom. Aplikacije vam ni potrebno niti odpreti niti videti, kaj je v brskalniku odprto.</string>
+    <string name="notification_browsing_session_channel_name">Seja zasebnega brskanja</string>
+    <string name="notification_erase_text">Počisti zgodovino brskanja</string>
+    <string name="preference_about">O %1$su</string>
+    <string name="preference_autocomplete_action_add">+ Dodaj URL po meri</string>
+    <string name="preference_autocomplete_action_remove_content_description">Odstrani</string>
+    <string name="preference_autocomplete_add_confirmation">Nov URL po meri dodan.</string>
+    <string name="preference_autocomplete_add_error">Preverite vneseni URL.</string>
+    <string name="preference_autocomplete_add_example">Primer: example.com</string>
+    <string name="preference_autocomplete_add_example2">Primer: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">Prilepite ali vpišite URL</string>
+    <string name="preference_autocomplete_add_title">URL za dodajanje</string>
+    <string name="preference_autocomplete_custom_summary">Dodajte in upravljajte z URL-ji po meri za samodejno dokončevanje.</string>
+    <string name="preference_autocomplete_duplicate_url_error">URL že obstaja</string>
+    <string name="preference_autocomplete_learn_more">Več o tem</string>
+    <string name="preference_autocomplete_menu_remove">Odstrani</string>
+    <string name="preference_autocomplete_preinstalled_summary">Omogočite, če želite, da %1$s v naslovni vrstici samodejno dopolni preko 450 priljubljenih URL-jev.</string>
+    <string name="preference_autocomplete_subitem_customlist">URL-ji po meri</string>
+    <string name="preference_autocomplete_title_add">Dodaj URL po meri</string>
+    <string name="preference_autocomplete_title_remove">Odstrani URL po meri</string>
+    <string name="preference_category_autocomplete_custom_urls">Spletni naslovi po meri</string>
+    <string name="preference_category_autocomplete_preinstalled">Privzeti seznam URL-jev</string>
+    <string name="preference_category_cookies">Piškotki in podatki strani</string>
+    <string name="preference_category_data_choices">Podatkovne možnosti</string>
+    <string name="preference_category_data_collection_use">Zbiranje in uporaba podatkov</string>
+    <string name="preference_category_general">Splošno</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Učinkovitost</string>
+    <string name="preference_category_privacy">Zasebnost</string>
+    <string name="preference_category_search">Iskanje</string>
+    <string name="preference_category_switching_apps">Preklapljanje aplikacij</string>
+    <string name="preference_category_tracking_protection">Zaščita pred sledenjem</string>
+    <string name="preference_category_web_content">Spletna vsebina</string>
+    <string name="preference_default_browser2">Nastavi %1$s kot privzeti brskalnik</string>
+    <string name="preference_language">Jezik</string>
+    <string name="preference_language_systemdefault">Privzet v sistemu</string>
+    <string name="preference_mozilla_summary">O %1$su, pomoč</string>
+    <string name="preference_mozilla_telemetry2">Pošiljaj podatke o uporabi</string>
+    <string name="preference_mozilla_telemetry_summary">Več o tem</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla se trudi, da zbira samo podatke, ki jih potrebuje za razvoj in izboljševanje %1$sa.</string>
+    <string name="preference_performance_block_javascript">Onemogoči JavaScript</string>
+    <string name="preference_performance_block_javascript_summary">Strani se bodo lahko nalagale hitreje, vendar morda ne bodo delovale pravilno</string>
+    <string name="preference_performance_block_webfonts">Zavračaj spletne pisave</string>
+    <string name="preference_performance_block_webfonts_summary">Lahko povzroči izginotje ikon ali slik</string>
+    <string name="preference_performance_request_desktop_site">Zahtevaj stran za namizja</string>
+    <string name="preference_privacy_and_security_header">Zasebnost in varnost</string>
+    <string name="preference_privacy_and_security_summary">Sledenje, piškotki, podatkovne možnosti</string>
+    <string name="preference_privacy_block_ads">Zavračaj sledilce oglasov</string>
+    <string name="preference_privacy_block_ads_summary">Nekateri oglasi beležijo obiske strani, tudi če ne klikate nanje</string>
+    <string name="preference_privacy_block_analytics">Zavračaj sledilce analitike</string>
+    <string name="preference_privacy_block_analytics_summary">V uporabi za zbiranje, analiziranje in merjenje dejanj, kot je pritiskanje in drsenje po strani</string>
+    <string name="preference_privacy_block_content">Zavračaj druge vsebinske sledilce</string>
+    <string name="preference_privacy_block_content_summary2">Nastavitev lahko povzroči nepravilno delovanje nekaterih strani</string>
+    <string name="preference_privacy_block_social">Zavračaj sledilce družbenih omrežij</string>
+    <string name="preference_privacy_block_social_summary">Vgrajeni na straneh za sledenje vašim obiskom in za prikaz možnosti, kot so gumbi za deljenje</string>
+    <string name="preference_privacy_category_cookies">Zavračaj piškotke</string>
+    <string name="preference_privacy_notice">Obvestilo o zasebnosti</string>
+    <string name="preference_privacy_secure_mode">Skrivni način</string>
+    <string name="preference_privacy_should_block_cookies_no_option">Ne</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Zavračaj samo piškotke tretjih strani</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Da</string>
+    <string name="preference_privacy_stealth_summary">Skrij strani pri preklapljanju med aplikacijami</string>
+    <string name="preference_search_add2">+ Dodaj drug iskalnik</string>
+    <string name="preference_search_engine_default">Privzet</string>
+    <string name="preference_search_installed_search_engines">Nameščeni iskalniki</string>
+    <string name="preference_search_remove">Odstrani</string>
+    <string name="preference_search_remove_title">Odstrani iskalnike</string>
+    <string name="preference_search_restore">Ponastavi privzete iskalnike</string>
+    <string name="preference_search_summary">Nastavi kot privzeto, samodejno dopolni</string>
+    <string name="preference_state_off">Izklopljeno</string>
+    <string name="preference_state_on">Vključeno</string>
+    <string name="preference_subitem_autocomplete">Samodejno dopolni URL</string>
+    <string name="preference_switch_autocomplete">Samodejno dopolni</string>
+    <string name="search_add_confirmation">Nov iskalnik dodan.</string>
+    <string name="search_add_error_duplicate_name">Nameščeni iskalnik že uporablja to ime.</string>
+    <string name="search_add_error_empty_name">Vnesite ime iskalnika</string>
+    <string name="search_add_error_empty_search">Vnesite iskalni niz</string>
+    <string name="search_add_error_format">Prepričajte se, da se iskalni niz ujema z obliko primera</string>
+    <string name="search_add_manually_example">Primer: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">Ime iskalnika</string>
+    <string name="search_add_manually_save">Shrani</string>
+    <string name="search_add_manually_string">Iskalni niz za uporabo</string>
+    <string name="search_hint">Išči %1$s</string>
+    <string name="search_menu_title">Iskanje</string>
+    <string name="security_popup_insecure_connection">Povezava ni varna</string>
+    <string name="security_popup_secure_connection">Varna povezava</string>
+    <string name="security_popup_security_verified">Overil: %1$s</string>
+    <string name="share_dialog_title">Deli preko</string>
+    <string name="shortcut_erase_long_label">Počisti zgodovino brskanja</string>
+    <string name="shortcut_erase_short_label">Izbriši</string>
+    <string name="site_security_icon_content_description">Varnost strani</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tabs_tray_action_erase">Počisti zgodovino brskanja</string>
+    <string name="teaser">"Samodejno zasebno brskanje.
+Brskajte. Izbrišite. Ponovite."</string>
+    <string name="text_selection_search_action">Iščite zasebno</string>
+    <string name="urlbar_hint">Iskanje ali naslov strani</string>
+    <string name="your_rights">Vaše pravice</string>
+    <string name="your_rights_content1">%1$s je brezplačna in odprtokodna programska oprema, ki jo razvija Mozilla in ostali sodelavci.</string>
+    <string name="your_rights_content2">%1$s vam je na voljo pod pogoji &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Mozilla Public License&lt;/a> in drugih odprtokodnih licenc.</string>
+    <string name="your_rights_content3">Nikakršne pravice niti licence nimate za uporabo blagovnih znamk Fundacije Mozilla ali kateregakoli od izdelkov, vključno z imeni in logotipi Mozille, Firefoxa ali %1$sa. Dodatne informacije lahko najdete &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>tukaj&lt;/a>.</string>
+    <string name="your_rights_content4">Dodatna izvorna koda za %1$s je na voljo pod raznimi drugimi prostimi in odprtokodnimi &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>licencami&lt;/a>.</string>
+    <string name="your_rights_content5">%1$s uporablja tudi sezname za zavračanje podjetja Disconnect Inc. kot ločena in neodvisna dela, ki so na voljo pod licenco &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>GNU General Public License v3&lt;/a> &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>tukaj&lt;/a>.</string>
+</resources>

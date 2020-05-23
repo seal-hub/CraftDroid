@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/suggest_container" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n1:alpha="0.0">
+        <View n1:background="@drawable/shadow_bottom_plate" n1:layout_width="fill_parent" n1:layout_height="8.0dip" />
+        <FrameLayout n1:background="@android:color/white" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <RelativeLayout n1:id="@id/suggest_view" n1:background="?selectableItemBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="72.0dip">
+                <ru.mail.fragments.view.RoundedImageView n1:id="@id/image" n1:layout_width="@dimen/login_suggest_avatar_size" n1:layout_height="@dimen/login_suggest_avatar_size" n1:layout_marginLeft="24.0dip" n1:layout_marginRight="16.0dip" n1:src="@drawable/avatar" n1:layout_centerVertical="true" />
+                <ImageButton n1:id="@id/close_button" n1:padding="5.0dip" n1:clickable="true" n1:layout_width="42.0dip" n1:layout_height="42.0dip" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" n2:srcCompat="@drawable/ic_list_banner_close" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dip" n1:layout_marginBottom="18.0dip" n1:layout_toLeftOf="@id/close_button" n1:layout_toRightOf="@id/image" n1:layout_centerVertical="true">
+                    <ru.mail.uikit.view.FontTextView n1:textSize="@dimen/medium_text_appearance" n1:ellipsize="end" n1:id="@id/text" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="2" n1:lineSpacingExtra="4.0dip" />
+                    <ru.mail.uikit.view.FontTextView n1:textSize="@dimen/medium_text_appearance" n1:id="@id/username" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="1.0dip" n3:textFont="robotoBold" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

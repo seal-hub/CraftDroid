@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PinFormWidthStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_marginLeft">42.0dip</item>
+        <item name="android:layout_marginRight">42.0dip</item>
+        <item name="android:layout_marginBottom">@dimen/pin_form_bottom_margin</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+</resources>

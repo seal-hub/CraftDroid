@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n1:state_selected="true" n1:color="@color/invalid_email_bubble_text" n2:invalid="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:color="@color/invalid_email_bubble_text" n4:invalid="true"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:state_selected="true" n5:color="@color/text_primary_inverse"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:color="@color/text_primary_inverse"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+</selector>

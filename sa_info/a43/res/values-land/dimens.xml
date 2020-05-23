@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="default_kbd_height">200.0dip</dimen>
+    <dimen name="gplus_hint_width">300.0dip</dimen>
+    <dimen name="quick_action_backgroundMargin">110.0dip</dimen>
+    <dimen name="slide_close_multiple_slide_offset">60.0dip</dimen>
+    <dimen name="slide_close_slide_offset">150.0dip</dimen>
+    <dimen name="slide_right_overscroll">30.0dip</dimen>
+</resources>

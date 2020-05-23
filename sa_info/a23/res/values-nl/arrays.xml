@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_reminder_times_human">
+        <item>Op het moment van de deadline</item>
+        <item>een halve dag op voorhand</item>
+        <item>één dag op voorhand</item>
+        <item>anderhalve dag op voorhand</item>
+        <item>twee dagen op voorhand</item>
+        <item>tweeëneenhalve dagen op voorhand</item>
+        <item>drie dagen op voorhand</item>
+    </string-array>
+</resources>

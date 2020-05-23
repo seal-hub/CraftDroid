@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s le da el control.&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#218;selo como un navegador privado:
+  &lt;ul>
+    &lt;li>Buscar y navegar en la aplicaci&amp;#243;n&lt;/li>
+    &lt;li>Bloquear rastreadores (o actualizar opciones para permitir rastreadores)&lt;/li>
+    &lt;li>Borrar para eliminar cookies e historial de b&amp;#250;squeda y navegaci&amp;#243;n&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s es producido por Mozilla. Nuestra misi&amp;#243;n es promover una internet abierta y saludable.&lt;br/>
+&lt;a href=%2$s>Conocer m&amp;#225;s&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">Cargando</string>
+    <string name="accessibility_announcement_loading_finished">Sitio web cargado</string>
+    <string name="accessibility_dismiss_find_in_page">Cerrar búsqueda en la página</string>
+    <string name="accessibility_find_in_page_result">%1$d de %2$d</string>
+    <string name="accessibility_next_result">Buscar próximo resultado</string>
+    <string name="accessibility_previous_result">Buscar resultado anterior</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_ok">Aceptar</string>
+    <string name="action_option_add_search_engine">Agregar buscador</string>
+    <string name="action_save">Guardar</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Navegar hacia atrás</string>
+    <string name="content_description_blocking_switch">Bloquear rastreadores</string>
+    <string name="content_description_clear_input">Borrar entrada</string>
+    <string name="content_description_customtab_exit">Volver a la aplicación anterior</string>
+    <string name="content_description_dismiss_input">Descartar</string>
+    <string name="content_description_erase">Limpiar historial de navegación</string>
+    <string name="content_description_forward">Navegar hacia adelante</string>
+    <string name="content_description_lock">Conexión segura</string>
+    <string name="content_description_menu">Más opciones</string>
+    <string name="content_description_reload">Recargar sitio web</string>
+    <string name="content_description_stop">Dejar de cargar el sitio web</string>
+    <string name="content_description_tab_counter">Pestañas abiertas: %1$s</string>
+    <string name="contextmenu_image_copy">Copiar dirección de la imagen</string>
+    <string name="contextmenu_image_save">Guardar imagen</string>
+    <string name="contextmenu_image_share">Compartir imagen</string>
+    <string name="contextmenu_image_warning">La imágenes que guardó y compartió &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>no ser&amp;#225;n borradas&lt;/b> cuando borre el historial de %1$s.</string>
+    <string name="contextmenu_link_copy">Copiar dirección del enlace</string>
+    <string name="contextmenu_link_share">Compartir enlace</string>
+    <string name="contextmenu_open_in_new_tab">Abrir enlace en nueva pestaña</string>
+    <string name="custom_autocomplete_quick_add">Agregar URL personalizada</string>
+    <string name="custom_tab_copy_url_action">URL copiada</string>
+    <string name="dialog_addtohomescreen_action_add">Agregar</string>
+    <string name="dialog_addtohomescreen_action_cancel">Cancelar</string>
+    <string name="dialog_addtohomescreen_tracking_protection">El acceso directo se abrirá con la protección de rastreo desactivada</string>
+    <string name="download_dialog_action_cancel">Cancelar</string>
+    <string name="download_dialog_action_download">Descargar</string>
+    <string name="download_dialog_title">Descargar archivo</string>
+    <string name="download_dialog_warning">Los archivos descargados &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>no ser&amp;#225;n eliminados&lt;/b> al borrar el historial de %1$s.</string>
+    <string name="download_firefox">Descargar Firefox</string>
+    <string name="download_snackbar_finished">%1$s finalizado</string>
+    <string name="download_snackbar_open">Abrir</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>El sitio puede estar temporariamente inaccesible o demasiado ocupado. Intente nuevamente en unos momentos.&lt;/li>
+        &lt;li>Si no puede cargar ninguna p&amp;#225;gina, verifique la conexi&amp;#243;n de datos o Wi-Fi de su dispositivo.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">No se puede conectar</string>
+    <string name="error_generic_message">No se puede cargar esta página por alguna razón.</string>
+    <string name="error_generic_title">Epa</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>F&amp;#237;jese si la direcci&amp;#243;n no tiene errores de tipeo como
+          &lt;strong>ww&lt;/strong>.example.com en vez de
+          &lt;strong>www&lt;/strong>.example.com&lt;/li>
+        &lt;li>Si no puede cargar ninguna p&amp;#225;gina, verifique la conexi&amp;#243;n de datos o Wi-Fi de su dispositivo.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">Servidor no encontrado</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Las direcciones web normalmente se escriben como &lt;strong>http://www.example.com/&lt;/strong>&lt;/li>
+  &lt;li>Aseg&amp;#250;rese de usar las barras correctas (ej. &lt;strong>/&lt;/strong>).&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">La dirección no es válida</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Este problema puede estar causado a veces por deshabilitar o rechazar cookies.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">La página no se redirecciona correctamente</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Podr&amp;#237;a haber un problema con la configuraci&amp;#243;n del servidor o podr&amp;#237;a ser
+alguien tratando de hacerse pasar por ese servidor.&lt;/li>
+  &lt;li>Si se conect&amp;#243; exitosamente a este servidor en el pasado, el error puede
+ser temporal y puede probar m&amp;#225;s tarde.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">Fallo la conexión segura</string>
+    <string name="error_timeout_title">La conexión tardó demasiado tiempo</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Podr&amp;#237;a ser necesario instalar otro software para abrir esta direcci&amp;#243;n.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">La dirección no fue comprendida</string>
+    <string name="errorpage_refresh">Intentar nuevamente</string>
+    <string name="errorpage_title">Problema cargando la página</string>
+    <string name="external_app_prompt">Puede dejar que %1$s abra este enlace en %2$s.</string>
+    <string name="external_app_prompt_no_app">Ninguna de las apps de su dispositivo puede abrir este enlace. Puede dejar que %1$s busque en %2$s una app compatible.</string>
+    <string name="external_app_prompt_no_app_title">Buscar una app que pueda abrir el enlace</string>
+    <string name="external_app_prompt_title">Abrir enlace en otra aplicación</string>
+    <string name="external_multiple_apps_matched_exit">¿Salir de la navegación privada?</string>
+    <string name="feedback_erase">Se borró el historial de navegación.</string>
+    <string name="find_in_page">Buscar en la página</string>
+    <string name="find_in_page_input">Buscar en la página</string>
+    <string name="find_in_page_result">%1$d/%2$d</string>
+    <string name="firstrun_close_button">Genial, ¡lo tengo!</string>
+    <string name="firstrun_defaultbrowser_text2">Lleve la navegación privada al siguiente nivel. Bloquee publicidades y otro contenido que puede rastrearlo en todos los sitios y lentificar los tiempos de carga de las páginas.</string>
+    <string name="firstrun_defaultbrowser_title">Potencie su privacidad</string>
+    <string name="firstrun_next_button">Siguiente</string>
+    <string name="firstrun_privacy_text">Establezca %1$s como su navegador predeterminado y obtenga los beneficios de la navegación privada cuando abra páginas web desde otras aplicaciones.</string>
+    <string name="firstrun_privacy_title">Haga un hábito de la privacidad</string>
+    <string name="firstrun_search_text">¿Busca algo diferente? Elija otro buscador predeterminado en la configuración.</string>
+    <string name="firstrun_search_title">Su búsqueda, a su manera</string>
+    <string name="firstrun_shortcut_text">Vuelva a sus sitios favoritos en %1$s rápidamente. Seleccione \"Agregar a pantalla de inicio\" en el menú de %1$s.</string>
+    <string name="firstrun_shortcut_title">Agregar accesos directos a la pantalla principal</string>
+    <string name="firstrun_skip_button">Saltar</string>
+    <string name="gv_prompt_clear">Eliminar</string>
+    <string name="gv_prompt_password_hint">Contraseña</string>
+    <string name="gv_prompt_username_hint">Nombre de usuario</string>
+    <string name="http_auth_dialog_password">Contraseña</string>
+    <string name="http_auth_dialog_title">Se necesita autenticación</string>
+    <string name="http_auth_dialog_username">Nombre de usuario</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_add_to_home_screen">Agregar a pantalla de inicio</string>
+    <string name="menu_custom_tab_branding">Accionado por %1$s</string>
+    <string name="menu_help">Ayuda</string>
+    <string name="menu_open_with_a_browser2">Abrir en…</string>
+    <string name="menu_open_with_default_browser2">Abrir en %1$s</string>
+    <string name="menu_report_site_issue">Informar sobre problema en el sitio</string>
+    <string name="menu_rights">Sus derechos</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="menu_share">Compartir…</string>
+    <string name="menu_trackers_blocked_title">Rastreadores bloqueados</string>
+    <string name="menu_whats_new">Novedades</string>
+    <string name="notification_action_erase_and_open">Borrar y abrir</string>
+    <string name="notification_action_open">Abrir</string>
+    <string name="notification_browsing_session_channel_description">Las notificaciones le permiten borrar la sesión de %1$s con un toque. No necesita abrir la aplicación o ver lo que está corriendo en el navegador.</string>
+    <string name="notification_browsing_session_channel_name">Sesión de navegación privada</string>
+    <string name="notification_erase_text">Borrar historial de navegación</string>
+    <string name="preference_about">Acerca de %1$s</string>
+    <string name="preference_autocomplete_action_add">+ Agregar URL personalizada</string>
+    <string name="preference_autocomplete_action_remove_content_description">Borrar</string>
+    <string name="preference_autocomplete_add_confirmation">Nueva URL personalizada agregada.</string>
+    <string name="preference_autocomplete_add_error">Verifique la URL que escribió.</string>
+    <string name="preference_autocomplete_add_example">Ejemplo: ejemplo.com</string>
+    <string name="preference_autocomplete_add_example2">Ejemplo: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">Pegue o escriba una URL</string>
+    <string name="preference_autocomplete_add_title">URL para agregar</string>
+    <string name="preference_autocomplete_custom_summary">Agregar y administrar URLs personalizadas.</string>
+    <string name="preference_autocomplete_duplicate_url_error">Ya existe la URL</string>
+    <string name="preference_autocomplete_learn_more">Conocer más</string>
+    <string name="preference_autocomplete_menu_remove">Borrar</string>
+    <string name="preference_autocomplete_preinstalled_summary">Activar para que %1$s autocomplete la barra de direcciones con más de 450 URLs populares.</string>
+    <string name="preference_autocomplete_subitem_customlist">URLs personalizadas</string>
+    <string name="preference_autocomplete_title_add">Agregar URL personalizada</string>
+    <string name="preference_autocomplete_title_remove">Borrar URL personalizada</string>
+    <string name="preference_category_autocomplete_custom_urls">URLs personalizadas</string>
+    <string name="preference_category_autocomplete_preinstalled">Lista de URL predeterminada</string>
+    <string name="preference_category_cookies">Cookies y datos del sitio</string>
+    <string name="preference_category_data_choices">Elección de datos</string>
+    <string name="preference_category_data_collection_use">Recolección de datos y uso</string>
+    <string name="preference_category_general">General</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Rendimiento</string>
+    <string name="preference_category_privacy">Privacidad</string>
+    <string name="preference_category_search">Buscar</string>
+    <string name="preference_category_switching_apps">Intercambio de aplicaciones</string>
+    <string name="preference_category_tracking_protection">Protección de rastreo</string>
+    <string name="preference_category_web_content">Contenido web</string>
+    <string name="preference_default_browser2">Establecer %1$s como navegador predeterminado</string>
+    <string name="preference_language">Idioma</string>
+    <string name="preference_language_systemdefault">Predeterminado del sistema</string>
+    <string name="preference_mozilla_summary">Acerca de %1$s, ayuda</string>
+    <string name="preference_mozilla_telemetry2">Enviar datos de uso</string>
+    <string name="preference_mozilla_telemetry_summary">Conocer más</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla lucha por recolectar solo lo necesario para brindar y mejorar %1$s para todos.</string>
+    <string name="preference_performance_block_javascript">Bloquear JavaScript</string>
+    <string name="preference_performance_block_javascript_summary">Las páginas podrán cargar más rápido, pero también pueden comportarse de manera inesperada</string>
+    <string name="preference_performance_block_webfonts">Bloquear fuentes web</string>
+    <string name="preference_performance_block_webfonts_summary">Puede resultar en la falta de iconos o imágenes</string>
+    <string name="preference_performance_request_desktop_site">Pedir versión de escritorio</string>
+    <string name="preference_privacy_and_security_header">Privacidad y seguridad</string>
+    <string name="preference_privacy_and_security_summary">Rastreo, cookies, opciones de datos</string>
+    <string name="preference_privacy_block_ads">Bloquear rastreadores de publicidad</string>
+    <string name="preference_privacy_block_ads_summary">Algunas publicidades rastrean visitas a los sitios aunque no se haga clic en los anuncios</string>
+    <string name="preference_privacy_block_analytics">Bloquear rastreadores analíticos</string>
+    <string name="preference_privacy_block_analytics_summary">Se usan para recolectar, analizar y medir actividades como tocar y desplazar</string>
+    <string name="preference_privacy_block_content">Bloquear otros rastreadores de contenidos</string>
+    <string name="preference_privacy_block_content_summary2">Habilitarlos puede causar que algunas páginas se comporten de forma inesperada</string>
+    <string name="preference_privacy_block_social">Bloquear rastreadores sociales</string>
+    <string name="preference_privacy_block_social_summary">Incrustados en sitios para rastrear visitas y mostrar funcionalidades como los botones de compartir</string>
+    <string name="preference_privacy_category_cookies">Bloquear las cookies</string>
+    <string name="preference_privacy_notice">Aviso de privacidad</string>
+    <string name="preference_privacy_secure_mode">Invisible</string>
+    <string name="preference_privacy_should_block_cookies_no_option">No</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Bloquear sólo cookies de terceros</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Sí</string>
+    <string name="preference_privacy_stealth_summary">Ocultar páginas web al intercambiar aplicaciones</string>
+    <string name="preference_search_add2">+Agregar otro buscador</string>
+    <string name="preference_search_engine_default">Predeterminado</string>
+    <string name="preference_search_installed_search_engines">Motores de búsqueda instalados</string>
+    <string name="preference_search_remove">Eliminar</string>
+    <string name="preference_search_remove_title">Eliminar los motores de búsqueda</string>
+    <string name="preference_search_restore">Restaurar los motores de búsqueda predeterminados</string>
+    <string name="preference_search_summary">Predeterminados, autocompletar</string>
+    <string name="preference_state_off">Desactivado</string>
+    <string name="preference_state_on">Activado</string>
+    <string name="preference_subitem_autocomplete">Autocompletar URL</string>
+    <string name="preference_switch_autocomplete">Autocompletar</string>
+    <string name="search_add_confirmation">Se agregó un buscador nuevo.</string>
+    <string name="search_add_error_duplicate_name">Ya hay instalado un buscador con ese nombre.</string>
+    <string name="search_add_error_empty_name">Ingrese el nombre del motor de búsqueda</string>
+    <string name="search_add_error_empty_search">Ingresar cadena de búsqueda</string>
+    <string name="search_add_error_format">Verifique que la cadena de búsqueda coincida con el formato del ejemplo</string>
+    <string name="search_add_manually_example">Ejemplo: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">Nombre del buscador</string>
+    <string name="search_add_manually_save">Guardar</string>
+    <string name="search_add_manually_string">Cadena de búsqueda para usar</string>
+    <string name="search_hint">Buscar %1$s</string>
+    <string name="security_popup_insecure_connection">Conexión insegura</string>
+    <string name="security_popup_secure_connection">Conexión segura</string>
+    <string name="security_popup_security_verified">Verificado por: %1$s</string>
+    <string name="share_dialog_title">Compartir vía</string>
+    <string name="shortcut_erase_long_label">Borrar historial de navegación</string>
+    <string name="shortcut_erase_short_label">Borrar</string>
+    <string name="site_security_icon_content_description">Seguridad del sitio</string>
+    <string name="tabs_tray_action_erase">Borrar historial de navegación</string>
+    <string name="teaser">"Navegación privada automática.
+Navegar. Borrar. Repetir."</string>
+    <string name="text_selection_search_action">Buscar en privado</string>
+    <string name="urlbar_hint">Buscar o ingresar dirección</string>
+    <string name="your_rights">Sus derechos</string>
+    <string name="your_rights_content1">%1$s es software gratuito y de código abierto hecho por Mozilla y otros colaboradores.</string>
+    <string name="your_rights_content2">%1$s está disponible para usted bajo los términos de la Licencia pública de Mozilla &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s/> y otras licencias de código abierto.</string>
+    <string name="your_rights_content3">No tiene derecho o licencia sobre las marcas registradas de la Fundación Mozilla ni sobre cualquier otra parte interesada, incluidos los nombres o logos de Mozilla, Firefox o %1$s. Puede encontrar más información &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>aqu&amp;#237;&lt;/a>.</string>
+    <string name="your_rights_content4">El código fuente adicional de %1$s está disponible bajo varias &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>licencias&lt;/a> libres y de código abierto.</string>
+    <string name="your_rights_content5">%1$s también utiliza listas de bloqueo de DIsconnect, Inc. como trabajos separados e independientes bajo la &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Licencia P&amp;#250;blica General GNU v3&lt;/a> disponible &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>aqu&amp;#237;&lt;/a>.</string>
+</resources>

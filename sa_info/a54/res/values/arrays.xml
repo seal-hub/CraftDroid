@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cookingFrom">
+        <item>Cup</item>
+        <item>Pint</item>
+        <item>Quart</item>
+        <item>Gallon</item>
+        <item>Teaspoon</item>
+        <item>Tablespoon</item>
+    </string-array>
+    <string-array name="cookingTo">
+        <item>Teaspoon</item>
+        <item>Tablespoon</item>
+        <item>Gallon</item>
+        <item>Quart</item>
+        <item>Pint</item>
+        <item>Cup</item>
+    </string-array>
+    <string-array name="fromLength">
+        <item>Kilometer</item>
+        <item>Meter</item>
+        <item>Centimeter</item>
+        <item>Millimeter</item>
+        <item>Mile</item>
+        <item>Yard</item>
+        <item>Foot</item>
+        <item>Inch</item>
+    </string-array>
+    <string-array name="fromMass">
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Milligram</item>
+        <item>Pound</item>
+        <item>Ounce</item>
+    </string-array>
+    <string-array name="fromUnit">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+    <string-array name="toLength">
+        <item>Inch</item>
+        <item>Foot</item>
+        <item>Yard</item>
+        <item>Mile</item>
+        <item>Millimeter</item>
+        <item>Centimeter</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+    </string-array>
+    <string-array name="toMass">
+        <item>Ounce</item>
+        <item>Pound</item>
+        <item>Milligram</item>
+        <item>Gram</item>
+        <item>Kilogram</item>
+    </string-array>
+    <string-array name="toUnit">
+        <item>Kelvin</item>
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+    </string-array>
+</resources>

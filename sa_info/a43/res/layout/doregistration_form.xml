@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:id="@id/scrollView" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:fillViewport="true">
+        <LinearLayout n1:gravity="center" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TableLayout n1:background="@drawable/bg_light_full" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="22.0dip" n1:stretchColumns="2" style="@style/LoginFormWidthStyle">
+                <ru.mail.uikit.view.FontTextView n1:background="@drawable/login_content_background_top" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/your_data" style="@style/Reg.Header" />
+                <ru.mail.widget.RegErrorsView n1:id="@id/reg_erros" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+                <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+                <ru.mail.widget.RegView n1:id="@id/first_name_regview" n1:layout_width="fill_parent" n2:labelText="@string/user_name" xmlns:n2="http://schemas.android.com/apk/res-auto">
+                    <ru.mail.widget.RegCheckAutoCompleteTextView n1:id="@id/first_name" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:hint="@string/hint_name" n1:layout_weight="1.0" />
+                </ru.mail.widget.RegView>
+                <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+                <ru.mail.widget.RegView n1:id="@id/last_name_regview" n1:layout_width="fill_parent" n3:labelText="@string/surname" xmlns:n3="http://schemas.android.com/apk/res-auto">
+                    <ru.mail.widget.RegCheckAutoCompleteTextView n1:id="@id/last_name" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:hint="@string/hint_last_name" n1:layout_weight="1.0" />
+                </ru.mail.widget.RegView>
+                <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+                <include n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/captcha_block" />
+                <LinearLayout n1:orientation="vertical" n1:background="@drawable/login_content_background_bottom" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <RelativeLayout n1:gravity="center_vertical" n1:paddingLeft="10.0dip" n1:paddingRight="@dimen/domain_settings_field_padding_horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dip">
+                        <CheckBox n1:gravity="center_vertical" n1:id="@id/agreement_checkbox" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="8.0dip" n1:layout_centerVertical="true" />
+                        <TextView n1:textColor="@color/text_primary_inverse" n1:id="@id/agreement_text" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/agreement_checkbox" n1:layout_centerVertical="true" style="?android:textAppearanceMedium" />
+                    </RelativeLayout>
+                    <Button n1:enabled="false" n1:id="@id/done" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/domain_settings_field_padding_horizontal" n1:text="@string/doregistration_done" />
+                </LinearLayout>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

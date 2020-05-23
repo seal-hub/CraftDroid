@@ -1,0 +1,253 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/btn_skip",
+    "text": "Skip",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".tutorial.TutorialActivity",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/fab_new_task",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "btn_skip",
+        "id-prefix": "org.secuso.privacyfriendlytodolist:id/",
+        "text": "Skip",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".tutorial.TutorialActivity",
+        "package": "org.secuso.privacyfriendlytodolist",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "org.secuso.privacyfriendlytodolist",
+    "activity": ".view.MainActivity",
+    "event_type": "gui",
+    "score": 0.568371590769857,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/et_new_task_name",
+    "text": "Name",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "New To-Do task",
+    "stepping_events": [],
+    "package": "org.secuso.privacyfriendlytodolist",
+    "activity": ".view.MainActivity",
+    "event_type": "gui",
+    "score": 0.33915427210623006,
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sample Todo"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/bt_new_task_ok",
+    "text": "Okay",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Cancel",
+    "action": [
+      "click"
+    ],
+    "activity": ".view.MainActivity",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/fab_new_task",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "bt_new_task_ok",
+        "id-prefix": "org.secuso.privacyfriendlytodolist:id/",
+        "text": "Okay",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "Cancel",
+        "action": [
+          "click"
+        ],
+        "activity": ".view.MainActivity",
+        "package": "org.secuso.privacyfriendlytodolist",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "org.secuso.privacyfriendlytodolist",
+    "activity": ".view.MainActivity",
+    "event_type": "gui",
+    "score": 0.3372301676071711,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/bt_new_task_cancel",
+    "text": "Cancel",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".view.MainActivity",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/tv_exlv_task_name",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "bt_new_task_cancel",
+        "id-prefix": "org.secuso.privacyfriendlytodolist:id/",
+        "text": "Cancel",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".view.MainActivity",
+        "package": "org.secuso.privacyfriendlytodolist",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "org.secuso.privacyfriendlytodolist",
+    "activity": ".view.MainActivity",
+    "event_type": "oracle",
+    "score": 0.620692829140367,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Sample Todo"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/tv_exlv_task_name",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "org.secuso.privacyfriendlytodolist",
+    "activity": ".view.MainActivity",
+    "event_type": "gui",
+    "score": 0.620692829140367,
+    "action": [
+      "long_press"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/title",
+    "text": "Delete To-Do Task",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".view.MainActivity",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "event_type": "stepping"
+  },
+  {
+    "class": "",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "",
+    "password": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "title",
+        "id-prefix": "android:id/",
+        "text": "Delete To-Do Task",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".view.MainActivity",
+        "package": "org.secuso.privacyfriendlytodolist",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "org.secuso.privacyfriendlytodolist",
+    "activity": ".view.MainActivity",
+    "event_type": "oracle",
+    "score": 0.5,
+    "action": [
+      "wait_until_text_invisible",
+      10,
+      "text",
+      "Sample Todo"
+    ]
+  }
+]

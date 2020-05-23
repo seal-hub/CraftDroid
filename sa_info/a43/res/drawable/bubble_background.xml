@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n1:state_selected="true" n1:drawable="@drawable/bubble_background_error_selected" n2:invalid="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:state_selected="false" n3:drawable="@drawable/bubble_background_error" n4:invalid="true"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:state_selected="true" n5:drawable="@drawable/bubble_background_selected"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:state_pressed="true" n6:drawable="@drawable/bubble_background_pressed"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:drawable="@drawable/bubble_background_normal"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+</selector>

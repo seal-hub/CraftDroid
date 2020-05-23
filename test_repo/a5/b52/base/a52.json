@@ -1,0 +1,80 @@
+[
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.appsbyvir.tipcalculator:id/billEditText",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Bill",
+    "tid": "a52",
+    "package": "com.appsbyvir.tipcalculator",
+    "activity": ".MainActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "clear_and_send_keys",
+      "56.6"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.appsbyvir.tipcalculator:id/tipEditText",
+    "text": "15.0",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Tip %",
+    "tid": "a52",
+    "package": "com.appsbyvir.tipcalculator",
+    "activity": ".MainActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "15"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.appsbyvir.tipcalculator:id/splitBillEditText",
+    "text": "# of ways",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Split Bill",
+    "tid": "a52",
+    "package": "com.appsbyvir.tipcalculator",
+    "activity": ".MainActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "4"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.appsbyvir.tipcalculator:id/perPersonEditText",
+    "text": "16.27",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Per Person:",
+    "tid": "a52",
+    "package": "com.appsbyvir.tipcalculator",
+    "activity": ".MainActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "16.27"
+    ]
+  }
+]

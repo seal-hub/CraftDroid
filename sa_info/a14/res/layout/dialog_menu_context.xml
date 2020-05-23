@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:colorBackground" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/tv2_menu_newTab_open" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.0dip" android:minHeight="46.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+                <ImageView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_tab_plus" android:layout_marginEnd="16.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/main_menu_new_tabOpen" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/tv2_menu_newTab" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.0dip" android:minHeight="46.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+                <ImageView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_tab_unselected" android:layout_marginEnd="16.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/main_menu_new_tab" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/tv2_menu_edit" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.0dip" android:minHeight="46.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+                <ImageView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_edit" android:layout_marginEnd="16.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/menu_edit" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/tv2_menu_notification" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.0dip" android:minHeight="46.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+                <ImageView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_clipboard" android:layout_marginEnd="16.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/menu_notification" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.0dip" android:minHeight="46.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+                <ImageView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_menu_share" android:layout_marginEnd="16.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/menu_share" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/tv2_menu_delete" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.0dip" android:minHeight="46.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+                <ImageView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_delete" android:layout_marginEnd="16.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/menu_delete" android:maxLines="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

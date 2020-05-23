@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/album_shape_transparent" android:layout_width="@dimen/layout_width_144dp" android:layout_height="@dimen/layout_height_108dp" android:minWidth="@dimen/layout_width_144dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/cardview_default_radius" app:cardUseCompatPadding="true" app:elevation="0.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/album_cover" android:layout_width="wrap_content" android:layout_height="@dimen/layout_height_108dp" android:scaleType="centerCrop" android:minWidth="@dimen/layout_width_144dp" android:contentDescription="@null" />
+        <TextView android:textColor="@color/color_light" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="bottom|center" android:id="@id/album_title" android:background="@color/color_shadow" android:padding="@dimen/layout_margin_8dp" android:layout_width="@dimen/layout_width_144dp" android:layout_height="wrap_content" android:minWidth="@dimen/layout_width_144dp" android:maxLines="1" />
+    </android.support.v7.widget.CardView>
+</FrameLayout>

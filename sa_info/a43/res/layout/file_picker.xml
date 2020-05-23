@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/file_picker_window_view" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/file_picker_container" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView n1:id="@id/thumbnails_list" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/filepicker_thumbnails_top_margin" />
+        <ru.mail.fragments.mailbox.newmail.filepicker.AnimatedViewSwitcher n1:id="@id/attach_dialog" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <FrameLayout n1:paddingLeft="@dimen/filepicker_action_left_padding" n1:paddingRight="@dimen/filepicker_action_right_padding" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+                <android.support.v7.widget.RecyclerView n1:id="@id/actions_list" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dip" n1:layout_marginBottom="8.0dip" />
+                <ImageView n1:id="@id/transparent_gradient" n1:visibility="invisible" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@drawable/transparent_gradient" />
+            </FrameLayout>
+            <LinearLayout n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/confirm_view" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+                <ru.mail.uikit.view.FontTextView n1:textSize="16.0sp" n1:textColor="@color/text_field" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/selection_info" n1:paddingLeft="16.0dip" n1:paddingTop="8.0dip" n1:paddingRight="16.0dip" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" n2:textFont="robotoRegular" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <RelativeLayout n1:layout_gravity="bottom" n1:orientation="horizontal" n1:id="@id/buttons_container" n1:paddingLeft="16.0dip" n1:paddingRight="16.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dip" n1:layout_marginBottom="16.0dip" n1:layout_weight="0.0">
+                    <ru.mail.uikit.view.FontButton n1:textSize="14.0sp" n1:gravity="center" n1:id="@id/attach_btn" n1:paddingLeft="16.0dip" n1:paddingRight="16.0dip" n1:layout_width="wrap_content" n1:layout_height="38.0dip" n1:minWidth="50.0dip" n1:text="@string/mapp_attach_select_dialog_title" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:textAllCaps="true" />
+                    <ru.mail.uikit.view.FontButton n1:textSize="16.0sp" n1:textColor="@color/contrast_primary" n1:gravity="center_vertical" n1:layout_gravity="right" n1:id="@id/cancel_btn" n1:paddingLeft="16.0dip" n1:paddingRight="16.0dip" n1:layout_width="wrap_content" n1:layout_height="32.0dip" n1:layout_marginRight="8.0dip" n1:minHeight="32.0dip" n1:text="@string/action_bar_cancel" n1:layout_toLeftOf="@id/attach_btn" n1:layout_centerVertical="true" n1:textAllCaps="true" n3:textFont="robotoMedium" style="?android:borderlessButtonStyle" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ru.mail.fragments.mailbox.newmail.filepicker.AnimatedViewSwitcher>
+    </LinearLayout>
+</FrameLayout>

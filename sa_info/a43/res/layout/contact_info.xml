@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/contact_content" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <include layout="@layout/avatar_head" />
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/email_container" n1:background="?selectableItemBackground" n1:layout_width="fill_parent" n1:layout_height="@dimen/list_one_line_height" n1:layout_marginTop="8.0dip">
+                <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dip" n2:srcCompat="@drawable/ic_contact_mail" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceLarge" n1:textColor="@color/contrast_primary" n1:ellipsize="middle" n1:id="@id/contact_email" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dip" n1:layout_marginRight="8.0dip" n1:maxLines="1" n1:singleLine="true" n1:layout_weight="1.0" n1:layout_centerVertical="true" />
+                <ImageButton n1:id="@id/contact_filter" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="8.0dip" n3:srcCompat="@drawable/ic_action_filter_contrast" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                <ImageButton n1:id="@id/search_all_mails" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="12.0dip" n4:srcCompat="@drawable/ic_action_search_contrast" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+            <include layout="@layout/shortened_divider" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/phone_container" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+            <ru.mail.uikit.view.FontButton n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/contrast_primary" n1:gravity="left" n1:id="@id/contact_save" n1:paddingLeft="16.0dip" n1:paddingTop="15.0dip" n1:paddingRight="16.0dip" n1:paddingBottom="14.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="56.0dip" n1:layout_marginRight="16.0dip" n1:layout_marginBottom="8.0dip" n1:text="@string/save_on_device" n1:textAllCaps="true" style="?android:borderlessButtonStyle" />
+        </LinearLayout>
+    </ScrollView>
+    <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentTop="true" />
+</RelativeLayout>

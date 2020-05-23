@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/retry_block" n1:background="@android:color/white" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="16.0sp" n1:textColor="@color/text_field" n1:gravity="center" n1:id="@id/unable_to_load_message" n1:paddingLeft="@dimen/error_label_padding" n1:paddingRight="@dimen/error_label_padding" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="32.0dip" n1:text="@string/something_went_wrong" />
+    <ru.mail.uikit.view.FontButton n1:id="@id/retry" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="80.0dip" n1:layout_marginTop="13.0dip" n1:layout_marginRight="80.0dip" n1:layout_marginBottom="30.0dip" n1:text="@string/repeat" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ru.mail.fragments.view.ExpandableViewGroup n1:id="@id/advanced_search_view" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_below="@id/tabs_container"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/advanced_search_scrollable_child" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <FrameLayout n1:background="?android:windowBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <LinearLayout n1:orientation="vertical" n1:id="@id/advanced_search_view_content" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="48.0dip" n1:layout_marginLeft="16.0dip" n1:layout_marginTop="4.0dip" n1:layout_marginRight="8.0dip">
+                        <CheckBox n1:id="@id/unread" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+                        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/text_primary_inverse" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/filter_unread" n1:layout_toLeftOf="@id/unread" n1:layout_centerVertical="true" n2:textFont="robotoRegular" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                    </RelativeLayout>
+                    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="48.0dip" n1:layout_marginLeft="16.0dip" n1:layout_marginRight="8.0dip">
+                        <CheckBox n1:id="@id/flagged" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+                        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/text_primary_inverse" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/filter_flagged" n1:layout_toLeftOf="@id/flagged" n1:layout_centerVertical="true" n3:textFont="robotoRegular" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                    </RelativeLayout>
+                    <RelativeLayout n1:id="@id/with_attachments_parent" n1:layout_width="fill_parent" n1:layout_height="48.0dip" n1:layout_marginLeft="16.0dip" n1:layout_marginRight="8.0dip">
+                        <CheckBox n1:id="@id/with_attachments" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+                        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/text_primary_inverse" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/filter_with_attachments" n1:layout_toLeftOf="@id/with_attachments" n1:layout_centerVertical="true" n4:textFont="robotoRegular" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                    </RelativeLayout>
+                    <View n1:background="@color/divider_primary" n1:layout_width="fill_parent" n1:layout_height="@dimen/divider_primary" n1:layout_marginTop="4.0dip" n1:layout_marginBottom="4.0dip" />
+                    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="48.0dip" n1:layout_marginLeft="16.0dip" n1:layout_marginRight="8.0dip">
+                        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/text_primary_inverse" n1:id="@id/date_label" n1:layout_width="72.0dip" n1:layout_height="wrap_content" n1:text="@string/advanced_search_date" n1:layout_centerVertical="true" n5:textFont="robotoRegular" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+                        <ru.mail.uikit.view.CheckableLinearLayout n1:id="@id/date_layout" n1:background="@drawable/selectable_item_bg_border" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/date_label" n1:layout_centerVertical="true">
+                            <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/advanced_search_field" n1:id="@id/date" n1:background="@drawable/spinner_search" n1:duplicateParentState="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/advanced_search_empty_field" n6:textFont="robotoRegular" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+                        </ru.mail.uikit.view.CheckableLinearLayout>
+                        <ImageButton n1:id="@id/date_cancel" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n7:srcCompat="@drawable/ic_list_banner_close" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+                    </RelativeLayout>
+                    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="48.0dip" n1:layout_marginLeft="16.0dip" n1:layout_marginRight="8.0dip" n1:layout_marginBottom="4.0dip">
+                        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/text_primary_inverse" n1:id="@id/folder_label" n1:layout_width="72.0dip" n1:layout_height="wrap_content" n1:text="@string/advanced_search_folder" n1:layout_centerVertical="true" n8:textFont="robotoRegular" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+                        <ru.mail.uikit.view.CheckableLinearLayout n1:id="@id/folder_layout" n1:background="@drawable/selectable_item_bg_border" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/folder_label" n1:layout_centerVertical="true">
+                            <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/advanced_search_field" n1:id="@id/folder" n1:background="@drawable/spinner_search" n1:duplicateParentState="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/advanced_search_empty_field" n9:textFont="robotoRegular" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+                        </ru.mail.uikit.view.CheckableLinearLayout>
+                        <ImageButton n1:id="@id/folder_cancel" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n10:srcCompat="@drawable/ic_list_banner_close" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+                    </RelativeLayout>
+                    <RelativeLayout n1:id="@id/transaction_category_container" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="48.0dip" n1:layout_marginLeft="16.0dip" n1:layout_marginRight="8.0dip" n1:layout_marginBottom="4.0dip">
+                        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/text_primary_inverse" n1:id="@id/transaction_category_label" n1:layout_width="72.0dip" n1:layout_height="wrap_content" n1:text="@string/advanced_search_transaction_category" n1:layout_centerVertical="true" n11:textFont="robotoRegular" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+                        <ru.mail.uikit.view.CheckableLinearLayout n1:id="@id/transaction_category_layout" n1:background="@drawable/selectable_item_bg_border" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/transaction_category_label" n1:layout_centerVertical="true">
+                            <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/advanced_search_field" n1:id="@id/transaction_category_field" n1:background="@drawable/spinner_search" n1:duplicateParentState="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/advanced_search_empty_field" n12:textFont="robotoRegular" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+                        </ru.mail.uikit.view.CheckableLinearLayout>
+                        <ImageButton n1:id="@id/transaction_category_cancel" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n13:srcCompat="@drawable/ic_list_banner_close" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <View n1:id="@id/advanced_search_shadow" n1:background="@drawable/shadow_ab" n1:layout_width="fill_parent" n1:layout_height="@dimen/shadow_height" />
+        </LinearLayout>
+    </ru.mail.fragments.view.ExpandableViewGroup>
+</merge>

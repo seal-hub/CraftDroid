@@ -1,0 +1,119 @@
+[
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.etsy.android:id/menu_search",
+    "text": "",
+    "content-desc": "Search Button",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.homescreen.HomescreenTabsActivity",
+    "package": "com.etsy.android",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.etsy.android:id/search_src_text",
+    "text": "Search for anything",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "menu_search",
+        "id-prefix": "com.etsy.android:id/",
+        "text": "",
+        "content-desc": "Search Button",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".ui.homescreen.HomescreenTabsActivity",
+        "package": "com.etsy.android",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.etsy.android",
+    "activity": ".ui.search.v2.SearchV2Activity",
+    "event_type": "gui",
+    "score": 0.14115636005492482,
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "uci.seal@gmail.com"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.etsy.android",
+    "activity": ".ui.search.v2.SearchV2Activity",
+    "event_type": "oracle",
+    "score": 0.1614722890670886,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//*[@content-desc=\"Navigate up\"]"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.etsy.android",
+    "activity": ".ui.search.v2.SearchV2Activity",
+    "event_type": "gui",
+    "score": 0.1614722890670886,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <Button android:id="@id/bt_reminder_date" android:layout_width="wrap_content" android:layout_height="0.0dip" android:minWidth="48.0dip" android:text="@string/date" android:layout_weight="1.0" android:rotation="90.0" style="?android:buttonBarButtonStyle" />
+            <Button android:id="@id/bt_reminder_time" android:layout_width="wrap_content" android:layout_height="0.0dip" android:minWidth="48.0dip" android:text="@string/time" android:layout_weight="1.0" android:rotation="90.0" style="?android:buttonBarButtonStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_reminder_date" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <DatePicker android:id="@id/dp_reminder" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:spinnersShown="false" android:calendarViewShown="false" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_reminder_time" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TimePicker android:id="@id/tp_reminder" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/bt_reminder_noreminder" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/no_reminder" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+        <Button android:id="@id/bt_reminder_ok" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@android:string/ok" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

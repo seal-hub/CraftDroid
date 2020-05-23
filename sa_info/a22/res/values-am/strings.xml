@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">ወደ መነሻ ይዳስሱ</string>
+    <string name="abc_action_bar_home_description_format">%1$s፣ %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s፣ %2$s፣ %3$s</string>
+    <string name="abc_action_bar_up_description">ወደ ላይ ይዳስሱ</string>
+    <string name="abc_action_menu_overflow_description">ተጨማሪ አማራጮች</string>
+    <string name="abc_action_mode_done">ተከናውኗል</string>
+    <string name="abc_activity_chooser_view_see_all">ሁሉንም ይመልከቱ</string>
+    <string name="abc_activitychooserview_choose_application">መተግበሪያ ይምረጡ</string>
+    <string name="abc_capital_off">ጠፍቷል</string>
+    <string name="abc_capital_on">በርቷል</string>
+    <string name="abc_search_hint">ፈልግ…</string>
+    <string name="abc_searchview_description_clear">መጠይቅ አጽዳ</string>
+    <string name="abc_searchview_description_query">የፍለጋ ጥያቄ</string>
+    <string name="abc_searchview_description_search">ፍለጋ</string>
+    <string name="abc_searchview_description_submit">መጠይቅ ያስረክቡ</string>
+    <string name="abc_searchview_description_voice">የድምፅ ፍለጋ</string>
+    <string name="abc_shareactionprovider_share_with">ከሚከተለው ጋር ያጋሩ</string>
+    <string name="abc_shareactionprovider_share_with_application">ከ%s ጋር ያጋሩ</string>
+    <string name="abc_toolbar_collapse_description">ሰብስብ</string>
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+    <string name="mdtp_day_picker_description">የቀናት የወር ፍርግርግ</string>
+    <string name="mdtp_deleted_key">%1$s ተሰርዟል</string>
+    <string name="mdtp_done_label">ተከናውኗል</string>
+    <string name="mdtp_hour_picker_description">የሰዓታት ክብ ተንሸራታች</string>
+    <string name="mdtp_item_is_selected">%1$s ተመርጧል</string>
+    <string name="mdtp_minute_picker_description">የደቂቃዎች ክብ ተንሸራታች</string>
+    <string name="mdtp_select_day">ወር እና ቀን ይምረጡ</string>
+    <string name="mdtp_select_hours">ሰዓታትን ምረጥ</string>
+    <string name="mdtp_select_minutes">ደቂቃዎችን ምረጥ</string>
+    <string name="mdtp_select_year">ዓመት ይምረጡ</string>
+    <string name="mdtp_year_picker_description">የዓመት ዝርዝር</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

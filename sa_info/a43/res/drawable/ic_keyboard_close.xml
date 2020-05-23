@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector n1:tint="@color/emoji_panel_item" n1:height="13.0dip" n1:width="13.0dip" n1:viewportWidth="14.0" n1:viewportHeight="14.0"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <path n1:fillColor="#ff000000" n1:pathData="M7 5.5l4.3 -4.3c0.4 -0.4 1.1 -0.4 1.6 0 0.5 0.4 0.4 1.1 0 1.6L8.5 7l4.3 4.3c0.4 0.4 0.4 1.1 0 1.5 -0.4 0.4 -1.1 0.4 -1.5 0L7 8.5 2.7 12.8c-0.4 0.4 -1.1 0.4 -1.6 0 -0.5 -0.4 -0.4 -1.1 0 -1.6L5.5 7 1.1 2.6C0.7 2.2 0.7 1.5 1.1 1.1 1.5 0.7 2.2 0.7 2.6 1.1l4.4 4.4 0 0z" />
+</vector>

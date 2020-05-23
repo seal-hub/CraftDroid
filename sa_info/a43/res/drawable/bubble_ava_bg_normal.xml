@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape n1:shape="oval"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <corners n1:radius="@dimen/bubble_avatar_radius" />
+    <size n1:height="@dimen/bubble_avatar_size" n1:width="@dimen/bubble_avatar_size" />
+    <solid n1:color="@color/bubble_foreground_border_normal" />
+</shape>

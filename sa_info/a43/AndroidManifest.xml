@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="internalOnly" package="ru.mail.mailapp">
+    <permission android:name="ru.mail.mailapp.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:label="@string/write_contact_permission" android:name="ru.mail.mailbox.contacts.permission.write_contacts" android:protectionLevel="dangerous"/>
+    <permission android:name="ru.mail.mailapp.images.cache.permission.write" android:protectionLevel="dangerous"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="com.google.android.gallery3d.permission.GALLERY_PROVIDER"/>
+    <uses-permission android:name="com.android.gallery3d.permission.GALLERY_PROVIDER"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SOCIAL_STREAM"/>
+    <uses-permission android:name="android.permission.WRITE_SOCIAL_STREAM"/>
+    <uses-permission android:name="ru.mail.mailapp.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <meta-data android:name="asset_statements" android:resource="@string/asset_statements"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <application android:allowBackup="false" android:hardwareAccelerated="true" android:icon="@drawable/ic_launcher" android:label="@string/app_label_mail" android:name="ru.mail.MailApplication" android:networkSecurityConfig="@xml/network_security_config" android:resizeableActivity="true" android:roundIcon="@drawable/ic_launcher_round" android:supportsRtl="false" android:theme="@style/Mail.Theme">
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:label="@string/registration_title" android:name="ru.mail.mailapp.MailRuRegistrationActivity" android:screenOrientation="portrait" android:theme="@style/MailRuLogin.Theme">
+            <intent-filter>
+                <action android:name="ru.mail.auth.REGISTRATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|screenLayout" android:documentLaunchMode="always" android:exported="false" android:launchMode="standard" android:name="ru.mail.ui.writemail.FeedbackActivity" android:theme="@style/Mail.Theme.WriteActivity">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACTION_FEEDBACK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|screenLayout" android:documentLaunchMode="always" android:exported="false" android:launchMode="standard" android:name="ru.mail.ui.writemail.ForwardActivity" android:theme="@style/Mail.Theme.WriteActivity">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACTION_FORWARD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|screenLayout" android:documentLaunchMode="always" android:exported="false" android:launchMode="standard" android:name="ru.mail.ui.writemail.ReplyActivity" android:theme="@style/Mail.Theme.WriteActivity">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACTION_REPLY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|screenLayout" android:documentLaunchMode="always" android:exported="false" android:launchMode="standard" android:name="ru.mail.ui.writemail.DraftActivity" android:theme="@style/Mail.Theme.WriteActivity">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACTION_DRAFT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:label="@string/registration_title" android:name="ru.mail.mailapp.ConfirmationMailRuActivity" android:screenOrientation="portrait" android:theme="@style/MailRuLogin.Theme">
+            <intent-filter>
+                <action android:name="ru.mail.CONFIRM_REGISTRATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="ru.mail.ctrl.MailAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/mail_appwidget_info"/>
+        </receiver>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="ru.mail.auth.SdkAuthActivity" android:theme="@style/OauthActivityTheme">
+            <intent-filter>
+                <action android:name="ru.mail.auth.sdk.OAUTH_LOGIN"/>
+                <action android:name="ru.mail.auth.sdk.OAUTH_LOGIN_V1"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="ru.mail.mailbox.content.advertising" android:exported="false" android:label="@string/advertising_content_provider_label" android:name="ru.mail.sync.AdvertisingProviderStub" android:syncable="false"/>
+        <provider android:authorities="ru.mail.mailbox.offline" android:exported="false" android:label="@string/offline_content_provider_label" android:name="ru.mail.sync.OfflineProviderStub" android:syncable="false"/>
+        <provider android:authorities="ru.mail.mailbox.content" android:exported="false" android:label="@string/mail_content_provider_label" android:name="ru.mail.mailbox.content.MailContentProvider" android:syncable="false"/>
+        <provider android:authorities="ru.mail.mailbox.contacts" android:enabled="true" android:exported="true" android:label="@string/contacts" android:name="ru.mail.mailbox.content.contact.ContactsProvider" android:readPermission="android.permission.BIND_CHOOSER_TARGET_SERVICE" android:syncable="false" android:writePermission="ru.mail.mailbox.contacts.permission.write"/>
+        <provider android:authorities="ru.mail.mailapp.images.cache" android:enabled="true" android:exported="false" android:name="ru.mail.util.bitmapfun.upgrade.DiskCacheContentProvider" android:readPermission="android.permission.BIND_CHOOSER_TARGET_SERVICE" android:syncable="false" android:writePermission="ru.mail.mailapp.images.cache.permission.write"/>
+        <provider android:authorities="ru.mail.mailapp.files" android:exported="false" android:grantUriPermissions="true" android:name="ru.mail.share.MailFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths"/>
+        </provider>
+        <provider android:authorities="ru.mail.mailapp.sound" android:exported="true" android:grantUriPermissions="true" android:name="ru.mail.util.push.NotificationSoundProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/sound_provider_paths"/>
+        </provider>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|screenLayout" android:documentLaunchMode="always" android:exported="false" android:label="@string/app_shraring_label" android:launchMode="standard" android:name="ru.mail.ui.writemail.WriteActivity" android:theme="@style/Mail.Theme.WriteActivity">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACTION_NEW_MAIL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACTION_NEW_MAIL_PHOTO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|screenLayout" android:documentLaunchMode="always" android:exported="false" android:label="@string/app_shraring_label" android:launchMode="standard" android:name="ru.mail.ui.writemail.RedirectActivity" android:theme="@style/Mail.Theme.WriteActivity">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACTION_REDIRECT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|screenLayout" android:documentLaunchMode="always" android:exported="false" android:launchMode="standard" android:name="ru.mail.ui.writemail.FilledMailActivity" android:theme="@style/Mail.Theme.WriteActivity">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACTION_FILLED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|screenLayout" android:documentLaunchMode="always" android:launchMode="standard" android:name="ru.mail.ui.writemail.EditNewMailActivity" android:theme="@style/Mail.Theme.WriteActivity">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.EDIT_NEW_MAIL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.mail.mailapp.SplashScreenActivity" android:theme="@style/Mail.Theme.SplashScreen">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="ru.mail.mailapp.SplashScreenActivity"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.mail.ui.FilterActivity" android:theme="@style/Mail.Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:label="@string/add_your_email" android:name="ru.mail.mailapp.MailRuLoginActivity" android:screenOrientation="portrait" android:theme="@style/MailRuLogin.Theme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="ru.mail.auth.CHOOSE_EMAIL_SERVICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ru.mail.auth.LOGIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.my.auth.LOGIN_SMS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:label="@string/add_your_email" android:name="ru.mail.ui.WelcomeActivity" android:screenOrientation="portrait" android:theme="@style/Mail.Theme">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACTION_WELCOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="ru.mail.fragments.settings.SettingsActivity" android:theme="@style/Mail.Preferences">
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/permission_activity_title" android:name="ru.mail.ui.VitalPermissionsActivity" android:screenOrientation="portrait" android:theme="@style/Mail.Theme"/>
+        <activity android:name="ru.mail.fragments.settings.PushSettingsActivity" android:theme="@style/Mail.Preferences"/>
+        <activity android:name="ru.mail.fragments.settings.SoundSettingsActivity" android:theme="@style/Mail.Preferences"/>
+        <activity android:name="ru.mail.fragments.settings.SubscriptPreferenceActivity" android:theme="@style/Mail.Preferences"/>
+        <activity android:exported="false" android:name="ru.mail.fragments.settings.ThreadPreferenceActivity" android:theme="@style/Mail.Preferences">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.SHOW_THREAD_PREFERENCE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.mail.fragments.settings.SentMsgImapSettingsActivity" android:theme="@style/Mail.Preferences"/>
+        <activity android:name="ru.mail.fragments.settings.TransportPreferenceActivity" android:theme="@style/Mail.Preferences"/>
+        <activity android:name="ru.mail.fragments.settings.PushDontDisturbSettingsActivity" android:theme="@style/Mail.Preferences"/>
+        <activity android:name="ru.mail.fragments.settings.PushFilterSettingsActivity" android:theme="@style/Mail.Preferences"/>
+        <activity android:name="ru.mail.fragments.settings.SocialPushFilterActivity" android:theme="@style/Mail.Preferences"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:name="ru.mail.fragments.settings.FoldersPushFilterActivity" android:theme="@style/Mail.Preferences"/>
+        <activity android:name="ru.mail.fragments.settings.AboutActivity" android:theme="@style/Mail.Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:name="ru.mail.fragments.settings.AccountAvatarAndNameActivity" android:theme="@style/Mail.Preferences.SettingsActivity"/>
+        <activity android:name="ru.mail.fragments.settings.pin.ProtectionSettingsActivity" android:theme="@style/Mail.Preferences"/>
+        <activity android:name="ru.mail.fragments.settings.pin.PinChangeActivity" android:theme="@style/Mail.Preferences.PinSettings"/>
+        <activity android:name="ru.mail.fragments.settings.pin.PinValidateActivity" android:theme="@style/Mail.PinValidate"/>
+        <activity android:name="ru.mail.ui.CropAvatarActivity" android:theme="@style/BaseCropAvatarTheme.CropAvatarTheme"/>
+        <activity android:name="ru.mail.mediabrowser.MediaBrowserActivity" android:theme="@style/MailGalleryBrowserTheme"/>
+        <activity android:name="ru.mail.ui.MailFileBrowserActivity" android:theme="@style/MailFileBrowserTheme"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|screenLayout" android:documentLaunchMode="always" android:label="@string/ab_title_new_message" android:launchMode="standard" android:name="ru.mail.ui.writemail.SharingActivity" android:theme="@style/Mail.Theme.WriteActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.SEND"/>
+                <data android:scheme="mailto"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="plain/text"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO"/>
+                <data android:scheme="mailto"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <meta-data android:name="android.service.chooser.chooser_target_service" android:value="ru.mail.share.DirectShareChooser"/>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|screenLayout" android:documentLaunchMode="always" android:label="@string/mail_to_myself_activity_label" android:launchMode="standard" android:name="ru.mail.ui.writemail.MailToMySelfActivity" android:theme="@style/Mail.Theme.MailToMyselfActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.SEND"/>
+                <data android:scheme="mailto"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="plain/text"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO"/>
+                <data android:scheme="mailto"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|screenLayout" android:exported="false" android:name="ru.mail.ui.ThreadMessagesActivity" android:theme="@style/Mail.Theme.FadeTransitionActivity">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACTION_VIEW_THREAD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.mail.ui.attachmentsgallery.AttachmentGalleryActivity" android:theme="@style/AttachGalleryTheme"/>
+        <activity android:configChanges="keyboardHidden|screenLayout|screenSize" android:name="ru.mail.ui.SearchActivity" android:theme="@style/Mail.Theme.Search"/>
+        <activity android:name="ru.mail.fragments.settings.AcknowledgementsActivity" android:theme="@style/Mail.Theme"/>
+        <activity android:name="net.hockeyapp.android.UpdateActivity"/>
+        <activity android:name="ru.mail.ui.AddressBookActivity"/>
+        <activity android:name="ru.mail.ui.SelectPhoneActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="ru.mail.ui.ContactActivity" android:theme="@style/ContactTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="ru.mail.ui.AllAppsPromoActivity"/>
+        <activity android:name="ru.mail.mailapp.ChooseAccountActivity" android:theme="@style/Mail.Preferences.SettingsActivity"/>
+        <activity android:name="ru.mail.mailapp.FoldersSettingsActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="ru.mail.mailapp.FiltersSettingsActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="ru.mail.ui.ClearTaskActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="ru.mail.mailapp.RegShareEmailActivity" android:theme="@style/Mail.Theme.About"/>
+        <activity android:name="ru.mail.ui.BannerDebugActivity" android:theme="@style/Mail.Theme"/>
+        <activity android:exported="false" android:name="ru.mail.ui.NewFilterActivity" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACTION_ADD_FILTER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACTION_EDIT_FILTER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="ru.mail.ui.ReadRegularActivity" android:theme="@style/Mail.Theme.ReadActivity" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.SHOW_PUSH_MESSAGE"/>
+                <action android:name="ru.mail.mailapp.READ_ORDINAL_MESSAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="ru.mail.ui.CommonReadActivity" android:theme="@style/Mail.Theme.ReadActivity" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.READ_COMMON_MESSAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="ru.mail.ui.ReadSearchActivity" android:theme="@style/Mail.Theme.ReadActivity" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.READ_SEARCH_MESSAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="ru.mail.ui.ReadThreadFirstMailActivity" android:theme="@style/Mail.Theme.ReadActivity" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.READ_FIRST_THREAD_MESSAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="ru.mail.ui.ReadThreadMailsActivity" android:theme="@style/Mail.Theme.ReadActivity" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.READ_THREAD_MESSAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.SHOW_PUSH_THREAD_MESSAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden" android:exported="false" android:launchMode="singleTop" android:name="ru.mail.ui.SlideStackActivity" android:theme="@style/Mail.Theme.SlideStackActivity" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.SHOW_PUSH_MESSAGES_IN_FOLDER"/>
+                <action android:name="ru.mail.mailapp.OPEN_MESSAGES_FOLDER"/>
+                <action android:name="ru.mail.mailapp.OPEN_META_THREAD_FOLDER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="ru.mail.fragments.mailbox.FbInterstitial" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.flurry.android.FlurryFullscreenTakeoverActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="ru.mail.fragments.mailbox.GoogleInterstitialActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="false" android:label="@string/app_name" android:name="ru.mail.mailapp.MailRuAccountManagerPickerActivity" android:screenOrientation="portrait" android:theme="@style/Mail.Theme">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACCOUNT_MANAGER_LOGIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:name="ru.mail.mailapp.AuthorizedWebViewActivity" android:theme="@style/Mail.Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:name="ru.mail.mailapp.AttachMoneyActivity" android:theme="@style/Mail.Theme"/>
+        <activity android:name="ru.mail.fragments.settings.PersonalDataProcessingPrefActivity"/>
+        <activity android:name="ru.mail.fragments.settings.SubscriptionsActivity"/>
+        <receiver android:enabled="true" android:name="ru.mail.timezone.TimeZoneChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="@bool/sync_service_enable" android:exported="true" android:name="ru.mail.sync.SyncService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter"/>
+            <meta-data android:name="android.provider.CONTACTS_STRUCTURE" android:resource="@xml/contacts"/>
+        </service>
+        <service android:enabled="@bool/sync_service_enable" android:exported="true" android:name="ru.mail.sync.SyncServiceStub">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/sync_to_system_adapter"/>
+            <meta-data android:name="android.provider.CONTACTS_STRUCTURE" android:resource="@xml/contacts"/>
+        </service>
+        <service android:enabled="@bool/sync_service_enable" android:exported="true" android:name="ru.mail.sync.PrefetcherSyncService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/prefetchersyncadapter"/>
+        </service>
+        <service android:exported="false" android:name="ru.mail.mailapp.service.sendmessage.SendMailService">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.SEND_NEW_MAIL"/>
+                <action android:name="ru.mail.mailapp.EDIT_NEW_MAIL"/>
+                <action android:name="ru.mail.mailapp.CANCEL_MAIL"/>
+                <action android:name="ru.mail.mailapp.RETRY_MAIL"/>
+                <action android:name="ru.mail.mailapp.ACCOUNT_LOGOUT"/>
+                <action android:name="ru.mail.mailapp.DELETE_OUTDATED_MAILS"/>
+                <action android:name="ru.mail.mailapp.SEND_OUTDATED_MAILS"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.mailapp.service.SendMailServiceScheduler" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="true" android:name="ru.mail.auth.AuthenticationService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator"/>
+        </service>
+        <receiver android:exported="false" android:name="ru.mail.mailapp.service.NetworkStateChangeBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.appsflyer.MultipleInstallBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService"/>
+        <receiver android:exported="true" android:name="com.google.android.gms.analytics.CampaignTrackingReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.my.tracker.campaign.CampaignReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.my.tracker.campaign.CampaignService"/>
+        <service android:exported="false" android:name="ru.mail.mailapp.service.MailServiceImpl">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.service.REMOVE_MAIL"/>
+                <action android:name="ru.mail.mailapp.service.MARK_READ_MAIL_SINGLE"/>
+                <action android:name="ru.mail.mailapp.service.MARK_READ_MAIL"/>
+                <action android:name="ru.mail.mailapp.service.MARK_FLAG_MAIL"/>
+                <action android:name="ru.mail.mailapp.service.MARK_SPAM_MAIL"/>
+                <action android:name="ru.mail.mailapp.service.ARCHIVE_MAIL"/>
+                <action android:name="ru.mail.mailapp.service.REPLY_MAIL"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="ru.mail.util.log.logger.SendLogsService">
+            <intent-filter>
+                <action android:name="ru.mail.util.log.ACTION_SEND_LOGS"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="ru.mail.util.log.logger.httplog.SendHttpLogService">
+            <intent-filter>
+                <action android:name="ru.mail.util.log.logger.httplog.SendHttpLogService.ACTION_SEND_LOG_RECORD"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="ru.mail.util.push.ClearStatusBarReceiver">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACTION_CLEAR_NOTIFICATION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="ru.mail.util.push.PushUrlReceiver">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.OPEN_PUSH_URL"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="ru.mail.util.push.gcm.MailMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="ru.mail.util.analytics.NetworkAnalyticsService"/>
+        <receiver android:exported="false" android:name="ru.mail.util.push.PushTokenAlarmReceiver">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACTION_PUSH_TOKEN_CHECK"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="ru.mail.util.push.AckPushProxyService">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.ACTION_PROXY_ACKNOWLEDGE_PUSH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:label="@string/app_name" android:name="ru.mail.share.DirectShareChooser" android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.chooser.ChooserTargetService"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="ru.mail.mailbox.content.update.service.ShrinkAlarmReceiver"/>
+        <receiver android:name="ru.mail.mailapp.chrometabs.CustomTabsBroadcastReceiver"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.CallbackOffset" android:value="@integer/facebook_request_code_offset"/>
+        <meta-data android:name="optimization_key" android:value="kP/r5KLaeJYbw7bQBf7KR3xKNxFiNzf7uXxx1hnZzzqqNBhOH0x3TXZnuxutFKwQG45lzc1JQBN3BjbVKVdfK35qHAQr+ZK3orQYJVbD4zWQTzZUGAlzGHNQNbMnviCRDkwwk70FNRkD7ygF1v5fzZshD75Y8LNvqpHZfOr8sf+olBv5H4YDHxRNSNWyDKvtrkzVYhkkQE2l1k4+eDpTT7N4vam8idRIdPNEca2mYnCfaUVj5RTPTZz/B6jqEIjuEW84JccliUpYtIUKIF6UW9/JllAoXSIluoToHS07dINoKdDZYyqwll8y+HFqOvobNBxDyS+BA97hp9hJo1SKAw=="/>
+        <service android:exported="false" android:name="ru.mail.util.push.gcm.MailInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="ru.mail.mailapp.service.profilesharing.ProfileSharingService">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.service.profilesharing.IProfileSharingService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.util.scheduling.UniversalFirebaseJobService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.util.scheduling.UniversalNativeJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="ru.mail.util.scheduling.UniversalDirectIntentJobService"/>
+        <service android:exported="true" android:name="ru.mail.mailapp.service.oauth.OAuthInfoService">
+            <intent-filter>
+                <action android:name="ru.mail.mailapp.service.oauth.OAuthInfoServiceV2"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.facebook.ads.AudienceNetworkActivity"/>
+        <activity android:label="@string/add_account" android:name="ru.mail.auth.AccountManagerPickerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="net.openid.appauth.RedirectUriReceiverActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="fluor.mail.ru" android:pathPattern="/cb/gl/2.*" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.mail.uikit.tutorial.TutorialActivity" android:theme="@style/MailRu"/>
+        <activity android:name="net.hockeyapp.android.FeedbackActivity" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:name="net.hockeyapp.android.PaintActivity"/>
+        <activity android:name="net.hockeyapp.android.LoginActivity"/>
+        <activity android:name="net.hockeyapp.android.ExpiryInfoActivity"/>
+        <meta-data android:name="android.support.VERSION" android:value="26.1.0"/>
+        <service android:exported="true" android:name="com.firebase.jobdispatcher.GooglePlayReceiver" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
+        <receiver android:exported="true" android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="ru.mail.libverify"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="ru.mail.libverify.gcm.GcmInstanceIDListenerService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="ru.mail.libverify.gcm.GcmMessageHandlerService">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:exported="false" android:name="ru.mail.libverify.gcm.GcmRegisterService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="ru.mail.libverify.gcm.GcmMessageDeliverService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="true" android:name="ru.mail.libverify.sms.SmsRetrieverReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.sms.SmsRetrieverService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:enabled="false" android:exported="true" android:name="ru.mail.libverify.sms.IncomingSmsReceiver" android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:exported="true" android:name="ru.mail.libverify.sms.IncomingCallReceiver" android:permission="android.permission.READ_PHONE_STATE">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.sms.SmsHandlingService" android:permission="android.permission.BIND_JOB_SERVICE">
+            <intent-filter>
+                <action android:name="ru.mail.sms.SmsHandlingService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="ru.mail.libverify.ipc.IpcMessageService" android:permission="android.permission.INTERNET">
+            <intent-filter>
+                <action android:name="ru.mail.libverify.ipc.IpcMessageService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="ru.mail.libverify.ipc.IpcNotificationService" android:permission="android.permission.INTERNET">
+            <intent-filter>
+                <action android:name="ru.mail.libverify.ipc.IpcNotificationService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.notifications.NotificationService">
+            <intent-filter>
+                <action android:name="ru.mail.notifications.NotificationService"/>
+            </intent-filter>
+        </service>
+        <activity android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="ru.mail.libverify.notifications.SettingsActivity" android:noHistory="true" android:taskAffinity="ru.mail.libverify.notifications.SettingsActivity" android:theme="@style/libverify.Theme.Settings"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="ru.mail.libverify.notifications.SmsCodeNotificationActivity" android:noHistory="true" android:taskAffinity="ru.mail.libverify.notifications.SmsCodeNotificationActivity" android:theme="@style/libverify.Theme.Custom.Popup" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="ru.mail.libverify.notifications.SmsDialogsActivity" android:taskAffinity="ru.mail.libverify.notifications.SmsDialogsActivity" android:theme="@style/libverify.Theme.Settings"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="ru.mail.libverify.notifications.SmsMessagesActivity" android:parentActivityName="ru.mail.libverify.notifications.SmsDialogsActivity" android:taskAffinity="ru.mail.libverify.notifications.SmsDialogsActivity" android:theme="@style/libverify.Theme.Settings">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".notifications.SmsDialogsActivity"/>
+        </activity>
+        <receiver android:name="ru.mail.libverify.utils.NetworkStateReceiver"/>
+        <receiver android:name="ru.mail.libverify.utils.network.NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ru.mail.libverify.utils.ScreenStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.utils.VerificationService"/>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.utils.VerificationJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.utils.network.NetworkCheckService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:label="PackageStateReceiver:178" android:name="ru.mail.libverify.utils.PackageStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_MY_PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ru.mail.libverify.utils.PackageStateReceiver"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:label="VerificationCheckService" android:name="ru.mail.libverify.fetcher.FetcherService"/>
+        <service android:enabled="true" android:exported="false" android:label="VerificationCheckService" android:name="ru.mail.libverify.fetcher.FetcherJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.utils.SettingsCheckService"/>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.utils.SettingsCheckJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:enabled="false" android:name="ru.mail.libverify.utils.SystemRestartReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ru.mail.libverify.utils.AlarmReceiver"/>
+        <receiver android:enabled="false" android:name="ru.mail.libverify.utils.BatteryLevelReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="ru.mail.libverify.utils.permissions.ShadowActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="true" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="ru.mail.mailapp.firebaseperfprovider" android:exported="false" android:initOrder="101" android:name="com.google.firebase.perf.provider.FirebasePerfProvider"/>
+        <activity android:exported="true" android:name="com.google.android.gms.appinvite.PreviewActivity" android:theme="@style/Theme.AppInvite.Preview">
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="ru.mail.mailapp"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"/>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="ru.mail.mailapp.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="ru.mail.auth.sdk.MailRuSdkServiceActivity" android:theme="@style/Transparent"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="net.openid.appauth.AuthorizationManagementActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.my.target.ads.MyTargetActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="ru.mail.mailapp.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+    </application>
+</manifest>

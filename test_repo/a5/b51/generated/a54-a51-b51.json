@@ -1,0 +1,50 @@
+[
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "anti.tip:id/bill",
+    "text": "0.00",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": " Bill Amount",
+    "stepping_events": [],
+    "package": "anti.tip",
+    "activity": ".Tip",
+    "event_type": "gui",
+    "score": 0.29604788674811866,
+    "action": [
+      "clear_and_send_keys",
+      "56.6"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "anti.tip:id/tip",
+    "text": "8.49",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": " Total Tip",
+    "stepping_events": [],
+    "package": "anti.tip",
+    "activity": ".Tip",
+    "event_type": "gui",
+    "score": 0.2170179118559519,
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "15"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  }
+]

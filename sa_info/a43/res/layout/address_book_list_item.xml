@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:background="?selectableItemBackground" n1:paddingLeft="16.0dip" n1:paddingRight="48.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/list_height"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.fragments.view.RoundedImageView n1:id="@id/contact_avatar" n1:layout_width="40.0dip" n1:layout_height="40.0dip" n1:src="@drawable/avatar_placeholder" n2:cropMargin="@dimen/bubble_ava_border_thickness" n2:cropRadius="40.0dip" n2:frame="@drawable/ava_border" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:paddingBottom="1.0sp" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dip" n1:layout_weight="1.0">
+        <TextView n1:textAppearance="?android:textAppearanceLarge" n1:ellipsize="end" n1:id="@id/contact_name" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:singleLine="true" n1:fontFamily="sans-serif" />
+        <TextView n1:textAppearance="?android:textAppearanceMedium" n1:ellipsize="middle" n1:id="@id/contact_email" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginTop="1.0sp" n1:maxLines="1" n1:singleLine="true" n1:fontFamily="sans-serif" />
+    </LinearLayout>
+</LinearLayout>

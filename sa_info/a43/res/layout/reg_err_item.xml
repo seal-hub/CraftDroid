@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textColor="@android:color/white" n1:gravity="center_vertical" n1:id="@id/err_item" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/domain_settings_field_padding_horizontal" n1:layout_marginRight="@dimen/domain_settings_field_padding_horizontal" n1:minHeight="32.0dip" n1:text="Error" style="?android:textAppearanceMedium" />
+    <View n1:id="@id/err_divider" n1:background="@color/divider_err_color" n1:layout_width="fill_parent" n1:layout_height="1.0dip" n1:layout_below="@id/err_item" />
+</RelativeLayout>

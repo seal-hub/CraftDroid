@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ru.mail.uikit.view.FontErrorTextView n1:textAppearance="?android:textAppearanceMedium" n1:gravity="center_vertical" n1:id="@id/title" n1:paddingLeft="@dimen/domain_settings_field_padding_horizontal" n1:paddingRight="@dimen/domain_settings_field_padding_horizontal" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:layout_column="0" n1:text="TITLE" n2:textFont="robotoRegular"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</merge>

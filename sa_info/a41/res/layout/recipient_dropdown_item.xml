@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/contact_photo" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="12.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?textColorPrimaryRecipientDropdown" android:ellipsize="end" android:id="@id/text1" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?textColorSecondaryRecipientDropdown" android:ellipsize="end" android:id="@id/text2" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/contact_crypto_status" android:padding="13.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/status_dots" android:tint="?openpgp_grey" />
+        <ImageView android:layout_gravity="center|left" android:id="@id/contact_crypto_status_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/contact_crypto_status_icon_simple" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_margin="13.0dip" android:src="@drawable/status_lock" android:tint="?openpgp_black" />
+</LinearLayout>

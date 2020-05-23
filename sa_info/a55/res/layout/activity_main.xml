@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/activity_main" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:orientation="vertical" n1:paddingLeft="@dimen/activity_horizontal_margin" n1:paddingTop="@dimen/activity_vertical_margin" n1:paddingRight="@dimen/activity_horizontal_margin" n1:paddingBottom="@dimen/activity_vertical_margin" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <com.google.android.gms.ads.AdView n1:id="@id/adsViewTop" n1:paddingTop="5.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" n2:adSize="BANNER" n2:adUnitId="ca-app-pub-2289684703180323/5057478037" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <TextView n1:textSize="17.0dip" n1:textStyle="bold" n1:layout_gravity="center|top" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Enter Bill Info Below!" />
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <LinearLayout n1:orientation="horizontal" n1:paddingTop="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <TextView n1:textStyle="bold" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Person(s):" />
+                </LinearLayout>
+                <LinearLayout n1:gravity="right" n1:layout_gravity="right" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:foregroundGravity="right">
+                    <EditText n1:id="@id/etPerson" n1:layout_width="200.0dip" n1:layout_height="wrap_content" n1:text="1" n1:inputType="number" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <LinearLayout n1:orientation="horizontal" n1:paddingTop="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <TextView n1:textStyle="bold" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Tip:" />
+                </LinearLayout>
+                <LinearLayout n1:gravity="right" n1:layout_gravity="right" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:foregroundGravity="right">
+                    <TextView n1:textStyle="bold" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="%" />
+                    <EditText n1:id="@id/etTipAmount" n1:layout_width="200.0dip" n1:layout_height="wrap_content" n1:text="15" n1:inputType="number" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <LinearLayout n1:textStyle="bold" n1:orientation="horizontal" n1:paddingTop="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <TextView n1:textStyle="bold" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Bill Total:" />
+                </LinearLayout>
+                <LinearLayout n1:gravity="right" n1:layout_gravity="right" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:foregroundGravity="right">
+                    <TextView n1:textStyle="bold" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="$" />
+                    <EditText n1:id="@id/etBillTotal" n1:layout_width="200.0dip" n1:layout_height="wrap_content" n1:text="1" n1:inputType="numberDecimal" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView n1:background="@android:color/darker_gray" n1:layout_width="fill_parent" n1:layout_height="20.0dip" />
+            <LinearLayout n1:orientation="horizontal" n1:paddingTop="5.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <TextView n1:textStyle="bold" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Tip Amount: " />
+                <TextView n1:textSize="20.0dip" n1:textStyle="bold|italic" n1:id="@id/tvTipTotal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="15" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:paddingTop="5.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <TextView n1:textStyle="bold" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Total with Tip: " />
+                <TextView n1:textSize="20.0dip" n1:textStyle="bold|italic" n1:id="@id/tvTotalWithTip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="15" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:paddingTop="5.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <TextView n1:textStyle="bold" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Each Person Pays: " />
+                <TextView n1:textSize="20.0dip" n1:textStyle="bold|italic" n1:id="@id/tvPersonPay" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="15" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:paddingTop="10.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <Button n1:layout_gravity="center" n1:id="@id/btCalculate" n1:layout_width="200.0dip" n1:layout_height="wrap_content" n1:text="Calculate" style="@style/Widget.AppCompat.Button.Colored" />
+                <Button n1:layout_gravity="center" n1:id="@id/btReset" n1:layout_width="200.0dip" n1:layout_height="wrap_content" n1:text="Reset" style="@style/Widget.AppCompat.Button" />
+            </LinearLayout>
+            <com.google.android.gms.ads.AdView n1:id="@id/adsView" n1:paddingTop="5.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" n3:adSize="BANNER" n3:adUnitId="ca-app-pub-2289684703180323/2999644657" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

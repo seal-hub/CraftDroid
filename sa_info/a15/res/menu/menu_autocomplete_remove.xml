@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_delete" android:id="@id/remove" android:title="@string/preference_autocomplete_action_remove_content_description" android:contentDescription="@string/preference_autocomplete_action_remove_content_description" app:showAsAction="always" />
+</menu>

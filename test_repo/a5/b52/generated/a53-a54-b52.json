@@ -1,0 +1,116 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.zaidisoft.teninone:id/calculateBtn",
+    "text": "Calculate",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Reset",
+    "stepping_events": [],
+    "package": "com.zaidisoft.teninone",
+    "activity": ".Calculator",
+    "event_type": "gui",
+    "score": 0.07146989507370471,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.zaidisoft.teninone:id/billAmountET",
+    "text": "0",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Bill",
+    "stepping_events": [],
+    "package": "com.zaidisoft.teninone",
+    "activity": ".Calculator",
+    "event_type": "gui",
+    "score": 0.18514578407289844,
+    "action": [
+      "clear_and_send_keys",
+      "56.6"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.zaidisoft.teninone:id/tipPercentET",
+    "text": "0",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Tip percent",
+    "stepping_events": [],
+    "package": "com.zaidisoft.teninone",
+    "activity": ".Calculator",
+    "event_type": "gui",
+    "score": 0.13514578407289846,
+    "action": [
+      "clear_and_send_keys",
+      "15"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.zaidisoft.teninone:id/guestNumberET",
+    "text": "1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "# of people",
+    "stepping_events": [],
+    "package": "com.zaidisoft.teninone",
+    "activity": ".Calculator",
+    "event_type": "gui",
+    "score": 0.2042853092058295,
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "4"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.zaidisoft.teninone:id/calculateBtn",
+    "text": "Calculate",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Reset",
+    "stepping_events": [],
+    "package": "com.zaidisoft.teninone",
+    "activity": ".Calculator",
+    "event_type": "gui",
+    "score": 0.23514578407289843,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.zaidisoft.teninone:id/perPersonBillTV",
+    "text": "16.27",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Each",
+    "stepping_events": [],
+    "package": "com.zaidisoft.teninone",
+    "activity": ".Calculator",
+    "event_type": "oracle",
+    "score": 0.2278527970476661,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "16.27"
+    ]
+  }
+]

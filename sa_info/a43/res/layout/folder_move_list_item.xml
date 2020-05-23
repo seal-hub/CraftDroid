@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:background="?selectableItemBackground" n1:paddingRight="16.0dip" n1:layout_width="wrap_content" n1:layout_height="?android:listPreferredItemHeight"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/left_icon" n1:duplicateParentState="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/dialog_list_left_padding" n1:layout_marginTop="12.0dip" n1:layout_marginRight="24.0dip" n1:layout_marginBottom="12.0dip" n1:layout_centerVertical="true" />
+    <TextView n1:textAppearance="?android:textAppearanceLarge" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/text" n1:duplicateParentState="true" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:singleLine="true" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.mail.fragments.view.MailsItemView n1:background="?selectableListItemBackground" n1:paddingLeft="12.0dip" n1:paddingTop="3.0dip" n1:paddingRight="16.0dip" n1:paddingBottom="16.0dip" n1:addStatesFromChildren="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <CheckBox n1:id="@id/checkbox" n1:focusable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dip" n1:layout_marginRight="12.0dip" n1:layout_centerVertical="true" />
+    <include layout="@layout/mail_list_item_internal" />
+</ru.mail.fragments.view.MailsItemView>

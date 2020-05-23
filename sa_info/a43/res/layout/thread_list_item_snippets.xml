@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.mail.fragments.view.SnippetThreadItemView n1:background="?selectableListItemBackground" n1:paddingLeft="12.0dip" n1:paddingRight="16.0dip" n1:paddingBottom="16.0dip" n1:addStatesFromChildren="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <CheckBox n1:id="@id/checkbox" n1:focusable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="-4.0dip" n1:layout_marginRight="12.0dip" n1:layout_centerVertical="true" />
+    <include layout="@layout/thread_list_item_internal" />
+    <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:id="@id/counter" n1:background="@drawable/bg_list_thread_caunter" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dip" n1:layout_marginTop="42.0dip" n1:singleLine="true" n1:maxLength="4" n1:fontFamily="sans-serif-medium" style="?android:textAppearanceSmall" />
+    <TextView n1:ellipsize="end" n1:id="@id/snippet" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="1.0dip" n1:lines="2" n1:lineSpacingExtra="4.0dip" style="?android:textAppearanceMedium" />
+</ru.mail.fragments.view.SnippetThreadItemView>

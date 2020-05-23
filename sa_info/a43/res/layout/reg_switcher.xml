@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentTop="true" />
+    <ImageView n1:id="@id/picture_background" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@color/main_background_color" n1:scaleType="centerCrop" n1:layout_below="@id/toolbar" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/fragment_container" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_below="@id/toolbar" />
+    <View n1:background="@drawable/top_shadow_bg" n1:layout_width="fill_parent" n1:layout_height="2.0dip" n1:layout_below="@id/toolbar" />
+</RelativeLayout>

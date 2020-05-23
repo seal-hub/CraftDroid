@@ -1,0 +1,161 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/btn_skip",
+    "text": "Skip",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".tutorial.TutorialActivity",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/ac_add",
+    "text": "",
+    "content-desc": "List",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".view.MainActivity",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/et_todo_list_name",
+    "text": "Name",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "New To-Do list",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "btn_skip",
+        "id-prefix": "org.secuso.privacyfriendlytodolist:id/",
+        "text": "Skip",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".tutorial.TutorialActivity",
+        "package": "org.secuso.privacyfriendlytodolist",
+        "event_type": "stepping"
+      },
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "ac_add",
+        "id-prefix": "org.secuso.privacyfriendlytodolist:id/",
+        "text": "",
+        "content-desc": "List",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".view.MainActivity",
+        "package": "org.secuso.privacyfriendlytodolist",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "org.secuso.privacyfriendlytodolist",
+    "activity": ".view.MainActivity",
+    "event_type": "gui",
+    "score": 0.47563798692327547,
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sample Todo"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/bt_newtodolist_cancel",
+    "text": "Cancel",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "org.secuso.privacyfriendlytodolist",
+    "activity": ".view.MainActivity",
+    "event_type": "gui",
+    "score": 0.38317799719488893,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/fab_new_task",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".view.MainActivity",
+    "package": "org.secuso.privacyfriendlytodolist",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "org.secuso.privacyfriendlytodolist:id/tv_new_task_listchoose",
+    "text": "Click to select!",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "List:",
+    "stepping_events": [
+      {
+        "class": "android.widget.ImageButton",
+        "resource-id": "fab_new_task",
+        "id-prefix": "org.secuso.privacyfriendlytodolist:id/",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".view.MainActivity",
+        "package": "org.secuso.privacyfriendlytodolist",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "org.secuso.privacyfriendlytodolist",
+    "activity": ".view.MainActivity",
+    "event_type": "oracle",
+    "score": 0.3190297359975833,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//android.widget.TextView[@text=\"Click to select!\"]"
+    ]
+  }
+]

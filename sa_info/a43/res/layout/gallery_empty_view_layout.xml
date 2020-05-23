@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:layout_width="56.0dip" n1:layout_height="56.0dip" n2:srcCompat="@drawable/ic_add_attach_picture_disabled" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <TextView n1:textSize="14.0sp" n1:textColor="@color/text_primary_inverse_disabled" n1:gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dip" n1:text="@string/gallery_browser_empty" />
+</LinearLayout>

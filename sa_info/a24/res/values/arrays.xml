@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="itemSortingEntries">
+        <item>None</item>
+        <item>Starred</item>
+        <item>Activity then Starred</item>
+    </string-array>
+    <string-array name="itemSortingValues">
+        <item>none</item>
+        <item>starred</item>
+        <item>activityStarred</item>
+    </string-array>
+    <string-array name="listSortingEntries">
+        <item>None</item>
+        <item>Alphabetical</item>
+    </string-array>
+    <string-array name="listSortingValues">
+        <item>none</item>
+        <item>alphabetical</item>
+    </string-array>
+</resources>

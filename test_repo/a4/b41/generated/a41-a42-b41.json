@@ -1,0 +1,107 @@
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.appple.app.email:id/subject",
+    "text": "Another rabbit hole",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.appple.app.email",
+    "activity": "com.fsck.k9.activity.MessageList",
+    "event_type": "oracle",
+    "score": 0.5,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Another rabbit hole"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.appple.app.email:id/search",
+    "text": "",
+    "content-desc": "Search",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.appple.app.email",
+    "activity": "com.fsck.k9.activity.MessageList",
+    "event_type": "gui",
+    "score": 0.5,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "android:id/search_src_text",
+    "text": "   Search",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.appple.app.email",
+    "activity": "com.fsck.k9.activity.MessageList",
+    "event_type": "oracle",
+    "score": 0.5,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "search_src_text"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "android:id/search_src_text",
+    "text": "   Search",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.appple.app.email",
+    "activity": "com.fsck.k9.activity.MessageList",
+    "event_type": "gui",
+    "score": 0.5,
+    "action": [
+      "send_keys_and_enter",
+      "Automated"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.appple.app.email:id/subject",
+    "text": "Automated Software Engineering",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.appple.app.email",
+    "activity": "com.fsck.k9.activity.Search",
+    "event_type": "oracle",
+    "score": 0.5,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Automated Software Engineering"
+    ]
+  }
+]

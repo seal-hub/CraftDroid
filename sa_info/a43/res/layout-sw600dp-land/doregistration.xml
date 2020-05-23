@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@color/signup_finish_land_bg" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/picture_background" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@color/main_background_color" n1:scaleType="centerCrop" />
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <ImageView n1:layout_width="4.0dip" n1:layout_height="fill_parent" n1:src="@drawable/doregistration_shadow_left" n1:scaleType="fitXY" />
+        <include n1:layout_width="720.0dip" n1:layout_height="fill_parent" layout="@layout/doregistration_form" />
+        <ImageView n1:layout_width="4.0dip" n1:layout_height="fill_parent" n1:src="@drawable/doregistration_shadow_right" n1:scaleType="fitXY" />
+    </LinearLayout>
+</RelativeLayout>

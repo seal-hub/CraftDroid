@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ru.mail.uikit.view.FontButton n1:textColor="@color/contrast_primary" n1:id="@id/ok_btn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@android:string/ok" n1:layout_alignParentRight="true" style="?android:buttonBarButtonStyle"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <ru.mail.uikit.view.FontButton n2:textColor="@color/contrast_primary" n2:id="@id/cancel_btn" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:text="@android:string/cancel" n2:layout_toLeftOf="@id/ok_btn" style="?android:buttonBarButtonStyle"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.mozilla.focus.browser.DisplayToolbar android:id="@id/appbar" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/urlbar" android:background="@drawable/animated_background" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="56.0dip" android:elevation="4.0dip" app:layout_scrollFlags="enterAlways|exitUntilCollapsed|scroll|snap">
+        <include android:id="@id/toolbarContent" layout="@layout/toolbar" />
+        <org.mozilla.focus.widget.AnimatedProgressBar android:layout_gravity="bottom" android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginBottom="-1.0dip" android:progressDrawable="@drawable/photon_progressbar" android:importantForAccessibility="yes" app:shiftDuration="@integer/progress_shift_duration" app:wrapShiftDrawable="true" style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal" />
+    </FrameLayout>
+</org.mozilla.focus.browser.DisplayToolbar>

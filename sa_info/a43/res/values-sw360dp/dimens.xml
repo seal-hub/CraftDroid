@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="date_picker_buttons_land_bottom_padding">4.0dip</dimen>
+    <dimen name="date_picker_buttons_land_top_padding">4.0dip</dimen>
+    <dimen name="date_picker_header_top_padding">14.0dip</dimen>
+    <dimen name="date_picker_viewpager_top_padding">20.0dip</dimen>
+    <dimen name="filter_dropdown_width">248.0dip</dimen>
+    <dimen name="overflow_popup_max_width">272.0dip</dimen>
+    <dimen name="pin_button_font_size">36.0sp</dimen>
+    <dimen name="pin_button_height">72.0dip</dimen>
+</resources>

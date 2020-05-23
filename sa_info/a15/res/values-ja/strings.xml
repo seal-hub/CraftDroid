@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">ホームへ移動</string>
+    <string name="abc_action_bar_up_description">上へ移動</string>
+    <string name="abc_action_menu_overflow_description">その他のオプション</string>
+    <string name="abc_action_mode_done">完了</string>
+    <string name="abc_activity_chooser_view_see_all">すべて表示</string>
+    <string name="abc_activitychooserview_choose_application">アプリの選択</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">検索…</string>
+    <string name="abc_searchview_description_clear">検索キーワードを削除</string>
+    <string name="abc_searchview_description_query">検索キーワード</string>
+    <string name="abc_searchview_description_search">検索</string>
+    <string name="abc_searchview_description_submit">検索キーワードを送信</string>
+    <string name="abc_searchview_description_voice">音声検索</string>
+    <string name="abc_shareactionprovider_share_with">共有</string>
+    <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
+    <string name="abc_toolbar_collapse_description">折りたたむ</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s &amp;#12391;&amp;#12399;&amp;#12354;&amp;#12394;&amp;#12383;&amp;#12364;&amp;#12377;&amp;#12409;&amp;#12390;&amp;#12434;&amp;#12467;&amp;#12531;&amp;#12488;&amp;#12525;&amp;#12540;&amp;#12523;&amp;#12391;&amp;#12365;&amp;#12414;&amp;#12377;&amp;#12290;&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#27425;&amp;#12398;&amp;#12424;&amp;#12358;&amp;#12395;&amp;#12503;&amp;#12521;&amp;#12452;&amp;#12505;&amp;#12540;&amp;#12488;&amp;#12502;&amp;#12521;&amp;#12454;&amp;#12470;&amp;#12540;&amp;#12392;&amp;#12375;&amp;#12390;&amp;#20351;&amp;#12360;&amp;#12414;&amp;#12377;&amp;#12290;
+  &lt;ul>
+    &lt;li>&amp;#12450;&amp;#12503;&amp;#12522;&amp;#20869;&amp;#12391;&amp;#30452;&amp;#25509;&amp;#12469;&amp;#12452;&amp;#12488;&amp;#12434;&amp;#26908;&amp;#32034;&amp;#12289;&amp;#38322;&amp;#35239;&amp;#12290;&lt;/li>
+    &lt;li>&amp;#36861;&amp;#36321;&amp;#32773;&amp;#12434;&amp;#12502;&amp;#12525;&amp;#12483;&amp;#12463; (&amp;#12354;&amp;#12427;&amp;#12356;&amp;#12399;&amp;#35373;&amp;#23450;&amp;#12434;&amp;#26356;&amp;#26032;&amp;#12375;&amp;#12390;&amp;#35377;&amp;#21487;)&lt;/li>
+    &lt;li>Cookie&amp;#12289;&amp;#26908;&amp;#32034;&amp;#23653;&amp;#27508;&amp;#12289;&amp;#38322;&amp;#35239;&amp;#23653;&amp;#27508;&amp;#12434;&amp;#28040;&amp;#21435;&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s &amp;#12399; Mozilla &amp;#12364;&amp;#38283;&amp;#30330;&amp;#12375;&amp;#12390;&amp;#12356;&amp;#12414;&amp;#12377;&amp;#12290;&amp;#31169;&amp;#12383;&amp;#12385;&amp;#12398;&amp;#12511;&amp;#12483;&amp;#12471;&amp;#12519;&amp;#12531;&amp;#12399;&amp;#20581;&amp;#20840;&amp;#12391;&amp;#38283;&amp;#12363;&amp;#12428;&amp;#12383;&amp;#12452;&amp;#12531;&amp;#12479;&amp;#12540;&amp;#12493;&amp;#12483;&amp;#12488;&amp;#12434;&amp;#30330;&amp;#23637;&amp;#12373;&amp;#12379;&amp;#12427;&amp;#12371;&amp;#12392;&amp;#12391;&amp;#12377;&amp;#12290;&lt;br/>
+&lt;a href=%2$s>&amp;#35443;&amp;#12375;&amp;#12367;&amp;#12399;&amp;#12371;&amp;#12385;&amp;#12425;&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">読み込み中</string>
+    <string name="accessibility_announcement_loading_finished">ウェブサイト読み込み完了</string>
+    <string name="accessibility_dismiss_find_in_page">ページ内検索を閉じる</string>
+    <string name="accessibility_find_in_page_result">%2$d 件中 %1$d 件目</string>
+    <string name="accessibility_next_result">次の結果を検索</string>
+    <string name="accessibility_previous_result">前の結果を検索</string>
+    <string name="action_cancel">キャンセル</string>
+    <string name="action_ok">OK</string>
+    <string name="action_option_add_search_engine">検索エンジンを追加</string>
+    <string name="action_save">保存</string>
+    <string name="common_google_play_services_enable_button">有効にする</string>
+    <string name="common_google_play_services_enable_text">%1$sの実行には、Google Play開発者サービスの有効化が必要です。</string>
+    <string name="common_google_play_services_enable_title">Google Play開発者サービスの有効化</string>
+    <string name="common_google_play_services_install_button">インストール</string>
+    <string name="common_google_play_services_install_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いの端末にはインストールされていません。</string>
+    <string name="common_google_play_services_install_title">Google Play開発者サービスの入手</string>
+    <string name="common_google_play_services_notification_ticker">Google Play開発者サービスのエラー</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
+    <string name="common_google_play_services_unsupported_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いの端末ではサポートされていません。</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_google_play_services_update_text">%1$sの実行にはGoogle Play開発者サービスの更新が必要です。</string>
+    <string name="common_google_play_services_update_title">Google Play開発者サービスの更新</string>
+    <string name="common_google_play_services_updating_text">%1$sの実行にはGoogle Play開発者サービスが必要ですが、このサービスは現在更新中です。</string>
+    <string name="common_google_play_services_wear_update_text">Google Play開発者サービスの新しいバージョンが必要です。まもなく自動更新されます。</string>
+    <string name="common_open_on_phone">スマートフォンで開く</string>
+    <string name="common_signin_button_text">ログイン</string>
+    <string name="common_signin_button_text_long">Googleにログイン</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">前のページへ戻る</string>
+    <string name="content_description_blocking_switch">オンライン追跡をブロック</string>
+    <string name="content_description_clear_input">入力内容を消去</string>
+    <string name="content_description_customtab_exit">前のアプリへ戻る</string>
+    <string name="content_description_dismiss_input">閉じる</string>
+    <string name="content_description_erase">閲覧履歴を消去</string>
+    <string name="content_description_forward">次のページへ進む</string>
+    <string name="content_description_lock">安全な接続</string>
+    <string name="content_description_menu">その他のオプション</string>
+    <string name="content_description_reload">ウェブサイトを再読み込み</string>
+    <string name="content_description_stop">サイトの読み込みを中止</string>
+    <string name="content_description_tab_counter">開かれているタブの数: %1$s</string>
+    <string name="contextmenu_image_copy">画像アドレスをコピー</string>
+    <string name="contextmenu_image_save">画像を保存</string>
+    <string name="contextmenu_image_share">画像を共有</string>
+    <string name="contextmenu_image_warning">保存、共有された画像は %1$s の履歴を消去しても &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#21066;&amp;#38500;&amp;#12373;&amp;#12428;&amp;#12414;&amp;#12379;&amp;#12435;&lt;/b>。</string>
+    <string name="contextmenu_link_copy">リンクアドレスをコピー</string>
+    <string name="contextmenu_link_share">リンクを共有</string>
+    <string name="contextmenu_open_in_new_tab">リンクを新しいタブで開く</string>
+    <string name="custom_autocomplete_quick_add">カスタム URL を追加</string>
+    <string name="custom_tab_copy_url_action">URL をコピーしました</string>
+    <string name="dialog_addtohomescreen_action_add">追加</string>
+    <string name="dialog_addtohomescreen_action_cancel">キャンセル</string>
+    <string name="dialog_addtohomescreen_tracking_protection">ショートカットはトラッキング防止が無効の状態で開かれます</string>
+    <string name="download_dialog_action_cancel">キャンセル</string>
+    <string name="download_dialog_action_download">ダウンロード</string>
+    <string name="download_dialog_title">ファイルをダウンロード</string>
+    <string name="download_dialog_warning">ダウンロードされたファイルは %1$s の履歴を消去しても &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#21066;&amp;#38500;&amp;#12373;&amp;#12428;&amp;#12414;&amp;#12379;&amp;#12435;&lt;/b>。</string>
+    <string name="download_firefox">Firefox をダウンロード</string>
+    <string name="download_snackbar_finished">%1$s 完了</string>
+    <string name="download_snackbar_open">開く</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&amp;#12371;&amp;#12398;&amp;#12469;&amp;#12452;&amp;#12488;&amp;#12364;&amp;#19968;&amp;#26178;&amp;#30340;&amp;#12395;&amp;#21033;&amp;#29992;&amp;#12391;&amp;#12365;&amp;#12394;&amp;#12367;&amp;#12394;&amp;#12387;&amp;#12390;&amp;#12356;&amp;#12383;&amp;#12426;&amp;#12289;&amp;#12469;&amp;#12540;&amp;#12496;&amp;#12540;&amp;#12398;&amp;#36000;&amp;#33655;&amp;#12364;&amp;#39640;&amp;#12377;&amp;#12366;&amp;#12390;&amp;#25509;&amp;#32154;&amp;#12391;&amp;#12365;&amp;#12394;&amp;#12367;&amp;#12394;&amp;#12387;&amp;#12390;&amp;#12356;&amp;#12427;&amp;#21487;&amp;#33021;&amp;#24615;&amp;#12364;&amp;#12354;&amp;#12426;&amp;#12414;&amp;#12377;&amp;#12290;&amp;#12375;&amp;#12400;&amp;#12425;&amp;#12367;&amp;#12375;&amp;#12390;&amp;#12363;&amp;#12425;&amp;#20877;&amp;#24230;&amp;#35430;&amp;#12375;&amp;#12390;&amp;#12367;&amp;#12384;&amp;#12373;&amp;#12356;&amp;#12290;&lt;/li>
+        &lt;li>&amp;#20182;&amp;#12398;&amp;#12469;&amp;#12452;&amp;#12488;&amp;#12418;&amp;#34920;&amp;#31034;&amp;#12391;&amp;#12365;&amp;#12394;&amp;#12356;&amp;#22580;&amp;#21512;&amp;#12289;&amp;#12487;&amp;#12496;&amp;#12452;&amp;#12473;&amp;#12398;&amp;#12487;&amp;#12540;&amp;#12479;&amp;#25509;&amp;#32154;&amp;#12420; Wi-Fi &amp;#25509;&amp;#32154;&amp;#12434;&amp;#30906;&amp;#35469;&amp;#12375;&amp;#12390;&amp;#12367;&amp;#12384;&amp;#12373;&amp;#12356;&amp;#12290;&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">正常に接続できませんでした</string>
+    <string name="error_generic_message">何らかの理由によりこのページを正常に読み込めませんでした。</string>
+    <string name="error_generic_title">申し訳ありません</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&lt;strong>www&lt;/strong>.example.com &amp;#12434;&amp;#38291;&amp;#36949;&amp;#12360;&amp;#12390; 
+          &lt;strong>ww&lt;/strong>.example.com &amp;#12392;&amp;#20837;&amp;#21147;&amp;#12377;&amp;#12427;&amp;#12394;&amp;#12393;&amp;#12289;
+          &amp;#12450;&amp;#12489;&amp;#12524;&amp;#12473;&amp;#12434;&amp;#38291;&amp;#36949;&amp;#12387;&amp;#12390;&amp;#20837;&amp;#21147;&amp;#12375;&amp;#12390;&amp;#12356;&amp;#12394;&amp;#12356;&amp;#12363;&amp;#30906;&amp;#35469;&amp;#12375;&amp;#12390;&amp;#12367;&amp;#12384;&amp;#12373;&amp;#12356;&amp;#12290;&lt;/li>
+        &lt;li>&amp;#20182;&amp;#12398;&amp;#12469;&amp;#12452;&amp;#12488;&amp;#12418;&amp;#34920;&amp;#31034;&amp;#12391;&amp;#12365;&amp;#12394;&amp;#12356;&amp;#22580;&amp;#21512;&amp;#12289;&amp;#12487;&amp;#12496;&amp;#12452;&amp;#12473;&amp;#12398;&amp;#12487;&amp;#12540;&amp;#12479;&amp;#25509;&amp;#32154;&amp;#12420; Wi-Fi &amp;#25509;&amp;#32154;&amp;#12434;&amp;#30906;&amp;#35469;&amp;#12375;&amp;#12390;&amp;#12367;&amp;#12384;&amp;#12373;&amp;#12356;&amp;#12290;&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">サーバーが見つかりませんでした</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#12454;&amp;#12455;&amp;#12502;&amp;#12398;&amp;#12450;&amp;#12489;&amp;#12524;&amp;#12473;&amp;#12399;&amp;#36890;&amp;#24120; &lt;strong>http://www.example.com/&lt;/strong> &amp;#12398;&amp;#12424;&amp;#12358;&amp;#12394;&amp;#12418;&amp;#12398;&amp;#12395;&amp;#12394;&amp;#12426;&amp;#12414;&amp;#12377;&amp;#12290;&lt;/li>
+  &lt;li>&amp;#20870;&amp;#35352;&amp;#21495;&amp;#12420;&amp;#12496;&amp;#12483;&amp;#12463;&amp;#12473;&amp;#12521;&amp;#12483;&amp;#12471;&amp;#12517; (&lt;strong>\\&lt;/strong>) &amp;#12391;&amp;#12399;&amp;#12394;&amp;#12367;&amp;#12289;&amp;#12473;&amp;#12521;&amp;#12483;&amp;#12471;&amp;#12517; (&lt;strong>/&lt;/strong>) &amp;#12364;&amp;#20351;&amp;#12431;&amp;#12428;&amp;#12390;&amp;#12356;&amp;#12427;&amp;#12363;&amp;#30906;&amp;#35469;&amp;#12375;&amp;#12390;&amp;#12367;&amp;#12384;&amp;#12373;&amp;#12356;&amp;#12290;&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">アドレスの書式が正しくありません</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Cookie &amp;#12434;&amp;#28961;&amp;#21177;&amp;#21270;&amp;#12375;&amp;#12383;&amp;#12426;&amp;#25298;&amp;#21542;&amp;#12375;&amp;#12390;&amp;#12356;&amp;#12427;&amp;#12371;&amp;#12392;&amp;#12395;&amp;#12424;&amp;#12426;&amp;#12289;&amp;#12371;&amp;#12398;&amp;#21839;&amp;#38988;&amp;#12364;&amp;#30330;&amp;#29983;&amp;#12375;&amp;#12390;&amp;#12356;&amp;#12427;&amp;#21487;&amp;#33021;&amp;#24615;&amp;#12418;&amp;#12354;&amp;#12426;&amp;#12414;&amp;#12377;&amp;#12290;&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">ページの自動転送設定が正しくありません</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#12469;&amp;#12540;&amp;#12496;&amp;#12540;&amp;#12398;&amp;#35373;&amp;#23450;&amp;#12395;&amp;#21839;&amp;#38988;&amp;#12364;&amp;#12354;&amp;#12427;&amp;#12363;&amp;#12289;&amp;#35504;&amp;#12363;&amp;#12364;&amp;#27491;&amp;#35215;&amp;#12398;&amp;#12469;&amp;#12540;&amp;#12496;&amp;#12540;&amp;#12395;&amp;#12394;&amp;#12426;&amp;#12377;&amp;#12414;&amp;#12375;&amp;#12390;&amp;#12356;&amp;#12427;&amp;#21487;&amp;#33021;&amp;#24615;&amp;#12364;&amp;#12354;&amp;#12426;&amp;#12414;&amp;#12377;&amp;#12290;&lt;/li>
+  &lt;li>&amp;#20197;&amp;#21069;&amp;#12399;&amp;#27491;&amp;#24120;&amp;#12395;&amp;#25509;&amp;#32154;&amp;#12391;&amp;#12365;&amp;#12390;&amp;#12356;&amp;#12383;&amp;#22580;&amp;#21512;&amp;#12289;&amp;#12371;&amp;#12398;&amp;#21839;&amp;#38988;&amp;#12399;&amp;#24656;&amp;#12425;&amp;#12367;&amp;#19968;&amp;#26178;&amp;#30340;&amp;#12394;&amp;#12418;&amp;#12398;&amp;#12391;&amp;#12377;&amp;#12398;&amp;#12391;&amp;#12289;&amp;#24460;&amp;#12391;&amp;#20877;&amp;#24230;&amp;#35430;&amp;#12375;&amp;#12390;&amp;#12415;&amp;#12390;&amp;#12367;&amp;#12384;&amp;#12373;&amp;#12356;&amp;#12290;&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">安全な接続ができませんでした</string>
+    <string name="error_timeout_title">接続がタイムアウトしました</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#12371;&amp;#12398;&amp;#12503;&amp;#12525;&amp;#12488;&amp;#12467;&amp;#12523;&amp;#12434;&amp;#20351;&amp;#29992;&amp;#12377;&amp;#12427;&amp;#12450;&amp;#12489;&amp;#12524;&amp;#12473;&amp;#12434;&amp;#38283;&amp;#12367;&amp;#12395;&amp;#12399;&amp;#12289;&amp;#21029;&amp;#12398;&amp;#12477;&amp;#12501;&amp;#12488;&amp;#12454;&amp;#12455;&amp;#12450;&amp;#12434;&amp;#12452;&amp;#12531;&amp;#12473;&amp;#12488;&amp;#12540;&amp;#12523;&amp;#12377;&amp;#12427;&amp;#24517;&amp;#35201;&amp;#12364;&amp;#12354;&amp;#12427;&amp;#12363;&amp;#12418;&amp;#12375;&amp;#12428;&amp;#12414;&amp;#12379;&amp;#12435;&amp;#12290;&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">アドレスのプロトコルが不明です</string>
+    <string name="errorpage_refresh">再試行</string>
+    <string name="errorpage_title">ページ読み込みエラー</string>
+    <string name="external_app_prompt">%1$s を離れてこのリンクを %2$s で開くことができます。</string>
+    <string name="external_app_prompt_no_app">お使いの端末にはこのリンクを開けるアプリがありません。%1$s を離れて、開けるアプリを %2$s で探すことができます。</string>
+    <string name="external_app_prompt_no_app_title">リンクを開けるアプリを探す</string>
+    <string name="external_app_prompt_title">リンクを他のアプリで開く</string>
+    <string name="external_multiple_apps_matched_exit">プライベートブラウジングを終了しますか？</string>
+    <string name="feedback_erase">閲覧履歴が消去されました。</string>
+    <string name="find_in_page">ページ内検索</string>
+    <string name="find_in_page_input">ページ内検索</string>
+    <string name="find_in_page_result">%1$d/%2$d</string>
+    <string name="firstrun_close_button">了解</string>
+    <string name="firstrun_defaultbrowser_text2">プライベートブラウジングを次のレベルへと進めましょう。サイトを越えてあなたを追跡したり、ページの読み込みを遅くしたりする可能性のある広告その他のコンテンツを自動的にブロック。</string>
+    <string name="firstrun_defaultbrowser_title">プライバシーを強化</string>
+    <string name="firstrun_next_button">次へ</string>
+    <string name="firstrun_privacy_text">%1$s を既定のブラウザーに設定して、他のアプリからウェブページを開いたときに、プライベートブラウジングの恩恵を受けましょう。</string>
+    <string name="firstrun_privacy_title">プライバシーを習慣に</string>
+    <string name="firstrun_search_text">何か違ったものを探していますか？ 設定で別の検索エンジンを既定として選んでみましょう。</string>
+    <string name="firstrun_search_title">好きな方法で検索</string>
+    <string name="firstrun_shortcut_text">%1$s でもお気に入りのサイトへ素早く戻れます。%1$s のメニューから「ホーム画面に追加」を選択するだけ。</string>
+    <string name="firstrun_shortcut_title">ホーム画面にショートカットを追加</string>
+    <string name="firstrun_skip_button">スキップ</string>
+    <string name="gv_prompt_clear">クリア</string>
+    <string name="gv_prompt_password_hint">パスワード</string>
+    <string name="gv_prompt_username_hint">ユーザー名</string>
+    <string name="http_auth_dialog_password">パスワード</string>
+    <string name="http_auth_dialog_title">認証が必要です</string>
+    <string name="http_auth_dialog_username">ユーザー名</string>
+    <string name="menu_about">製品情報</string>
+    <string name="menu_add_to_home_screen">ホーム画面に追加</string>
+    <string name="menu_custom_tab_branding">Powered by %1$s</string>
+    <string name="menu_help">ヘルプ</string>
+    <string name="menu_open_with_a_browser2">他のアプリで開く…</string>
+    <string name="menu_open_with_default_browser2">%1$s で開く</string>
+    <string name="menu_report_site_issue">サイトの問題を報告</string>
+    <string name="menu_rights">あなたの権利</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_share">共有...</string>
+    <string name="menu_trackers_blocked_title">追跡者がブロックされました</string>
+    <string name="menu_whats_new">新着情報</string>
+    <string name="notification_action_erase_and_open">消去して開く</string>
+    <string name="notification_action_open">開く</string>
+    <string name="notification_browsing_session_channel_description">%1$s のセッションは通知をワンタップするだけで消去できます。アプリを開いたり、ブラウザー内でどのページが表示されているか確認したりする必要はありません。</string>
+    <string name="notification_browsing_session_channel_name">プライベートブラウジングセッション</string>
+    <string name="notification_erase_text">閲覧履歴を消去</string>
+    <string name="preference_about">%1$s について</string>
+    <string name="preference_autocomplete_action_add">+ カスタム URL を追加</string>
+    <string name="preference_autocomplete_action_remove_content_description">削除</string>
+    <string name="preference_autocomplete_add_confirmation">新しいカスタム URL を追加しました。</string>
+    <string name="preference_autocomplete_add_error">入力した URL をよく確認してください。</string>
+    <string name="preference_autocomplete_add_example">入力例: example.com</string>
+    <string name="preference_autocomplete_add_example2">例: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">URL を入力するか貼り付けてください</string>
+    <string name="preference_autocomplete_add_title">追加する URL</string>
+    <string name="preference_autocomplete_custom_summary">カスタム自動補完 URL の追加と管理。</string>
+    <string name="preference_autocomplete_duplicate_url_error">URL は既に存在します</string>
+    <string name="preference_autocomplete_learn_more">詳細情報</string>
+    <string name="preference_autocomplete_menu_remove">削除</string>
+    <string name="preference_autocomplete_preinstalled_summary">有効にすると、%1$s のアドレスバーで 450 以上の人気の URL が自動補完されます。</string>
+    <string name="preference_autocomplete_subitem_customlist">カスタム URL</string>
+    <string name="preference_autocomplete_title_add">カスタム URL を追加</string>
+    <string name="preference_autocomplete_title_remove">カスタム URL を削除</string>
+    <string name="preference_category_autocomplete_custom_urls">カスタム URL</string>
+    <string name="preference_category_autocomplete_preinstalled">既定の URL リスト</string>
+    <string name="preference_category_cookies">Cookie とサイトデータ</string>
+    <string name="preference_category_data_choices">データの選択</string>
+    <string name="preference_category_data_collection_use">データの収集と使用</string>
+    <string name="preference_category_general">一般</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">パフォーマンス</string>
+    <string name="preference_category_privacy">プライバシー</string>
+    <string name="preference_category_search">検索</string>
+    <string name="preference_category_switching_apps">アプリを切り替え</string>
+    <string name="preference_category_tracking_protection">トラッキング防止</string>
+    <string name="preference_category_web_content">ウェブコンテンツ</string>
+    <string name="preference_default_browser2">%1$s を既定のブラウザーに設定</string>
+    <string name="preference_language">言語</string>
+    <string name="preference_language_systemdefault">システム標準</string>
+    <string name="preference_mozilla_summary">%1$s について、ヘルプ</string>
+    <string name="preference_mozilla_telemetry2">使用状況データを送信</string>
+    <string name="preference_mozilla_telemetry_summary">詳細情報</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla は %1$s を皆さんに提供し改善するために必要な情報だけを収集するよう努めています。</string>
+    <string name="preference_performance_block_javascript">JavaScript をブロック</string>
+    <string name="preference_performance_block_javascript_summary">ページの読み込みが速くなる可能性がありますが、予期せぬ動作をする可能性もあります</string>
+    <string name="preference_performance_block_webfonts">ウェブフォントをブロック</string>
+    <string name="preference_performance_block_webfonts_summary">アイコンや画像が正常に表示されない場合があります</string>
+    <string name="preference_performance_request_desktop_site">デスクトップサイトを見る</string>
+    <string name="preference_privacy_and_security_header">プライバシーとセキュリティ</string>
+    <string name="preference_privacy_and_security_summary">トラッキング、Cookie、データの選択</string>
+    <string name="preference_privacy_block_ads">追跡広告をブロック</string>
+    <string name="preference_privacy_block_ads_summary">一部の広告は、あなたがその広告をクリックしなくても訪れたサイトを追跡します</string>
+    <string name="preference_privacy_block_analytics">アクセス解析をブロック</string>
+    <string name="preference_privacy_block_analytics_summary">タップやスクロールなどの操作統計を収集、解析、計測するために利用されます</string>
+    <string name="preference_privacy_block_content">他の追跡コンテンツをブロック</string>
+    <string name="preference_privacy_block_content_summary2">有効にすると、ページによっては予期せぬ動作をする原因になります</string>
+    <string name="preference_privacy_block_social">ソーシャル追跡をブロック</string>
+    <string name="preference_privacy_block_social_summary">ユーザーの訪問を追跡するためサイトに埋め込まれ、共有ボタンのように表示されます</string>
+    <string name="preference_privacy_category_cookies">Cookie をブロック</string>
+    <string name="preference_privacy_notice">プライバシー通知</string>
+    <string name="preference_privacy_secure_mode">ステルス</string>
+    <string name="preference_privacy_should_block_cookies_no_option">いいえ</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">サードパーティ Cookie のみブロック</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">はい</string>
+    <string name="preference_privacy_stealth_summary">アプリ切り替え時にウェブページを隠す</string>
+    <string name="preference_search_add2">+ 別の検索エンジンを追加</string>
+    <string name="preference_search_engine_default">既定</string>
+    <string name="preference_search_installed_search_engines">インストールされた検索エンジン</string>
+    <string name="preference_search_remove">削除</string>
+    <string name="preference_search_remove_title">検索エンジンを削除</string>
+    <string name="preference_search_restore">既定の検索エンジンを復元</string>
+    <string name="preference_search_summary">既定、自動補完に設定</string>
+    <string name="preference_state_off">オフ</string>
+    <string name="preference_state_on">オン</string>
+    <string name="preference_subitem_autocomplete">URL 自動補完</string>
+    <string name="preference_switch_autocomplete">自動補完</string>
+    <string name="search_add_confirmation">新しい検索エンジンが追加されました。</string>
+    <string name="search_add_error_duplicate_name">インストールされている検索エンジンの中に同名のものが存在します。</string>
+    <string name="search_add_error_empty_name">検索エンジン名を入力</string>
+    <string name="search_add_error_empty_search">検索語を入力</string>
+    <string name="search_add_error_format">検索語が入力例の書式とマッチしているか確認してください</string>
+    <string name="search_add_manually_example">入力例: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">検索エンジン名</string>
+    <string name="search_add_manually_save">保存</string>
+    <string name="search_add_manually_string">使用する検索語</string>
+    <string name="search_hint">%1$s を検索</string>
+    <string name="search_menu_title">検索</string>
+    <string name="security_popup_insecure_connection">安全でない接続</string>
+    <string name="security_popup_secure_connection">安全な接続</string>
+    <string name="security_popup_security_verified">認証局: %1$s</string>
+    <string name="share_dialog_title">共有方法を選択</string>
+    <string name="shortcut_erase_long_label">閲覧履歴を消去</string>
+    <string name="shortcut_erase_short_label">消去</string>
+    <string name="site_security_icon_content_description">サイトセキュリティ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tabs_tray_action_erase">閲覧履歴を消去</string>
+    <string name="teaser">"プライベートブラウジングを自動的に。
+ブラウズ、消去の繰り返し。"</string>
+    <string name="text_selection_search_action">プライベートに検索</string>
+    <string name="urlbar_hint">検索語またはアドレスを入力</string>
+    <string name="your_rights">あなたの権利</string>
+    <string name="your_rights_content1">%1$s は Mozilla や他の貢献者によって開発されているフリーでオープンソースのソフトウェアです。</string>
+    <string name="your_rights_content2">%1$s は &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Mozilla Public License&lt;/a> やその他オープンソースライセンスの条件に基づいて使用可能となっています。</string>
+    <string name="your_rights_content3">Mozilla、Firefox、%1$s の名称やロゴを含む、Mozilla Foundation や第三者の商標に関するいかなる権利やライセンスもあなたには与えられていません。詳しい情報は &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>&amp;#12371;&amp;#12385;&amp;#12425;&lt;/a> をご覧ください。</string>
+    <string name="your_rights_content4">%1$s の追加ソースコードは様々な他のフリーでオープンソースの &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>&amp;#12521;&amp;#12452;&amp;#12475;&amp;#12531;&amp;#12473;&lt;/a> に基いて公開されています。</string>
+    <string name="your_rights_content5">%1$s は Disconnect, Inc. によって提供されているブロックリストも &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>GNU General Public License v3&lt;/a> の下で単独のリソースとして使用しており、それらは &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>&amp;#12371;&amp;#12385;&amp;#12425;&lt;/a> から入手可能です。</string>
+</resources>

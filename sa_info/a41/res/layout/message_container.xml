@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fsck.k9.ui.messageview.MessageContainerView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fsck.k9.view.MessageWebView android:id="@id/message_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/message_unsigned_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/message_unsigned_divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <View android:layout_gravity="center_vertical" android:background="#ffdd5555" android:layout_width="16.0dip" android:layout_height="4.0dip" android:layout_marginTop="1.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffdd5555" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/unsigned_text_divider_label" />
+            <View android:layout_gravity="center_vertical" android:background="#ffdd5555" android:layout_width="wrap_content" android:layout_height="4.0dip" android:layout_marginTop="1.0dip" />
+        </LinearLayout>
+        <TextView android:id="@id/message_unsigned_text" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/attachments_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/attachments" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.fsck.k9.ui.messageview.MessageContainerView>

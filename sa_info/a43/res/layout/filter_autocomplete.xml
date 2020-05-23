@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.mail.ui.FilteredCompoundAutoCompleteTextView n1:textSize="@dimen/bubble_text_size" n1:textColor="@color/black" n1:gravity="center_vertical" n1:background="@null" n1:paddingLeft="0.0dip" n1:paddingBottom="1.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:hint="@string/filter_from_hint" n1:maxLines="1" n1:singleLine="true" n1:includeFontPadding="false" n1:inputType="textEmailAddress" style="@style/mapp_mailview_text_label"
+  xmlns:n1="http://schemas.android.com/apk/res/android" />

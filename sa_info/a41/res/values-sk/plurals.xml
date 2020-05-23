@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Adresy boli skopírované do schránky.</item>
+        <item quantity="one">Adresa bola skopírovaná do schránky.</item>
+        <item quantity="few">Adresy boli skopírované do schránky.</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Vymazať %1$d správ?</item>
+        <item quantity="one">Vymazať túto správu?</item>
+        <item quantity="few">Vymmazať %1$d správy?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Presunúť %1$d správ do priečinka Nevyžiadaná?</item>
+        <item quantity="one">Presunúť túto správu do priečinka Nevyžiadaná?</item>
+        <item quantity="few">Presunúť %1$d správy do priečinka Nevyžiadaná?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d nových správ</item>
+        <item quantity="one">%d nová správa</item>
+        <item quantity="few">%d nové správy</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s účtov</item>
+        <item quantity="one">1 účet</item>
+        <item quantity="few">%s účty</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">hesiel</item>
+        <item quantity="one">heslo</item>
+        <item quantity="few">heslá</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Nastavovanie hesiel…</item>
+        <item quantity="one">Nastavovanie hesla…</item>
+        <item quantity="few">Nastavovanie hesiel…</item>
+    </plurals>
+</resources>

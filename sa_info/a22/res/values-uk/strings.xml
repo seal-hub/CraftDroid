@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Перейти на головний</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Перейти вгору</string>
+    <string name="abc_action_menu_overflow_description">Інші опції</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Переглянути всі</string>
+    <string name="abc_activitychooserview_choose_application">Вибрати програму</string>
+    <string name="abc_capital_off">ВИМК.</string>
+    <string name="abc_capital_on">УВІМК.</string>
+    <string name="abc_search_hint">Пошук…</string>
+    <string name="abc_searchview_description_clear">Очистити запит</string>
+    <string name="abc_searchview_description_query">Пошуковий запит</string>
+    <string name="abc_searchview_description_search">Пошук</string>
+    <string name="abc_searchview_description_submit">Надіслати запит</string>
+    <string name="abc_searchview_description_voice">Голосовий пошук</string>
+    <string name="abc_shareactionprovider_share_with">Надіслати через</string>
+    <string name="abc_shareactionprovider_share_with_application">Надіслати через %s</string>
+    <string name="abc_toolbar_collapse_description">Згорнути</string>
+    <string name="mdtp_date_v1_monthyear">LLLL yyyy</string>
+    <string name="mdtp_day_picker_description">Дні місяця – ескізи</string>
+    <string name="mdtp_deleted_key">%1$s видалено</string>
+    <string name="mdtp_done_label">Готово</string>
+    <string name="mdtp_hour_picker_description">Вибір годин на циферблаті</string>
+    <string name="mdtp_item_is_selected">Вибрано: %1$s</string>
+    <string name="mdtp_minute_picker_description">Вибір хвилин на циферблаті</string>
+    <string name="mdtp_select_day">Виберіть місяць і день</string>
+    <string name="mdtp_select_hours">Вибрати години</string>
+    <string name="mdtp_select_minutes">Вибрати хвилини</string>
+    <string name="mdtp_select_year">Виберіть рік</string>
+    <string name="mdtp_year_picker_description">Роки – список</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

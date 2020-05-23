@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<services>
+    <service name="MAILRU" />
+    <service name="OUTLOOK" />
+    <service name="HOTMAIL" />
+    <service name="GOOGLE" />
+    <service name="YANDEX" />
+    <service name="MYNET" />
+    <service name="AOL" />
+    <service name="QQ" />
+</services>

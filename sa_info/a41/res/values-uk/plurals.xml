@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Адреси скопійовано до комірки обміну</item>
+        <item quantity="one">Адресу скопійовано до комірки обміну</item>
+        <item quantity="few">Адресу скопійовано до комірки обміну</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Ви дійсно хочете видалити %1$d повідомлень?</item>
+        <item quantity="one">Ви дійсно хочете видалити це повідомлення?</item>
+        <item quantity="few">Ви дійсно хочете видалити %1$d повідомлень?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Ви дійсно хочете перемістити %1$d повідомлень у спам?</item>
+        <item quantity="one">Ви дійсно хочете перемістити це повідомлення в спам?</item>
+        <item quantity="few">Ви дійсно хочете перемістити %1$d повідомлень у спам?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d нових повідомлень</item>
+        <item quantity="one">%d нове повідомлення</item>
+        <item quantity="few">%d нових повідомлень</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s облікових записів</item>
+        <item quantity="one">1 обліковий запис</item>
+        <item quantity="few">%s облікові записи</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">паролів сервера</item>
+        <item quantity="one">пароль сервера</item>
+        <item quantity="few">паролі сервера</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Налаштування паролів…</item>
+        <item quantity="one">Налаштування пароля…</item>
+        <item quantity="few">Налаштування паролів…</item>
+    </plurals>
+</resources>

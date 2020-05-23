@@ -1,0 +1,90 @@
+[
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.appsbyvir.tipcalculator:id/billEditText",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Bill",
+    "stepping_events": [],
+    "package": "com.appsbyvir.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.7,
+    "action": [
+      "clear_and_send_keys",
+      "56.6"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.appsbyvir.tipcalculator:id/tipEditText",
+    "text": "15.0",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Tip %",
+    "stepping_events": [],
+    "package": "com.appsbyvir.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.7,
+    "action": [
+      "clear_and_send_keys",
+      "15"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.appsbyvir.tipcalculator:id/splitBillEditText",
+    "text": "# of ways",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Split Bill",
+    "stepping_events": [],
+    "package": "com.appsbyvir.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.6125254479833976,
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "4"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.appsbyvir.tipcalculator:id/perPersonEditText",
+    "text": "16.27",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Per Person:",
+    "stepping_events": [],
+    "package": "com.appsbyvir.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "oracle",
+    "score": 0.7293815495563893,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "16.27"
+    ]
+  }
+]

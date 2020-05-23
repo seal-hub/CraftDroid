@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">ہوم پر نیویگیٹ کریں</string>
+    <string name="abc_action_bar_up_description">اوپر نیویگیٹ کریں</string>
+    <string name="abc_action_menu_overflow_description">مزید اختیارات</string>
+    <string name="abc_action_mode_done">ہو گیا</string>
+    <string name="abc_activity_chooser_view_see_all">سبھی دیکھیں</string>
+    <string name="abc_activitychooserview_choose_application">ایک ایپ منتخب کریں</string>
+    <string name="abc_capital_off">آف</string>
+    <string name="abc_capital_on">آن</string>
+    <string name="abc_search_hint">تلاش کریں…</string>
+    <string name="abc_searchview_description_clear">استفسار صاف کریں</string>
+    <string name="abc_searchview_description_query">استفسار تلاش کریں</string>
+    <string name="abc_searchview_description_search">تلاش کریں</string>
+    <string name="abc_searchview_description_submit">استفسار جمع کرائیں</string>
+    <string name="abc_searchview_description_voice">صوتی تلاش</string>
+    <string name="abc_shareactionprovider_share_with">اشتراک کریں مع</string>
+    <string name="abc_shareactionprovider_share_with_application">%s کے ساتھ اشتراک کریں</string>
+    <string name="abc_toolbar_collapse_description">سکیڑیں</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s &amp;#1570;&amp;#1662; &amp;#1705;&amp;#1608; &amp;#1705;&amp;#1606;&amp;#1657;&amp;#1585;&amp;#1608;&amp;#1604; &amp;#1583;&amp;#1740;&amp;#1578;&amp;#1740; &amp;#1729;&amp;#1746; &lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2> &amp;#1575;&amp;#1587;&amp;#1705;&amp;#1608; &amp;#1606;&amp;#1580;&amp;#1740; &amp;#1576;&amp;#1585;&amp;#1575;&amp;#1574;&amp;#1608;&amp;#1586;&amp;#1585; &amp;#1705;&amp;#1740; &amp;#1591;&amp;#1585;&amp;#1581; &amp;#1575;&amp;#1587;&amp;#1578;&amp;#1593;&amp;#1605;&amp;#1575;&amp;#1604; &amp;#1705;&amp;#1585;&amp;#1740;&amp;#1722;:
+  &lt;ul> 
+    &lt;li> &amp;#1575;&amp;#1662;&amp;#1604;&amp;#1740; &amp;#1705;&amp;#1740;&amp;#1588;&amp;#1606; &amp;#1605;&amp;#1740;&amp;#1722; &amp;#1729;&amp;#1740; &amp;#1578;&amp;#1604;&amp;#1575;&amp;#1588; &amp;#1575;&amp;#1608;&amp;#1585; &amp;#1576;&amp;#1585;&amp;#1575;&amp;#1572;&amp;#1586; &amp;#1705;&amp;#1585;&amp;#1740;&amp;#1722; &lt;/li>
+    &lt;li>&amp;#1657;&amp;#1585;&amp;#1740;&amp;#1705;&amp;#1585;&amp;#1585;&amp;#1648; &amp;#1705;&amp;#1608; &amp;#1576;&amp;#1604;&amp;#1575;&amp;#1705; &amp;#1705;&amp;#1585;&amp;#1740;&amp;#1722; (&amp;#1740;&amp;#1575; &amp;#1587;&amp;#1657;&amp;#1740;&amp;#1606;&amp;#1711;&amp;#1608;&amp;#1722; &amp;#1705;&amp;#1740; &amp;#1578;&amp;#1575;&amp;#1586;&amp;#1729; &amp;#1705;&amp;#1575;&amp;#1585;&amp;#1740; &amp;#1705;&amp;#1585; &amp;#1705;&amp;#1746; &amp;#1657;&amp;#1585;&amp;#1740;&amp;#1705;&amp;#1585;&amp;#1585;&amp;#1648; &amp;#1705;&amp;#1608; &amp;#1575;&amp;#1580;&amp;#1575;&amp;#1586;&amp;#1578; &amp;#1583;&amp;#1740;&amp;#1722;)&amp;#1748; &lt;/li>
+    &lt;li> &amp;#1705;&amp;#1608;&amp;#1705;&amp;#1740;&amp;#1586; &amp;#1705;&amp;#1746; &amp;#1587;&amp;#1575;&amp;#1578;&amp;#1726; &amp;#1578;&amp;#1604;&amp;#1575;&amp;#1588; &amp;#1575;&amp;#1608;&amp;#1585; &amp;#1576;&amp;#1585;&amp;#1575;&amp;#1572;&amp;#1586;&amp;#1606;&amp;#1711; &amp;#1587;&amp;#1575;&amp;#1576;&amp;#1602;&amp;#1575;&amp;#1578; &amp;#1705;&amp;#1608; &amp;#1576;&amp;#1726;&amp;#1740; &amp;#1581;&amp;#1584;&amp;#1601; &amp;#1705;&amp;#1585;&amp;#1606;&amp;#1746; &amp;#1705;&amp;#1740;&amp;#1604;&amp;#1740;&amp;#1746; &amp;#1605;&amp;#1657;&amp;#1575;&amp;#1574;&amp;#1740;&amp;#1722; &lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s &amp;#1705;&amp;#1740; &amp;#1662;&amp;#1740;&amp;#1583;&amp;#1575;&amp;#1608;&amp;#1575;&amp;#1585; &amp;#1729;&amp;#1746;&amp;#1748; &amp;#1726;&amp;#1605;&amp;#1575;&amp;#1585;&amp;#1740; &amp;#1605;&amp;#1729;&amp;#1605; &amp;#1575;&amp;#1740;&amp;#1705; &amp;#1589;&amp;#1581;&amp;#1578; &amp;#1605;&amp;#1606;&amp;#1583; &amp;#1705;&amp;#1726;&amp;#1604;&amp;#1746; &amp;#1575;&amp;#1606;&amp;#1657;&amp;#1585;&amp;#1606;&amp;#1740;&amp;#1657; &amp;#1705;&amp;#1608; &amp;#1601;&amp;#1585;&amp;#1608;&amp;#1593;&amp;#1648; &amp;#1583;&amp;#1740;&amp;#1606;&amp;#1575; &amp;#1729;&amp;#1746;&amp;#1748; Mozilla&lt;br/>
+&lt;a href=%2$s> &amp;#1605;&amp;#1586;&amp;#1740;&amp;#1583; &amp;#1587;&amp;#1740;&amp;#1705;&amp;#1726;&amp;#1740;&amp;#1722; &lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">لوڈ ہو رہا ہے</string>
+    <string name="accessibility_announcement_loading_finished">ویبسائٹ لوڈ ہو گئی ہے</string>
+    <string name="action_cancel">منسوخ کریں</string>
+    <string name="action_ok">ٹھیک ہے</string>
+    <string name="action_option_add_search_engine">تلاش انجن اضافہ کریں</string>
+    <string name="action_save">محفوظ کریں</string>
+    <string name="common_google_play_services_enable_button">فعال کریں</string>
+    <string name="common_google_play_services_enable_text">‏جب تک آپ Google Play سروسز فعال نہیں کر لیتے، %1$s کام نہیں کرے گی۔</string>
+    <string name="common_google_play_services_enable_title">‏Google Play سروسز فعال کریں</string>
+    <string name="common_google_play_services_install_button">انسٹال کریں</string>
+    <string name="common_google_play_services_install_text">‏%1$s Google Play سروسز کے بغیر نہیں چلے گی، جو آپ کے آلہ سے غائب ہیں۔</string>
+    <string name="common_google_play_services_install_title">‏Google Play سروسز حاصل کریں</string>
+    <string name="common_google_play_services_notification_ticker">‏Google Play سروسز کی خرابی</string>
+    <string name="common_google_play_services_unknown_issue">‏%1$s کو Google Play سروسز کے ساتھ مسئلہ پیش آ رہا ہے۔ براہ کرم دوبارہ کوشش کریں۔</string>
+    <string name="common_google_play_services_unsupported_text">‏%1$s Google Play سروسز کے بغیر نہیں چلے گی، جن کی آپ کا آلہ معاونت نہیں کرتا۔</string>
+    <string name="common_google_play_services_update_button">اپ ڈیٹ کریں</string>
+    <string name="common_google_play_services_update_text">‏جب تک آپ Google Play سروسز اپ ڈیٹ نہیں کر لیتے ہیں %1$s تب تک نہیں چلے گی۔</string>
+    <string name="common_google_play_services_update_title">‏Google Play سروسز اپ ڈیٹ کریں</string>
+    <string name="common_google_play_services_updating_text">‏%1$s Google Play سروسز کے بغیر نہیں چلے گی، جو فی الحال اپ ڈیٹ ہو رہی ہیں۔</string>
+    <string name="common_google_play_services_wear_update_text">‏Google Play سروسز کے نئے ورژن کی ضرورت ہے۔ یہ تھوڑی دیر میں خود ہی اپنے آپ کو اپ ڈیٹ کر لے گا۔</string>
+    <string name="common_open_on_phone">فون پر کھولیں</string>
+    <string name="common_signin_button_text">سائن ان کریں</string>
+    <string name="common_signin_button_text_long">‏Google کے ساتھ سائن ان کریں</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">پیچھے کی طرف جائے</string>
+    <string name="content_description_blocking_switch">ٹریکرز کو بلاک کریں</string>
+    <string name="content_description_clear_input">ان پٹ صاف کریں</string>
+    <string name="content_description_customtab_exit">پچھلی ایپلیکیشن میں واپس جائیں</string>
+    <string name="content_description_dismiss_input">برخاست کریں</string>
+    <string name="content_description_erase">برائوزنگ سابقات مٹائیں</string>
+    <string name="content_description_forward">آگے کی جانب گشت کريں</string>
+    <string name="content_description_lock">قابل بھروسا کنکشن</string>
+    <string name="content_description_menu">مزید اختیارات</string>
+    <string name="content_description_reload">ویب سائٹ دوبارہ لوڈ کریں</string>
+    <string name="content_description_stop">ویبسائَٹ لوڈ کرنا بند کریں</string>
+    <string name="content_description_tab_counter">%1$s ٹیبس کھلے ہیں</string>
+    <string name="contextmenu_image_copy">نقش کا پتہ نقل کریں</string>
+    <string name="contextmenu_image_save">نقش محفوظ کریں</string>
+    <string name="contextmenu_image_share">نقش شیئر کریں</string>
+    <string name="contextmenu_image_warning">محفوظ اور شیئر کردہ تصاویر &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#1581;&amp;#1592;&amp;#1601; &amp;#1606;&amp;#1729;&amp;#1740;&amp;#1722; &amp;#1705;&amp;#1740; &amp;#1580;&amp;#1575;&amp;#1574;&amp;#1746;&amp;#1711;&amp;#1740;&lt;/b> جب آپ اپنی %1$s تاریخ مٹاتے ہے۔</string>
+    <string name="contextmenu_link_copy">ربط نقل کریں</string>
+    <string name="contextmenu_link_share">ربط شیئر کریں</string>
+    <string name="contextmenu_open_in_new_tab">ربط نئی ٹیب میں کھولیں</string>
+    <string name="dialog_addtohomescreen_action_add">اظافہ کریں</string>
+    <string name="dialog_addtohomescreen_action_cancel">منسوخ کریں</string>
+    <string name="download_dialog_action_cancel">منسوخ کریں</string>
+    <string name="download_dialog_action_download">ڈاؤن لوڈ</string>
+    <string name="download_dialog_title">مسل ڈائونلوڈ کریں</string>
+    <string name="download_firefox">Firefox ڈائونلوڈ کریں</string>
+    <string name="download_snackbar_finished">%1$s مکمل ہوا</string>
+    <string name="download_snackbar_open">کھولیں</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&amp;#1608;&amp;#1740;&amp;#1576; &amp;#1587;&amp;#1575;&amp;#1574;&amp;#1657; &amp;#1593;&amp;#1575;&amp;#1585;&amp;#1590;&amp;#1740; &amp;#1591;&amp;#1608;&amp;#1585; &amp;#1662;&amp;#1585; &amp;#1593;&amp;#1583;&amp;#1605; &amp;#1583;&amp;#1587;&amp;#1578;&amp;#1740;&amp;#1575;&amp;#1576; &amp;#1740;&amp;#1575; &amp;#1576;&amp;#1729;&amp;#1578; &amp;#1605;&amp;#1589;&amp;#1585;&amp;#1608;&amp;#1601; &amp;#1729;&amp;#1608; &amp;#1587;&amp;#1705;&amp;#1578;&amp;#1740; &amp;#1729;&amp;#1746; &amp;#1748; &amp;#1670;&amp;#1606;&amp;#1583; &amp;#1604;&amp;#1605;&amp;#1581;&amp;#1608;&amp;#1722; &amp;#1605;&amp;#1740;&amp;#1722; &amp;#1583;&amp;#1608;&amp;#1576;&amp;#1575;&amp;#1585;&amp;#1729; &amp;#1705;&amp;#1608;&amp;#1588;&amp;#1588; &amp;#1705;&amp;#1585;&amp;#1740;&amp;#1722; &amp;#1748;&lt;/li>
+        &lt;li>&amp;#1575;&amp;#1711;&amp;#1585; &amp;#1570;&amp;#1662; &amp;#1705;&amp;#1608;&amp;#1574;&amp;#1740; &amp;#1576;&amp;#1726;&amp;#1740; &amp;#1589;&amp;#1601;&amp;#1581;&amp;#1575;&amp;#1578; &amp;#1604;&amp;#1608;&amp;#1672; &amp;#1606;&amp;#1729;&amp;#1740;&amp;#1722; &amp;#1705;&amp;#1585; &amp;#1587;&amp;#1705; &amp;#1585;&amp;#1729;&amp;#1746;, &amp;#1575;&amp;#1662;&amp;#1606;&amp;#1746; &amp;#1605;&amp;#1608;&amp;#1576;&amp;#1575;&amp;#1574;&amp;#1604; &amp;#1570;&amp;#1604;&amp;#1729; &amp;#1705;&amp;#1746; &amp;#1672;&amp;#1740;&amp;#1657;&amp;#1575; &amp;#1740;&amp;#1575; &amp;#1608;&amp;#1575;&amp;#1574;&amp;#1740; &amp;#1601;&amp;#1575;&amp;#1574;&amp;#1740; &amp;#1705;&amp;#1606;&amp;#1705;&amp;#1588;&amp;#1606; &amp;#1705;&amp;#1740; &amp;#1662;&amp;#1681;&amp;#1578;&amp;#1575;&amp;#1604; &amp;#1705;&amp;#1585;&amp;#1740;&amp;#1722; &amp;#1748;&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">جڑنے میں ناکام رہا</string>
+    <string name="error_generic_message">ہم کچھ وجوہات کی بنا پر یہ صفحہ لوڈ نہیں کر سکتے۔</string>
+    <string name="error_generic_title">اف</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li> &amp;#1662;&amp;#1578;&amp;#1729; &amp;#1705;&amp;#1746; &amp;#1606;&amp;#1602;&amp;#1575;&amp;#1574;&amp;#1589; &amp;#1705;&amp;#1740; &amp;#1662;&amp;#1681;&amp;#1578;&amp;#1575;&amp;#1604; &amp;#1705;&amp;#1585;&amp;#1740;&amp;#1722; &amp;#1580;&amp;#1740;&amp;#1587;&amp;#1575; &amp;#1705;&amp;#1729;
+          &lt;strong>ww&lt;/strong>.example.com &amp;#1705;&amp;#1740; &amp;#1580;&amp;#1711;&amp;#1729;
+          &lt;strong>www&lt;/strong>.example.com&lt;/li>
+        &lt;li> &amp;#1575;&amp;#1711;&amp;#1585; &amp;#1570;&amp;#1662; &amp;#1705;&amp;#1587;&amp;#1740; &amp;#1576;&amp;#1726;&amp;#1740; &amp;#1589;&amp;#1601;&amp;#1581;&amp;#1729; &amp;#1705;&amp;#1608; &amp;#1604;&amp;#1608;&amp;#1672; &amp;#1606;&amp;#1729;&amp;#1740;&amp;#1722; &amp;#1705;&amp;#1585; &amp;#1662;&amp;#1575; &amp;#1585;&amp;#1729;&amp;#1746; &amp;#1578;&amp;#1608; &amp;#1575;&amp;#1662;&amp;#1606;&amp;#1575; &amp;#1570;&amp;#1604;&amp;#1729; &amp;#1705;&amp;#1746; &amp;#1672;&amp;#1740;&amp;#1657;&amp;#1575; &amp;#1740;&amp;#1575; &amp;#1608;&amp;#1575;&amp;#1574;&amp;#1740;-&amp;#1601;&amp;#1575;&amp;#1574;&amp;#1740; &amp;#1705;&amp;#1740; &amp;#1662;&amp;#1681;&amp;#1578;&amp;#1575;&amp;#1604; &amp;#1705;&amp;#1585;&amp;#1740;&amp;#1722;&amp;#1748;&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">پیش کار نہیں ملا</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li> &amp;#1608;&amp;#1740;&amp;#1576; &amp;#1705;&amp;#1746; &amp;#1662;&amp;#1578;&amp;#1746; &amp;#1593;&amp;#1605;&amp;#1608;&amp;#1605;&amp;#1740; &amp;#1591;&amp;#1608;&amp;#1585; &amp;#1662;&amp;#1585; &amp;#1575;&amp;#1740;&amp;#1587;&amp;#1746; &amp;#1604;&amp;#1726;&amp;#1705;&amp;#1746; &amp;#1580;&amp;#1575;&amp;#1578;&amp;#1746; &amp;#1729;&amp;#1740;&amp;#1722; &lt;strong>http://www.example.com/&lt;/strong>&lt;/li>
+  &lt;li> .(&lt;strong>/&lt;/strong>&amp;#1575;&amp;#1587; &amp;#1576;&amp;#1575;&amp;#1578; &amp;#1705;&amp;#1608; &amp;#1740;&amp;#1602;&amp;#1740;&amp;#1606;&amp;#1740; &amp;#1576;&amp;#1606;&amp;#1575;&amp;#1574;&amp;#1740;&amp;#1722; &amp;#1705;&amp;#1746; &amp;#1570;&amp;#1662; &amp;#1587;&amp;#1740;&amp;#1583;&amp;#1726;&amp;#1575; &amp;#1587;&amp;#1604;&amp;#1740;&amp;#1588; &amp;#1575;&amp;#1587;&amp;#1578;&amp;#1593;&amp;#1605;&amp;#1575;&amp;#1604; &amp;#1705;&amp;#1585; &amp;#1585;&amp;#1729;&amp;#1746; &amp;#1729;&amp;#1740;&amp;#1722; (&amp;#1580;&amp;#1740;&amp;#1587;&amp;#1575; &amp;#1705;&amp;#1746; &lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">پتہ جائز نہیں ہے</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#1740;&amp;#1729; &amp;#1605;&amp;#1587;&amp;#1574;&amp;#1604;&amp;#1729; &amp;#1705;&amp;#1576;&amp;#1726;&amp;#1740; &amp;#1705;&amp;#1576;&amp;#1726;&amp;#1740; &amp;#1606;&amp;#1575;&amp;#1575;&amp;#1729;&amp;#1604; &amp;#1576;&amp;#1606;&amp;#1575;&amp;#1606;&amp;#1746; &amp;#1740;&amp;#1575; &amp;#1705;&amp;#1608;&amp;#1705;&amp;#1740;&amp;#1608;&amp;#1722; &amp;#1705;&amp;#1608; &amp;#1602;&amp;#1576;&amp;#1608;&amp;#1604; &amp;#1705;&amp;#1585;&amp;#1606;&amp;#1746; &amp;#1587;&amp;#1746; &amp;#1575;&amp;#1606;&amp;#1705;&amp;#1575;&amp;#1585; &amp;#1705;&amp;#1740; &amp;#1608;&amp;#1580;&amp;#1729; &amp;#1587;&amp;#1746; &amp;#1570;&amp;#1587;&amp;#1705;&amp;#1578;&amp;#1575; &amp;#1729;&amp;#1746;&amp;#1748;&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">پہ صفحہ صحیح طرج سے دوسری سمت نہیں جا رہا</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>  &amp;#1740;&amp;#1729; &amp;#1605;&amp;#1587;&amp;#1574;&amp;#1604;&amp;#1729; &amp;#1662;&amp;#1740;&amp;#1588; &amp;#1705;&amp;#1575;&amp;#1585; &amp;#1705;&amp;#1740; &amp;#1578;&amp;#1588;&amp;#1705;&amp;#1740;&amp;#1604; &amp;#1605;&amp;#1740;&amp;#1722; &amp;#1576;&amp;#1726;&amp;#1740; &amp;#1729;&amp;#1608; &amp;#1587;&amp;#1705;&amp;#1578;&amp;#1575; &amp;#1729;&amp;#1746; &amp;#1740;&amp;#1575; &amp;#1705;&amp;#1608;&amp;#1574;&amp;#1740; &amp;#1662;&amp;#1740;&amp;#1588;&amp;#1705;&amp;#1575;&amp;#1585; &amp;#1705;&amp;#1740; &amp;#1606;&amp;#1602;&amp;#1575;&amp;#1604;&amp;#1740; &amp;#1705;&amp;#1740; &amp;#1705;&amp;#1608;&amp;#1588;&amp;#1588; &amp;#1705;&amp;#1585;&amp;#1585;&amp;#1729;&amp;#1575; &amp;#1729;&amp;#1746;&lt;/li>
+  &lt;li> &amp;#1575;&amp;#1711;&amp;#1585; &amp;#1570;&amp;#1662; &amp;#1605;&amp;#1575;&amp;#1590;&amp;#1740; &amp;#1605;&amp;#1740;&amp;#1722; &amp;#1575;&amp;#1587; &amp;#1662;&amp;#1740;&amp;#1588; &amp;#1705;&amp;#1575;&amp;#1585; &amp;#1662;&amp;#1585; &amp;#1705;&amp;#1575;&amp;#1605;&amp;#1740;&amp;#1575;&amp;#1576;&amp;#1740; &amp;#1587;&amp;#1746; &amp;#1580;&amp;#1681;&amp;#1670;&amp;#1705;&amp;#1746; &amp;#1729;&amp;#1740;&amp;#1722;&amp;#1548; &amp;#1578;&amp;#1608; &amp;#1606;&amp;#1602;&amp;#1589; &amp;#1593;&amp;#1575;&amp;#1585;&amp;#1590;&amp;#1740; &amp;#1576;&amp;#1726;&amp;#1740; &amp;#1729;&amp;#1608; &amp;#1587;&amp;#1705;&amp;#1578;&amp;#1575; &amp;#1729;&amp;#1746;&amp;#1548; &amp;#1575;&amp;#1608;&amp;#1585; &amp;#1570;&amp;#1662; &amp;#1578;&amp;#1726;&amp;#1608;&amp;#1681;&amp;#1740; &amp;#1583;&amp;#1740;&amp;#1585; &amp;#1576;&amp;#1593;&amp;#1583;&amp;#1583;&amp;#1608;&amp;#1576;&amp;#1575;&amp;#1585;&amp;#1729; &amp;#1705;&amp;#1608;&amp;#1588;&amp;#1588; &amp;#1576;&amp;#1726;&amp;#1740; &amp;#1705;&amp;#1585;&amp;#1587;&amp;#1705;&amp;#1578;&amp;#1746; &amp;#1729;&amp;#1740;&amp;#1722;&amp;#1748; &lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">قابل بھروسا کنکشن ناکام رہا</string>
+    <string name="error_timeout_title">رابطے کا وقت ختم ہوا</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#1570;&amp;#1662; &amp;#1575;&amp;#1587; &amp;#1662;&amp;#1578;&amp;#1729; &amp;#1705;&amp;#1608; &amp;#1705;&amp;#1726;&amp;#1608;&amp;#1604;&amp;#1606;&amp;#1746; &amp;#1705;&amp;#1746; &amp;#1604;&amp;#1574;&amp;#1746; &amp;#1583;&amp;#1740;&amp;#1711;&amp;#1585; &amp;#1587;&amp;#1575;&amp;#1601;&amp;#1657; &amp;#1608;&amp;#1740;&amp;#1574;&amp;#1585; &amp;#1578;&amp;#1606;&amp;#1589;&amp;#1740;&amp;#1576; &amp;#1705;&amp;#1585;&amp;#1606;&amp;#1746; &amp;#1705;&amp;#1740; &amp;#1590;&amp;#1585;&amp;#1608;&amp;#1585;&amp;#1578; &amp;#1662;&amp;#1681; &amp;#1587;&amp;#1705;&amp;#1578;&amp;#1740; &amp;#1729;&amp;#1746; &amp;#1748;&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">سائٹ کا پتہ سمجھ نہیں آیا</string>
+    <string name="errorpage_refresh">دوبارہ کوشش کریں</string>
+    <string name="errorpage_title">صفحہ لوڈ کرنے میں مسلہ ہے</string>
+    <string name="external_app_prompt">اس ربط کو %2$s میں کھولنے کے لیےآپ %1$s چھوڑ سکتے ہیں۔</string>
+    <string name="external_app_prompt_no_app">آپ کے آلہ پر کوئی بھی ایپلیکیثن اس ربط کو کھولنے کی اھل نہِں۔ آپ %1$s کو چھوڑ کر %2$s کو تلاش کریں ایک ایسی اپلی کیشن جو یہ کر سکتی ہو۔</string>
+    <string name="external_app_prompt_no_app_title">ایک ایپیلیکیشن تلاش کریں جو ربط کو کھول سکے</string>
+    <string name="external_app_prompt_title">کسی دوسری اپلیکیشن میں ربط کھولیں</string>
+    <string name="external_multiple_apps_matched_exit">نجی براؤزنگ سے خروج کریں؟</string>
+    <string name="feedback_erase">آپ کے برائوزنگ سابقات مٹا دیئے گئے ہیں۔</string>
+    <string name="firstrun_close_button">ٹھیک ہے، مجھے سمجھ آگئی ہے!</string>
+    <string name="firstrun_defaultbrowser_title">آپ کی نجی نوعیت کو پاور اپ کرے</string>
+    <string name="firstrun_next_button">آگے</string>
+    <string name="firstrun_privacy_title">رازداری کو عادت بنائیں</string>
+    <string name="firstrun_search_text">کچھ مختلف ڈھونڈ رہے ہیں؟ سیٹنگوں سے دوسرے تلاش انجن کا انتخاب کریں۔</string>
+    <string name="firstrun_search_title">آپ کی تلاش، آپ کی طرز پر</string>
+    <string name="firstrun_shortcut_text">%1$s میں جلد ہی اپنی پسندیدہ سائٹ پر واپس آئیں۔ صرف %1$s مینو سے \"ابتدائی اسکرین پر شامل کریں\" کا انخاب کریں۔</string>
+    <string name="firstrun_shortcut_title">اپنی ابتدائی اسکرین پر تیز راہ کا ا ضافہ کریں</string>
+    <string name="firstrun_skip_button">چھوڈیں</string>
+    <string name="gv_prompt_clear">صاف کریں</string>
+    <string name="gv_prompt_password_hint">پاس ورڈ</string>
+    <string name="gv_prompt_username_hint">صارف کا نام</string>
+    <string name="menu_about">کے بارے میں</string>
+    <string name="menu_add_to_home_screen">ابتدائی اسکرین پر اظافہ کریں</string>
+    <string name="menu_help">مدد</string>
+    <string name="menu_open_with_a_browser2">…میں کھولیں</string>
+    <string name="menu_open_with_default_browser2">%1$s میں کھولیں</string>
+    <string name="menu_rights">آپ کے حقوق</string>
+    <string name="menu_settings">سیٹنگیں</string>
+    <string name="menu_share">شیئر کریں…</string>
+    <string name="menu_trackers_blocked_title">ٹریکر بلاک کردہ</string>
+    <string name="menu_whats_new">نیا کیا ہے</string>
+    <string name="notification_action_erase_and_open">مٹائیں اور کھولیں</string>
+    <string name="notification_action_open">کھولیں</string>
+    <string name="notification_browsing_session_channel_name">نجی برائوزنگ سیشن</string>
+    <string name="notification_erase_text">برائوزنگ سابقات مٹائیں</string>
+    <string name="preference_about">کے بارے میں%1$s</string>
+    <string name="preference_autocomplete_action_remove_content_description">ہٹائیں</string>
+    <string name="preference_autocomplete_add_confirmation">نئے تخصیصی URL کا اظافہ کر دیا گیا ہے۔</string>
+    <string name="preference_autocomplete_add_example">مثال: example.com</string>
+    <string name="preference_autocomplete_add_hint">URL چسپاں یا داخل کریں</string>
+    <string name="preference_autocomplete_add_title">URL اظافہ کرنے کے لیئے</string>
+    <string name="preference_autocomplete_learn_more">مزید سیکھیں</string>
+    <string name="preference_autocomplete_menu_remove">ہٹائیں</string>
+    <string name="preference_autocomplete_subitem_customlist">مخصوص URLs</string>
+    <string name="preference_autocomplete_title_remove">مخصوص URL ہٹائیں</string>
+    <string name="preference_category_autocomplete_preinstalled">طے شدہ URL فہرست</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">کارکردگی</string>
+    <string name="preference_category_privacy">رازداری</string>
+    <string name="preference_category_search">تلاش</string>
+    <string name="preference_default_browser2">%1$s و طےشدہ براؤزر بنائیں</string>
+    <string name="preference_language">زبان</string>
+    <string name="preference_language_systemdefault">نظام طے شدہ</string>
+    <string name="preference_mozilla_telemetry2">استعمال شدہ کوائف ارسال کریں</string>
+    <string name="preference_mozilla_telemetry_summary">مزید سیکھیں</string>
+    <string name="preference_performance_block_webfonts">ویب فونٹس بلاک کریں</string>
+    <string name="preference_performance_block_webfonts_summary">نتیجتن اسکی شاید آئیکن یا تصاویر گایب ہو سکتی ہے</string>
+    <string name="preference_privacy_block_ads">اشتھار ٹریکرز کو بلاک کریں</string>
+    <string name="preference_privacy_block_ads_summary">چند اشتہاری ٹریکر سائَٹ دورہ کرتی ہیں حب کہ آپ نے اشتتہارات پر کلک بھی نہ کیا ہو</string>
+    <string name="preference_privacy_block_analytics">تجزیاتی ٹریکرز کو بلاک کریں</string>
+    <string name="preference_privacy_block_analytics_summary">سرگرمی جیسے کہ تھپتپانا اور طورمار کرنا کی پہمائش اور تجزیہ کرنے کے لیئے استعمال ہوتا ہے</string>
+    <string name="preference_privacy_block_content">دیگر مواد کے ٹڑیکرز بلاک کریں</string>
+    <string name="preference_privacy_block_content_summary2">اہل بنانے کی وجہ سے شاید چند صفحات غیر متوقع برتائو کر سکتے ہیں</string>
+    <string name="preference_privacy_block_social">سماجی ٹریکرز بلاک کریں</string>
+    <string name="preference_privacy_notice">رازداری کا نوٹس</string>
+    <string name="preference_privacy_secure_mode">سٹلتھ</string>
+    <string name="preference_privacy_stealth_summary">اہپس تبدیل کرنے وقت ویب صفحات کو چھپائیں</string>
+    <string name="preference_search_add2">ایک اور تلاش انجن کا اضافہ کریں</string>
+    <string name="preference_search_engine_default">طے شدہ</string>
+    <string name="preference_search_installed_search_engines">تنصیب شدہ تلاش انجن</string>
+    <string name="preference_search_remove">ہٹائیں</string>
+    <string name="preference_search_remove_title">تلاش انجن ہٹائیں</string>
+    <string name="preference_search_restore">طےشدہ تلاش انجن بحال کریں</string>
+    <string name="preference_state_off">بند</string>
+    <string name="preference_state_on">چالو</string>
+    <string name="preference_subitem_autocomplete">URL خودکار تکميل</string>
+    <string name="preference_switch_autocomplete">خودکار تکميل</string>
+    <string name="search_add_confirmation">نیا تلاش انجن شامل کر دیا گیا۔</string>
+    <string name="search_add_error_empty_name">تلاش انجن کا نام داخل کریں</string>
+    <string name="search_add_error_empty_search">ایک سٹرنگ داخل کریں</string>
+    <string name="search_add_manually_example">مثلاٰ؛ example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">تلاش انجن کا نام</string>
+    <string name="search_add_manually_save">محفوظ کریں</string>
+    <string name="search_add_manually_string">استعمال کرنے کے لیئے اسٹرنگ تلاش کریں</string>
+    <string name="search_hint">۔%1$s کے لئے تلاش کریں</string>
+    <string name="search_menu_title">تلاش</string>
+    <string name="security_popup_insecure_connection">غیر مھفوظ کنکشن</string>
+    <string name="security_popup_secure_connection">قابل بھروسا کنکشن</string>
+    <string name="share_dialog_title">کے زریعے شیئر کریں</string>
+    <string name="shortcut_erase_long_label">برائوزنگ سابقات مٹائیں</string>
+    <string name="shortcut_erase_short_label">مٹائيں</string>
+    <string name="status_bar_notification_info_overflow">‎999+‎</string>
+    <string name="tabs_tray_action_erase">برائوزنگ سابقات مٹائیں</string>
+    <string name="teaser">"خودکار نجی برائوزنگ۔
+برائوز کریں۔ جزف کریں۔ دہرائیں۔"</string>
+    <string name="text_selection_search_action">نجی طور پر طلاش کرے</string>
+    <string name="urlbar_hint">پتہ تلاش یا داخل کریں</string>
+    <string name="your_rights">آپ کے حقوق</string>
+</resources>

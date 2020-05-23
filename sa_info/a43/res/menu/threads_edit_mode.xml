@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@drawable/ic_action_read" n1:id="@id/toolbar_thread_action_read" n1:title="@string/mapp_mark_all_read" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="@drawable/ic_action_read" n3:id="@id/toolbar_thread_action_unread" n3:title="@string/mapp_mark_all_unread" n4:showAsAction="always"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <menu>
+            <item n3:id="@id/toolbar_thread_sub_action_read" n3:title="@string/mapp_mark_all_read" n4:showAsAction="always" />
+            <item n3:id="@id/toolbar_thread_sub_action_unread" n3:title="@string/mapp_mark_all_unread" n4:showAsAction="always" />
+        </menu>
+    </item>
+    <item n5:icon="@drawable/ic_action_flag" n5:id="@id/toolbar_thread_action_flag" n5:title="@string/mapp_mark_all_flagged" n6:showAsAction="always"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <menu>
+            <item n5:id="@id/toolbar_thread_sub_action_flag" n5:title="@string/mapp_mark_all_flagged" n6:showAsAction="always" />
+            <item n5:id="@id/toolbar_thread_sub_action_unflag" n5:title="@string/mapp_mark_all_unflagged" n6:showAsAction="always" />
+        </menu>
+    </item>
+    <item n7:icon="@drawable/ic_action_flag" n7:id="@id/toolbar_thread_action_unflag" n7:title="@string/mapp_mark_all_unflagged" n8:showAsAction="always"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <item n9:icon="@drawable/ic_action_archive" n9:id="@id/toolbar_thread_action_archive" n9:title="@string/archive" n10:showAsAction="always"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <item n11:icon="@drawable/ic_action_delete" n11:id="@id/toolbar_thread_action_delete" n11:title="@string/delete" n12:showAsAction="always"
+      xmlns:n11="http://schemas.android.com/apk/res/android" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+    <item n13:icon="@drawable/ic_action_move" n13:id="@id/toolbar_thread_action_move" n13:title="@string/action_move_to_folder" n14:showAsAction="ifRoom"
+      xmlns:n13="http://schemas.android.com/apk/res/android" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+    <item n15:icon="@drawable/ic_action_spam" n15:id="@id/toolbar_thread_action_spam" n15:title="@string/mapp_mark_as_spam" n16:showAsAction="collapseActionView"
+      xmlns:n15="http://schemas.android.com/apk/res/android" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+    <item n17:icon="@drawable/ic_action_unspam" n17:id="@id/toolbar_thread_action_unspam" n17:title="@string/mapp_mark_as_nospam" n18:showAsAction="collapseActionView"
+      xmlns:n17="http://schemas.android.com/apk/res/android" xmlns:n18="http://schemas.android.com/apk/res-auto" />
+    <item n19:icon="@drawable/ic_action_select_all" n19:id="@id/toolbar_action_select_all" n19:title="@string/select_all" n20:showAsAction="collapseActionView"
+      xmlns:n19="http://schemas.android.com/apk/res/android" xmlns:n20="http://schemas.android.com/apk/res-auto" />
+</menu>

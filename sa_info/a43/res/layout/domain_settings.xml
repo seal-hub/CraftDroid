@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout n1:id="@id/domain_settings" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:divider="?horizontal_divider" n1:stretchColumns="1"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/domain_settings_header" />
+    <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+    <ru.mail.uikit.view.FontTextView n1:id="@id/incoming_server" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/incoming_server" style="@style/Reg.Header" />
+    <View n1:id="@id/divider2" n1:background="@android:color/white" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="30.0dip" />
+    <View n1:id="@id/divider1" n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+    <ru.mail.widget.RegView n1:id="@id/incoming_host_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:labelText="@string/host" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <ru.mail.widget.FontDefaultValueEditText n1:id="@id/incoming_host" n1:layout_width="0.0dip" n1:layout_height="fill_parent" />
+    </ru.mail.widget.RegView>
+    <View n1:id="@id/divider3" n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+    <ru.mail.widget.RegView n1:id="@id/incoming_port_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n3:labelText="@string/port" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <ru.mail.widget.FontDefaultValueEditText n1:id="@id/incoming_port" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:maxLength="@integer/port_max_length" n1:inputType="number" />
+    </ru.mail.widget.RegView>
+    <View n1:id="@id/divider4" n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+    <ru.mail.widget.RegView n1:id="@id/incoming_ssl_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n4:labelText="@string/ssl" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <RadioGroup n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/incoming_ssl" n1:paddingLeft="@dimen/domain_settings_field_padding_horizontal" n1:paddingRight="@dimen/domain_settings_field_padding_horizontal" n1:layout_width="fill_parent" n1:layout_height="@dimen/domain_settings_field_height">
+            <RadioButton n1:id="@id/incoming_ssl_on" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/domain_settings_field_padding_horizontal" n1:checked="true" n1:text="@string/ssl_on" />
+            <RadioButton n1:id="@id/incoming_ssl_off" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/ssl_off" />
+        </RadioGroup>
+    </ru.mail.widget.RegView>
+    <View n1:id="@id/divider5" n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+    <ru.mail.uikit.view.FontTextView n1:id="@id/outgoing_server" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/outgoing_server" style="@style/Reg.Header" />
+    <View n1:id="@id/divider6" n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+    <ru.mail.widget.RegView n1:id="@id/outgoing_host_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n5:labelText="@string/host" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <ru.mail.widget.FontDefaultValueEditText n1:id="@id/outgoing_host" n1:layout_width="0.0dip" n1:layout_height="fill_parent" />
+    </ru.mail.widget.RegView>
+    <View n1:id="@id/divider7" n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+    <ru.mail.widget.RegView n1:id="@id/outgoing_port_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n6:labelText="@string/port" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <ru.mail.widget.FontDefaultValueEditText n1:id="@id/outgoing_port" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:maxLength="@integer/port_max_length" n1:inputType="number" />
+    </ru.mail.widget.RegView>
+    <View n1:id="@id/divider8" n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+    <ru.mail.widget.RegView n1:id="@id/outgoing_ssl_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n7:labelText="@string/ssl" xmlns:n7="http://schemas.android.com/apk/res-auto">
+        <RadioGroup n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/outgoing_ssl" n1:paddingLeft="@dimen/domain_settings_field_padding_horizontal" n1:paddingRight="@dimen/domain_settings_field_padding_horizontal" n1:layout_width="fill_parent" n1:layout_height="@dimen/domain_settings_field_height">
+            <RadioButton n1:id="@id/outgoing_ssl_on" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/domain_settings_field_padding_horizontal" n1:checked="true" n1:text="@string/ssl_on" />
+            <RadioButton n1:id="@id/outgoing_ssl_off" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/ssl_off" />
+        </RadioGroup>
+    </ru.mail.widget.RegView>
+    <include n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/captcha_block" />
+</TableLayout>

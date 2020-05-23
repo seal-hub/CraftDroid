@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Адресите са копирани</item>
+        <item quantity="one">Адресът е копиран</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Наистина ли желаете да изтриете %1$d съобщения?</item>
+        <item quantity="one">Наистина ли желаете да изтриете това съобщение?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Наистина ли желаете да преместите %1$d съобщения в папката за спам?</item>
+        <item quantity="one">Наисина ли желаете да преместите това съобщение в папката за спам?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d нови съобщения</item>
+        <item quantity="one">%d ново съобщение</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Изтегляне на %d резултата</item>
+        <item quantity="one">Изтегляне на %d реултат</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Изтегляне на %1$d от %2$d резултата</item>
+        <item quantity="one">Изтегляне на %1$d от %2$d резултата</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s профила</item>
+        <item quantity="one">1 профил</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">сървърните пароли</item>
+        <item quantity="one">сървърната парола</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Задаване на пароли…</item>
+        <item quantity="one">Задаване на парола…</item>
+    </plurals>
+</resources>

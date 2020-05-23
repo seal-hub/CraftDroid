@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/content" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.getbase.floatingactionbutton.FloatingActionsMenu n1:id="@id/floating_menu" n1:visibility="visible" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginRight="@dimen/reply_menu_margin" n1:layout_marginBottom="@dimen/reply_menu_margin" n1:layout_alignParentLeft="true" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" n2:fab_labelStyle="@style/menu_labels_style" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

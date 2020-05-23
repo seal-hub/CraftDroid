@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:id="@id/RelativeLayout1" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/container2" n1:paddingTop="100.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true">
+        <ImageView n1:id="@id/icon" n1:paddingTop="64.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/logo" />
+        <ProgressBar n1:id="@id/progressBar1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="?android:progressBarStyle" />
+        <TextView n1:textAppearance="?android:textAppearanceInverse" n1:gravity="center" n1:id="@id/textView1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/data_update" />
+    </LinearLayout>
+</RelativeLayout>

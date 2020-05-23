@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <fragment n1:id="@id/reg_share_fragment" n1:layout_width="fill_parent" n1:layout_height="fill_parent" class="ru.mail.fragments.mailbox.RegShareSmsChooserFragment" />
+    <android.support.design.widget.CoordinatorLayout n1:id="@id/coordinator_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+</RelativeLayout>

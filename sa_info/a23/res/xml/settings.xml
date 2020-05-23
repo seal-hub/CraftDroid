@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/default_reminder_times_human" android:title="@string/default_reminder_time" android:key="pref_default_reminder_time" android:defaultValue="86400" android:entryValues="@array/default_reminder_times" />
+    <SwitchPreference android:id="@id/switch_notifysound" android:title="@string/notify" android:key="notify" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/pin_enabled" android:key="pref_pin_enabled" android:defaultValue="false" />
+    <EditTextPreference android:password="true" android:maxLength="4" android:title="@string/set_pin" android:key="pref_pin" android:dependency="pref_pin_enabled" android:defaultValue="" android:dialogTitle="@string/set_pin" android:dialogMessage="@string/add_pin" android:inputType="numberPassword" />
+    <SwitchPreference android:id="@id/switch_progress" android:title="@string/auto_progress" android:key="pref_progress" android:defaultValue="false" />
+</PreferenceScreen>

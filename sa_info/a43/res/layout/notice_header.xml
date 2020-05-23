@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/header_view" n1:background="@color/cornsilk" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.uikit.view.RecyclingImageView n1:id="@id/warning_image" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dip" n1:layout_marginTop="12.0dip" n2:srcCompat="@drawable/unverified_sender_warning" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <TextView n1:textSize="14.0sp" n1:textColor="@color/warning_message" n1:id="@id/warning_message" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="40.0dip" n1:layout_marginTop="12.0dip" n1:layout_marginRight="50.0dip" n1:layout_marginBottom="12.0dip" n1:lineSpacingExtra="4.0dip" />
+    <View n1:id="@id/notice_warning_divider" n1:background="@color/divider_primary" n1:layout_width="fill_parent" n1:layout_height="@dimen/divider_primary" n1:layout_alignParentBottom="true" />
+</RelativeLayout>

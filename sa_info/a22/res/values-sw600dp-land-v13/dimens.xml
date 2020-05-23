@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mdtp_ampm_label_size">16.0dip</dimen>
+    <dimen name="mdtp_ampm_left_padding">6.0dip</dimen>
+    <dimen name="mdtp_date_picker_header_height">45.0dip</dimen>
+    <dimen name="mdtp_footer_height">48.0dip</dimen>
+    <dimen name="mdtp_header_height">96.0dip</dimen>
+    <dimen name="mdtp_separator_padding">5.0dip</dimen>
+    <dimen name="mdtp_time_label_size">64.0dip</dimen>
+    <dimen name="mdtp_time_label_subscript_size">32.0dip</dimen>
+    <dimen name="mdtp_left_side_width">400.0dip</dimen>
+    <dimen name="mdtp_time_label_right_padding">16.0dip</dimen>
+</resources>

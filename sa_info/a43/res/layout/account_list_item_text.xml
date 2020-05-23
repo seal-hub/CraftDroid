@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:paddingRight="@dimen/account_item_ava_horizontal_margin" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/account_ava_layout">
+        <TextView n1:textSize="16.0dip" n1:textColor="@android:color/white" n1:ellipsize="end" n1:id="@id/account_mails_label" n1:paddingLeft="@dimen/account_item_text_padding_left" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" n1:fontFamily="sans-serif" />
+        <TextView n1:textSize="14.0dip" n1:textColor="@color/account_text" n1:ellipsize="middle" n1:id="@id/account_name" n1:paddingLeft="@dimen/account_item_text_padding_left" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" n1:fontFamily="sans-serif" />
+    </LinearLayout>
+</merge>

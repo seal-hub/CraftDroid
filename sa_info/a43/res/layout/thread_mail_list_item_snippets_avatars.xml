@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.mail.fragments.view.ThreadMailItemView n1:background="?selectableListItemBackground" n1:paddingLeft="16.0dip" n1:paddingRight="16.0dip" n1:addStatesFromChildren="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.fragments.view.HighlightedRoundedImageView n1:id="@id/checkbox" n1:layout_width="@dimen/mail_list_avatar_large" n1:layout_height="@dimen/mail_list_avatar_large" n1:layout_marginTop="16.0dip" n1:layout_marginRight="16.0dip" n1:layout_marginBottom="16.0dip" n1:checked="true" n1:scaleType="matrix" n1:adjustViewBounds="true" n2:checkDrawable="@drawable/avatar_checkbox_transition_large" n2:cropMargin="@dimen/bubble_ava_border_thickness" n2:cropRadius="@dimen/mail_list_avatar_large" n2:frame="@drawable/ava_border" n2:srcCompat="@drawable/avatar_placeholder" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <include layout="@layout/thread_mail_list_item_internal" />
+    <ru.mail.fragments.view.MeasuredMailItemTextView n1:ellipsize="end" n1:id="@id/snippet" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dip" n1:maxLines="3" n1:lines="3" n1:lineSpacingExtra="4.0dip" style="?android:textAppearanceMedium" />
+</ru.mail.fragments.view.ThreadMailItemView>

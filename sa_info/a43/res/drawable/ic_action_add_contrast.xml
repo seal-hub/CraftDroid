@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector n1:tint="@color/action_contrast_tint" n1:height="44.0dip" n1:width="44.0dip" n1:viewportWidth="44.0" n1:viewportHeight="44.0"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <group n1:translateX="14.0" n1:translateY="14.0">
+        <path n1:fillColor="#ff000000" n1:pathData="M15 7L9 7 9 1C9 0.4 8.6 0 8 0 7.4 0 7 0.4 7 1L7 7 1 7C0.4 7 0 7.4 0 8 0 8.6 0.4 9 1 9l6 0 0 6c0 0.6 0.4 1 1 1 0.6 0 1 -0.4 1 -1L9 9 15 9C15.6 9 16 8.6 16 8 16 7.4 15.6 7 15 7Z" />
+    </group>
+</vector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/crypto_info_top_frame" android:layout_width="36.0dip" android:layout_height="wrap_content" android:layout_alignBottom="@id/crypto_info_top_text" android:layout_alignParentTop="true">
+        <ImageView android:layout_gravity="center|left" android:id="@id/crypto_info_top_icon_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center|left" android:id="@id/crypto_info_top_icon_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?openpgp_grey" />
+        <ImageView android:layout_gravity="center|left" android:id="@id/crypto_info_top_icon_3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center_vertical" android:id="@id/crypto_info_top_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginBottom="12.0dip" android:minLines="2" android:layout_toRightOf="@id/crypto_info_top_frame" />
+    <FrameLayout android:id="@id/crypto_info_bottom_frame" android:layout_width="36.0dip" android:layout_height="wrap_content" android:layout_below="@id/crypto_info_top_text" android:layout_alignBottom="@id/crypto_info_bottom_text">
+        <ImageView android:layout_gravity="center|left" android:id="@id/crypto_info_bottom_icon_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?openpgp_grey" />
+        <ImageView android:layout_gravity="center|left" android:id="@id/crypto_info_bottom_icon_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center_vertical" android:id="@id/crypto_info_bottom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:minLines="2" android:layout_toRightOf="@id/crypto_info_bottom_frame" android:layout_below="@id/crypto_info_top_text" />
+</RelativeLayout>

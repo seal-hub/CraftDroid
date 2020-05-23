@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="cloud_mail_ru_is_full">
+        <item quantity="other">@string/cloud_mail_ru_is_full_many</item>
+        <item quantity="one">@string/cloud_mail_ru_is_full_one</item>
+    </plurals>
+    <plurals name="filterAlreadyExist">
+        <item quantity="other">@string/filter_already_exist_multiple</item>
+        <item quantity="one">@string/filter_already_exist</item>
+    </plurals>
+    <plurals name="from_sender">
+        <item quantity="other">@string/from_sender_other</item>
+        <item quantity="zero">@string/from_sender_zero</item>
+        <item quantity="one">@string/from_sender_one</item>
+        <item quantity="two">@string/from_sender_two</item>
+        <item quantity="few">@string/from_sender_few</item>
+        <item quantity="many">@string/from_sender_many</item>
+    </plurals>
+    <plurals name="message">
+        <item quantity="other">@string/message_other</item>
+        <item quantity="zero">@string/message_zero</item>
+        <item quantity="one">@string/message_one</item>
+        <item quantity="two">@string/message_two</item>
+        <item quantity="few">@string/message_few</item>
+        <item quantity="many">@string/message_many</item>
+    </plurals>
+    <plurals name="messages_in_threads_title">
+        <item quantity="other">@string/threads_title_two</item>
+        <item quantity="zero">@string/threads_title_many</item>
+        <item quantity="one">@string/threads_title_one</item>
+        <item quantity="two">@string/threads_title_two</item>
+        <item quantity="few">@string/threads_title_two</item>
+        <item quantity="many">@string/threads_title_two</item>
+    </plurals>
+    <plurals name="meta_thread_new">
+        <item quantity="other">@string/meta_thread_new_emails</item>
+        <item quantity="one">@string/meta_thread_new_email</item>
+    </plurals>
+    <plurals name="outdated_days">
+        <item quantity="other">@string/outdate_few_days</item>
+        <item quantity="one">@string/outdate_one_day</item>
+    </plurals>
+    <plurals name="outdated_mail_sendings">
+        <item quantity="other">@string/many_outdated_mail_sending_message</item>
+        <item quantity="one">@string/one_outdated_mail_sending_message</item>
+        <item quantity="few">@string/few_outdated_mail_sending_message</item>
+    </plurals>
+    <plurals name="save_attachments_to_cloud">
+        <item quantity="other">@string/save_attachments_to_cloud_many</item>
+        <item quantity="one">@string/save_attachments_to_cloud_one</item>
+    </plurals>
+    <plurals name="save_to_cloud_completed_full">
+        <item quantity="other">@string/save_to_cloud_completed_full_many</item>
+        <item quantity="one">@string/save_to_cloud_completed_full_one</item>
+    </plurals>
+    <plurals name="save_to_cloud_unable_to_upload">
+        <item quantity="other">@string/save_to_cloud_unable_to_upload_many</item>
+        <item quantity="one">@string/save_to_cloud_unable_to_upload_one</item>
+    </plurals>
+    <plurals name="save_to_cloud_unsupported_attachments">
+        <item quantity="other">@string/save_to_cloud_unsupported_attachments_many</item>
+        <item quantity="one">@string/save_to_cloud_unsupported_attachments_one</item>
+    </plurals>
+    <plurals name="saving_to_cloud">
+        <item quantity="other">@string/saving_to_cloud_many</item>
+        <item quantity="one">@string/saving_to_cloud_one</item>
+    </plurals>
+    <plurals name="selected_file_plural">
+        <item quantity="other">@string/selected_file_plural_other</item>
+        <item quantity="one">@string/selected_file_plural_one</item>
+        <item quantity="two">@string/selected_file_plural_two</item>
+        <item quantity="few">@string/selected_file_plural_few</item>
+        <item quantity="many">@string/selected_file_plural_many</item>
+    </plurals>
+    <plurals name="stat_messages_title">
+        <item quantity="other">@string/stat_messages_title_two</item>
+        <item quantity="zero">@string/stat_messages_title_many</item>
+        <item quantity="one">@string/stat_messages_title_one</item>
+        <item quantity="two">@string/stat_messages_title_two</item>
+        <item quantity="few">@string/stat_messages_title_two</item>
+        <item quantity="many">@string/stat_messages_title_many</item>
+    </plurals>
+    <plurals name="undoMessageArchived">
+        <item quantity="other">@string/undo_messages_archived</item>
+        <item quantity="one">@string/undo_message_archived</item>
+    </plurals>
+    <plurals name="undoMessageFlag">
+        <item quantity="other">@string/undo_messages_flag</item>
+        <item quantity="one">@string/undo_message_flag</item>
+    </plurals>
+    <plurals name="undoMessageMovedToFolder">
+        <item quantity="other">@string/undo_messages_move_to_folder</item>
+        <item quantity="one">@string/undo_message_move_to_folder</item>
+    </plurals>
+    <plurals name="undoMessageMovedToTrash">
+        <item quantity="other">@string/undo_messages_moved_to_trash</item>
+        <item quantity="one">@string/undo_message_moved_to_trash</item>
+    </plurals>
+    <plurals name="undoMessageRead">
+        <item quantity="other">@string/undo_messages_read</item>
+        <item quantity="one">@string/undo_message_read</item>
+    </plurals>
+    <plurals name="undoMessageRemoved">
+        <item quantity="other">@string/undo_messages_removed</item>
+        <item quantity="one">@string/undo_message_removed</item>
+    </plurals>
+    <plurals name="undoMessageSpam">
+        <item quantity="other">@string/undo_messages_spam</item>
+        <item quantity="one">@string/undo_message_spam</item>
+    </plurals>
+    <plurals name="undoMessageUnflag">
+        <item quantity="other">@string/undo_messages_unflag</item>
+        <item quantity="one">@string/undo_message_unflag</item>
+    </plurals>
+    <plurals name="undoMessageUnread">
+        <item quantity="other">@string/undo_messages_unread</item>
+        <item quantity="one">@string/undo_message_unread</item>
+    </plurals>
+    <plurals name="undoMessageUnspam">
+        <item quantity="other">@string/undo_messages_unspam</item>
+        <item quantity="one">@string/undo_message_unspam</item>
+    </plurals>
+    <plurals name="undoThreadArchived">
+        <item quantity="other">@string/undo_threads_archived</item>
+        <item quantity="one">@string/undo_thread_archived</item>
+    </plurals>
+    <plurals name="undoThreadFlag">
+        <item quantity="other">@string/undo_threads_flag</item>
+        <item quantity="one">@string/undo_thread_flag</item>
+    </plurals>
+    <plurals name="undoThreadMovedToFolder">
+        <item quantity="other">@string/undo_threads_move_to_folder</item>
+        <item quantity="one">@string/undo_thread_move_to_folder</item>
+    </plurals>
+    <plurals name="undoThreadMovedToTrash">
+        <item quantity="other">@string/undo_threads_moved_to_trash</item>
+        <item quantity="one">@string/undo_thread_moved_to_trash</item>
+    </plurals>
+    <plurals name="undoThreadRead">
+        <item quantity="other">@string/undo_threads_read</item>
+        <item quantity="one">@string/undo_thread_read</item>
+    </plurals>
+    <plurals name="undoThreadRemoved">
+        <item quantity="other">@string/undo_threads_removed</item>
+        <item quantity="one">@string/undo_thread_removed</item>
+    </plurals>
+    <plurals name="undoThreadSpam">
+        <item quantity="other">@string/undo_threads_spam</item>
+        <item quantity="one">@string/undo_thread_spam</item>
+    </plurals>
+    <plurals name="undoThreadUnflag">
+        <item quantity="other">@string/undo_threads_unflag</item>
+        <item quantity="one">@string/undo_thread_unflag</item>
+    </plurals>
+    <plurals name="undoThreadUnread">
+        <item quantity="other">@string/undo_threads_unread</item>
+        <item quantity="one">@string/undo_thread_unread</item>
+    </plurals>
+    <plurals name="undoThreadUnspam">
+        <item quantity="other">@string/undo_threads_unspam</item>
+        <item quantity="one">@string/undo_thread_unspam</item>
+    </plurals>
+    <item type="plurals" name="unreaded_messages">@null</item>
+</resources>

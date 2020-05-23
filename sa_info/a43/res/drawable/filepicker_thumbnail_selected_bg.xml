@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape n1:shape="rectangle"
+          xmlns:n1="http://schemas.android.com/apk/res/android">
+            <solid n1:color="@color/filepicker_thumbnail_selected_bg" />
+        </shape>
+    </item>
+    <item n2:right="8.0dip" n2:bottom="8.0dip"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <bitmap n2:gravity="bottom|center|right" n2:src="@drawable/ic_media_check_item" />
+    </item>
+</layer-list>

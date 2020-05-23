@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/message_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="5.0" />
+    <View android:id="@id/message_list_divider" android:background="?messageListDividerColor" android:layout_width="1.0px" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/message_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0" />
+</LinearLayout>

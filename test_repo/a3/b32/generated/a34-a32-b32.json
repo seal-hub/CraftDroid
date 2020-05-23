@@ -1,0 +1,449 @@
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_sign_in_button",
+    "text": "Sign In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Forgot Password?",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "oracle",
+    "score": 0.33950746906435414,
+    "action": [
+      "wait_until_element_presence",
+      15,
+      "id",
+      "sign_in_fragment_sign_in_button"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_sign_in_button",
+    "text": "Sign In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Forgot Password?",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "gui",
+    "score": 0.33950746906435414,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.login.signin.SignInActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_sign_in_button",
+    "text": "Sign In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Forgot Password?",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "",
+        "id-prefix": "",
+        "text": "OK",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.login.signin.SignInActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "oracle",
+    "score": 0.586188064589956,
+    "action": [
+      "wait_until_element_presence",
+      15,
+      "id",
+      "sign_in_fragment_sign_in_button"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_sign_in_button",
+    "text": "Sign In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Forgot Password?",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "gui",
+    "score": 0.586188064589956,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.login.signin.SignInActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_password_text",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "naf": "true",
+    "parent_text": "",
+    "sibling_text": "Email",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "",
+        "id-prefix": "",
+        "text": "OK",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.login.signin.SignInActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "oracle",
+    "score": 0.568950332928395,
+    "action": [
+      "wait_until_element_presence",
+      15,
+      "id",
+      "sign_in_fragment_password_text"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_password_text",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "naf": "true",
+    "parent_text": "",
+    "sibling_text": "Email",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "gui",
+    "score": 0.568950332928395,
+    "action": [
+      "send_keys",
+      "1qaz2wsX"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_email_text",
+    "text": "Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "gui",
+    "score": 0.5297808518221342,
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "uci.seal@gmail.com"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_sign_in_button",
+    "text": "Sign In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Forgot Password?",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "gui",
+    "score": 0.6230396636914546,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Filter",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.browse.BrowseActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Close Menu",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "",
+        "id-prefix": "",
+        "text": "",
+        "content-desc": "Filter",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.browse.BrowseActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.browse.BrowseActivity",
+    "event_type": "oracle",
+    "score": 0.28785617872254593,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//*[@content-desc=\"Close Menu\"]"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Close Menu",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.browse.BrowseActivity",
+    "event_type": "gui",
+    "score": 0.28785617872254593,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Open Menu",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.browse.BrowseActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/menu_fragment_row_text",
+    "text": "Browse",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.ImageButton",
+        "resource-id": "",
+        "id-prefix": "",
+        "text": "",
+        "content-desc": "Open Menu",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.browse.BrowseActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.browse.BrowseActivity",
+    "event_type": "oracle",
+    "score": 0.3347471722871103,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//*[@text=\"Browse\"]"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/menu_fragment_row_text",
+    "text": "Browse",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.browse.BrowseActivity",
+    "event_type": "gui",
+    "score": 0.3347471722871103,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Open Menu",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.browse.BrowseActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/menu_profile_name",
+    "text": "Sealbot Labfellow",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.ImageButton",
+        "resource-id": "",
+        "id-prefix": "",
+        "text": "",
+        "content-desc": "Open Menu",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.browse.BrowseActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.browse.BrowseActivity",
+    "event_type": "oracle",
+    "score": 0.4091474903314978,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Sealbot"
+    ]
+  }
+]

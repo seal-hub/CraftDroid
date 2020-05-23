@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list n1:opacity="transparent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape n1:shape="rectangle">
+            <gradient n1:startColor="#dd000000" n1:endColor="#00000000" n1:angle="90.0" />
+        </shape>
+    </item>
+    <item n1:top="@dimen/massive_toolbar_shadow_length">
+        <shape n1:shape="rectangle">
+            <solid n1:color="@color/white" />
+        </shape>
+    </item>
+</layer-list>

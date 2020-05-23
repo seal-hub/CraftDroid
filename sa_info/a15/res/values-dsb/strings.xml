@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s dajo was kontrolu wobchowa&amp;#347;.&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>Wu&amp;#382;ywaj&amp;#347;o jen ako priwatny wobgl&amp;#283;dowak:
+  &lt;ul>
+    &lt;li>Pytaj&amp;#347;o a p&amp;#347;egl&amp;#283;duj&amp;#347;o direktnje w na&amp;#322;o&amp;#382;enju&lt;/li>
+    &lt;li>Blok&amp;#283;ruj&amp;#347;o p&amp;#347;esl&amp;#283;dowaki (abo aktualiz&amp;#283;ruj&amp;#347;o nastajenja, aby p&amp;#347;esl&amp;#283;dowaki dow&amp;#243;li&amp;#322;)&lt;/li>
+    &lt;li>La&amp;#353;uj&amp;#347;o cookieje a pyta&amp;#324;sku a p&amp;#347;egl&amp;#283;dowa&amp;#324;sku historiju&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s se w&amp;#243;t Mozilla wuwija. Na&amp;#353;a misija jo sp&amp;#283;chowanje strowego, w&amp;#243;tw&amp;#243;rjonego interneta.&lt;br/>
+&lt;a href=%2$s>Dal&amp;#353;ne informacije&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">Zacytanje</string>
+    <string name="accessibility_announcement_loading_finished">Websedło jo se zacytało</string>
+    <string name="accessibility_dismiss_find_in_page">Na boku pytaś znjemóžniś</string>
+    <string name="accessibility_find_in_page_result">%1$d z %2$d</string>
+    <string name="accessibility_next_result">Pśiducy wuslědk namakaś</string>
+    <string name="accessibility_previous_result">Pjerwjejšny wuslědk namakaś</string>
+    <string name="action_cancel">Pśetergnuś</string>
+    <string name="action_ok">W pórěźe</string>
+    <string name="action_option_add_search_engine">Pytnicu pśidaś</string>
+    <string name="action_save">Składowaś</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Slědk</string>
+    <string name="content_description_blocking_switch">Pśeslědowaki blokěrowaś</string>
+    <string name="content_description_clear_input">Zapódaśe wuprozniś</string>
+    <string name="content_description_customtab_exit">Slědk k pjerwjejšnemu nałoženjeju</string>
+    <string name="content_description_dismiss_input">Zachyśiś</string>
+    <string name="content_description_erase">Pśeglědowańsku historiju lašowaś</string>
+    <string name="content_description_forward">Doprědka</string>
+    <string name="content_description_lock">Wěsty zwisk</string>
+    <string name="content_description_menu">Dalšne nastajenja</string>
+    <string name="content_description_reload">Websedło znowego zacytaś</string>
+    <string name="content_description_stop">Cytanje websedła zastajiś</string>
+    <string name="content_description_tab_counter">Wócynjone rejtarki: %1$s</string>
+    <string name="contextmenu_image_copy">Wobrazowu adresu kopěrowaś</string>
+    <string name="contextmenu_image_save">Wobraz składowaś</string>
+    <string name="contextmenu_image_share">Wobraz śěliś</string>
+    <string name="contextmenu_image_warning">Skłaźone a źělone wobraze &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>se njewula&amp;#353;uju&lt;/b>, gaž historiju %1$s lašujośo.</string>
+    <string name="contextmenu_link_copy">Wótkazowu adresu kopěrowaś</string>
+    <string name="contextmenu_link_share">Wótkaz źěliś</string>
+    <string name="contextmenu_open_in_new_tab">Wótkaz w nowem rejtarku wócyniś</string>
+    <string name="custom_autocomplete_quick_add">Swójski URL pśidaś</string>
+    <string name="custom_tab_copy_url_action">URL jo kopěrowany</string>
+    <string name="dialog_addtohomescreen_action_add">Pśidaś</string>
+    <string name="dialog_addtohomescreen_action_cancel">Pśetergnuś</string>
+    <string name="dialog_addtohomescreen_tracking_protection">Zwězanje se ze znjemóžnjonym šlědowańskim šćitom wócynijo</string>
+    <string name="download_dialog_action_cancel">Pśetergnuś</string>
+    <string name="download_dialog_action_download">Ześěgnuś</string>
+    <string name="download_dialog_title">Dataju ześěgnuś</string>
+    <string name="download_dialog_warning">Ześěgnjene dataje se &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>njewula&amp;#353;uju&lt;/b>, gaž historiju %1$s lašujośo.</string>
+    <string name="download_firefox">Firefox ześěgnuś</string>
+    <string name="download_snackbar_finished">%1$s dokóńcony</string>
+    <string name="download_snackbar_open">Wócyniś</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Sed&amp;#322;o njestoj sna&amp;#378; nachylu k dispoziciji abo jo p&amp;#347;e&amp;#347;&amp;#283;&amp;#382;one. Wopytaj&amp;#347;o za ma&amp;#322;o wokognu&amp;#347;ow hy&amp;#353;&amp;#263;i raz.&lt;/li>
+        &lt;li>Jolic njam&amp;#243;&amp;#382;o&amp;#347;o boki zacyta&amp;#347;, p&amp;#347;egl&amp;#283;daj&amp;#347;o datowy abo WLAN-zwisk wa&amp;#353;ogo mobilnego r&amp;#283;da.&lt;/li>
+        &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">Žeden zwisk móžny</string>
+    <string name="error_generic_message">Z někakeje pśicyny njamóžomy toś ten bok zacytaś.</string>
+    <string name="error_generic_title">Hopla</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>P&amp;#347;egl&amp;#283;daj&amp;#347;o adresu za pisa&amp;#324;skimi zm&amp;#243;lkami ako
+          &lt;strong>ww&lt;/strong>.example.com m&amp;#283;sto
+          &lt;strong>www&lt;/strong>.example.com&lt;/li>
+        &lt;li>Jolic njam&amp;#243;&amp;#382;o&amp;#347;o boki zacyta&amp;#347;, p&amp;#347;egl&amp;#283;daj&amp;#347;o daty sw&amp;#243;jogo r&amp;#283;da abo sw&amp;#243;j WLAN-zwisk.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">Serwer njejo se namakał</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Webadrese se zw&amp;#283;t&amp;#353;ego ako &lt;strong>http://www.example.com/&lt;/strong> pi&amp;#353;u.&lt;/li>
+  &lt;li>Zaw&amp;#283;s&amp;#263;&amp;#263;o, a&amp;#382; wu&amp;#382;ywa&amp;#347;o dopr&amp;#283;dka schylone nak&amp;#243;sne smu&amp;#382;ki (t. gr. &lt;strong>/&lt;/strong>).&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">Adresa njejo płaśiwa</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>To&amp;#347; ten problem zawinujo se w&amp;#243;tergi p&amp;#347;ez zm&amp;#243;&amp;#382;njanje abo znjem&amp;#243;&amp;#382;njanje ookiejow.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">Bok pšawje njepósrědnja</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>To by m&amp;#243;g&amp;#322;o problem z konfiguraciju serwera by&amp;#347;, abo by m&amp;#243;g&amp;#322;o by&amp;#347;,
+a&amp;#382; n&amp;#283;chten wopytujo serwer imit&amp;#283;rowa&amp;#347;.&lt;/li>
+  &lt;li>Jolic s&amp;#263;o by&amp;#322; ze serwerom w zachadnos&amp;#263;i wusp&amp;#283;&amp;#353;nje zw&amp;#283;zany, by m&amp;#243;g&amp;#322;a zm&amp;#243;lka sna&amp;#378;
+nachylna by&amp;#347; a m&amp;#243;&amp;#382;o&amp;#347;o p&amp;#243;zd&amp;#378;ej hy&amp;#353;&amp;#263;i raz wopyta&amp;#347;.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">Wěsty zwisk njejo móžny</string>
+    <string name="error_timeout_title">Cas zwiska jo pśekšocony</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Musy&amp;#347;o sna&amp;#378; druge programy instal&amp;#283;rowa&amp;#347;, aby se to&amp;#347; ta adresa w&amp;#243;cyni&amp;#322;a.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">Adresa njejo se zrozměła</string>
+    <string name="errorpage_refresh">Hyšći raz wopytaś</string>
+    <string name="errorpage_title">Zmólka pśi cytanju boka</string>
+    <string name="external_app_prompt">Móžośo %1$s spušćiś, aby toś ten wótkaz w %2$s wócynił.</string>
+    <string name="external_app_prompt_no_app">Žedno z nałoženjow na wašom rěźe njamóžo toś ten wótkaz wócyniś. Móžośo %1$s spušćiś, aby %2$s za nałoženim pśepytował.</string>
+    <string name="external_app_prompt_no_app_title">Nałoženje pytaś, kótarež móžo wótkaz wócyniś</string>
+    <string name="external_app_prompt_title">Wótkaz w drugem nałoženju wócyniś</string>
+    <string name="external_multiple_apps_matched_exit">Priwatny modus spušćiś?</string>
+    <string name="feedback_erase">Waša pśeglědowańska historija jo se wulašowała.</string>
+    <string name="find_in_page">Na boku pytaś</string>
+    <string name="find_in_page_input">Na boku pytaś</string>
+    <string name="find_in_page_result">%1$d/%2$d</string>
+    <string name="firstrun_close_button">W pórěźe, som zrozměł!</string>
+    <string name="firstrun_defaultbrowser_text2">Zwigniśo priwatne pśeglědowanje na pśiducu wušu rowninu. Blokěrujśo wabjenje a hynakše wopśimjeśe, kótarež móžośo pśez sedła slědowaś a zacyitańske case bokow pódlejšyś.</string>
+    <string name="firstrun_defaultbrowser_title">Zmocniśo swóju priwatnosć</string>
+    <string name="firstrun_next_button">Dalej</string>
+    <string name="firstrun_privacy_text">Nastajśo %1$s ako swój standardny wobglědowak a mějśo wužytk z priwatnego pśeglědowanja, gaž webboki z drugich nałoženjow wócynjaśo.</string>
+    <string name="firstrun_privacy_title">Pśiwucćo se priwatnosć</string>
+    <string name="firstrun_search_text">Pytaśo za něcym drugim? Wubjeŕśo drugu standardnu pytnicu w nastajenjach.</string>
+    <string name="firstrun_search_title">Wašo pytanje ako wy jo cośo</string>
+    <string name="firstrun_shortcut_text">Wrośćo se malsnjej k swójim nejlubšym sedłam w %1$s. Wubjeŕśo jadnorje „Startowej wobrazowce pśidaś“ z menija %1$s.</string>
+    <string name="firstrun_shortcut_title">Pśidajśo swójej startowej wobrazowce tastowe skrotconki</string>
+    <string name="firstrun_skip_button">Pśeskócyś</string>
+    <string name="gv_prompt_clear">Wuprozniś</string>
+    <string name="gv_prompt_password_hint">Gronidło</string>
+    <string name="gv_prompt_username_hint">Wužywarske mě</string>
+    <string name="http_auth_dialog_password">Gronidło</string>
+    <string name="http_auth_dialog_title">Awtentifikacija trěbna</string>
+    <string name="http_auth_dialog_username">Wužywarske mě</string>
+    <string name="menu_about">Wó</string>
+    <string name="menu_add_to_home_screen">Startowej wobrazowce pśidaś</string>
+    <string name="menu_custom_tab_branding">Spěchowany wót %1$s</string>
+    <string name="menu_help">Pomoc</string>
+    <string name="menu_open_with_a_browser2">Wócyniś w…</string>
+    <string name="menu_open_with_default_browser2">W %1$s wócyniś</string>
+    <string name="menu_report_site_issue">Sedłowy problem k wěsći daś</string>
+    <string name="menu_rights">Waše pšawa</string>
+    <string name="menu_settings">Nastajenja</string>
+    <string name="menu_share">Źěliś…</string>
+    <string name="menu_trackers_blocked_title">Pśeslědowaki blokěrowane</string>
+    <string name="menu_whats_new">Nowe funkcije a změny</string>
+    <string name="notification_action_erase_and_open">Lašowaś a wócyniś</string>
+    <string name="notification_action_open">Wócyniś</string>
+    <string name="notification_browsing_session_channel_description">Powěźeńki wam zmóžnjaju, waše pósejźenje %1$s z dotyknjenim wulašowaś. Njetrjebaśo nałoženje wócyniś abo glědaś, což we wašom wobglědowaku běžy.</string>
+    <string name="notification_browsing_session_channel_name">Priwatne pósejźenje</string>
+    <string name="notification_erase_text">Pśeglědowańsku historiju lašowaś</string>
+    <string name="preference_about">Wó %1$s</string>
+    <string name="preference_autocomplete_action_add">+ Swójsku adresu pśidaś</string>
+    <string name="preference_autocomplete_action_remove_content_description">Wótwónoźeś</string>
+    <string name="preference_autocomplete_add_confirmation">Nowa swójska adresa pśidana.</string>
+    <string name="preference_autocomplete_add_error">Pśeglědajśo zapódanu adresu.</string>
+    <string name="preference_autocomplete_add_example">Pśikład: example.com</string>
+    <string name="preference_autocomplete_add_example2">Pśikład: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">Adresu zasajźiś abo zapódaś</string>
+    <string name="preference_autocomplete_add_title">Adresa, kótaraž ma se pśidaś</string>
+    <string name="preference_autocomplete_custom_summary">Swójske adrese za wudopołnjenje pśidaś a zastojaś.</string>
+    <string name="preference_autocomplete_duplicate_url_error">URL južo eksistěrujo</string>
+    <string name="preference_autocomplete_learn_more">Dalšne informacije</string>
+    <string name="preference_autocomplete_menu_remove">Wótwónoźeś</string>
+    <string name="preference_autocomplete_preinstalled_summary">Zmóžniś, aby %1$s wěcej ako 450 woblubowanych adresow w adresowrm pólu wudopołnił.</string>
+    <string name="preference_autocomplete_subitem_customlist">Swójske adrese</string>
+    <string name="preference_autocomplete_title_add">Swójsku adresu pśidaś</string>
+    <string name="preference_autocomplete_title_remove">Swójske adrese wótwónoźeś</string>
+    <string name="preference_category_autocomplete_custom_urls">Swójske URL</string>
+    <string name="preference_category_autocomplete_preinstalled">Standardna lisćina adresow</string>
+    <string name="preference_category_cookies">Cookieje a sedłowe daty</string>
+    <string name="preference_category_data_choices">Datowe wuběrki</string>
+    <string name="preference_category_data_collection_use">Zběranje a wužywanje datow</string>
+    <string name="preference_category_general">Powšykne</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Wugbaśe</string>
+    <string name="preference_category_privacy">Priwatnosć</string>
+    <string name="preference_category_search">Pytaś</string>
+    <string name="preference_category_switching_apps">Pśešaltowanje nałoženjow</string>
+    <string name="preference_category_tracking_protection">Slědowański šćit</string>
+    <string name="preference_category_web_content">Webwopśimjeśe</string>
+    <string name="preference_default_browser2">%1$s ako standardny wobglědowak nastajiś</string>
+    <string name="preference_language">Rěc</string>
+    <string name="preference_language_systemdefault">Systemowy standard</string>
+    <string name="preference_mozilla_summary">Wó %1$s, pomoc</string>
+    <string name="preference_mozilla_telemetry2">Wužywańske daty pósłaś</string>
+    <string name="preference_mozilla_telemetry_summary">Dalšne informacije</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla se procujo, jano informacije gromaźiś, z kótarymiž móžomy %1$s za kuždego póbitowaś a pólěpšyś.</string>
+    <string name="preference_performance_block_javascript">JavaScript blokěrowaś</string>
+    <string name="preference_performance_block_javascript_summary">Boki se malsnjej zacytaju, mógli se pak teke na njewócakowanu wašnju zaźaržaś</string>
+    <string name="preference_performance_block_webfonts">Webpisma blokěrowaś</string>
+    <string name="preference_performance_block_webfonts_summary">Móžo k tomu wjasć, až symbole abo wobraze feluju</string>
+    <string name="preference_performance_request_desktop_site">Desktopowe sedło pominaś</string>
+    <string name="preference_privacy_and_security_header">Priwatnosć a wěstota</string>
+    <string name="preference_privacy_and_security_summary">Slědowanje, cookieje, datowe wuběrki</string>
+    <string name="preference_privacy_block_ads">Wabjeńske pśeslědowaki blokěrowaś</string>
+    <string name="preference_privacy_block_ads_summary">Někotare wabjeńske anonse woglědy sedłow slěduju, samo gaby wy na anonse njekliknuł</string>
+    <string name="preference_privacy_block_analytics">Analyzowe pśeslědowaki blokěrowaś</string>
+    <string name="preference_privacy_block_analytics_summary">Z tym se aktiwity ako pótuskowanje a kulanje pśez boki gromaźe, analyzěruju a měrje</string>
+    <string name="preference_privacy_block_content">Druge wopśimjeśowe pśeslědowaki blokěrowaś</string>
+    <string name="preference_privacy_block_content_summary2">To móžo wjasć k tomu, až se někotare boki njewšednje zaźarže</string>
+    <string name="preference_privacy_block_social">Socialne pśeslědowaki blokěrowaś</string>
+    <string name="preference_privacy_block_social_summary">Na sedłach zasajźone, aby wóne waše woglědy slědowali a funkcije ako tłocaški za źělenje zwobraznili</string>
+    <string name="preference_privacy_category_cookies">Cookieje blokěrowaś</string>
+    <string name="preference_privacy_notice">Powěźeńka priwatnosći</string>
+    <string name="preference_privacy_secure_mode">Tarnowanje</string>
+    <string name="preference_privacy_should_block_cookies_no_option">Ně</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Jano cookieje tśeśich póbitowarjow blokěrowaś</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Jo</string>
+    <string name="preference_privacy_stealth_summary">Webboki schowaś, gaž se nałoženja pśešaltuju</string>
+    <string name="preference_search_add2">+ Dalšnu pytnicu pśidaś</string>
+    <string name="preference_search_engine_default">Standard</string>
+    <string name="preference_search_installed_search_engines">Zainstalěrowane pytnice</string>
+    <string name="preference_search_remove">Wótwónoźeś</string>
+    <string name="preference_search_remove_title">Pytnice wótwónoźeś</string>
+    <string name="preference_search_restore">Standardne pytnice wótnowiś</string>
+    <string name="preference_search_summary">Standard nastajiś, awtomatiske wudopołnjenje</string>
+    <string name="preference_state_off">Wušaltowany</string>
+    <string name="preference_state_on">Zašaltowany</string>
+    <string name="preference_subitem_autocomplete">Awtomatiske wudopołnjenje URL</string>
+    <string name="preference_switch_autocomplete">Wudopołnjenje</string>
+    <string name="search_add_confirmation">Nowa pytnica jo se pśidała.</string>
+    <string name="search_add_error_duplicate_name">Jo južo pytnica zainstalěrowana, kótaraž toś to mě wužywa.</string>
+    <string name="search_add_error_empty_name">Mě pytnice zapódaś</string>
+    <string name="search_add_error_empty_search">Pytański wuraz zapódaś</string>
+    <string name="search_add_error_format">Pśeglědajśo, lěc pytański wuraz pśikładowemu formatoju wótpowědujo</string>
+    <string name="search_add_manually_example">Pśikład: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">Mě pytnice</string>
+    <string name="search_add_manually_save">Składowaś</string>
+    <string name="search_add_manually_string">Pytański wuraz, kótaryž ma se wužywaś</string>
+    <string name="search_hint">Pytanje za %1$s</string>
+    <string name="security_popup_insecure_connection">Njewěsty zwisk</string>
+    <string name="security_popup_secure_connection">Wěsty zwisk</string>
+    <string name="security_popup_security_verified">Pśeglědany wót: %1$s</string>
+    <string name="share_dialog_title">Źěliś pśez</string>
+    <string name="shortcut_erase_long_label">Pśeglědowańsku historiju lašowaś</string>
+    <string name="shortcut_erase_short_label">Lašowaś</string>
+    <string name="site_security_icon_content_description">Sedłowa wěstota</string>
+    <string name="tabs_tray_action_erase">Pśeglědowańsku historiju wulašowaś</string>
+    <string name="teaser">"Awtomatiski priwatny modus.
+Pśeglědowaś. Lašowaś. Wóspjetowaś."</string>
+    <string name="text_selection_search_action">Priwatnje pytaś</string>
+    <string name="urlbar_hint">Adresu pytaś abo zapódaś</string>
+    <string name="your_rights">Waše pšawa</string>
+    <string name="your_rights_content1">%1$s jo dermotna software wótwórjonego žrědła wót Mozilla a drugich sobustatkujucych.</string>
+    <string name="your_rights_content2">%1$s so pód wuměnjenjami licence &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Mozilla Public License&lt;/a> a drugimi licencami wótwórjonego žrědła k dispoziciji staja.</string>
+    <string name="your_rights_content3">Njedaju wam žedne pšawa abo licence na wikowych markow załožby Mozilla Foundation abo tśeśich, inkluziwnje mjenja abo loga Mozilla, Firefox abo %1$s. Dalšne informacije namakajośo &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>how&lt;/a>.</string>
+    <string name="your_rights_content4">Pśidatny žrědłowy kod za %1$s jo pód wšakich drugich lichych &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>licencach&lt;/a> wótwórjonego žrědła k dispoziciji.</string>
+    <string name="your_rights_content5">%1$s teke blokěrowańske lisćiny póbitowane wót Disconnect, Inc. ako separatne a njewótwisne źěła pód licencu &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>General Public Licence v3&lt;/a> wužywa, kótarež su &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>how&lt;/a> k dispoziciji.</string>
+</resources>

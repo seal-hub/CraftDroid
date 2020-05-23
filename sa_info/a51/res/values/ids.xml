@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="home_layout">false</item>
+    <item type="id" name="textBill">false</item>
+    <item type="id" name="bill">false</item>
+    <item type="id" name="textPeople">false</item>
+    <item type="id" name="people">false</item>
+    <item type="id" name="textPercent">false</item>
+    <item type="id" name="percent">false</item>
+    <item type="id" name="textTipEach">false</item>
+    <item type="id" name="tipEach">false</item>
+    <item type="id" name="textTip">false</item>
+    <item type="id" name="tip">false</item>
+    <item type="id" name="textEach">false</item>
+    <item type="id" name="each">false</item>
+    <item type="id" name="textTotal">false</item>
+    <item type="id" name="total">false</item>
+    <item type="id" name="ad_layout">false</item>
+    <item type="id" name="ad">false</item>
+</resources>

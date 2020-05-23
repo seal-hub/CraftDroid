@@ -1,0 +1,452 @@
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.geek:id/login_fragment_create_account_button",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Smarter Shopping",
+    "stepping_events": [],
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.LoginActivity",
+    "event_type": "oracle",
+    "score": 0.27579571398665875,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "login_fragment_create_account_button"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.geek:id/login_fragment_create_account_button",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Smarter Shopping",
+    "stepping_events": [],
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.LoginActivity",
+    "event_type": "gui",
+    "score": 0.27579571398665875,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_create_account_button",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "package": "com.contextlogic.geek",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "create_account_fragment_create_account_button",
+        "id-prefix": "com.contextlogic.geek:id/",
+        "text": "Create Account",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+        "package": "com.contextlogic.geek",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "event_type": "gui",
+    "score": 0.1951568113547687,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_create_account_button",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "package": "com.contextlogic.geek",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "create_account_fragment_create_account_button",
+        "id-prefix": "com.contextlogic.geek:id/",
+        "text": "Create Account",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+        "package": "com.contextlogic.geek",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "event_type": "gui",
+    "score": 0.3734706973915948,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_confirm_email_text",
+    "text": "Confirm Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Email",
+    "stepping_events": [],
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "event_type": "oracle",
+    "score": 0.5623332020775386,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "create_account_fragment_confirm_email_text"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_confirm_email_text",
+    "text": "Confirm Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Email",
+    "stepping_events": [],
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "event_type": "gui",
+    "score": 0.5623332020775386,
+    "action": [
+      "send_keys",
+      "n175773se@nkdjfq.al.net"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_password_text",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "naf": "true",
+    "parent_text": "",
+    "sibling_text": "j680498se@jspulb.al.net",
+    "stepping_events": [],
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "event_type": "gui",
+    "score": 0.48,
+    "action": [
+      "send_keys",
+      "1qaz2wsX"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_create_account_button",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "package": "com.contextlogic.geek",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "create_account_fragment_create_account_button",
+        "id-prefix": "com.contextlogic.geek:id/",
+        "text": "Create Account",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+        "package": "com.contextlogic.geek",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "event_type": "gui",
+    "score": 0.3841440363632226,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_last_name_text",
+    "text": "Last Name",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "First Name",
+    "stepping_events": [],
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "event_type": "gui",
+    "score": 0.61,
+    "action": [
+      "send_keys",
+      "Labfellow"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_first_name_text",
+    "text": "First Name",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "event_type": "gui",
+    "score": 0.61,
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sealbot"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_create_account_button",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "package": "com.contextlogic.geek",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "create_account_fragment_create_account_button",
+        "id-prefix": "com.contextlogic.geek:id/",
+        "text": "Create Account",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+        "package": "com.contextlogic.geek",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "event_type": "gui",
+    "score": 0.3841440363632226,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_create_account_button",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "package": "com.contextlogic.geek",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "create_account_fragment_create_account_button",
+        "id-prefix": "com.contextlogic.geek:id/",
+        "text": "Create Account",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+        "package": "com.contextlogic.geek",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "event_type": "gui",
+    "score": 0.3735256549532512,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_first_name_text",
+    "text": "Sealbot",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "event_type": "oracle",
+    "score": 0.3468752346632073,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Sealbot"
+    ]
+  }
+]

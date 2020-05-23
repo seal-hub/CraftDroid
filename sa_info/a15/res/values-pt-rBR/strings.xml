@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navegar para a página inicial</string>
+    <string name="abc_action_bar_up_description">Navegar para cima</string>
+    <string name="abc_action_menu_overflow_description">Mais opções</string>
+    <string name="abc_action_mode_done">Concluído</string>
+    <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
+    <string name="abc_activitychooserview_choose_application">Selecione um app</string>
+    <string name="abc_capital_off">DESATIVAR</string>
+    <string name="abc_capital_on">ATIVAR</string>
+    <string name="abc_search_hint">Pesquisar...</string>
+    <string name="abc_searchview_description_clear">Limpar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+    <string name="abc_searchview_description_search">Pesquisar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
+    <string name="abc_toolbar_collapse_description">Recolher</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s coloca voc&amp;#234; no controle.&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>Use-o como o seu navegador privativo:
+  &lt;ul>
+    &lt;li>Pesquise e navegue direto no aplicativo&lt;/li>
+    &lt;li>Bloqueie rastreadores (ou atualize as configura&amp;#231;&amp;#245;es para permiti-los)&lt;/li>
+    &lt;li>Apague para excluir cookies assim como o hist&amp;#243;rico de pesquisa e navega&amp;#231;&amp;#227;o&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s &amp;#233; produzido pela Mozilla. Nossa miss&amp;#227;o &amp;#233; promover uma Internet saud&amp;#225;vel e aberta.&lt;br/>
+&lt;a href=%2$s>Saiba mais&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">Carregando</string>
+    <string name="accessibility_announcement_loading_finished">Site carregado</string>
+    <string name="accessibility_dismiss_find_in_page">Descartar localizar na página</string>
+    <string name="accessibility_find_in_page_result">%1$d de %2$d</string>
+    <string name="accessibility_next_result">Próximo resultado</string>
+    <string name="accessibility_previous_result">Resultado anterior</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_ok">OK</string>
+    <string name="action_option_add_search_engine">Adicionar mecanismo de pesquisa</string>
+    <string name="action_save">Salvar</string>
+    <string name="common_google_play_services_enable_button">Ativar</string>
+    <string name="common_google_play_services_enable_text">%1$s só funciona com o Google Play Services ativado.</string>
+    <string name="common_google_play_services_enable_title">Ativar o Google Play Services</string>
+    <string name="common_google_play_services_install_button">Instalar</string>
+    <string name="common_google_play_services_install_text">O app %1$s não funciona sem o Google Play Services, o qual não está instalado no seu dispositivo.</string>
+    <string name="common_google_play_services_install_title">Instalar o Google Play Services</string>
+    <string name="common_google_play_services_notification_ticker">Erro do Google Play Services</string>
+    <string name="common_google_play_services_unknown_issue">O app %1$s está com problemas com o Google Play Services. Tente novamente.</string>
+    <string name="common_google_play_services_unsupported_text">O app %1$s não funciona sem o Google Play Services, o qual não é compatível com seu dispositivo.</string>
+    <string name="common_google_play_services_update_button">Atualizar</string>
+    <string name="common_google_play_services_update_text">%1$s só funciona com uma versão atualizada do Google Play Services.</string>
+    <string name="common_google_play_services_update_title">Atualizar o Google Play Services</string>
+    <string name="common_google_play_services_updating_text">%1$s não funciona sem o Google Play Services, o qual está sendo atualizado no momento.</string>
+    <string name="common_google_play_services_wear_update_text">É necessária uma nova versão do Google Play Services. Ele será atualizado em breve.</string>
+    <string name="common_open_on_phone">Abrir no smartphone</string>
+    <string name="common_signin_button_text">Fazer login</string>
+    <string name="common_signin_button_text_long">Fazer login com o Google</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Navegar de volta</string>
+    <string name="content_description_blocking_switch">Bloquear rastreadores</string>
+    <string name="content_description_clear_input">Limpar campo</string>
+    <string name="content_description_customtab_exit">Retornar ao aplicativo anterior</string>
+    <string name="content_description_dismiss_input">Dispensar</string>
+    <string name="content_description_erase">Apagar o histórico de navegação</string>
+    <string name="content_description_forward">Navegar para a frente</string>
+    <string name="content_description_lock">Conexão segura</string>
+    <string name="content_description_menu">Mais opções</string>
+    <string name="content_description_reload">Recarregar o site</string>
+    <string name="content_description_stop">Parar de carregar o site</string>
+    <string name="content_description_tab_counter">Abas abertas: %1$s</string>
+    <string name="contextmenu_image_copy">Copiar endereço da imagem</string>
+    <string name="contextmenu_image_save">Salvar imagem</string>
+    <string name="contextmenu_image_share">Compartilhar imagem</string>
+    <string name="contextmenu_image_warning">As imagens salvas e compartilhadas &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>n&amp;#227;o ser&amp;#227;o exclu&amp;#237;das&lt;/b> ao apagar o histórico do %1$s.</string>
+    <string name="contextmenu_link_copy">Copiar endereço do link</string>
+    <string name="contextmenu_link_share">Compartilhar link</string>
+    <string name="contextmenu_open_in_new_tab">Abrir link em nova aba</string>
+    <string name="custom_autocomplete_quick_add">Adicionar URL personalizada</string>
+    <string name="custom_tab_copy_url_action">URL copiada</string>
+    <string name="dialog_addtohomescreen_action_add">Adicionar</string>
+    <string name="dialog_addtohomescreen_action_cancel">Cancelar</string>
+    <string name="dialog_addtohomescreen_tracking_protection">O atalho abrirá com a Proteção Contra Rastreamento desativada</string>
+    <string name="download_dialog_action_cancel">Cancelar</string>
+    <string name="download_dialog_action_download">Baixar</string>
+    <string name="download_dialog_title">Baixar arquivo</string>
+    <string name="download_dialog_warning">Arquivos baixados &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>n&amp;#227;o ser&amp;#227;o deletados&lt;/b> quando você apagar o histórico do %1$s.</string>
+    <string name="download_firefox">Baixar o Firefox</string>
+    <string name="download_snackbar_finished">%1$s finalizado</string>
+    <string name="download_snackbar_open">Abrir</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>O site pode estar temporariamente indispon&amp;#237;vel ou ocupado demais. Tente novamente em alguns instantes.&lt;/li>
+        &lt;li>Se n&amp;#227;o conseguir carregar nenhuma p&amp;#225;gina, verifique a conex&amp;#227;o de dados ou Wi-Fi do seu dispositivo m&amp;#243;vel.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">Não foi possível conectar</string>
+    <string name="error_generic_message">Não podemos carregar esta página por algum motivo.</string>
+    <string name="error_generic_title">Ops</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Verifique se o endere&amp;#231;o cont&amp;#233;m erros de digita&amp;#231;&amp;#227;o, como
+          &lt;strong>ww&lt;/strong>.example.com ao inv&amp;#233;s de
+          &lt;strong>www&lt;/strong>.example.com&lt;/li>
+        &lt;li>Se n&amp;#227;o conseguir carregar nenhuma p&amp;#225;gina, verifique a conex&amp;#227;o de dados ou Wi-Fi de seu dispositivo.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">Servidor não encontrado</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Os endere&amp;#231;os da Web s&amp;#227;o geralmente escritos como &lt;strong>http://www.example.com/&lt;/strong>&lt;/li>
+  &lt;li>Certifique-se de usar barras obl&amp;#237;quas (ex. &lt;strong>/&lt;/strong>).&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">O endereço não é válido</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Este problema, &amp;#224;s vezes, pode ser causado pela desativa&amp;#231;&amp;#227;o ou recusa em aceitar os cookies.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">A página não está sendo redirecionada corretamente</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Isto pode ser um problema com a configura&amp;#231;&amp;#227;o do servidor ou pode ser algu&amp;#233;m tentando se passar pelo servidor.&lt;/li>
+  &lt;li>Se voc&amp;#234; se conectou a este servidor com sucesso no passado, o erro pode ser tempor&amp;#225;rio, e voc&amp;#234; pode tentar novamente mais tarde.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">Falha na conexão segura</string>
+    <string name="error_timeout_title">A conexão expirou</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Talvez seja necess&amp;#225;rio instalar outro software para abrir esse endere&amp;#231;o.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">O endereço não foi compreendido</string>
+    <string name="errorpage_refresh">Tentar novamente</string>
+    <string name="errorpage_title">Problemas ao carregar a página</string>
+    <string name="external_app_prompt">Você pode sair do %1$s para abrir este link no %2$s.</string>
+    <string name="external_app_prompt_no_app">Nenhum aplicativo do seu dispositivo consegue abrir este link. Você pode sair do %1$s para pesquisar no %2$s por um aplicativo compatível.</string>
+    <string name="external_app_prompt_no_app_title">Encontrar um app que pode abrir o link</string>
+    <string name="external_app_prompt_title">Abrir link em um outro app</string>
+    <string name="external_multiple_apps_matched_exit">Sair da navegação privativa?</string>
+    <string name="feedback_erase">Seu histórico de navegação foi apagado.</string>
+    <string name="find_in_page">Localizar na página</string>
+    <string name="find_in_page_input">Localizar na página</string>
+    <string name="find_in_page_result">%1$d/%2$d</string>
+    <string name="firstrun_close_button">Ok, entendi!</string>
+    <string name="firstrun_defaultbrowser_text2">Leve a navegação privativa ao próximo nível. Bloqueie propagandas e outros conteúdos que podem rastrear você entre os sites diminuir o tempo de carregamento das páginas.</string>
+    <string name="firstrun_defaultbrowser_title">Potencialize sua privacidade</string>
+    <string name="firstrun_next_button">Próximo</string>
+    <string name="firstrun_privacy_text">Defina o %1$s como seu navegador padrão e obtenha os benefícios da navegação privativa quando abrir páginas de outros aplicativos.</string>
+    <string name="firstrun_privacy_title">Faça da privacidade um hábito</string>
+    <string name="firstrun_search_text">Procurando algo diferente? Escolha outro mecanismo de pesquisa padrão em Configurações.</string>
+    <string name="firstrun_search_title">Pesquise à sua maneira</string>
+    <string name="firstrun_shortcut_text">Volte ao seus sites favoritos no %1$s rapidamente. Apenas selecione \"Adicionar à Tela principal\" pelo menu do %1$s.</string>
+    <string name="firstrun_shortcut_title">Adicione atalhos na sua tela principal</string>
+    <string name="firstrun_skip_button">Pular</string>
+    <string name="gv_prompt_clear">Limpar</string>
+    <string name="gv_prompt_password_hint">Senha</string>
+    <string name="gv_prompt_username_hint">Usuário</string>
+    <string name="http_auth_dialog_password">Senha</string>
+    <string name="http_auth_dialog_title">Autenticação solicitada</string>
+    <string name="http_auth_dialog_username">Nome de usuário</string>
+    <string name="menu_about">Sobre</string>
+    <string name="menu_add_to_home_screen">Adicionar à tela inicial</string>
+    <string name="menu_custom_tab_branding">Mantido por %1$s</string>
+    <string name="menu_help">Ajuda</string>
+    <string name="menu_open_with_a_browser2">Abrir em…</string>
+    <string name="menu_open_with_default_browser2">Abrir em %1$s</string>
+    <string name="menu_report_site_issue">Relatar problema no site</string>
+    <string name="menu_rights">Seus direitos</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="menu_share">Compartilhar…</string>
+    <string name="menu_trackers_blocked_title">Rastreadores bloqueados</string>
+    <string name="menu_whats_new">Novidades</string>
+    <string name="notification_action_erase_and_open">Apagar e Abrir</string>
+    <string name="notification_action_open">Abrir</string>
+    <string name="notification_browsing_session_channel_description">As notificações permitem você limpar sua sessão do %1$s com um toque. Você não precisa abrir o app ou ver o que está rodando no seu navegador.</string>
+    <string name="notification_browsing_session_channel_name">Sessão de navegação privativa</string>
+    <string name="notification_erase_text">Apagar o histórico de navegação</string>
+    <string name="preference_about">Sobre o %1$s</string>
+    <string name="preference_autocomplete_action_add">+ Adicionar URL personalizada</string>
+    <string name="preference_autocomplete_action_remove_content_description">Remover</string>
+    <string name="preference_autocomplete_add_confirmation">Novo URL personalizado adicionado.</string>
+    <string name="preference_autocomplete_add_error">Verifique novamente o URL digitado.</string>
+    <string name="preference_autocomplete_add_example">Exemplo: exemplo.com</string>
+    <string name="preference_autocomplete_add_example2">Exemplo: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">Cole ou digite o URL</string>
+    <string name="preference_autocomplete_add_title">URL a adicionar</string>
+    <string name="preference_autocomplete_custom_summary">Adicione e gerencie URLs de preenchimento automático personalizados.</string>
+    <string name="preference_autocomplete_duplicate_url_error">O URL já existe</string>
+    <string name="preference_autocomplete_learn_more">Saiba mais</string>
+    <string name="preference_autocomplete_menu_remove">Remover</string>
+    <string name="preference_autocomplete_preinstalled_summary">Habilite o %1$s para ter preenchimento automático de mais de 450 URLs populares na barra de endereços.</string>
+    <string name="preference_autocomplete_subitem_customlist">URLs personalizadas</string>
+    <string name="preference_autocomplete_title_add">Adicionar URL personalizada</string>
+    <string name="preference_autocomplete_title_remove">Remover URL personalizada</string>
+    <string name="preference_category_autocomplete_custom_urls">URLs personalizadas</string>
+    <string name="preference_category_autocomplete_preinstalled">Lista de URL padrão</string>
+    <string name="preference_category_cookies">Cookies e Dados de sites</string>
+    <string name="preference_category_data_choices">Escolha de dados</string>
+    <string name="preference_category_data_collection_use">Uso e Dados coletados</string>
+    <string name="preference_category_general">Geral</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Desempenho</string>
+    <string name="preference_category_privacy">Privacidade</string>
+    <string name="preference_category_search">Pesquisar</string>
+    <string name="preference_category_switching_apps">Troca de Apps</string>
+    <string name="preference_category_tracking_protection">Proteção contra rastreamento</string>
+    <string name="preference_category_web_content">Conteúdo da web</string>
+    <string name="preference_default_browser2">Definir o %1$s como navegador padrão</string>
+    <string name="preference_language">Idioma</string>
+    <string name="preference_language_systemdefault">Padrão do sistema</string>
+    <string name="preference_mozilla_summary">Ajuda sobre o %1$s</string>
+    <string name="preference_mozilla_telemetry2">Enviar dados de utilização</string>
+    <string name="preference_mozilla_telemetry_summary">Saiba mais</string>
+    <string name="preference_mozilla_telemetry_summary2">A Mozilla se empenha para coletar somente o que é necessário para melhorar o %1$s para todos.</string>
+    <string name="preference_performance_block_javascript">Bloquear JavaScript</string>
+    <string name="preference_performance_block_javascript_summary">As páginas podem carregar mais rápido, mas também podem ter comportamento inesperado</string>
+    <string name="preference_performance_block_webfonts">Bloquear fontes Web</string>
+    <string name="preference_performance_block_webfonts_summary">Pode resultar em falta de ícones ou imagens</string>
+    <string name="preference_performance_request_desktop_site">Requisitar site para desktop</string>
+    <string name="preference_privacy_and_security_header">Privacidade e Segurança</string>
+    <string name="preference_privacy_and_security_summary">Rastreamento, cookies, escolhas de dados</string>
+    <string name="preference_privacy_block_ads">Bloquear rastreadores de anúncio</string>
+    <string name="preference_privacy_block_ads_summary">Algumas propagandas rastreiam os sites visitados, mesmo se você não clicar na propaganda</string>
+    <string name="preference_privacy_block_analytics">Bloquear rastreadores analíticos</string>
+    <string name="preference_privacy_block_analytics_summary">Usado para coletar, analisar e medir atividades como toque e rolagem</string>
+    <string name="preference_privacy_block_content">Bloquear outros rastreadores</string>
+    <string name="preference_privacy_block_content_summary2">Habilitar pode causar comportamento inesperado em algumas páginas</string>
+    <string name="preference_privacy_block_social">Bloquear rastreadores sociais</string>
+    <string name="preference_privacy_block_social_summary">Incorporados nos sites para rastrear suas visitas e exibir funcionalidades como botões de compartilhamento</string>
+    <string name="preference_privacy_category_cookies">Bloquear cookies</string>
+    <string name="preference_privacy_notice">Política de Privacidade</string>
+    <string name="preference_privacy_secure_mode">Furtividade</string>
+    <string name="preference_privacy_should_block_cookies_no_option">Não</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Bloquear somente cookies de terceiros</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Sim</string>
+    <string name="preference_privacy_stealth_summary">Esconder páginas web quando trocar aplicativo</string>
+    <string name="preference_search_add2">Adicionar outro mecanismo de pesquisa</string>
+    <string name="preference_search_engine_default">Padrão</string>
+    <string name="preference_search_installed_search_engines">Mecanismos de pesquisa instalados</string>
+    <string name="preference_search_remove">Remover</string>
+    <string name="preference_search_remove_title">Remover mecanismos de pesquisa</string>
+    <string name="preference_search_restore">Restaurar os mecanismos de pesquisa padrões</string>
+    <string name="preference_search_summary">Definir como padrão, autocompletar</string>
+    <string name="preference_state_off">Desativado</string>
+    <string name="preference_state_on">Ativado</string>
+    <string name="preference_subitem_autocomplete">Preenchimento automático de URL</string>
+    <string name="preference_switch_autocomplete">Preenchimento automático</string>
+    <string name="search_add_confirmation">Novo mecanismo de pesquisa adicionado.</string>
+    <string name="search_add_error_duplicate_name">Um mecanismo de pesquisa instalado já está usando esse nome.</string>
+    <string name="search_add_error_empty_name">Digite o nome do mecanismo de pesquisa</string>
+    <string name="search_add_error_empty_search">Digite um termo de pesquisa</string>
+    <string name="search_add_error_format">Verifique se o termo da pesquisa corresponde ao formato de exemplo</string>
+    <string name="search_add_manually_example">Exemplo: exemplo.com/search/?q= %s</string>
+    <string name="search_add_manually_name_hint">Nome do mecanismo de pesquisa</string>
+    <string name="search_add_manually_save">Salvar</string>
+    <string name="search_add_manually_string">Termo de pesquisa a ser usado</string>
+    <string name="search_hint">Pesquisar por %1$s</string>
+    <string name="search_menu_title">Pesquisar</string>
+    <string name="security_popup_insecure_connection">Conexão insegura</string>
+    <string name="security_popup_secure_connection">Conexão segura</string>
+    <string name="security_popup_security_verified">Verificado por: %1$s</string>
+    <string name="share_dialog_title">Compartilhar via</string>
+    <string name="shortcut_erase_long_label">Apagar o histórico de navegação</string>
+    <string name="shortcut_erase_short_label">Apagar</string>
+    <string name="site_security_icon_content_description">Segurança do site</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tabs_tray_action_erase">Limpar o histórico de navegação</string>
+    <string name="teaser">"Navegação privativa automática.
+Navegar. Apagar. Repetir."</string>
+    <string name="text_selection_search_action">Pesquisa privativa</string>
+    <string name="urlbar_hint">Pesquisar ou navegar</string>
+    <string name="your_rights">Seus direitos</string>
+    <string name="your_rights_content1">O %1$s é um software livre e de código aberto feita pela Mozilla e outros contribuidores.</string>
+    <string name="your_rights_content2">O %1$s é disponibilizado de acordo com os termos da &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Mozilla Public License&lt;/a> e outras licenças de código aberto.</string>
+    <string name="your_rights_content3">Não lhe são concedidos quaisquer direitos ou licenças sobre marcas registradas da Mozilla Foundation ou de terceiros, incluindo os nomes ou logos da Mozilla, Firefox ou %1$s. Informações adicionais podem ser encontradas &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>here&lt;/a>.</string>
+    <string name="your_rights_content4">Código fonte adicionais para o %1$s estão disponíveis sobre várias outras &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>licen&amp;#231;as&lt;/a> livres e de código aberto.</string>
+    <string name="your_rights_content5">O %1$s também utiliza &lt;em xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>listas de bloqueios&lt;/em> disponibilizadas pela Disconnect, Inc. como um trabalho independente disponibilizado &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>aqui&lt;/a>, sob a &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>GNU General Public License v3&lt;/a>.</string>
+</resources>

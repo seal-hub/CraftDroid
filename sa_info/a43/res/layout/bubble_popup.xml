@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView n1:textColor="@color/mailview_address" n1:id="@id/email_popup" n1:background="@drawable/bubble_popup_bg" n1:paddingLeft="8.0dip" n1:paddingTop="4.0dip" n1:paddingRight="8.0dip" n1:paddingBottom="4.0dip" n1:duplicateParentState="true" n1:layout_width="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android" />

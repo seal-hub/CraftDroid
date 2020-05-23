@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <Preference n1:title="@string/report_reuse_text" n1:key="preference_report_reuse" n1:summary="@string/report_reuse_text_description"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <ListPreference n2:entries="@array/libverify_block_notification_names" n2:title="@string/block_notifications_text" n2:key="preference_block_notifications" n2:summary="@string/block_notifications_description" n2:dialogTitle="@string/block_for_text" n2:entryValues="@array/libverify_block_notification_values"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <Preference n3:title="@string/notification_history_text" n3:key="preference_show_history" n3:summary="@string/notification_history_text_description"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

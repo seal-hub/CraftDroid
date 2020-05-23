@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_trackingId">UA-00000000-0</string>
+    <string name="ga_sampleFrequency">100.0</string>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <integer name="ga_sessionTimeout">300</integer>
+    <screenName name="com.avjindersinghsekhon.minimaltodo.MainActivity">Main Activity</screenName>
+    <screenName name="com.avjindersinghsekhon.minimaltodo.AddToDoActivity">Add ToDo Activity</screenName>
+    <screenName name="com.avjindersinghsekhon.minimaltodo.SettingsActivity">Settings Activity</screenName>
+</resources>

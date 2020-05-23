@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="attach_gallery_error_top_margin">8.0dip</dimen>
+    <dimen name="attach_gallery_file_name_top_margin">8.0dip</dimen>
+    <dimen name="attach_gallery_file_size_top_margin">4.0dip</dimen>
+    <dimen name="attach_gallery_open_button_top_margin">11.0dip</dimen>
+    <dimen name="attach_gallery_progress_top_margin">5.0dip</dimen>
+    <dimen name="attach_gallery_retry_button_top_margin">7.0dip</dimen>
+</resources>

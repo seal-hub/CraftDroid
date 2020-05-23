@@ -1,0 +1,13 @@
+digraph "CallGraph" {
+    node [style="rounded,bold,filled"];
+    node [shape=box];
+    "Root" [label="Root",];
+    "douzifly.list.ui.home.MainActivity: void onCreate(android.os.Bundle)" [label="MainActivity(onCreate)",];
+    "Root"->"douzifly.list.ui.home.MainActivity: void onCreate(android.os.Bundle)" [label="SYMBOLIC",style=bold,color=black,];
+    "android.view.View$OnClickListener: void onClick(android.view.View)" [label="View$OnClickListener(onClick)",];
+    "douzifly.list.ui.home.MainActivity: void onCreate(android.os.Bundle)"->"android.view.View$OnClickListener: void onClick(android.view.View)" [label="GUI (NULL)",style=bold,color=firebrick,];
+    "com.github.clans.fab.FloatingActionButton$3: void onClick(android.view.View)" [label="FloatingActionButton$3(onClick)",];
+    "douzifly.list.ui.home.MainActivity: void onCreate(android.os.Bundle)"->"com.github.clans.fab.FloatingActionButton$3: void onClick(android.view.View)" [label="GUI (NULL)",style=bold,color=firebrick,];
+    "douzifly.list.ui.home.MainActivity: void onCreate(android.os.Bundle)"->"com.github.clans.fab.FloatingActionButton$3: void onClick(android.view.View)" [label="GUI (NULL)",style=bold,color=firebrick,];
+    "douzifly.list.ui.home.MainActivity: void onCreate(android.os.Bundle)"->"android.view.View$OnClickListener: void onClick(android.view.View)" [label="GUI (NULL)",style=bold,color=firebrick,];
+}

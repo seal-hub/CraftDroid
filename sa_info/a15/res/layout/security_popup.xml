@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/security_popup_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/doorhanger_section_padding_medium" android:paddingBottom="@dimen/doorhanger_section_padding_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/doorhanger_section_padding_small" android:paddingEnd="@dimen/doorhanger_section_padding_small">
+        <ImageView android:gravity="center_horizontal" android:id="@id/site_identity_icon" android:padding="@dimen/doorhanger_section_padding_small" android:layout_width="@dimen/doorhanger_icon_size" android:layout_height="@dimen/doorhanger_icon_size" android:layout_marginEnd="@dimen/doorhanger_section_padding_small" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/doorhanger_section_padding_medium">
+            <TextView android:textAppearance="@style/DoorHanger.Medium.Light" android:ellipsize="end" android:id="@id/site_identity_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textAppearance="@style/DoorHanger.Medium.Bold" android:id="@id/site_identity_state" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doorhanger_subsection_padding" android:maxLines="1" />
+            <TextView android:textAppearance="@style/DoorHanger.Medium" android:id="@id/mixed_content_activity" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doorhanger_section_padding_medium" />
+            <TextView android:textAppearance="@style/DoorHanger.Medium.Light" android:id="@id/verifier" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doorhanger_section_padding_medium" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

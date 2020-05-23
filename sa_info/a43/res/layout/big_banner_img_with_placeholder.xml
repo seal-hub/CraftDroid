@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.fragments.view.ProportionalImageView n1:id="@id/ad_image" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:maxHeightExcess="32.0dip" style="@style/BigAdBannerImageStyle" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <TextView n1:textColor="@color/big_ad_banner_advertisement_text_color" n1:gravity="center" n1:id="@id/error_text" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="@string/error_loading_image" />
+</FrameLayout>

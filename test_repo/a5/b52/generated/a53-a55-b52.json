@@ -1,0 +1,100 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.jpstudiosonline.tipcalculator:id/btCalculate",
+    "text": "Calculate",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.jpstudiosonline.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.5363241110008062,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.jpstudiosonline.tipcalculator:id/etPerson",
+    "text": "1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.jpstudiosonline.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.5711350241616934,
+    "action": [
+      "clear_and_send_keys",
+      "56.6"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.jpstudiosonline.tipcalculator:id/etTipAmount",
+    "text": "15",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "%",
+    "stepping_events": [],
+    "package": "com.jpstudiosonline.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.7,
+    "action": [
+      "clear_and_send_keys",
+      "15"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.jpstudiosonline.tipcalculator:id/etBillTotal",
+    "text": "1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "$",
+    "stepping_events": [],
+    "package": "com.jpstudiosonline.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.6715429882473731,
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "4"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.jpstudiosonline.tipcalculator:id/btCalculate",
+    "text": "Calculate",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.jpstudiosonline.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.7,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  }
+]

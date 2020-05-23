@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="wrap_content" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ProgressBar n1:id="@id/progress" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dip" n1:layout_marginTop="16.0dip" n1:layout_marginRight="16.0dip" n1:layout_marginBottom="1.0dip" n1:layout_centerHorizontal="true" n1:layout_marginStart="16.0dip" n1:layout_marginEnd="16.0dip" style="?android:progressBarStyleHorizontal" />
+    <TextView n1:id="@id/progress_percent" n1:paddingBottom="16.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dip" n1:layout_marginRight="16.0dip" n1:layout_below="@id/progress" n1:layout_alignParentLeft="true" n1:layout_marginStart="16.0dip" n1:layout_marginEnd="16.0dip" n1:layout_alignParentStart="true" />
+    <TextView n1:id="@id/progress_number" n1:paddingBottom="16.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dip" n1:layout_marginRight="16.0dip" n1:layout_below="@id/progress" n1:layout_alignParentRight="true" n1:layout_marginStart="16.0dip" n1:layout_marginEnd="16.0dip" n1:layout_alignParentEnd="true" />
+</RelativeLayout>

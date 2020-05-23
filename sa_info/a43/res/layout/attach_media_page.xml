@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/preview_container" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:visibility="invisible" layout="@layout/attach_item" />
+    <include layout="@layout/attach_animation_background" />
+    <include layout="@layout/attach_animation" />
+    <RelativeLayout n1:id="@id/content_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <ru.mail.fragments.view.AttachImageView n1:id="@id/image" n1:visibility="invisible" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+        <ProgressBar n1:id="@id/progress" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" />
+        <include n1:id="@id/unknown_file_container" n1:visibility="gone" layout="@layout/attach_unknown_page_content" />
+    </RelativeLayout>
+</RelativeLayout>

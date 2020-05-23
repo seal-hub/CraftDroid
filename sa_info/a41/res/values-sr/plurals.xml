@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Адресе копиране на клипборд</item>
+        <item quantity="one">Адреса копирана на клипборд</item>
+        <item quantity="few">Адресе копиране на клипборд</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Желите ли заиста да обришете %1$d порука?</item>
+        <item quantity="one">Желите ли заиста да обришете ову поруку?</item>
+        <item quantity="few">Желите ли заиста да обришете %1$d поруке?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Желите ли заиста да померите %1$d порука у нежељене?</item>
+        <item quantity="one">Желите ли заиста да померите ову поруку у нежељене?</item>
+        <item quantity="few">Желите ли заиста да померите %1$d поруке у нежељене?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d нових порука</item>
+        <item quantity="one">%d нова порука</item>
+        <item quantity="few">%d нове поруке</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Добављам %d резултата</item>
+        <item quantity="one">Добављам %d резултат</item>
+        <item quantity="few">Добављам %d резултата</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Добављам %1$d од %2$d резултата</item>
+        <item quantity="one">Добављам %1$d од %2$d резултата</item>
+        <item quantity="few">Добављам %1$d од %2$d резултата</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s налога</item>
+        <item quantity="one">1 налог</item>
+        <item quantity="few">%s налога</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">лозинке сервера</item>
+        <item quantity="one">лозинку сервера</item>
+        <item quantity="few">лозинке сервера</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Постављам лозинке…</item>
+        <item quantity="one">Постављам лозинку…</item>
+        <item quantity="few">Постављам лозинке…</item>
+    </plurals>
+</resources>

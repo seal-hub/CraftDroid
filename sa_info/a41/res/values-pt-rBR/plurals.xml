@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Endereços copiados para a área de transferência</item>
+        <item quantity="one">Endereço copiado para área de transferência</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Deseja realmente excluir %1$d mensagens?</item>
+        <item quantity="one">Deseja realmente excluir esta mensagem?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Deseja realmente mover %1$d mensagens para a pasta de spam?</item>
+        <item quantity="one">Deseja mesmo mover esta mensagem para a pasta de spam?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d novas mensagens</item>
+        <item quantity="one">%d nova mensagem</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Buscando %d resultados</item>
+        <item quantity="one">Buscando %d resultado</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Buscando %1$d de %2$d resultados</item>
+        <item quantity="one">Buscando %1$d de %2$d resultado</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s contas</item>
+        <item quantity="one">1 conta</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">as senhas do servidor</item>
+        <item quantity="one">a senha do servidor</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Definindo as senhas…</item>
+        <item quantity="one">Definindo a senha…</item>
+    </plurals>
+</resources>

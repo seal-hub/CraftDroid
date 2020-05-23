@@ -1,0 +1,187 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "kdk.android.simplydo:id/AddListButton",
+    "text": "Add",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "New List Name",
+    "stepping_events": [],
+    "package": "kdk.android.simplydo",
+    "activity": ".SimplyDoActivity",
+    "event_type": "gui",
+    "score": 0.3652892725618331,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "kdk.android.simplydo:id/AddListButton",
+    "text": "Add",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "New List Name",
+    "stepping_events": [],
+    "package": "kdk.android.simplydo",
+    "activity": ".SimplyDoActivity",
+    "event_type": "gui",
+    "score": 0.342381154777905,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "kdk.android.simplydo:id/AddListEditText",
+    "text": "New List Name",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "kdk.android.simplydo",
+    "activity": ".SimplyDoActivity",
+    "event_type": "gui",
+    "score": 0.46008171406165127,
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sample Todo"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "kdk.android.simplydo:id/AddListButton",
+    "text": "Add",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Sample Todo",
+    "stepping_events": [],
+    "package": "kdk.android.simplydo",
+    "activity": ".SimplyDoActivity",
+    "event_type": "gui",
+    "score": 0.3786454627473498,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "kdk.android.simplydo:id/text1",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "kdk.android.simplydo",
+    "activity": ".SimplyDoActivity",
+    "event_type": "oracle",
+    "score": 0.39558021971404067,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Sample Todo"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "kdk.android.simplydo:id/text1",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "kdk.android.simplydo",
+    "activity": ".SimplyDoActivity",
+    "event_type": "gui",
+    "score": 0.39558021971404067,
+    "action": [
+      "long_press"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/title",
+    "text": "Delete",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "kdk.android.simplydo",
+    "activity": ".SimplyDoActivity",
+    "event_type": "gui",
+    "score": 0.4955802197140407,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button1",
+    "text": "Yes",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".SimplyDoActivity",
+    "package": "kdk.android.simplydo",
+    "event_type": "stepping"
+  },
+  {
+    "class": "",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "",
+    "password": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "button1",
+        "id-prefix": "android:id/",
+        "text": "Yes",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".SimplyDoActivity",
+        "package": "kdk.android.simplydo",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "kdk.android.simplydo",
+    "activity": ".SimplyDoActivity",
+    "event_type": "oracle",
+    "score": 0.2955802197140407,
+    "action": [
+      "wait_until_text_invisible",
+      10,
+      "text",
+      "Sample Todo"
+    ]
+  }
+]

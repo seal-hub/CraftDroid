@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/item_root" n1:background="@android:color/transparent" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.fragments.view.MailsBannerView n1:id="@id/item_view_base_internal" n1:background="?selectableListItemBackground" n1:paddingLeft="12.0dip" n1:paddingTop="8.0dip" n1:paddingRight="16.0dip" n1:paddingBottom="16.0dip" n1:addStatesFromChildren="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <CheckBox n1:id="@id/checkbox" n1:focusable="false" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="13.0dip" n1:layout_marginRight="12.0dip" n1:layout_marginBottom="4.0dip" n1:layout_centerVertical="true" />
+        <ru.mail.fragments.view.TextInsideClickableView n1:textAppearance="?android:textAppearanceMedium" n1:ellipsize="end" n1:id="@id/snippet" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:lines="3" n1:lineSpacingExtra="4.0dip" />
+        <ru.mail.fragments.view.TextInsideClickableView n1:textAppearance="?android:textAppearanceLarge" n1:ellipsize="end" n1:id="@id/subject" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="3.0dip" n1:maxLines="1" n1:singleLine="true" />
+        <ru.mail.uikit.view.FontButton n1:textAppearance="?android:textAppearanceMedium" n1:textSize="@dimen/small_text_appearance" n1:textColor="@android:color/black" n1:gravity="center" n1:id="@id/install" n1:background="@drawable/banner_button_bg" n1:paddingLeft="11.0dip" n1:paddingTop="7.0dip" n1:paddingRight="11.0dip" n1:paddingBottom="9.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dip" n1:layout_marginTop="10.0dip" n1:minWidth="@dimen/ad_banner_install_min_width" n1:minHeight="25.0dip" n1:text="@string/install" n1:singleLine="true" />
+        <ProgressBar n1:id="@id/progress_bar" n1:paddingTop="18.0dip" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        <include layout="@layout/mail_list_banner_internal" />
+    </ru.mail.fragments.view.MailsBannerView>
+    <include layout="@layout/google_ads_views" />
+</FrameLayout>

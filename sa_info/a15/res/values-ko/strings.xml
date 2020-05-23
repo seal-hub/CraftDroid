@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">홈 탐색</string>
+    <string name="abc_action_bar_up_description">위로 탐색</string>
+    <string name="abc_action_menu_overflow_description">옵션 더보기</string>
+    <string name="abc_action_mode_done">완료</string>
+    <string name="abc_activity_chooser_view_see_all">전체 보기</string>
+    <string name="abc_activitychooserview_choose_application">앱 선택</string>
+    <string name="abc_capital_off">사용 안함</string>
+    <string name="abc_capital_on">사용</string>
+    <string name="abc_search_hint">검색...</string>
+    <string name="abc_searchview_description_clear">검색어 삭제</string>
+    <string name="abc_searchview_description_query">검색어</string>
+    <string name="abc_searchview_description_search">검색</string>
+    <string name="abc_searchview_description_submit">검색어 보내기</string>
+    <string name="abc_searchview_description_voice">음성 검색</string>
+    <string name="abc_shareactionprovider_share_with">공유 대상</string>
+    <string name="abc_shareactionprovider_share_with_application">%s와(과) 공유</string>
+    <string name="abc_toolbar_collapse_description">접기</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s&amp;#47484; &amp;#50668;&amp;#47084; &amp;#44592;&amp;#45733;&amp;#51004;&amp;#47196; &amp;#49324;&amp;#50857;&amp;#54624; &amp;#49688; &amp;#51080;&amp;#49845;&amp;#45768;&amp;#45796;.&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#44060;&amp;#51064; &amp;#51221;&amp;#48372; &amp;#48372;&amp;#54840; &amp;#48652;&amp;#46972;&amp;#50864;&amp;#51200;&amp;#47196; &amp;#49324;&amp;#50857;:
+  &lt;ul>
+    &lt;li>&amp;#50545;&amp;#50640;&amp;#49436; &amp;#44160;&amp;#49353; &amp;#48143; &amp;#48652;&amp;#46972;&amp;#50864;&amp;#51669;&amp;#54616;&amp;#44592;&lt;/li>
+    &lt;li>&amp;#52628;&amp;#51201;&amp;#44592; &amp;#52264;&amp;#45800;(&amp;#49444;&amp;#51221;&amp;#51012; &amp;#48320;&amp;#44221;&amp;#54644; &amp;#54728;&amp;#50857;&amp;#54624; &amp;#49688; &amp;#51080;&amp;#51020;)&lt;/li>
+    &lt;li>&amp;#51064;&amp;#53552;&amp;#45367; &amp;#44592;&amp;#47197;&amp;#51060;&amp;#45208; &amp;#44160;&amp;#49353; &amp;#44592;&amp;#47197;, &amp;#53216;&amp;#53412; &amp;#49325;&amp;#51228;&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s&amp;#45716; Mozilla&amp;#51032; &amp;#51228;&amp;#54408;&amp;#51077;&amp;#45768;&amp;#45796;. Mozilla&amp;#51032; &amp;#49324;&amp;#47749;&amp;#51008; &amp;#44148;&amp;#44053;&amp;#54616;&amp;#44256; &amp;#44060;&amp;#48169;&amp;#51201;&amp;#51064; &amp;#51064;&amp;#53552;&amp;#45367;&amp;#51012; &amp;#51312;&amp;#49457;&amp;#54616;&amp;#45716; &amp;#44163;&amp;#51077;&amp;#45768;&amp;#45796;.&lt;br/>&lt;a href=%2$s>&amp;#45908; &amp;#50508;&amp;#50500;&amp;#48372;&amp;#44592;&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">로딩 중</string>
+    <string name="accessibility_announcement_loading_finished">웹 사이트 불러옴</string>
+    <string name="action_cancel">취소</string>
+    <string name="action_ok">확인</string>
+    <string name="action_option_add_search_engine">검색 엔진 추가</string>
+    <string name="action_save">저장</string>
+    <string name="common_google_play_services_enable_button">사용 설정</string>
+    <string name="common_google_play_services_enable_text">Google Play 서비스를 사용하도록 설정해야 %1$s이(가) 작동합니다.</string>
+    <string name="common_google_play_services_enable_title">Google Play 서비스 사용</string>
+    <string name="common_google_play_services_install_button">설치</string>
+    <string name="common_google_play_services_install_text">기기에 Google Play 서비스가 설치되어 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_install_title">Google Play 서비스 설치</string>
+    <string name="common_google_play_services_notification_ticker">Google Play 서비스 오류</string>
+    <string name="common_google_play_services_unknown_issue">%1$s에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 다시 시도하세요.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s은(는) Google Play 서비스 없이는 실행되지 않으나, 기기에서 Google Play 서비스를 지원하지 않습니다.</string>
+    <string name="common_google_play_services_update_button">업데이트</string>
+    <string name="common_google_play_services_update_text">Google Play 서비스를 업데이트해야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_update_title">Google Play 서비스 업데이트</string>
+    <string name="common_google_play_services_updating_text">현재 업데이트 중인 Google Play 서비스가 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_wear_update_text">새 버전의 Google Play 서비스가 필요합니다. 곧 자동으로 업데이트됩니다.</string>
+    <string name="common_open_on_phone">스마트폰에서 열기</string>
+    <string name="common_signin_button_text">로그인</string>
+    <string name="common_signin_button_text_long">Google 계정으로 로그인</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">뒤로 가기</string>
+    <string name="content_description_blocking_switch">추적기 차단</string>
+    <string name="content_description_clear_input">입력 값 초기화</string>
+    <string name="content_description_customtab_exit">이전 앱으로 돌아가기</string>
+    <string name="content_description_dismiss_input">취소</string>
+    <string name="content_description_erase">탐색 기록 지우기</string>
+    <string name="content_description_forward">앞으로 가기</string>
+    <string name="content_description_lock">보안 연결</string>
+    <string name="content_description_menu">옵션 더보기</string>
+    <string name="content_description_reload">웹 사이트 다시 불러오기</string>
+    <string name="content_description_stop">웹사이트 로딩 중지</string>
+    <string name="content_description_tab_counter">열린 탭: %1$s</string>
+    <string name="contextmenu_image_copy">이미지 주소 복사</string>
+    <string name="contextmenu_image_save">이미지 저장</string>
+    <string name="contextmenu_image_share">이미지 공유</string>
+    <string name="contextmenu_image_warning">%1$s 기록을 지울 때 &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#51200;&amp;#51109; &amp;#48143; &amp;#44277;&amp;#50976;&amp;#46108; &amp;#51060;&amp;#48120;&amp;#51648;&lt;/b>는 삭제되지 않습니다.</string>
+    <string name="contextmenu_link_copy">링크 주소 복사</string>
+    <string name="contextmenu_link_share">링크 공유</string>
+    <string name="contextmenu_open_in_new_tab">새 탭으로 링크 열기</string>
+    <string name="custom_autocomplete_quick_add">사용자 정의 URL 추가</string>
+    <string name="dialog_addtohomescreen_action_add">추가</string>
+    <string name="dialog_addtohomescreen_action_cancel">취소</string>
+    <string name="dialog_addtohomescreen_tracking_protection">바로 가기가 추적 차단 기능이 해제된 상태에서 열립니다</string>
+    <string name="download_dialog_action_cancel">취소</string>
+    <string name="download_dialog_action_download">다운로드</string>
+    <string name="download_dialog_title">파일 다운로드</string>
+    <string name="download_dialog_warning">다운로드된 파일은 &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s &amp;#48169;&amp;#47928;&amp;#44592;&amp;#47197;&amp;#51012; &amp;#49325;&amp;#51228;&amp;#54624; &amp;#46412; &lt;/b>지워집니다.</string>
+    <string name="download_firefox">Firefox 다운로드</string>
+    <string name="download_snackbar_finished">%1$s 다운로드됨</string>
+    <string name="download_snackbar_open">열기</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&amp;#51060; &amp;#49324;&amp;#51060;&amp;#53944;&amp;#44032; &amp;#54788;&amp;#51116; &amp;#51025;&amp;#45813;&amp;#54616;&amp;#51648; &amp;#50506;&amp;#49845;&amp;#45768;&amp;#45796;. &amp;#51104;&amp;#49884; &amp;#54980;&amp;#50640; &amp;#45796;&amp;#49884; &amp;#49884;&amp;#46020;&amp;#54644;&amp;#48372;&amp;#49464;&amp;#50836;.&lt;/li>
+        &lt;li>&amp;#47564;&amp;#50557; &amp;#50612;&amp;#46500; &amp;#54168;&amp;#51060;&amp;#51648;&amp;#46020; &amp;#48520;&amp;#47084;&amp;#50724;&amp;#51648; &amp;#47803;&amp;#54620;&amp;#45796;&amp;#47732;, &amp;#44592;&amp;#44592;&amp;#51032; &amp;#45936;&amp;#51060;&amp;#53552; &amp;#50672;&amp;#44208; &amp;#49345;&amp;#53468;&amp;#45208; Wi-Fi &amp;#49345;&amp;#53468;&amp;#47484; &amp;#54869;&amp;#51064;&amp;#54644;&amp;#51452;&amp;#49464;&amp;#50836;.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">연결할 수 없음</string>
+    <string name="error_generic_message">페이지를 불러오지 못했습니다.</string>
+    <string name="error_generic_title">앗! 이런</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&amp;#51452;&amp;#49548;&amp;#50640;&amp;#49436; &amp;#45796;&amp;#51020;&amp;#44284; &amp;#44057;&amp;#51008; &amp;#50724;&amp;#53440;&amp;#47484; &amp;#54869;&amp;#51064;&amp;#54644;&amp;#48372;&amp;#49464;&amp;#50836;
+          &lt;strong>www&lt;/strong>.example.com &amp;#45824;&amp;#49888;
+          &lt;strong>ww&lt;/strong>.example.com&lt;/li>
+        &lt;li>&amp;#47564;&amp;#50557; &amp;#50612;&amp;#46500; &amp;#54168;&amp;#51060;&amp;#51648;&amp;#46020; &amp;#48520;&amp;#47084;&amp;#50724;&amp;#51648; &amp;#47803;&amp;#54620;&amp;#45796;&amp;#47732;, &amp;#44592;&amp;#44592;&amp;#51032; &amp;#45936;&amp;#51060;&amp;#53552; &amp;#50672;&amp;#44208; &amp;#49345;&amp;#53468;&amp;#45208; Wi-Fi &amp;#49345;&amp;#53468;&amp;#47484; &amp;#54869;&amp;#51064;&amp;#54644;&amp;#51452;&amp;#49464;&amp;#50836;.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">서버를 찾을 수 없습니다</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#50937; &amp;#51452;&amp;#49548;&amp;#45716; &lt;strong>http://www.example.com/&lt;/strong>&amp;#50752; &amp;#44057;&amp;#51060; &amp;#49373;&amp;#44220;&amp;#49845;&amp;#45768;&amp;#45796;.&lt;/li>
+  &lt;li>&amp;#49324;&amp;#49440;(&lt;strong>/&lt;/strong>)&amp;#51012; &amp;#51228;&amp;#45824;&amp;#47196; &amp;#52452;&amp;#45716;&amp;#51648; &amp;#54869;&amp;#51064;&amp;#54644;&amp;#48372;&amp;#49464;&amp;#50836;.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">주소가 올바르지 않습니다</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#51060; &amp;#47928;&amp;#51228;&amp;#45716; &amp;#48652;&amp;#46972;&amp;#50864;&amp;#51200;&amp;#50640;&amp;#49436; &amp;#53216;&amp;#53412; &amp;#51217;&amp;#44540;&amp;#51012; &amp;#48520;&amp;#44032;&amp;#45733;&amp;#54616;&amp;#44172; &amp;#54664;&amp;#51012; &amp;#46412; &amp;#48156;&amp;#49373;&amp;#54624; &amp;#49688; &amp;#51080;&amp;#49845;&amp;#45768;&amp;#45796;.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">페이지가 제대로 이동되지 않았습니다</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#51060;&amp;#45716; &amp;#49436;&amp;#48260;&amp;#51032; &amp;#44396;&amp;#49457;&amp;#50640; &amp;#47928;&amp;#51228;&amp;#44032; &amp;#51080;&amp;#44144;&amp;#45208; &amp;#45572;&amp;#44400;&amp;#44032;&amp;#44032; &amp;#47564;&amp;#46304; &amp;#44032;&amp;#51676; &amp;#49436;&amp;#48260;&amp;#47196; &amp;#50672;&amp;#44208;&amp;#49884;&amp;#53412;&amp;#47140;&amp;#44256; &amp;#54624; &amp;#46412; &amp;#48156;&amp;#49373;&amp;#46112; &amp;#49688; &amp;#51080;&amp;#49845;&amp;#45768;&amp;#45796;.&lt;/li>
+  &lt;li>&amp;#47564;&amp;#50557; &amp;#51060;&amp;#51204;&amp;#50640; &amp;#49436;&amp;#48260;&amp;#50640; &amp;#51228;&amp;#45824;&amp;#47196; &amp;#50672;&amp;#44208;&amp;#46096;&amp;#45912; &amp;#51201;&amp;#51060; &amp;#51080;&amp;#50632;&amp;#45796;&amp;#47732;, &amp;#50640;&amp;#47084;&amp;#44032; &amp;#51104;&amp;#44624;&amp;#46041;&amp;#50504;&amp;#47564; &amp;#48156;&amp;#49373;&amp;#54620; &amp;#44163;&amp;#51068; &amp;#54869;&amp;#47456;&amp;#51060; &amp;#45458;&amp;#49845;&amp;#45768;&amp;#45796;. &amp;#45208;&amp;#51473;&amp;#50640; &amp;#45796;&amp;#49884; &amp;#49884;&amp;#46020;&amp;#54644;&amp;#48372;&amp;#49464;&amp;#50836;.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">보안 연결 실패</string>
+    <string name="error_timeout_title">연결 시간이 초과되었습니다</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#51060; &amp;#51452;&amp;#49548;&amp;#47484; &amp;#50676;&amp;#44592; &amp;#50948;&amp;#54644;&amp;#49440; &amp;#45796;&amp;#47480; &amp;#54532;&amp;#47196;&amp;#44536;&amp;#47016;&amp;#51012; &amp;#49444;&amp;#52824;&amp;#54644;&amp;#50556; &amp;#54633;&amp;#45768;&amp;#45796;.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">인식할 수 없는 주소입니다</string>
+    <string name="errorpage_refresh">다시 시도하기</string>
+    <string name="errorpage_title">페이지를 불러오는 데에 문제가 발생했습니다</string>
+    <string name="external_app_prompt">%2$s로 링크를 열면 %1$s를 떠나게 됩니다.</string>
+    <string name="external_app_prompt_no_app">이 링크를 열 수 있는 앱이 설치돼있지 않습니다. %1$s를 종료하고 %2$s를 열어 이 링크를 열 수 있는 앱을 찾을 수 있습니다.</string>
+    <string name="external_app_prompt_no_app_title">링크를 열 수 있는 앱 찾기</string>
+    <string name="external_app_prompt_title">다른 앱으로 링크 열기</string>
+    <string name="external_multiple_apps_matched_exit">개인 정보 보호 브라우징을 종료할까요?</string>
+    <string name="feedback_erase">페이지 탐색 기록이 삭제되었습니다.</string>
+    <string name="firstrun_close_button">알겠습니다!</string>
+    <string name="firstrun_defaultbrowser_text2">한 단계 높은 개인 정보 보호 브라우징을 즐겨보세요. 사이트의 경계를 넘어 개인정보를 추적하거나, 페이지 로딩 속도를 늦추는 원인이 되는 광고 및 기타 콘텐츠를 자동으로 차단해 줍니다.</string>
+    <string name="firstrun_defaultbrowser_title">개인정보 보호 강화하기</string>
+    <string name="firstrun_next_button">다음</string>
+    <string name="firstrun_privacy_text">%1$s 를 기본 브라우저로 설정하시면, 다른 앱에서 웹페이지를 열어볼 때 언제든지 개인 정보 보호의 혜택을 누릴 수 있습니다.</string>
+    <string name="firstrun_privacy_title">사생활 보호를 습관처럼</string>
+    <string name="firstrun_search_text">다른 방식으로 검색을 원하세요? 설정에서 다른 검색 엔진을 기본값으로 선택할 수 있습니다.</string>
+    <string name="firstrun_search_title">검색을 내 입맛대로</string>
+    <string name="firstrun_shortcut_text">%1$s에서는 자주 방문하는 사이트로 빠르게 이동할 수 있습니다. %1$s 메뉴에서 \"초기 화면에 추가하기\" 를 이용하세요.</string>
+    <string name="firstrun_shortcut_title">초기 화면에 바로 가기 추가</string>
+    <string name="firstrun_skip_button">건너뛰기</string>
+    <string name="gv_prompt_clear">지우기</string>
+    <string name="gv_prompt_password_hint">비밀번호</string>
+    <string name="gv_prompt_username_hint">사용자명</string>
+    <string name="menu_about">정보</string>
+    <string name="menu_add_to_home_screen">초기 화면에 추가하기</string>
+    <string name="menu_custom_tab_branding">%1$s에서 지원</string>
+    <string name="menu_help">도움말</string>
+    <string name="menu_open_with_a_browser2">다른 브라우저로 열기</string>
+    <string name="menu_open_with_default_browser2">%1$s로/으로 열기</string>
+    <string name="menu_report_site_issue">사이트 이슈 보고</string>
+    <string name="menu_rights">사용자 권리</string>
+    <string name="menu_settings">설정</string>
+    <string name="menu_share">공유…</string>
+    <string name="menu_trackers_blocked_title">차단된 추적기</string>
+    <string name="menu_whats_new">새로운 기능</string>
+    <string name="notification_action_erase_and_open">지우고 열기</string>
+    <string name="notification_action_open">열기</string>
+    <string name="notification_browsing_session_channel_description">알림에서는 %1$s 세션을 탭 한번으로 삭제할 수 있습니다. 앱을 실행하거나 브라우저에 열려 있는 세션을 확인할 필요가 없습니다.</string>
+    <string name="notification_browsing_session_channel_name">개인 정보 보호 브라우징 세션</string>
+    <string name="notification_erase_text">방문 기록 지우기</string>
+    <string name="preference_about">%1$s에 대한 정보</string>
+    <string name="preference_autocomplete_action_add">+ 사용자 정의 URL 추가</string>
+    <string name="preference_autocomplete_action_remove_content_description">삭제</string>
+    <string name="preference_autocomplete_add_confirmation">새 사용자 정의 URL이 추가되었습니다.</string>
+    <string name="preference_autocomplete_add_error">입력한 URL을 다시 확인하세요.</string>
+    <string name="preference_autocomplete_add_example">예: example.com</string>
+    <string name="preference_autocomplete_add_example2">예: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">URL 입력 또는 붙여넣기</string>
+    <string name="preference_autocomplete_add_title">추가할 URL</string>
+    <string name="preference_autocomplete_custom_summary">사용자 정의 자동 완성 URL 추가하고 관리합니다.</string>
+    <string name="preference_autocomplete_duplicate_url_error">URL이 이미 존재함</string>
+    <string name="preference_autocomplete_learn_more">더 알아보기</string>
+    <string name="preference_autocomplete_menu_remove">삭제</string>
+    <string name="preference_autocomplete_preinstalled_summary">주소창에서 450개가 넘는 URL의 %1$s 자동 완성 기능을 사용하세요.</string>
+    <string name="preference_autocomplete_subitem_customlist">사용자 정의 URL</string>
+    <string name="preference_autocomplete_title_add">사용자 정의 URL 추가</string>
+    <string name="preference_autocomplete_title_remove">사용자 정의 URL 삭제</string>
+    <string name="preference_category_autocomplete_custom_urls">사용자 정의 URL</string>
+    <string name="preference_category_autocomplete_preinstalled">기본 URL 목록</string>
+    <string name="preference_category_cookies">쿠키와 사이트 데이타</string>
+    <string name="preference_category_data_choices">데이타 선택</string>
+    <string name="preference_category_data_collection_use">데이터 수집 및 사용</string>
+    <string name="preference_category_general">일반</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">성능</string>
+    <string name="preference_category_privacy">개인 정보</string>
+    <string name="preference_category_search">검색</string>
+    <string name="preference_category_switching_apps">앱 전환</string>
+    <string name="preference_category_tracking_protection">추적 방지</string>
+    <string name="preference_category_web_content">웹 콘텐츠</string>
+    <string name="preference_default_browser2">%1$s를 기본 브라우저로 설정</string>
+    <string name="preference_language">언어</string>
+    <string name="preference_language_systemdefault">시스템 기본값</string>
+    <string name="preference_mozilla_summary">%1$s 정보, 도움말</string>
+    <string name="preference_mozilla_telemetry2">사용 정보 보내기</string>
+    <string name="preference_mozilla_telemetry_summary">상세정보</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla는 %1$s 이용에 더 나은 서비스를 제공하고 향상시키는 데 오직 필요한 정보만을 수집합니다.</string>
+    <string name="preference_performance_block_javascript">JavaScript 차단</string>
+    <string name="preference_performance_block_javascript_summary">페이지가 더 빠르게 로드될 수 있지만 에상치 못한 동작을 할 수도 있음</string>
+    <string name="preference_performance_block_webfonts">웹 폰트 차단</string>
+    <string name="preference_performance_block_webfonts_summary">아이콘 또는 이미지가 누락될 수 있음</string>
+    <string name="preference_privacy_and_security_header">개인정보 보호 및 보안</string>
+    <string name="preference_privacy_and_security_summary">추적, 쿠키, 데이타 선택</string>
+    <string name="preference_privacy_block_ads">광고 추적기 차단</string>
+    <string name="preference_privacy_block_ads_summary">특정 광고의 경우, 광고를 클릭하지 않은 경우에도 방문 기록을 추적합니다</string>
+    <string name="preference_privacy_block_analytics">분석용 추적기 차단</string>
+    <string name="preference_privacy_block_analytics_summary">탭한 기록이나 스크롤과 같은 사용자 활동 내역을 수집하고 분석하는데 사용됩니다</string>
+    <string name="preference_privacy_block_content">기타 콘텐츠 추적기 차단</string>
+    <string name="preference_privacy_block_content_summary2">설정 시 웹 페이지가 제대로 표시되지 않을 수 있습니다</string>
+    <string name="preference_privacy_block_social">소셜 추적기 차단</string>
+    <string name="preference_privacy_block_social_summary">사용자의 방문 기록을 추적하거나 공유 버튼과 같은 기능을 표시하기 위해 사이트에 내장되어 있습니다</string>
+    <string name="preference_privacy_category_cookies">쿠키 차단</string>
+    <string name="preference_privacy_notice">개인 정보 보호 정책</string>
+    <string name="preference_privacy_secure_mode">스텔스</string>
+    <string name="preference_privacy_should_block_cookies_no_option">아니오</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">제 3자 쿠키만 차단</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">예</string>
+    <string name="preference_privacy_stealth_summary">앱 전환 시 현재 앱에서의 웹페이지 정보를 숨김</string>
+    <string name="preference_search_add2">+ 또 다른 검색 엔진 추가</string>
+    <string name="preference_search_engine_default">기본</string>
+    <string name="preference_search_installed_search_engines">설치된 검색 엔진 모음</string>
+    <string name="preference_search_remove">삭제</string>
+    <string name="preference_search_remove_title">검색 엔진 삭제</string>
+    <string name="preference_search_restore">기본 검색 엔진 설정 초기화</string>
+    <string name="preference_search_summary">기본 설정, 자동 완성</string>
+    <string name="preference_state_off">사용 안 함</string>
+    <string name="preference_state_on">사용 중</string>
+    <string name="preference_subitem_autocomplete">URL 자동 완성</string>
+    <string name="preference_switch_autocomplete">자동 완성</string>
+    <string name="search_add_confirmation">새 검색 엔진이 추가되었습니다.</string>
+    <string name="search_add_error_duplicate_name">설치된 검색 엔진이 이미 해당 이름을 사용하고 있습니다.</string>
+    <string name="search_add_error_empty_name">검색 엔진 이름을 입력하세요</string>
+    <string name="search_add_error_empty_search">검색어를 입력하세요</string>
+    <string name="search_add_error_format">검색어가 예시 형식과 일치하는 지 확인하세요</string>
+    <string name="search_add_manually_example">예: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">검색 엔진 이름</string>
+    <string name="search_add_manually_save">저장</string>
+    <string name="search_add_manually_string">사용할 검색 문구</string>
+    <string name="search_hint">%1$s 검색</string>
+    <string name="search_menu_title">검색</string>
+    <string name="security_popup_insecure_connection">안전하지 않은 연결</string>
+    <string name="security_popup_secure_connection">안전한 연결</string>
+    <string name="security_popup_security_verified">인증: %1$s</string>
+    <string name="share_dialog_title">다음으로 공유</string>
+    <string name="shortcut_erase_long_label">방문 기록 지우기</string>
+    <string name="shortcut_erase_short_label">지우기</string>
+    <string name="site_security_icon_content_description">사이트 보안</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tabs_tray_action_erase">방문 기록 삭제</string>
+    <string name="teaser">"자동화된 개인 정보 보호 브라우저.
+쓰고, 지우고. 쓰고, 지우고."</string>
+    <string name="text_selection_search_action">사생활 보호 검색</string>
+    <string name="urlbar_hint">검색어 또는 주소 입력</string>
+    <string name="your_rights">권리</string>
+    <string name="your_rights_content1">%1$s는 Mozilla와 다른 공헌자들이 만들고 배포하는 무료 오픈 소스 소프트웨어 입니다.</string>
+    <string name="your_rights_content2">%1$s는 &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Mozilla &amp;#44277;&amp;#44060; &amp;#46972;&amp;#51060;&amp;#49440;&amp;#49828;&lt;/a> 및 기타 다른 오픈 소스 라이선스 이용 약관에 따라 제공됩니다.</string>
+    <string name="your_rights_content3">귀하는 Mozilla와 Firefox, %1$s 명칭이나 로고를 포함한 Mozilla 재단 및 다른 서비스 제공자 소유의 지적재산권으로 보호받는 권리나 라이선스가 부여되는 것이 아님을 인지하셔야 합니다. 추가적인 정보는 &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>&amp;#45796;&amp;#51020;&lt;/a>을 참고하시기 바랍니다.</string>
+    <string name="your_rights_content4">%1$s의 소스 코드는 기타 다양한 무료 및 오픈 소스 &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>&amp;#46972;&amp;#51060;&amp;#49440;&amp;#49828;&lt;/a> 계약에 따라 무료로 제공됩니다.</string>
+    <string name="your_rights_content5">%1$s는 Disconnect, Inc에서 제공하는 차단목록에서 &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>GNU General Public License v3&lt;/a>를 바탕으로 자체적으로 별도로 관리하는 차단목록을 사용합니다. 자세한 내용은 &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>&amp;#45796;&amp;#51020;&lt;/a>에서 확인할 수 있습니다.</string>
+</resources>

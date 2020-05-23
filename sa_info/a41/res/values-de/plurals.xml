@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Adressen in Zwischenablage kopiert</item>
+        <item quantity="one">Adresse in Zwischenablage kopiert</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Möchten Sie wirklich %1$d Nachrichten löschen?</item>
+        <item quantity="one">Möchten Sie diese Nachricht wirklich löschen?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Möchten Sie diese Nachrichten in den Spam-Ordner verschieben?</item>
+        <item quantity="one">Möchten Sie diese Nachricht in den Spam-Ordner verschieben?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d neue Nachrichten</item>
+        <item quantity="one">%d neue Nachricht</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">%d Resultate werden abgerufen</item>
+        <item quantity="one">%d Resultat wird abgerufen</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">%1$d von %2$d Resultaten werden aberufen</item>
+        <item quantity="one">%1$d von %2$d Resultaten werden aberufen</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s Konten</item>
+        <item quantity="one">1 Konto</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">die Server-Passwörter</item>
+        <item quantity="one">das Server-Passwort</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Passwörter setzen…</item>
+        <item quantity="one">Passwort setzen…</item>
+    </plurals>
+</resources>

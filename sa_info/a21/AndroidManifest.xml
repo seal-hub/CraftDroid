@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.rubenroy.minimaltodo" platformBuildVersionCode="23" platformBuildVersionName="6.0-2166767">
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.rubenroy.minimaltodo.AnalyticsApplication" android:theme="@style/CustomStyle.DarkTheme">
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="com.rubenroy.minimaltodo.MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.rubenroy.minimaltodo.AddToDoActivity" android:parentActivityName="com.rubenroy.minimaltodo.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.rubenroy.minimaltodo.AboutActivity" android:parentActivityName="com.rubenroy.minimaltodo.MainActivity"/>
+        <activity android:label="@string/app_name" android:name="com.rubenroy.minimaltodo.ReminderActivity"/>
+        <service android:name="com.rubenroy.minimaltodo.TodoNotificationService"/>
+        <service android:name="com.rubenroy.minimaltodo.DeleteNotificationService"/>
+        <activity android:name="com.rubenroy.minimaltodo.SettingsActivity" android:parentActivityName="com.rubenroy.minimaltodo.MainActivity"/>
+    </application>
+</manifest>

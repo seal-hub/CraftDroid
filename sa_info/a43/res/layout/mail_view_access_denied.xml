@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/access_denied_block" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="32.0dip" n2:srcCompat="@drawable/ic_read_folder_locked" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <TextView n1:textSize="16.0sp" n1:textColor="@color/text_field" n1:gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/access_denied" style="?android:textAppearanceLarge" />
+    <TextView n1:gravity="center" n1:id="@id/message_in_protected_folder" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="360.0dip" n1:text="@string/message_in_protected_folder" style="?android:textAppearanceMedium" />
+    <ru.mail.uikit.view.FontButton n1:id="@id/enter_password" n1:paddingLeft="19.0dip" n1:paddingRight="19.0dip" n1:paddingBottom="2.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="13.0dip" n1:layout_marginBottom="13.0dip" n1:minWidth="0.0dip" n1:minHeight="36.0dip" n1:text="@string/enter_password" />
+</LinearLayout>

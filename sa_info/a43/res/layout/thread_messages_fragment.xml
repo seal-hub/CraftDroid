@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:animationCache="false" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.design.widget.CoordinatorLayout n1:id="@id/mails_list_coordinator_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <android.support.v4.widget.SwipeRefreshLayout n1:id="@id/swipe" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <ru.mail.fragments.MailList n1:id="@id/recycler_view" n1:scrollbars="none" n1:fadingEdge="none" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:dividerHeight="0.0px" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

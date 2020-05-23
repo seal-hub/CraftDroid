@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">클립보드에 이메일 주소 복사</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">정말로 %1$d 메세지를 삭제하시겠습니까?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">정말로 %1$d 메세지를 스팸 폴더로 옮기시겠습니까?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d 새 메세지</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s 계정</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">서버 암호</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">암호 설정 중…</item>
+    </plurals>
+</resources>

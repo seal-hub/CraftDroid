@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/gridview_cell" n1:background="@android:color/transparent" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <view n1:id="@id/preview" n1:background="@drawable/folder_image_background" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginLeft="20.0dip" n1:layout_marginTop="20.0dip" n1:layout_marginRight="20.0dip" n1:layout_marginBottom="5.0dip" class="ru.mail.filemanager.widget.SquareFrameLayout">
+        <view n1:id="@id/image0" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginRight="10.0dip" n1:layout_marginBottom="10.0dip" class="ru.mail.filemanager.widget.SquareImageView" />
+        <include n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginRight="10.0dip" n1:layout_marginBottom="10.0dip" layout="@layout/gallery_browser_selected" />
+        <include n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginRight="10.0dip" n1:layout_marginBottom="10.0dip" layout="@layout/gallery_folder_numbers" />
+    </view>
+    <include layout="@layout/gallery_folder_footer" />
+</RelativeLayout>

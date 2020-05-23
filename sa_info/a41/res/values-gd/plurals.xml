@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Chaidh na seòlaidhean a chur air an stòr-bhòrd</item>
+        <item quantity="one">Chaidh an seòladh a chur air an stòr-bhòrd</item>
+        <item quantity="two">Chaidh na seòlaidhean a chur air an stòr-bhòrd</item>
+        <item quantity="few">Chaidh na seòlaidhean a chur air an stòr-bhòrd</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d teachdaireachd ùr</item>
+        <item quantity="one">%d teachdaireachd ùr</item>
+        <item quantity="two">%d theachdaireachd ùr</item>
+        <item quantity="few">%d teachdaireachdan ùra</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">A’ faighinn %d toradh</item>
+        <item quantity="one">A’ faighinn %d toradh</item>
+        <item quantity="two">A’ faighinn %d thoradh</item>
+        <item quantity="few">A’ faighinn %d toraidhean</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">A’ faighinn %1$d à %2$d toradh</item>
+        <item quantity="one">A’ faighinn %1$d à %2$d toradh</item>
+        <item quantity="two">A’ faighinn %1$d à %2$d thoradh</item>
+        <item quantity="few">A’ faighinn %1$d à %2$d toraidhean</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">faclan-faire an fhrithealaiche</item>
+        <item quantity="one">faclan-faire an fhrithealaiche</item>
+        <item quantity="two">faclan-faire an fhrithealaiche</item>
+        <item quantity="few">faclan-faire an fhrithealaiche</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Faclan-faire nan roghainnean…</item>
+        <item quantity="one">Faclan-faire nan roghainnean...</item>
+        <item quantity="two">Faclan-faire nan roghainnean...</item>
+        <item quantity="few">Faclan-faire nan roghainnean...</item>
+    </plurals>
+</resources>

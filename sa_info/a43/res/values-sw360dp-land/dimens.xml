@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="attach_gallery_file_name_top_margin">16.0dip</dimen>
+    <dimen name="attach_gallery_file_size_top_margin">8.0dip</dimen>
+    <dimen name="attach_gallery_open_button_top_margin">24.0dip</dimen>
+    <dimen name="attach_gallery_progress_top_margin">14.0dip</dimen>
+    <dimen name="attach_gallery_retry_button_top_margin">22.0dip</dimen>
+    <dimen name="date_picker_buttons_land_bottom_padding">0.0dip</dimen>
+    <dimen name="date_picker_buttons_land_top_padding">2.0dip</dimen>
+</resources>

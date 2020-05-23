@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Naslovi so kopirani v odložišče</item>
+        <item quantity="one">Naslov je kopiran v odložišče</item>
+        <item quantity="two">Naslova sta kopirana v odložišče</item>
+        <item quantity="few">Naslovi so kopirani v odložišče</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Ali res želite izbrisati %1$d sporočil?</item>
+        <item quantity="one">Ali res želite izbrisati to sporočilo?</item>
+        <item quantity="two">Ali res želite izbrisati %1$d sporočili?</item>
+        <item quantity="few">Ali res želite izbrisati %1$d sporočila?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Ali zares želite premakniti %1$d sporočil v mapo neželene pošte?</item>
+        <item quantity="one">Ali zares želite premakniti to sporočilo v mapo neželene pošte?</item>
+        <item quantity="two">Ali zares želite premakniti %1$d sporočili v mapo neželene pošte?</item>
+        <item quantity="few">Ali zares želite premakniti %1$d sporočila v mapo neželene pošte?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d novih sporočil</item>
+        <item quantity="one">%d novo sporočilo</item>
+        <item quantity="two">%d novi sporočili</item>
+        <item quantity="few">%d nova sporočila</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Poteka pridobivanje %d zadetkov</item>
+        <item quantity="one">Poteka pridobivanje %d zadetka</item>
+        <item quantity="two">Poteka pridobivanje %d zadetkov</item>
+        <item quantity="few">Poteka pridobivanje %d zadetkov</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Poteka pridobivanje %1$d od %2$d zadetkov</item>
+        <item quantity="one">Poteka pridobivanje %1$d od %2$d zadetka</item>
+        <item quantity="two">Poteka pridobivanje %1$d od %2$d zadetkov</item>
+        <item quantity="few">Poteka pridobivanje %1$d od %2$d zadetkov</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s računov</item>
+        <item quantity="one">1 račun</item>
+        <item quantity="two">%s računa</item>
+        <item quantity="few">%s računi</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">gesla strežnika</item>
+        <item quantity="one">geslo strežnika</item>
+        <item quantity="two">gesli strežnika</item>
+        <item quantity="few">gesla strežnika</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Nastavitev gesel …</item>
+        <item quantity="one">Nastavitev gesla …</item>
+        <item quantity="two">Nastavitev gesel …</item>
+        <item quantity="few">Nastavitev gesel …</item>
+    </plurals>
+</resources>

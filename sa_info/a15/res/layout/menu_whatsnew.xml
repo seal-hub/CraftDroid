@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/whats_new" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="48.0dip" android:text="@string/menu_whats_new" android:lines="1" android:layout_weight="1.0" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@android:style/TextAppearance.Material.Menu" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/dot" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_margin="16.0dip" android:src="@drawable/highlight_dot" android:importantForAccessibility="no" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Da li stvarno želite obrisati %1$d poruke?</item>
+        <item quantity="one">Da li stvarno želite obrisati ovu poruku?</item>
+        <item quantity="few">Da li stvarno želite obrisati %1$d poruke?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Da li stvarno želite obrisati %1$d poruke?</item>
+        <item quantity="one">Da li stvarno želite premjestiti ovu poruku u mapu otpada?</item>
+        <item quantity="few">Da li stvarno želite obrisati %1$d poruke?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d novih poruka</item>
+        <item quantity="one">%d nova poruka</item>
+        <item quantity="few">%d novih poruka</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s računa</item>
+        <item quantity="one">1 račun</item>
+        <item quantity="few">%s računa</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">lozinke poslužitelja</item>
+        <item quantity="one">lozinka poslužitelja</item>
+        <item quantity="few">lozinka poslužitelja</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Postavljam lozinke…</item>
+        <item quantity="one">Postavljam lozinku…</item>
+        <item quantity="few">Postavljam lozinku…</item>
+    </plurals>
+</resources>

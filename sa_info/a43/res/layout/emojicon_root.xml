@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/emojis_tab" n1:layout_width="fill_parent" n1:layout_height="?emojicon_tab_bar_height" n1:layout_alignParentTop="true" style="?emojicon_tab_bar_style" />
+    <android.support.v4.view.ViewPager n1:id="@id/emojis_pager" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_below="@id/emojis_tab" n1:layout_alignParentBottom="true" />
+</merge>

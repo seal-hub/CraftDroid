@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/hidden_block" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <View n1:id="@id/cc_addr_block_top_divider" n1:background="@color/divider_primary" n1:layout_width="fill_parent" n1:layout_height="@dimen/divider_primary" n1:layout_marginTop="1.0dip" n1:layout_marginBottom="16.0dip" />
+        <ru.mail.view.letterview.LetterView n1:id="@id/cc_addr_block" n1:paddingTop="0.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="9.0dip" style="@style/LetterView.MailView" />
+        <View n1:id="@id/to_addr_block_top_divider" n1:background="@color/divider_primary" n1:layout_width="fill_parent" n1:layout_height="@dimen/divider_primary" n1:layout_marginTop="1.0dip" n1:layout_marginBottom="16.0dip" />
+        <ru.mail.view.letterview.LetterView n1:id="@id/from_addr_block" n1:paddingTop="0.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="9.0dip" style="@style/LetterView.MailView" />
+    </LinearLayout>
+</merge>

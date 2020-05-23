@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/empty_view" n1:paddingBottom="10.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_centerVertical="true"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="center_horizontal" n1:layout_width="72.0dip" n1:layout_height="72.0dip">
+        <ImageView n1:layout_gravity="center_horizontal" n1:id="@id/image" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@drawable/img_folder_collector_icon" />
+        <ImageView n1:layout_gravity="bottom|center|right" n1:id="@id/progress" n1:layout_width="24.0dip" n1:layout_height="24.0dip" n1:src="@drawable/img_folder_collector_loader" />
+    </FrameLayout>
+    <TextView n1:textSize="@dimen/large_text_appearance" n1:textColor="@color/text_primary_inverse_normal" n1:gravity="center_horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dip" n1:text="@string/mapp_imap_activation_progress" n1:textAlignment="center" />
+    <TextView n1:textSize="@dimen/medium_text_appearance" n1:textColor="@color/text_secondary_inverse_normal" n1:gravity="center_horizontal" n1:id="@id/text" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dip" n1:layout_marginTop="10.0dip" n1:layout_marginRight="16.0dip" n1:text="@string/mapp_imap_activation" n1:textAlignment="center" />
+</LinearLayout>

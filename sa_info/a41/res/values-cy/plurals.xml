@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">"Copïwyd y cyfeiriadau i'r clipfwrdd"</item>
+        <item quantity="one">"Copïwyd y cyfeiriad i'r clipfwrdd"</item>
+        <item quantity="two">"Copïwyd y cyfeiriadau i'r clipfwrdd"</item>
+        <item quantity="many">"Copïwyd y cyfeiriadau i'r clipfwrdd"</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Wyt ti wir eisiau dileu %1$d neges?</item>
+        <item quantity="one">"Wyt ti wir eisiau dileu'r neges hon?"</item>
+        <item quantity="two">Wyt ti wir eisiau dileu %1$d neges?</item>
+        <item quantity="many">Wyt ti wir eisiau dileu %1$d neges?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">"Wyt ti wir eisiau symud %1$d neges i'r ffolder sbam?"</item>
+        <item quantity="one">"Wyt ti wir eisiau symud y neges hon i'r ffolder sbam?"</item>
+        <item quantity="two">"Wyt ti wir eisiau symud %1$d neges i'r ffolder sbam?"</item>
+        <item quantity="many">"Wyt ti wir eisiau symud %1$d neges i'r ffolder sbam?"</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d neges newydd</item>
+        <item quantity="one">%d neges newydd</item>
+        <item quantity="two">%d neges newydd</item>
+        <item quantity="many">%d neges newydd</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Yn nôl %d canlyniad</item>
+        <item quantity="one">Yn nôl %d canlyniad</item>
+        <item quantity="two">Yn nôl %d ganlyniad</item>
+        <item quantity="many">Yn nôl %d canlyniad</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Yn nôl %1$d o %2$d canlyniad</item>
+        <item quantity="one">Yn nôl %1$d o %2$d canlyniad</item>
+        <item quantity="two">Yn nôl %1$d o %2$d ganlyniad</item>
+        <item quantity="many">Yn nôl %1$d o %2$d canlyniad</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s cyfrif</item>
+        <item quantity="one">1 cyfrif</item>
+        <item quantity="two">%s gyfrif</item>
+        <item quantity="many">%s cyfrif</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">cyfrinair gweinydd</item>
+        <item quantity="one">cyfrinair y gweinydd</item>
+        <item quantity="two">gyfrinair gweinydd</item>
+        <item quantity="many">cyfrinair gweinydd</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Yn gosod cyfrineiriau…</item>
+        <item quantity="one">Yn gosod y cyfrinair…</item>
+        <item quantity="two">Yn gosod y cyfrineiriau…</item>
+        <item quantity="many">Yn gosod y cyfrineiriau…</item>
+    </plurals>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideInset" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_identity_description_label" />
+        <EditText android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/edit_identity_description_hint" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_identity_name_label" />
+        <EditText android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/edit_identity_name_hint" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_identity_email_label" />
+        <EditText android:id="@id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/edit_identity_email_hint" android:singleLine="true" android:inputType="textEmailAddress" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_identity_reply_to_label" />
+        <EditText android:id="@id/reply_to" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/edit_identity_reply_to_hint" android:singleLine="true" android:inputType="textEmailAddress" />
+        <CheckBox android:id="@id/signature_use" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_settings_signature_use_label" />
+        <LinearLayout android:orientation="vertical" android:id="@id/signature_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_identity_signature_label" />
+            <EditText android:id="@id/signature" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/edit_identity_signature_hint" android:singleLine="false" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

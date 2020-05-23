@@ -1,0 +1,345 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Join",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Log In",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.ProfileActivity",
+    "package": "com.rainbowshops",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Password",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "button_sign_up",
+        "id-prefix": "com.rainbowshops:id/",
+        "text": "Join",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "Log In",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.ProfileActivity",
+        "package": "com.rainbowshops",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "oracle",
+    "score": 0.5603031670124002,
+    "action": [
+      "wait_until_element_presence",
+      20,
+      "id",
+      "button_sign_up"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Password",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "gui",
+    "score": 0.5603031670124002,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.rainbowshops:id/text_email",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "true",
+    "parent_text": "Email",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "oracle",
+    "score": 0.3923119128356275,
+    "action": [
+      "wait_until_element_presence",
+      20,
+      "id",
+      "text_email"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.rainbowshops:id/text_email",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "true",
+    "parent_text": "Email",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "gui",
+    "score": 0.3923119128356275,
+    "action": [
+      "send_keys",
+      "e271266se@ojtmxq.al.net"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.rainbowshops:id/text_password",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "naf": "true",
+    "parent_text": "Password",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "gui",
+    "score": 0.3056452461689608,
+    "action": [
+      "send_keys",
+      "1qaz2wsX"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.rainbowshops:id/text_last_name",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "true",
+    "parent_text": "Last Name",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "gui",
+    "score": 0.3923119128356275,
+    "action": [
+      "send_keys",
+      "Labfellow"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.rainbowshops:id/text_first_name",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "true",
+    "parent_text": "First Name",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "gui",
+    "score": 0.3923119128356275,
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sealbot"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Password",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "gui",
+    "score": 0.38426527611041017,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "",
+    "text": "Wishlist",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.ProfileActivity",
+    "package": "com.rainbowshops",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.rainbowshops:id/toolbar_title",
+    "text": "My Wishlist",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "",
+        "id-prefix": "",
+        "text": "Wishlist",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.ProfileActivity",
+        "package": "com.rainbowshops",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.rainbowshops",
+    "activity": ".activity.WishlistActivity",
+    "event_type": "oracle",
+    "score": 0.27113236276467517,
+    "action": [
+      "wait_until_element_presence",
+      20,
+      "id",
+      "toolbar_title"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.rainbowshops:id/toolbar_title",
+    "text": "My Wishlist",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.WishlistActivity",
+    "event_type": "gui",
+    "score": 0.27113236276467517,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "true",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.WishlistActivity",
+    "package": "com.rainbowshops",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.rainbowshops:id/text_customer_name",
+    "text": "Hi Sealbot",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.ImageButton",
+        "resource-id": "",
+        "id-prefix": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "true",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.WishlistActivity",
+        "package": "com.rainbowshops",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.rainbowshops",
+    "activity": ".activity.ProfileActivity",
+    "event_type": "oracle",
+    "score": 0.376601638373731,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Sealbot"
+    ]
+  }
+]

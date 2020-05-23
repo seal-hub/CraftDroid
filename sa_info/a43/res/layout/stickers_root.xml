@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/tab_container" n1:layout_width="fill_parent" n1:layout_height="?emojicon_tab_bar_height" n1:layout_alignParentTop="true" style="?emojicon_tab_bar_style">
+        <HorizontalScrollView n1:scrollbarThumbHorizontal="@drawable/scrollview_thumb" n1:id="@id/scrollview" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/emojis_tab" n1:layout_width="wrap_content" n1:layout_height="fill_parent" />
+        </HorizontalScrollView>
+        <View n1:layout_width="1.0dip" n1:layout_height="wrap_content" style="?emojicon_backspace_divider" />
+        <ImageButton n1:id="@id/backspace" n1:layout_width="48.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="4.0dip" n1:layout_marginRight="6.0dip" n2:srcCompat="@drawable/ic_keyboard_delete" style="?emojicon_tab_item_style" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager n1:id="@id/emojis_pager" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_below="@id/tab_container" n1:layout_alignParentBottom="true" />
+</merge>

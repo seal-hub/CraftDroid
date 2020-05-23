@@ -1,0 +1,402 @@
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_sign_in_button",
+    "text": "Sign In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Forgot Password?",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "oracle",
+    "score": 0.26903293401200384,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "sign_in_fragment_sign_in_button"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_sign_in_button",
+    "text": "Sign In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Forgot Password?",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "gui",
+    "score": 0.26903293401200384,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/multi_button_dialog_fragment_description",
+    "text": "Please fill in all the fields",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Oops!",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "gui",
+    "score": 0.32229371595295203,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.login.signin.SignInActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_email_text",
+    "text": "Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "",
+        "id-prefix": "",
+        "text": "OK",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.login.signin.SignInActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "oracle",
+    "score": 0.4473722217030706,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "sign_in_fragment_email_text"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_email_text",
+    "text": "Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "gui",
+    "score": 0.4473722217030706,
+    "action": [
+      "send_keys",
+      "z555520se@khvcit.al.net"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_password_text",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "naf": "true",
+    "parent_text": "",
+    "sibling_text": "t707766se@mmnyer.al.net",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "gui",
+    "score": 0.26135089629665736,
+    "action": [
+      "send_keys",
+      "1qaz2wsX"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_password_text",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "naf": "true",
+    "parent_text": "",
+    "sibling_text": "n433193se@ydzodw.al.net",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "gui",
+    "score": 0.25387982324035496,
+    "action": [
+      "clear_and_send_keys",
+      "1qaz2wsX"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_forgot_password_button",
+    "text": "Forgot Password?",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.login.signin.SignInActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.wish:id/forgot_password_fragment_email_text",
+    "text": "Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Type your email address",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "sign_in_fragment_forgot_password_button",
+        "id-prefix": "com.contextlogic.wish:id/",
+        "text": "Forgot Password?",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.login.signin.SignInActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "event_type": "gui",
+    "score": 0.2006227105947979,
+    "action": [
+      "send_keys",
+      "Labfellow"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/forgot_password_fragment_reset_password_button",
+    "text": "Reset Password",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Labfellow",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "event_type": "gui",
+    "score": 0.2338585758398349,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/forgot_password_fragment_reset_password_button",
+    "text": "Reset Password",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Labfellow",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "",
+        "id-prefix": "",
+        "text": "OK",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "event_type": "gui",
+    "score": 0.08036280619870895,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/login_fragment_tagline_text",
+    "text": "Shopping Made Fun",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "",
+        "id-prefix": "",
+        "text": "OK",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "event_type": "oracle",
+    "score": 0.15952055817725908,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//android.widget.TextView[contains(@text, \"Shopping Made Fun\")]"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/login_fragment_tagline_text",
+    "text": "Shopping Made Fun",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "event_type": "gui",
+    "score": 0.15952055817725908,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  }
+]

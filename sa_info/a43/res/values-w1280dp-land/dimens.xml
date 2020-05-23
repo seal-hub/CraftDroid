@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="filepicker_action_left_padding">120.0dip</dimen>
+    <dimen name="filepicker_action_right_padding">120.0dip</dimen>
+</resources>

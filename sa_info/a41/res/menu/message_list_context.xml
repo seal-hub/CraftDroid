@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="?iconActionDelete" android:id="@id/delete" android:title="@string/delete_action" android:showAsAction="always" />
+    <item android:icon="?iconActionMarkAsRead" android:id="@id/mark_as_read" android:title="@string/mark_as_read_action" android:showAsAction="always" />
+    <item android:icon="?iconActionMarkAsUnread" android:id="@id/mark_as_unread" android:title="@string/mark_as_unread_action" android:showAsAction="always" />
+    <item android:icon="?iconActionArchive" android:id="@id/archive" android:title="@string/archive_action" android:showAsAction="always" />
+    <item android:icon="?iconActionMove" android:id="@id/move" android:title="@string/move_action" android:showAsAction="ifRoom" />
+    <item android:icon="?iconActionCopy" android:id="@id/copy" android:title="@string/copy_action" />
+    <item android:icon="?iconActionFlag" android:id="@id/flag" android:title="@string/flag_action" android:showAsAction="ifRoom" />
+    <item android:icon="?iconActionUnflag" android:id="@id/unflag" android:title="@string/unflag_action" android:showAsAction="ifRoom" />
+    <item android:icon="?iconActionSpam" android:id="@id/spam" android:title="@string/spam_action" android:showAsAction="ifRoom" />
+    <item android:icon="?iconActionSelectAll" android:id="@id/select_all" android:title="@string/batch_select_all" android:showAsAction="never" />
+</menu>

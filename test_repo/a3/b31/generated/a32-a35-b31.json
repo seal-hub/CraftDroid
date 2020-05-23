@@ -1,0 +1,311 @@
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/hot_button_collections",
+    "text": "Collections",
+    "content-desc": "Collections",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Activity",
+    "action": [
+      "click"
+    ],
+    "activity": ".nearby.ui.ActivityNearby",
+    "package": "com.yelp.android",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.yelp.android:id/positive_action_button",
+    "text": "Okay, Got It!",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Get updates on Weekly Top 10 collections and content curated by other users.",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activities.collections.ActivityCollectionsViewV2",
+    "package": "com.yelp.android",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/create",
+    "text": "Create",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "hot_button_collections",
+        "id-prefix": "com.yelp.android:id/",
+        "text": "Collections",
+        "content-desc": "Collections",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "Activity",
+        "action": [
+          "click"
+        ],
+        "activity": ".nearby.ui.ActivityNearby",
+        "package": "com.yelp.android",
+        "event_type": "stepping"
+      },
+      {
+        "class": "android.widget.Button",
+        "resource-id": "positive_action_button",
+        "id-prefix": "com.yelp.android:id/",
+        "text": "Okay, Got It!",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "Get updates on Weekly Top 10 collections and content curated by other users.",
+        "action": [
+          "click"
+        ],
+        "activity": ".ui.activities.collections.ActivityCollectionsViewV2",
+        "package": "com.yelp.android",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.collections.ActivityCollectionsViewV2",
+    "event_type": "oracle",
+    "score": 0.4580547273043189,
+    "action": [
+      "wait_until_element_presence",
+      20,
+      "id",
+      "create"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/create",
+    "text": "Create",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.collections.ActivityCollectionsViewV2",
+    "event_type": "gui",
+    "score": 0.4580547273043189,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/activity_login_editUsername",
+    "text": "Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityLogin",
+    "event_type": "oracle",
+    "score": 0.4035909429473735,
+    "action": [
+      "wait_until_element_presence",
+      20,
+      "id",
+      "activity_login_editUsername"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/activity_login_editUsername",
+    "text": "Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityLogin",
+    "event_type": "gui",
+    "score": 0.4035909429473735,
+    "action": [
+      "send_keys",
+      "e271266se@ojtmxq.al.net"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/activity_login_editPassword",
+    "text": "Password",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityLogin",
+    "event_type": "gui",
+    "score": 0.29335338756347995,
+    "action": [
+      "send_keys",
+      "1qaz2wsX"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.yelp.android:id/activity_login_btnLogin",
+    "text": "Log In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Show password",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityLogin",
+    "event_type": "gui",
+    "score": 0.3450722544828536,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/message",
+    "text": "Wrong email or password.",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityLogin",
+    "event_type": "oracle",
+    "score": 0.3076890041058247,
+    "action": [
+      "wait_until_element_presence",
+      20,
+      "id",
+      "message"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/message",
+    "text": "Wrong email or password.",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityLogin",
+    "event_type": "gui",
+    "score": 0.3076890041058247,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button2",
+    "text": "Try Again",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activities.ActivityLogin",
+    "package": "com.yelp.android",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.yelp.android:id/activity_login_btnLogin",
+    "text": "Log In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Show password",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "button2",
+        "id-prefix": "android:id/",
+        "text": "Try Again",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".ui.activities.ActivityLogin",
+        "package": "com.yelp.android",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityLogin",
+    "event_type": "gui",
+    "score": 0.24062284439414192,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  }
+]

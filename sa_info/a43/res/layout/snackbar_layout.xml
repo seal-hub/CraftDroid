@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.mail.fragments.view.MailSnackBarLayout n1:theme="@style/ThemeOverlay.AppCompat.Dark" n1:layout_gravity="bottom" n1:paddingLeft="0.0dip" n1:paddingRight="0.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/Widget.Design.Snackbar"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textAppearance="@style/TextAppearance.Design.Snackbar.Message" n1:ellipsize="end" n1:layout_gravity="start|center" n1:id="@id/snackbar_text" n1:paddingLeft="24.0dip" n1:paddingTop="10.0dip" n1:paddingRight="0.0dip" n1:paddingBottom="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="3" n1:layout_weight="1.0" n1:textAlignment="viewStart" />
+    <Button n1:textColor="?colorAccent" n1:layout_gravity="end|center" n1:id="@id/snackbar_action" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:minWidth="48.0dip" style="@style/MailSnackbarActionButton" />
+</ru.mail.fragments.view.MailSnackBarLayout>

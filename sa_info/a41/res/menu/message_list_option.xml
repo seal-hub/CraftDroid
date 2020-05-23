@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="?iconActionPreviousMessage" android:id="@id/previous_message" android:title="@string/previous_action" android:showAsAction="always" />
+    <item android:icon="?iconActionNextMessage" android:id="@id/next_message" android:title="@string/next_action" android:showAsAction="always" />
+    <item android:icon="?iconActionSearch" android:id="@id/search" android:title="@string/search_action" android:showAsAction="always" />
+    <item android:icon="?iconActionRemoteSearch" android:id="@id/search_remote" android:visible="false" android:title="@string/action_remote_search" android:showAsAction="always" />
+    <item android:icon="?iconActionRefresh" android:id="@id/check_mail" android:title="@string/check_mail_action" android:alphabeticShortcut="r" android:showAsAction="always" />
+    <item android:icon="?iconActionDelete" android:id="@id/delete" android:title="@string/delete_action" android:alphabeticShortcut="q" android:showAsAction="always" />
+    <item android:icon="?iconActionArchive" android:id="@id/archive" android:title="@string/archive_action" android:showAsAction="ifRoom" />
+    <item android:icon="?iconActionSpam" android:id="@id/spam" android:title="@string/spam_action" android:showAsAction="ifRoom" />
+    <item android:icon="?iconActionMove" android:id="@id/move" android:title="@string/move_action" android:showAsAction="ifRoom" />
+    <item android:icon="?iconActionCopy" android:id="@id/copy" android:title="@string/copy_action" android:showAsAction="ifRoom" />
+    <item android:icon="?iconActionSingleMessageOptions" android:id="@id/single_message_options" android:title="@string/single_message_options_action" android:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@id/reply" android:title="@string/reply_action" />
+            <item android:id="@id/reply_all" android:title="@string/reply_all_action" />
+            <item android:id="@id/forward" android:title="@string/forward_action" />
+            <item android:id="@id/share" android:title="@string/send_alternate_action" />
+        </menu>
+    </item>
+    <item android:icon="?iconActionSingleMessageOptions" android:id="@id/refile" android:title="@string/refile_action" android:showAsAction="never">
+        <menu>
+            <item android:id="@id/refile_archive" android:title="@string/archive_action" />
+            <item android:id="@id/refile_spam" android:title="@string/spam_action" />
+            <item android:id="@id/refile_move" android:title="@string/move_action" />
+            <item android:id="@id/refile_copy" android:title="@string/copy_action" />
+        </menu>
+    </item>
+    <item android:id="@id/toggle_unread" android:title="@string/mark_as_unread_action" android:alphabeticShortcut="u" android:showAsAction="never" />
+    <item android:id="@id/show_headers" android:title="@string/show_headers_action" android:showAsAction="never" />
+    <item android:id="@id/hide_headers" android:title="@string/hide_headers_action" android:showAsAction="never" />
+    <item android:icon="?iconActionSort" android:id="@id/set_sort" android:title="@string/sort_by" android:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@id/set_sort_date" android:title="@string/sort_by_date" />
+            <item android:id="@id/set_sort_arrival" android:title="@string/sort_by_arrival" />
+            <item android:id="@id/set_sort_subject" android:title="@string/sort_by_subject" />
+            <item android:id="@id/set_sort_sender" android:title="@string/sort_by_sender" />
+            <item android:id="@id/set_sort_flag" android:title="@string/sort_by_flag" />
+            <item android:id="@id/set_sort_unread" android:title="@string/sort_by_unread" />
+            <item android:id="@id/set_sort_attach" android:title="@string/sort_by_attach" />
+        </menu>
+    </item>
+    <item android:icon="?iconActionCompose" android:id="@id/compose" android:title="@string/compose_action" android:alphabeticShortcut="c" android:showAsAction="ifRoom" />
+    <item android:icon="?iconActionSelectAll" android:id="@id/select_all" android:title="@string/batch_select_all" android:showAsAction="never" />
+    <item android:id="@id/mark_all_as_read" android:title="@string/mark_all_as_read" android:showAsAction="never" />
+    <item android:icon="?iconActionUpload" android:id="@id/send_messages" android:title="@string/send_messages_action" android:alphabeticShortcut="r" android:showAsAction="never" />
+    <item android:id="@id/expunge" android:title="@string/expunge_action" android:showAsAction="never" />
+    <item android:id="@id/select_text" android:title="@string/select_text_action" android:showAsAction="never" />
+    <item android:id="@id/toggle_message_view_theme" android:title="@string/message_view_theme_action_dark" android:showAsAction="never" />
+    <item android:id="@id/show_folder_list" android:title="@string/folders_title" android:showAsAction="never" />
+    <item android:icon="?iconActionSettings" android:id="@id/settings" android:title="@string/preferences_action" android:showAsAction="never">
+        <menu>
+            <item android:id="@id/folder_settings" android:title="@string/folder_settings_action" />
+            <item android:id="@id/account_settings" android:title="@string/account_settings_action" />
+            <item android:id="@id/app_settings" android:title="@string/global_settings_action" />
+        </menu>
+    </item>
+</menu>

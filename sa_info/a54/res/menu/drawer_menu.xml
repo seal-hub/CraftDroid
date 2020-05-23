@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@id/tip_calculator" android:title="@string/tipTitle" />
+        <item android:id="@id/percent_calculator" android:title="@string/percentCalculatorTitle" />
+        <item android:id="@id/interest_calculator" android:title="@string/simpleInterestCalculatorTitle" />
+        <item android:id="@id/discount_calculator" android:title="@string/discountCalculatorTitle" />
+        <item android:id="@id/unit_price_calculator" android:title="@string/priceCalculatorTitle" />
+        <item android:id="@id/bmi_calculator" android:title="@string/bmiCalculatorTitle" />
+        <item android:id="@id/temperature_converter" android:title="@string/temperatureConverterTitle" />
+        <item android:id="@id/length_converter" android:title="@string/lengthConverterTitle" />
+        <item android:id="@id/mass_converter" android:title="@string/massConverterTitle" />
+        <item android:id="@id/cooking_converter" android:title="@string/cookingConverterTitle" />
+    </group>
+</menu>

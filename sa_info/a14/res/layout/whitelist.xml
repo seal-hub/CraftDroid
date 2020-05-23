@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <android.support.design.widget.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/view3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </android.support.design.widget.AppBarLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:textAppearance="?android:textAppearanceMedium" android:id="@id/whitelist_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_margin_8dp" android:layout_marginTop="@dimen/layout_margin_8dp" android:layout_marginRight="@dimen/layout_margin_8dp" android:hint="@string/whitelist_edit_hint" android:selectAllOnFocus="true" android:inputType="textMultiLine" android:imeOptions="actionDone" android:textCursorDrawable="@null" />
+            <Button android:id="@id/whitelist_add" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_margin_8dp" android:layout_marginRight="@dimen/layout_margin_8dp" android:layout_marginBottom="@dimen/layout_margin_8dp" android:text="@string/whitelist_add" android:textAllCaps="true" />
+        </LinearLayout>
+        <View android:background="@drawable/shadow_below" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+        <ListView android:id="@id/whitelist" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" />
+        <TextView android:textColor="@color/color_hint" android:gravity="center" android:layout_gravity="center|top" android:id="@id/whitelist_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/list_empty" android:textAllCaps="false" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

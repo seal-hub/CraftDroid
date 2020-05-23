@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n1:state_window_focused="false" n1:state_enabled="true" n1:state_checked="true" n1:drawable="@drawable/btn_radio_on"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:state_window_focused="false" n2:state_enabled="true" n2:state_checked="false" n2:drawable="@drawable/btn_radio_off"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:state_enabled="true" n3:state_checked="true" n3:state_pressed="true" n3:drawable="@drawable/btn_radio_on_pressed"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:state_enabled="true" n4:state_checked="false" n4:state_pressed="true" n4:drawable="@drawable/btn_radio_off_pressed"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:state_focused="true" n5:state_enabled="true" n5:state_checked="true" n5:drawable="@drawable/btn_radio_on_focused"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:state_focused="true" n6:state_enabled="true" n6:state_checked="false" n6:drawable="@drawable/btn_radio_off_focused"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:state_enabled="true" n7:state_checked="false" n7:drawable="@drawable/btn_radio_off"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:state_enabled="true" n8:state_checked="true" n8:drawable="@drawable/btn_radio_on"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <item n9:state_window_focused="false" n9:state_checked="true" n9:drawable="@drawable/btn_radio_on_disabled"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <item n10:state_window_focused="false" n10:state_checked="false" n10:drawable="@drawable/btn_radio_off_disabled"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <item n11:state_focused="true" n11:state_checked="true" n11:drawable="@drawable/btn_radio_on_disabled_focused"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+    <item n12:state_focused="true" n12:state_checked="false" n12:drawable="@drawable/btn_radio_off_disabled_focused"
+      xmlns:n12="http://schemas.android.com/apk/res/android" />
+    <item n13:state_checked="false" n13:drawable="@drawable/btn_radio_off_disabled"
+      xmlns:n13="http://schemas.android.com/apk/res/android" />
+    <item n14:state_checked="true" n14:drawable="@drawable/btn_radio_on_disabled"
+      xmlns:n14="http://schemas.android.com/apk/res/android" />
+</selector>

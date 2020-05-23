@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:orderInCategory="0" android:checkableBehavior="single" android:title="@string/todos">
+        <item android:icon="@drawable/ic_home_black_24dp" android:id="@id/menu_home" android:title="@string/home" />
+        <item android:icon="@android:drawable/ic_menu_my_calendar" android:id="@id/menu_calendar_view" android:title="@string/calendar_view" />
+        <item android:icon="@drawable/ic_delete_black_24dp" android:id="@id/nav_trash" android:title="@string/bin" />
+        <item android:icon="@drawable/ic_school_black_24dp" android:id="@id/nav_tutorial" android:title="@string/tutorial" />
+    </group>
+    <group android:id="@id/drawer_group2" android:orderInCategory="1" android:checkableBehavior="single">//Get</group>
+    <group android:id="@id/nav_bottom" android:orderInCategory="2" android:checkableBehavior="single">
+        <item android:id="@id/nav_dummy1" android:title="" android:checkable="false" />
+        <item android:id="@id/nav_dummy2" android:title="" android:checkable="false" />
+        <item android:id="@id/nav_dummy3" android:title="" android:checkable="false" />
+    </group>
+</menu>

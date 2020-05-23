@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@layout/google_account_picker_activity" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <ImageView n1:id="@id/picture_background" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@color/main_background_color" n1:scaleType="centerCrop" n1:layout_below="@id/toolbar" />
+    <View n1:background="@drawable/shadow_ab" n1:layout_width="fill_parent" n1:layout_height="5.0dip" n1:layout_below="@id/toolbar" />
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_below="@id/toolbar">
+        <LinearLayout n1:orientation="vertical" n1:background="@drawable/bg_light_full" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="32.0dip">
+            <ImageView n1:id="@id/button_login_google" n1:background="@drawable/login_content_background_top" n1:layout_width="fill_parent" n1:layout_height="96.0dip" n1:src="@drawable/logo_google" n1:scaleType="center" />
+            <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+            <ListView n1:layout_gravity="center_horizontal" n1:id="@id/google_accounts_list" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:divider="?horizontal_divider" n1:dividerHeight="1.0dip" n1:footerDividersEnabled="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

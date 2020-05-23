@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:minHeight="@dimen/toolbar_min_height"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="14.0sp" n1:textColor="@color/meta_thread_toolbar_unread_text" n1:gravity="center_vertical" n1:id="@id/unread_text" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:layout_marginLeft="16.0dip" />
+    <ru.mail.uikit.view.FontTextView n1:textSize="14.0sp" n1:textColor="@color/contrast_primary" n1:gravity="center_vertical" n1:id="@id/main_button" n1:background="?android:selectableItemBackground" n1:paddingLeft="16.0dip" n1:paddingRight="16.0dip" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:textAllCaps="true" n2:textFont="robotoMedium" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

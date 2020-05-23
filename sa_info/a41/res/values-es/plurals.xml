@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Se han copiado las direcciones al portapeles</item>
+        <item quantity="one">Se ha copiado la dirección al portapapeles</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">¿Realmente desea borrar %1$d mensajes?</item>
+        <item quantity="one">¿Realmente desea borrar este mensaje?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">¿Quiere realmente mover %1$d mensajes a la carpeta Spam?</item>
+        <item quantity="one">¿Quiere mover este mensaje a la carpeta Spam?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d mensajes nuevos</item>
+        <item quantity="one">%d mensaje nuevo</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s cuentas</item>
+        <item quantity="one">1 cuenta</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">contraseñas del servidor</item>
+        <item quantity="one">palabra clave del servidor</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Estableciendo contraseñas…</item>
+        <item quantity="one">Definir password…</item>
+    </plurals>
+</resources>

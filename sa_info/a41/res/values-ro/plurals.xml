@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Adresele au fost copiate în clipboard</item>
+        <item quantity="one">Adresa a fost copiată în clipboard</item>
+        <item quantity="few">Adresele au fost copiate în clipboard</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Sigur doriți ștergerea a %1$d mesaje?</item>
+        <item quantity="one">Sigur doriți ștergerea mesajului?</item>
+        <item quantity="few">Sigur doriți ștergerea a %1$d mesaje?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Sigur doriți mutarea a %1$d mesaje în dosarul spam?</item>
+        <item quantity="one">Sigur doriți mutarea mesajului în dosarul spam?</item>
+        <item quantity="few">Sigur doriți mutarea a %1$d mesaje în dosarul spam?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d mesaje noi</item>
+        <item quantity="one">%d mesaj nou</item>
+        <item quantity="few">%d mesaje noi</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Preluare %d rezultate</item>
+        <item quantity="one">Preluare %d rezultat</item>
+        <item quantity="few">Preluare %d rezultate</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Preluare %1$d din %2$d rezultate</item>
+        <item quantity="one">Preluare %1$d din %2$d rezultate</item>
+        <item quantity="few">Preluare %1$d din %2$d rezultate</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s conturi</item>
+        <item quantity="one">1 cont</item>
+        <item quantity="few">%s conturi</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">parolele serverului</item>
+        <item quantity="one">parola serverului</item>
+        <item quantity="few">parolele serverului</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Setare parole…</item>
+        <item quantity="one">Setare parolă...</item>
+        <item quantity="few">Setare parole...</item>
+    </plurals>
+</resources>

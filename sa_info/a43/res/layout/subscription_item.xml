@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="48.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.uikit.view.FontButton n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true">
+        <ru.mail.uikit.view.FontTextView n1:textSize="14.0sp" n1:textColor="@color/white" n1:id="@id/title" n1:paddingLeft="4.0dip" n1:paddingRight="4.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:textFont="robotoRegular" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <ru.mail.uikit.view.FontTextView n1:textSize="14.0sp" n1:textColor="@color/button_secondary_text" n1:id="@id/price" n1:paddingLeft="4.0dip" n1:paddingRight="4.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:textFont="robotoRegular" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</RelativeLayout>

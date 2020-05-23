@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="64.0dip" n1:layout_height="64.0dip" style="?emojicon_grid_item_style"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:id="@id/emojiId" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="?emojicon_id_style" />
+    <TextView n1:layout_gravity="center" n1:id="@id/emojiContainer" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" style="?emojicon_item_style" />
+</RelativeLayout>

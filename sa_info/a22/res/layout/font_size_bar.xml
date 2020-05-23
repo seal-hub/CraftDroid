@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:gravity="center" android:id="@id/txt_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/font_size_small" />
+    <TextView android:textSize="12.0sp" android:gravity="center" android:id="@id/txt_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/font_size_normal" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:gravity="center" android:id="@id/txt_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/font_size_large" android:layout_alignParentRight="true" />
+    <View android:background="#ff000000" android:layout_width="1.0px" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_alignTop="@id/seek_bar" android:layout_alignBottom="@id/seek_bar" android:layout_centerHorizontal="true" />
+    <View android:background="#ff000000" android:layout_width="1.0px" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_alignTop="@id/seek_bar" android:layout_alignBottom="@id/seek_bar" />
+    <View android:background="#ff000000" android:layout_width="1.0px" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="4.0dip" android:layout_alignTop="@id/seek_bar" android:layout_alignBottom="@id/seek_bar" android:layout_alignParentRight="true" />
+    <SeekBar android:id="@id/seek_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/txt_normal" />
+</merge>

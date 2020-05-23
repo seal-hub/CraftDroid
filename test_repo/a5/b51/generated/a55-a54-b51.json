@@ -1,0 +1,63 @@
+[
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.zaidisoft.teninone:id/guestNumberET",
+    "text": "1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "# of people",
+    "stepping_events": [],
+    "package": "com.zaidisoft.teninone",
+    "activity": ".Calculator",
+    "event_type": "gui",
+    "score": 0.1983341884402392,
+    "action": [
+      "clear_and_send_keys",
+      "56.6"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.zaidisoft.teninone:id/tipPercentET",
+    "text": "0",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Tip percent",
+    "stepping_events": [],
+    "package": "com.zaidisoft.teninone",
+    "activity": ".Calculator",
+    "event_type": "gui",
+    "score": 0.1166100862010739,
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "15"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.zaidisoft.teninone:id/calculateBtn",
+    "text": "Calculate",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Reset",
+    "stepping_events": [],
+    "package": "com.zaidisoft.teninone",
+    "activity": ".Calculator",
+    "event_type": "gui",
+    "score": 0.23514578407289843,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  }
+]

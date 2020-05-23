@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/gallery_container" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/top_bar_container" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        <View n1:background="@drawable/shadow_ab" n1:layout_width="fill_parent" n1:layout_height="@dimen/shadow_height" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/bottom_bar_container" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true">
+        <View n1:id="@id/bottom_bar_shadow" n1:background="@drawable/shadow_bb" n1:layout_width="fill_parent" n1:layout_height="@dimen/shadow_height" />
+        <include layout="@layout/file_browser_bottom_bar" />
+    </LinearLayout>
+</RelativeLayout>

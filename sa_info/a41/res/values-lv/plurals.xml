@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Adreses nokopētas starpliktuvē</item>
+        <item quantity="zero">Adrese nokopēta starpliktuvē</item>
+        <item quantity="one">Adrese nokopēta starpliktuvē</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Vai tiešām jāizdzēš %1$d vēstules?</item>
+        <item quantity="zero">Vai tiešām izdzēst %1$d vēstules?</item>
+        <item quantity="one">v</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Vai tiešām pārvietot %1$d vēstules uz surogātpasta mapi?</item>
+        <item quantity="zero">Vai tiešām pārvietot %1$d vēstuli/-es uz surogātpasta mapi?</item>
+        <item quantity="one">Vai tiešām pārvietot vēstules uz surogātpasta mapi?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d jaunas vēstules</item>
+        <item quantity="zero">%d nav jaunu vēstuļu</item>
+        <item quantity="one">%d jauna vēstule</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Saņem %d rezultātus</item>
+        <item quantity="zero">Saņem %d rezultātu</item>
+        <item quantity="one">Saņem %d rezultātu</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Saņem %1$d no %2$d rezultāta/-iem</item>
+        <item quantity="zero">Saņem %1$d no %2$d rezultāta/-iem</item>
+        <item quantity="one">Saņem %1$d no %2$d rezultāta/-iem</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s konti</item>
+        <item quantity="zero">%s konti</item>
+        <item quantity="one">s</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">servera paroles</item>
+        <item quantity="zero">servera paroles</item>
+        <item quantity="one">servera parole</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Iestata paroles…</item>
+        <item quantity="zero">Uzliek paroli…</item>
+        <item quantity="one">f</item>
+    </plurals>
+</resources>

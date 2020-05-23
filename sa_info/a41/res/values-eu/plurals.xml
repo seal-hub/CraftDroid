@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Helbideak arbelera kopiatuta</item>
+        <item quantity="one">Helbidea arbelera kopiatuta</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Benetan %1$d mezu ezabatu nahi dituzu?</item>
+        <item quantity="one">Benetan mezu hau ezabatu nahi duzu?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Benetan %1$d mezu spam karpetara mugitu nahi dituzula?</item>
+        <item quantity="one">Benetan mezu hau spamera mugitu nahi duzula?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d mezu berri</item>
+        <item quantity="one">Mezu berri %d</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">%d emaitza eskuratzen</item>
+        <item quantity="one">Emaitza %d eskuratzen</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">%1$d-(e)tik %2$d emaitza eskuratzen</item>
+        <item quantity="one">%1$d-(e)tik %2$d emaitza eskuratzen</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s kontu</item>
+        <item quantity="one">Kontu 1</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">zerbitzariko pasahitzak</item>
+        <item quantity="one">zerbitzariko pasahitza</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Pasahitzak ezartzen…</item>
+        <item quantity="one">Pasahitza ezartzen…</item>
+    </plurals>
+</resources>

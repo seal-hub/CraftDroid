@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="?styleCaldroidViewLayout"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/relativeLayout" n1:background="@color/contrast_primary" n1:paddingLeft="24.0dip" n1:paddingTop="16.0dip" n1:paddingRight="12.0dip" n1:paddingBottom="16.0dip" n1:layout_width="156.0dip" n1:layout_height="fill_parent" n1:layout_alignBottom="@id/linearLayout">
+        <ru.mail.uikit.view.FontTextView n1:textSize="18.0sp" n1:textColor="@android:color/white" n1:id="@id/pick_date_label" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="21.0dip" n1:text="@string/pick_date" n2:textFont="robotoMedium" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/interval_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <ru.mail.uikit.view.FontTextView n1:textSize="@dimen/medium_text_appearance" n1:textColor="#80ffffff" n1:id="@id/from_label" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/date_from" n3:textFont="robotoMedium" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <ru.mail.uikit.view.FontTextView n1:textSize="18.0sp" n1:textColor="@android:color/white" n1:id="@id/from" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dip" n4:textFont="robotoMedium" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <ru.mail.uikit.view.FontTextView n1:textSize="@dimen/medium_text_appearance" n1:textColor="#80ffffff" n1:id="@id/to_label" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="15.0dip" n1:text="@string/date_to" n5:textFont="robotoMedium" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            <ru.mail.uikit.view.FontTextView n1:textSize="18.0sp" n1:textColor="@android:color/white" n1:id="@id/to" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dip" n6:textFont="robotoMedium" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/linearLayout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/relativeLayout">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/calendar_title_view" n1:layout_width="fill_parent" n1:layout_height="34.0dip" n1:layout_marginLeft="12.0dip" n1:layout_marginTop="8.0dip" n1:layout_marginRight="12.0dip">
+            <Button n1:id="@id/calendar_left_arrow" n1:background="@drawable/bg_arrow_left" n1:layout_width="0.0dip" n1:layout_height="34.0dip" n1:layout_weight="1.0" />
+            <ru.mail.uikit.view.FontTextView n1:id="@id/calendar_month_year_textview" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="5.0" style="?styleCaldroidMonthName" />
+            <Button n1:id="@id/calendar_right_arrow" n1:background="@drawable/bg_arrow_right" n1:layout_width="0.0dip" n1:layout_height="34.0dip" n1:layout_weight="1.0" />
+        </LinearLayout>
+        <GridView n1:id="@id/weekday_gridview" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dip" n1:layout_marginRight="12.0dip" n1:stretchMode="columnWidth" n1:numColumns="7" />
+        <ru.mail.uikit.dialog.DatePickerViewPager n1:id="@id/fixed_view_pager" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dip" />
+        <ru.mail.uikit.dialog.InfiniteViewPagerWithDelegate n1:id="@id/months_infinite_pager" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        <RelativeLayout n1:id="@id/calendar_view_buttons_layout" n1:paddingLeft="6.0dip" n1:paddingTop="@dimen/date_picker_buttons_land_top_padding" n1:paddingRight="6.0dip" n1:paddingBottom="@dimen/date_picker_buttons_land_bottom_padding" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <include layout="@layout/calendar_view_buttons" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

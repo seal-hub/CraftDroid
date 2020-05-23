@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Osoitteet kopioitu leikepöydälle</item>
+        <item quantity="one">Osoite kopioitu leikepöydälle</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Haluatko varmasti poistaa %1$d viestiä?</item>
+        <item quantity="one">Haluatko varmasti poistaa tämän viestin?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Haluatko todella siirtää %1$d viestiä roskapostikansioon?</item>
+        <item quantity="one">Haluatko todella siirtää tämän viestin roskapostikansioon?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d uutta viestiä</item>
+        <item quantity="one">%d uusi viesti</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Noudetaan %d tulosta</item>
+        <item quantity="one">Noudetaan %d tulos</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Noudetaan %1$d / %2$d tulosta</item>
+        <item quantity="one">Noudetaan %1$d / %2$d tulos</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s tiliä</item>
+        <item quantity="one">1 tili</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">palvelimen salasanat</item>
+        <item quantity="one">palvelimen salasana</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Määritetään salasanoja…</item>
+        <item quantity="one">Määritetään salasanaa …</item>
+    </plurals>
+</resources>

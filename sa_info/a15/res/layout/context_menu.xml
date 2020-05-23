@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.NavigationView android:theme="@style/AppTheme.ContextMenuItem" android:id="@id/context_menu" android:background="@android:color/transparent" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTextAppearance="@style/ContextMenuTextAppearence" />
+    <TextView android:textSize="12.0sp" android:textColor="#66ffffff" android:id="@id/warning" android:background="#ff262626" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@string/font_roboto_regular" android:paddingStart="@dimen/dialogHorizontalPadding" android:paddingEnd="@dimen/dialogHorizontalPadding" />
+</LinearLayout>

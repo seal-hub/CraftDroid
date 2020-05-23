@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:id="@id/toolbar_mailview_action_save_to_cloud" n1:title="@string/save_attachments_to_cloud_many" n2:showAsAction="collapseActionView"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto " />
+    <item n3:id="@id/toolbar_mailview_action_save_all_attachments" n3:title="@string/save_all_attachments" n4:showAsAction="collapseActionView"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto " />
+    <item n5:id="@id/toolbar_mailview_action_share_all_attachments" n5:title="@string/share_all_attachments" n6:showAsAction="collapseActionView"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto " />
+</menu>

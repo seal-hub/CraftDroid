@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@drawable/ic_action_move" n1:id="@id/toolbar_mailview_action_move" n1:title="@string/action_move_to_folder" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="@drawable/ic_action_spam" n3:id="@id/toolbar_mailview_action_spam" n3:title="@string/mapp_mark_as_spam" n4:showAsAction="always"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:icon="@drawable/ic_action_unspam" n5:id="@id/toolbar_mailview_action_unspam" n5:title="@string/mapp_mark_as_nospam" n6:showAsAction="always"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="@drawable/ic_action_archive" n7:id="@id/toolbar_mailview_action_archive" n7:title="@string/archive" n8:showAsAction="always"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <item n9:icon="@drawable/ic_action_delete" n9:id="@id/toolbar_mailview_action_delete" n9:title="@string/delete" n10:showAsAction="always"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <item n11:id="@id/toolbar_mailview_action_redirect" n11:title="@string/action_redirect_label" n12:showAsAction="collapseActionView"
+      xmlns:n11="http://schemas.android.com/apk/res/android" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+    <item n13:id="@id/toolbar_mailview_action_print" n13:title="@string/print" n14:showAsAction="collapseActionView"
+      xmlns:n13="http://schemas.android.com/apk/res/android" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+    <item n15:id="@id/toolbar_mailview_action_save_as_pdf" n15:title="@string/save_as_pdf" n16:showAsAction="collapseActionView"
+      xmlns:n15="http://schemas.android.com/apk/res/android" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+    <item n17:id="@id/toolbar_mailview_action_unsubscribe" n17:title="@string/action_unsubscribe_label" n18:showAsAction="collapseActionView"
+      xmlns:n17="http://schemas.android.com/apk/res/android" xmlns:n18="http://schemas.android.com/apk/res-auto" />
+</menu>

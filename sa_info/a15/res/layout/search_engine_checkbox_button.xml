@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox android:id="@id/checkbox" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/preference_padding_top" android:paddingBottom="@dimen/preference_padding_top" android:layout_width="fill_parent" android:layout_height="@dimen/preference_row_height" android:button="@null" android:foreground="@drawable/preference_multiselect_search_engine_foreground" android:drawableRight="?android:listChoiceIndicatorMultiple" android:drawablePadding="@dimen/preference_drawable_padding" android:paddingStart="@dimen/preference_padding_horizontal" android:paddingEnd="@dimen/preference_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

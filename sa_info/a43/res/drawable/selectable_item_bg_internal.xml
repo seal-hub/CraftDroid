@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n1:state_focused="true" n1:state_pressed="true" n1:drawable="@drawable/pressed_state_transition"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:state_focused="false" n2:state_pressed="true" n2:drawable="@drawable/pressed_state_transition"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:state_focused="true" n3:state_pressed="false" n3:drawable="@drawable/focused_state"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:state_focused="true" n4:state_enabled="false" n4:drawable="@drawable/disabled_focused_state"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:state_pressed="true" n5:drawable="@drawable/pressed_state"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:state_focused="true" n6:drawable="@drawable/focused_state"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:drawable="@drawable/highlighted_state" n8:hightlighted="true"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <item n9:drawable="@drawable/default_state"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+</selector>

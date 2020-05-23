@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:id="@id/container" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <fragment n1:tag="target_fragment_tag" n1:layout_width="fill_parent" n1:layout_height="fill_parent" class="ru.mail.ui.attachmentsgallery.AttachmentPagerFragment" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/toolbar_container" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:theme="@style/ToolbarTheme" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/toolbar_shadow" n1:background="@drawable/shadow_ab" n1:layout_width="fill_parent" n1:layout_height="@dimen/shadow_height" />
+    </LinearLayout>
+    <android.support.design.widget.CoordinatorLayout n1:id="@id/coordinator_layout" n1:background="@android:color/transparent" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <ru.mail.fragments.view.SnackbarAnchorLayout n1:orientation="vertical" n1:id="@id/snackbar_anchor" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nobu_games.android.view.web.EditableHeaderLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/new_mail_header" />
+    <ImageView n1:id="@id/webview_open_button" n1:background="@drawable/webview_open_button_bg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="16.0dip" n1:cropToPadding="true" n2:srcCompat="@drawable/ic_read_expand" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <include layout="@layout/reply_preview_buttons" />
+</com.nobu_games.android.view.web.EditableHeaderLayout>

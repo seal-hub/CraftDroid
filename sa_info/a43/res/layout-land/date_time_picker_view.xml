@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/layout" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:orientation="vertical" n1:background="@color/contrast_primary" n1:layout_width="204.0dip" n1:layout_height="fill_parent">
+        <ru.mail.uikit.view.FontTextView n1:textSize="20.0sp" n1:textStyle="bold" n1:textColor="@android:color/white" n1:id="@id/pick_date_label" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="16.0dip" n1:text="@string/pick_schedule_time" n1:maxLines="5" n1:lineSpacingMultiplier="1.2" n2:textFont="robotoMedium" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <Button n1:enabled="false" n1:id="@id/btn_select_date" n1:layout_width="wrap_content" n1:layout_height="28.0dip" n1:layout_marginLeft="16.0dip" n1:layout_below="@id/pick_date_label" n1:layout_marginStart="16.0dip" style="@style/ButtonDateTime" />
+        <Button n1:enabled="true" n1:id="@id/btn_select_time" n1:layout_width="wrap_content" n1:layout_height="28.0dip" n1:layout_marginLeft="2.0dip" n1:layout_toRightOf="@id/btn_select_date" n1:layout_below="@id/pick_date_label" n1:layout_marginStart="2.0dip" n1:layout_toEndOf="@id/btn_select_date" style="@style/ButtonDateTime" />
+    </RelativeLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <android.support.v4.view.ViewPager n1:id="@id/pickerViewPager" n1:layout_width="wrap_content" n1:layout_height="260.0dip" />
+        <RelativeLayout n1:id="@id/calendar_view_buttons_layout" n1:paddingLeft="6.0dip" n1:paddingTop="@dimen/date_picker_buttons_land_top_padding" n1:paddingRight="6.0dip" n1:paddingBottom="@dimen/date_picker_buttons_land_bottom_padding" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <include layout="@layout/calendar_view_buttons" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

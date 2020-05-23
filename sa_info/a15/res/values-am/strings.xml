@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">ወደ መነሻ ይዳስሱ</string>
+    <string name="abc_action_bar_up_description">ወደ ላይ ይዳስሱ</string>
+    <string name="abc_action_menu_overflow_description">ተጨማሪ አማራጮች</string>
+    <string name="abc_action_mode_done">ተከናውኗል</string>
+    <string name="abc_activity_chooser_view_see_all">ሁሉንም ይመልከቱ</string>
+    <string name="abc_activitychooserview_choose_application">መተግበሪያ ይምረጡ</string>
+    <string name="abc_capital_off">ጠፍቷል</string>
+    <string name="abc_capital_on">በርቷል</string>
+    <string name="abc_search_hint">ፈልግ…</string>
+    <string name="abc_searchview_description_clear">መጠይቅ አጽዳ</string>
+    <string name="abc_searchview_description_query">የፍለጋ ጥያቄ</string>
+    <string name="abc_searchview_description_search">ፍለጋ</string>
+    <string name="abc_searchview_description_submit">መጠይቅ ያስረክቡ</string>
+    <string name="abc_searchview_description_voice">የድምፅ ፍለጋ</string>
+    <string name="abc_shareactionprovider_share_with">ከሚከተለው ጋር ያጋሩ</string>
+    <string name="abc_shareactionprovider_share_with_application">ከ%s ጋር አጋራ</string>
+    <string name="abc_toolbar_collapse_description">ሰብስብ</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2> %1$s &amp;#4720;&amp;#4678;&amp;#4899;&amp;#4899;&amp;#4650; &amp;#4758;&amp;#4725;&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#4773;&amp;#4757;&amp;#4848; &amp;#4877;&amp;#4621; &amp;#4768;&amp;#4659;&amp;#4669; &amp;#4845;&amp;#4896;&amp;#4672;&amp;#4633;:
+&lt;ul>
+    &lt;li>&amp;#4704;&amp;#4632;&amp;#4720;&amp;#4877;&amp;#4704;&amp;#4650;&amp;#4843;&amp;#4813; &amp;#4813;&amp;#4661;&amp;#4901; &amp;#4845;&amp;#4936;&amp;#4621;&amp;#4873; &amp;#4773;&amp;#4755; &amp;#4843;&amp;#4661;&amp;#4657;&lt;/li>
+    &lt;li>&amp;#4632;&amp;#4776;&amp;#4723;&amp;#4720;&amp;#4843;&amp;#4814;&amp;#4733;&amp;#4757; &amp;#4768;&amp;#4877;&amp;#4853;(&amp;#4808;&amp;#4845;&amp;#4637; &amp;#4632;&amp;#4776;&amp;#4723;&amp;#4720;&amp;#4843;&amp;#4814;&amp;#4733;&amp;#4757; &amp;#4616;&amp;#4632;&amp;#4941;&amp;#4672;&amp;#4853; &amp;#4677;&amp;#4757;&amp;#4709;&amp;#4654;&amp;#4733;&amp;#4757; &amp;#4843;&amp;#4824;&amp;#4637;&amp;#4753;)&lt;/li>
+    &lt;li>&amp;#4777;&amp;#4778;&amp;#4814;&amp;#4733;&amp;#4757; &amp;#4773;&amp;#4757;&amp;#4850;&amp;#4609;&amp;#4637; &amp;#4840;&amp;#4941;&amp;#4616;&amp;#4875; &amp;#4773;&amp;#4755; &amp;#4840;&amp;#4768;&amp;#4656;&amp;#4659; &amp;#4723;&amp;#4650;&amp;#4781;&amp;#4757; &amp;#4616;&amp;#4632;&amp;#4656;&amp;#4648;&amp;#4829; &amp;#4843;&amp;#4661;&amp;#4808;&amp;#4877;&amp;#4849;&lt;/li> 
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s&amp;#4840;&amp;#4720;&amp;#4672;&amp;#4648;&amp;#4928;&amp;#4813; &amp;#4704;&amp;#4638;&amp;#4826;&amp;#4619; &amp;#4752;&amp;#4813;:: &amp;#4840;&amp;#4773;&amp;#4763; &amp;#4720;&amp;#4621;&amp;#4773;&amp;#4782; &amp;#4900;&amp;#4755;&amp;#4635; &amp;#4773;&amp;#4755; &amp;#4781;&amp;#4941;&amp;#4725; &amp;#4704;&amp;#4845;&amp;#4752; &amp;#4632;&amp;#4648;&amp;#4709;&amp;#4757; &amp;#4635;&amp;#4704;&amp;#4648;&amp;#4723;&amp;#4723;&amp;#4725; &amp;#4752;&amp;#4813;::&lt;br/>
+&lt;a href=%2$s>&amp;#4720;&amp;#4904;&amp;#4635;&amp;#4650; &amp;#4773;&amp;#4808;&amp;#4677;&lt;/a>&lt;/p>
+
+    
+"</string>
+    <string name="accessibility_announcement_loading">በመጫን ላይ</string>
+    <string name="accessibility_announcement_loading_finished">ድር ጣቢያ ተጭኗል</string>
+    <string name="action_cancel">ሰርዝ</string>
+    <string name="action_ok">እሺ</string>
+    <string name="action_option_add_search_engine">"የፍለጋ ፕሮግራም አክል
+"</string>
+    <string name="action_save">ማስቀመጥ</string>
+    <string name="common_google_play_services_enable_button">አንቃ</string>
+    <string name="common_google_play_services_enable_text">Google Play አገልግሎቶችን ካላነቁ በስተቀር %1$s አይሰራም።</string>
+    <string name="common_google_play_services_enable_title">Google Play አገልግሎቶችን ያንቁ</string>
+    <string name="common_google_play_services_install_button">ጫን</string>
+    <string name="common_google_play_services_install_text">%1$s ያለ Google Play አገልግሎቶች አይሰራም፣ እነሱ ደግሞ በመሣሪያዎ ላይ የሉም።</string>
+    <string name="common_google_play_services_install_title">Google Play አገልግሎቶችን ያግኙ</string>
+    <string name="common_google_play_services_notification_ticker">የGoogle Play አገልግሎቶች ስህተት</string>
+    <string name="common_google_play_services_unknown_issue">%1$s በGoogle Play አገልግሎቶች ላይ ችግሮች እያጋጠሙት ነው። እባክዎ እንደገና ይሞክሩ።</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ያለGoogle Play አገልግሎቶች አይሄድም፣ እነዚህም በመሣሪያዎ አይደገፉም።</string>
+    <string name="common_google_play_services_update_button">ያዘምኑ</string>
+    <string name="common_google_play_services_update_text">Google Play አገልግሎቶችን ካላዘመኑ በስተቀር ድረስ %1$s አይሰራም።</string>
+    <string name="common_google_play_services_update_title">Google Play አገልግሎቶችን ያዘምኑ</string>
+    <string name="common_google_play_services_updating_text">%1$s ያለ Google Play አገልግሎቶች አይሰራም፣ እነሱ ደግሞ በአሁኑ ጊዜ በመዘመን ላይ ናቸው።</string>
+    <string name="common_google_play_services_wear_update_text">አዲስ የGoogle Play አገልግሎቶች ስሪት ያስፈልጋል። በቅርቡ እራሱን ያዘምናል።</string>
+    <string name="common_open_on_phone">ስልክ ላይ ክፈት</string>
+    <string name="common_signin_button_text">ግባ</string>
+    <string name="common_signin_button_text_long">በGoogle ይግቡ</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">ወደ ኋላ ዳስስ</string>
+    <string name="content_description_blocking_switch">መከታተያዎችን አግድ</string>
+    <string name="content_description_clear_input">ግቤት አጽዳ</string>
+    <string name="content_description_customtab_exit">ወደ ቀዳሚው መተግበሪያ ይመለሱ</string>
+    <string name="content_description_dismiss_input">አሰናብት</string>
+    <string name="content_description_erase">የአሰሳ ታሪክን አጥፋ</string>
+    <string name="content_description_forward">ወደ ፊት አስስ</string>
+    <string name="content_description_lock">ደህንነቱ የተጠበቀ ግንኙነት</string>
+    <string name="content_description_menu">ተጨማሪ አማራጮች</string>
+    <string name="content_description_reload">ድር ጣቢያ እንደገና ይጫኑ</string>
+    <string name="content_description_stop">ድር ጣቢያ መጫን አቁም</string>
+    <string name="content_description_tab_counter">ትሮች ተከፍተዋል: %1$s</string>
+    <string name="contextmenu_image_copy">የምስል አድራሻ ቅዳ</string>
+    <string name="contextmenu_image_save">ምስል አስቀምጥ</string>
+    <string name="contextmenu_image_share">ምስል አጋራ</string>
+    <string name="contextmenu_image_warning">የተቀመጡ እና የተጋሩ ምስሎች&lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#4768;&amp;#4845;&amp;#4656;&amp;#4653;&amp;#4829;&amp;#4637;&lt;/b>ሲደመስሱ%1$sታሪክ</string>
+    <string name="contextmenu_link_copy">የአገናኝ አድራሻ ቅዳ</string>
+    <string name="contextmenu_link_share">አገናኝ አጋራ</string>
+    <string name="contextmenu_open_in_new_tab">አገናኙን በአዲስ ትር ውስጥ ይክፈቱ</string>
+    <string name="dialog_addtohomescreen_action_add">ጨምር</string>
+    <string name="dialog_addtohomescreen_action_cancel">አጥፋ</string>
+    <string name="dialog_addtohomescreen_tracking_protection">አቋራጭ ከተሰናከለ ከመከታተያ ጥበቃ ጋር ይከፈታል</string>
+    <string name="download_dialog_action_cancel">ሰርዝ</string>
+    <string name="download_dialog_action_download">አውርድ</string>
+    <string name="download_dialog_title">ሰነድ አውርድ</string>
+    <string name="download_dialog_warning">የወረዱ ፋይሎች &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2> &amp;#4768;&amp;#4845;&amp;#4656;&amp;#4653;&amp;#4829;&amp;#4637; &lt;/b> ሲደመስሱ %1$s ታሪክ</string>
+    <string name="download_firefox">ፋየርፎክስ አውርድ</string>
+    <string name="download_snackbar_finished">%1$s ተጠናቅቋል</string>
+    <string name="download_snackbar_open">ክፈት</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&amp;#4843;&amp;#4616;&amp;#4813; &amp;#4899;&amp;#4706;&amp;#4843; &amp;#4616;&amp;#4874;&amp;#4828;&amp;#4813; &amp;#4768;&amp;#4845;&amp;#4872;&amp;#4765;&amp;#4637; &amp;#4808;&amp;#4845;&amp;#4637; &amp;#4704;&amp;#4899;&amp;#4637; &amp;#4661;&amp;#4651; &amp;#4618;&amp;#4614;&amp;#4757; &amp;#4845;&amp;#4733;&amp;#4619;&amp;#4621;:: &amp;#4776;&amp;#4901;&amp;#4674;&amp;#4725; &amp;#4848;&amp;#4674;&amp;#4675;&amp;#4814;&amp;#4733; &amp;#4704;&amp;#4747;&amp;#4619; &amp;#4773;&amp;#4757;&amp;#4848;&amp;#4872;&amp;#4755; &amp;#4845;&amp;#4638;&amp;#4781;&amp;#4649;&lt;/li>
+        &lt;li>&amp;#4635;&amp;#4757;&amp;#4763;&amp;#4813;&amp;#4637; &amp;#4872;&amp;#4926;&amp;#4733;&amp;#4757; &amp;#4632;&amp;#4907;&amp;#4757; &amp;#4840;&amp;#4635;&amp;#4845;&amp;#4733;&amp;#4617; &amp;#4776;&amp;#4614;&amp;#4752; &amp;#4840;&amp;#4720;&amp;#4757;&amp;#4672;&amp;#4659;&amp;#4675;&amp;#4669; &amp;#4632;&amp;#4643;&amp;#4650;&amp;#4843;&amp;#4814; &amp;#4813;&amp;#4610;&amp;#4709; &amp;#4808;&amp;#4845;&amp;#4637; &amp;#4840; Wi-Fi &amp;#4877;&amp;#4757;&amp;#4761;&amp;#4752;&amp;#4725;&amp;#4757; &amp;#4845;&amp;#4936;&amp;#4725;&amp;#4665;&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">መገናኘት አልተቻለም</string>
+    <string name="error_generic_message">ይህን ገጽ በሆነ ምክንያት ልንጭነውም አንችልም</string>
+    <string name="error_generic_title">ውይ</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&amp;#4661;&amp;#4613;&amp;#4720;&amp;#4726;&amp;#4733;&amp;#4757; &amp;#4616;&amp;#4632;&amp;#4720;&amp;#4840;&amp;#4709; &amp;#4768;&amp;#4853;&amp;#4651;&amp;#4667;&amp;#4813;&amp;#4757; &amp;#4845;&amp;#4632;&amp;#4621;&amp;#4776;&amp;#4721; &amp;#4616;&amp;#4637;&amp;#4659;&amp;#4620;
+          &lt;strong>ww&lt;/strong>.example.com &amp;#4776;&amp;#4657; &amp;#4845;&amp;#4621;&amp;#4677;
+          &lt;strong>www&lt;/strong>.example.com&lt;/li>
+        &lt;li>&amp;#4635;&amp;#4757;&amp;#4763;&amp;#4813;&amp;#4637; &amp;#4872;&amp;#4926;&amp;#4733;&amp;#4757; &amp;#4632;&amp;#4907;&amp;#4757; &amp;#4840;&amp;#4635;&amp;#4845;&amp;#4733;&amp;#4617; &amp;#4776;&amp;#4614;&amp;#4752; &amp;#4840;&amp;#4632;&amp;#4643;&amp;#4650;&amp;#4843;&amp;#4814;&amp;#4757; &amp;#4813;&amp;#4610;&amp;#4709; &amp;#4808;&amp;#4845;&amp;#4637; &amp;#4840; Wi-Fi &amp;#4877;&amp;#4757;&amp;#4761;&amp;#4752;&amp;#4725;&amp;#4757; &amp;#4843;&amp;#4648;&amp;#4875;&amp;#4877;&amp;#4897;&lt;/li>
+      &lt;/ul>
+          
+          "</string>
+    <string name="error_hostLookup_title">አገልጋይ አልተገኘም</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#4840;&amp;#4853;&amp;#4648;-&amp;#4872;&amp;#4925; &amp;#4768;&amp;#4853;&amp;#4651;&amp;#4667;&amp;#4814;&amp;#4733; &amp;#4709;&amp;#4825;&amp;#4813;&amp;#4757; &amp;#4874;&amp;#4828; &amp;#4773;&amp;#4757;&amp;#4850;&amp;#4613; &amp;#4845;&amp;#4752;&amp;#4704;&amp;#4707;&amp;#4617;&lt;strong>http://www.example.com/&lt;/strong>&lt;/li>
+  &lt;li>&amp;#4808;&amp;#4848;&amp;#4938;&amp;#4725; &amp;#4672;&amp;#4661;&amp;#4726;&amp;#4733;&amp;#4757; &amp;#4773;&amp;#4840;&amp;#4720;&amp;#4896;&amp;#4672;&amp;#4633; &amp;#4632;&amp;#4614;&amp;#4757;&amp;#4814;&amp;#4757; &amp;#4843;&amp;#4648;&amp;#4875;&amp;#4877;&amp;#4897;(&amp;#4637;&amp;#4659;&amp;#4620;&lt;strong>/&lt;/strong>)&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">አድራሻው ልክ ያልሆነ ነው</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#4845;&amp;#4613; &amp;#4733;&amp;#4877;&amp;#4653; &amp;#4768;&amp;#4757;&amp;#4851;&amp;#4757;&amp;#4853; &amp;#4874;&amp;#4828; &amp;#4777;&amp;#4778;&amp;#4814;&amp;#4733;&amp;#4757; &amp;#4616;&amp;#4632;&amp;#4672;&amp;#4704;&amp;#4621; &amp;#4704;&amp;#4635;&amp;#4656;&amp;#4755;&amp;#4776;&amp;#4621; &amp;#4808;&amp;#4845;&amp;#4637; &amp;#4704;&amp;#4632;&amp;#4675;&amp;#4808;&amp;#4637; &amp;#4618;&amp;#4776;&amp;#4656;&amp;#4725; &amp;#4845;&amp;#4733;&amp;#4619;&amp;#4621;&lt;/li>
+&lt;/ul>
+"</string>
+    <string name="error_redirectLoop_title">ገጹ በአግባቡ ላይ እየሄደ አይደለም</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#4845;&amp;#4612; &amp;#4704;&amp;#4656;&amp;#4648;&amp;#4712;&amp;#4653; &amp;#4813;&amp;#4677;&amp;#4653; &amp;#4619;&amp;#4845; &amp;#4733;&amp;#4877;&amp;#4653; &amp;#4618;&amp;#4614;&amp;#4757; &amp;#4845;&amp;#4733;&amp;#4619;&amp;#4621;  &amp;#4808;&amp;#4845;&amp;#4637; &amp;#4656;&amp;#4648;&amp;#4712;&amp;#4653;&amp;#4757; &amp;#4616;&amp;#4635;&amp;#4661;&amp;#4632;&amp;#4656;&amp;#4621; &amp;#4840;&amp;#4634;&amp;#4638;&amp;#4781;&amp;#4653; &amp;#4840;&amp;#4614;&amp;#4752; &amp;#4656;&amp;#4813; &amp;#4618;&amp;#4614;&amp;#4757; &amp;#4845;&amp;#4733;&amp;#4619;&amp;#4621;&lt;/li>
+  &lt;li>&amp;#4776;&amp;#4826;&amp;#4613; &amp;#4704;&amp;#4938;&amp;#4725; &amp;#4776;&amp;#4826;&amp;#4613; &amp;#4656;&amp;#4648;&amp;#4712;&amp;#4653;  &amp;#4704;&amp;#4720;&amp;#4659;&amp;#4779; &amp;#4609;&amp;#4756;&amp;#4723; &amp;#4776;&amp;#4720;&amp;#4872;&amp;#4755;&amp;#4761; &amp;#4661;&amp;#4613;&amp;#4720;&amp;#4721; &amp;#4874;&amp;#4828;&amp;#4843;&amp;#4810; &amp;#4618;&amp;#4614;&amp;#4757; &amp;#4845;&amp;#4733;&amp;#4619;&amp;#4621; &amp;#4773;&amp;#4755; &amp;#4678;&amp;#4845;&amp;#4720;&amp;#4813; &amp;#4773;&amp;#4757;&amp;#4848;&amp;#4872;&amp;#4755; &amp;#4632;&amp;#4638;&amp;#4776;&amp;#4653; &amp;#4845;&amp;#4733;&amp;#4619;&amp;#4617;&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">ደህንነቱ የተጠበቀ ግንኙነት አልተሳካም</string>
+    <string name="error_timeout_title">ግንኙነቱ ጊዜው አልፎበታል</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#4845;&amp;#4613;&amp;#4757; &amp;#4768;&amp;#4853;&amp;#4651;&amp;#4667; &amp;#4616;&amp;#4632;&amp;#4781;&amp;#4936;&amp;#4725; &amp;#4620;&amp;#4619; &amp;#4662;&amp;#4941;&amp;#4725;&amp;#4812;&amp;#4653; &amp;#4632;&amp;#4907;&amp;#4757; &amp;#4618;&amp;#4843;&amp;#4661;&amp;#4936;&amp;#4621;&amp;#4877;&amp;#4814; &amp;#4845;&amp;#4733;&amp;#4619;&amp;#4621;&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">አድራሻው አልተረዳም ነበር</string>
+    <string name="errorpage_refresh">እንደገና ሞክር</string>
+    <string name="errorpage_title">ገጽን በመጫን ላይ ችግር</string>
+    <string name="external_app_prompt">መሄድ ይችላሉ %1$s ይህንን አገናኝ በ ውስጥ ለመክፈት %2$s</string>
+    <string name="external_app_prompt_no_app_title">አገናኙን መክፈት የሚችል መተግበሪያ ያግኙ</string>
+    <string name="external_app_prompt_title">አገናኙን በሌላ መተግበሪያ ውስጥ ይክፈቱ</string>
+    <string name="external_multiple_apps_matched_exit">የግል አሰሳውን ውጣ?</string>
+    <string name="feedback_erase">የአሰሳ ታሪክዎ ተደምስሷል</string>
+    <string name="firstrun_close_button">እሺ ገባኝ!</string>
+    <string name="firstrun_defaultbrowser_text2">የግል ፍለጋን ወደ ቀጣዩ ደረጃ ይወስዳል::በጣቢያዎች ውስጥ እርስዎን ሊከታተል የሚችል እና የገፅ ጭነት ጊዜዎችን ማደንዘዝ ማስታወቂያዎችን እና ሌላ ይዘትን አግድ</string>
+    <string name="firstrun_defaultbrowser_title">ግላዊነትዎን ያስፉ</string>
+    <string name="firstrun_next_button">ቀጣይ</string>
+    <string name="firstrun_privacy_text">እንደ %1$s ነባሪ አሳሽዎ አድርገው ያቀናብሩ እና የድር ገጾች ከሌላ መተግበሪያዎች ሲከፍቱ የግል ማሰሻዎችን ጥቅሞች ያግኙ</string>
+    <string name="firstrun_privacy_title">ግላዊነት የማድረግ ልማድ ያድርጉ</string>
+    <string name="firstrun_search_text">የሆነ የተለየ ነገር በመፈለግ ላይ? በቅንብሮች ውስጥ ሌላ ነባሪ የፍለጋ ፕሮግራም ይምረጡ</string>
+    <string name="firstrun_search_title">የእርስዎ ፍለጋ, የእርስዎ መንገድ</string>
+    <string name="firstrun_shortcut_text">ወደ እርስዎ ተወዳጅ ጣቢያዎች ይመለሱ %1$s በፍጥነት:: በቀላሉ ይምረጡ \"ወደ መነሻ ማያ ገጽ አክል\" ከ ዘንድ %1$s ምናሌ::</string>
+    <string name="firstrun_shortcut_title">ወደ መነሻ ማያ ገጽዎ አቋራጮችን ያክሉ</string>
+    <string name="firstrun_skip_button">እለፍ</string>
+    <string name="menu_about">ስለ</string>
+    <string name="menu_add_to_home_screen">"ወደ መነሻ ማያ ገጽ ማከል
+"</string>
+    <string name="menu_help">እገዛ</string>
+    <string name="menu_rights">የእርስዎ መብቶች</string>
+    <string name="menu_settings">ቅንብሮች</string>
+    <string name="menu_share">"ያጋሩ…
+
+"</string>
+    <string name="menu_trackers_blocked_title">ተከታታዮች ታግደዋል</string>
+    <string name="menu_whats_new">አዲስ ምን አለ</string>
+    <string name="notification_action_erase_and_open">አጠፉ እና ክፈት</string>
+    <string name="notification_action_open">ክፈት</string>
+    <string name="notification_browsing_session_channel_name">የግል የማሰሻ ክፍል</string>
+    <string name="notification_erase_text">የአሰሳ ታሪክን አጥፋ</string>
+    <string name="preference_about">ስለ %1$s</string>
+    <string name="preference_autocomplete_action_add">+ ብጁ አክል URL</string>
+    <string name="preference_autocomplete_action_remove_content_description">አስወግድ</string>
+    <string name="preference_autocomplete_add_confirmation">አዲስ ብጁ URL ታክሏል</string>
+    <string name="preference_autocomplete_add_error">በድጋሚ አረጋጡ ያስገቡትን URL</string>
+    <string name="preference_autocomplete_add_example">ምሳሌ : ምሳሌ.com</string>
+    <string name="preference_autocomplete_add_hint">ለጥፍ ወይም ግባ URL</string>
+    <string name="preference_autocomplete_add_title">URL መጨመር</string>
+    <string name="preference_autocomplete_custom_summary">አክል ወይም አደራጅ ብጁ ራስ-አጠናቅቅ URLs</string>
+    <string name="preference_autocomplete_learn_more">ተጨማሪ እወቅ</string>
+    <string name="preference_autocomplete_menu_remove">አስወግድ</string>
+    <string name="preference_autocomplete_preinstalled_summary">ሊኖራቸው የሚችል ያንቁ %1$s ራስ-አጠናቅቅ ተጠናቋል 450 ታዋቂ URLs በአድራሻ አሞሌ ውስጥ::</string>
+    <string name="preference_autocomplete_subitem_customlist">ብጁ URLs</string>
+    <string name="preference_autocomplete_title_add">ብጁ አክል URL</string>
+    <string name="preference_autocomplete_title_remove">ብጁ አስወግድ URLs</string>
+    <string name="preference_category_autocomplete_preinstalled">"ነባሪ URL ዝርዝር
+"</string>
+    <string name="preference_category_mozilla">ሞዚላ</string>
+    <string name="preference_category_performance">አፈፃፀም</string>
+    <string name="preference_category_privacy">የግል መብት መጠበቅ</string>
+    <string name="preference_category_search">ፍለጋ</string>
+    <string name="preference_default_browser2">አከናውን %1$s ነባሪ አሳሽ</string>
+    <string name="preference_language">ቋንቋ</string>
+    <string name="preference_language_systemdefault">የስርዓት ነባሪ</string>
+    <string name="preference_mozilla_telemetry2">የአጠቃቀም ውሂብ ይላኩ</string>
+    <string name="preference_mozilla_telemetry_summary">ተጨማሪ ይወቁ</string>
+    <string name="preference_mozilla_telemetry_summary2">ሞዚላ %1$s ለሁሉም ለማቅረብ እና ለማሻሻል የሚያስፈልገንን ብቻ ለመሰብሰብ ይጥራል</string>
+    <string name="preference_performance_block_webfonts">የድር ቅርጸ ቁምፊዎችን አግድ</string>
+    <string name="preference_performance_block_webfonts_summary">"አዶዎችን ወይም ምስሎችን የጠፉ ሊያስከትል ይችላል
+"</string>
+    <string name="preference_privacy_block_ads">የማስታወቂያ መከታተያዎችን አግድ</string>
+    <string name="preference_privacy_block_ads_summary">"ማስታወቂያዎች ባይጫኑ እንኳን አንዳንድ የማስታወቂያ መከታተያዎች የጣቢያ ጉብኝቶችን ይከታተላሉ "</string>
+    <string name="preference_privacy_block_analytics">መተንተኛ ተቆጣጣሪዎች ያግዱ</string>
+    <string name="preference_privacy_block_analytics_summary">እንደ ማሸብለል እና መታ በማድረግ ያሉ እንቅስቃሴዎችን ለመተንተን እና ለመለካት ጥቅም ላይ የዋለ</string>
+    <string name="preference_privacy_block_content">"ሌሎች የይዘት መከታተያዎችን ያግዱ
+"</string>
+    <string name="preference_privacy_block_content_summary2">ማንቃት አንዳንድ ገፆችን ያልታሰበ ፀባይ እንዲፈጽሙ ሊያደርጋቸው ይችላል</string>
+    <string name="preference_privacy_block_social">"ማህበራዊ ሚዲያ መከታተያዎችን አግድ
+"</string>
+    <string name="preference_privacy_block_social_summary">የእርስዎን ጉብኝቶች ለመከታተል እና እንደ የአጋራ አዝራሮች ያሉ ተግባሮችን ለማሳየት በጣቢያዎች ላይ የተካተተ</string>
+    <string name="preference_privacy_notice">የግላዊነት ማሳወቂያ</string>
+    <string name="preference_privacy_secure_mode">ስውር</string>
+    <string name="preference_privacy_stealth_summary">"መተግበሪያዎችን በሚቀይሩበት ጊዜ ድረ-ገጾችን ደብቅ
+"</string>
+    <string name="preference_search_add2">+ ሌላ የፍለጋ ፕሮግራም አክል</string>
+    <string name="preference_search_engine_default">ነባሪ</string>
+    <string name="preference_search_installed_search_engines">የተጫኑ የፍለጋ ፕሮግራሞች</string>
+    <string name="preference_search_remove">አስወግድ</string>
+    <string name="preference_search_remove_title">የፍለጋ ፕሮግራሞችን አስወግድ</string>
+    <string name="preference_search_restore">ነባሪ የፍለጋ ፕሮግራሞችን ወደነበረበት መልስ</string>
+    <string name="preference_state_off">ጠፍቷል</string>
+    <string name="preference_state_on">በርቷል</string>
+    <string name="preference_subitem_autocomplete">URL ራስ-አጠናቅቅ</string>
+    <string name="preference_switch_autocomplete">ራስ-አጠናቅቅ</string>
+    <string name="search_add_confirmation">አዲስ የፍለጋ ፕሮግራም ታክሏል</string>
+    <string name="search_add_error_duplicate_name">"አንድ የተጫነ የፍለጋ ፕሮግራም አስቀድሞ በዚያ ስም እየተጠቀመ ነው
+"</string>
+    <string name="search_add_error_empty_name">የፍለጋውን ስም አስገባ</string>
+    <string name="search_add_error_empty_search">የፍለጋ ህብረ ቁምፊ ያስገቡ</string>
+    <string name="search_add_error_format">የፍለጋ ሕብረቁምፊ ና የምሳሌ ቅርጸት እንደ ሚመሳሰሉ አረጋግጥ</string>
+    <string name="search_add_manually_example">ለምሳሌ: ለምሳሌ.com /search/?q=%s</string>
+    <string name="search_add_manually_name_hint">የመፈለጊያ ማሸን ስም</string>
+    <string name="search_add_manually_save">አስቀምጥ</string>
+    <string name="search_add_manually_string">የሚጠቀሙ ሕብረ ቁምፊዎችን ፈልግ</string>
+    <string name="search_hint">ምፈልገው %1$s</string>
+    <string name="search_menu_title">ፈልግ</string>
+    <string name="share_dialog_title">በኩል ያጋሩ</string>
+    <string name="shortcut_erase_long_label">የአሰሳ ታሪክን አጥፋ</string>
+    <string name="shortcut_erase_short_label">አጠፉ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tabs_tray_action_erase">የማሰሻ ታሪክን አጥፋ</string>
+    <string name="teaser">"አውቶማቲክ የግል አሰሳ
+ያስሱ. ደምስስ. ድገም."</string>
+    <string name="text_selection_search_action">በግል ይፈልጉ</string>
+    <string name="urlbar_hint">ፍለጋ ወይም አድራሻ ያስገቡ</string>
+    <string name="your_rights">የእርስዎ መብቶች</string>
+    <string name="your_rights_content1">%1$s ሞዚላ እና ሌሎች አስተዋፅዖ አድራጊዎች የተሰሩ ነጻ እና ግልጽ ምንጭ ሶፍትዌሮች ናቸው</string>
+</resources>

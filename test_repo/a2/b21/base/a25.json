@@ -1,0 +1,82 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.woefe.shoppinglist:id/fab_add",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "score": 1.0,
+    "activity": ".activity.MainActivity",
+    "package": "com.woefe.shoppinglist",
+    "state_score": 1.0,
+    "event_type": "gui",
+    "ignorable": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.woefe.shoppinglist:id/new_item_description",
+    "text": "New Item",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "score": 0.26890739167277533,
+    "activity": ".activity.MainActivity",
+    "package": "com.woefe.shoppinglist",
+    "state_score": 0.5467170894831291,
+    "event_type": "gui",
+    "ignorable": "false",
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sample Todo"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.woefe.shoppinglist:id/button_add_new_item",
+    "text": "",
+    "content-desc": "Done",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Quantity",
+    "score": 0.49148253308862977,
+    "activity": ".activity.MainActivity",
+    "package": "com.woefe.shoppinglist",
+    "state_score": 0.5467170894831291,
+    "event_type": "gui",
+    "ignorable": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.woefe.shoppinglist:id/text_description",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "score": 0.7040766454571905,
+    "activity": ".activity.MainActivity",
+    "package": "com.woefe.shoppinglist",
+    "state_score": 1.0,
+    "event_type": "oracle",
+    "ignorable": "false",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//android.widget.TextView[@text=\"Sample Todo\"]"
+    ]
+  }
+]

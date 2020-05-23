@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n1:state_checked="false" n1:drawable="@drawable/avatar_checkbox_small_overlay" n2:hightlighted="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:state_checked="true" n3:drawable="@drawable/avatar_checkbox_small" n4:hightlighted="true"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:state_checked="true" n5:drawable="@drawable/avatar_checkbox_small"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:drawable="@android:color/transparent"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+</selector>

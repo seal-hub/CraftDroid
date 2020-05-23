@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="fill_parent" n1:layout_height="72.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_gravity="center_vertical" n1:id="@id/account_ava_layout" n1:layout_width="44.0dip" n1:layout_height="48.0dip" n1:layout_marginLeft="16.0dip" n1:layout_marginRight="12.0dip">
+        <ru.mail.fragments.view.AccountImageView n1:id="@id/account_avatar" n1:background="@null" n1:layout_width="@dimen/account_avatar_size" n1:layout_height="@dimen/account_avatar_size" n1:layout_marginBottom="4.0dip" n1:src="@drawable/avatar_placeholder" n1:adjustViewBounds="true" n1:layout_alignParentLeft="true" n1:layout_alignParentBottom="true" n2:cropRadius="@dimen/account_avatar_size" n2:filterColor="@android:color/transparent" n2:frame="@drawable/account_border" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <TextView n1:textSize="@dimen/account_counter_textsize" n1:textColor="@color/account_counter" n1:gravity="center" n1:id="@id/account_counter" n1:background="@drawable/counter_folders" n1:paddingLeft="4.0dip" n1:paddingTop="0.0dip" n1:paddingRight="4.0dip" n1:paddingBottom="0.0dip" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="16.0dip" n1:minWidth="16.0dip" n1:minHeight="16.0dip" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" n1:fontFamily="sans-serif-medium" />
+    </RelativeLayout>
+    <include n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/account_item_text_padding_left" layout="@layout/account_list_item_text" />
+</merge>

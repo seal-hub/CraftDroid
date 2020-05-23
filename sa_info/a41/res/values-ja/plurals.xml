@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">アドレスをクリップボードにコピーしました</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">本当に%1$d件のメッセージを削除 しますか？</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">本当にこれら%1$d件のメッセージを迷惑メールフォルダに移動しますか？</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d 件の新着ﾒｯｾｰｼﾞ</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">%d件の結果を取得中</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">%2$d件中%1$d件の結果を取得中</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s アカウント</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">サーバのパスワード</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">サーバのパスワード</item>
+    </plurals>
+</resources>

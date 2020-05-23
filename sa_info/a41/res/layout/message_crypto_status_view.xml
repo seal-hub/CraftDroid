@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fsck.k9.view.MessageCryptoStatusView android:id="@id/crypto_status_icon" android:background="@drawable/selectable_item_background" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="32.0dip" custom:previewInitialChild="0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center|left" android:id="@id/crypto_status_dots_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/status_dots" android:tint="?openpgp_grey" />
+    <ImageView android:layout_gravity="center|left" android:id="@id/crypto_status_combined_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center|left" android:id="@id/crypto_status_combined_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center" android:id="@id/crypto_status_single" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.fsck.k9.view.MessageCryptoStatusView>

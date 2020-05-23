@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="changeTipSeekBar">false</item>
+    <item type="id" name="tipEditText">false</item>
+    <item type="id" name="finalBillEditText">false</item>
+    <item type="id" name="finalTextView">false</item>
+    <item type="id" name="finalTipEditText">false</item>
+    <item type="id" name="billEditText">false</item>
+    <item type="id" name="billTextView">false</item>
+    <item type="id" name="finalTipTextView">false</item>
+    <item type="id" name="tipTextView">false</item>
+    <item type="id" name="finalBillTextView">false</item>
+    <item type="id" name="splitBillTextView">false</item>
+    <item type="id" name="splitBillEditText">false</item>
+    <item type="id" name="signoffTextView">false</item>
+    <item type="id" name="perPersonTextView">false</item>
+    <item type="id" name="perPersonEditText">false</item>
+    <item type="id" name="action_settings">false</item>
+</resources>

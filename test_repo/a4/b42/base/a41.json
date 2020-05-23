@@ -1,0 +1,166 @@
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.fsck.k9:id/actionbar_title_first",
+    "text": "Inbox",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a41",
+    "package": "com.fsck.k9",
+    "activity": ".activity.MessageList",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_text_presence",
+      15,
+      "text",
+      "Inbox"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.fsck.k9:id/compose",
+    "text": "",
+    "content-desc": "Compose",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a41",
+    "package": "com.fsck.k9",
+    "activity": ".activity.MessageList",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.MultiAutoCompleteTextView",
+    "resource-id": "com.fsck.k9:id/to",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "true",
+    "parent_text": "",
+    "sibling_text": "To",
+    "tid": "a41",
+    "package": "com.fsck.k9",
+    "activity": ".activity.MessageCompose",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      15,
+      "id",
+      "com.fsck.k9:id/to"
+    ]
+  },
+  {
+    "class": "android.widget.MultiAutoCompleteTextView",
+    "resource-id": "com.fsck.k9:id/to",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "true",
+    "parent_text": "",
+    "sibling_text": "To",
+    "tid": "a41",
+    "package": "com.fsck.k9",
+    "activity": ".activity.MessageCompose",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "uci.seal@gmail.com"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.fsck.k9:id/subject",
+    "text": "Subject",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a41",
+    "package": "com.fsck.k9",
+    "activity": ".activity.MessageCompose",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "send_keys",
+      "ICSTSuperCool"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.fsck.k9:id/message_content",
+    "text": "Message text",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a41",
+    "package": "com.fsck.k9",
+    "activity": ".activity.MessageCompose",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "send_keys",
+      "ICSTSuperCoolBody"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.fsck.k9:id/send",
+    "text": "",
+    "content-desc": "Send",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a41",
+    "package": "com.fsck.k9",
+    "activity": ".activity.MessageCompose",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.fsck.k9:id/subject",
+    "text": "ICSTSuperCool",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a41",
+    "package": "com.fsck.k9",
+    "activity": ".activity.MessageList",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_text_presence",
+      20,
+      "text",
+      "ICSTSuperCool"
+    ]
+  }
+]

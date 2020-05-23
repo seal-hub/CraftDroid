@@ -1,0 +1,82 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "douzifly.list:id/fab_add",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Reading makes a full man, conference a ready man, and writing an exact man.",
+    "score": 1.0,
+    "activity": ".ui.home.MainActivity",
+    "package": "douzifly.list",
+    "state_score": 1.0,
+    "event_type": "gui",
+    "ignorable": "false",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "douzifly.list:id/edit_text",
+    "text": "Title",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "score": 1.0,
+    "activity": ".ui.home.MainActivity",
+    "package": "douzifly.list",
+    "state_score": 0.5467170894831291,
+    "event_type": "gui",
+    "ignorable": "false",
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sample Todo"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "douzifly.list:id/fab_add",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Reading makes a full man, conference a ready man, and writing an exact man.",
+    "score": 0.32553271803026823,
+    "activity": ".ui.home.MainActivity",
+    "package": "douzifly.list",
+    "state_score": 0.5467170894831291,
+    "event_type": "gui",
+    "action": [
+      "click"
+    ],
+    "ignorable": "false"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "douzifly.list:id/txt_thing",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "score": 0.6629304471755753,
+    "activity": ".ui.home.MainActivity",
+    "package": "douzifly.list",
+    "state_score": 1.0,
+    "event_type": "oracle",
+    "ignorable": "false",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//android.widget.TextView[@text=\"Sample Todo\"]"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item n1:left="4.0dip" n1:top="2.0dip" n1:right="4.0dip" n1:bottom="2.0dip"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <shape n1:shape="rectangle">
+            <corners n1:radius="60.0dip" />
+            <solid n1:color="@color/state_pressed" />
+        </shape>
+    </item>
+</layer-list>

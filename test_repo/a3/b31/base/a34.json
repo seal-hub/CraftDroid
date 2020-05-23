@@ -1,0 +1,292 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.etsy.android:id/btn_link",
+    "text": "Get Started",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Sign in to save your favorites and see personalized recommendations.",
+    "tid": "a34",
+    "package": "com.etsy.android",
+    "activity": ".ui.homescreen.HomescreenTabsActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "com.etsy.android:id/btn_link"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.etsy.android:id/btn_link",
+    "text": "Get Started",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Sign in to save your favorites and see personalized recommendations.",
+    "tid": "a34",
+    "package": "com.etsy.android",
+    "activity": ".ui.homescreen.HomescreenTabsActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.etsy.android:id/btn_register_dialog",
+    "text": "Register",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a34",
+    "package": "com.etsy.android",
+    "activity": ".ui.user.auth.SignInActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.etsy.android:id/edit_email",
+    "text": "Your Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a34",
+    "package": "com.etsy.android",
+    "activity": ".ui.user.auth.SignInActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "com.etsy.android:id/edit_email"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.etsy.android:id/edit_email",
+    "text": "Your Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a34",
+    "package": "com.etsy.android",
+    "activity": ".ui.user.auth.SignInActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "send_keys",
+      "z555520se@khvcit.al.net"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.etsy.android:id/edit_register_password",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a34",
+    "package": "com.etsy.android",
+    "activity": ".ui.user.auth.SignInActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "send_keys",
+      "1qaz2wsX"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.etsy.android:id/edit_password_confirm",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a34",
+    "package": "com.etsy.android",
+    "activity": ".ui.user.auth.SignInActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "clear_and_send_keys",
+      "1qaz2wsX"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.etsy.android:id/edit_last_name",
+    "text": "Last Name",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "First Name",
+    "tid": "a34",
+    "package": "com.etsy.android",
+    "activity": ".ui.user.auth.SignInActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "send_keys",
+      "Labfellow"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.etsy.android:id/edit_first_name",
+    "text": "First Name",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a34",
+    "package": "com.etsy.android",
+    "activity": ".ui.user.auth.SignInActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sealbot"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.etsy.android:id/button_register",
+    "text": "Register",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a34",
+    "package": "com.etsy.android",
+    "activity": ".ui.user.auth.SignInActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a34",
+    "package": "com.etsy.android",
+    "activity": ".ui.homescreen.HomescreenTabsActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//android.widget.ImageButton[@content-desc=\"Navigate up\"]"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a34",
+    "package": "com.etsy.android",
+    "activity": ".ui.homescreen.HomescreenTabsActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.etsy.android:id/etsy_menu_text",
+    "text": "labfellow805",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a34",
+    "package": "com.etsy.android",
+    "activity": ".ui.homescreen.HomescreenTabsActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//android.widget.TextView[contains(@text, \"labfellow\")]"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.etsy.android:id/etsy_menu_text",
+    "text": "labfellow805",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a34",
+    "package": "com.etsy.android",
+    "activity": ".ui.homescreen.HomescreenTabsActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.etsy.android:id/username",
+    "text": "Sealbot Labfellow",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a34",
+    "package": "com.etsy.android",
+    "activity": ".ui.user.UserActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Sealbot"
+    ]
+  }
+]

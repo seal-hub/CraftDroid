@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+    <string name="mdtp_day_picker_description">Month grid of days</string>
+    <string name="mdtp_deleted_key">%1$s deleted</string>
+    <string name="mdtp_done_label">Done</string>
+    <string name="mdtp_hour_picker_description">Hours circular slider</string>
+    <string name="mdtp_item_is_selected">%1$s selected</string>
+    <string name="mdtp_minute_picker_description">Minutes circular slider</string>
+    <string name="mdtp_select_day">Select month and day</string>
+    <string name="mdtp_select_hours">Select hours</string>
+    <string name="mdtp_select_minutes">Select minutes</string>
+    <string name="mdtp_select_year">Select year</string>
+    <string name="mdtp_year_picker_description">Year list</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="app_name">Clear List</string>
+    <string name="cant_remove">Can not remove default group</string>
+    <string name="default_list">Clear List</string>
+    <string name="groups">Groups</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="reminder">Reminder</string>
+    <string name="setting">Setting</string>
+    <string name="sound">Sounds</string>
+    <string name="theme">Theme</string>
+    <string name="today">Today</string>
+    <string name="tommorow">Tomorrow</string>
+    <string name="version">Version</string>
+    <string name="backup">Backup</string>
+    <string name="backup_failed">Backup failed</string>
+    <string name="backup_success">Backup success</string>
+    <string name="backuping">Backuping</string>
+    <string name="confirm">Confirm</string>
+    <string name="content_hint">Content</string>
+    <string name="day_diff">%d days ago</string>
+    <string name="default_group_title">Default</string>
+    <string name="delete">Delete backup</string>
+    <string name="delete_item">DELETE</string>
+    <string name="doing">UNDONE</string>
+    <string name="done">DONE</string>
+    <string name="edit_group">Edit Group</string>
+    <string name="font_size_large">Large</string>
+    <string name="font_size_normal">Normal</string>
+    <string name="font_size_small">Small</string>
+    <string name="font_size_title">Font size</string>
+    <string name="permission_rationable_text">Clear List will save your backup data on sdcard, Please grant the permission</string>
+    <string name="permission_rationable_title">Require Permission</string>
+    <string name="restore">Restore</string>
+    <string name="restore_empty">No backup file</string>
+    <string name="restore_failed">Restore failed</string>
+    <string name="restore_success">Restore success</string>
+    <string name="restore_tip">Restore will wipe your current data, Please backup first!</string>
+    <string name="setting_backup">Backup &amp; Restore</string>
+    <string name="title_hint">Title</string>
+    <string name="mdtp_cancel">@android:string/cancel</string>
+    <string name="mdtp_day_of_week_label_typeface">sans-serif</string>
+    <string name="group_all">All</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <item type="string" name="mdtp_ampm_circle_radius_multiplier">0.22</item>
+    <item type="string" name="mdtp_circle_radius_multiplier">0.82</item>
+    <item type="string" name="mdtp_circle_radius_multiplier_24HourMode">0.85</item>
+    <item type="string" name="mdtp_numbers_radius_multiplier_inner">0.6</item>
+    <item type="string" name="mdtp_numbers_radius_multiplier_normal">0.81</item>
+    <item type="string" name="mdtp_numbers_radius_multiplier_outer">0.83</item>
+    <string name="mdtp_ok">@android:string/ok</string>
+    <string name="mdtp_radial_numbers_typeface">sans-serif</string>
+    <string name="mdtp_sans_serif">sans-serif</string>
+    <string name="mdtp_second_picker_description">Seconds circular slider</string>
+    <string name="mdtp_select_seconds">Select seconds</string>
+    <item type="string" name="mdtp_selection_radius_multiplier">0.16</item>
+    <item type="string" name="mdtp_text_size_multiplier_inner">0.11</item>
+    <item type="string" name="mdtp_text_size_multiplier_normal">0.12</item>
+    <item type="string" name="mdtp_text_size_multiplier_outer">0.08</item>
+    <string name="mdtp_time_placeholder">--</string>
+    <string name="mdtp_time_separator">:</string>
+</resources>

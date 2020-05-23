@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/help_overview_heading">
+        <Preference android:persistent="false" android:title="" android:selectable="false" android:summary="@string/help_intro" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/help_group_lists">
+        <Preference android:title="@string/help_todo_lists_title" android:selectable="false" android:summary="@string/help_todo_lists" />
+        <Preference android:title="@string/help_subtasks_title" android:selectable="false" android:summary="@string/help_subtasks" />
+        <Preference android:title="@string/help_deadline_reminder_title" android:selectable="false" android:summary="@string/help_deadline_reminder" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/help_group_app">
+        <Preference android:title="@string/help_pin_title" android:selectable="false" android:summary="@string/help_pin" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/help_group_privacy">
+        <Preference android:title="@string/help_permissions_title" android:summary="@string/help_permissions" />
+    </PreferenceCategory>
+</PreferenceScreen>

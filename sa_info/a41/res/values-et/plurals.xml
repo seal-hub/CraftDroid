@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Aadressid kopeeritud lõikelauale</item>
+        <item quantity="one">Aadress kopeeritud lõikelauale</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Oled kindel, et tahad %1$d sõnumit kustutada?</item>
+        <item quantity="one">Oled kindel, et tahad seda sõnumit kustutada?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Oled kindel et tahad %1$d sõnumit teisaldada rämpsposti kausta?</item>
+        <item quantity="one">Oled kindel, et tahad seda sõnimit teisaldada rämpsposti kausta?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d uut kirja</item>
+        <item quantity="one">%d uus kiri</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Toon %d tulemust</item>
+        <item quantity="one">Toon %d tuelmuse</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Toon %1$d / %2$d tulemust</item>
+        <item quantity="one">Toon %1$d / %2$d tulemust</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s kontot</item>
+        <item quantity="one">1 konto</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">serveri salasõnad</item>
+        <item quantity="one">serveri salasõna</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Määra salasõnad…</item>
+        <item quantity="one">Määra salasõna…</item>
+    </plurals>
+</resources>

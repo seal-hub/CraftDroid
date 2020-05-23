@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center|left" n1:background="@drawable/selectable_item_bg_border" n1:paddingLeft="12.0dip" n1:paddingRight="16.0dip" n1:layout_width="fill_parent" n1:layout_height="@dimen/filepicker_action_height"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:gravity="center" n1:id="@id/add_attach_icon" n1:layout_width="@dimen/filepicker_action_icon_width" n1:layout_height="@dimen/filepicker_action_icon_height" />
+    <ru.mail.uikit.view.FontTextView n1:textSize="@dimen/filepicker_action_text_size" n1:textColor="@color/text_primary_inverse" n1:ellipsize="end" n1:id="@id/add_attach_action" n1:paddingRight="12.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dip" n1:singleLine="true" n2:textFont="robotoRegular" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

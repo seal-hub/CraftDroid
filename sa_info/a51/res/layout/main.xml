@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/bill3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:myapp="http://schemas.android.com/apk/res/anti.tip">
+    <LinearLayout android:orientation="vertical" android:id="@id/home_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#ff000000" android:layout_gravity="bottom" android:id="@id/textBill" android:layout_width="0.0px" android:layout_height="wrap_content" android:text=" Bill Amount" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="4.0" android:layout_weight="1.0" />
+            <EditText android:textSize="15.0sp" android:id="@id/bill" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="0.00" android:selectAllOnFocus="true" android:digits="1234567890." android:layout_weight="1.0" android:inputType="phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#ff000000" android:layout_gravity="bottom" android:id="@id/textPeople" android:layout_width="0.0px" android:layout_height="wrap_content" android:text=" # Of People" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="4.0" android:layout_weight="1.0" />
+            <EditText android:textSize="15.0sp" android:id="@id/people" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="1" android:selectAllOnFocus="true" android:digits="1234567890." android:layout_weight="1.0" android:inputType="phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#ff000000" android:layout_gravity="bottom" android:id="@id/textPercent" android:layout_width="0.0px" android:layout_height="wrap_content" android:text=" Tip Percent (%)" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="4.0" android:layout_weight="1.0" />
+            <EditText android:textSize="15.0sp" android:id="@id/percent" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="15" android:selectAllOnFocus="true" android:digits="1234567890." android:layout_weight="1.0" android:inputType="phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#ffa00000" android:layout_gravity="bottom" android:id="@id/textTipEach" android:layout_width="0.0px" android:layout_height="wrap_content" android:text=" Tip Per Person" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="4.0" android:layout_weight="1.0" />
+            <EditText android:textSize="15.0sp" android:id="@id/tipEach" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="0.00" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#ffa00000" android:layout_gravity="bottom" android:id="@id/textTip" android:layout_width="0.0px" android:layout_height="wrap_content" android:text=" Total Tip" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="4.0" android:layout_weight="1.0" />
+            <EditText android:textSize="15.0sp" android:id="@id/tip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="0.00" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#ffa00000" android:layout_gravity="bottom" android:id="@id/textEach" android:layout_width="0.0px" android:layout_height="wrap_content" android:text=" Each Person Pays" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="4.0" android:layout_weight="1.0" />
+            <EditText android:textSize="15.0sp" android:id="@id/each" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="0.00" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#ffa00000" android:layout_gravity="bottom" android:id="@id/textTotal" android:layout_width="0.0px" android:layout_height="wrap_content" android:text=" Total Amount" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="4.0" android:layout_weight="1.0" />
+            <EditText android:textSize="15.0sp" android:id="@id/total" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="0.00" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:id="@id/ad_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/home_layout" android:layout_alignParentBottom="true">
+        <com.admob.android.ads.AdView android:id="@id/ad" android:layout_width="fill_parent" android:layout_height="wrap_content" myapp:backgroundColor="#ff000000" myapp:primaryTextColor="#ffffffff" myapp:secondaryTextColor="#ffcccccc" />
+    </LinearLayout>
+</RelativeLayout>

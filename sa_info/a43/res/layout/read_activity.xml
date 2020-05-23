@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.fragments.view.ScrollableViewPager n1:id="@id/view_pager" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/toolbar_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentTop="true">
+        <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:theme="@style/ToolbarTheme" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/action_bar_shadow" n1:background="@drawable/shadow_ab" n1:layout_width="fill_parent" n1:layout_height="@dimen/shadow_height" />
+    </LinearLayout>
+    <ImageView n1:id="@id/tutorial_left" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true" n3:srcCompat="@drawable/ic_read_tutorial_arrow_left" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/tutorial_right" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n4:srcCompat="@drawable/ic_read_tutorial_arrow_right" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <android.support.design.widget.CoordinatorLayout n1:id="@id/coordinator_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <fragment n1:name="ru.mail.fragments.mailbox.ReplyMessageMenuFragment" n1:id="@id/floating_menu_fragment_container" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n5:layout_behavior="ru.mail.fragments.view.behavior.FloatingBtnDefaultBehavior" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

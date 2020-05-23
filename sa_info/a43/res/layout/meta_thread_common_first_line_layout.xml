@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/container" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_toLeftOf="@id/meta_date" n1:layout_alignParentLeft="true" n1:layout_alignParentTop="true">
+        <ImageView n1:layout_gravity="center_vertical" n1:id="@id/unread" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="11.0dip" n2:srcCompat="@drawable/ic_list_unread" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <TextView n1:textSize="16.0sp" n1:textStyle="bold" n1:textColor="@color/contrast_primary" n1:ellipsize="end" n1:id="@id/meta_thread_name" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="1" n1:includeFontPadding="false" n1:textAllCaps="true" />
+    </LinearLayout>
+    <ru.mail.uikit.view.FontTextView n1:textSize="14.0sp" n1:gravity="center" n1:id="@id/meta_date" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="10.0dip" n1:maxLines="1" n1:includeFontPadding="false" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" n3:textFont="robotoRegular" style="?android:textAppearanceMedium" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

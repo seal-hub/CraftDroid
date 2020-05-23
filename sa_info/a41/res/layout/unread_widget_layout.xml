@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/unread_widget_layout" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/UnreadWidgetContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/unread_widget_icon" android:scaleType="fitCenter" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:layout_gravity="end|bottom|center" android:id="@id/unread_count" android:background="@drawable/unread_count_background" android:paddingLeft="5.0dip" android:paddingTop="0.5dip" android:paddingRight="5.0dip" android:paddingBottom="0.5dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:ellipsize="marquee" android:layout_gravity="center_horizontal" android:id="@id/title" android:paddingLeft="4.0dip" android:paddingTop="1.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/app_name" android:maxLines="1" style="@style/UnreadWidgetTextView" />
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/settings_label" n1:key="root_screen"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory n1:layout="@layout/pref_category_without_top" n1:title="@string/mapp_set_general" n1:key="general">
+        <ru.mail.fragments.settings.SwitchScreenPreference n1:title="@string/mapp_set_notif" n1:key="push" n1:defaultValue="@bool/push_preference_default" n2:activity="ru.mail.fragments.settings.PushSettingsActivity" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <Preference n1:title="@string/folders" n1:key="folders">
+            <intent n1:targetPackage="@string/package_name" n1:action="@string/action_folders_settings" n1:targetClass="ru.mail.mailapp.ChooseAccountActivity">
+                <extra n1:name="@string/extra_action" n1:value="EDIT_FOLDERS_LIST" />
+            </intent>
+        </Preference>
+        <Preference n1:title="@string/filters" n1:key="filters">
+            <intent n1:targetPackage="@string/package_name" n1:action="@string/action_filters" n1:targetClass="ru.mail.mailapp.ChooseAccountActivity">
+                <extra n1:name="@string/extra_action" n1:value="FILTERS" />
+            </intent>
+        </Preference>
+        <ru.mail.fragments.settings.ListPreference n1:entries="@array/prefs_precache_attach_labels" n1:layout="@layout/pref_item" n1:title="@string/prefs_precache_attach" n1:key="prefs_key_prefetch_attach" n1:summary="@string/prefs_precache_attach_summary" n1:defaultValue="WIFI" n1:entryValues="@array/prefs_precache_attach_values" />
+        <ru.mail.fragments.settings.ListPreference n1:entries="@array/prefs_show_image_labels" n1:layout="@layout/pref_item" n1:title="@string/show_images_settings" n1:key="show_images_settings_pref" n1:summary="@string/prefs_show_images_summary" n1:defaultValue="WIFI" n1:entryValues="@array/prefs_show_image_values" />
+        <CheckBoxPreference n1:title="@string/prefs_confirm_blind_copy_title" n1:key="blind_copy" n1:summary="@string/prefs_confirm_blind_copy_summary" n1:defaultValue="@bool/prefs_confirm_blind_copy" />
+        <CheckBoxPreference n1:title="@string/mapp_set_other_screen_rotation" n1:key="screen_rotation" n1:defaultValue="true" />
+        <CheckBoxPreference n1:title="@string/prefs_open_links_in_browser" n1:key="open_in_browser" n1:defaultValue="@bool/open_links_in_browser" />
+        <CheckBoxPreference n1:title="@string/enable_archive_for_google" n1:key="google_archive" n1:defaultValue="true" />
+        <ru.mail.fragments.settings.pin.PinProtectionPreference />
+        <Preference n1:title="@string/save_sent_messages_imap_setting" n1:key="sent_messages_imap_setting_activity" n1:summary="@string/save_sent_messages_imap_setting_summary">
+            <intent n1:targetPackage="@string/package_name" n1:targetClass="ru.mail.fragments.settings.SentMsgImapSettingsActivity" />
+        </Preference>
+        <Preference n1:title="@string/mapp_set_sound" n1:key="sound_settings">
+            <intent n1:targetPackage="@string/package_name" n1:action="@string/action_folders_settings" n1:targetClass="ru.mail.fragments.settings.SoundSettingsActivity" />
+        </Preference>
+        <Preference n1:title="@string/mapp_set_manage_subscriptions" n1:key="manage_subscriptions">
+            <intent n1:targetPackage="@string/package_name" n1:action="@string/action_manage_subscriptions" n1:targetClass="ru.mail.mailapp.ChooseAccountActivity">
+                <extra n1:name="@string/extra_action" n1:value="MANAGE_SUBSCRIPTIONS" />
+            </intent>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/mapp_set_account_preferences" n1:key="accounts">
+        <Preference n1:title="@string/mapp_set_other_subscript">
+            <intent n1:targetPackage="@string/package_name" n1:targetClass="ru.mail.fragments.settings.SubscriptPreferenceActivity" />
+        </Preference>
+        <Preference n1:title="@string/name_and_avatar" n1:key="name_and_avatar">
+            <intent n1:targetPackage="@string/package_name" n1:action="android.intent.action.VIEW" n1:targetClass="ru.mail.fragments.settings.AccountAvatarAndNameActivity" />
+        </Preference>
+        <Preference n1:layout="@layout/pref_item" n1:title="@string/my_documents" n1:key="my_documents">
+            <intent n1:targetPackage="@string/package_name" n1:targetClass="ru.mail.mailapp.ChooseAccountActivity">
+                <extra n1:name="@string/extra_action" n1:value="PAYMENTS" />
+                <extra n1:name="@string/extra_url" n1:value="@string/add_documents_url" />
+            </intent>
+        </Preference>
+        <Preference n1:layout="@layout/pref_item" n1:title="@string/security_phone_settings" n1:key="security_phone_settings">
+            <intent n1:targetPackage="@string/package_name" n1:targetClass="ru.mail.mailapp.ChooseAccountActivity">
+                <extra n1:name="@string/extra_action" n1:value="ADD_PHONE" />
+            </intent>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/prefs_appearance_title" n1:key="decor">
+        <CheckBoxPreference n1:title="@string/prefs_appearance_avatar" n1:key="prefs_key_appearance_avatar" n1:defaultValue="@bool/prefs_appearance_avatar_default_value" />
+        <CheckBoxPreference n1:title="@string/prefs_appearance_snippets" n1:key="prefs_key_appearance_snippets" n1:defaultValue="@bool/prefs_appearance_snippets_default_value" />
+        <CheckBoxPreference n1:title="@string/prefs_advertising_enabled" n1:key="dont_use_this_password_jgeVjtimgjvjxm" n1:defaultValue="@bool/prefs_advertising_enabled" />
+        <Preference n1:title="@string/thread_preference_activity_title">
+            <intent n1:targetPackage="@string/package_name" n1:targetClass="ru.mail.fragments.settings.ThreadPreferenceActivity" />
+        </Preference>
+        <Preference n1:title="@string/personal_data_activity_title" n1:key="prefs_key_appearance_personal_data_processing">
+            <intent n1:targetPackage="@string/package_name" n1:targetClass="ru.mail.fragments.settings.PersonalDataProcessingPrefActivity" />
+        </Preference>
+        <Preference n1:title="@string/subscriptions_activity_title" n1:key="prefs_key_appearance_ads_subscriptions">
+            <intent n1:targetPackage="@string/package_name" n1:targetClass="ru.mail.fragments.settings.SubscriptionsActivity" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/dialog_addressook_sync_title">
+        <CheckBoxPreference n1:title="@string/dialog_addressook_sync_title" n1:key="addressbook_sync" n1:summary="@string/dialog_addressook_sync_text" n1:defaultValue="@bool/prefs_addressbook_sync" />
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/mapp_settings_information">
+        <Preference n1:title="@string/mapp_help" n1:key="help_link">
+            <intent n1:action="android.intent.action.VIEW" n1:data="@string/help_link" />
+        </Preference>
+        <Preference n1:title="@string/prefs_rate_app_title" n1:key="rate_app" />
+        <Preference n1:title="@string/mapp_set_other_about">
+            <intent n1:targetPackage="@string/package_name" n1:action="android.intent.action.VIEW" n1:targetClass="ru.mail.fragments.settings.AboutActivity" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.uikit.view.pulltorefresh.IndeterminateProgressBar n1:id="@id/progress" n1:layout_width="fill_parent" n1:layout_height="4.0dip" n2:color1="@android:color/white" n2:color2="@color/swipe2" n2:color3="@color/swipe1" n2:color4="@color/swipe4" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/webview_container" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" />
+    <include layout="@layout/retry_page_block" />
+</LinearLayout>

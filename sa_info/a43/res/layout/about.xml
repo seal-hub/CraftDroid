@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textAppearance="?android:textAppearanceSmall" n1:textColor="@color/text_secondary_inverse_normal" n1:gravity="start|center" n1:id="@id/copyright" n1:paddingLeft="16.0dip" n1:paddingRight="16.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="48.0dip" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" />
+    <ru.mail.fragments.view.VerticalRecyclerView n1:id="@id/legal_information" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:divider="@null" n1:layout_above="@id/copyright" />
+    <ru.mail.ui.CustomToolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <View n1:id="@id/toolbar_shadow" n1:background="@drawable/shadow_ab" n1:layout_width="fill_parent" n1:layout_height="@dimen/shadow_height" n1:layout_below="@id/toolbar" />
+</RelativeLayout>

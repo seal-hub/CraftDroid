@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@color/hockeyapp_background_white" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:layout_gravity="center" n1:id="@id/wrapper_feedback_scroll" n1:paddingTop="10.0dip" n1:paddingBottom="10.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:layout_gravity="top" n1:orientation="vertical" n1:id="@id/wrapper_feedback" n1:padding="10.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <EditText n1:id="@id/input_name" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/hockeyapp_feedback_name_hint" n1:inputType="textCapSentences" style="@style/HockeyApp.SingleLineInputStyle" />
+            <EditText n1:id="@id/input_email" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/hockeyapp_feedback_email_hint" n1:inputType="textEmailAddress" style="@style/HockeyApp.SingleLineInputStyle" />
+            <EditText n1:id="@id/input_subject" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/hockeyapp_feedback_subject_hint" n1:inputType="textEmailSubject|textCapSentences" style="@style/HockeyApp.SingleLineInputStyle" />
+            <EditText n1:id="@id/input_message" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="100.0dip" n1:hint="@string/hockeyapp_feedback_message_hint" style="@style/HockeyApp.EditTextStyle" />
+            <net.hockeyapp.android.views.AttachmentListView n1:layout_gravity="start" n1:id="@id/wrapper_attachments" n1:paddingBottom="10.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+            <Button n1:id="@id/button_attachment" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/hockeyapp_feedback_attachment_button_text" n1:contentDescription="@string/hockeyapp_feedback_attachment_button_text" style="@style/HockeyApp.ButtonStyle" />
+            <Button n1:id="@id/button_send" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dip" n1:text="@string/hockeyapp_feedback_send_button_text" n1:contentDescription="@string/hockeyapp_feedback_send_button_text" style="@style/HockeyApp.ButtonStyle" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout n1:layout_gravity="top" n1:orientation="vertical" n1:id="@id/wrapper_messages" n1:padding="10.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <TextView n1:textSize="15.0sp" n1:typeface="normal" n1:textColor="@color/hockeyapp_text_normal" n1:ellipsize="end" n1:id="@id/label_last_updated" n1:paddingLeft="10.0dip" n1:paddingRight="10.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dip" n1:layout_marginBottom="10.0dip" n1:text="@string/hockeyapp_feedback_last_updated_text" n1:maxLines="1" n1:shadowColor="@color/hockeyapp_background_white" n1:shadowDy="1.0" n1:shadowRadius="1.0" />
+        <LinearLayout n1:layout_gravity="start" n1:orientation="horizontal" n1:id="@id/wrapper_messages_buttons" n1:paddingLeft="10.0dip" n1:paddingRight="10.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <Button n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/button_add_response" n1:paddingLeft="10.0dip" n1:paddingRight="10.0dip" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_marginRight="5.0dip" n1:layout_marginBottom="10.0dip" n1:text="@string/hockeyapp_feedback_response_button_text" n1:layout_weight="1.0" n1:contentDescription="@string/hockeyapp_feedback_response_button_text" style="@style/HockeyApp.ButtonStyle" />
+            <Button n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/button_refresh" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dip" n1:layout_marginBottom="10.0dip" n1:text="@string/hockeyapp_feedback_refresh_button_text" n1:layout_weight="1.0" n1:contentDescription="@string/hockeyapp_feedback_refresh_button_text" style="@style/HockeyApp.ButtonStyle" />
+        </LinearLayout>
+        <ListView n1:id="@id/list_feedback_messages" n1:paddingLeft="10.0dip" n1:paddingRight="10.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

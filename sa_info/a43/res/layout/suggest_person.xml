@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="64.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.fragments.view.RoundedImageView n1:id="@id/contact_avatar" n1:layout_width="@dimen/account_avatar_size" n1:layout_height="@dimen/account_avatar_size" n1:layout_marginLeft="16.0dip" n1:layout_marginRight="16.0dip" n1:src="@drawable/avatar" n1:scaleType="centerCrop" n1:adjustViewBounds="true" n1:layout_centerVertical="true" n2:frame="@drawable/ava_border" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/contact_suggest" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:weightSum="1.0" n1:layout_toRightOf="@id/contact_avatar" n1:layout_centerVertical="true">
+        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceLarge" n1:gravity="center_vertical" n1:id="@id/contact_name" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:singleLine="true" n1:layout_weight="0.5" n1:layout_toRightOf="@id/contact_avatar" />
+        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:ellipsize="middle" n1:gravity="center_vertical" n1:id="@id/contact_email" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:maxLines="1" n1:singleLine="true" n1:layout_weight="0.5" n3:textFont="robotoLight" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</RelativeLayout>

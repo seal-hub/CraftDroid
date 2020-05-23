@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Naviger hjem</string>
+    <string name="abc_action_bar_up_description">Naviger op</string>
+    <string name="abc_action_menu_overflow_description">Flere muligheder</string>
+    <string name="abc_action_mode_done">Luk</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Vælg en app</string>
+    <string name="abc_capital_off">FRA</string>
+    <string name="abc_capital_on">TIL</string>
+    <string name="abc_search_hint">Søg…</string>
+    <string name="abc_searchview_description_clear">Ryd forespørgslen</string>
+    <string name="abc_searchview_description_query">Søgeforespørgsel</string>
+    <string name="abc_searchview_description_search">Søg</string>
+    <string name="abc_searchview_description_submit">Indsend forespørgslen</string>
+    <string name="abc_searchview_description_voice">Talesøgning</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s giver dig fuld kontrol.&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>Anvend den som privat browser:
+  &lt;ul>
+    &lt;li>S&amp;#248;g og surf direkte i appen&lt;/li>
+    &lt;li>Bloker sporing (eller opdater indstillingerne og tillad sporing)&lt;/li>
+    &lt;li>Slet fjerner cookies samt s&amp;#248;ge- og browser-historik&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s er udviklet af Mozilla. Vores form&amp;#229;l er at fremme et sundt, &amp;#229;bent internet.&lt;br/>
+&lt;a href=%2$s>L&amp;#230;s mere&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">Siden indlæses</string>
+    <string name="accessibility_announcement_loading_finished">Siden er indlæst</string>
+    <string name="action_cancel">Annuller</string>
+    <string name="action_ok">OK</string>
+    <string name="action_option_add_search_engine">Tilføj søgetjeneste</string>
+    <string name="action_save">Gem</string>
+    <string name="common_google_play_services_enable_button">Aktivér</string>
+    <string name="common_google_play_services_enable_text">Du skal aktivere Google Play-tjenester, for at %1$s kan fungere.</string>
+    <string name="common_google_play_services_enable_title">Aktivér Google Play-tjenester</string>
+    <string name="common_google_play_services_install_button">Installer</string>
+    <string name="common_google_play_services_install_text">Du skal installere Google Play-tjenester, før %1$s kan køre på din enhed.</string>
+    <string name="common_google_play_services_install_title">Hent Google Play-tjenester</string>
+    <string name="common_google_play_services_notification_ticker">Fejl i Google Play-tjenester</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv igen.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s fungerer ikke uden Google Play-tjenester, som ikke understøttes på din enhed.</string>
+    <string name="common_google_play_services_update_button">Opdater</string>
+    <string name="common_google_play_services_update_text">%1$s kan ikke køre, medmindre du opdaterer Google Play-tjenester.</string>
+    <string name="common_google_play_services_update_title">Opdater Google Play-tjenester</string>
+    <string name="common_google_play_services_updating_text">%1$s kan ikke køre uden Google Play-tjenester, som i øjeblikket opdateres.</string>
+    <string name="common_google_play_services_wear_update_text">Du skal bruge en ny version af Google Play-tjenester. Opdateringen gennemføres automatisk om et øjeblik.</string>
+    <string name="common_open_on_phone">Åbn på telefonen</string>
+    <string name="common_signin_button_text">Log ind</string>
+    <string name="common_signin_button_text_long">Log ind med Google</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Gå tilbage</string>
+    <string name="content_description_blocking_switch">Bloker sporing</string>
+    <string name="content_description_clear_input">Ryd adressefeltet</string>
+    <string name="content_description_customtab_exit">Tilbage til forrige app</string>
+    <string name="content_description_dismiss_input">Afvis</string>
+    <string name="content_description_erase">Slet browser-historik</string>
+    <string name="content_description_forward">Gå frem</string>
+    <string name="content_description_lock">Sikker forbindelse</string>
+    <string name="content_description_menu">Flere indstillinger</string>
+    <string name="content_description_reload">Genindlæs siden</string>
+    <string name="content_description_stop">Afbryd indlæsning af siden</string>
+    <string name="content_description_tab_counter">Åbne faneblade: %1$s</string>
+    <string name="contextmenu_image_copy">Kopier billedets adresse</string>
+    <string name="contextmenu_image_save">Gem billede</string>
+    <string name="contextmenu_image_share">Del billede</string>
+    <string name="contextmenu_image_warning">Gemte og delte billeder &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>vil ikke blive slettet,&lt;/b> når du sletter historikken i %1$s.</string>
+    <string name="contextmenu_link_copy">Kopier linkadresse</string>
+    <string name="contextmenu_link_share">Del link</string>
+    <string name="contextmenu_open_in_new_tab">Åbn link i nyt faneblad</string>
+    <string name="custom_autocomplete_quick_add">Tilføj brugerdefineret URL</string>
+    <string name="dialog_addtohomescreen_action_add">Tilføj</string>
+    <string name="dialog_addtohomescreen_action_cancel">Annuller</string>
+    <string name="dialog_addtohomescreen_tracking_protection">Genvej vil åbne med sporingsbeskyttelse deaktiveret</string>
+    <string name="download_dialog_action_cancel">Annuller</string>
+    <string name="download_dialog_action_download">Hent</string>
+    <string name="download_dialog_title">Hent fil</string>
+    <string name="download_dialog_warning">Hentede filer &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>bliver ikke slettet,&lt;/b> når du sletter historikken i %1$s.</string>
+    <string name="download_firefox">Hent Firefox</string>
+    <string name="download_snackbar_finished">%1$s hentet</string>
+    <string name="download_snackbar_open">Åbn</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Siden kan v&amp;#230;re midlertidigt utilg&amp;#230;ngelig eller travlt optaget. Pr&amp;#248;v igen om et &amp;#248;jeblik.&lt;/li>
+        &lt;li>Hvis du ikke kan indl&amp;#230;se nogen websider overhovedet, kontroll&amp;#233;r da din enheds data- eller wi-fi-forbindelse.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">Ude af stand til at oprette forbindelse</string>
+    <string name="error_generic_message">Siden kan af uvisse årsager ikke indlæses.</string>
+    <string name="error_generic_title">Ups</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Kontroll&amp;#233;r, om adressen indeholder tastefejl, fx
+          &lt;strong>ww&lt;/strong>.eksempel.dk i stedet for
+          &lt;strong>www&lt;/strong>.eksempel.dk&lt;/li>
+        &lt;li>Hvis du ikke kan indl&amp;#230;se nogen websider overhovedet, kontroll&amp;#233;r da din enheds data- eller wi-fi-forbindelse.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">Serveren blev ikke fundet</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Webadresser skrives normalt som &lt;strong>http://www.eksempel.dk/&lt;/strong>&lt;/li>
+  &lt;li>Kontroll&amp;#233;r at du ikke benytter divisionstegn (dvs. &lt;strong>/&lt;/strong>)&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">Adressen er ikke gyldig</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Dette problem kan nogle gange skyldes, at cookies er sl&amp;#229;et fra, eller modtagelse af cookies er blevet n&amp;#230;gtet.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">Denne side viderefører ikke forespørgslen korrekt</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Dette kan v&amp;#230;re et problem med serverens konfiguration,
+eller det kan betyde, at nogen fors&amp;#248;ger at give sig ud for at v&amp;#230;re serveren.&lt;/li>
+  &lt;li>Hvis du har kunnet tilg&amp;#229; serveren tidligere kan dette problem v&amp;#230;re midlertidigt
+og du anbefales at pr&amp;#248;ve igen senere.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">Sikker forbindelse mislykkedes</string>
+    <string name="error_timeout_title">Forbindelsens tidsfrist udløb</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Du er m&amp;#229;ske n&amp;#248;dt til at installere andet software for at &amp;#229;bne denne adresse.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">Adressen kunne ikke forstås</string>
+    <string name="errorpage_refresh">Prøv igen</string>
+    <string name="errorpage_title">Problem med indlæsning af side</string>
+    <string name="external_app_prompt">Du kan forlade %1$s og åbne dette link i %2$s.</string>
+    <string name="external_app_prompt_no_app">Ingen app på din enhed kan åbne dette link. Du kan forlade %1$s og søge på %2$s efter en app der kan.</string>
+    <string name="external_app_prompt_no_app_title">Find en app der kan åbne linket</string>
+    <string name="external_app_prompt_title">Åbn link i en anden app</string>
+    <string name="external_multiple_apps_matched_exit">Afslut privat browsing?</string>
+    <string name="feedback_erase">Din browser-historik er blevet slettet.</string>
+    <string name="find_in_page">Find på side</string>
+    <string name="firstrun_close_button">OK, forstået!</string>
+    <string name="firstrun_defaultbrowser_text2">Tag privat browsing til næste niveau. Bloker reklamer og andet indhold, der kan spore din færden på nettet og gøre det langsommere at hente sider.</string>
+    <string name="firstrun_defaultbrowser_title">Styrk dit privatliv</string>
+    <string name="firstrun_next_button">Næste</string>
+    <string name="firstrun_privacy_text">Angiv %1$s som din standard-browser og få fordelene ved privat browsing, når du åbner websider fra andre apps.</string>
+    <string name="firstrun_privacy_title">Gør beskyttelse af dit privatliv til en vane</string>
+    <string name="firstrun_search_text">Leder du efter noget andet? Vælg en ny standard-søgemaskine i Indstillinger.</string>
+    <string name="firstrun_search_title">Søgning på dine præmisser</string>
+    <string name="firstrun_shortcut_text">Gå hurtigt tilbage til dine yndlingssider i %1$s. Vælg blot \"Føj til startskærm\" fra menuen i %1$s.</string>
+    <string name="firstrun_shortcut_title">Tilføj genveje til din startskærm</string>
+    <string name="firstrun_skip_button">Spring over</string>
+    <string name="gv_prompt_clear">Ryd</string>
+    <string name="gv_prompt_password_hint">Adgangskode</string>
+    <string name="gv_prompt_username_hint">Brugernavn</string>
+    <string name="http_auth_dialog_password">Adgangskode</string>
+    <string name="http_auth_dialog_title">Godkendelse påkrævet</string>
+    <string name="http_auth_dialog_username">Brugernavn</string>
+    <string name="menu_about">Om</string>
+    <string name="menu_add_to_home_screen">Føj til startskærmen</string>
+    <string name="menu_custom_tab_branding">%1$s</string>
+    <string name="menu_help">Hjælp</string>
+    <string name="menu_open_with_a_browser2">Åbn i…</string>
+    <string name="menu_open_with_default_browser2">Åbn i %1$s</string>
+    <string name="menu_report_site_issue">Rapportér problem med websted</string>
+    <string name="menu_rights">Dine rettigheder</string>
+    <string name="menu_settings">Indstillinger</string>
+    <string name="menu_share">Del…</string>
+    <string name="menu_trackers_blocked_title">Forsøg på sporing blokeret</string>
+    <string name="menu_whats_new">Nyheder</string>
+    <string name="notification_action_erase_and_open">Slet og åbn</string>
+    <string name="notification_action_open">Åbn</string>
+    <string name="notification_browsing_session_channel_description">Med beskeder kan du slette din %1$s-session med et enkelt tryk. Du behøver hverken åbne appen eller se, hvad der kører i din browser.</string>
+    <string name="notification_browsing_session_channel_name">Privat browsing-session</string>
+    <string name="notification_erase_text">Slet browser-historik</string>
+    <string name="preference_about">Om %1$s</string>
+    <string name="preference_autocomplete_action_add">+ Tilføj brugerdefineret URL</string>
+    <string name="preference_autocomplete_action_remove_content_description">Fjern</string>
+    <string name="preference_autocomplete_add_confirmation">Ny brugerdefineret URL tilføjet.</string>
+    <string name="preference_autocomplete_add_error">Kontroller den indtastede URL.</string>
+    <string name="preference_autocomplete_add_example">Eksempel: eksempel.dk</string>
+    <string name="preference_autocomplete_add_example2">Eksempel: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">Indsæt eller skriv URL</string>
+    <string name="preference_autocomplete_add_title">URL der skal tilføjes</string>
+    <string name="preference_autocomplete_custom_summary">"Tilføj og håndter brugerdefineret autofuldførelse af URL'er."</string>
+    <string name="preference_autocomplete_duplicate_url_error">"URL'en findes allerede"</string>
+    <string name="preference_autocomplete_learn_more">Læs mere</string>
+    <string name="preference_autocomplete_menu_remove">Fjern</string>
+    <string name="preference_autocomplete_preinstalled_summary">"Aktiver at %1$s autofuldfører over 450 populære URL'er i adressefeltet."</string>
+    <string name="preference_autocomplete_subitem_customlist">"Brugerdefinerede URL'er"</string>
+    <string name="preference_autocomplete_title_add">Tilføj brugerdefineret URL</string>
+    <string name="preference_autocomplete_title_remove">"Fjern brugerdefinerede URL'er"</string>
+    <string name="preference_category_autocomplete_custom_urls">"Brugerdefinerede URL'er"</string>
+    <string name="preference_category_autocomplete_preinstalled">Standard URL-liste</string>
+    <string name="preference_category_cookies">Cookies og websteds-data</string>
+    <string name="preference_category_data_choices">Datadeling</string>
+    <string name="preference_category_data_collection_use">Dataindsamling &amp; brug</string>
+    <string name="preference_category_general">Generelt</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Ydelse</string>
+    <string name="preference_category_privacy">Privatliv</string>
+    <string name="preference_category_search">Søgning</string>
+    <string name="preference_category_switching_apps">Skifte mellem apps</string>
+    <string name="preference_category_tracking_protection">Beskyttelse mod sporing</string>
+    <string name="preference_category_web_content">Webindhold</string>
+    <string name="preference_default_browser2">Angiv %1$s som standard-browser</string>
+    <string name="preference_language">Sprog</string>
+    <string name="preference_language_systemdefault">Systemstandard</string>
+    <string name="preference_mozilla_summary">Om %1$s, hjælp</string>
+    <string name="preference_mozilla_telemetry2">Send data for anvendelse</string>
+    <string name="preference_mozilla_telemetry_summary">Læs mere</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla tilstræber kun at indsamle, hvad vi skal bruge for at kunne udbyde og forbedre %1$s for alle.</string>
+    <string name="preference_performance_block_javascript">Bloker JavaScript</string>
+    <string name="preference_performance_block_javascript_summary">Sider indlæses muligvis hurtigere, men kan også opføre sig uventet</string>
+    <string name="preference_performance_block_webfonts">Bloker webskrifttyper</string>
+    <string name="preference_performance_block_webfonts_summary">Kan medføre at ikoner eller billeder mangler</string>
+    <string name="preference_performance_request_desktop_site">Anmod om desktopversion</string>
+    <string name="preference_privacy_and_security_header">Privatliv &amp; sikkerhed</string>
+    <string name="preference_privacy_and_security_summary">Sporing, cookies, datadeling</string>
+    <string name="preference_privacy_block_ads">Bloker sporing via reklamer</string>
+    <string name="preference_privacy_block_ads_summary">Nogle reklamer sporer dine besøg på websteder, selvom du ikke klikker på dem</string>
+    <string name="preference_privacy_block_analytics">Bloker analytisk sporing</string>
+    <string name="preference_privacy_block_analytics_summary">Bruges til at indsamle, analysere og måle aktiviteter som tryk og scrolling</string>
+    <string name="preference_privacy_block_content">Bloker andre former for indholdssporing</string>
+    <string name="preference_privacy_block_content_summary2">Aktivering kan medføre, at visse sider opfører sig uventet</string>
+    <string name="preference_privacy_block_social">Bloker sporing via sociale medier</string>
+    <string name="preference_privacy_block_social_summary">Indlejret på websteder for at spore dine besøg og vise funktionalitet som dele-knapper</string>
+    <string name="preference_privacy_category_cookies">Bloker cookies</string>
+    <string name="preference_privacy_notice">Privatlivspolitik</string>
+    <string name="preference_privacy_secure_mode">Usynlig</string>
+    <string name="preference_privacy_should_block_cookies_no_option">Nej</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Bloker kun cookies fra tredjepart</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Ja</string>
+    <string name="preference_privacy_stealth_summary">Skjul indhold på listen over senest brugte apps</string>
+    <string name="preference_search_add2">+ Tilføj en ny søgetjeneste</string>
+    <string name="preference_search_engine_default">Standard</string>
+    <string name="preference_search_installed_search_engines">Installerede søgetjenester</string>
+    <string name="preference_search_remove">Fjern</string>
+    <string name="preference_search_remove_title">Fjern søgetjenester</string>
+    <string name="preference_search_restore">Gendan standard-søgetjenester</string>
+    <string name="preference_search_summary">Angiv standard, autofuldførelse</string>
+    <string name="preference_state_off">Deaktiveret</string>
+    <string name="preference_state_on">Aktiveret</string>
+    <string name="preference_subitem_autocomplete">Autofuldfør URL</string>
+    <string name="preference_switch_autocomplete">Autofuldførelse</string>
+    <string name="search_add_confirmation">Ny søgetjeneste tilføjet.</string>
+    <string name="search_add_error_duplicate_name">En installeret søgetjeneste bruger allerede dette navn.</string>
+    <string name="search_add_error_empty_name">Indtast søgetjenestens navn</string>
+    <string name="search_add_error_empty_search">Indtast søgestreng</string>
+    <string name="search_add_error_format">Kontroller at søgestrengens format svarer til eksemplets</string>
+    <string name="search_add_manually_example">Eksempel: eksempel.dk/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">Søgetjenestens navn</string>
+    <string name="search_add_manually_save">Gem</string>
+    <string name="search_add_manually_string">Søgestreng der skal anvendes</string>
+    <string name="search_hint">Søg efter %1$s</string>
+    <string name="search_menu_title">Søg</string>
+    <string name="security_popup_insecure_connection">Usikker forbindelse</string>
+    <string name="security_popup_secure_connection">Sikker forbindelse</string>
+    <string name="security_popup_security_verified">Bekræftet af: %1$s</string>
+    <string name="share_dialog_title">Del via</string>
+    <string name="shortcut_erase_long_label">Slet browser-historik</string>
+    <string name="shortcut_erase_short_label">Slet</string>
+    <string name="site_security_icon_content_description">Sikkerhed for webstedet</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tabs_tray_action_erase">Slet browser-historik</string>
+    <string name="teaser">"Automatisk privat browsing.
+Surf. Slet. Start forfra."</string>
+    <string name="text_selection_search_action">Søg privat</string>
+    <string name="urlbar_hint">Søg eller indtast adresse</string>
+    <string name="your_rights">Dine rettigheder</string>
+    <string name="your_rights_content1">%1$s er frit og åbent software, udviklet af Mozilla og andre bidragydere.</string>
+    <string name="your_rights_content2">%1$s er tilgængelig under de vilkår der er fastsat i &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Mozilla Public License&lt;/a> og andre licenser til åben kildekode.</string>
+    <string name="your_rights_content3">Du bliver ikke givet nogen ret eller licens til varemærker tilhørende Mozilla Foundation eller tredjepart, herunder navn og logo for Mozilla, Firefox og %1$s. Få flere oplysninger &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>her&lt;/a>.</string>
+    <string name="your_rights_content4">Yderligere gratis og åben kildekode til %1$s er tilgængelig under diverse &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>licenser&lt;/a>.</string>
+    <string name="your_rights_content5">%1$s benytter sig også af blokeringslister fra Disconnect, Inc. som adskilte og uafhængige værker under &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>GNU General Public License v3&lt;/a>. Listerne er tilgængelige &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>her&lt;/a>.</string>
+</resources>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Orientohu për në shtëpi</string>
+    <string name="abc_action_bar_up_description">Ngjitu lart</string>
+    <string name="abc_action_menu_overflow_description">Opsione të tjera</string>
+    <string name="abc_action_mode_done">U krye!</string>
+    <string name="abc_activity_chooser_view_see_all">Shikoji të gjitha</string>
+    <string name="abc_activitychooserview_choose_application">Zgjidh një aplikacion</string>
+    <string name="abc_capital_off">JOAKTIV</string>
+    <string name="abc_capital_on">AKTIV</string>
+    <string name="abc_search_hint">Kërko...</string>
+    <string name="abc_searchview_description_clear">Pastro pyetjen</string>
+    <string name="abc_searchview_description_query">Kërko pyetjen</string>
+    <string name="abc_searchview_description_search">Kërko</string>
+    <string name="abc_searchview_description_submit">Dërgo pyetjen</string>
+    <string name="abc_searchview_description_voice">Kërkim me zë</string>
+    <string name="abc_shareactionprovider_share_with">Shpërnda publikisht me</string>
+    <string name="abc_shareactionprovider_share_with_application">Ndaje me %s</string>
+    <string name="abc_toolbar_collapse_description">Shpalos</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s-i jua l&amp;#235; juve kontrollin.&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>P&amp;#235;rdoreni si nj&amp;#235; shfletues privat:
+  &lt;ul>
+    &lt;li>B&amp;#235;ni k&amp;#235;rkime dhe shfletoni drejt e nga aplikacioni&lt;/li>
+    &lt;li>Bllokoni gjurmues (ose p&amp;#235;rdit&amp;#235;soni rregullimet q&amp;#235; t&amp;#235; lejoni gjurmime)&lt;/li>
+    &lt;li>Fshini cookies, si dhe historik k&amp;#235;rkimesh dhe shfletimesh&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s-i prodhohet nga Mozilla. Misioni yn&amp;#235; &amp;#235;sht&amp;#235; t&amp;#235; p&amp;#235;rkujdesemi p&amp;#235;r nj&amp;#235; Internet t&amp;#235; sh&amp;#235;ndetsh&amp;#235;m, t&amp;#235; hapur.&lt;br/>
+&lt;a href=%2$s>M&amp;#235;soni m&amp;#235; tep&amp;#235;r&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">Po ngarkohet</string>
+    <string name="accessibility_announcement_loading_finished">Sajti u ngarkua</string>
+    <string name="action_cancel">Anuloje</string>
+    <string name="action_ok">OK</string>
+    <string name="action_option_add_search_engine">Shtoni motorë kërkimesh</string>
+    <string name="action_save">Ruaje</string>
+    <string name="common_google_play_services_enable_button">Aktivizo</string>
+    <string name="common_google_play_services_enable_text">%1$s nuk do të funksionojë nëse nuk aktivizon shërbimet e \"Luaj me Google\".</string>
+    <string name="common_google_play_services_enable_title">Aktivizo shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_install_button">Instalo</string>
+    <string name="common_google_play_services_install_text">%1$s nuk do të funksionojë pa shërbimet e Google Play, të cilat mungojnë në pajisjen tënde.</string>
+    <string name="common_google_play_services_install_title">Merr shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_notification_ticker">Gabim në shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ka probleme me shërbimet e Google Play. Provo sërish.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s nuk do të funksionojë pa shërbimet e Google Play, të cilat nuk mbështeten nga pajisja jote.</string>
+    <string name="common_google_play_services_update_button">Përditëso</string>
+    <string name="common_google_play_services_update_text">%1$s nuk do të funksionojë nëse nuk përditëson shërbimet e \"Luaj me Google\".</string>
+    <string name="common_google_play_services_update_title">Përditëso shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_updating_text">%1$s nuk do të funksionojë pa shërbimet e \"Luaj me Google\", të cilat po përditësohen aktualisht.</string>
+    <string name="common_google_play_services_wear_update_text">Nevojitet një version i ri i shërbimeve të \"Luaj me Google\". Ai do të përditësohet automatikisht së shpejti.</string>
+    <string name="common_open_on_phone">Hape në telefon</string>
+    <string name="common_signin_button_text">Identifikohu</string>
+    <string name="common_signin_button_text_long">Identifikohu me Google</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Shko mbrapsht</string>
+    <string name="content_description_blocking_switch">Blloko gjurmues</string>
+    <string name="content_description_clear_input">Pastro ç’është dhënë</string>
+    <string name="content_description_customtab_exit">Kthehu te aplikacioni i mëparshëm</string>
+    <string name="content_description_dismiss_input">Hidhe tej</string>
+    <string name="content_description_erase">Fshi historik shfletimesh</string>
+    <string name="content_description_forward">Lëvizni përpara</string>
+    <string name="content_description_lock">Lidhje e sigurt</string>
+    <string name="content_description_menu">Më tepër mundësi</string>
+    <string name="content_description_reload">Ringarko sajtin</string>
+    <string name="content_description_stop">Resht së ngarkuari sajtin</string>
+    <string name="content_description_tab_counter">Skeda të hapura: %1$s</string>
+    <string name="contextmenu_image_copy">Kopjo adresë figure</string>
+    <string name="contextmenu_image_save">Ruaje figurën</string>
+    <string name="contextmenu_image_share">Ndani figurë me të tjerët</string>
+    <string name="contextmenu_image_warning">Figurat e ruajtura dhe ato të ndara me të tjerët &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>s&amp;#8217;do t&amp;#235; fshihen&lt;/b>, kur të fshini historikun e %1$s-it.</string>
+    <string name="contextmenu_link_copy">Kopjo adresë lidhjeje</string>
+    <string name="contextmenu_link_share">Ndani lidhje me të tjerët</string>
+    <string name="contextmenu_open_in_new_tab">Hape lidhjen në skedë të re</string>
+    <string name="custom_autocomplete_quick_add">Shtoni URL vetjake</string>
+    <string name="dialog_addtohomescreen_action_add">Shtoje</string>
+    <string name="dialog_addtohomescreen_action_cancel">Anuloje</string>
+    <string name="dialog_addtohomescreen_tracking_protection">Shkurtorja do të hapet me Mbrojtjen Nga Gjurmimet të çaktivizuar</string>
+    <string name="download_dialog_action_cancel">Anuloje</string>
+    <string name="download_dialog_action_download">Shkarkoje</string>
+    <string name="download_dialog_title">Shkarkoni Kartelë</string>
+    <string name="download_dialog_warning">Kartelat e shkarkuara &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>s&amp;#8217;do t&amp;#235; fshihen&lt;/b>, kur të fshini historikun e %1$s-it.</string>
+    <string name="download_firefox">Shkarkoni Firefox-in</string>
+    <string name="download_snackbar_finished">%1$s përfundoi</string>
+    <string name="download_snackbar_open">Hape</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Sajti mund t&amp;#235; jet&amp;#235; p&amp;#235;rkoh&amp;#235;sisht jasht&amp;#235; funksionimit ose shum&amp;#235; i z&amp;#235;n&amp;#235;. Riprovoni pas pak &amp;#231;astesh.&lt;/li>
+        &lt;li>N&amp;#235;se s&amp;#8217;jeni n&amp;#235; gjendje t&amp;#235; ngarkoni asnj&amp;#235; faqe, kontrolloni lidhjen data ose Wi-Fi t&amp;#235; pajisjes suaj celulare.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">S’arrihet të lidhet</string>
+    <string name="error_generic_message">Për ndonjë farë arsyeje, s’e ngarkojmë dot këtë faqe.</string>
+    <string name="error_generic_title">Hëm</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Kontrolloni adres&amp;#235;n p&amp;#235;r gabime shkrimi, t&amp;#235; tilla si
+          &lt;strong>ww&lt;/strong>.example.com, n&amp;#235; vend se
+          &lt;strong>www&lt;/strong>.example.com&lt;/li>
+        &lt;li>N&amp;#235;se s&amp;#8217;jeni n&amp;#235; gjendje t&amp;#235; ngarkoni asnj&amp;#235; faqe, kontrolloni lidhjen data ose Wi-Fi t&amp;#235; pajisjes suaj celulare.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">S’u gjet shërbyes</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Adresat Web zakonisht shkruhen si &lt;strong>http://www.example.com/&lt;/strong>&lt;/li>
+  &lt;li>Sigurohuni q&amp;#235; po p&amp;#235;rdorni pjerr&amp;#235;se djathtas (d.m.th. &lt;strong>/&lt;/strong>).&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">Adresa s’është e vlefshme</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Ndonj&amp;#235;her&amp;#235; ky problem mund t&amp;#235; shkaktohet nga &amp;#231;aktivizim apo mospranim cookie-sh.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">Faqja s’ridrejton si duhet</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Ky mund t&amp;#235; jet&amp;#235; problem i ardhur nga form&amp;#235;simi i sh&amp;#235;rbyesit, ose mund t&amp;#235; b&amp;#235;het fjal&amp;#235; p&amp;#235;r dik&amp;#235; q&amp;#235; po provon t&amp;#235; imitoj&amp;#235; sh&amp;#235;rbyesin.&lt;/li>
+  &lt;li>Po qe se n&amp;#235; t&amp;#235; kaluar&amp;#235;n jeni lidhur me sukses te ky sh&amp;#235;rbyes, gabimi mund t&amp;#235; jet&amp;#235; i p&amp;#235;rkohsh&amp;#235;m, dhe mund t&amp;#235; riprovoni m&amp;#235; von&amp;#235;.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">Lidhja e sigurt dështoi</string>
+    <string name="error_timeout_title">Lidhjes i mbaroi koha</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Mund t&amp;#235; duhet t&amp;#235; instaloni software tjet&amp;#235;r q&amp;#235; t&amp;#235; hapni k&amp;#235;t&amp;#235; adres.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">Adresa s’u kuptua</string>
+    <string name="errorpage_refresh">Riprovoni</string>
+    <string name="errorpage_title">Problem në ngarkimin e faqes</string>
+    <string name="external_app_prompt">Mund të lini %1$s-in ta hapë këtë lidhje me %2$s.</string>
+    <string name="external_app_prompt_no_app">Asnjë nga aplikacionet në pajisjen tuaj s’është në gjendje të hapë këtë lidhje. Mund të lini %1$s-in të kërkojë në %2$s për një aplikacion që mundet.</string>
+    <string name="external_app_prompt_no_app_title">Gjeni një aplikacion që mund të hapë lidhjen</string>
+    <string name="external_app_prompt_title">Hape lidhjen me një aplikacion tjetër</string>
+    <string name="external_multiple_apps_matched_exit">Të dilet nga Shfletimi Privat?</string>
+    <string name="feedback_erase">Historiku juaj i shfletimit u fshi.</string>
+    <string name="find_in_page">Gjej në Faqe</string>
+    <string name="firstrun_close_button">OK, e mora vesh!</string>
+    <string name="firstrun_defaultbrowser_text2">Kalojeni shfletimin privat një shkallë më sipër. Bllokoni reklama dhe lëndë tjetër që mund t’ju gjurmojë nga sajti në sajt dhe të ulë kohën e ngarkimit të faqeve.</string>
+    <string name="firstrun_defaultbrowser_title">Fuqizoni privatësinë tuaj</string>
+    <string name="firstrun_next_button">Pasuesja</string>
+    <string name="firstrun_privacy_text">Vëreni %1$s-in si shfletuesin tuaj parazgjedhje dhe përfitoni të mirat e shfletimit privat, kur hapni faqe në web që nga aplikacione të tjera.</string>
+    <string name="firstrun_privacy_title">Bëjeni zakon privatësinë</string>
+    <string name="firstrun_search_text">Po kërkoni për diçka tjetër? Zgjidhni te Rregullimet një tjetër motor parazgjedhje kërkimesh.</string>
+    <string name="firstrun_search_title">Kërkimi juaj, me mënyrën tuaj</string>
+    <string name="firstrun_shortcut_text">Rikthehuni shpejt te sajtet tuaj të parapëlqyer, me %1$s. Thjesht përzgjidhni \"Shtoje te skena e Kreut\", që nga menuja e %1$s-it.</string>
+    <string name="firstrun_shortcut_title">Shtoni shkurtore te skena juaj e kreut</string>
+    <string name="firstrun_skip_button">Anashkaloje</string>
+    <string name="gv_prompt_clear">Pastroje</string>
+    <string name="gv_prompt_password_hint">Fjalëkalim</string>
+    <string name="gv_prompt_username_hint">Emër përdoruesi</string>
+    <string name="http_auth_dialog_password">Fjalëkalim</string>
+    <string name="http_auth_dialog_title">Lypset mirëfilltësim</string>
+    <string name="http_auth_dialog_username">Emër përdoruesi</string>
+    <string name="menu_about">Rreth</string>
+    <string name="menu_add_to_home_screen">Shtoje te skena e Kreut</string>
+    <string name="menu_custom_tab_branding">Powered by %1$s</string>
+    <string name="menu_help">Ndihmë</string>
+    <string name="menu_open_with_a_browser2">Hapeni në…</string>
+    <string name="menu_open_with_default_browser2">Hape në %1$s</string>
+    <string name="menu_report_site_issue">Raporto Problem Sajti</string>
+    <string name="menu_rights">Të drejtat Tuaja</string>
+    <string name="menu_settings">Rregullime</string>
+    <string name="menu_share">Ndajeni me të tjerët…</string>
+    <string name="menu_trackers_blocked_title">Gjurmues të bllokuar</string>
+    <string name="menu_whats_new">Ç’ka të Re</string>
+    <string name="notification_action_erase_and_open">Fshije dhe Hape</string>
+    <string name="notification_action_open">Hape</string>
+    <string name="notification_browsing_session_channel_description">Njoftimet ju lejojnë të fshini me një prekje sesionin tuaj %1$s. S’ju duhet të hapni aplikacionin apo të shihni se ç’po xhiron në shfletuesin tuaj.</string>
+    <string name="notification_browsing_session_channel_name">Sesion shfletimi privat</string>
+    <string name="notification_erase_text">Fshini historik shfletimesh</string>
+    <string name="preference_about">Mbi %1$s-in</string>
+    <string name="preference_autocomplete_action_add">+ Shtoni URL vetjake</string>
+    <string name="preference_autocomplete_action_remove_content_description">Hiqe</string>
+    <string name="preference_autocomplete_add_confirmation">U shtua URL vetjake e re.</string>
+    <string name="preference_autocomplete_add_error">Rikontrollojeni URL-në që dhatë.</string>
+    <string name="preference_autocomplete_add_example">Shembull: example.com</string>
+    <string name="preference_autocomplete_add_example2">Shembull: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">Ngjitni ose jepni URL</string>
+    <string name="preference_autocomplete_add_title">URL për shtim</string>
+    <string name="preference_autocomplete_custom_summary">Shtoni dhe administroni URLra vetjake vetëplotësimesh.</string>
+    <string name="preference_autocomplete_duplicate_url_error">Ka tashmë një URL të tillë</string>
+    <string name="preference_autocomplete_learn_more">Mësoni më tepër</string>
+    <string name="preference_autocomplete_menu_remove">Hiqe</string>
+    <string name="preference_autocomplete_preinstalled_summary">Aktivizojeni që %1$s-i të vetëplotësojë te shtylla e adresave mbi 450 URL popullore.</string>
+    <string name="preference_autocomplete_subitem_customlist">URLra Vetjake</string>
+    <string name="preference_autocomplete_title_add">Shtoni URL vetjake</string>
+    <string name="preference_autocomplete_title_remove">Hiqni URLra Vetjake</string>
+    <string name="preference_category_autocomplete_custom_urls">URL Vetjake</string>
+    <string name="preference_category_autocomplete_preinstalled">Listë Parazgjedhje URLsh</string>
+    <string name="preference_category_cookies">Cookies dhe të Dhëna Sajtesh</string>
+    <string name="preference_category_data_choices">Zgjedhje Mbi të Dhënat</string>
+    <string name="preference_category_data_collection_use">Grumbullim &amp; Përdorim të Dhënash</string>
+    <string name="preference_category_general">Të përgjithshme</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Punim</string>
+    <string name="preference_category_privacy">Privatësi</string>
+    <string name="preference_category_search">Kërkim</string>
+    <string name="preference_category_switching_apps">Këmbim Aplikacionesh</string>
+    <string name="preference_category_tracking_protection">Mbrojtje Nga Gjurmimet</string>
+    <string name="preference_category_web_content">Lëndë Web</string>
+    <string name="preference_default_browser2">Bëje %1$s-in shfletuesin parazgjedhje</string>
+    <string name="preference_language">Gjuhë</string>
+    <string name="preference_language_systemdefault">Parazgjedhje sistemi</string>
+    <string name="preference_mozilla_summary">Mbi %1$s, ndihmë</string>
+    <string name="preference_mozilla_telemetry2">Dërgo të dhëna përdorimi</string>
+    <string name="preference_mozilla_telemetry_summary">Mësoni më tepër</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla rreket të grumbullojë vetëm sa na duhen për të ofruar dhe përmirësuar %1$s-in për këdo.</string>
+    <string name="preference_performance_block_javascript">Blloko JavaScript</string>
+    <string name="preference_performance_block_javascript_summary">Faqet mund të ngarkohen më shpejt, por mundet gjithashtu të sillen në mënyrë të papritur</string>
+    <string name="preference_performance_block_webfonts">Blloko shkronja Web</string>
+    <string name="preference_performance_block_webfonts_summary">Mund të sjellë mungesë ikonash ose figurash</string>
+    <string name="preference_performance_request_desktop_site">Kërko sajtin për dekstop</string>
+    <string name="preference_privacy_and_security_header">Privatësi &amp; Siguri</string>
+    <string name="preference_privacy_and_security_summary">Gjurmim, cookies, zgjedhje mbi të dhënat</string>
+    <string name="preference_privacy_block_ads">Blloko gjurmues reklamash</string>
+    <string name="preference_privacy_block_ads_summary">Disa reklama ndjekin vizita sajti, madje edhe kur s’klikoni mbi reklamat</string>
+    <string name="preference_privacy_block_analytics">Blloko gjurmues analizash</string>
+    <string name="preference_privacy_block_analytics_summary">Përdorur për të grumbulluar, analizuar dhe matur veprimtari të tilla si prekje dhe rrëshqitje në faqe</string>
+    <string name="preference_privacy_block_content">Blloko të tjerë gjurmues lënde</string>
+    <string name="preference_privacy_block_content_summary2">Aktivizimi mund të bëjë që disa faqe të sillen ndryshe nga ç’pritet</string>
+    <string name="preference_privacy_block_social">Blloko gjurmues platformash shoqërore</string>
+    <string name="preference_privacy_block_social_summary">Të trupëzuara në sajte për të gjurmuar vizitat tuaja dhe për të shfaqur funksione, të tillë si butona ndarjeje me të tjerët</string>
+    <string name="preference_privacy_category_cookies">Blloko cookie-t</string>
+    <string name="preference_privacy_notice">Shënim Mbi Privatësinë</string>
+    <string name="preference_privacy_secure_mode">Fshehtas</string>
+    <string name="preference_privacy_should_block_cookies_no_option">Jo</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Blloko vetëm cookie-t nga palë të treta</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Po</string>
+    <string name="preference_privacy_stealth_summary">Fshihi faqet web kur kalohet nga një aplikacion në tjetrin</string>
+    <string name="preference_search_add2">+ Shtoni motor tjetër kërkimesh</string>
+    <string name="preference_search_engine_default">Parazgjedhje</string>
+    <string name="preference_search_installed_search_engines">Motorë të instaluar</string>
+    <string name="preference_search_remove">Hiqe</string>
+    <string name="preference_search_remove_title">Hiqni motorë kërkimesh</string>
+    <string name="preference_search_restore">Rikthe motorë parazgjedhje kërkimi</string>
+    <string name="preference_search_summary">Caktoje parazgjedhje, vetëplotësim</string>
+    <string name="preference_state_off">Off</string>
+    <string name="preference_state_on">On</string>
+    <string name="preference_subitem_autocomplete">Vetëplotësim URLje</string>
+    <string name="preference_switch_autocomplete">Vetëplotësim</string>
+    <string name="search_add_confirmation">Motori i ri i kërkimeve u shtua.</string>
+    <string name="search_add_error_duplicate_name">Atë emër e përdor tashmë një motor i instaluar kërkimesh.</string>
+    <string name="search_add_error_empty_name">Jepni emër motori kërkimesh</string>
+    <string name="search_add_error_empty_search">Jepni varg kërkimi</string>
+    <string name="search_add_error_format">Kontrolloni që vargu i kërkimit të përputhet me formatin Shembull</string>
+    <string name="search_add_manually_example">Shembull: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">Emër motori kërkimesh</string>
+    <string name="search_add_manually_save">Ruaje</string>
+    <string name="search_add_manually_string">Varg kërkimi për t’u përdorur</string>
+    <string name="search_hint">Kërko për %1$s</string>
+    <string name="search_menu_title">Kërko</string>
+    <string name="security_popup_insecure_connection">Lidhje e Pasigurt</string>
+    <string name="security_popup_secure_connection">Lidhje e Sigurt</string>
+    <string name="security_popup_security_verified">Verifikuar nga: %1$s</string>
+    <string name="share_dialog_title">Ndajeni përmes</string>
+    <string name="shortcut_erase_long_label">Fshi historik shfletimesh</string>
+    <string name="shortcut_erase_short_label">Fshije</string>
+    <string name="site_security_icon_content_description">Siguri Sajti</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tabs_tray_action_erase">Fshi historik shfletimesh</string>
+    <string name="teaser">"Shfletim automatikisht privat.
+Shfletoni. Fshini Gjurmët. Përsëriteni."</string>
+    <string name="text_selection_search_action">Kërkoni Privatisht</string>
+    <string name="urlbar_hint">Kërkoni ose jepni adresë</string>
+    <string name="your_rights">Të drejtat Tuaja</string>
+    <string name="your_rights_content1">%1$s është software i lirë dhe me burim të hapur, i krijuar nga Mozilla dhe kontribues të tjerë.</string>
+    <string name="your_rights_content2">%1$s ju jepet sipas kushteve të licencës &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Mozilla Public License&lt;/a> dhe të tjerash licenca me burim të hapur.</string>
+    <string name="your_rights_content3">S’ju akordohet ndonjë e drejtë apo licencë mbi shenjat tregtare të fondacionit Mozilla Foundation apo çfarëdo pale tjetër, përfshi emrat apo logot e Mozilla-s, Firefox-it ose %1$s-it. Informacion shtesë mund të gjeni &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>k&amp;#235;tu&lt;/a>.</string>
+    <string name="your_rights_content4">Tjetër kod burim për %1$s-in mund të kihet sipas &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>licencash&lt;/a> të tjera të ndryshme burimi të hapur apo të lira.</string>
+    <string name="your_rights_content5">Veç kësaj, %1$s-i përdor lista bllokimesh të furnizuara nga Disconnect, Inc., si vepra të veçanta dhe të pavarura, licencuar sipas &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>GNU General Public License v3&lt;/a>, dhe gjenden &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>k&amp;#235;tu&lt;/a>.</string>
+</resources>

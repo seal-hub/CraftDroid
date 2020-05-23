@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Přejít na plochu</string>
+    <string name="abc_action_bar_up_description">Přejít nahoru</string>
+    <string name="abc_action_menu_overflow_description">Více možností</string>
+    <string name="abc_action_mode_done">Hotovo</string>
+    <string name="abc_activity_chooser_view_see_all">Zobrazit vše</string>
+    <string name="abc_activitychooserview_choose_application">Vybrat aplikaci</string>
+    <string name="abc_capital_off">VYPNUTO</string>
+    <string name="abc_capital_on">ZAPNUTO</string>
+    <string name="abc_search_hint">Vyhledat…</string>
+    <string name="abc_searchview_description_clear">Smazat dotaz</string>
+    <string name="abc_searchview_description_query">Vyhledávací dotaz</string>
+    <string name="abc_searchview_description_search">Hledat</string>
+    <string name="abc_searchview_description_submit">Odeslat dotaz</string>
+    <string name="abc_searchview_description_voice">Hlasové vyhledávání</string>
+    <string name="abc_shareactionprovider_share_with">Sdílet pomocí</string>
+    <string name="abc_shareactionprovider_share_with_application">Sdílet s aplikací %s</string>
+    <string name="abc_toolbar_collapse_description">Sbalit</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s v&amp;#225;m d&amp;#225;v&amp;#225; kontrolu.&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>Pou&amp;#382;&amp;#237;vejte ho jako soukrom&amp;#253; prohl&amp;#237;&amp;#382;e&amp;#269;:
+  &lt;ul>
+    &lt;li>Vyhled&amp;#225;vejte a prohl&amp;#237;&amp;#382;ejte p&amp;#345;&amp;#237;mo v aplikaci&lt;/li>
+    &lt;li>Blokujte sledovac&amp;#237; prvky (nebo aktualizujte nastaven&amp;#237; pro povolen&amp;#237; sledovac&amp;#237;ch prvk&amp;#367;)&lt;/li>
+    &lt;li>Tla&amp;#269;&amp;#237;tkem sma&amp;#382;te cookies a historii vyhled&amp;#225;v&amp;#225;n&amp;#237; a prohl&amp;#237;&amp;#382;en&amp;#237;&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s je vyv&amp;#237;jen Mozillou. Na&amp;#353;&amp;#237; mis&amp;#237; je podporovat zdrav&amp;#253; a otev&amp;#345;en&amp;#253; internet.&lt;br/>
+&lt;a href=%2$s>Zjist&amp;#283;te v&amp;#237;ce&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">Načítání</string>
+    <string name="accessibility_announcement_loading_finished">Stránka načtena</string>
+    <string name="action_cancel">Zrušit</string>
+    <string name="action_ok">OK</string>
+    <string name="action_option_add_search_engine">Přidat vyhledávací modul</string>
+    <string name="action_save">Uložit</string>
+    <string name="common_google_play_services_enable_button">Povolit</string>
+    <string name="common_google_play_services_enable_text">Ke spuštění aplikace %1$s je třeba aktivovat služby Google Play.</string>
+    <string name="common_google_play_services_enable_title">Aktivace služeb Google Play</string>
+    <string name="common_google_play_services_install_button">Instalovat</string>
+    <string name="common_google_play_services_install_text">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které v zařízení nemáte.</string>
+    <string name="common_google_play_services_install_title">Instalace služeb Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Chyba služeb Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Aplikace %1$s má potíže se službami Google Play. Zkuste to prosím znovu.</string>
+    <string name="common_google_play_services_unsupported_text">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které v tomto zařízení nejsou podporovány.</string>
+    <string name="common_google_play_services_update_button">Aktualizovat</string>
+    <string name="common_google_play_services_update_text">Ke spuštění aplikace %1$s je třeba aktualizovat služby Google Play.</string>
+    <string name="common_google_play_services_update_title">Aktualizace služeb Google Play</string>
+    <string name="common_google_play_services_updating_text">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které jsou právě aktualizovány.</string>
+    <string name="common_google_play_services_wear_update_text">Je vyžadována nová verze služeb Google Play. Nová verze se brzy sama nainstaluje.</string>
+    <string name="common_open_on_phone">Otevřít v telefonu</string>
+    <string name="common_signin_button_text">Přihlásit se</string>
+    <string name="common_signin_button_text_long">Přihlásit se k účtu Google</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Návrat zpět</string>
+    <string name="content_description_blocking_switch">Blokovat sledovací prvky</string>
+    <string name="content_description_clear_input">Vymazat pole</string>
+    <string name="content_description_customtab_exit">Návrat do předchozí aplikace</string>
+    <string name="content_description_dismiss_input">Zavřít</string>
+    <string name="content_description_erase">Vymazat historii prohlížení</string>
+    <string name="content_description_forward">Přejít vpřed</string>
+    <string name="content_description_lock">Zabezpečené připojení</string>
+    <string name="content_description_menu">Další možnosti</string>
+    <string name="content_description_reload">Obnovit stránku</string>
+    <string name="content_description_stop">Zastavit načítání stránky</string>
+    <string name="content_description_tab_counter">Počet otevřených panelů: %1$s</string>
+    <string name="contextmenu_image_copy">Kopírovat adresu obrázku</string>
+    <string name="contextmenu_image_save">Uložit obrázek</string>
+    <string name="contextmenu_image_share">Sdílet obrázek</string>
+    <string name="contextmenu_image_warning">Uložené a sdílené obrázky &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>nebudou smaz&amp;#225;ny&lt;/b> když smažete historii aplikace %1$s.</string>
+    <string name="contextmenu_link_copy">Kopírovat adresu odkazu</string>
+    <string name="contextmenu_link_share">Sdílet odkaz</string>
+    <string name="contextmenu_open_in_new_tab">Otevřít odkaz v novém panelu</string>
+    <string name="custom_autocomplete_quick_add">Přidat vlastní URL adresu</string>
+    <string name="dialog_addtohomescreen_action_add">Přidat</string>
+    <string name="dialog_addtohomescreen_action_cancel">Zrušit</string>
+    <string name="dialog_addtohomescreen_tracking_protection">Zkratka se bude otevírat s vypnutou ochranou proti sledování</string>
+    <string name="download_dialog_action_cancel">Zrušit</string>
+    <string name="download_dialog_action_download">Stáhnout</string>
+    <string name="download_dialog_title">Stáhnout soubor</string>
+    <string name="download_dialog_warning">Stažené soubory &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>nebudou smaz&amp;#225;ny&lt;/b> při vymazání historie prohlížení aplikace %1$s.</string>
+    <string name="download_firefox">Stáhnout Firefox</string>
+    <string name="download_snackbar_finished">Soubor %1$s byl stažen</string>
+    <string name="download_snackbar_open">Otevřít</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Str&amp;#225;nka m&amp;#367;&amp;#382;e b&amp;#253;t do&amp;#269;asn&amp;#283; nedostupn&amp;#225; nebo zanepr&amp;#225;zdn&amp;#283;n&amp;#225;. Zkuste to znovu za p&amp;#225;r okam&amp;#382;ik&amp;#367;.&lt;/li>
+        &lt;li>Pokud nem&amp;#367;&amp;#382;ete na&amp;#269;&amp;#237;st &amp;#382;&amp;#225;dnou str&amp;#225;nku, zkontrolujte va&amp;#353;e mobiln&amp;#237; data nebo Wi-Fi p&amp;#345;ipojen&amp;#237;.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">Nepodařilo se připojit</string>
+    <string name="error_generic_message">Tuto stránku nelze načíst.</string>
+    <string name="error_generic_title">Jejda</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Zkontrolujte adresu pro p&amp;#345;eklepy, jako nap&amp;#345;&amp;#237;klad
+          &lt;strong>ww&lt;/strong>.example.com m&amp;#237;sto
+          &lt;strong>www&lt;/strong>.example.com&lt;/li>
+        &lt;li>Pokud nem&amp;#367;&amp;#382;ete na&amp;#269;&amp;#237;st &amp;#382;&amp;#225;dnou str&amp;#225;nku, zkontrolujte va&amp;#353;e mobiln&amp;#237; data nebo Wi-Fi p&amp;#345;ipojen&amp;#237;.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">Server nebyl nalezen</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Webov&amp;#233; adresy jsou obvykle ps&amp;#225;ny jako &lt;strong>http://www.example.com/&lt;/strong>&lt;/li>
+  &lt;li>Ujist&amp;#283;te se, &amp;#382;e pou&amp;#382;&amp;#237;v&amp;#225;te b&amp;#283;&amp;#382;n&amp;#225; lom&amp;#237;tka (tj. &lt;strong>/&lt;/strong>).&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">Neplatná adresa</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Tento probl&amp;#233;m m&amp;#367;&amp;#382;e b&amp;#253;t zp&amp;#367;sobem zak&amp;#225;z&amp;#225;n&amp;#237;m nebo odm&amp;#237;tnut&amp;#237;m cookies.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">Smyčka při přesměrování</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Tohle m&amp;#367;&amp;#382;e b&amp;#253;t probl&amp;#233;m s konfigurac&amp;#237; serveru, nebo je mo&amp;#382;n&amp;#233;, &amp;#382;e se za tento server n&amp;#283;kdo sna&amp;#382;&amp;#237; vyd&amp;#225;vat.&lt;/li>
+  &lt;li>Pokud jste se k tomuto serveru v minulosti p&amp;#345;ipojili &amp;#250;sp&amp;#283;&amp;#353;n&amp;#283;, m&amp;#367;&amp;#382;e j&amp;#237;t o do&amp;#269;asnou chybu a m&amp;#367;&amp;#382;ete to zkusit znovu pozd&amp;#283;ji.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">Chyba zabezpečeného spojení</string>
+    <string name="error_timeout_title">Časový limit spojení vypršel</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Pro otev&amp;#345;en&amp;#237; t&amp;#233;to adresy budete patrn&amp;#283; pot&amp;#345;ebovat nainstalovat dal&amp;#353;&amp;#237; software.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">Adresa nebyla rozpoznána</string>
+    <string name="errorpage_refresh">Zkusit znovu</string>
+    <string name="errorpage_title">Chyba při načítání stránky</string>
+    <string name="external_app_prompt">Můžete opustit aplikaci %1$s a otevřít tento odkaz v aplikaci %2$s.</string>
+    <string name="external_app_prompt_no_app">Žádná z aplikací na vašem zařízení není schopná otevřít tento odkaz. Můžete opustit aplikaci %1$s a najít vhodnou aplikaci v %2$s.</string>
+    <string name="external_app_prompt_no_app_title">Najít aplikaci, která může otevřít odkaz</string>
+    <string name="external_app_prompt_title">Otevřít odkaz v jiné aplikaci</string>
+    <string name="external_multiple_apps_matched_exit">Opustit režim anonymního prohlížení?</string>
+    <string name="feedback_erase">Vaše historie prohlížení byla vymazána.</string>
+    <string name="firstrun_close_button">OK, rozumím!</string>
+    <string name="firstrun_defaultbrowser_text2">Anonymní prohlížení dostalo nový rozměr. Blokuje reklamy a další obsah, který vás sleduje napříč stránkami a zpomaluje načítání.</string>
+    <string name="firstrun_defaultbrowser_title">Posuňte své soukromí na vyšší úroveň</string>
+    <string name="firstrun_next_button">Další</string>
+    <string name="firstrun_privacy_text">Nastavte si %1$s jako svůj výchozí prohlížeč a získejte výhody soukromého prohlížení kdykoliv otevřete odkaz z ostatních aplikací.</string>
+    <string name="firstrun_privacy_title">Udělejte ze soukromí zvyk</string>
+    <string name="firstrun_search_text">Hledáte něco jiného? V nastavení si zvolte jiný vyhledávací modul jako výchozí.</string>
+    <string name="firstrun_search_title">Vaše hledání, vaše cesta</string>
+    <string name="firstrun_shortcut_text">S aplikací %1$s se můžete rychle vrátit ke svým oblíbeným stránkám. Použijte „Přidat na domovskou obrazovku“ z nabídky aplikace %1$s.</string>
+    <string name="firstrun_shortcut_title">Přidejte si zkratky na vaši domovskou obrazovku</string>
+    <string name="firstrun_skip_button">Přeskočit</string>
+    <string name="gv_prompt_clear">Vymazat</string>
+    <string name="gv_prompt_password_hint">Heslo</string>
+    <string name="gv_prompt_username_hint">Uživatelské jméno</string>
+    <string name="menu_about">O nás</string>
+    <string name="menu_add_to_home_screen">Přidat na domovskou obrazovku</string>
+    <string name="menu_custom_tab_branding">Pohání %1$s</string>
+    <string name="menu_help">Nápověda</string>
+    <string name="menu_open_with_a_browser2">Otevřít v…</string>
+    <string name="menu_open_with_default_browser2">Otevřít v aplikaci %1$s</string>
+    <string name="menu_report_site_issue">Nahlášení chyby stránky</string>
+    <string name="menu_rights">Vaše práva</string>
+    <string name="menu_settings">Nastavení</string>
+    <string name="menu_share">Sdílet…</string>
+    <string name="menu_trackers_blocked_title">Zablokováno sledovacích prvků</string>
+    <string name="menu_whats_new">Co je nového</string>
+    <string name="notification_action_erase_and_open">Vymazat a otevřít</string>
+    <string name="notification_action_open">Otevřít</string>
+    <string name="notification_browsing_session_channel_description">Oznámení aplikace %1$s vám umožní smazat historii jedním klepnutím. Nemusíte ani otevírat aplikaci nebo se dívat, co máte zrovna otevřeno.</string>
+    <string name="notification_browsing_session_channel_name">Relace anonymního prohlížení</string>
+    <string name="notification_erase_text">Vymazat historii prohlížení</string>
+    <string name="preference_about">O aplikaci %1$s</string>
+    <string name="preference_autocomplete_action_add">+ Přidat vlastní URL adresu</string>
+    <string name="preference_autocomplete_action_remove_content_description">Odebrat</string>
+    <string name="preference_autocomplete_add_confirmation">Vlastní URL adresa přidána.</string>
+    <string name="preference_autocomplete_add_error">Zkontrolujte zadanou URL adresu.</string>
+    <string name="preference_autocomplete_add_example">Příklad: example.com</string>
+    <string name="preference_autocomplete_add_hint">Vložte nebo zadejte URL adresu</string>
+    <string name="preference_autocomplete_add_title">URL adresa k přidání</string>
+    <string name="preference_autocomplete_custom_summary">Přidání a správa vlastních URL adres pro automatické doplňování.</string>
+    <string name="preference_autocomplete_duplicate_url_error">URL adresa už existuje</string>
+    <string name="preference_autocomplete_learn_more">Zjistit více</string>
+    <string name="preference_autocomplete_menu_remove">Odebrat</string>
+    <string name="preference_autocomplete_preinstalled_summary">Po zapnutí bude %1$s našeptávat více než 450 populárních URL adres.</string>
+    <string name="preference_autocomplete_subitem_customlist">Vlastní URL adresy</string>
+    <string name="preference_autocomplete_title_add">Přidat vlastní URL adresu</string>
+    <string name="preference_autocomplete_title_remove">Odebrat vlastní URL adresy</string>
+    <string name="preference_category_autocomplete_custom_urls">Vlastní URL adresy</string>
+    <string name="preference_category_autocomplete_preinstalled">Výchozí seznam URL adres</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Výkon</string>
+    <string name="preference_category_privacy">Soukromí</string>
+    <string name="preference_category_search">Hledat</string>
+    <string name="preference_default_browser2">Nastavit %1$s jako výchozí prohlížeč</string>
+    <string name="preference_language">Jazyk</string>
+    <string name="preference_language_systemdefault">Systémové nastavení</string>
+    <string name="preference_mozilla_telemetry2">Odesílat údaje o používání</string>
+    <string name="preference_mozilla_telemetry_summary">Zjistit více</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla sbírá jenom ty informace, které potřebuje pro další vylepšování aplikace %1$s.</string>
+    <string name="preference_performance_block_javascript">Blokovat JavaScript</string>
+    <string name="preference_performance_block_javascript_summary">Stránky se mohou načítat rychleji, ale také nemusí správně fungovat</string>
+    <string name="preference_performance_block_webfonts">Blokovat webové fonty</string>
+    <string name="preference_performance_block_webfonts_summary">Některé ikony nebo obrázky se nemusí zobrazovat</string>
+    <string name="preference_privacy_and_security_header">Soukromí a zabezpečení</string>
+    <string name="preference_privacy_and_security_summary">Sledování, soubory cookie, možnosti hlášení</string>
+    <string name="preference_privacy_block_ads">Blokovat sledující reklamy</string>
+    <string name="preference_privacy_block_ads_summary">Některé reklamy sledují návštěvy stránek i v případě, že na reklamy nekliknete</string>
+    <string name="preference_privacy_block_analytics">Blokovat analytické prvky</string>
+    <string name="preference_privacy_block_analytics_summary">Slouží k shromážďování, analýze a měření aktivit jako je klepnutí nebo posouvání</string>
+    <string name="preference_privacy_block_content">Blokovat ostatní sledovací prvky</string>
+    <string name="preference_privacy_block_content_summary2">Zapnutí může způsobit, že se některé stránky budou chovat neočekávaně</string>
+    <string name="preference_privacy_block_social">Blokovat sledovací prvky sociálních sítí</string>
+    <string name="preference_privacy_block_social_summary">Vloženo do stránek pro sledování vašich návštěv a zobrazování funkcí jako tlačítka pro sdílení</string>
+    <string name="preference_privacy_category_cookies">Blokovat cookies</string>
+    <string name="preference_privacy_notice">Zásady ochrany osobních údajů</string>
+    <string name="preference_privacy_secure_mode">Nenápadnost</string>
+    <string name="preference_privacy_should_block_cookies_no_option">Ne</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Blokovat pouze cookies třetích stran</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Ano</string>
+    <string name="preference_privacy_stealth_summary">Skrýt webové stránky při přepínání aplikací</string>
+    <string name="preference_search_add2">+ Přidat jiný vyhledávací modul</string>
+    <string name="preference_search_engine_default">Výchozí</string>
+    <string name="preference_search_installed_search_engines">Nainstalované vyhledávací moduly</string>
+    <string name="preference_search_remove">Odebrat</string>
+    <string name="preference_search_remove_title">Odebrat vyhledávací moduly</string>
+    <string name="preference_search_restore">Obnovit výchozí vyhledávací moduly</string>
+    <string name="preference_state_off">Vypnuto</string>
+    <string name="preference_state_on">Zapnuto</string>
+    <string name="preference_subitem_autocomplete">Automatické doplňování URL adres</string>
+    <string name="preference_switch_autocomplete">Doplňovat automaticky</string>
+    <string name="search_add_confirmation">Nový vyhledávací modul byl přidán.</string>
+    <string name="search_add_error_duplicate_name">Tento název už je používán nainstalovaným vyhledávacím modulem.</string>
+    <string name="search_add_error_empty_name">Zadejte název vyhledávače</string>
+    <string name="search_add_error_empty_search">Zadejte hledaný řetězec</string>
+    <string name="search_add_error_format">Zkontrolujte, zda vyhledávací řetězec odpovídá formátu příkladu</string>
+    <string name="search_add_manually_example">Příklad: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">Název vyhledávacího modulu</string>
+    <string name="search_add_manually_save">Uložit</string>
+    <string name="search_add_manually_string">Použít řetězec pro vyhledávání</string>
+    <string name="search_hint">Hledat %1$s</string>
+    <string name="search_menu_title">Hledat</string>
+    <string name="security_popup_insecure_connection">Nezabezpečené připojení</string>
+    <string name="security_popup_secure_connection">Zabezpečené připojení</string>
+    <string name="security_popup_security_verified">Ověřil: %1$s</string>
+    <string name="share_dialog_title">Sdílet přes</string>
+    <string name="shortcut_erase_long_label">Vymazat historii prohlížení</string>
+    <string name="shortcut_erase_short_label">Vymazat</string>
+    <string name="site_security_icon_content_description">Zabezpečení stránky</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tabs_tray_action_erase">Vymazat historii prohlížení</string>
+    <string name="teaser">"Automatické anonymní prohlížení.
+Prohlížejte. Vymažte. Opakujte."</string>
+    <string name="text_selection_search_action">Vyhledávejte soukromě</string>
+    <string name="urlbar_hint">Zadejte hledání nebo adresu</string>
+    <string name="your_rights">Vaše práva</string>
+    <string name="your_rights_content1">%1$s je otevřený software zdarma od Mozilly a jiných přispěvatelů.</string>
+    <string name="your_rights_content2">%1$s vám je zpřístupněn pod podmínkami &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Mozilla Public License&lt;/a> a jiných open source licencí.</string>
+    <string name="your_rights_content3">Nejsou vám však podstoupena žádná práva ani licence k ochranným známkám Mozilla Foundation či dalších stran, a to zejména k logům a jménům Mozilla, Firefox nebo %1$s. Podrobnější informace o ochranných známkách jsou dostupné &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>zde&lt;/a>.</string>
+    <string name="your_rights_content4">Další zdrojové kódy pro %1$s jsou dostupné pod dalšími různými &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>licencemi&lt;/a> svobodného softwaru.</string>
+    <string name="your_rights_content5">%1$s také používá seznamy společnosti Disconnect, Inc. poskytnuté jako samostatná a nezávislá díla pod licencí &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>GNU General Public License v3&lt;/a> a dostupné &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>zde&lt;/a>.</string>
+</resources>

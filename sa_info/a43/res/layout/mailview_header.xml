@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout n1:orientation="vertical" n1:id="@id/header" n1:paddingTop="@dimen/mailview_header_top_margin" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <ru.mail.uikit.view.CheckableImageView n1:id="@id/mailbox_mailmessage_content_readed" n1:background="?selectableItemBackgroundBorderless" n1:layout_width="32.0dip" n1:layout_height="32.0dip" n1:layout_marginLeft="6.0dip" n1:layout_marginTop="10.0dip" n1:scaleType="center" />
+        <ru.mail.uikit.view.CheckableImageView n1:id="@id/mailbox_mailmessage_content_flagged" n1:background="?selectableItemBackgroundBorderless" n1:layout_width="40.0dip" n1:layout_height="44.0dip" n1:layout_marginTop="4.0dip" n1:layout_marginRight="4.0dip" n1:layout_alignParentRight="true" />
+        <TextView n1:id="@id/mailbox_mailmessage_content_theme" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="3.0dip" n1:layout_marginTop="15.0dip" n1:layout_marginRight="2.0dip" n1:layout_marginBottom="8.0dip" n1:layout_toLeftOf="@id/mailbox_mailmessage_content_flagged" n1:layout_toRightOf="@id/mailbox_mailmessage_content_readed" n1:lineSpacingExtra="1.0dip" style="?android:textAppearanceLarge" />
+        <TextView n1:id="@id/mailbox_mailmessage_content_date" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="3.0dip" n1:layout_marginBottom="6.0dip" n1:layout_toRightOf="@id/mailbox_mailmessage_content_readed" n1:layout_below="@id/mailbox_mailmessage_content_theme" style="?android:textAppearanceMedium" />
+    </RelativeLayout>
+    <android.widget.LinearLayout n1:orientation="vertical" n1:id="@id/from_to_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/content_under_expandable_header" n1:background="?android:windowBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <View n1:layout_width="fill_parent" n1:layout_height="@dimen/divider_primary" style="@style/mailview_line" />
+        <android.widget.LinearLayout n1:orientation="vertical" n1:id="@id/mailbox_mailcontent_attachcounter_view" n1:paddingBottom="12.0dip" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView n1:id="@id/attachments_gallery" n1:layout_width="fill_parent" n1:layout_height="@dimen/attachment_height" n1:layout_marginTop="16.0dip" />
+            <include n1:id="@id/attachments_label" layout="@layout/attachments_label" />
+            <View n1:id="@id/gray_line_divider3" n1:background="@color/divider_primary" n1:layout_width="fill_parent" n1:layout_height="@dimen/divider_primary" n1:layout_marginTop="12.0dip" />
+        </android.widget.LinearLayout>
+        <LinearLayout n1:orientation="vertical" n1:id="@id/show_images_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textSize="14.0sp" n1:textColor="@color/contrast_primary" n1:gravity="center" n1:paddingLeft="12.0dip" n1:paddingRight="12.0dip" n1:layout_width="wrap_content" n1:layout_height="48.0dip" n1:text="@string/show_images" n1:textAllCaps="true" style="@style/TextAppearance.Medium" />
+            <View n1:layout_width="fill_parent" n1:layout_height="@dimen/divider_primary" style="@style/mailview_line" />
+        </LinearLayout>
+        <ProgressBar n1:layout_gravity="center_horizontal" n1:id="@id/progress_bar" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dip" n1:indeterminate="true" />
+        <FrameLayout n1:id="@id/read_msg_ad_block" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="?listPreferredItemHeight" />
+        <include layout="@layout/retry_block" />
+        <include layout="@layout/mail_view_access_denied" />
+    </LinearLayout>
+</android.widget.LinearLayout>

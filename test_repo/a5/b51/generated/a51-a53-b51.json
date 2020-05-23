@@ -1,0 +1,129 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button1",
+    "text": "Accept",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".MainActivity",
+    "package": "com.tleapps.simpletipcalculator",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.tleapps.simpletipcalculator:id/editTextBill",
+    "text": "100.00",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Bill",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "button1",
+        "id-prefix": "android:id/",
+        "text": "Accept",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".MainActivity",
+        "package": "com.tleapps.simpletipcalculator",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.tleapps.simpletipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.18114201441714195,
+    "action": [
+      "clear_and_send_keys",
+      "56.6"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.tleapps.simpletipcalculator:id/editTextTip",
+    "text": "15",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "+",
+    "stepping_events": [],
+    "package": "com.tleapps.simpletipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.13801662384979108,
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "15"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.tleapps.simpletipcalculator:id/buttonCalculate",
+    "text": "Calculate",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".MainActivity",
+    "package": "com.tleapps.simpletipcalculator",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.tleapps.simpletipcalculator:id/textViewTotalToPay",
+    "text": "$65.09",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Total Bill",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "buttonCalculate",
+        "id-prefix": "com.tleapps.simpletipcalculator:id/",
+        "text": "Calculate",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".MainActivity",
+        "package": "com.tleapps.simpletipcalculator",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.tleapps.simpletipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "oracle",
+    "score": 0.2588414426172255,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "65.09"
+    ]
+  }
+]

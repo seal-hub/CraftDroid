@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:layout_width="280.0dip" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dip" n1:layout_marginRight="16.0dip">
+        <ScrollView n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_marginTop="8.0dip" n1:layout_weight="1.0">
+            <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dip" n1:layout_marginRight="8.0dip">
+                <ImageView n1:id="@id/dialog_icon" n1:layout_width="96.0dip" n1:layout_height="96.0dip" n1:layout_marginTop="28.0dip" />
+                <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceLarge" n1:textColor="@color/primary_inverse" n1:id="@id/confirmation_text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="33.0dip" n1:lineSpacingExtra="1.0dip" n2:textFont="robotoRegular" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="14.0dip">
+                    <ProgressBar n1:id="@id/remove_progress" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dip" n1:layout_centerInParent="true" />
+                    <LinearLayout n1:orientation="vertical" n1:id="@id/remove_layout" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true">
+                        <RelativeLayout n1:id="@id/remove_check_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                            <CheckBox n1:id="@id/remove_checkbox" n1:padding="3.0dip" n1:focusable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true" />
+                            <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceLarge" n1:textColor="@color/primary_inverse" n1:id="@id/remove_text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="40.0dip" n1:layout_centerVertical="true" n3:textFont="robotoRegular" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                        </RelativeLayout>
+                        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceLarge" n1:textSize="14.0sp" n1:textColor="@color/secondary_text" n1:id="@id/remove_newsletters_text" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="40.0dip" n1:layout_marginTop="2.0dip" n1:text="@string/newsletters_only_will_remove" n4:textFont="robotoRegular" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+        <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <Button n1:id="@id/btn_confirm" n1:layout_width="fill_parent" n1:layout_height="54.0dip" n1:layout_marginLeft="8.0dip" n1:layout_marginTop="18.0dip" n1:layout_marginRight="8.0dip" n1:text="@string/dialog_continue" />
+            <ru.mail.uikit.view.FontButton n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/contrast_primary" n1:gravity="center" n1:id="@id/btn_cancel" n1:paddingLeft="8.0dip" n1:paddingTop="10.0dip" n1:paddingRight="8.0dip" n1:paddingBottom="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="2.0dip" n1:layout_marginTop="8.0dip" n1:layout_marginBottom="6.0dip" n1:text="@string/cancel" n1:layout_below="@id/btn_confirm" n1:layout_alignParentRight="true" n1:textAllCaps="true" style="?android:borderlessButtonStyle" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_height="wrap_content" n1:layout_centerHorizontal="true" style="?pinFormStyle">
+        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceLarge" n1:gravity="center" n1:id="@id/title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="?titleTextMarginBottom" />
+        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:textSize="16.0sp" n1:gravity="center" n1:id="@id/title_error" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dip" />
+        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/error" n1:gravity="center" n1:id="@id/error" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/pin_dots" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true">
+                <ImageView n1:id="@id/pin_dot1" style="?pinDotStyle" />
+                <ImageView n1:id="@id/pin_dot2" style="?pinDotStyle" />
+                <ImageView n1:id="@id/pin_dot3" style="?pinDotStyle" />
+                <ImageView n1:id="@id/pin_dot4" style="?pinDotStyle" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_weight="3.0" n1:layout_centerVertical="true">
+                <RelativeLayout n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+                    <ProgressBar n1:id="@id/progress" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" />
+                </RelativeLayout>
+                <FrameLayout n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="1.0" />
+                <RelativeLayout n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+                    <ImageButton n1:id="@id/delete_button" n1:background="?deleteButtonBackground" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" n2:srcCompat="?deletePinButton" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <View n1:background="?dividerColor" n1:layout_width="fill_parent" n1:layout_height="2.0dip" n1:layout_marginLeft="31.0dip" n1:layout_marginRight="31.0dip" />
+        <android.support.v7.widget.GridLayout n1:layout_gravity="center" n1:id="@id/pin_key_pad" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="?gridMarginTop" n3:columnCount="3" n3:orientation="horizontal" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <ru.mail.uikit.view.FontButton n1:id="@id/button1" n1:text="@string/pinkeyboard_numpad_1" n3:layout_columnWeight="1.0" n3:layout_gravity="fill" />
+            <ru.mail.uikit.view.FontButton n1:id="@id/button2" n1:text="@string/pinkeyboard_numpad_2" n3:layout_columnWeight="1.0" n3:layout_gravity="fill" />
+            <ru.mail.uikit.view.FontButton n1:id="@id/button3" n1:text="@string/pinkeyboard_numpad_3" n3:layout_columnWeight="1.0" n3:layout_gravity="fill" />
+            <ru.mail.uikit.view.FontButton n1:id="@id/button4" n1:text="@string/pinkeyboard_numpad_4" n3:layout_columnWeight="1.0" n3:layout_gravity="fill" />
+            <ru.mail.uikit.view.FontButton n1:id="@id/button5" n1:text="@string/pinkeyboard_numpad_5" n3:layout_columnWeight="1.0" n3:layout_gravity="fill" />
+            <ru.mail.uikit.view.FontButton n1:id="@id/button6" n1:text="@string/pinkeyboard_numpad_6" n3:layout_columnWeight="1.0" n3:layout_gravity="fill" />
+            <ru.mail.uikit.view.FontButton n1:id="@id/button7" n1:text="@string/pinkeyboard_numpad_7" n3:layout_columnWeight="1.0" n3:layout_gravity="fill" />
+            <ru.mail.uikit.view.FontButton n1:id="@id/button8" n1:text="@string/pinkeyboard_numpad_8" n3:layout_columnWeight="1.0" n3:layout_gravity="fill" />
+            <ru.mail.uikit.view.FontButton n1:id="@id/button9" n1:text="@string/pinkeyboard_numpad_9" n3:layout_columnWeight="1.0" n3:layout_gravity="fill" />
+            <ImageButton n1:id="@id/fingerprint_button" n1:visibility="invisible" n3:layout_column="0" n3:layout_gravity="fill" n3:srcCompat="?fingerButton" />
+            <ru.mail.uikit.view.FontButton n1:id="@id/button0" n1:text="@string/pinkeyboard_numpad_0" n3:layout_column="1" n3:layout_gravity="fill" />
+        </android.support.v7.widget.GridLayout>
+    </LinearLayout>
+</RelativeLayout>

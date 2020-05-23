@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Adresser kopieret til udklipsholder</item>
+        <item quantity="one">Adresse kopieret til udklipsholder</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Ønsker du virkelig at slette %1$d meddelelser?</item>
+        <item quantity="one">Ønsker du virkelig at slette denne meddelelse?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Ønsker du virkelig at flytte %1$d meddelelser til spam mappen?</item>
+        <item quantity="one">Ønsker du virkelig at flytte denne meddelelse til spam mappen?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%dnye meddelelser</item>
+        <item quantity="one">%dnyt brev</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s konti</item>
+        <item quantity="one">1 konto</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">server passwords</item>
+        <item quantity="one">server password</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Angiver passwords…</item>
+        <item quantity="one">Angiver password…</item>
+    </plurals>
+</resources>

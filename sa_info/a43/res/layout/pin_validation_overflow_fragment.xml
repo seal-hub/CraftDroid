@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_centerVertical="true">
+        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceLarge" n1:textSize="14.0sp" n1:gravity="center" n1:id="@id/error" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="PIN-коды не совпали. Повторите попытку" />
+        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceLarge" n1:textSize="14.0sp" n1:gravity="center" n1:id="@id/logout_text" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/error_pin_enter_overflow_second_string" />
+        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceLarge" n1:textSize="14.0sp" n1:gravity="center" n1:id="@id/logout_link" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/error_pin_enter_overflow_link" />
+    </LinearLayout>
+</RelativeLayout>

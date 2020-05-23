@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Kopierte adressene til utklippstavlen</item>
+        <item quantity="one">Kopierte adressen til utklippstavlen</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Ønsker du virkelig å slette %1$d meldinger?</item>
+        <item quantity="one">Ønsker du virkelig å slette denne meldingen?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Ønsker du virkelig å flytte %1$d meldinger til søppelpost-mappen?</item>
+        <item quantity="one">Ønsker du virkelig å flytte denne meldingen til søppelpost-mappen?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d nye meldinger</item>
+        <item quantity="one">%d ny melding</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Henter %d resultater</item>
+        <item quantity="one">Henter %d resultat</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Henter %1$d av %2$d resultater</item>
+        <item quantity="one">Henter %1$d av %2$d resultater</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s kontoer</item>
+        <item quantity="one">1 konto</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">tjenerpassord</item>
+        <item quantity="one">tjenerpassord</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Setter passord …</item>
+        <item quantity="one">Setter passord …</item>
+    </plurals>
+</resources>

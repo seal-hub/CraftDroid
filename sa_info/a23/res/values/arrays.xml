@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+    </array>
+    <string-array name="default_reminder_times">
+        <item>-1</item>
+        <item>43200</item>
+        <item>86400</item>
+        <item>129600</item>
+        <item>172800</item>
+        <item>216000</item>
+        <item>259200</item>
+    </string-array>
+    <string-array name="default_reminder_times_human">
+        <item>At the deadline</item>
+        <item>0.5 days before</item>
+        <item>1 day before</item>
+        <item>1.5 days before</item>
+        <item>2 days before</item>
+        <item>2.5 days before</item>
+        <item>3 days before</item>
+    </string-array>
+</resources>

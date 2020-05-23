@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">گذرواژه‌های کارگزار</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">تنظیم گذرواژه‌ها…</item>
+    </plurals>
+</resources>

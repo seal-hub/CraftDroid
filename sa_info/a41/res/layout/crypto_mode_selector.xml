@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="220.0dip" android:layout_height="wrap_content" android:layout_margin="20.0dip">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/icon_disabled" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/status_lock_disabled" android:tint="?openpgp_dark_grey" android:layout_weight="1.0" />
+            <ImageView android:id="@id/icon_opportunistic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/status_lock_opportunistic" android:layout_weight="1.0" />
+            <ImageView android:id="@id/icon_private" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/status_lock_closed" android:layout_weight="1.0" />
+        </LinearLayout>
+        <SeekBar android:layout_gravity="center_horizontal" android:id="@id/seek_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="21.0dip" android:max="200" android:progress="100" android:progressDrawable="@drawable/seekbar_background" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="InactiveText" parent="@android:style/TextAppearance.Large">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+    <style name="ActiveText" parent="@android:style/TextAppearance.Large" />
+</resources>

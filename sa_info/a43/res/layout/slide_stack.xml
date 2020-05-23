@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.mail.fragments.view.RelativeLayoutPosition n1:id="@id/container" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.ui.ExpandedDrawerLayout n1:id="@id/drawer_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <RelativeLayout n1:id="@id/mail_fragment_frame" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/toolbar_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentTop="true">
+                <ru.mail.ui.CustomTabletLandscapeToolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:leftFragmentWidth="300.0dip" n2:middleMenuResId="@menu/mails_tab" n2:middleMunuRightMargin="4.0dip" n2:theme="@style/ToolbarTheme" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <View n1:background="@drawable/shadow_ab" n1:layout_width="fill_parent" n1:layout_height="@dimen/shadow_height" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout n1:layout_gravity="start" n1:id="@id/folders_fragment_frame" n1:background="@android:color/white" n1:clickable="true" n1:layout_width="320.0dip" n1:layout_height="fill_parent" n1:choiceMode="singleChoice" />
+    </ru.mail.ui.ExpandedDrawerLayout>
+    <android.support.design.widget.CoordinatorLayout n1:id="@id/coordinator_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+</ru.mail.fragments.view.RelativeLayoutPosition>

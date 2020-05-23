@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/con" n1:padding="8.0dip" n1:layout_width="72.0dip" n1:layout_height="72.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <ImageView n1:id="@id/widget_icon" n1:padding="2.0dip" n1:layout_width="54.0dip" n1:layout_height="54.0dip" n1:src="@drawable/ic_launcher" n1:scaleType="fitCenter" n1:layout_centerInParent="true" />
+        <TextView n1:id="@id/widget_counter" n1:background="@drawable/widget_counter" n1:paddingLeft="4.0dip" n1:paddingTop="1.0dip" n1:paddingRight="4.0dip" n1:paddingBottom="2.0dip" n1:visibility="invisible" n1:shadowColor="#ffffffff" n1:shadowDx="1.0" n1:shadowDy="1.0" n1:shadowRadius="2.0" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" style="@style/widget_counter" />
+    </RelativeLayout>
+    <TextView n1:textSize="13.0sp" n1:textColor="@android:color/white" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/app_label_mail" />
+</LinearLayout>

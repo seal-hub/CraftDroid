@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="QuickActionsStyle" parent="@style/BaseQuickActionsStyle">
+        <item name="backgroundSize">asLayout</item>
+        <item name="quickActionBackgroundMargin">@dimen/quick_action_backgroundMargin</item>
+    </style>
+</resources>

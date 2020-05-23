@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="@dimen/layout_margin_56dp" android:minHeight="@dimen/layout_margin_56dp" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_vertical" android:id="@id/dialog_text" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+        <Button android:textColor="@color/colorAccent" android:id="@id/action_ok" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_ok" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_alignParentEnd="true" />
+        <Button android:textColor="@color/colorAccent" android:id="@id/action_cancel" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_cancel" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_toStartOf="@id/action_ok" />
+    </RelativeLayout>
+</LinearLayout>

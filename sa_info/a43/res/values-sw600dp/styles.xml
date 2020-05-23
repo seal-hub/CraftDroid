@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DatePickerDialogTheme" parent="@style/AlertDialogTheme">
+        <item name="android:windowMinWidthMajor">400.0dip</item>
+        <item name="android:windowMinWidthMinor">328.0dip</item>
+    </style>
+    <style name="LoginFormWidthStyle">
+        <item name="android:layout_width">416.0dip</item>
+    </style>
+    <style name="PinFormWidthStyle">
+        <item name="android:paddingTop">32.0dip</item>
+        <item name="android:layout_width">372.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="Theme.Window.NoMinWidth" parent="@style/Base.Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">400.0dip</item>
+        <item name="android:windowMinWidthMinor">328.0dip</item>
+        <item name="windowMinWidthMajor">400.0dip</item>
+        <item name="windowMinWidthMinor">328.0dip</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>

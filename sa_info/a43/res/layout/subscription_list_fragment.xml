@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.uikit.view.FontTextView n1:textSize="14.0sp" n1:textColor="@color/black" n1:gravity="center" n1:id="@id/subscriptions_title" n1:padding="16.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/choose_subscription" n2:textFont="robotoRegular" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ListView n1:id="@id/subscription_list" n1:paddingLeft="16.0dip" n1:paddingRight="16.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+</LinearLayout>

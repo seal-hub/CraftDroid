@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <View n1:background="@drawable/shadow_ab" n1:layout_width="fill_parent" n1:layout_height="@dimen/shadow_height" n1:layout_below="@id/toolbar" />
+    <ScrollView n1:scrollbars="none" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:overScrollMode="never">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <ru.mail.ctrl.FilterFromView n1:id="@id/from" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:autoCompleteView="@layout/filter_autocomplete" n2:dropDownAnchorId="@id/from" n2:text="@string/mailbox_from" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <View n1:background="@color/divider_primary" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+            <TextView n1:textColor="@color/contrast_primary" n1:layout_gravity="left" n1:paddingLeft="16.0dip" n1:paddingTop="20.0dip" n1:paddingBottom="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/filter_settings" style="?android:textAppearanceLarge" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/moveTo" n1:background="?selectableItemBackground" n1:paddingLeft="16.0dip" n1:paddingTop="10.0dip" n1:paddingRight="16.0dip" n1:paddingBottom="10.0dip" n1:layout_width="fill_parent" n1:layout_height="68.0dip">
+                <TextView n1:textAppearance="?android:textAppearanceLarge" n1:textColor="@color/text_field" n1:ellipsize="marquee" n1:layout_gravity="left" n1:fadingEdge="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/move_to" n1:singleLine="true" />
+                <TextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="?android:textColorSecondary" n1:ellipsize="end" n1:layout_gravity="left" n1:id="@id/folder" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:hint="@string/choose_folder" n1:maxLines="1" n1:singleLine="true" />
+            </LinearLayout>
+            <RelativeLayout n1:id="@id/mark_as_read_container" n1:background="?selectableItemBackground" n1:paddingLeft="16.0dip" n1:paddingTop="10.0dip" n1:paddingRight="16.0dip" n1:paddingBottom="10.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <TextView n1:textAppearance="?android:textAppearanceLarge" n1:textColor="@color/text_field" n1:ellipsize="marquee" n1:fadingEdge="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/mark_as_read" n1:singleLine="true" n1:layout_alignParentLeft="true" />
+                <CheckBox n1:id="@id/mark_as_read" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout n1:id="@id/apply_to_messages_container" n1:background="?selectableItemBackground" n1:paddingLeft="16.0dip" n1:paddingTop="10.0dip" n1:paddingRight="16.0dip" n1:paddingBottom="10.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <TextView n1:textAppearance="?android:textAppearanceLarge" n1:textColor="@color/text_field" n1:ellipsize="marquee" n1:fadingEdge="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/apply_to_messages_in_the_inbox" n1:singleLine="true" n1:layout_alignParentLeft="true" />
+                <CheckBox n1:id="@id/apply_to_inbox" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <View n1:background="@android:color/white" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

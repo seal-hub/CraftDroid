@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/pin_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:gravity="center" android:id="@id/iv_pin_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pin" android:scaleX="0.7" android:scaleY="0.7" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/black" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/enter_pin" android:layout_toRightOf="@id/iv_pin_icon" android:layout_centerVertical="true" android:layout_toEndOf="@id/iv_pin_icon" />
+    </RelativeLayout>
+    <EditText android:id="@id/et_pin_pin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="4" android:inputType="numberPassword" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/bt_pin_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@android:string/cancel" android:layout_toLeftOf="@id/bt_pin_ok" style="?android:buttonBarButtonStyle" />
+        <Button android:id="@id/bt_pin_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/ok" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="?android:buttonBarButtonStyle" />
+    </RelativeLayout>
+    <Button android:gravity="end" android:id="@id/bt_reset_application" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reset_application_button" style="?android:buttonBarButtonStyle" />--></LinearLayout>

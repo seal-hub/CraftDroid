@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.mozilla.focus.search.RadioSearchEngineListPreference android:key="@string/pref_key_radio_search_engine_list" />
+    <Preference android:title="@string/preference_search_add2" android:key="@string/pref_key_manual_add_search_engine" />
+</PreferenceScreen>

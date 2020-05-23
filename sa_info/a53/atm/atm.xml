@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cgNode>
+    <node>Root</node>
+    <outgoingEdge>
+        <type>SYMBOLIC</type>
+        <toNode>
+            <node>com.tleapps.simpletipcalculator.MainActivity: void onCreate(android.os.Bundle)</node>
+            <outgoingEdge>
+                <label>NULL</label>
+                <type>GUI</type>
+                <toNode>
+                    <node>android.support.v4.app.Fragment$OnStartEnterTransitionListener: void onStartEnterTransition()</node>
+                </toNode>
+            </outgoingEdge>
+            <outgoingEdge>
+                <label>NULL</label>
+                <type>GUI</type>
+                <toNode>
+                    <node>android.support.v4.app.Fragment$OnStartEnterTransitionListener: void onStartEnterTransition()</node>
+                </toNode>
+            </outgoingEdge>
+            <outgoingEdge>
+                <label>NULL</label>
+                <type>GUI</type>
+                <toNode>
+                    <node>android.support.v4.app.Fragment$OnStartEnterTransitionListener: void onStartEnterTransition()</node>
+                </toNode>
+            </outgoingEdge>
+        </toNode>
+    </outgoingEdge>
+</cgNode>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="56.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/left_icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dip" n1:layout_marginTop="12.0dip" n1:layout_marginRight="16.0dip" n1:layout_marginBottom="12.0dip" n1:layout_centerVertical="true" />
+    <ru.mail.uikit.view.FontTextView n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/text" n1:paddingRight="3.0dip" n1:duplicateParentState="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginBottom="1.0dip" n1:singleLine="true" n1:layout_toLeftOf="@id/actions_layout" n1:layout_toRightOf="@id/left_icon" n1:layout_centerVertical="true" style="?android:textAppearanceLarge" />
+    <android.widget.LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/actions_layout" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true">
+        <ImageButton n1:id="@id/edit" n1:layout_width="40.0dip" n1:layout_height="40.0dip" n1:layout_marginRight="24.0dip" n2:srcCompat="@drawable/ic_action_edit_contrast" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <ImageButton n1:id="@id/delete" n1:layout_width="40.0dip" n1:layout_height="40.0dip" n1:layout_marginRight="12.0dip" n3:srcCompat="@drawable/ic_action_delete_contrast" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </android.widget.LinearLayout>
+</RelativeLayout>

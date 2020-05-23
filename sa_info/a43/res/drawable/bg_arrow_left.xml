@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <bitmap n1:gravity="center" n1:src="@drawable/ic_arrow_left"
+          xmlns:n1="http://schemas.android.com/apk/res/android" />
+    </item>
+    <item n2:drawable="@drawable/selectable_item_bg_border"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</layer-list>

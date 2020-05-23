@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/content" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <ru.mail.fragments.view.CropTransformerView n1:id="@id/image_transformer_view" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+        <Button n1:id="@id/cancel_btn" n1:background="@drawable/btn_edit_ava_discard" n1:layout_width="60.0dip" n1:layout_height="60.0dip" n1:layout_marginLeft="30.0dip" n1:layout_marginBottom="30.0dip" n1:layout_alignParentLeft="true" n1:layout_alignParentBottom="true" />
+        <Button n1:id="@id/ok_btn" n1:background="@drawable/btn_edit_ava_done" n1:layout_width="60.0dip" n1:layout_height="60.0dip" n1:layout_marginRight="30.0dip" n1:layout_marginBottom="30.0dip" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ProgressBar n1:id="@id/progress_bar" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" style="@style/ProgressBar.Large" />
+</RelativeLayout>

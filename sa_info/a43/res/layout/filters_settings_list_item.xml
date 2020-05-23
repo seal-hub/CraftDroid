@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="horizontal" n1:background="?selectableItemBackground" n1:paddingLeft="16.0dip" n1:paddingRight="12.0dip" n1:clickable="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.widget.LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/filter_info" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toLeftOf="@id/actions_layout" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true">
+        <TextView n1:textAppearance="?android:textAppearanceLarge" n1:textColor="@color/text_field" n1:ellipsize="middle" n1:gravity="left" n1:id="@id/filter" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" />
+        <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/text_primary_inverse_disabled" n1:ellipsize="end" n1:gravity="left" n1:id="@id/action" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" n2:textFont="robotoLight" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </android.widget.LinearLayout>
+    <android.widget.LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/actions_layout" n1:paddingLeft="20.0dip" n1:paddingTop="20.0dip" n1:paddingBottom="20.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true">
+        <ImageButton n1:id="@id/edit" n1:layout_width="40.0dip" n1:layout_height="40.0dip" n1:layout_marginRight="12.0dip" n3:srcCompat="@drawable/ic_action_edit_contrast" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <ImageButton n1:id="@id/delete" n1:layout_width="40.0dip" n1:layout_height="40.0dip" n4:srcCompat="@drawable/ic_action_delete_contrast" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </android.widget.LinearLayout>
+</RelativeLayout>

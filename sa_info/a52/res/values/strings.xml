@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="bill_text_view">Bill</string>
+    <string name="bill_edit_text" />
+    <string name="tip_text_view">Tip %</string>
+    <string name="tip_edit_text">15.0</string>
+    <string name="final_text_view">Final Bill: Verified by Vir</string>
+    <string name="final_bill_text_view">Total:</string>
+    <string name="final_bill_edit_text">0.0</string>
+    <string name="final_tip_text_view">Tip:</string>
+    <string name="final_tip_edit_text">0.0</string>
+    <string name="split">Split Bill</string>
+    <string name="split_edit_text" />
+    <string name="per_person">Per Person:</string>
+    <string name="per_person_edit_text">0.0</string>
+    <string name="split_bill_hint">\# of ways</string>
+    <string name="signoff">Thanks for tipping your waiter/waitress!</string>
+</resources>

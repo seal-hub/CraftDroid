@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?contactTokenBackgroundColor" android:layout_width="wrap_content" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:id="@id/contact_photo" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+    <TextView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:maxLines="1" />
+    <ImageView android:id="@id/contact_crypto_status_icon_simple" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_status_corner" android:tint="?openpgp_black" />
+    <ImageView android:id="@id/contact_crypto_status_icon_simple_enabled" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_status_corner" android:tint="?openpgp_green" />
+    <ImageView android:id="@id/contact_crypto_status_icon_simple_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_status_corner" android:tint="?openpgp_red" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/contact_crypto_status_red" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/status_dots_1" android:tint="?openpgp_red" android:layout_marginEnd="6.0dip" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/contact_crypto_status_orange" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/status_dots_2" android:tint="?openpgp_orange" android:layout_marginEnd="6.0dip" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/contact_crypto_status_green" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/status_dots_3" android:tint="?openpgp_green" android:layout_marginEnd="6.0dip" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">כתובות הועתקו ללוח ההעתקה</item>
+        <item quantity="one">כתובת הועתקה ללוח ההעתקה</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">אתה בטוח שאתה רוצה להעביר %1$d הודעות לתיקיית דואר הזבל?</item>
+        <item quantity="one">אתה בטוח שאתה רוצה להעביר את ההודעות האלו לתיקיית דואר הזבל?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d הודעות חדשות</item>
+        <item quantity="one">%d הודעה חדשה</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s חשבונות</item>
+        <item quantity="one">חשבון 1</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">סיסמת שרת</item>
+        <item quantity="one">סיסמת שרת</item>
+    </plurals>
+</resources>

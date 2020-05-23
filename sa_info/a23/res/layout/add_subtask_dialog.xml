@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/dialog_subtitle" android:background="@color/transparent" android:padding="20.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/new_todo_subtask" />
+    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/dialog_edit_sub" android:background="@android:color/transparent" android:padding="20.0sp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_subtask" android:maxLength="@integer/max_todo_titel_length" />
+    <EditText android:id="@id/et_new_subtask_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:hint="@string/name" android:inputType="text" />
+    <LinearLayout android:layout_gravity="right" android:layout_width="210.0dip" android:layout_height="wrap_content">
+        <Button android:id="@id/bt_new_subtask_cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@android:string/cancel" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+        <Button android:id="@id/bt_new_subtask_ok" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/ok" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

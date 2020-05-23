@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarStyle="outsideInset" android:padding="6.0dip" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="54.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_options_mail_check_frequency_label" />
+            <Spinner android:id="@id/account_check_frequency" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/account_setup_options_mail_check_frequency_label" />
+            <CheckBox android:textColor="?android:textColorPrimary" android:id="@id/account_enable_push" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_options_enable_push_label" android:summary="@string/account_setup_options_enable_push_summary" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_options_mail_display_count_label" />
+            <Spinner android:id="@id/account_display_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/account_setup_options_mail_display_count_label" />
+            <CheckBox android:textColor="?android:textColorPrimary" android:id="@id/account_notify" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_options_notify_label" />
+            <CheckBox android:textColor="?android:textColorPrimary" android:id="@id/account_notify_sync" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_options_notify_sync_label" />
+            <View android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/wizard_next" />
+</LinearLayout>

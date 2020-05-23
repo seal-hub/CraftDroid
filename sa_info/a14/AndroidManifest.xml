@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="de.baumann.browser">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="true" android:enabled="true" android:fullBackupContent="@xml/backup_descriptor" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true">
+        <activity android:label="@string/app_name" android:launchMode="singleTask" android:name="de.baumann.browser.Activity.HolderActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <service android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="de.baumann.browser.Service.HolderService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:launchMode="singleInstance" android:name="de.baumann.browser.Activity.BrowserActivity" android:theme="@style/AppTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <intent-filter android:icon="@mipmap/ic_launcher">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.WEB_SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="sc_startPage"/>
+                <action android:name="sc_login"/>
+                <action android:name="sc_bookmark"/>
+                <action android:name="sc_history"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/setting_label" android:name="de.baumann.browser.Activity.Settings_Activity" android:theme="@style/AppTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:label="@string/setting_title_whitelist" android:name="de.baumann.browser.Activity.Whitelist_AdBlock" android:theme="@style/AppTheme"/>
+        <activity android:label="@string/setting_title_whitelistJS" android:name="de.baumann.browser.Activity.Whitelist_Javascript" android:theme="@style/AppTheme"/>
+        <activity android:label="@string/setting_title_whitelistCookie" android:name="de.baumann.browser.Activity.Whitelist_Cookie" android:theme="@style/AppTheme"/>
+        <activity android:label="@string/setting_title_clear_control" android:name="de.baumann.browser.Activity.Settings_ClearActivity" android:theme="@style/AppTheme"/>
+        <activity android:label="@string/setting_title_start_control" android:name="de.baumann.browser.Activity.Settings_StartActivity" android:theme="@style/AppTheme"/>
+        <activity android:label="@string/setting_title_data" android:name="de.baumann.browser.Activity.Settings_DataActivity" android:theme="@style/AppTheme"/>
+        <activity android:label="@string/setting_title_ui" android:name="de.baumann.browser.Activity.Settings_UIActivity" android:theme="@style/AppTheme"/>
+        <service android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="de.baumann.browser.Service.ClearService"/>
+        <provider android:authorities="de.baumann.browser.provider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+    </application>
+</manifest>

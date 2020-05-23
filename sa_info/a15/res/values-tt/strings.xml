@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s &amp;#1076;&amp;#1080;&amp;#1083;&amp;#1073;&amp;#1077;&amp;#1075;&amp;#1241;&amp;#1085;&amp;#1077; &amp;#1057;&amp;#1077;&amp;#1079;&amp;#1085;&amp;#1077;&amp;#1187; &amp;#1082;&amp;#1091;&amp;#1083;&amp;#1075;&amp;#1072; &amp;#1090;&amp;#1072;&amp;#1087;&amp;#1096;&amp;#1099;&amp;#1088;&amp;#1072;.&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#1040;&amp;#1085;&amp;#1099; &amp;#1093;&amp;#1086;&amp;#1089;&amp;#1091;&amp;#1089;&amp;#1099;&amp;#1081; &amp;#1073;&amp;#1088;&amp;#1072;&amp;#1091;&amp;#1079;&amp;#1077;&amp;#1088; &amp;#1073;&amp;#1091;&amp;#1083;&amp;#1072;&amp;#1088;&amp;#1072;&amp;#1082; &amp;#1082;&amp;#1091;&amp;#1083;&amp;#1083;&amp;#1072;&amp;#1085;&amp;#1099;&amp;#1087;, &amp;#1090;&amp;#1199;&amp;#1073;&amp;#1241;&amp;#1085;&amp;#1076;&amp;#1241;&amp;#1075;&amp;#1077;&amp;#1083;&amp;#1241;&amp;#1088;&amp;#1085;&amp;#1077; &amp;#1101;&amp;#1096;&amp;#1083;&amp;#1241;&amp;#1087; &amp;#1073;&amp;#1091;&amp;#1083;&amp;#1072;:
+  &lt;ul>
+    &lt;li>&amp;#1058;&amp;#1091;&amp;#1088;&amp;#1099;&amp;#1076;&amp;#1072;&amp;#1085;-&amp;#1090;&amp;#1091;&amp;#1088;&amp;#1099; &amp;#1082;&amp;#1091;&amp;#1096;&amp;#1099;&amp;#1084;&amp;#1090;&amp;#1072; &amp;#1101;&amp;#1095;&amp;#1077;&amp;#1085;&amp;#1076;&amp;#1241; &amp;#1101;&amp;#1079;&amp;#1083;&amp;#1241;&amp;#1199; &amp;#1211;&amp;#1241;&amp;#1084; &amp;#1087;&amp;#1241;&amp;#1088;&amp;#1241;&amp;#1074;&amp;#1077;&amp;#1079;&amp;#1076;&amp;#1241; &amp;#1075;&amp;#1080;&amp;#1079;&amp;#1199;&lt;/li>
+    &lt;li>&amp;#1050;&amp;#1199;&amp;#1079;&amp;#1241;&amp;#1090;&amp;#1199;&amp;#1095;&amp;#1077;-&amp;#1090;&amp;#1088;&amp;#1077;&amp;#1082;&amp;#1077;&amp;#1088;&amp;#1083;&amp;#1072;&amp;#1088;&amp;#1085;&amp;#1099; &amp;#1073;&amp;#1083;&amp;#1086;&amp;#1082;&amp;#1083;&amp;#1072;&amp;#1091; (&amp;#1103;&amp;#1080;&amp;#1089;&amp;#1241;, &amp;#1082;&amp;#1257;&amp;#1081;&amp;#1083;&amp;#1241;&amp;#1199;&amp;#1083;&amp;#1241;&amp;#1088;&amp;#1085;&amp;#1077; &amp;#1103;&amp;#1187;&amp;#1072;&amp;#1088;&amp;#1090;&amp;#1099;&amp;#1087;, &amp;#1072;&amp;#1083;&amp;#1072;&amp;#1088;&amp;#1085;&amp;#1099; &amp;#1088;&amp;#1257;&amp;#1093;&amp;#1089;&amp;#1241;&amp;#1090; &amp;#1080;&amp;#1090;&amp;#1199;)&lt;/li>
+    &lt;li>&amp;#1050;&amp;#1091;&amp;#1082;&amp;#1080;&amp;#1083;&amp;#1072;&amp;#1088;&amp;#1085;&amp;#1099;, &amp;#1101;&amp;#1079;&amp;#1083;&amp;#1241;&amp;#1199; &amp;#1211;&amp;#1241;&amp;#1084; &amp;#1075;&amp;#1080;&amp;#1079;&amp;#1199; &amp;#1090;&amp;#1072;&amp;#1088;&amp;#1080;&amp;#1093;&amp;#1083;&amp;#1072;&amp;#1088;&amp;#1099;&amp;#1085; &amp;#1175;&amp;#1080;&amp;#1187;&amp;#1077;&amp;#1083; &amp;#1075;&amp;#1077;&amp;#1085;&amp;#1241; &amp;#1073;&amp;#1077;&amp;#1090;&amp;#1077;&amp;#1088;&amp;#1077;&amp;#1087; &amp;#1072;&amp;#1090;&amp;#1091;&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s Mozilla &amp;#1090;&amp;#1072;&amp;#1088;&amp;#1072;&amp;#1092;&amp;#1099;&amp;#1085;&amp;#1085;&amp;#1072;&amp;#1085; &amp;#1175;&amp;#1080;&amp;#1090;&amp;#1077;&amp;#1096;&amp;#1090;&amp;#1077;&amp;#1088;&amp;#1077;&amp;#1083;&amp;#1241;. &amp;#1041;&amp;#1077;&amp;#1079;&amp;#1085;&amp;#1077;&amp;#1187; &amp;#1084;&amp;#1080;&amp;#1089;&amp;#1089;&amp;#1080;&amp;#1103;&amp;#1073;&amp;#1077;&amp;#1079; &amp;#8212; &amp;#1089;&amp;#1241;&amp;#1083;&amp;#1072;&amp;#1084;&amp;#1241;&amp;#1090; &amp;#1211;&amp;#1241;&amp;#1084; &amp;#1072;&amp;#1095;&amp;#1099;&amp;#1082; &amp;#1048;&amp;#1085;&amp;#1090;&amp;#1077;&amp;#1088;&amp;#1085;&amp;#1077;&amp;#1090;&amp;#1085;&amp;#1099; &amp;#1199;&amp;#1089;&amp;#1090;&amp;#1077;&amp;#1088;&amp;#1199;.&lt;br/>
+&lt;a href=%2$s>&amp;#1050;&amp;#1199;&amp;#1073;&amp;#1088;&amp;#1241;&amp;#1082; &amp;#1073;&amp;#1077;&amp;#1083;&amp;#1199;&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">Йөкләнелә</string>
+    <string name="accessibility_announcement_loading_finished">Веб-сайт йөкләнде</string>
+    <string name="action_cancel">Баш тарту</string>
+    <string name="action_ok">ОК</string>
+    <string name="action_option_add_search_engine">Эзләү системасын өстәү</string>
+    <string name="action_save">Саклау</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Кире кайту</string>
+    <string name="content_description_blocking_switch">Күзәтүчеләрне блоклау</string>
+    <string name="content_description_clear_input">Кертелгәнне чистарту</string>
+    <string name="content_description_customtab_exit">Соңгы кушымтага кире кайту</string>
+    <string name="content_description_dismiss_input">Ябу</string>
+    <string name="content_description_erase">Гизү тарихын бетерү</string>
+    <string name="content_description_forward">Алга бару</string>
+    <string name="content_description_lock">Хәвефсез бәйләнеш</string>
+    <string name="content_description_menu">Күбрәк опцияләр</string>
+    <string name="content_description_reload">Сайтны яңадан йөкләү</string>
+    <string name="content_description_stop">Веб-сайтны йөкләүне туктату</string>
+    <string name="content_description_tab_counter">Ачык таблар: %1$s</string>
+    <string name="contextmenu_image_copy">Рәсемнең адресын копияләү</string>
+    <string name="contextmenu_image_save">Рәсемне саклау</string>
+    <string name="contextmenu_image_share">Рәсемне уртаклашу</string>
+    <string name="contextmenu_image_warning">%1$s тарихын бетергәндә, сакланган яки уртаклашылган рәсемнәр &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#1073;&amp;#1077;&amp;#1090;&amp;#1077;&amp;#1088;&amp;#1077;&amp;#1083;&amp;#1084;&amp;#1241;&amp;#1103;&amp;#1095;&amp;#1241;&amp;#1082;&lt;/b>.</string>
+    <string name="contextmenu_link_copy">Сылтаманың адресын копияләү</string>
+    <string name="contextmenu_link_share">Сылтаманы уртаклашу</string>
+    <string name="contextmenu_open_in_new_tab">Сылтаманы яңа биттә ачу</string>
+    <string name="custom_autocomplete_quick_add">Үзгә URL өстәү</string>
+    <string name="dialog_addtohomescreen_action_add">Өстәү</string>
+    <string name="dialog_addtohomescreen_action_cancel">Баш тарту</string>
+    <string name="dialog_addtohomescreen_tracking_protection">Ярлык «Күзәтүчеләрдән саклау» режимы сүндерелгән килеш ачылачак</string>
+    <string name="download_dialog_action_cancel">Баш тарту</string>
+    <string name="download_dialog_action_download">Йөкләп алу</string>
+    <string name="download_dialog_title">Файлны йөкләп алу</string>
+    <string name="download_dialog_warning">Сез %1$s тарихын чистартканда, йөкләнеп алынган файллар &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#1073;&amp;#1077;&amp;#1090;&amp;#1077;&amp;#1088;&amp;#1077;&amp;#1083;&amp;#1084;&amp;#1241;&amp;#1103;&amp;#1095;&amp;#1241;&amp;#1082;&lt;/b>.</string>
+    <string name="download_firefox">"Firefox'ны йөкләп алу"</string>
+    <string name="download_snackbar_finished">%1$s йөкләнде</string>
+    <string name="download_snackbar_open">Ачу</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&amp;#1057;&amp;#1072;&amp;#1081;&amp;#1090; &amp;#1074;&amp;#1072;&amp;#1082;&amp;#1099;&amp;#1090;&amp;#1083;&amp;#1099;&amp;#1095;&amp;#1072; &amp;#1089;&amp;#1199;&amp;#1085;&amp;#1075;&amp;#1241;&amp;#1085; &amp;#1103; &amp;#1073;&amp;#1080;&amp;#1082; &amp;#1084;&amp;#1241;&amp;#1096;&amp;#1075;&amp;#1091;&amp;#1083;&amp;#1100; &amp;#1073;&amp;#1091;&amp;#1083;&amp;#1099;&amp;#1088;&amp;#1075;&amp;#1072; &amp;#1084;&amp;#1257;&amp;#1084;&amp;#1082;&amp;#1080;&amp;#1085;. &amp;#1041;&amp;#1077;&amp;#1088;&amp;#1085;&amp;#1080;&amp;#1095;&amp;#1241; &amp;#1084;&amp;#1080;&amp;#1085;&amp;#1091;&amp;#1090;&amp;#1090;&amp;#1072;&amp;#1085; &amp;#1103;&amp;#1085;&amp;#1241;&amp;#1076;&amp;#1241;&amp;#1085; &amp;#1090;&amp;#1099;&amp;#1088;&amp;#1099;&amp;#1096;&amp;#1099;&amp;#1087; &amp;#1082;&amp;#1072;&amp;#1088;&amp;#1072;&amp;#1075;&amp;#1099;&amp;#1079;.&lt;/li>
+        &lt;li>&amp;#1210;&amp;#1080;&amp;#1095;&amp;#1073;&amp;#1077;&amp;#1088; &amp;#1089;&amp;#1241;&amp;#1093;&amp;#1080;&amp;#1092;&amp;#1241; &amp;#1076;&amp;#1241; &amp;#1072;&amp;#1095;&amp;#1099;&amp;#1083;&amp;#1084;&amp;#1072;&amp;#1089;&amp;#1072; &amp;#1175;&amp;#1080;&amp;#1211;&amp;#1072;&amp;#1079;&amp;#1099;&amp;#1075;&amp;#1099;&amp;#1079;&amp;#1085;&amp;#1099;&amp;#1187; &amp;#1084;&amp;#1086;&amp;#1073;&amp;#1080;&amp;#1083;&amp;#1100; &amp;#1048;&amp;#1085;&amp;#1090;&amp;#1077;&amp;#1088;&amp;#1085;&amp;#1077;&amp;#1090; &amp;#1103;&amp;#1080;&amp;#1089;&amp;#1241; Wi-Fi &amp;#1073;&amp;#1241;&amp;#1081;&amp;#1083;&amp;#1241;&amp;#1085;&amp;#1077;&amp;#1096;&amp;#1077;&amp;#1085; &amp;#1090;&amp;#1080;&amp;#1082;&amp;#1096;&amp;#1077;&amp;#1088;&amp;#1077;&amp;#1075;&amp;#1077;&amp;#1079;.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">Тоташып булмады</string>
+    <string name="error_generic_message">Билгесез сәбәпләрдән бу сәхифәне йөкли алмадык.</string>
+    <string name="error_generic_title">Абау</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&amp;#1040;&amp;#1076;&amp;#1088;&amp;#1077;&amp;#1089;&amp;#1085;&amp;#1099; &amp;#1082;&amp;#1077;&amp;#1088;&amp;#1090;&amp;#1082;&amp;#1241;&amp;#1085; &amp;#1074;&amp;#1072;&amp;#1082;&amp;#1099;&amp;#1090;&amp;#1090;&amp;#1072; &amp;#1093;&amp;#1072;&amp;#1090;&amp;#1072; &amp;#1082;&amp;#1080;&amp;#1090;&amp;#1084;&amp;#1241;&amp;#1075;&amp;#1241;&amp;#1085;&amp;#1084;&amp;#1077; &amp;#1080;&amp;#1082;&amp;#1241;&amp;#1085;&amp;#1077;&amp;#1085; &amp;#1090;&amp;#1080;&amp;#1082;&amp;#1096;&amp;#1077;&amp;#1088;&amp;#1077;&amp;#1075;&amp;#1077;&amp;#1079;, &amp;#1084;&amp;#1241;&amp;#1089;&amp;#1241;&amp;#1083;&amp;#1241;&amp;#1085;
+         &lt;strong>www&lt;/strong>.example.com &amp;#1091;&amp;#1088;&amp;#1099;&amp;#1085;&amp;#1099;&amp;#1085;&amp;#1072; 
+         &lt;strong>ww&lt;/strong>.example.com&lt;/li> &amp;#1076;&amp;#1080;&amp;#1087; &amp;#1103;&amp;#1079;&amp;#1075;&amp;#1072;&amp;#1085; &amp;#1082;&amp;#1077;&amp;#1073;&amp;#1077;&amp;#1082;.
+        &lt;li>&amp;#1210;&amp;#1080;&amp;#1095;&amp;#1073;&amp;#1077;&amp;#1088; &amp;#1089;&amp;#1072;&amp;#1081;&amp;#1090; &amp;#1090;&amp;#1072; &amp;#1072;&amp;#1095;&amp;#1099;&amp;#1083;&amp;#1084;&amp;#1072;&amp;#1089;&amp;#1072;, &amp;#1175;&amp;#1080;&amp;#1211;&amp;#1072;&amp;#1079;&amp;#1099;&amp;#1075;&amp;#1099;&amp;#1079;&amp;#1085;&amp;#1099;&amp;#1187; &amp;#1084;&amp;#1086;&amp;#1073;&amp;#1080;&amp;#1083;&amp;#1100; &amp;#1048;&amp;#1085;&amp;#1090;&amp;#1077;&amp;#1088;&amp;#1085;&amp;#1077;&amp;#1090; &amp;#1103;&amp;#1080;&amp;#1089;&amp;#1241; Wi-Fi &amp;#1073;&amp;#1241;&amp;#1081;&amp;#1083;&amp;#1241;&amp;#1085;&amp;#1077;&amp;#1096;&amp;#1077;&amp;#1085; &amp;#1090;&amp;#1080;&amp;#1082;&amp;#1096;&amp;#1077;&amp;#1088;&amp;#1077;&amp;#1075;&amp;#1077;&amp;#1079;.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">Сервер табылмады</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#1042;&amp;#1077;&amp;#1073; &amp;#1072;&amp;#1076;&amp;#1088;&amp;#1077;&amp;#1089;&amp;#1083;&amp;#1072;&amp;#1088;&amp;#1099; &amp;#1075;&amp;#1072;&amp;#1076;&amp;#1241;&amp;#1090;&amp;#1090;&amp;#1241; &amp;#1090;&amp;#1199;&amp;#1073;&amp;#1241;&amp;#1085;&amp;#1076;&amp;#1241;&amp;#1075;&amp;#1077;&amp;#1095;&amp;#1241; &amp;#1103;&amp;#1079;&amp;#1099;&amp;#1083;&amp;#1072; &amp;#8212; &lt;strong>http://www.example.com/&lt;/strong>&lt;/li>
+  &lt;li>&amp;#1040;&amp;#1076;&amp;#1088;&amp;#1077;&amp;#1089;&amp;#1083;&amp;#1072;&amp;#1088;&amp;#1076;&amp;#1072; &amp;#1089;&amp;#1091;&amp;#1083;&amp;#1075;&amp;#1072; &amp;#1090;&amp;#1199;&amp;#1075;&amp;#1077;&amp;#1083;, &amp;#1241; &amp;#1073;&amp;#1241;&amp;#1083;&amp;#1082;&amp;#1080; &amp;#1091;&amp;#1187;&amp;#1075;&amp;#1072; &amp;#1072;&amp;#1074;&amp;#1099;&amp;#1096; &amp;#1073;&amp;#1199;&amp;#1083;&amp;#1199; &amp;#1073;&amp;#1080;&amp;#1083;&amp;#1075;&amp;#1077;&amp;#1089;&amp;#1077;&amp;#1085; &amp;#1082;&amp;#1091;&amp;#1083;&amp;#1083;&amp;#1072;&amp;#1085;&amp;#1072;&amp;#1089;&amp;#1099; (&amp;#1103;&amp;#1075;&amp;#1098;&amp;#1085;&amp;#1080; &amp;#1073;&amp;#1091; &amp;#1073;&amp;#1080;&amp;#1083;&amp;#1075;&amp;#1077;: &lt;strong>/&lt;/strong>).&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">Адрес хаталы</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#1050;&amp;#1072;&amp;#1081;&amp;#1074;&amp;#1072;&amp;#1082;&amp;#1099;&amp;#1090; &amp;#1073;&amp;#1091; &amp;#1087;&amp;#1088;&amp;#1086;&amp;#1073;&amp;#1083;&amp;#1077;&amp;#1084;&amp;#1072; &amp;#1082;&amp;#1091;&amp;#1082;&amp;#1080;&amp;#1083;&amp;#1072;&amp;#1088; &amp;#1089;&amp;#1199;&amp;#1085;&amp;#1076;&amp;#1077;&amp;#1088;&amp;#1077;&amp;#1083;&amp;#1075;&amp;#1241;&amp;#1085; &amp;#1073;&amp;#1091;&amp;#1083;&amp;#1075;&amp;#1072;&amp;#1085;&amp;#1075;&amp;#1072; &amp;#1103;&amp;#1082;&amp;#1080; &amp;#1072;&amp;#1083;&amp;#1072;&amp;#1088;&amp;#1085;&amp;#1099; &amp;#1082;&amp;#1072;&amp;#1073;&amp;#1091;&amp;#1083; &amp;#1080;&amp;#1090;&amp;#1199;&amp;#1076;&amp;#1241;&amp;#1085; &amp;#1073;&amp;#1072;&amp;#1096; &amp;#1090;&amp;#1072;&amp;#1088;&amp;#1090;&amp;#1082;&amp;#1072;&amp;#1085;&amp;#1075;&amp;#1072; &amp;#1082;&amp;#1080;&amp;#1083;&amp;#1077;&amp;#1087; &amp;#1095;&amp;#1099;&amp;#1075;&amp;#1072;.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">Сәхифә икенче сәхифәгә дөрес юнәлтми</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#1041;&amp;#1091; &amp;#1089;&amp;#1077;&amp;#1088;&amp;#1074;&amp;#1077;&amp;#1088; &amp;#1082;&amp;#1257;&amp;#1081;&amp;#1083;&amp;#1241;&amp;#1199;&amp;#1083;&amp;#1241;&amp;#1088;&amp;#1077;&amp;#1085;&amp;#1076;&amp;#1241;&amp;#1075;&amp;#1077; &amp;#1093;&amp;#1072;&amp;#1090;&amp;#1072; &amp;#1073;&amp;#1077;&amp;#1083;&amp;#1241;&amp;#1085; &amp;#1073;&amp;#1241;&amp;#1081;&amp;#1083;&amp;#1077; &amp;#1073;&amp;#1091;&amp;#1083;&amp;#1099;&amp;#1088;&amp;#1075;&amp;#1072; &amp;#1084;&amp;#1257;&amp;#1084;&amp;#1082;&amp;#1080;&amp;#1085;, &amp;#1103;&amp;#1080;&amp;#1089;&amp;#1241; &amp;#1082;&amp;#1077;&amp;#1084;&amp;#1076;&amp;#1077;&amp;#1088; &amp;#1057;&amp;#1077;&amp;#1079;&amp;#1075;&amp;#1241; &amp;#1082;&amp;#1080;&amp;#1088;&amp;#1241;&amp;#1082;&amp;#1083;&amp;#1077; &amp;#1089;&amp;#1077;&amp;#1088;&amp;#1074;&amp;#1077;&amp;#1088;&amp;#1085;&amp;#1099; &amp;#1080;&amp;#1082;&amp;#1077;&amp;#1085;&amp;#1095;&amp;#1077; &amp;#1073;&amp;#1077;&amp;#1088;&amp;#1241;&amp;#1074;&amp;#1077; &amp;#1073;&amp;#1077;&amp;#1083;&amp;#1241;&amp;#1085; &amp;#1072;&amp;#1083;&amp;#1099;&amp;#1096;&amp;#1090;&amp;#1099;&amp;#1088;&amp;#1099;&amp;#1088;&amp;#1075;&amp;#1072; &amp;#1090;&amp;#1099;&amp;#1088;&amp;#1099;&amp;#1096;&amp;#1072;.&lt;/li>
+  &lt;li>&amp;#1052;&amp;#1086;&amp;#1187;&amp;#1072; &amp;#1082;&amp;#1072;&amp;#1076;&amp;#1241;&amp;#1088; &amp;#1073;&amp;#1091; &amp;#1089;&amp;#1077;&amp;#1088;&amp;#1074;&amp;#1077;&amp;#1088;&amp;#1075;&amp;#1072; &amp;#1091;&amp;#1187;&amp;#1099;&amp;#1096;&amp;#1083;&amp;#1099; &amp;#1090;&amp;#1086;&amp;#1090;&amp;#1072;&amp;#1096;&amp;#1072; &amp;#1090;&amp;#1086;&amp;#1088;&amp;#1075;&amp;#1072;&amp;#1085; &amp;#1073;&amp;#1091;&amp;#1083;&amp;#1089;&amp;#1072;&amp;#1075;&amp;#1099;&amp;#1079;, &amp;#1073;&amp;#1091; &amp;#1093;&amp;#1072;&amp;#1090;&amp;#1072; &amp;#1074;&amp;#1072;&amp;#1082;&amp;#1099;&amp;#1090;&amp;#1083;&amp;#1099;&amp;#1095;&amp;#1072; &amp;#1075;&amp;#1099;&amp;#1085;&amp;#1072; &amp;#1073;&amp;#1091;&amp;#1083;&amp;#1099;&amp;#1088;&amp;#1075;&amp;#1072; &amp;#1084;&amp;#1257;&amp;#1084;&amp;#1082;&amp;#1080;&amp;#1085;. &amp;#1041;&amp;#1077;&amp;#1088;&amp;#1241;&amp;#1079;&amp;#1076;&amp;#1241;&amp;#1085; &amp;#1103;&amp;#1085;&amp;#1241;&amp;#1076;&amp;#1241;&amp;#1085; &amp;#1090;&amp;#1099;&amp;#1088;&amp;#1099;&amp;#1096;&amp;#1099;&amp;#1087; &amp;#1082;&amp;#1072;&amp;#1088;&amp;#1072;&amp;#1075;&amp;#1099;&amp;#1079;.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">Хәвефсез бәйләнеш кору хатасы</string>
+    <string name="error_timeout_title">Бәйләнешне көтү вакыты чыкты</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#1041;&amp;#1091; &amp;#1072;&amp;#1076;&amp;#1088;&amp;#1077;&amp;#1089;&amp;#1085;&amp;#1099; &amp;#1072;&amp;#1095;&amp;#1091; &amp;#1257;&amp;#1095;&amp;#1077;&amp;#1085; &amp;#1073;&amp;#1072;&amp;#1096;&amp;#1082;&amp;#1072; &amp;#1073;&amp;#1077;&amp;#1088; &amp;#1087;&amp;#1088;&amp;#1086;&amp;#1075;&amp;#1088;&amp;#1072;&amp;#1084;&amp;#1084;&amp;#1072; &amp;#1091;&amp;#1088;&amp;#1085;&amp;#1072;&amp;#1096;&amp;#1090;&amp;#1099;&amp;#1088;&amp;#1091;&amp;#1099;&amp;#1075;&amp;#1099;&amp;#1079; &amp;#1082;&amp;#1080;&amp;#1088;&amp;#1241;&amp;#1082; &amp;#1073;&amp;#1091;&amp;#1083;&amp;#1099;&amp;#1088;&amp;#1075;&amp;#1072; &amp;#1084;&amp;#1257;&amp;#1084;&amp;#1082;&amp;#1080;&amp;#1085;.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">Адрес аңлашылмады</string>
+    <string name="errorpage_refresh">Янәдән тырышып карау</string>
+    <string name="errorpage_title">Cәхифәне йөкләгәндә хата китте</string>
+    <string name="external_app_prompt">"Бу сылтаманыі %2$s ярдәме белән ачу өчен, сез %1$s'тан чыга аласыз."</string>
+    <string name="external_app_prompt_no_app">"Җиһазыгыздагы бер кушымта да бу сылтаманы ача алмый. Аны ача ала алучы кушымтаны %2$s эченнән эзләү өчен, Сез %1$s'тан чыга аласыз."</string>
+    <string name="external_app_prompt_no_app_title">Сылтаманы ача алучы кушымта табу</string>
+    <string name="external_app_prompt_title">Сылтаманы башка кушымтада ачу</string>
+    <string name="external_multiple_apps_matched_exit">Хосусый гизү режимыннан чыгаргамы?</string>
+    <string name="feedback_erase">Гизү тарихыгыз бетерелде.</string>
+    <string name="firstrun_close_button">Яхшы, аңладым!</string>
+    <string name="firstrun_defaultbrowser_text2">Хосусый гизүне яңа дәрәҗәгә күтәрегез. Сайтлар аша Сезне күзәтүче һәм сәхифәләрнең йөкләнү вакытын арттыручы рекламаларны һәм башка эчтәлекләрне блоклагыз.</string>
+    <string name="firstrun_defaultbrowser_title">Хосусыйлыгызны көчәйтегез</string>
+    <string name="firstrun_next_button">Киләсе</string>
+    <string name="firstrun_privacy_text">"%1$s'ны төп гизгечегез итеп сайлап, башка кушымталардан сайтларны ачканда да хосусый гизү мөмкинлегеннән файда күрегез."</string>
+    <string name="firstrun_privacy_title">Хосусыйлыкны гадәткә кертү</string>
+    <string name="firstrun_search_text">Башка берәр нәрсә эзлисезме? Көйләүләр менюсына кереп, стандарт итеп башка бер эзләү системасын сайлый аласыз.</string>
+    <string name="firstrun_search_title">Сезнең эзләү, Сезнең кагыйдәләр</string>
+    <string name="firstrun_shortcut_text">"%1$s'та иң яраткан сайтларыгызга тиз генә кире кайта аласыз. Моның өчен %1$s менюсыннан \"Өй экранына кушуны\" сайлау җитә."</string>
+    <string name="firstrun_shortcut_title">Өй экранына ярлыклар өстәгез</string>
+    <string name="firstrun_skip_button">Кичү</string>
+    <string name="gv_prompt_clear">Чистарту</string>
+    <string name="gv_prompt_password_hint">Серсүз</string>
+    <string name="gv_prompt_username_hint">Кулланучы исеме</string>
+    <string name="menu_about">Хакында</string>
+    <string name="menu_add_to_home_screen">Өй экранына кую</string>
+    <string name="menu_custom_tab_branding">%1$s нигезендә</string>
+    <string name="menu_help">Ярдәм</string>
+    <string name="menu_open_with_a_browser2">... белән ачу</string>
+    <string name="menu_open_with_default_browser2">%1$s белән ачу</string>
+    <string name="menu_rights">Хокукларыгыз</string>
+    <string name="menu_settings">Көйләүләр</string>
+    <string name="menu_share">Уртаклашу…</string>
+    <string name="menu_trackers_blocked_title">Күзәтүчеләр блокланды</string>
+    <string name="menu_whats_new">Яңалыклар</string>
+    <string name="notification_action_erase_and_open">Бетерү һәм ачу</string>
+    <string name="notification_action_open">Ачу</string>
+    <string name="notification_browsing_session_channel_description">Бердерүләр аша %1$s утырышыгызны бер орыну белән бетерә аласыз. Кушымтаны ачу яисә гизгечтә нәрсә ачык икәнен күрү кирәк түгел.</string>
+    <string name="notification_browsing_session_channel_name">Хосусый гизү утырышы</string>
+    <string name="notification_erase_text">Гизү тарихын бетерү</string>
+    <string name="preference_about">%1$s турында</string>
+    <string name="preference_autocomplete_action_add">+ Үзгә URL өстәү</string>
+    <string name="preference_autocomplete_action_remove_content_description">Бетерү</string>
+    <string name="preference_autocomplete_add_confirmation">Яңа үзгә URL өстәлде.</string>
+    <string name="preference_autocomplete_add_error">"Кертелгән URL'ны яңадан тикшерегез."</string>
+    <string name="preference_autocomplete_add_example">Мисал: example.com</string>
+    <string name="preference_autocomplete_add_hint">"URL'ны ябыштырыгыз яки языгыз"</string>
+    <string name="preference_autocomplete_add_title">Өстәләчәк URL</string>
+    <string name="preference_autocomplete_custom_summary">"Автотөгәлләү өчен кулланучы үзе сайлаган URL'ларны өстәү яки алар белән идарә итү."</string>
+    <string name="preference_autocomplete_duplicate_url_error">URL инде бар</string>
+    <string name="preference_autocomplete_learn_more">Күбрәк өйрәнү</string>
+    <string name="preference_autocomplete_menu_remove">Бетерү</string>
+    <string name="preference_autocomplete_preinstalled_summary">"450'дән артык мәшһүр сайт адреслары өчен %1$s'та автотөгәлләүне кабызу."</string>
+    <string name="preference_autocomplete_subitem_customlist">"Үзгә URL'лар"</string>
+    <string name="preference_autocomplete_title_add">Үзгә URL өстәү</string>
+    <string name="preference_autocomplete_title_remove">"Үзгә URL'ларны бетерү"</string>
+    <string name="preference_category_autocomplete_custom_urls">"Үзгә URL'лар"</string>
+    <string name="preference_category_autocomplete_preinstalled">Стандарт URL исемлеге</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Җитештерүчәнлек</string>
+    <string name="preference_category_privacy">Хосусыйлык</string>
+    <string name="preference_category_search">Эзләү</string>
+    <string name="preference_default_browser2">"%1$s'ны төп гизгеч итү"</string>
+    <string name="preference_language">Тел</string>
+    <string name="preference_language_systemdefault">Система теле</string>
+    <string name="preference_mozilla_telemetry2">Куллану мәгълүматларын җибәрү</string>
+    <string name="preference_mozilla_telemetry_summary">Күбрәк белү</string>
+    <string name="preference_mozilla_telemetry_summary2">"Mozilla, %1$s'ны һәркемгә дә тәкъдим итү һәм яхшырту өчен кирәкле мәгълүматларны гына җыярга тырыша."</string>
+    <string name="preference_performance_block_javascript">"JavaScript'ны блоклау"</string>
+    <string name="preference_performance_block_javascript_summary">Сәхифәләр тизрәк йөкләнеләчәк, әмма алар көтелгәнчә эшләмәскә дә мөмкин</string>
+    <string name="preference_performance_block_webfonts">Веб-шрифтларны блоклау</string>
+    <string name="preference_performance_block_webfonts_summary">Билге һәм рәсемнәрнең күренмәвенә сәбәп була ала</string>
+    <string name="preference_privacy_block_ads">Реклама күзәтүчеләрен блоклау</string>
+    <string name="preference_privacy_block_ads_summary">Кайбер рекламалар, Сез аларга басмасагыз да, сайтка керүләрегезне күзәтеп тора</string>
+    <string name="preference_privacy_block_analytics">Аналитика күзәтүчеләрен блоклау</string>
+    <string name="preference_privacy_block_analytics_summary">Басу һәм скроллинг кебек хәрәкәтләрне җыю, анализлау һәм үлчәү өчен кулланылалар</string>
+    <string name="preference_privacy_block_content">Башка эчтәлек күзәтүчеләрен блоклау</string>
+    <string name="preference_privacy_block_content_summary2">Моны кабызу кайбер сәхифәләрнең көтелгәнчә эшләмәвенә сәбәп була ала</string>
+    <string name="preference_privacy_block_social">Социаль челтәр күзәтүчеләрен блоклау</string>
+    <string name="preference_privacy_block_social_summary">Сез зиярат иткән сайтларны күзәтү һәм \"Уртаклашу\" төймәләре кебек мөмкинлекләрне күрсәтү өчен сайтларга куелалар</string>
+    <string name="preference_privacy_category_cookies">Кукиларны блоклау</string>
+    <string name="preference_privacy_notice">Хосусыйлык сәясәте</string>
+    <string name="preference_privacy_secure_mode">Күренмәслек</string>
+    <string name="preference_privacy_should_block_cookies_no_option">Юк</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Чит-ят кукиларны гына блоклау</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Әйе</string>
+    <string name="preference_privacy_stealth_summary">Кушымталарны алмаштырганда веб-сәхифәләрне яшерү</string>
+    <string name="preference_search_add2">+ Башка бер эзләү системасын өстәү</string>
+    <string name="preference_search_engine_default">Стандарт</string>
+    <string name="preference_search_installed_search_engines">Урнаштырылган эзләү системалары</string>
+    <string name="preference_search_remove">Бетерү</string>
+    <string name="preference_search_remove_title">Эзләү системаларын бетерү</string>
+    <string name="preference_search_restore">Стандарт эзләү системаларын яңадан торгызу</string>
+    <string name="preference_state_off">Сүнгән</string>
+    <string name="preference_state_on">Кабызылган</string>
+    <string name="preference_subitem_autocomplete">URL-адресны автотөгәлләү</string>
+    <string name="preference_switch_autocomplete">Автотөгәлләү</string>
+    <string name="search_add_confirmation">Яңа эзләү системасы өстәлде.</string>
+    <string name="search_add_error_duplicate_name">Әлеге исем урнаштырылган бер эзләү системасы тарафыннан кулланыла инде.</string>
+    <string name="search_add_error_empty_name">Эзләү системасының исемен кертегез</string>
+    <string name="search_add_error_empty_search">Эзләнәсе сүзтезмәне кертегез</string>
+    <string name="search_add_error_format">Эзләнәсе сүзтезмәнең Мисал форматына туры килүен тикшерегез</string>
+    <string name="search_add_manually_example">Мисал: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">Эзләү системасының исеме</string>
+    <string name="search_add_manually_save">Саклау</string>
+    <string name="search_add_manually_string">Эзләнәчәк сүз я сүзтезмә</string>
+    <string name="search_hint">%1$s дип эзләү</string>
+    <string name="security_popup_insecure_connection">Хәвефсез булмаган бәйләнеш</string>
+    <string name="security_popup_secure_connection">Хәвефсез бәйләнеш</string>
+    <string name="security_popup_security_verified">Раслаучы: %1$s</string>
+    <string name="share_dialog_title">Аша уртаклашу</string>
+    <string name="shortcut_erase_long_label">Гизү тарихын бетерү</string>
+    <string name="shortcut_erase_short_label">Бетерү</string>
+    <string name="site_security_icon_content_description">Сайт хәвефсезлеге</string>
+    <string name="tabs_tray_action_erase">Гизү тарихын бетерү</string>
+    <string name="teaser">"Автоматик рәвештә хосусый гизү.
+Гизегез. Бетерегез. Кабатлагыз."</string>
+    <string name="text_selection_search_action">Хосусый эзләү</string>
+    <string name="urlbar_hint">Эзләү яки адрес язу</string>
+    <string name="your_rights">Хокукларыгыз</string>
+    <string name="your_rights_content1">%1$s — Mozilla һәм башка катнашучылар ясаган ирекле һәм ачык чыганаклы программа.</string>
+    <string name="your_rights_content2">%1$s &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Mozilla Public License&lt;/a> һәм башка ачык чыганак лицензияләренең шартлары белән нәшер ителә.</string>
+    <string name="your_rights_content3">"Сезгә Mozilla Foundation'ның яисә башка тарафларның һичбер теркәлгән сәүдә билгеләренә, шул исәптән Mozilla, Firefox яисә %1$s исемнәре яки логотипларына бернинди дә хокуклар я лицензияләр бирелми. Өстәмә мәгълүматны &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>&amp;#1084;&amp;#1086;&amp;#1085;&amp;#1076;&amp;#1072;&lt;/a> табып була."</string>
+    <string name="your_rights_content4">%1$s өчен өстәмә чыганак кодлары берничә башка ирекле һәм ачык чыганак &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>&amp;#1083;&amp;#1080;&amp;#1094;&amp;#1077;&amp;#1085;&amp;#1079;&amp;#1080;&amp;#1103;&amp;#1083;&amp;#1241;&amp;#1088;&amp;#1077;&lt;/a> белән нәшер ителә.</string>
+    <string name="your_rights_content5">Моннан тыш, %1$s Disconnect, Inc. тәэмин иткән блоклау исемлекләрен куллана, аларны &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>GNU General Public License v3&lt;/a> шартлары белән һәм түләүсез &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>&amp;#1084;&amp;#1086;&amp;#1085;&amp;#1076;&amp;#1072;&lt;/a> табып була.</string>
+</resources>

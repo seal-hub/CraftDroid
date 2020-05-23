@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" app:cardUseCompatPadding="true" app:paddingStart="16.0dip" app:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.daimajia.swipe.SwipeLayout android:id="@id/swipe_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center|right" android:layout_gravity="right" android:id="@id/btn_done" android:background="@color/greenPrimary" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/done" android:shadowColor="#ff333333" android:shadowRadius="2.0" android:layout_centerVertical="true" />
+        <TextView android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center|left" android:layout_gravity="left" android:id="@id/btn_delete" android:background="@color/redPressed" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/delete_item" android:shadowColor="#ff333333" android:shadowRadius="2.0" android:layout_centerVertical="true" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/content" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="55.0dip">
+                <douzifly.list.widget.DotView android:id="@id/dot_view" android:padding="12.0dip" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/dot_view" android:layout_centerVertical="true">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/txt_size_small" android:textColor="@color/blackPrimary" android:ellipsize="end" android:id="@id/txt_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\#Test" android:maxLines="1" android:layout_alignParentRight="true" />
+                        <TextView android:textSize="@dimen/txt_size_big" android:textColor="@color/blackPrimary" android:ellipsize="end" android:id="@id/txt_thing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:text="Test" android:maxLines="2" android:layout_toLeftOf="@id/txt_group" />
+                    </RelativeLayout>
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_below="@id/txt_thing" android:layout_alignLeft="@id/txt_thing">
+                        <TextView android:textSize="@dimen/txt_size_small" android:layout_gravity="left" android:id="@id/txt_reminder" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="@dimen/txt_size_small" android:textColor="@color/whitePrimary" android:layout_gravity="right" android:id="@id/txt_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </FrameLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <io.codetail.widget.RevealFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/thumb_up" android:background="@color/greenPrimary" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_thumb_up_white" android:scaleType="centerInside" />
+            </io.codetail.widget.RevealFrameLayout>
+        </FrameLayout>
+    </com.daimajia.swipe.SwipeLayout>
+</android.support.v7.widget.CardView>

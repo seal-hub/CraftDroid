@@ -1,0 +1,71 @@
+[
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.appsbyvir.tipcalculator:id/billEditText",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Bill",
+    "stepping_events": [],
+    "package": "com.appsbyvir.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.7,
+    "action": [
+      "clear_and_send_keys",
+      "56.6"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.appsbyvir.tipcalculator:id/perPersonEditText",
+    "text": "65.09",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Per Person:",
+    "stepping_events": [],
+    "package": "com.appsbyvir.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.5699988729224819,
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "15"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.appsbyvir.tipcalculator:id/finalBillEditText",
+    "text": "65.09",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Total:",
+    "stepping_events": [],
+    "package": "com.appsbyvir.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "oracle",
+    "score": 0.6922894522027866,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "65.09"
+    ]
+  }
+]

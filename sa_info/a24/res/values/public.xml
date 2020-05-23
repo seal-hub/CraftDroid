@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="icon" id="0x7f020000" />
+    <public type="drawable" name="star" id="0x7f020001" />
+    <public type="drawable" name="star_inactive" id="0x7f020002" />
+    <public type="layout" name="item_edit" id="0x7f030000" />
+    <public type="layout" name="item_entry" id="0x7f030001" />
+    <public type="layout" name="items" id="0x7f030002" />
+    <public type="layout" name="list_edit" id="0x7f030003" />
+    <public type="layout" name="list_entry" id="0x7f030004" />
+    <public type="layout" name="lists" id="0x7f030005" />
+    <public type="layout" name="main" id="0x7f030006" />
+    <public type="layout" name="restore_entry" id="0x7f030007" />
+    <public type="xml" name="settings" id="0x7f040000" />
+    <public type="string" name="app_name" id="0x7f050000" />
+    <public type="string" name="settings_title" id="0x7f050001" />
+    <public type="string" name="logtag" id="0x7f050002" />
+    <public type="string" name="restore_title" id="0x7f050003" />
+    <public type="array" name="itemSortingEntries" id="0x7f060000" />
+    <public type="array" name="itemSortingValues" id="0x7f060001" />
+    <public type="array" name="listSortingEntries" id="0x7f060002" />
+    <public type="array" name="listSortingValues" id="0x7f060003" />
+    <public type="style" name="InactiveText" id="0x7f070000" />
+    <public type="style" name="ActiveText" id="0x7f070001" />
+    <public type="id" name="item_edit_root" id="0x7f080000" />
+    <public type="id" name="EditItemLabelEditText" id="0x7f080001" />
+    <public type="id" name="SortedMarker" id="0x7f080002" />
+    <public type="id" name="LinearLayout01" id="0x7f080003" />
+    <public type="id" name="text1" id="0x7f080004" />
+    <public type="id" name="StarSwitcher" id="0x7f080005" />
+    <public type="id" name="StarImage" id="0x7f080006" />
+    <public type="id" name="InactiveStarImage" id="0x7f080007" />
+    <public type="id" name="AddItemEditText" id="0x7f080008" />
+    <public type="id" name="AddItemButton" id="0x7f080009" />
+    <public type="id" name="ItemsListView" id="0x7f08000a" />
+    <public type="id" name="list_edit_root" id="0x7f08000b" />
+    <public type="id" name="EditListLabelEditText" id="0x7f08000c" />
+    <public type="id" name="text2" id="0x7f08000d" />
+    <public type="id" name="AddListEditText" id="0x7f08000e" />
+    <public type="id" name="AddListButton" id="0x7f08000f" />
+    <public type="id" name="ListsListView" id="0x7f080010" />
+    <public type="id" name="ListsItemsSwitcher" id="0x7f080011" />
+    <public type="id" name="listsView" id="0x7f080012" />
+    <public type="id" name="itemsView" id="0x7f080013" />
+    <public type="id" name="RestoreName" id="0x7f080014" />
+</resources>

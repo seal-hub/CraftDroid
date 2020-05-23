@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape n1:width="18.0dip" n1:shape="rectangle"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <stroke n1:width="@dimen/top_bar_counter_stroke_thickness" n1:color="@color/counter_stroke" />
+    <corners n1:radius="@dimen/top_bar_counter_corner_radius" />
+    <solid n1:color="@color/counter_round_rect_bg" />
+</shape>

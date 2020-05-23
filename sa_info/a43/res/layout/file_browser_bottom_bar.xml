@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/selected_files_layout" n1:background="@color/action_bar_bg" n1:paddingRight="12.0dip" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="@dimen/toolbar_min_height"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageButton n1:id="@id/icon_selected_all_files" n1:paddingLeft="12.0dip" n1:paddingRight="12.0dip" n1:layout_width="62.0dip" n1:layout_height="fill_parent" n2:srcCompat="@drawable/ic_action_select_all" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ru.mail.uikit.view.FontTextView n1:textSize="@dimen/large_text_appearance" n1:textColor="@color/actionbar_text" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/selected_files_count" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="9.0dip" n1:singleLine="true" n3:textFont="robotoRegular" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ru.mail.uikit.view.FontTextView n1:textSize="@dimen/large_text_appearance" n1:textColor="@color/actionbar_text" n1:layout_gravity="center_vertical" n1:id="@id/selected_files_size" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="6.0dip" n1:singleLine="true" n4:textFont="robotoBold" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

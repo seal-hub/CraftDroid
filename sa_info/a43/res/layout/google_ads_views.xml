@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.google.android.gms.ads.formats.NativeAppInstallAdView n1:id="@id/google_ad_application" n1:background="@android:color/transparent" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    <com.google.android.gms.ads.formats.NativeContentAdView n1:id="@id/google_ad_content" n1:background="@android:color/transparent" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+</merge>

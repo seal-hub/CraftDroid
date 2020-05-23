@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="horizontal" n1:paddingLeft="@dimen/dialog_check_left_padding" n1:paddingTop="2.0dip" n1:paddingRight="16.0dip" n1:paddingBottom="@dimen/dialog_check_bottom_padding" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <CheckBox n1:textSize="@dimen/large_text_appearance" n1:id="@id/show_dialog_again" n1:background="?selectableItemBackground" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="false" n1:button="@null" n1:text="@string/dont_show_dialog" style="?android:textAppearanceMedium" />
+</RelativeLayout>

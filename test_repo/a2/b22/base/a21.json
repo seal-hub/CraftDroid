@@ -1,0 +1,117 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.rubenroy.minimaltodo:id/addToDoItemFAB",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a21",
+    "package": "com.rubenroy.minimaltodo",
+    "activity": ".MainActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.rubenroy.minimaltodo:id/userToDoEditText",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "Title",
+    "sibling_text": "",
+    "tid": "a21",
+    "package": "com.rubenroy.minimaltodo",
+    "activity": ".AddToDoActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sample Todo"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.rubenroy.minimaltodo:id/makeToDoFloatingActionButton",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a21",
+    "package": "com.rubenroy.minimaltodo",
+    "activity": ".AddToDoActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.rubenroy.minimaltodo:id/toDoListItemTextview",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a21",
+    "package": "com.rubenroy.minimaltodo",
+    "activity": ".MainActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Sample Todo"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.rubenroy.minimaltodo:id/toDoListItemTextview",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a21",
+    "package": "com.rubenroy.minimaltodo",
+    "activity": ".MainActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "swipe_right"
+    ]
+  },
+  {
+    "class": "",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "",
+    "password": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a21",
+    "package": "com.rubenroy.minimaltodo",
+    "activity": ".MainActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_text_invisible",
+      10,
+      "text",
+      "Sample Todo"
+    ]
+  }
+]

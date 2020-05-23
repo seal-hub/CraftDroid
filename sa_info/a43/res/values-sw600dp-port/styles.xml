@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BigAdBannerImageStyle">
+        <item name="android:scaleType">fitCenter</item>
+        <item name="proportion">29:10</item>
+    </style>
+</resources>

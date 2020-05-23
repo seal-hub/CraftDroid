@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/ic_shortcut_erase" android:enabled="true" android:shortcutId="erase" android:shortcutShortLabel="@string/shortcut_erase_short_label" android:shortcutLongLabel="@string/shortcut_erase_long_label">
+        <intent android:targetPackage="org.mozilla.focus" android:action="erase" android:targetClass="org.mozilla.focus.activity.EraseShortcutActivity">
+            <extra android:name="shortcut" android:value="true" />
+        </intent>
+    </shortcut>
+</shortcuts>

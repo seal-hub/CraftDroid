@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.mail.fragments.mailbox.newmail.BubbleView n1:id="@id/bubble_item" n1:background="@drawable/bubble_background" n1:layout_width="wrap_content" n1:layout_height="@dimen/bubble_avatar_size" n2:baselineAlignedChildIndex="1" n2:foregroundBorder="@drawable/bubble_foreground_border"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <ru.mail.fragments.view.RoundedImageView n1:id="@id/left_icon" n1:background="@drawable/bubble_ava_bg" n1:duplicateParentState="true" n1:layout_width="@dimen/bubble_avatar_size" n1:layout_height="@dimen/bubble_avatar_size" n1:scaleType="matrix" n2:cropMargin="@dimen/bubble_ava_border_thickness" n2:imageZoomIn="true" n2:srcCompat="@drawable/avatar_bubble" />
+    <TextView n1:textSize="@dimen/bubble_text_size" n1:textColor="@color/bubble_name" n1:ellipsize="middle" n1:id="@id/text" n1:paddingLeft="@dimen/bubble_padding_left" n1:paddingRight="@dimen/bubble_padding_right" n1:paddingBottom="1.0dip" n1:duplicateParentState="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" n1:includeFontPadding="false" n1:layout_toRightOf="@id/left_icon" n1:layout_centerVertical="true" style="@style/mapp_mailview_text_label" />
+</ru.mail.fragments.mailbox.newmail.BubbleView>

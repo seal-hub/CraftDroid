@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/forward" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_forward" android:layout_weight="1.0" android:contentDescription="@string/content_description_forward" />
+    <ImageButton android:id="@id/refresh" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_refresh" android:layout_weight="1.0" android:contentDescription="@string/content_description_reload" />
+    <ImageButton android:id="@id/stop" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_stop" android:layout_weight="1.0" android:contentDescription="@string/content_description_stop" />
+</LinearLayout>

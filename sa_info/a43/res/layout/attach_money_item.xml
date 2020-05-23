@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/attach_container" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/attach_internal" n1:layout_width="133.0dip" n1:layout_height="@dimen/attachment_height">
+        <ru.mail.fragments.view.AutoRotateImageView n1:id="@id/attachment_thumbnail" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_centerHorizontal="true" n1:layout_centerVertical="true" />
+        <ru.mail.uikit.view.FontTextView n1:textSize="17.0sp" n1:textColor="#ff999999" n1:id="@id/money_amount" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="13.0dip" n1:layout_marginBottom="6.0dip" n1:layout_alignParentBottom="true" n2:textFont="robotoRegular" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/fade_mask" n1:background="#afececec" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    </RelativeLayout>
+</RelativeLayout>

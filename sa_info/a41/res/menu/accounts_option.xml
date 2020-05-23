@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="?iconActionSearch" android:id="@id/search" android:title="@string/search_action" android:showAsAction="always" />
+    <item android:icon="?iconActionRefresh" android:id="@id/check_mail" android:title="@string/check_mail_action" android:alphabeticShortcut="r" android:showAsAction="always" />
+    <item android:icon="?iconActionCompose" android:id="@id/compose" android:title="@string/compose_action" android:alphabeticShortcut="c" android:showAsAction="always" />
+    <item android:icon="?iconActionAdd" android:id="@id/add_new_account" android:title="@string/add_account_action" android:showAsAction="ifRoom" />
+    <item android:icon="?iconActionAbout" android:id="@id/about" android:title="@string/about_action" />
+    <item android:icon="?iconActionImportExport" android:id="@id/import_export" android:title="@string/import_export_action">
+        <menu>
+            <item android:id="@id/export_all" android:title="@string/settings_export_all" />
+            <item android:id="@id/import_settings" android:title="@string/settings_import" />
+        </menu>
+    </item>
+    <item android:icon="?iconActionSettings" android:id="@id/edit_prefs" android:title="@string/preferences_action" android:showAsAction="never" />
+</menu>

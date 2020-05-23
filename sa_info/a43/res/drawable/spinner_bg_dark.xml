@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector n1:autoMirrored="true"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <item n1:state_pressed="true" n1:drawable="@drawable/spinner_bg_dark_pressed" />
+    <item n1:state_focused="true" n1:drawable="@drawable/spinner_bg_dark_focused" />
+    <item n1:drawable="@drawable/spinner_bg_dark_normal" />
+</selector>

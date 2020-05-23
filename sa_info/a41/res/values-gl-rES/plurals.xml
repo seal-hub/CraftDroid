@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Realmente queres eliminar estas %1$d mensaxes?</item>
+        <item quantity="one">Realmente queres eliminar esta mensaxe?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Realmente queres mover estas %1$d mensaxes ao cartafol de correo lixo?</item>
+        <item quantity="one">Realmente queres mover esta mensaxe ao cartafol de correo lixo?</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s contas</item>
+        <item quantity="one">1 conta</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">contrasinais do servidor</item>
+        <item quantity="one">contrasinal do servidor</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Axustes dos contrasinais…</item>
+        <item quantity="one">Axustes do contrasinal…</item>
+    </plurals>
+</resources>

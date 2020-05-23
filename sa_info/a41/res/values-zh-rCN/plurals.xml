@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">地址已复制到剪贴板</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">您确定要删除 %1$d 条消息吗?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">您确定要移动 %1$d 条消息到垃圾箱吗?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d 条新消息</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s 个账户</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">服务器密码</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">设置密码…</item>
+    </plurals>
+</resources>

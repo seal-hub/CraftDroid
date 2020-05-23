@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n1:state_checked="true" n1:drawable="@drawable/selectable_item_bg_checked"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:state_selected="true" n2:state_pressed="true" n2:drawable="@drawable/selectable_item_bg_checked"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:state_selected="true" n3:state_pressed="false" n3:drawable="@drawable/selectable_item_bg_checked"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:state_selected="false" n4:state_pressed="true" n4:drawable="@drawable/checked_state_secondary"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:drawable="@drawable/default_state"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+</selector>

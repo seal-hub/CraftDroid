@@ -1,0 +1,78 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "kdk.android.simplydo:id/AddListButton",
+    "text": "Add",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "New List Name",
+    "stepping_events": [],
+    "package": "kdk.android.simplydo",
+    "activity": ".SimplyDoActivity",
+    "event_type": "gui",
+    "score": 0.3650299978698056,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "kdk.android.simplydo:id/AddListEditText",
+    "text": "New List Name",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "kdk.android.simplydo",
+    "activity": ".SimplyDoActivity",
+    "event_type": "gui",
+    "score": 0.38643756945353175,
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sample Todo"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "kdk.android.simplydo:id/AddListButton",
+    "text": "Add",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Sample Todo",
+    "stepping_events": [],
+    "package": "kdk.android.simplydo",
+    "activity": ".SimplyDoActivity",
+    "event_type": "gui",
+    "score": 0.37537034391919927,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "kdk.android.simplydo:id/text1",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "kdk.android.simplydo",
+    "activity": ".SimplyDoActivity",
+    "event_type": "oracle",
+    "score": 0.39558021971404067,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//android.widget.TextView[@text=\"Sample Todo\"]"
+    ]
+  }
+]

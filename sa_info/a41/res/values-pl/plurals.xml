@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Adresy skopiowane do schowka</item>
+        <item quantity="one">Adres skopiowany do schowka</item>
+        <item quantity="few">Adresy skopiowane do schowka</item>
+        <item quantity="many">Adresy skopiowane do schowka</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Czy chcesz usunąć %1$d wiadomości?</item>
+        <item quantity="one">Czy chcesz usunąć tę wiadomość?</item>
+        <item quantity="few">Czy chcesz usunąć %1$d wiadomości?</item>
+        <item quantity="many">Czy chcesz usunąć %1$d wiadomości?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Czy chcesz przenieść %1$d wiadomości do folderu ze spamem?</item>
+        <item quantity="one">Czy chcesz przenieść tę wiadomość to folderu ze spamem?</item>
+        <item quantity="few">Czy chcesz przenieść %1$d wiadomości do folderu ze spamem?</item>
+        <item quantity="many">Czy chcesz przenieść %1$d wiadomości do folderu ze spamem?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d nowych wiadomości</item>
+        <item quantity="one">%d nowa wiadomość</item>
+        <item quantity="few">%d nowe wiadomości</item>
+        <item quantity="many">%d nowych wiadomości</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Pobieram wyniki: %d</item>
+        <item quantity="one">Pobieram wyniki: %d</item>
+        <item quantity="few">Pobieram wyniki: %d</item>
+        <item quantity="many">Pobieram wyniki: %d</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Pobieram wynik %1$d/%2$d</item>
+        <item quantity="one">Pobieram wynik %1$d/%2$d</item>
+        <item quantity="few">Pobieram wynik %1$d/%2$d</item>
+        <item quantity="many">Pobieram wynik %1$d/%2$d</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s kont</item>
+        <item quantity="one">1 konto</item>
+        <item quantity="few">%s konta</item>
+        <item quantity="many">%s kont</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">hasła serwera</item>
+        <item quantity="one">hasło serwera</item>
+        <item quantity="few">hasła serwera</item>
+        <item quantity="many">hasła serwera</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Ustawianie haseł…</item>
+        <item quantity="one">Ustawianie hasła…</item>
+        <item quantity="few">Ustawianie haseł…</item>
+        <item quantity="many">Ustawianie haseł…</item>
+    </plurals>
+</resources>

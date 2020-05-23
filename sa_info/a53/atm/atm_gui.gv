@@ -1,0 +1,11 @@
+digraph "CallGraph" {
+    node [style="rounded,bold,filled"];
+    node [shape=box];
+    "Root" [label="Root",];
+    "com.tleapps.simpletipcalculator.MainActivity: void onCreate(android.os.Bundle)" [label="MainActivity(onCreate)",];
+    "Root"->"com.tleapps.simpletipcalculator.MainActivity: void onCreate(android.os.Bundle)" [label="SYMBOLIC",style=bold,color=black,];
+    "android.support.v4.app.Fragment$OnStartEnterTransitionListener: void onStartEnterTransition()" [label="Fragment$OnStartEnterTransitionListener(onStartEnterTransition)",];
+    "com.tleapps.simpletipcalculator.MainActivity: void onCreate(android.os.Bundle)"->"android.support.v4.app.Fragment$OnStartEnterTransitionListener: void onStartEnterTransition()" [label="GUI (NULL)",style=bold,color=firebrick,];
+    "com.tleapps.simpletipcalculator.MainActivity: void onCreate(android.os.Bundle)"->"android.support.v4.app.Fragment$OnStartEnterTransitionListener: void onStartEnterTransition()" [label="GUI (NULL)",style=bold,color=firebrick,];
+    "com.tleapps.simpletipcalculator.MainActivity: void onCreate(android.os.Bundle)"->"android.support.v4.app.Fragment$OnStartEnterTransitionListener: void onStartEnterTransition()" [label="GUI (NULL)",style=bold,color=firebrick,];
+}

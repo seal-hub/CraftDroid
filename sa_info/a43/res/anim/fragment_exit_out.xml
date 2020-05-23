@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set n1:interpolator="@android:anim/accelerate_interpolator" n1:zAdjustment="top"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <translate n1:duration="@android:integer/config_shortAnimTime" n1:fromYDelta="0.0%" n1:toYDelta="33.000004%" />
+    <alpha n1:duration="@android:integer/config_shortAnimTime" n1:fromAlpha="1.0" n1:toAlpha="0.0" />
+</set>

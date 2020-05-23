@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Ana ekrana git</string>
+    <string name="abc_action_bar_up_description">Yukarı git</string>
+    <string name="abc_action_menu_overflow_description">Diğer seçenekler</string>
+    <string name="abc_action_mode_done">Bitti</string>
+    <string name="abc_activity_chooser_view_see_all">Tümünü göster</string>
+    <string name="abc_activitychooserview_choose_application">Bir uygulama seçin</string>
+    <string name="abc_capital_off">KAPAT</string>
+    <string name="abc_capital_on">AÇ</string>
+    <string name="abc_search_hint">Ara…</string>
+    <string name="abc_searchview_description_clear">Sorguyu temizle</string>
+    <string name="abc_searchview_description_query">Arama sorgusu</string>
+    <string name="abc_searchview_description_search">Ara</string>
+    <string name="abc_searchview_description_submit">Sorguyu gönder</string>
+    <string name="abc_searchview_description_voice">Sesli arama</string>
+    <string name="abc_shareactionprovider_share_with">Şununla paylaş</string>
+    <string name="abc_shareactionprovider_share_with_application">%s ile paylaş</string>
+    <string name="abc_toolbar_collapse_description">Daralt</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s kontrol&amp;#252; size verir.&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>Onu gizlilik odakl&amp;#305; bir taray&amp;#305;c&amp;#305; olarak kullanabilirsiniz:
+  &lt;ul>
+    &lt;li>Do&amp;#287;rudan uygulamada arama yapabilir ve web&amp;#8217;de gezinebilirsiniz&lt;/li>
+    &lt;li>Takip&amp;#231;ileri engelleyebilirsiniz (veya belli takip&amp;#231;ilere izin verebilirsiniz)&lt;/li>
+    &lt;li>Tek d&amp;#252;&amp;#287;meyle &amp;#231;erezleri, arama ve gezinti ge&amp;#231;mi&amp;#351;inizi silebilirsiniz&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s Mozilla taraf&amp;#305;ndan geli&amp;#351;tirilmi&amp;#351;tir. Misyonumuz daha sa&amp;#287;l&amp;#305;kl&amp;#305; ve a&amp;#231;&amp;#305;k bir internet yaratmakt&amp;#305;r.&lt;br/>
+&lt;a href=%2$s>Daha fazla bilgi al&amp;#305;n&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">Yükleniyor</string>
+    <string name="accessibility_announcement_loading_finished">Web sitesi yüklendi</string>
+    <string name="accessibility_dismiss_find_in_page">Sayfa bulmayı kapat</string>
+    <string name="accessibility_find_in_page_result">%2$d sonuçtan %1$d. sonuç</string>
+    <string name="accessibility_next_result">Sonraki sonucu bul</string>
+    <string name="accessibility_previous_result">Önceki sonucu bul</string>
+    <string name="action_cancel">Vazgeç</string>
+    <string name="action_ok">Tamam</string>
+    <string name="action_option_add_search_engine">Arama motoru ekle</string>
+    <string name="action_save">Kaydet</string>
+    <string name="common_google_play_services_enable_button">Etkinleştir</string>
+    <string name="common_google_play_services_enable_text">Google Play hizmetlerini etkinleştirmezseniz %1$s çalışmaz.</string>
+    <string name="common_google_play_services_enable_title">Google Play hizmetlerini etkinleştirin</string>
+    <string name="common_google_play_services_install_button">Yükle</string>
+    <string name="common_google_play_services_install_text">%1$s, şu anda cihazınızda bulunmayan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_install_title">Google Play hizmetlerini edinin</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Hizmetleri hatası</string>
+    <string name="common_google_play_services_unknown_issue">%1$s, Google Play hizmetleriyle ilgili sorun yaşıyor. Lütfen tekrar deneyin.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s, Google Play hizmetleri olmadan çalışmaz ve bu hizmetler cihazınız tarafından desteklenmiyor.</string>
+    <string name="common_google_play_services_update_button">Güncelle</string>
+    <string name="common_google_play_services_update_text">Google Play hizmetlerini güncellemezseniz %1$s çalışmayacak.</string>
+    <string name="common_google_play_services_update_title">Google Play hizmetlerini güncelleyin</string>
+    <string name="common_google_play_services_updating_text">%1$s, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir.</string>
+    <string name="common_open_on_phone">Telefonda aç</string>
+    <string name="common_signin_button_text">Oturum aç</string>
+    <string name="common_signin_button_text_long">"Google'da oturum aç"</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Geri git</string>
+    <string name="content_description_blocking_switch">Takipçileri engelle</string>
+    <string name="content_description_clear_input">Girdiyi temizle</string>
+    <string name="content_description_customtab_exit">Önceki uygulamaya dön</string>
+    <string name="content_description_dismiss_input">Kapat</string>
+    <string name="content_description_erase">Gezinti geçmişini sil</string>
+    <string name="content_description_forward">İleri git</string>
+    <string name="content_description_lock">Güvenli bağlantı</string>
+    <string name="content_description_menu">Diğer seçenekler</string>
+    <string name="content_description_reload">Siteyi tazele</string>
+    <string name="content_description_stop">Siteyi yüklemeyi durdur</string>
+    <string name="content_description_tab_counter">Açık sekmeler: %1$s</string>
+    <string name="contextmenu_image_copy">Resmin adresini kopyala</string>
+    <string name="contextmenu_image_save">Resmi kaydet</string>
+    <string name="contextmenu_image_share">Resmi paylaş</string>
+    <string name="contextmenu_image_warning">%1$s geçmişini sildiğinizde, kaydettiğiniz ve paylaştığınız resimler &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>silinmeyecektir&lt;/b>.</string>
+    <string name="contextmenu_link_copy">Bağlantı adresini kopyala</string>
+    <string name="contextmenu_link_share">Bağlantıyı paylaş</string>
+    <string name="contextmenu_open_in_new_tab">Bağlantıyı yeni sekmede aç</string>
+    <string name="custom_autocomplete_quick_add">Özel adres ekle</string>
+    <string name="custom_tab_copy_url_action">Adres kopyalandı</string>
+    <string name="dialog_addtohomescreen_action_add">Ekle</string>
+    <string name="dialog_addtohomescreen_action_cancel">İptal</string>
+    <string name="dialog_addtohomescreen_tracking_protection">Kısayolu kullandığınızda İzlenme Koruması kapalı kalacaktır</string>
+    <string name="download_dialog_action_cancel">Vazgeç</string>
+    <string name="download_dialog_action_download">İndir</string>
+    <string name="download_dialog_title">Dosya İndir</string>
+    <string name="download_dialog_warning">%1$s geçmişini sildiğinizde, indirmiş olduğunuz dosyalar &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>silinmez&lt;/b>.</string>
+    <string name="download_firefox">Firefox’u indir</string>
+    <string name="download_snackbar_finished">%1$s indirildi</string>
+    <string name="download_snackbar_open">Aç</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Site ge&amp;#231;ici olarak kapal&amp;#305; olabilir veya &amp;#231;ok me&amp;#351;gul olabilir. Birka&amp;#231; dakika sonra yeniden deneyin.&lt;/li>
+        &lt;li>Hi&amp;#231;bir sayfa a&amp;#231;&amp;#305;lm&amp;#305;yorsa cihaz&amp;#305;n&amp;#305;z&amp;#305;n mobil internet veya Wi-Fi ba&amp;#287;lant&amp;#305;s&amp;#305;n&amp;#305; kontrol edin.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">Bağlanılamadı</string>
+    <string name="error_generic_message">Bilinmeyen bir nedenden dolayı bu sayfa yüklenemedi.</string>
+    <string name="error_generic_title">Hata</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Adres &lt;strong>www&lt;/strong>.example.com yerine &lt;strong>ww&lt;/strong>.example.com gibi yanl&amp;#305;&amp;#351; yaz&amp;#305;lm&amp;#305;&amp;#351; olabilir.&lt;/li>
+  &lt;li>Hi&amp;#231;bir sayfa a&amp;#231;&amp;#305;lm&amp;#305;yorsa cihaz&amp;#305;n&amp;#305;z&amp;#305;n mobil internet veya Wi-Fi ba&amp;#287;lant&amp;#305;s&amp;#305;n&amp;#305; kontrol edin.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_hostLookup_title">Sunucu bulunamadı</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Web adresleri genelde &lt;strong>http://www.example.com/&lt;/strong> bi&amp;#231;iminde yaz&amp;#305;l&amp;#305;r.&lt;/li>
+  &lt;li>Adreste sa&amp;#287;a yat&amp;#305;k b&amp;#246;l&amp;#252; i&amp;#351;areti (&lt;strong>/&lt;/strong>) bulundu&amp;#287;undan emin olun.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">Adres geçersiz</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Bu sorun bazen &amp;#231;erezlerin devre d&amp;#305;&amp;#351;&amp;#305; b&amp;#305;rak&amp;#305;lmas&amp;#305;ndan veya reddedilmesinden kaynaklabilir.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">Sayfa doğru bir şekilde yönlendirilmiyor</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2> 
+  &lt;li>Sunucunun yap&amp;#305;land&amp;#305;rmas&amp;#305;yla ilgili bir sorun olabilir veya birisi sunucuyu taklit etmeye &amp;#231;al&amp;#305;&amp;#351;&amp;#305;yor olabilir.&lt;/li>
+  &lt;li>Daha &amp;#246;nce bu sunucuya sorunsuz ba&amp;#287;land&amp;#305;ysan&amp;#305;z sorun ge&amp;#231;ici olabilir ve daha sonra yeniden ba&amp;#287;lanmay&amp;#305; deneyebilirsiniz.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">Güvenli bağlantı hatası</string>
+    <string name="error_timeout_title">Bağlantı zaman aşımına uğradı</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Bu adresi a&amp;#231;mak i&amp;#231;in ba&amp;#351;ka bir uygulama y&amp;#252;klemeniz gerekebilir.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">Adres anlaşılamadı</string>
+    <string name="errorpage_refresh">Yeniden dene</string>
+    <string name="errorpage_title">Sayfa yükleme sorunu</string>
+    <string name="external_app_prompt">"Bu bağlantıyı %2$s ile açmak için %1$s'tan çıkabilirsiniz."</string>
+    <string name="external_app_prompt_no_app">"Cihazınızdaki uygulamalar bu bağlantıyı açamıyor. %2$s mağazasında uygun bir uygulama aramak için %1$s'tan çıkabilirsiniz."</string>
+    <string name="external_app_prompt_no_app_title">Bağlantıyı açabilecek bir uygulama bul</string>
+    <string name="external_app_prompt_title">Bağlantıyı farklı uygulamada aç</string>
+    <string name="external_multiple_apps_matched_exit">"Gizli Gezinti'den çıkılsın mı?"</string>
+    <string name="feedback_erase">Gezinti geçmişiniz silinmiştir.</string>
+    <string name="find_in_page">Sayfada bul</string>
+    <string name="find_in_page_input">Sayfada bul</string>
+    <string name="find_in_page_result">%1$d/%2$d</string>
+    <string name="firstrun_close_button">Anladım!</string>
+    <string name="firstrun_defaultbrowser_text2">Gizli gezintiyi daha da geliştirdik. Gezdiğiniz siteleri takip eden ve sayfaların yüklenmesini yavaşlatan reklamları ve diğer içerikleri engelleyebilirsiniz.</string>
+    <string name="firstrun_defaultbrowser_title">Gizliliğini güçlendir</string>
+    <string name="firstrun_next_button">İleri</string>
+    <string name="firstrun_privacy_text">%1$s’u varsayılan tarayıcınız yapın, diğer uygulamalarda web sayfalarını açtığınız zaman da gizli gezintiden yararlanın.</string>
+    <string name="firstrun_privacy_title">Hep gizli kal</string>
+    <string name="firstrun_search_text">Başka bir şey mi arıyorsunuz? Ayarlar menüsünden varsayılan arama motorunuzu değiştirebilirsiniz.</string>
+    <string name="firstrun_search_title">Senin araman, senin kararın</string>
+    <string name="firstrun_shortcut_text">%1$s’ta sevdiğiniz sitelere çabucak ulaşabilirsiniz. %1$s menüsünden \"Ana ekrana ekle\"yi seçmeniz yeterli.</string>
+    <string name="firstrun_shortcut_title">Kısayolları ana ekranına ekle</string>
+    <string name="firstrun_skip_button">Geç</string>
+    <string name="gv_prompt_clear">Temizle</string>
+    <string name="gv_prompt_password_hint">Parola</string>
+    <string name="gv_prompt_username_hint">Kullanıcı adı</string>
+    <string name="http_auth_dialog_password">Parola</string>
+    <string name="http_auth_dialog_title">Kimlik doğrulama gerekli</string>
+    <string name="http_auth_dialog_username">Kullanıcı adı</string>
+    <string name="menu_about">Hakkında</string>
+    <string name="menu_add_to_home_screen">Ana ekrana ekle</string>
+    <string name="menu_custom_tab_branding">%1$s</string>
+    <string name="menu_help">Yardım</string>
+    <string name="menu_open_with_a_browser2">Birlikte aç…</string>
+    <string name="menu_open_with_default_browser2">%1$s ile aç</string>
+    <string name="menu_report_site_issue">Siteyle ilgili sorun bildir</string>
+    <string name="menu_rights">Haklarınız</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="menu_share">Paylaş…</string>
+    <string name="menu_trackers_blocked_title">Engellenen takipçi</string>
+    <string name="menu_whats_new">Yeni neler var?</string>
+    <string name="notification_action_erase_and_open">Sil ve aç</string>
+    <string name="notification_action_open">Aç</string>
+    <string name="notification_browsing_session_channel_description">Bildirimler sayesinde %1$s oturumunuzu tek dokunuşla silebilirsiniz. Uygulamayı açmanıza ve tarayıcınızdaki açık sayfaları görmenize gerek kalmaz.</string>
+    <string name="notification_browsing_session_channel_name">Gizli gezinti oturumu</string>
+    <string name="notification_erase_text">Gezinti geçmişini sil</string>
+    <string name="preference_about">%1$s hakkında</string>
+    <string name="preference_autocomplete_action_add">+ Özel adres ekle</string>
+    <string name="preference_autocomplete_action_remove_content_description">Sil</string>
+    <string name="preference_autocomplete_add_confirmation">Yeni özel adres eklendi.</string>
+    <string name="preference_autocomplete_add_error">Yazdığınız adresi bir daha kontrol edin.</string>
+    <string name="preference_autocomplete_add_example">Örnek: example.com</string>
+    <string name="preference_autocomplete_add_example2">Örnek: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">Adresi yapıştırın veya yazın</string>
+    <string name="preference_autocomplete_add_title">Eklenecek adres</string>
+    <string name="preference_autocomplete_custom_summary">Otomatik tamamlanacak özel adresleri ekleyin ve yönetin.</string>
+    <string name="preference_autocomplete_duplicate_url_error">Adres zaten mevcut</string>
+    <string name="preference_autocomplete_learn_more">Daha fazla bilgi al</string>
+    <string name="preference_autocomplete_menu_remove">Sil</string>
+    <string name="preference_autocomplete_preinstalled_summary">%1$s’un 450’den fazla popüler adresi adres çubuğunda tamamlaması için bunu etkinleştirin.</string>
+    <string name="preference_autocomplete_subitem_customlist">Özel adresler</string>
+    <string name="preference_autocomplete_title_add">Özel adres ekle</string>
+    <string name="preference_autocomplete_title_remove">Özel adresleri sil</string>
+    <string name="preference_category_autocomplete_custom_urls">Özel adresler</string>
+    <string name="preference_category_autocomplete_preinstalled">Varsayılan adres listesi</string>
+    <string name="preference_category_cookies">Çerezler ve site verileri</string>
+    <string name="preference_category_data_choices">Veri tercihleri</string>
+    <string name="preference_category_data_collection_use">Veri toplanması ve kullanımı</string>
+    <string name="preference_category_general">Genel</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Performans</string>
+    <string name="preference_category_privacy">Gizlilik</string>
+    <string name="preference_category_search">Arama</string>
+    <string name="preference_category_switching_apps">Uygulama geçişi</string>
+    <string name="preference_category_tracking_protection">İzlenme Koruması</string>
+    <string name="preference_category_web_content">Web içeriği</string>
+    <string name="preference_default_browser2">%1$s’u varsayılan tarayıcım yap</string>
+    <string name="preference_language">Dil</string>
+    <string name="preference_language_systemdefault">Sistem varsayılanı</string>
+    <string name="preference_mozilla_summary">%1$s hakkında, yardım</string>
+    <string name="preference_mozilla_telemetry2">Kullanım verilerini gönder</string>
+    <string name="preference_mozilla_telemetry_summary">Daha fazla bilgi al</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla, yalnızca %1$s’u daha da geliştirmek için ihtiyaç duyduğumuz verileri toplar.</string>
+    <string name="preference_performance_block_javascript">JavaScript’i engelle</string>
+    <string name="preference_performance_block_javascript_summary">Sayfaları daha hızlı yüklenebilir ama sorun da çıkarabilirler</string>
+    <string name="preference_performance_block_webfonts">Web fontlarını engelle</string>
+    <string name="preference_performance_block_webfonts_summary">Simge ve resimlerin görünmemesine yol açabilir</string>
+    <string name="preference_performance_request_desktop_site">Masaüstü sitesini iste</string>
+    <string name="preference_privacy_and_security_header">Gizlilik ve Güvenlik</string>
+    <string name="preference_privacy_and_security_summary">İzlenme, çerezler, veri tercihleri</string>
+    <string name="preference_privacy_block_ads">Reklam takipçilerini engelle</string>
+    <string name="preference_privacy_block_ads_summary">Bazı reklamlar, siz onlara tıklamasanız bile ziyaret ettiğiniz siteleri takip eder</string>
+    <string name="preference_privacy_block_analytics">Analitik takipçilerini engelle</string>
+    <string name="preference_privacy_block_analytics_summary">Dokunma ve kaydırma gibi etkinlikleri kaydetmek, çözümlemek ve ölçmek için kullanılır</string>
+    <string name="preference_privacy_block_content">Diğer içerik takipçilerini engelle</string>
+    <string name="preference_privacy_block_content_summary2">Bunu açarsanız bazı sayfalar olması gerektiği gibi çalışmayabilir</string>
+    <string name="preference_privacy_block_social">Sosyal takipçileri engelle</string>
+    <string name="preference_privacy_block_social_summary">Sosyal medyada paylaşım düğmeleri, ziyaret ettiğiniz siteleri de takip eder</string>
+    <string name="preference_privacy_category_cookies">Çerezleri engelle</string>
+    <string name="preference_privacy_notice">Gizlilik bildirimi</string>
+    <string name="preference_privacy_secure_mode">Görünmezlik</string>
+    <string name="preference_privacy_should_block_cookies_no_option">Hayır</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Yalnızca 3. taraf çerezlerini engelle</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Evet</string>
+    <string name="preference_privacy_stealth_summary">Uygulama değiştirirken web sayfalarını gizle</string>
+    <string name="preference_search_add2">+ Başka bir arama motoru ekle</string>
+    <string name="preference_search_engine_default">Varsayılan</string>
+    <string name="preference_search_installed_search_engines">Yüklü arama motorları</string>
+    <string name="preference_search_remove">Sil</string>
+    <string name="preference_search_remove_title">Arama motorlarını sil</string>
+    <string name="preference_search_restore">Varsayılan arama motorlarını geri yükle</string>
+    <string name="preference_search_summary">Varsayılan yap, otomatik tamamlama</string>
+    <string name="preference_state_off">Kapalı</string>
+    <string name="preference_state_on">Açık</string>
+    <string name="preference_subitem_autocomplete">Otomatik adres tamamlama</string>
+    <string name="preference_switch_autocomplete">Otomatik tamamla</string>
+    <string name="search_add_confirmation">Yeni arama motoru eklendi.</string>
+    <string name="search_add_error_duplicate_name">Yüklenmiş bir arama motoru zaten bu adı kullanıyor.</string>
+    <string name="search_add_error_empty_name">Arama motoru adını yazın</string>
+    <string name="search_add_error_empty_search">Arama dizgisini yazın</string>
+    <string name="search_add_error_format">Arama dizgisinin örnek biçimle uyumlu olduğundan emin olun</string>
+    <string name="search_add_manually_example">Örnek: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">Arama motoru adı</string>
+    <string name="search_add_manually_save">Kaydet</string>
+    <string name="search_add_manually_string">Kullanılacak arama dizgisi</string>
+    <string name="search_hint">%1$s terimini ara</string>
+    <string name="search_menu_title">Ara</string>
+    <string name="security_popup_insecure_connection">Güvensiz Bağlantı</string>
+    <string name="security_popup_secure_connection">Güvenli bağlantı</string>
+    <string name="security_popup_security_verified">Doğrulayan: %1$s</string>
+    <string name="share_dialog_title">Paylaş</string>
+    <string name="shortcut_erase_long_label">Gezinti geçmişini sil</string>
+    <string name="shortcut_erase_short_label">Sil</string>
+    <string name="site_security_icon_content_description">Site güvenliği</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tabs_tray_action_erase">Gezinti geçmişini sil</string>
+    <string name="teaser">"Otomatik gizli gezinti.
+Gez ve sil. Hepsi bu kadar."</string>
+    <string name="text_selection_search_action">Gizli arama</string>
+    <string name="urlbar_hint">Arama yapın veya adres yazın</string>
+    <string name="your_rights">Haklarınız</string>
+    <string name="your_rights_content1">Mozilla ve gönüllüler tarafından geliştirilen %1$s, özgür ve açık kaynaklı bir yazılımdır.</string>
+    <string name="your_rights_content2">%1$s, &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Mozilla Kamu Lisans&amp;#305;&lt;/a> ve diğer açık kaynak lisanslarının koşullarıyla sunulmaktadır.</string>
+    <string name="your_rights_content3">Mozilla Foundation’ın tescilli markaları olan Mozilla, Firefox, %1$s adları ve logoları da dahil olmak üzere, tescilli markalarımızın hakları ve lisansları sizinle paylaşılmamaktadır. Daha fazla bilgi almak isterseniz &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>buraya&lt;/a> bakabilirsiniz.</string>
+    <string name="your_rights_content4">Bazı ek %1$s kaynak kodları çeşitli özgür lisanslar ve açık kaynak &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>lisanslar&amp;#305;&lt;/a> ile sunulmaktadır.</string>
+    <string name="your_rights_content5">%1$s ayrıca Disconnect, Inc. tarafından sağlanan engelleme listelerini kullanır. %1$s’tan ayrı ve bağımsız olan &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>bu &amp;#231;al&amp;#305;&amp;#351;malar&lt;/a> &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>GNU Kamu Lisans&amp;#305; v3&lt;/a> ile sunulmaktadır.</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.mail.fragments.mailbox.BoundedLinearLayout n1:orientation="vertical" n1:id="@id/smart_reply_container" n1:paddingBottom="16.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:background="@color/state_checked_secondary" n1:paddingTop="16.0dip" n1:paddingRight="8.0dip" n1:paddingBottom="4.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dip" n1:layout_marginTop="16.0dip" n1:layout_marginRight="16.0dip">
+        <ru.mail.uikit.view.FontTextView n1:textSize="15.0sp" n1:textColor="@color/text_secondary_inverse_normal" n1:id="@id/footer_description" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dip" n1:text="@string/tap_to_answer" n1:lineSpacingExtra="2.0dip" n2:textFont="robotoRegular" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <ru.mail.fragments.view.SmartReplyView n1:id="@id/smart_reply_recycler_view" n1:background="@color/state_checked_secondary" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dip" />
+    </LinearLayout>
+</ru.mail.fragments.mailbox.BoundedLinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Ar tikrai norite perkelti %1$d laiškų į brukalo aplanką?</item>
+        <item quantity="one">Ar tikrai norite perkelti šį laišką į brukalo aplanką?</item>
+        <item quantity="few">Ar tikrai norite perkelti %1$d laiškus į brukalo aplanką?</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">serverio slaptažodžių</item>
+        <item quantity="one">serverio slaptažodis</item>
+        <item quantity="few">serverio slaptažodžiai</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Nustatoma slaptažodžių…</item>
+        <item quantity="one">Nustatomas slaptažodis…</item>
+        <item quantity="few">Nustatomi slaptažodžiai…</item>
+    </plurals>
+</resources>

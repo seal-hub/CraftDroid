@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_reminder_times_human">
+        <item>期限</item>
+        <item>0.5 日前</item>
+        <item>1 日前</item>
+        <item>1.5 日前</item>
+        <item>2 日前</item>
+        <item>2.5 日前</item>
+        <item>3 日前</item>
+    </string-array>
+</resources>

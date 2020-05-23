@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/whitelist_item_cancel" android:background="?actionBarItemBackground" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_margin="@dimen/layout_margin_8dp" android:src="@drawable/ic_action_close_red" android:layout_centerInParent="true" android:contentDescription="@null" android:layout_alignParentEnd="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/whitelist_item_domain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="@dimen/layout_margin_16dp" android:layout_toStartOf="@id/whitelist_item_cancel" android:layout_alignParentStart="true" />
+</RelativeLayout>

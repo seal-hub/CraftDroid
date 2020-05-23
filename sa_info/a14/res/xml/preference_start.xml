@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:icon="@drawable/icon_image" android:title="@string/setting_title_images" android:key="@string/sp_images" android:summary="@string/setting_summary_images" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@drawable/icon_remote" android:title="@string/setting_title_remote" android:key="sp_remote" android:summary="@string/setting_summary_remote" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@drawable/icon_history" android:title="@string/setting_title_history" android:key="saveHistory" android:summary="@string/setting_summary_history" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@drawable/icon_location" android:title="@string/setting_title_location" android:key="@string/sp_location" android:summary="@string/setting_summary_location" android:defaultValue="false" />
+    <CheckBoxPreference android:icon="@drawable/icon_night" android:title="@string/setting_title_inverted" android:key="sp_invert" android:summary="@string/setting_summary_inverted" android:defaultValue="false" />
+    <PreferenceCategory android:title="@string/setting_title_adblock">
+        <CheckBoxPreference android:icon="@drawable/icon_block" android:title="@string/setting_title_adblock" android:key="@string/sp_ad_block" android:summary="@string/setting_summary_adblock" android:defaultValue="true" />
+        <Preference android:icon="@drawable/icon_list" android:title="@string/setting_title_whitelist" android:summary="@string/setting_summary_whitelist" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_title_javascript">
+        <CheckBoxPreference android:icon="@drawable/icon_java" android:title="@string/setting_title_javascript" android:key="@string/sp_javascript" android:summary="@string/setting_summary_javascript" android:defaultValue="true" />
+        <Preference android:icon="@drawable/icon_list" android:title="@string/setting_title_whitelistJS" android:summary="@string/setting_summary_whitelistJS" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_title_cookie">
+        <CheckBoxPreference android:icon="@drawable/icon_cookie" android:title="@string/setting_title_cookie" android:key="@string/sp_cookies" android:summary="@string/setting_summary_cookie" android:defaultValue="true" />
+        <Preference android:icon="@drawable/icon_list" android:title="@string/setting_title_whitelistCookie" android:summary="@string/setting_summary_whitelistCookie" />
+    </PreferenceCategory>
+</PreferenceScreen>

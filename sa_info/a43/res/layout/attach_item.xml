@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/attach_container" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/attach_internal" n1:layout_width="@dimen/attachment_width" n1:layout_height="@dimen/attachment_height">
+        <ru.mail.fragments.view.AutoRotateImageView n1:id="@id/attachment_thumbnail" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:scaleType="matrix" n1:layout_centerHorizontal="true" n1:layout_centerVertical="true" />
+        <ImageView n1:id="@id/attachment_icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_above="@id/unknown_file_info_container" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" />
+        <include n1:id="@id/preview_default_extension" n1:layout_width="64.0dip" n1:layout_height="fill_parent" n1:layout_above="@id/unknown_file_info_container" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" layout="@layout/preview_default_extension" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/unknown_file_info_container" n1:paddingLeft="6.0dip" n1:paddingTop="4.0dip" n1:paddingRight="6.0dip" n1:paddingBottom="5.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:weightSum="1.0" n1:minHeight="36.0dip" n1:layout_alignParentBottom="true">
+            <RelativeLayout n1:gravity="fill" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_weight="0.5">
+                <TextView n1:textSize="12.0sp" n1:textColor="@android:color/white" n1:ellipsize="end" n1:id="@id/unknown_file_extension" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" n1:layout_alignParentRight="true" n1:fontFamily="sans-serif" />
+                <TextView n1:textSize="12.0sp" n1:textColor="@android:color/white" n1:ellipsize="end" n1:id="@id/unknown_file_name" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" n1:layout_toLeftOf="@id/unknown_file_extension" n1:fontFamily="sans-serif" />
+            </RelativeLayout>
+            <TextView n1:textSize="10.0sp" n1:textColor="#99ffffff" n1:id="@id/unknown_file_size" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" n1:layout_weight="0.5" n1:fontFamily="sans-serif" />
+        </LinearLayout>
+        <TextView n1:textSize="10.0sp" n1:textColor="@android:color/white" n1:id="@id/media_file_size" n1:background="@color/attach_label_background" n1:paddingLeft="4.0dip" n1:paddingRight="4.0dip" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="16.0dip" n1:layout_marginLeft="4.0dip" n1:layout_marginBottom="4.0dip" n1:maxLines="1" n1:singleLine="true" n1:layout_alignParentBottom="true" n1:fontFamily="sans-serif" />
+        <ImageView n1:id="@id/attachment_attachlink_icon" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:srcCompat="@drawable/ic_attach_cloud" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <View n1:background="?selectableItemBackground" n1:visibility="visible" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_alignBottom="@id/unknown_file_info_container" n1:layout_alignParentLeft="true" n1:layout_alignParentStart="true" />
+        <View n1:id="@id/attachment_frame" n1:background="@drawable/attach_item_frame" n1:visibility="invisible" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    </RelativeLayout>
+</RelativeLayout>

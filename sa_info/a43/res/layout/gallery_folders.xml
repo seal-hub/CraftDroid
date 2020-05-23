@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView n1:id="@id/recycler_view" n1:paddingLeft="2.0dip" n1:paddingRight="2.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    <include n1:layout_gravity="center" n1:id="@id/gallery_empty_view_id" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" layout="@layout/gallery_empty_view_layout" />
+</FrameLayout>

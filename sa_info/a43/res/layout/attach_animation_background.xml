@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <RelativeLayout n1:id="@id/white_view_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <View n1:id="@id/white_view" n1:background="@android:color/white" n1:layout_width="0.0dip" n1:layout_height="0.0dip" />
+    </RelativeLayout>
+    <RelativeLayout n2:id="@id/fake_window_background" n2:layout_width="fill_parent" n2:layout_height="fill_parent"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</merge>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">მთავარზე ნავიგაცია</string>
+    <string name="abc_action_bar_up_description">ზემოთ ნავიგაცია</string>
+    <string name="abc_action_menu_overflow_description">მეტი ვარიანტები</string>
+    <string name="abc_action_mode_done">დასრულდა</string>
+    <string name="abc_activity_chooser_view_see_all">ყველას ნახვა</string>
+    <string name="abc_activitychooserview_choose_application">აპის არჩევა</string>
+    <string name="abc_capital_off">გამორთულია</string>
+    <string name="abc_capital_on">ჩართულია</string>
+    <string name="abc_search_hint">ძიება...</string>
+    <string name="abc_searchview_description_clear">მოთხოვნის გასუფთავება</string>
+    <string name="abc_searchview_description_query">ძიების მოთხოვნა</string>
+    <string name="abc_searchview_description_search">ძიება</string>
+    <string name="abc_searchview_description_submit">მოთხოვნის გადაგზავნა</string>
+    <string name="abc_searchview_description_voice">ხმოვანი ძიება</string>
+    <string name="abc_shareactionprovider_share_with">გაზიარება:</string>
+    <string name="abc_shareactionprovider_share_with_application">გაუზიარეთ %s-ს</string>
+    <string name="abc_toolbar_collapse_description">აკეცვა</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s &amp;#4321;&amp;#4320;&amp;#4323;&amp;#4314;&amp;#4304;&amp;#4307; &amp;#4306;&amp;#4312;&amp;#4305;&amp;#4320;&amp;#4323;&amp;#4316;&amp;#4308;&amp;#4305;&amp;#4311; &amp;#4315;&amp;#4304;&amp;#4320;&amp;#4311;&amp;#4309;&amp;#4312;&amp;#4321; &amp;#4321;&amp;#4304;&amp;#4307;&amp;#4304;&amp;#4309;&amp;#4308;&amp;#4308;&amp;#4305;&amp;#4321;.&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#4306;&amp;#4304;&amp;#4315;&amp;#4317;&amp;#4312;&amp;#4327;&amp;#4308;&amp;#4316;&amp;#4308;&amp;#4311; &amp;#4320;&amp;#4317;&amp;#4306;&amp;#4317;&amp;#4320;&amp;#4330; &amp;#4318;&amp;#4312;&amp;#4320;&amp;#4304;&amp;#4307;&amp;#4312; &amp;#4305;&amp;#4320;&amp;#4304;&amp;#4323;&amp;#4310;&amp;#4308;&amp;#4320;&amp;#4312;:
+  &lt;ul>
+    &lt;li>&amp;#4315;&amp;#4317;&amp;#4331;&amp;#4308;&amp;#4305;&amp;#4316;&amp;#4308;&amp;#4311; &amp;#4307;&amp;#4304; &amp;#4307;&amp;#4304;&amp;#4304;&amp;#4311;&amp;#4309;&amp;#4304;&amp;#4314;&amp;#4312;&amp;#4308;&amp;#4320;&amp;#4308;&amp;#4311; &amp;#4306;&amp;#4309;&amp;#4308;&amp;#4320;&amp;#4307;&amp;#4308;&amp;#4305;&amp;#4312;&lt;/li>
+    &lt;li>&amp;#4328;&amp;#4308;&amp;#4310;&amp;#4326;&amp;#4323;&amp;#4307;&amp;#4308;&amp;#4311; &amp;#4315;&amp;#4308;&amp;#4311;&amp;#4309;&amp;#4304;&amp;#4314;&amp;#4327;&amp;#4323;&amp;#4320;&amp;#4308; &amp;#4308;&amp;#4314;&amp;#4308;&amp;#4315;&amp;#4308;&amp;#4316;&amp;#4322;&amp;#4308;&amp;#4305;&amp;#4312; (&amp;#4318;&amp;#4304;&amp;#4320;&amp;#4304;&amp;#4315;&amp;#4308;&amp;#4322;&amp;#4320;&amp;#4308;&amp;#4305;&amp;#4312;&amp;#4307;&amp;#4304;&amp;#4316; &amp;#4307;&amp;#4304;&amp;#4328;&amp;#4309;&amp;#4308;&amp;#4305;&amp;#4304;&amp;#4330; &amp;#4328;&amp;#4308;&amp;#4312;&amp;#4331;&amp;#4314;&amp;#4308;&amp;#4305;&amp;#4304;)&lt;/li>
+    &lt;li>&amp;#4306;&amp;#4304;&amp;#4304;&amp;#4321;&amp;#4323;&amp;#4324;&amp;#4311;&amp;#4304;&amp;#4309;&amp;#4308;&amp;#4311; &amp;#4307;&amp;#4304; &amp;#4332;&amp;#4304;&amp;#4328;&amp;#4304;&amp;#4314;&amp;#4308;&amp;#4311; &amp;#4324;&amp;#4323;&amp;#4316;&amp;#4311;&amp;#4323;&amp;#4328;&amp;#4308;&amp;#4305;&amp;#4312;, &amp;#4331;&amp;#4312;&amp;#4308;&amp;#4305;&amp;#4312;&amp;#4321;&amp;#4304; &amp;#4307;&amp;#4304; &amp;#4311;&amp;#4309;&amp;#4304;&amp;#4314;&amp;#4312;&amp;#4308;&amp;#4320;&amp;#4308;&amp;#4305;&amp;#4312;&amp;#4321; &amp;#4312;&amp;#4321;&amp;#4322;&amp;#4317;&amp;#4320;&amp;#4312;&amp;#4304;&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s &amp;#4328;&amp;#4308;&amp;#4325;&amp;#4315;&amp;#4316;&amp;#4312;&amp;#4314;&amp;#4312;&amp;#4304; Mozilla-&amp;#4321; &amp;#4315;&amp;#4312;&amp;#4308;&amp;#4320;. &amp;#4329;&amp;#4309;&amp;#4308;&amp;#4316;&amp;#4312; &amp;#4315;&amp;#4312;&amp;#4310;&amp;#4304;&amp;#4316;&amp;#4312;, &amp;#4312;&amp;#4316;&amp;#4322;&amp;#4308;&amp;#4320;&amp;#4316;&amp;#4308;&amp;#4322;&amp;#4312;&amp;#4321; &amp;#4306;&amp;#4304;&amp;#4334;&amp;#4321;&amp;#4316;&amp;#4312;&amp;#4314;&amp;#4317;&amp;#4305;&amp;#4304; &amp;#4307;&amp;#4304; &amp;#4321;&amp;#4312;&amp;#4335;&amp;#4304;&amp;#4316;&amp;#4321;&amp;#4304;&amp;#4326;&amp;#4308;&amp;#4304;.&lt;br/>
+&lt;a href=%2$s>&amp;#4309;&amp;#4320;&amp;#4330;&amp;#4314;&amp;#4304;&amp;#4307;&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">იტვირთება</string>
+    <string name="accessibility_announcement_loading_finished">საიტი ჩაიტვირთა</string>
+    <string name="accessibility_dismiss_find_in_page">ძიების გაუქმება</string>
+    <string name="accessibility_find_in_page_result">%1$d, %2$d-დან</string>
+    <string name="accessibility_next_result">მომდევნო შედეგი</string>
+    <string name="accessibility_previous_result">წინა შედეგი</string>
+    <string name="action_cancel">გაუქმება</string>
+    <string name="action_ok">კარგი</string>
+    <string name="action_option_add_search_engine">საძიებოს დამატება</string>
+    <string name="action_save">შენახვა</string>
+    <string name="common_google_play_services_enable_button">ჩართვა</string>
+    <string name="common_google_play_services_enable_text">%1$s ვერ იმუშავებს Google Play Services-ის ჩართვამდე.</string>
+    <string name="common_google_play_services_enable_title">Google Play Services-ის ჩართვა</string>
+    <string name="common_google_play_services_install_button">ინსტალაცია</string>
+    <string name="common_google_play_services_install_text">%1$s ვერ გაეშვება Google Play Services-ის გარეშე, რომელიც აკლია თქვენს მოწყობილობას.</string>
+    <string name="common_google_play_services_install_title">Google Play Services-ის ჩამოტვირთვა</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Services-ის შეცდომა</string>
+    <string name="common_google_play_services_unknown_issue">%1$s-ს Google Play Services-თან პრობლემა შეექმნა. გთხოვთ, ცადოთ ხელახლა.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ვერ გაეშვება Google Play Services-ის გარეშე, რომლებიც მხარდაუჭერელია თქვენი მოწყობილობის მიერ.</string>
+    <string name="common_google_play_services_update_button">განახლება</string>
+    <string name="common_google_play_services_update_text">%1$s ვერ გაეშვება, თუ Google Play სერვისებს არ განაახლებთ.</string>
+    <string name="common_google_play_services_update_title">განაახლეთ Google Play Services</string>
+    <string name="common_google_play_services_updating_text">%1$s ვერ გაეშვება Google Play Services-ის გარეშე, რომელთა განახლებაც ამჟამად მიმდინარეობს.</string>
+    <string name="common_google_play_services_wear_update_text">საჭიროა Google Play Services-ის ახალი ვერსია. ის მალე განახლდება.</string>
+    <string name="common_open_on_phone">ტელეფონში გახსნა</string>
+    <string name="common_signin_button_text">შესვლა</string>
+    <string name="common_signin_button_text_long">Google-ით შესვლა</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">გადასვლა უკან</string>
+    <string name="content_description_blocking_switch">მეთვალყურე ელემენტების შეზღუდვა</string>
+    <string name="content_description_clear_input">შეტანილის გასუფთავება</string>
+    <string name="content_description_customtab_exit">წინა პროგრამაზე დაბრუნება</string>
+    <string name="content_description_dismiss_input">დახურვა</string>
+    <string name="content_description_erase">ისტორიის წაშლა</string>
+    <string name="content_description_forward">გადასვლა წინ</string>
+    <string name="content_description_lock">დაცული კავშირი</string>
+    <string name="content_description_menu">დამატებითი პარამეტრები</string>
+    <string name="content_description_reload">საიტის ხელახლა ჩატვირთვა</string>
+    <string name="content_description_stop">საიტის ჩატვირთვის შეჩერება</string>
+    <string name="content_description_tab_counter">გახსნილი ჩანართი: %1$s</string>
+    <string name="contextmenu_image_copy">სურათის მისამართის ასლი</string>
+    <string name="contextmenu_image_save">სურათის შენახვა</string>
+    <string name="contextmenu_image_share">სურათის გაზიარება</string>
+    <string name="contextmenu_image_warning">შენახული და გაზიარებული სურათები &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#4304;&amp;#4320; &amp;#4332;&amp;#4304;&amp;#4312;&amp;#4328;&amp;#4314;&amp;#4308;&amp;#4305;&amp;#4304;&lt;/b> %1$s-ის ისტორიის გასუფთავებისას.</string>
+    <string name="contextmenu_link_copy">მისამართის დაკოპირება</string>
+    <string name="contextmenu_link_share">ბმულის გაზიარება</string>
+    <string name="contextmenu_open_in_new_tab">ბმულის ახალ ჩანართში გახსნა</string>
+    <string name="custom_autocomplete_quick_add">საკუთარი URL-ს დამატება</string>
+    <string name="custom_tab_copy_url_action">URL დაკოპირდა</string>
+    <string name="dialog_addtohomescreen_action_add">დამატება</string>
+    <string name="dialog_addtohomescreen_action_cancel">გაუქმება</string>
+    <string name="dialog_addtohomescreen_tracking_protection">ამ მალსახმობით გახსნისას, თვალთვალისგან დაცვა გამორთული იქნება</string>
+    <string name="download_dialog_action_cancel">გაუქმება</string>
+    <string name="download_dialog_action_download">ჩამოტვირთვა</string>
+    <string name="download_dialog_title">ფაილის ჩამოტვირთვა</string>
+    <string name="download_dialog_warning">ჩამოტვირთული ფაილები &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#4304;&amp;#4320; &amp;#4332;&amp;#4304;&amp;#4312;&amp;#4328;&amp;#4314;&amp;#4308;&amp;#4305;&amp;#4304;&lt;/b> %1$s-ის ისტორიის გასუფთავებისას.</string>
+    <string name="download_firefox">ჩამოტვირთეთ Firefox</string>
+    <string name="download_snackbar_finished">%1$s დასრულდა</string>
+    <string name="download_snackbar_open">გახსნა</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&amp;#4308;&amp;#4321; &amp;#4321;&amp;#4304;&amp;#4312;&amp;#4322;&amp;#4312; &amp;#4328;&amp;#4308;&amp;#4321;&amp;#4304;&amp;#4331;&amp;#4314;&amp;#4317;&amp;#4304; &amp;#4307;&amp;#4320;&amp;#4317;&amp;#4308;&amp;#4305;&amp;#4312;&amp;#4311; &amp;#4315;&amp;#4312;&amp;#4323;&amp;#4332;&amp;#4309;&amp;#4307;&amp;#4317;&amp;#4315;&amp;#4308;&amp;#4314;&amp;#4312;&amp;#4304; &amp;#4304;&amp;#4316; &amp;#4331;&amp;#4304;&amp;#4314;&amp;#4312;&amp;#4304;&amp;#4316; &amp;#4307;&amp;#4304;&amp;#4322;&amp;#4309;&amp;#4312;&amp;#4320;&amp;#4311;&amp;#4323;&amp;#4314;&amp;#4312;&amp;#4304;. &amp;#4321;&amp;#4330;&amp;#4304;&amp;#4307;&amp;#4308;&amp;#4311; &amp;#4334;&amp;#4308;&amp;#4314;&amp;#4304;&amp;#4334;&amp;#4314;&amp;#4304;, &amp;#4320;&amp;#4304;&amp;#4315;&amp;#4307;&amp;#4308;&amp;#4316;&amp;#4312;&amp;#4315;&amp;#4308; &amp;#4332;&amp;#4323;&amp;#4311;&amp;#4328;&amp;#4312;.&lt;/li>
+        &lt;li>&amp;#4311;&amp;#4323; &amp;#4321;&amp;#4334;&amp;#4309;&amp;#4304; &amp;#4321;&amp;#4304;&amp;#4312;&amp;#4322;&amp;#4308;&amp;#4305;&amp;#4312;&amp;#4321; &amp;#4306;&amp;#4304;&amp;#4334;&amp;#4321;&amp;#4316;&amp;#4304;&amp;#4321;&amp;#4304;&amp;#4330; &amp;#4309;&amp;#4308;&amp;#4320; &amp;#4304;&amp;#4334;&amp;#4308;&amp;#4320;&amp;#4334;&amp;#4308;&amp;#4305;&amp;#4311;, &amp;#4315;&amp;#4304;&amp;#4328;&amp;#4312;&amp;#4316; &amp;#4328;&amp;#4308;&amp;#4304;&amp;#4315;&amp;#4317;&amp;#4332;&amp;#4315;&amp;#4308;&amp;#4311; &amp;#4315;&amp;#4317;&amp;#4332;&amp;#4327;&amp;#4317;&amp;#4305;&amp;#4312;&amp;#4314;&amp;#4317;&amp;#4305;&amp;#4312;&amp;#4321; &amp;#4313;&amp;#4304;&amp;#4309;&amp;#4328;&amp;#4312;&amp;#4320;&amp;#4312; &amp;#4315;&amp;#4317;&amp;#4305;&amp;#4312;&amp;#4314;&amp;#4323;&amp;#4320; &amp;#4304;&amp;#4316; Wi-Fi &amp;#4312;&amp;#4316;&amp;#4322;&amp;#4308;&amp;#4320;&amp;#4316;&amp;#4308;&amp;#4322;&amp;#4311;&amp;#4304;&amp;#4316;.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">დაკავშირება ვერ ხერხდება</string>
+    <string name="error_generic_message">ამ გვერდის ჩატვირთვა, რატომღაც ვერ მოხერხდა.</string>
+    <string name="error_generic_title">უი</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&amp;#4328;&amp;#4308;&amp;#4304;&amp;#4315;&amp;#4317;&amp;#4332;&amp;#4315;&amp;#4308;&amp;#4311; &amp;#4304;&amp;#4313;&amp;#4320;&amp;#4308;&amp;#4324;&amp;#4312;&amp;#4314;&amp;#4312; &amp;#4315;&amp;#4312;&amp;#4321;&amp;#4304;&amp;#4315;&amp;#4304;&amp;#4320;&amp;#4311;&amp;#4312;&amp;#4321; &amp;#4321;&amp;#4312;&amp;#4321;&amp;#4332;&amp;#4317;&amp;#4320;&amp;#4308;. &amp;#4315;&amp;#4304;&amp;#4306;&amp;#4304;&amp;#4314;&amp;#4312;&amp;#4311;&amp;#4304;&amp;#4307;
+          &lt;strong>ww&lt;/strong>.example.com-&amp;#4312;&amp;#4321; &amp;#4316;&amp;#4304;&amp;#4330;&amp;#4309;&amp;#4314;&amp;#4304;&amp;#4307; &amp;#4323;&amp;#4316;&amp;#4307;&amp;#4304; &amp;#4312;&amp;#4327;&amp;#4317;&amp;#4321;
+          &lt;strong>www&lt;/strong>.example.com&lt;/li>
+        &lt;li>&amp;#4311;&amp;#4323; &amp;#4309;&amp;#4308;&amp;#4320;&amp;#4330;&amp;#4308;&amp;#4320;&amp;#4311;&amp;#4312; &amp;#4321;&amp;#4304;&amp;#4312;&amp;#4322;&amp;#4312;&amp;#4321; &amp;#4306;&amp;#4304;&amp;#4334;&amp;#4321;&amp;#4316;&amp;#4304;&amp;#4321; &amp;#4309;&amp;#4308;&amp;#4320; &amp;#4304;&amp;#4334;&amp;#4308;&amp;#4320;&amp;#4334;&amp;#4308;&amp;#4305;&amp;#4311;, &amp;#4328;&amp;#4308;&amp;#4304;&amp;#4315;&amp;#4317;&amp;#4332;&amp;#4315;&amp;#4308;&amp;#4311; &amp;#4315;&amp;#4317;&amp;#4332;&amp;#4327;&amp;#4317;&amp;#4305;&amp;#4312;&amp;#4314;&amp;#4317;&amp;#4305;&amp;#4312;&amp;#4321; &amp;#4313;&amp;#4304;&amp;#4309;&amp;#4328;&amp;#4312;&amp;#4320;&amp;#4312; &amp;#4315;&amp;#4317;&amp;#4305;&amp;#4312;&amp;#4314;&amp;#4323;&amp;#4320; &amp;#4304;&amp;#4316; Wi-Fi &amp;#4312;&amp;#4316;&amp;#4322;&amp;#4308;&amp;#4320;&amp;#4316;&amp;#4308;&amp;#4322;&amp;#4311;&amp;#4304;&amp;#4316;.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">გვერდი ვერ მოიძებნა</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#4321;&amp;#4304;&amp;#4312;&amp;#4322;&amp;#4312;&amp;#4321; &amp;#4315;&amp;#4312;&amp;#4321;&amp;#4304;&amp;#4315;&amp;#4304;&amp;#4320;&amp;#4311;&amp;#4308;&amp;#4305;&amp;#4312;, &amp;#4329;&amp;#4309;&amp;#4308;&amp;#4323;&amp;#4314;&amp;#4308;&amp;#4305;&amp;#4320;&amp;#4312;&amp;#4309;, &amp;#4304;&amp;#4321;&amp;#4308; &amp;#4312;&amp;#4332;&amp;#4308;&amp;#4320;&amp;#4308;&amp;#4305;&amp;#4304; &lt;strong>http://www.example.com/&lt;/strong>&lt;/li>
+  &lt;li>&amp;#4307;&amp;#4304;&amp;#4320;&amp;#4332;&amp;#4315;&amp;#4323;&amp;#4316;&amp;#4307;&amp;#4312;&amp;#4311;, &amp;#4320;&amp;#4317;&amp;#4315; &amp;#4332;&amp;#4312;&amp;#4316; &amp;#4306;&amp;#4304;&amp;#4307;&amp;#4304;&amp;#4334;&amp;#4320;&amp;#4312;&amp;#4314; &amp;#4334;&amp;#4304;&amp;#4310;&amp;#4308;&amp;#4305;&amp;#4321; &amp;#4312;&amp;#4327;&amp;#4308;&amp;#4316;&amp;#4308;&amp;#4305;&amp;#4311; (&amp;#4304;&amp;#4321;&amp;#4308;&amp;#4311;&amp;#4321;: &lt;strong>/&lt;/strong>).&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">მისამართი არასწორია</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#4304;&amp;#4315; &amp;#4334;&amp;#4304;&amp;#4320;&amp;#4309;&amp;#4308;&amp;#4310;&amp;#4321;, &amp;#4310;&amp;#4317;&amp;#4306;&amp;#4335;&amp;#4308;&amp;#4320; &amp;#4312;&amp;#4332;&amp;#4309;&amp;#4308;&amp;#4309;&amp;#4321; &amp;#4324;&amp;#4323;&amp;#4316;&amp;#4311;&amp;#4323;&amp;#4328;&amp;#4308;&amp;#4305;&amp;#4312;&amp;#4321; &amp;#4323;&amp;#4304;&amp;#4320;&amp;#4327;&amp;#4317;&amp;#4324;&amp;#4304; &amp;#4304;&amp;#4316; &amp;#4306;&amp;#4304;&amp;#4315;&amp;#4317;&amp;#4320;&amp;#4311;&amp;#4309;&amp;#4304;.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">ეს გვერდი არამართებულად გადამისამართდა</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#4308;&amp;#4321; &amp;#4328;&amp;#4308;&amp;#4312;&amp;#4331;&amp;#4314;&amp;#4308;&amp;#4305;&amp;#4304;, &amp;#4321;&amp;#4304;&amp;#4312;&amp;#4322;&amp;#4312;&amp;#4321; &amp;#4306;&amp;#4304;&amp;#4323;&amp;#4315;&amp;#4304;&amp;#4320;&amp;#4311;&amp;#4304;&amp;#4317;&amp;#4305;&amp;#4312;&amp;#4321; &amp;#4305;&amp;#4320;&amp;#4304;&amp;#4314;&amp;#4312; &amp;#4312;&amp;#4327;&amp;#4317;&amp;#4321; &amp;#4304;&amp;#4316;
+&amp;#4321;&amp;#4334;&amp;#4309;&amp;#4304; &amp;#4321;&amp;#4304;&amp;#4312;&amp;#4322;&amp;#4304;&amp;#4307; &amp;#4306;&amp;#4304;&amp;#4321;&amp;#4304;&amp;#4326;&amp;#4308;&amp;#4305;&amp;#4312;&amp;#4321; &amp;#4315;&amp;#4330;&amp;#4307;&amp;#4308;&amp;#4314;&amp;#4317;&amp;#4305;&amp;#4304;&amp;#4321; &amp;#4336;&amp;#4325;&amp;#4317;&amp;#4316;&amp;#4307;&amp;#4308;&amp;#4321; &amp;#4304;&amp;#4307;&amp;#4306;&amp;#4312;&amp;#4314;&amp;#4312;.&lt;/li>
+  &lt;li>&amp;#4311;&amp;#4323; &amp;#4304;&amp;#4315; &amp;#4321;&amp;#4304;&amp;#4312;&amp;#4322;&amp;#4321; &amp;#4315;&amp;#4304;&amp;#4316;&amp;#4304;&amp;#4315;&amp;#4307;&amp;#4308; &amp;#4332;&amp;#4304;&amp;#4320;&amp;#4315;&amp;#4304;&amp;#4322;&amp;#4308;&amp;#4305;&amp;#4312;&amp;#4311; &amp;#4323;&amp;#4313;&amp;#4304;&amp;#4309;&amp;#4328;&amp;#4312;&amp;#4320;&amp;#4307;&amp;#4308;&amp;#4305;&amp;#4317;&amp;#4307;&amp;#4312;&amp;#4311;, &amp;#4334;&amp;#4304;&amp;#4320;&amp;#4309;&amp;#4308;&amp;#4310;&amp;#4312; &amp;#4328;&amp;#4308;&amp;#4321;&amp;#4304;&amp;#4331;&amp;#4314;&amp;#4317;&amp;#4304;
+&amp;#4307;&amp;#4320;&amp;#4317;&amp;#4308;&amp;#4305;&amp;#4312;&amp;#4311;&amp;#4312; &amp;#4312;&amp;#4327;&amp;#4317;&amp;#4321; &amp;#4307;&amp;#4304; &amp;#4315;&amp;#4317;&amp;#4306;&amp;#4309;&amp;#4312;&amp;#4304;&amp;#4316;&amp;#4308;&amp;#4305;&amp;#4312;&amp;#4311; &amp;#4328;&amp;#4308;&amp;#4306;&amp;#4312;&amp;#4331;&amp;#4314;&amp;#4312;&amp;#4304;&amp;#4311; &amp;#4313;&amp;#4309;&amp;#4314;&amp;#4304;&amp;#4309; &amp;#4321;&amp;#4330;&amp;#4304;&amp;#4307;&amp;#4317;&amp;#4311;.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">უსაფრთხო დაკავშირება ვერ მოხერხდა</string>
+    <string name="error_timeout_title">კავშირის დრო ამოიწურა</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#4304;&amp;#4315; &amp;#4305;&amp;#4315;&amp;#4323;&amp;#4314;&amp;#4312;&amp;#4321; &amp;#4306;&amp;#4304;&amp;#4321;&amp;#4304;&amp;#4334;&amp;#4321;&amp;#4316;&amp;#4308;&amp;#4314;&amp;#4304;&amp;#4307;, &amp;#4328;&amp;#4308;&amp;#4321;&amp;#4304;&amp;#4331;&amp;#4314;&amp;#4317;&amp;#4304; &amp;#4321;&amp;#4334;&amp;#4309;&amp;#4304; &amp;#4318;&amp;#4320;&amp;#4317;&amp;#4306;&amp;#4320;&amp;#4304;&amp;#4315;&amp;#4312;&amp;#4321; &amp;#4307;&amp;#4304;&amp;#4327;&amp;#4308;&amp;#4316;&amp;#4308;&amp;#4305;&amp;#4304; &amp;#4312;&amp;#4327;&amp;#4317;&amp;#4321; &amp;#4321;&amp;#4304;&amp;#4333;&amp;#4312;&amp;#4320;&amp;#4317;.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">მისამართი გაუგებარია</string>
+    <string name="errorpage_refresh">ხელახლა ცდა</string>
+    <string name="errorpage_title">ხარვეზები გვერდის ჩატვირთვისას</string>
+    <string name="external_app_prompt">შეგიძლიათ დატოვოთ %1$s ბმულის %2$s-ში გასახსნელად.</string>
+    <string name="external_app_prompt_no_app">თქვენს მოწყობილობაზე არსებულ არცერთ პროგრამას არ შეუძლია ამ ბმულის გახსნა. შეგიძლიათ დატოვოთ %1$s საჭირო პროგრამის %2$s-ში მოსაძიებლად.</string>
+    <string name="external_app_prompt_no_app_title">პროგრამის მოძიება, რომელიც გახსნის ბმულს</string>
+    <string name="external_app_prompt_title">ბმულის სხვა პროგრამით გახსნა</string>
+    <string name="external_multiple_apps_matched_exit">გსურთ პირადი დათვალიერებიდან გასვლა?</string>
+    <string name="feedback_erase">მონახულებული გვერდების ისტორია წაიშალა.</string>
+    <string name="find_in_page">პოვნა გვერდზე</string>
+    <string name="find_in_page_input">პოვნა გვერდზე</string>
+    <string name="find_in_page_result">%1$d/%2$d</string>
+    <string name="firstrun_close_button">კარგი, გასაგებია!</string>
+    <string name="firstrun_defaultbrowser_text2">პირადი მონაცემების უსაფრთხოება ახალ დონეზეა აყვანილი. შეზღუდეთ სარეკლამო და სხვა შიგთავსი, რომლითაც საიტებზე თქვენი დევნაა შესაძლებელი და შეამცირეთ გვერდების ჩატვირთვის დრო.</string>
+    <string name="firstrun_defaultbrowser_title">გააძლიერეთ პირადი მონაცემების დაცვა</string>
+    <string name="firstrun_next_button">შემდეგი</string>
+    <string name="firstrun_privacy_text">დააყენეთ %1$s ნაგულისხმევ ბრაუზერად და ისარგებლეთ პირადულობის დაცვით, სხვა პროგრამებიდან ბმულებზე გადასვლის შემთხვევაშიც.</string>
+    <string name="firstrun_privacy_title">ჩვევად აქციეთ პირადულობის დაცვა</string>
+    <string name="firstrun_search_text">რამე განსხვავებულს ეძებთ? აირჩიეთ სხვა საძიებო სისტემა ნაგულისხმევად, პარამეტრებიდან.</string>
+    <string name="firstrun_search_title">მოიძიეთ გვერდები, თქვენებურად</string>
+    <string name="firstrun_shortcut_text">%1$s-ის დახმარებით, სწრაფად შეგიძლიათ დაუბრუნდეთ რჩეულ საიტებს. უბრალოდ, მიუთითეთ \"მთავარ ეკრანზე დამატება\", %1$s-ის მენიუდან.</string>
+    <string name="firstrun_shortcut_title">მალსახმობების დამატება მთავარ ეკრანზე</string>
+    <string name="firstrun_skip_button">გამოტოვება</string>
+    <string name="gv_prompt_clear">გასუფთავება</string>
+    <string name="gv_prompt_password_hint">პაროლი</string>
+    <string name="gv_prompt_username_hint">სახელი</string>
+    <string name="http_auth_dialog_password">პაროლი</string>
+    <string name="http_auth_dialog_title">საჭიროებს ანგარიშის მონაცემებს</string>
+    <string name="http_auth_dialog_username">მომხმარებლის სახელი</string>
+    <string name="menu_about">შესახებ</string>
+    <string name="menu_add_to_home_screen">მთავარ ეკრანზე დამატება</string>
+    <string name="menu_custom_tab_branding">უზრუნველყოფს %1$s</string>
+    <string name="menu_help">დახმარება</string>
+    <string name="menu_open_with_a_browser2">გახსნა…</string>
+    <string name="menu_open_with_default_browser2">%1$s-ში გახსნა</string>
+    <string name="menu_report_site_issue">საიტის ხარვეზის მოხსენება</string>
+    <string name="menu_rights">თქვენი უფლებები</string>
+    <string name="menu_settings">პარამეტრები</string>
+    <string name="menu_share">გვერდის გაზიარება…</string>
+    <string name="menu_trackers_blocked_title">შეზღუდული მეთვალყურეები</string>
+    <string name="menu_whats_new">რა სიახლეებია</string>
+    <string name="notification_action_erase_and_open">გასუფთავება და გახსნა</string>
+    <string name="notification_action_open">გახსნა</string>
+    <string name="notification_browsing_session_channel_description">შეტყობინებები საშუალებას გაძლევთ, ერთი შეხებით გაასუფთავოთ მონაცემები %1$s-ში. პროგრამის გახსნა, აღარ დაგჭირდებათ.</string>
+    <string name="notification_browsing_session_channel_name">პირადი დათვალიერების რეჟიმი</string>
+    <string name="notification_erase_text">ისტორიის წაშლა</string>
+    <string name="preference_about">%1$s-ის შესახებ</string>
+    <string name="preference_autocomplete_action_add">+ საკუთარი URL მისამართის დამატება</string>
+    <string name="preference_autocomplete_action_remove_content_description">წაშლა</string>
+    <string name="preference_autocomplete_add_confirmation">ახალი URL დაემატა.</string>
+    <string name="preference_autocomplete_add_error">გადაამოწმეთ შეყვანილი URL.</string>
+    <string name="preference_autocomplete_add_example">მაგალითად: example.com</string>
+    <string name="preference_autocomplete_add_example2">მაგალითად: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">ჩასვით ან შეიყვანეთ URL</string>
+    <string name="preference_autocomplete_add_title">URL დასამატებლად</string>
+    <string name="preference_autocomplete_custom_summary">დაამატეთ და მართეთ საკუთარი URL მისამართები.</string>
+    <string name="preference_autocomplete_duplicate_url_error">URL უკვე არსებობს</string>
+    <string name="preference_autocomplete_learn_more">ვრცლად</string>
+    <string name="preference_autocomplete_menu_remove">წაშლა</string>
+    <string name="preference_autocomplete_preinstalled_summary">ჩართეთ და %1$s თავად დაასრულებს 450-ზე მეტ ცნობილ URL ბმულს, მისამართების ველში აკრეფისას.</string>
+    <string name="preference_autocomplete_subitem_customlist">საკუთარი URL მისამართები</string>
+    <string name="preference_autocomplete_title_add">საკუთარი URL მისამართის დამატება</string>
+    <string name="preference_autocomplete_title_remove">საკუთარი URL მისამართების წაშლა</string>
+    <string name="preference_category_autocomplete_custom_urls">საკუთარი URL-ები</string>
+    <string name="preference_category_autocomplete_preinstalled">ნაგულისხმევი URL-ების ჩამონათვალი</string>
+    <string name="preference_category_cookies">ფუნთუშები და საიტის მონაცემები</string>
+    <string name="preference_category_data_choices">მონაცემთა შერჩევა</string>
+    <string name="preference_category_data_collection_use">მონაცემთა აღრიცხვა და გამოყენება</string>
+    <string name="preference_category_general">მთავარი</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">წარმადობა</string>
+    <string name="preference_category_privacy">პირადულობა</string>
+    <string name="preference_category_search">ძიება</string>
+    <string name="preference_category_switching_apps">პროგრამების გადართვისას</string>
+    <string name="preference_category_tracking_protection">თვალთვალისგან დაცვა</string>
+    <string name="preference_category_web_content">ვებშიგთავსი</string>
+    <string name="preference_default_browser2">%1$s-ის ნაგულისხმევ ბრაუზერად მითითება</string>
+    <string name="preference_language">ენა</string>
+    <string name="preference_language_systemdefault">სისტემის ნაგულისხმევი</string>
+    <string name="preference_mozilla_summary">%1$s-ის შესახებ, დახმარება</string>
+    <string name="preference_mozilla_telemetry2">მონაცემების გაგზავნა</string>
+    <string name="preference_mozilla_telemetry_summary">იხილეთ ვრცლად</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla აღრიცხავს მხოლოდ იმ მონაცემებს, რაც საჭიროა %1$s-ის გასაუმჯობესებლად.</string>
+    <string name="preference_performance_block_javascript">JavaScript-ის შეზღუდვა</string>
+    <string name="preference_performance_block_javascript_summary">გვერდები, შესაძლოა უფრო სწრაფად ჩაიტვირთოს, მაგრამ ხარვეზებით იმუშაოს</string>
+    <string name="preference_performance_block_webfonts">საიტის შრიფტების შეზღუდვა</string>
+    <string name="preference_performance_block_webfonts_summary">შესაძლოა ხატულების და სურათების ნაწილი გაქრეს</string>
+    <string name="preference_performance_request_desktop_site">საიტის სრული ვერსიის მოთხოვნა</string>
+    <string name="preference_privacy_and_security_header">პირადულობა და უსაფრთხოება</string>
+    <string name="preference_privacy_and_security_summary">თვალთვალი, ფუნთუშები, მონაცემთა შერჩევა</string>
+    <string name="preference_privacy_block_ads">სარეკლამო მეთვალყურეების შეზღუდვა</string>
+    <string name="preference_privacy_block_ads_summary">ზოგიერთი სარეკლამო ელემენტი, თვალს ადევნებს თქვენს გადაადგილებას საიტებზე, მაშინაც კი როცა მათზე არ აწკაპებთ</string>
+    <string name="preference_privacy_block_analytics">სტატისტიკური აღრიცხვის ელემენტების შეზღუდვა</string>
+    <string name="preference_privacy_block_analytics_summary">გამოიყენება მონაცემთა აღრიცხვისთვის, დამუშავებისა და ისეთი მოქმედებების შესამოწმებლად, როგორიცაა თითის შეხება და გვერდის გადაადგილება</string>
+    <string name="preference_privacy_block_content">სხვა მეთვალყურე ელემენტების შეზღუდვა</string>
+    <string name="preference_privacy_block_content_summary2">ჩართვის შედეგად, ზოგიერთმა ვებგვერდმა, შესაძლოა გამართულად ვერ იმუშაოს</string>
+    <string name="preference_privacy_block_social">სოც. ქსელების ელემენტების შეზღუდვა</string>
+    <string name="preference_privacy_block_social_summary">საიტებზე ჩაშენებულია, თქვენს გადაადგილებაზე თვალყურის მისადევნებლად ისეთი ელემენტების სახით, როგორიცაა მოწონების, ან გაზიარების ღილაკები</string>
+    <string name="preference_privacy_category_cookies">ფუნთუშების შეზღუდვა</string>
+    <string name="preference_privacy_notice">პირადი მონაცემების დაცვა</string>
+    <string name="preference_privacy_secure_mode">ფარული რეჟიმი</string>
+    <string name="preference_privacy_should_block_cookies_no_option">არა</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">მხოლოდ მე-3 მხარის ფუნთუშების</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">დიახ</string>
+    <string name="preference_privacy_stealth_summary">ვებგვერდების დამალვა, პროგრამების გადართვისას</string>
+    <string name="preference_search_add2">+ სხვა საძიებო სისტემის დამატება</string>
+    <string name="preference_search_engine_default">ნაგულისხმევი</string>
+    <string name="preference_search_installed_search_engines">დაყენებული საძიებოები</string>
+    <string name="preference_search_remove">მოცილება</string>
+    <string name="preference_search_remove_title">საძიებოს ამოშლა</string>
+    <string name="preference_search_restore">ნაგულისხმევი საძიებო სისტემების აღდგენა</string>
+    <string name="preference_search_summary">ნაგულისხმევად დაყენება, თვითშევსება</string>
+    <string name="preference_state_off">გამორთული</string>
+    <string name="preference_state_on">ჩართული</string>
+    <string name="preference_subitem_autocomplete">URL თვითშევსება</string>
+    <string name="preference_switch_autocomplete">თვითშევსება</string>
+    <string name="search_add_confirmation">ახალი საძიებო სისტემა დამატებულია.</string>
+    <string name="search_add_error_duplicate_name">ამ სახელს, უკვე იყენებს ერთ-ერთი დაყენებული საძიებო სისტემა.</string>
+    <string name="search_add_error_empty_name">შეიყვანეთ საძიებო სისტემის სახელი</string>
+    <string name="search_add_error_empty_search">შეიყვანეთ საძიებო ფრაზა</string>
+    <string name="search_add_error_format">შეამოწმეთ, შეესაბამება თუ არა საძიებო ფრაზა მოცემულ ფორმატს</string>
+    <string name="search_add_manually_example">მაგალითად: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">საძიებოს დასახელება</string>
+    <string name="search_add_manually_save">შენახვა</string>
+    <string name="search_add_manually_string">საძიებო ფრაზა</string>
+    <string name="search_hint">მოძებნა: %1$s</string>
+    <string name="search_menu_title">ძიება</string>
+    <string name="security_popup_insecure_connection">დაუცველი კავშირი</string>
+    <string name="security_popup_secure_connection">დაცული კავშირი</string>
+    <string name="security_popup_security_verified">დამმოწმებელი: %1$s</string>
+    <string name="share_dialog_title">გაზიარება</string>
+    <string name="shortcut_erase_long_label">ისტორიის გასუფთავება</string>
+    <string name="shortcut_erase_short_label">გასუფთავება</string>
+    <string name="site_security_icon_content_description">საიტის უსაფრთხოება</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tabs_tray_action_erase">ისტორიის გასუფთავება</string>
+    <string name="teaser">"მხოლოდ თვალიერების პირადი რეჟიმი.
+მონახულება. წაშლა. თავიდან დაწყება."</string>
+    <string name="text_selection_search_action">მოძებნეთ უსაფრთხოდ</string>
+    <string name="urlbar_hint">მოძებნეთ ან შეიყვანეთ მისამართი</string>
+    <string name="your_rights">თქვენი უფლებები</string>
+    <string name="your_rights_content1">%1$s არის უფასო და ღია წყაროს მქონე პროგრამა, შექმნილი Mozilla-სა და სხვა მოხალისეების მიერ.</string>
+    <string name="your_rights_content2">%1$s ვრცელდება &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Mozilla Public License&lt;/a> და სხვა ღია წყაროს ლიცენზიებით.</string>
+    <string name="your_rights_content3">თქვენ არ გეძლევათ რამე სახის უფლება ან ლიცენზია, Mozilla ფონდის სავაჭრო ნიშნებსა და სხვა საკუთრებაზე, მათ შორის დასახელებებზე Mozilla, Firefox, ან %1$s-ის სხვა სახელებსა და ლოგოებზე. დამატებითი ინფორმაცია შეგიძლიათ იხილოთ &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>&amp;#4304;&amp;#4325;&lt;/a>.</string>
+    <string name="your_rights_content4">%1$s-ის დამატებითი პირველწყარო კოდი ვრცელდება სხვადასხვა უფასო და ღია წყაროს მქონე &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>&amp;#4314;&amp;#4312;&amp;#4330;&amp;#4308;&amp;#4316;&amp;#4310;&amp;#4312;&amp;#4308;&amp;#4305;&amp;#4312;&amp;#4311;&lt;/a>.</string>
+    <string name="your_rights_content5">%1$s ასევე იყენებს შეზღუდვის სიებს, რომლის მომწოდებელია Disconnect Inc. როგორც ცალკეული და დამოუკიდებელი ნამუშევრები, ვრცელდება &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>GNU General Public License v3&lt;/a> ლიცენზიით და ხელმისაწვდომია &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>&amp;#4304;&amp;#4315; &amp;#4305;&amp;#4315;&amp;#4323;&amp;#4314;&amp;#4310;&amp;#4308;&lt;/a>.</string>
+</resources>

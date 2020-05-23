@@ -1,0 +1,370 @@
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.geek:id/login_fragment_create_account_button",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Smarter Shopping",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.LoginActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      20,
+      "id",
+      "com.contextlogic.geek:id/login_fragment_create_account_button"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.geek:id/login_fragment_create_account_button",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Smarter Shopping",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.LoginActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_email_text",
+    "text": "Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      20,
+      "id",
+      "com.contextlogic.geek:id/create_account_fragment_email_text"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_email_text",
+    "text": "Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "send_keys",
+      "q196119ge@nwytg.net"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_confirm_email_text",
+    "text": "Confirm Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "q196119ge@nwytg.net",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "clear_and_send_keys",
+      "q196119ge@nwytg.net"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_password_text",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "parent_text": "",
+    "sibling_text": "q196119ge@nwytg.net",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "send_keys",
+      "1qaz2wsX"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_last_name_text",
+    "text": "Last Name",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "First Name",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "send_keys",
+      "Labfellow"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_first_name_text",
+    "text": "First Name",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sealbot"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.geek:id/create_account_fragment_create_account_button",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.login.createaccount.CreateAccountActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "",
+    "text": "Skip",
+    "content-desc": "Skip",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.signup.SignupProfileUpdateActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//android.widget.TextView[@content-desc=\"Skip\"]"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "",
+    "text": "Skip",
+    "content-desc": "Skip",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.signup.SignupProfileUpdateActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "Yes",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.signup.SignupProfileUpdateActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageView",
+    "resource-id": "com.contextlogic.geek:id/signup_category_grid_cell_image1",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.signup.SignupCategory.SignupCategoryActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "com.contextlogic.geek:id/signup_category_grid_cell_image1"
+    ]
+  },
+  {
+    "class": "android.widget.ImageView",
+    "resource-id": "com.contextlogic.geek:id/signup_category_grid_cell_image1",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.signup.SignupCategory.SignupCategoryActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.contextlogic.geek:id/signup_category_fragment_next_button",
+    "text": "Next",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.signup.SignupCategory.SignupCategoryActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "com.contextlogic.geek:id/signup_category_fragment_next_button"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.contextlogic.geek:id/signup_category_fragment_next_button",
+    "text": "Next",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.signup.SignupCategory.SignupCategoryActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Open Menu",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.browse.BrowseActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//*[@content-desc=\"Open Menu\"]"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Open Menu",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.browse.BrowseActivity",
+    "ignorable": "false",
+    "event_type": "gui",
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.geek:id/menu_profile_name",
+    "text": "Sealbot Labfellow",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a31",
+    "package": "com.contextlogic.geek",
+    "activity": "com.contextlogic.wish.activity.browse.BrowseActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Sealbot"
+    ]
+  }
+]

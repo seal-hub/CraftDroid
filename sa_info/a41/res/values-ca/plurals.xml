@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Adreces copiades al porta-retalls</item>
+        <item quantity="one">Adreça copiada al porta-retalls</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Voleu eliminar %1$d missatges?</item>
+        <item quantity="one">Voleu eliminar aquest missatge?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Realment voleu moure aquests missatges a la carpeta brossa?</item>
+        <item quantity="one">Realment voleu moure aquest missatge a la carpeta brossa?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d nous missatges</item>
+        <item quantity="one">%d nous missatges</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Recuperant %d resultats</item>
+        <item quantity="one">Recuperant %d resultat</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Recuperant %1$dde %2$dresultats</item>
+        <item quantity="one">Recuperant %1$d de %2$d resultats</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s comptes</item>
+        <item quantity="one">un compte</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">contrasenyes del servidor</item>
+        <item quantity="one">contrasenya del servidor</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Establint les contrasenyes...</item>
+        <item quantity="one">Establint la contrasenya...</item>
+    </plurals>
+</resources>

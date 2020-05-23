@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:paddingBottom="@dimen/libverify_activity_vertical_margin" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/image" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/libverify_message_image_margin_top" n1:src="@drawable/libverify_ic_account_circle_white" n1:layout_alignParentLeft="true" n1:layout_alignParentTop="true" n1:layout_alignParentStart="true" />
+    <RelativeLayout n1:id="@id/textArea" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/libverify_message_bubble_margin_left" n1:layout_marginTop="@dimen/libverify_message_bubble_margin_top" n1:layout_toRightOf="@id/image" n1:layout_alignParentRight="true">
+        <TextView n1:textAppearance="@style/TextAppearance.AppCompat.Subhead" n1:textColor="#ffffffff" n1:gravity="center_vertical" n1:id="@id/text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/libverify_message_text_margin_left" n1:layout_marginTop="@dimen/libverify_message_text_margin_top" n1:layout_marginRight="@dimen/libverify_message_text_margin_left" n1:layout_marginBottom="@dimen/libverify_message_text_margin_top" n1:textAlignment="center" />
+    </RelativeLayout>
+    <TextView n1:textAppearance="@style/TextAppearance.AppCompat.Caption" n1:id="@id/time" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/libverify_message_time_margin_left" n1:layout_toRightOf="@id/image" n1:layout_below="@id/textArea" />
+</RelativeLayout>

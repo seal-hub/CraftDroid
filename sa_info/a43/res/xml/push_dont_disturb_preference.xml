@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/mapp_set_notif_dont_disturb" n1:key="push_dont_disturb"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.fragments.settings.TimePreference n1:title="@string/mapp_set_notif_date_from" n1:key="push_border_from" n1:defaultValue="@integer/prefs_from_def" />
+    <ru.mail.fragments.settings.TimePreference n1:title="@string/mapp_set_notif_date_to" n1:key="push_border_to" n1:defaultValue="@integer/prefs_to_def" />
+    <ru.mail.fragments.settings.ListPreferenceWithValueSummary n1:entries="@array/push_dont_disturb_labes" n1:layout="@layout/pref_item" n1:title="@string/mapp_set_notif_mode" n1:key="prefs_key_push_disturb_mode" n1:summary="@string/mapp_set_notif_mode_summary" n1:defaultValue="SILENT" n1:entryValues="@array/push_dont_disturb_values" />
+</PreferenceScreen>

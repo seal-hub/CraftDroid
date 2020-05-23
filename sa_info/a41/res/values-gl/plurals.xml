@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Enderezos copiados ao portapapeis</item>
+        <item quantity="one">Enderezo copiado ao portapapeis</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Realmente queres elimnar %1$d mensaxes?</item>
+        <item quantity="one">Realmente queres eliminar esta mensaxe?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Queres mover esta mensaxe á carpeta spam?</item>
+        <item quantity="one">Queres mover esta mensaxe á carpeta spam?</item>
+    </plurals>
+</resources>

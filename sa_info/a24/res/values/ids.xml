@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="item_edit_root">false</item>
+    <item type="id" name="EditItemLabelEditText">false</item>
+    <item type="id" name="SortedMarker">false</item>
+    <item type="id" name="LinearLayout01">false</item>
+    <item type="id" name="text1">false</item>
+    <item type="id" name="StarSwitcher">false</item>
+    <item type="id" name="StarImage">false</item>
+    <item type="id" name="InactiveStarImage">false</item>
+    <item type="id" name="AddItemEditText">false</item>
+    <item type="id" name="AddItemButton">false</item>
+    <item type="id" name="ItemsListView">false</item>
+    <item type="id" name="list_edit_root">false</item>
+    <item type="id" name="EditListLabelEditText">false</item>
+    <item type="id" name="text2">false</item>
+    <item type="id" name="AddListEditText">false</item>
+    <item type="id" name="AddListButton">false</item>
+    <item type="id" name="ListsListView">false</item>
+    <item type="id" name="ListsItemsSwitcher">false</item>
+    <item type="id" name="listsView">false</item>
+    <item type="id" name="itemsView">false</item>
+    <item type="id" name="RestoreName">false</item>
+</resources>

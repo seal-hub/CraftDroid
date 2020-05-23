@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="suggestion_dropdown_width">296.0dip</dimen>
+</resources>

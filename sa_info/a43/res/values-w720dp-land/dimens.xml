@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="filepicker_action_left_padding">90.0dip</dimen>
+    <dimen name="filepicker_action_right_padding">90.0dip</dimen>
+    <dimen name="mail_list_item_folder_maxwidth">75.0dip</dimen>
+    <dimen name="slide_close_multiple_slide_offset">44.0dip</dimen>
+    <dimen name="slide_close_slide_offset">400.0dip</dimen>
+    <dimen name="slide_right_overscroll">40.0dip</dimen>
+    <dimen name="signup_finish_form_label_width">160.0dip</dimen>
+    <dimen name="slide_close_slide_offset_tab">44.0dip</dimen>
+    <dimen name="slide_right_overscroll_tab">20.0dip</dimen>
+</resources>

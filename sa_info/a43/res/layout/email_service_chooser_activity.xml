@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/email_service_chooser_container" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:splitMotionEvents="false"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/add_account_container" layout="@layout/add_account_container" />
+    <LinearLayout n1:paddingLeft="32.0dip" n1:paddingRight="32.0dip" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:layout_above="@id/add_account_container" n1:layout_centerHorizontal="true">
+        <ru.mail.widget.EmailServicesView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/email_services" n1:background="@drawable/bg_light_full" n1:fadingEdge="vertical" n1:fadingEdgeLength="10.0dip" n1:layout_height="wrap_content" n1:listSelector="@android:color/transparent" n1:divider="?horizontal_divider" n1:dividerHeight="@dimen/divider_primary" n1:footerDividersEnabled="false" n1:splitMotionEvents="false" n1:requiresFadingEdge="vertical" n2:maxServicesCount="6" n2:serviceHeight="64.0dip" style="@style/LoginFormWidthStyle" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <FrameLayout n1:id="@id/login_suggest_fragment" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+</RelativeLayout>

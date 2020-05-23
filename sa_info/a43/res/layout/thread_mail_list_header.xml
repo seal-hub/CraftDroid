@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.uikit.view.CheckableImageView n1:id="@id/thread_header_unread" n1:background="?selectableItemBackgroundBorderless" n1:layout_width="32.0dip" n1:layout_height="32.0dip" n1:layout_marginLeft="6.0dip" n1:layout_marginTop="10.0dip" n1:scaleType="center" />
+    <ru.mail.uikit.view.CheckableImageView n1:id="@id/thread_header_overflow" n1:background="?selectableItemBackgroundBorderless" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dip" n1:layout_marginRight="8.0dip" n1:layout_alignParentRight="true" n2:srcCompat="@drawable/ic_read_overflow" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ru.mail.uikit.view.CheckableImageView n1:id="@id/thread_header_flag" n1:background="?selectableItemBackgroundBorderless" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dip" n1:layout_toLeftOf="@id/thread_header_overflow" />
+    <TextView n1:id="@id/thread_header_subject" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="3.0dip" n1:layout_marginTop="16.0dip" n1:layout_marginRight="2.0dip" n1:layout_marginBottom="15.0dip" n1:minHeight="22.0dip" n1:layout_toLeftOf="@id/thread_header_flag" n1:layout_toRightOf="@id/thread_header_unread" n1:lineSpacingExtra="1.0dip" style="?android:textAppearanceLarge" />
+    <View n1:id="@id/divider" n1:background="@color/divider_primary" n1:layout_width="fill_parent" n1:layout_height="@dimen/divider_primary" n1:layout_below="@id/thread_header_subject" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="48.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/search_icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="24.0dip" n1:src="@drawable/ic_suggest_recent" n1:layout_centerVertical="true" />
+    <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceLarge" n1:gravity="center_vertical" n1:id="@id/text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="24.0dip" n1:layout_marginTop="13.0dip" n1:layout_marginRight="8.0dip" n1:layout_marginBottom="14.0dip" n1:singleLine="true" n1:layout_toLeftOf="@id/type" n1:layout_toRightOf="@id/search_icon" n1:layout_centerVertical="true" n1:layout_toStartOf="@id/type" n2:textFont="robotoRegular" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/text_primary_inverse_disabled" n1:gravity="center_vertical" n1:id="@id/type" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="16.0dip" n1:singleLine="true" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n3:textFont="robotoRegular" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

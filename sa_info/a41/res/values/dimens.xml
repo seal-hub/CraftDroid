@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_offset">66.0dip</dimen>
+    <dimen name="button_margin">12.0dip</dimen>
+    <dimen name="button_minWidth">100.0sp</dimen>
+    <dimen name="showcase_radius">94.0dip</dimen>
+    <dimen name="showcase_radius_inner">96.0dip</dimen>
+    <dimen name="showcase_radius_material">48.0dip</dimen>
+    <dimen name="showcase_radius_outer">128.0dip</dimen>
+    <dimen name="text_padding">24.0dip</dimen>
+    <dimen name="widget_padding">8.0dip</dimen>
+</resources>

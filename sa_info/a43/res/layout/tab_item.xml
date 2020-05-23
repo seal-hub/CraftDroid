@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/text_primary_inverse" n1:ellipsize="end" n1:gravity="center" n1:id="@id/text" n1:background="@drawable/tab_bg" n1:paddingLeft="12.0dip" n1:paddingTop="0.0dip" n1:paddingRight="12.0dip" n1:paddingBottom="2.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="2.0dip" n1:layout_marginRight="2.0dip" n1:minHeight="28.0dip" n1:singleLine="true" n2:textFont="robotoRegular"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />

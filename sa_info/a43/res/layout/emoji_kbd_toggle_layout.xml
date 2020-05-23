@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.mail.fragments.mailbox.newmail.filepicker.AnimatedViewSwitcher n1:id="@id/toggleEmoji" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageButton n1:gravity="center" n1:layout_gravity="right" n1:id="@id/toggle_btn" n1:background="?selectableItemBackgroundBorderless" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="42.0dip" n1:minHeight="42.0dip" />
+    <android.support.v7.widget.CardView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:cardCornerRadius="3.0dip" n2:cardElevation="2.0dip" n2:cardPreventCornerOverlap="true" n2:cardUseCompatPadding="true" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/emoji_panel" n1:background="@drawable/emoji_panel_bg" n1:layout_width="wrap_content" n1:layout_height="@dimen/emoji_toggler_btn_height">
+            <ImageButton n1:id="@id/panel_btn_smiles" n1:background="@drawable/emoji_panel_btn_left_bg" n1:layout_width="@dimen/emoji_toggler_btn_width" n1:layout_height="@dimen/emoji_toggler_btn_width" n2:srcCompat="@drawable/ic_smile" />
+            <ImageButton n1:id="@id/panel_btn_stickers" n1:background="@drawable/emoji_panel_btn_bg" n1:layout_width="@dimen/emoji_toggler_btn_width" n1:layout_height="@dimen/emoji_toggler_btn_width" n2:srcCompat="@drawable/ic_sticker" />
+            <ImageButton n1:id="@id/panel_btn_close" n1:background="@null" n1:layout_width="@dimen/emoji_toggler_btn_width" n1:layout_height="@dimen/emoji_toggler_btn_width" n2:srcCompat="@drawable/ic_keyboard_close" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</ru.mail.fragments.mailbox.newmail.filepicker.AnimatedViewSwitcher>

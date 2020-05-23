@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.mozilla.focus.widget.LocaleListPreference android:layout="@layout/focus_preference" android:title="@string/preference_language" android:key="@string/pref_key_locale" android:defaultValue="" />
+    <Preference android:layout="@layout/focus_preference" android:title="@string/preference_privacy_and_security_header" android:key="@string/pref_key_privacy_security_screen" android:summary="@string/preference_privacy_and_security_summary" />
+    <Preference android:layout="@layout/focus_preference" android:title="@string/preference_category_search" android:key="@string/pref_key_search_screen" android:summary="@string/preference_search_summary" />
+    <org.mozilla.focus.widget.DefaultBrowserPreference android:layout="@layout/focus_preference" android:title="@string/preference_default_browser2" android:key="@string/pref_key_default_browser" />
+    <org.mozilla.focus.widget.MozillaPreference android:layout="@layout/focus_preference" android:title="@string/preference_category_mozilla" android:key="@string/pref_key_mozilla_screen" android:summary="@string/preference_mozilla_summary" />
+</PreferenceScreen>

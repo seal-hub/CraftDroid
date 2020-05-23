@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <View n1:background="@drawable/shadow_ab" n1:layout_width="fill_parent" n1:layout_height="@dimen/shadow_height" n1:layout_below="@id/toolbar" />
+    <ListView n1:id="@id/listView" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_below="@id/toolbar" />
+    <ru.mail.uikit.view.FontTextView n1:textSize="24.0sp" n1:textColor="@color/text_secondary_inverse" n1:gravity="center" n1:id="@id/empty" n1:visibility="invisible" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="@string/no_filter" n1:layout_below="@id/toolbar" n2:textFont="robotoLight" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

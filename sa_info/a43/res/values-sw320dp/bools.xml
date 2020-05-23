@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="prefs_appearance_avatar_default_value">true</bool>
+    <bool name="prefs_appearance_snippets_default_value">true</bool>
+</resources>

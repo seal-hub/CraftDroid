@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbarStyle="outsideInset" android:padding="6.0dip" android:fadingEdge="none" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <EditText android:id="@id/account_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_basics_email_hint" android:singleLine="true" android:inputType="textEmailAddress" />
+            <EditText android:id="@id/account_password" android:nextFocusDown="@id/next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_basics_password_hint" android:singleLine="true" android:inputType="textPassword" />
+            <CheckBox android:id="@id/show_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_basics_show_password" />
+            <com.fsck.k9.view.ClientCertificateSpinner android:id="@id/account_client_certificate_spinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.fsck.k9.view.FoldableLinearLayout android:id="@id/foldable_advanced_options" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" custom:foldedLabel="@string/client_certificate_advanced_options" custom:unFoldedLabel="@string/client_certificate_advanced_options">
+                <CheckBox android:id="@id/account_client_certificate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_basics_client_certificate" />
+            </com.fsck.k9.view.FoldableLinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/wizard_setup" />
+</LinearLayout>

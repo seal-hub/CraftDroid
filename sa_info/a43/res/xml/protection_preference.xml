@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>android:key=app_protection_screen<CheckBoxPreference n1:title="@string/pin_protection" n1:key="app_protection_pin_enable" n1:defaultValue="@bool/enable_pin_protection_default"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <Preference n2:title="@string/change_pin" n2:key="app_protection_pin_change" n2:dependency="app_protection_pin_enable"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n3:title="@string/fingerprint_unlock" n3:key="app_protection_fingerprint_enable" n3:summary="@string/use_finger_protection" n3:dependency="app_protection_pin_enable" n3:defaultValue="@bool/enable_finger_protection_default"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <ru.mail.fragments.settings.ListPreference n4:entries="@array/prefs_protection_labels" n4:layout="@layout/pref_item" n4:title="@string/pin_lock_timeout" n4:key="app_protection_pin_lock_timeout" n4:summary="" n4:dependency="app_protection_pin_enable" n4:defaultValue="MIN1" n4:entryValues="@array/prefs_protection_values"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n5:title="@string/allow_screenshots" n5:key="allow_screenshots" n5:dependency="app_protection_pin_enable" n5:defaultValue="@bool/allow_screenshots_default"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

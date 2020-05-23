@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:singleLine="true" android:title="@string/unread_widget_account_title" android:key="unread_account" android:summary="@string/unread_widget_account_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/unread_widget_folder_enabled_title" android:key="unread_folder_enabled" android:summary="@string/unread_widget_folder_enabled_summary" />
+    <Preference android:persistent="false" android:singleLine="true" android:title="@string/unread_widget_folder_title" android:key="unread_folder" android:summary="@string/unread_widget_folder_summary" android:dependency="unread_folder_enabled" />
+</PreferenceScreen>

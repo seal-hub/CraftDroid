@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.mail.fragments.mailbox.newmail.filepicker.AspectRatioFrameLayout n1:id="@id/aspect_layout" n1:layout_width="@dimen/thumbnail_max_width" n1:layout_height="@dimen/thumbnail_max_height" n1:layout_marginLeft="@dimen/filepicker_thumbnails_spacing" n1:foreground="?android:selectableItemBackground"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.fragments.view.ScalingImageView n1:layout_gravity="center" n1:id="@id/thumbnail" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:scaleType="matrix" />
+    <LinearLayout n1:layout_gravity="bottom|center|left" n1:orientation="horizontal" n1:id="@id/video_icon" n1:background="@drawable/filepicker_video_ic_bg" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="16.0dip" n1:layout_marginLeft="4.0dip" n1:layout_marginBottom="4.0dip">
+        <ImageView n1:layout_gravity="center_vertical" n1:layout_width="20.0dip" n1:layout_height="16.0dip" n2:srcCompat="@drawable/ic_media_video" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <TextView n1:textSize="10.0sp" n1:textColor="@color/white" n1:layout_gravity="center_vertical" n1:id="@id/video_duration" n1:paddingTop="1.0dip" n1:paddingRight="4.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </LinearLayout>
+    <ru.mail.filemanager.widget.CheckableView n1:id="@id/folder_foreground" n1:background="@drawable/filepicker_thumbnail_selector" n1:duplicateParentState="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:button="@null" />
+</ru.mail.fragments.mailbox.newmail.filepicker.AspectRatioFrameLayout>

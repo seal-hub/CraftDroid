@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigasi skrin utama</string>
+    <string name="abc_action_bar_up_description">Navigasi ke atas</string>
+    <string name="abc_action_menu_overflow_description">Lagi pilihan</string>
+    <string name="abc_action_mode_done">Selesai</string>
+    <string name="abc_activity_chooser_view_see_all">Lihat semua</string>
+    <string name="abc_activitychooserview_choose_application">Pilih apl</string>
+    <string name="abc_capital_off">MATI</string>
+    <string name="abc_capital_on">HIDUP</string>
+    <string name="abc_search_hint">Cari…</string>
+    <string name="abc_searchview_description_clear">Kosongkan pertanyaan</string>
+    <string name="abc_searchview_description_query">Pertanyaan carian</string>
+    <string name="abc_searchview_description_search">Cari</string>
+    <string name="abc_searchview_description_submit">Serah pertanyaan</string>
+    <string name="abc_searchview_description_voice">Carian suara</string>
+    <string name="abc_shareactionprovider_share_with">Kongsi dengan</string>
+    <string name="abc_shareactionprovider_share_with_application">Kongsi dengan %s</string>
+    <string name="abc_toolbar_collapse_description">Runtuhkan</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s membolehkan anda mengawal.&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>Gunakannya sebagai pelayar peribadi:
+  &lt;ul>
+    &lt;li>Cari dan melayar terus dalam app&lt;/li>
+    &lt;li>Sekat penjejak (atau kemaskini tetapan untuk izinkan penjejak)&lt;/li>
+    &lt;li>Padam untuk menghapuskan kuki serta sejarah carian dan pelayaran&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s dihasilkan oleh Mozilla. Misi kami adalah untuk memupuk internet yang sihat dan terbuka.&lt;br/>
+&lt;a href=%2$s>Ketahui selanjutnya&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">Memuatkan</string>
+    <string name="accessibility_announcement_loading_finished">Laman web dimuatkan</string>
+    <string name="accessibility_dismiss_find_in_page">Batal cari dalam halaman</string>
+    <string name="accessibility_find_in_page_result">%1$d daripada %2$d</string>
+    <string name="accessibility_next_result">Cari hasil seterusnya</string>
+    <string name="accessibility_previous_result">Cari hasil dahulu</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_ok">OK</string>
+    <string name="action_option_add_search_engine">Tambah enjin carian</string>
+    <string name="action_save">Simpan</string>
+    <string name="common_google_play_services_enable_button">Dayakan</string>
+    <string name="common_google_play_services_enable_text">%1$s tidak akan berfungsi melainkan anda mendayakan perkhidmatan Google Play.</string>
+    <string name="common_google_play_services_enable_title">Dayakan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_install_button">Pasang</string>
+    <string name="common_google_play_services_install_text">%1$s tidak akan berfungsi tanpa perkhidmatan Google Play dan perkhidmatan ini tiada pada peranti anda.</string>
+    <string name="common_google_play_services_install_title">Dapatkan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Ralat perkhidmatan Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s menghadapi masalah berhubung perkhidmatan Google Play. Sila cuba lagi.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s tidak akan berfungsi tanpa perkhidmatan Google Play dan perkhidmatan ini tidak disokong oleh peranti anda.</string>
+    <string name="common_google_play_services_update_button">Kemas kini</string>
+    <string name="common_google_play_services_update_text">%1$s tidak akan berfungsi kecuali anda mengemas kini perkhidmatan Google Play.</string>
+    <string name="common_google_play_services_update_title">Kemaskinikan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s tidak akan berfungsi tanpa perkhidmatan Google Play dan perkhidmatan ini sedang dikemaskinikan.</string>
+    <string name="common_google_play_services_wear_update_text">Versi baharu perkhidmatan Google Play diperlukan. Kemas kini automatik akan dijalankan sebentar lagi.</string>
+    <string name="common_open_on_phone">Buka pada telefon</string>
+    <string name="common_signin_button_text">Log masuk</string>
+    <string name="common_signin_button_text_long">Log masuk dengan Google</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Navigasi undur</string>
+    <string name="content_description_blocking_switch">Sekat penjejak</string>
+    <string name="content_description_clear_input">Hapuskan input</string>
+    <string name="content_description_customtab_exit">Kembali ke aplikasi dahulu</string>
+    <string name="content_description_dismiss_input">Abai</string>
+    <string name="content_description_erase">Buang sejarah pelayaran</string>
+    <string name="content_description_forward">Navigasi depan</string>
+    <string name="content_description_lock">Sambungan selamat</string>
+    <string name="content_description_menu">Pilihan lain</string>
+    <string name="content_description_reload">Muat semula laman web</string>
+    <string name="content_description_stop">Hentikan memuat laman web</string>
+    <string name="content_description_tab_counter">Tab terbuka: %1$s</string>
+    <string name="contextmenu_image_copy">Salin alamat imej</string>
+    <string name="contextmenu_image_save">Simpan imej</string>
+    <string name="contextmenu_image_share">Kongsi imej</string>
+    <string name="contextmenu_image_warning">Imej yang disimpan dan dikongsi &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>tidak akan dihapuskan&lt;/b> apabila anda buang sejarah %1$s.</string>
+    <string name="contextmenu_link_copy">Salin alamat pautan</string>
+    <string name="contextmenu_link_share">Kongsi pautan</string>
+    <string name="contextmenu_open_in_new_tab">Buka pautan dalam tab baru</string>
+    <string name="custom_autocomplete_quick_add">Tambah URL penyesuaian</string>
+    <string name="custom_tab_copy_url_action">URL disalin</string>
+    <string name="dialog_addtohomescreen_action_add">Tambah</string>
+    <string name="dialog_addtohomescreen_action_cancel">Batal</string>
+    <string name="dialog_addtohomescreen_tracking_protection">Perlindungan Penjejakan dinyahdayakan apabila dibuka menggunakan pintasan</string>
+    <string name="download_dialog_action_cancel">Batal</string>
+    <string name="download_dialog_action_download">Muat turun</string>
+    <string name="download_dialog_title">Muat Turun Fail</string>
+    <string name="download_dialog_warning">Fail yang dimuat turun &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>tidak akan dihapuskan&lt;/b> apabila anda buang sejarah %1$s.</string>
+    <string name="download_firefox">Muat turun Firefox</string>
+    <string name="download_snackbar_finished">%1$s sudah siap</string>
+    <string name="download_snackbar_open">Buka</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Laman ini tidak tersedia buat masa ini atau terlalu sibuk. Cuba lagi selepas beberapa saat.&lt;/li>
+        &lt;li>Jika anda tidak dapat memuatkan sebarang halaman, semak data peranti telefon atau sambungan Wi-Fi anda.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">Tidak dapat menyambung</string>
+    <string name="error_generic_message">Kami tidak dapat memuat halaman ini untuk sebab-sebab tertentu.</string>
+    <string name="error_generic_title">Oops</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Semak alamat untuk kesilapan seperti
+          &lt;strong>ww&lt;/strong>.example.com yang sepatutnya
+          &lt;strong>www&lt;/strong>.example.com&lt;/li>
+        &lt;li>Jika anda tidak dapat memuat sebarang halaman, semak data peranti atau sambungan Wi-Fi anda.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">Pelayan tidak ditemui</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Alamat Web lazimnya ditulis begini &lt;strong>http://www.example.com/&lt;/strong>&lt;/li>
+  &lt;li>Pastikan anda menggunakan garis miring hadapan (iaitu &lt;strong>/&lt;/strong>).&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">Alamat tidak sah</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Masalah ini kadangkala disebabkan oleh menyahdayakan atau enggan menerima kuki.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">Halaman tidak diarahkan semula dengan betul</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Ini mungkin masalah dengan konfigurasi pelayan, atau boleh jadi
+ada pihak yang cuba menyamar sebagai pelayan.&lt;/li>
+  &lt;li>Jika anda pernah berjaya mendapatkan hubungan dengan pelayan ini dulu, ralat ini mungkin
+sementara dan anda boleh cuba lagi nanti.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">Sambungan selamat gagal</string>
+    <string name="error_timeout_title">Sambungan tamat masa</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Anda mungkin perlu memasang perisian lain untuk membuka alamat ini.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">Alamat tidak difahami</string>
+    <string name="errorpage_refresh">Cuba Lagi</string>
+    <string name="errorpage_title">Masalah memuatkan halaman</string>
+    <string name="external_app_prompt">Anda boleh keluar dari %1$s untuk membuka pautan ini dalam %2$s.</string>
+    <string name="external_app_prompt_no_app">Tiada aplikasi pada peranti anda dapat membuka pautan ini. Anda boleh tinggalkan %1$s untuk mencari %2$s aplikasi yang boleh melaksanakannya.</string>
+    <string name="external_app_prompt_no_app_title">Cari aplikasi yang boleh buka pautan</string>
+    <string name="external_app_prompt_title">Buka pautan guna aplikasi lain</string>
+    <string name="external_multiple_apps_matched_exit">Tamatkan Pelayaran Peribadi?</string>
+    <string name="feedback_erase">Sejarah pelayaran anda telah dibuang.</string>
+    <string name="find_in_page">Cari dalam Halaman</string>
+    <string name="find_in_page_input">Cari dalam halaman</string>
+    <string name="find_in_page_result">%1$d/%2$d</string>
+    <string name="firstrun_close_button">OK, faham!</string>
+    <string name="firstrun_defaultbrowser_text2">Membawa pelayaran peribadi ke tahap seterusnya, Sekat iklan dan kandungan lain yang menjejaki anda di serata laman dan melambatkan tempoh memuatkan halaman.</string>
+    <string name="firstrun_defaultbrowser_title">Tingkatkan privasi anda</string>
+    <string name="firstrun_next_button">Seterusnya</string>
+    <string name="firstrun_privacy_text">Tetapkan %1$s sebagai pelayar piawai anda dan dapatkan manfaat daripada pelayaran peribadi apabila anda buka pautan halaman web dari aplikasi lain.</string>
+    <string name="firstrun_privacy_title">Jadikan privasi satu tabiat</string>
+    <string name="firstrun_search_text">Mencari sesuatu yang berlainan? Pilih enjin piawai lain dalam Tetapan.</string>
+    <string name="firstrun_search_title">Carian anda, cara anda</string>
+    <string name="firstrun_shortcut_text">Kembali ke laman kegemaran anda dalam %1$s dengan pantas. Hanya pilih \"Tambah ke skrin Utama\" dari dalam menu %1$s.</string>
+    <string name="firstrun_shortcut_title">Letakkan pintasan dalam skrin utama</string>
+    <string name="firstrun_skip_button">Langkau</string>
+    <string name="gv_prompt_clear">Buang</string>
+    <string name="gv_prompt_password_hint">Kata laluan</string>
+    <string name="gv_prompt_username_hint">Nama pengguna</string>
+    <string name="http_auth_dialog_password">Kata laluan</string>
+    <string name="http_auth_dialog_title">Pengesahan diperlukan</string>
+    <string name="http_auth_dialog_username">Nama pengguna</string>
+    <string name="menu_about">Perihal</string>
+    <string name="menu_add_to_home_screen">Tambah ke Skrin Halaman utama</string>
+    <string name="menu_custom_tab_branding">Dikuasakan oleh %1$s</string>
+    <string name="menu_help">Bantuan</string>
+    <string name="menu_open_with_a_browser2">Buka dalam…</string>
+    <string name="menu_open_with_default_browser2">Buka dalam %1$s</string>
+    <string name="menu_report_site_issue">Laporkan Isu Laman</string>
+    <string name="menu_rights">Hak Anda</string>
+    <string name="menu_settings">Tetapan</string>
+    <string name="menu_share">Kongsi…</string>
+    <string name="menu_trackers_blocked_title">Penjejak disekat</string>
+    <string name="menu_whats_new">Perkembangan Terbaru</string>
+    <string name="notification_action_erase_and_open">Buang dan Buka</string>
+    <string name="notification_action_open">Buka</string>
+    <string name="notification_browsing_session_channel_description">Anda boleh buang sesi %1$s dengan menekan notifikasi. Tidak perlu buka aplikasi atau lihat kandungan dalam pelayar.</string>
+    <string name="notification_browsing_session_channel_name">Sesi pelayaran peribadi</string>
+    <string name="notification_erase_text">Buang sejarah pelayaran</string>
+    <string name="preference_about">Perihal %1$s</string>
+    <string name="preference_autocomplete_action_add">+ Tambah URL penyesuaian</string>
+    <string name="preference_autocomplete_action_remove_content_description">Buang</string>
+    <string name="preference_autocomplete_add_confirmation">Penyesuaian URL baru ditambah.</string>
+    <string name="preference_autocomplete_add_error">Semak semula URL yang anda masukkan.</string>
+    <string name="preference_autocomplete_add_example">Contoh: example.com</string>
+    <string name="preference_autocomplete_add_example2">Contoh: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">Tampal atau masukkan URL</string>
+    <string name="preference_autocomplete_add_title">URL untuk ditambah</string>
+    <string name="preference_autocomplete_custom_summary">Tambah dan urus penyesuaian URL auto-lengkap.</string>
+    <string name="preference_autocomplete_duplicate_url_error">URL sudah wujud</string>
+    <string name="preference_autocomplete_learn_more">Ketahui selanjutnya</string>
+    <string name="preference_autocomplete_menu_remove">Buang</string>
+    <string name="preference_autocomplete_preinstalled_summary">Aktifkan %1$s supaya auto-lengkap lebih 450 URLs popular dalam bar alamat.</string>
+    <string name="preference_autocomplete_subitem_customlist">URLs Penyesuaian</string>
+    <string name="preference_autocomplete_title_add">Tambah URL penyesuaian</string>
+    <string name="preference_autocomplete_title_remove">Buang URLs penyesuaian</string>
+    <string name="preference_category_autocomplete_custom_urls">Penyesuaian URLs</string>
+    <string name="preference_category_autocomplete_preinstalled">Senarai URL Piawai</string>
+    <string name="preference_category_cookies">Kuki dan Data Laman</string>
+    <string name="preference_category_data_choices">Pilihan Data</string>
+    <string name="preference_category_data_collection_use">Pengumpulan Data &amp; Penggunaan</string>
+    <string name="preference_category_general">Umum</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Prestasi</string>
+    <string name="preference_category_privacy">Privasi</string>
+    <string name="preference_category_search">Carian</string>
+    <string name="preference_category_switching_apps">Aplikasi Penukaran</string>
+    <string name="preference_category_tracking_protection">Perlindungan Penjejakan</string>
+    <string name="preference_category_web_content">Kandungan Web</string>
+    <string name="preference_default_browser2">Jadikan %1$s pelayar piawai</string>
+    <string name="preference_language">Bahasa</string>
+    <string name="preference_language_systemdefault">Piawai sistem</string>
+    <string name="preference_mozilla_summary">Perihal %1$s, bantuan</string>
+    <string name="preference_mozilla_telemetry2">Hantar data penggunaan</string>
+    <string name="preference_mozilla_telemetry_summary">Ketahui selanjutnya</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla mengumpulkan hanya yang diperlukan untuk menyedia dan meningkatkan %1$s.</string>
+    <string name="preference_performance_block_javascript">Sekat JavaScript</string>
+    <string name="preference_performance_block_javascript_summary">Halaman dimuatkan lebih cepat, tetapi mungkin ada yang tidak dijangka</string>
+    <string name="preference_performance_block_webfonts">Sekat fon Web</string>
+    <string name="preference_performance_block_webfonts_summary">Boleh menyebabkan imej atau ikon hilang</string>
+    <string name="preference_performance_request_desktop_site">Pinta laman desktop</string>
+    <string name="preference_privacy_and_security_header">Privasi &amp; Keselamatan</string>
+    <string name="preference_privacy_and_security_summary">Penjejakan, kuki, pilihan data</string>
+    <string name="preference_privacy_block_ads">Sekat penjejak iklan</string>
+    <string name="preference_privacy_block_ads_summary">Sesetengah iklan menjejaki lawatan anda dalam laman, walaupun anda tidak klik iklan</string>
+    <string name="preference_privacy_block_analytics">Sekat penjejak analitik</string>
+    <string name="preference_privacy_block_analytics_summary">Digunakan untuk mengumpul, menganalisis dan menilai aktiviti, seperti klik dan skrol</string>
+    <string name="preference_privacy_block_content">Sekat penjejak kandungan lain</string>
+    <string name="preference_privacy_block_content_summary2">Sesetengah halaman mungkin tidak berfungsi dengan sempurna jika ciri ini diaktifkan</string>
+    <string name="preference_privacy_block_social">Sekat penjejak sosial</string>
+    <string name="preference_privacy_block_social_summary">Disisipkan di dalam laman untuk menjejaki lawatan anda dan memaparkan fungsi seperti butang kongsi</string>
+    <string name="preference_privacy_category_cookies">Sekat kuki</string>
+    <string name="preference_privacy_notice">Notis Privasi</string>
+    <string name="preference_privacy_secure_mode">Halimunan</string>
+    <string name="preference_privacy_should_block_cookies_no_option">Tidak</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Sekat kuki pihak ke-3 sahaja</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Ya</string>
+    <string name="preference_privacy_stealth_summary">Sorok laman web apabila bertukar aplikasi</string>
+    <string name="preference_search_add2">+ Tambah enjin carian lain</string>
+    <string name="preference_search_engine_default">Piawai</string>
+    <string name="preference_search_installed_search_engines">Enjin carian dipasang</string>
+    <string name="preference_search_remove">Buang</string>
+    <string name="preference_search_remove_title">Buang enjin carian</string>
+    <string name="preference_search_restore">Pulih enjin carian piawai</string>
+    <string name="preference_search_summary">Tetapkan piawai, autolengkap</string>
+    <string name="preference_state_off">Nyahaktif</string>
+    <string name="preference_state_on">Aktif</string>
+    <string name="preference_subitem_autocomplete">Auto-lengkap URL</string>
+    <string name="preference_switch_autocomplete">Auto-lengkap</string>
+    <string name="search_add_confirmation">Enjin carian baru sudah ditambah.</string>
+    <string name="search_add_error_duplicate_name">Enjin carian yang dipasang sudah menggunakan nama itu.</string>
+    <string name="search_add_error_empty_name">Masukkan nama enjin carian</string>
+    <string name="search_add_error_empty_search">Masukkan string carian</string>
+    <string name="search_add_error_format">Pastikan string carian sepadan format contoh</string>
+    <string name="search_add_manually_example">Contoh: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">Nama enjin carian</string>
+    <string name="search_add_manually_save">Simpan</string>
+    <string name="search_add_manually_string">Cari string yang mahu digunakan</string>
+    <string name="search_hint">Cari %1$s</string>
+    <string name="search_menu_title">Cari</string>
+    <string name="security_popup_insecure_connection">Sambungan Tidak Selamat</string>
+    <string name="security_popup_secure_connection">Sambungan Selamat</string>
+    <string name="security_popup_security_verified">Disahkan oleh: %1$s</string>
+    <string name="share_dialog_title">Kongsi via</string>
+    <string name="shortcut_erase_long_label">Buang sejarah pelayaran</string>
+    <string name="shortcut_erase_short_label">Buang</string>
+    <string name="site_security_icon_content_description">Keselamatan Laman</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tabs_tray_action_erase">Buang sejarah pelayaran</string>
+    <string name="teaser">"Pelayaran peribadi automatik.
+Layar. Buang. Ulang."</string>
+    <string name="text_selection_search_action">Cari secara Rahsia</string>
+    <string name="urlbar_hint">Cari atau masukkan alamat</string>
+    <string name="your_rights">Hak Anda</string>
+    <string name="your_rights_content1">%1$s adalah perisian percuma dan sumber terbuka yang dihasilkan oleh Mozilla dan para penyumbang lain.</string>
+    <string name="your_rights_content2">%1$s disediakan untuk anda di bawah terma &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Lesen Umum Mozilla&lt;/a> dan lesen sumber terbuka lain.</string>
+    <string name="your_rights_content3">Anda tidak diberikan sebarang hak atau lesen untuk tanda dagangan Yayasan Mozilla atau mana-mana pihak, termasuk menggunakan nama atau logo Mozilla, Firefox atau %1$s. Maklumat tambahan boleh didapati &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>di sini&lt;/a>.</string>
+    <string name="your_rights_content4">Kod sumber tambahan untuk %1$s tersedia di bawah pelbagai &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>lesen&lt;/a> sumber percuma dan sumber terbuka lain.</string>
+    <string name="your_rights_content5">%1$s uga menggunakan senarai sekatan yang disediakan oleh Disconnect, Inc sebagai hasil kerja yang berasingan dan bebas di bawah &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>GNU General Public License v3&lt;/a>, dan tersedia &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>di sini&lt;/a>.</string>
+</resources>

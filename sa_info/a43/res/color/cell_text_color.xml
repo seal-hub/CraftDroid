@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n1:color="@color/contrast_secondary" n2:state_date_selected="false" n2:state_date_selected_first="false" n2:state_date_selected_last="false" n2:state_date_selected_single="false" n2:state_date_today="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:color="@color/secondary_text_disabled_material_light" n4:state_date_disabled="true"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:color="@color/auto_complete_hint_normal" n6:state_date_prev_next_month="true" n6:state_date_selected="false" n6:state_date_selected_first="false" n6:state_date_selected_last="false" n6:state_date_selected_single="false"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:color="@color/bright_foreground_disabled_material_dark" n8:state_date_prev_next_month="true" n8:state_date_selected="true"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <item n9:color="@color/bright_foreground_disabled_material_dark" n10:state_date_prev_next_month="true" n10:state_date_selected_first="true"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <item n11:color="@color/bright_foreground_disabled_material_dark" n12:state_date_prev_next_month="true" n12:state_date_selected_last="true"
+      xmlns:n11="http://schemas.android.com/apk/res/android" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+    <item n13:color="@color/bright_foreground_disabled_material_dark" n14:state_date_prev_next_month="true" n14:state_date_selected_single="true"
+      xmlns:n13="http://schemas.android.com/apk/res/android" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+    <item n15:color="@android:color/white" n16:state_date_prev_next_month="false" n16:state_date_selected_first="true"
+      xmlns:n15="http://schemas.android.com/apk/res/android" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+    <item n17:color="@android:color/white" n18:state_date_prev_next_month="false" n18:state_date_selected_last="true"
+      xmlns:n17="http://schemas.android.com/apk/res/android" xmlns:n18="http://schemas.android.com/apk/res-auto" />
+    <item n19:color="@android:color/white" n20:state_date_prev_next_month="false" n20:state_date_selected="true"
+      xmlns:n19="http://schemas.android.com/apk/res/android" xmlns:n20="http://schemas.android.com/apk/res-auto" />
+    <item n21:color="@android:color/white" n22:state_date_prev_next_month="false" n22:state_date_selected_single="true"
+      xmlns:n21="http://schemas.android.com/apk/res/android" xmlns:n22="http://schemas.android.com/apk/res-auto" />
+    <item n23:color="@color/text_primary_inverse_normal"
+      xmlns:n23="http://schemas.android.com/apk/res/android" />
+</selector>

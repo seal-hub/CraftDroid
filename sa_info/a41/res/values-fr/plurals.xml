@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Adresses copiées dans le presse-papiers</item>
+        <item quantity="one">Adresse copiée dans le presse-papiers</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Voulez-vous vraiment supprimer les %1$d messages ?</item>
+        <item quantity="one">Voulez-vous vraiment supprimer ce message ?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Voulez-vous déplacer les %1$d messages vers le dossiers des pourriels ?</item>
+        <item quantity="one">Voulez-vous déplacer ce message vers le dossiers des pourriels ?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d nouveaux messages</item>
+        <item quantity="one">%d nouveau message</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Récupération de %d résultats</item>
+        <item quantity="one">Récupération d’%d résultat</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Récupération de %1$d résultats de %2$d</item>
+        <item quantity="one">Récupération d’%1$d résultat de %2$d</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s comptes</item>
+        <item quantity="one">1 compte</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">les mots de passe du serveur</item>
+        <item quantity="one">le mot de passe du serveur</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Réglages des mots de passe…</item>
+        <item quantity="one">Réglage du mot de passe…</item>
+    </plurals>
+</resources>

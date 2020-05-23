@@ -1,0 +1,598 @@
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/hot_button_collections",
+    "text": "Collections",
+    "content-desc": "Collections",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Activity",
+    "action": [
+      "click"
+    ],
+    "activity": ".nearby.ui.ActivityNearby",
+    "package": "com.yelp.android",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.yelp.android:id/positive_action_button",
+    "text": "Okay, Got It!",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Get updates on Weekly Top 10 collections and content curated by other users.",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activities.collections.ActivityCollectionsViewV2",
+    "package": "com.yelp.android",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/create",
+    "text": "Create",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activities.collections.ActivityCollectionsViewV2",
+    "package": "com.yelp.android",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/activity_login_create_account_question",
+    "text": "Don't have a Yelp account yet? Sign up.",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "hot_button_collections",
+        "id-prefix": "com.yelp.android:id/",
+        "text": "Collections",
+        "content-desc": "Collections",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "Activity",
+        "action": [
+          "click"
+        ],
+        "activity": ".nearby.ui.ActivityNearby",
+        "package": "com.yelp.android",
+        "event_type": "stepping"
+      },
+      {
+        "class": "android.widget.Button",
+        "resource-id": "positive_action_button",
+        "id-prefix": "com.yelp.android:id/",
+        "text": "Okay, Got It!",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "Get updates on Weekly Top 10 collections and content curated by other users.",
+        "action": [
+          "click"
+        ],
+        "activity": ".ui.activities.collections.ActivityCollectionsViewV2",
+        "package": "com.yelp.android",
+        "event_type": "stepping"
+      },
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "create",
+        "id-prefix": "com.yelp.android:id/",
+        "text": "Create",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".ui.activities.collections.ActivityCollectionsViewV2",
+        "package": "com.yelp.android",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityLogin",
+    "event_type": "oracle",
+    "score": 0.5270604514909509,
+    "action": [
+      "wait_until_element_presence",
+      20,
+      "id",
+      "activity_login_create_account_question"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/activity_login_create_account_question",
+    "text": "Don't have a Yelp account yet? Sign up.",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityLogin",
+    "event_type": "gui",
+    "score": 0.5270604514909509,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.yelp.android:id/email_sign_up",
+    "text": "Sign up with Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "package": "com.yelp.android",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/email_address",
+    "text": "Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "email_sign_up",
+        "id-prefix": "com.yelp.android:id/",
+        "text": "Sign up with Email",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".ui.activities.ActivityCreateAccount",
+        "package": "com.yelp.android",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "event_type": "oracle",
+    "score": 0.5620447167031786,
+    "action": [
+      "wait_until_element_presence",
+      20,
+      "id",
+      "email_address"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/email_address",
+    "text": "Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "event_type": "gui",
+    "score": 0.5620447167031786,
+    "action": [
+      "send_keys",
+      "q196119ge@nwytg.net"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/email_address",
+    "text": "t587212se@fqrfjd.al.net",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "event_type": "gui",
+    "score": 0.4458615935304441,
+    "action": [
+      "clear_and_send_keys",
+      "q196119ge@nwytg.net"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/password",
+    "text": "Password",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "event_type": "gui",
+    "score": 0.48,
+    "action": [
+      "send_keys",
+      "1qaz2wsX"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.yelp.android:id/signup_next_button",
+    "text": "Next",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "package": "com.yelp.android",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/last_name",
+    "text": "Last Name",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "signup_next_button",
+        "id-prefix": "com.yelp.android:id/",
+        "text": "Next",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".ui.activities.ActivityCreateAccount",
+        "package": "com.yelp.android",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "event_type": "gui",
+    "score": 0.61,
+    "action": [
+      "send_keys",
+      "Labfellow"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.yelp.android:id/first_name",
+    "text": "First Name",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "event_type": "gui",
+    "score": 0.61,
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sealbot"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.yelp.android:id/signup_next_button_2",
+    "text": "Next",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "event_type": "gui",
+    "score": 0.425561653201833,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "package": "com.yelp.android",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.yelp.android:id/signup_next_button_2",
+    "text": "Next",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.ImageButton",
+        "resource-id": "",
+        "id-prefix": "",
+        "text": "",
+        "content-desc": "Navigate up",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".ui.activities.ActivityCreateAccount",
+        "package": "com.yelp.android",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "event_type": "oracle",
+    "score": 0.3803264737905711,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "signup_next_button_2"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.yelp.android:id/signup_next_button_2",
+    "text": "Next",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "event_type": "gui",
+    "score": 0.3803264737905711,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "event_type": "oracle",
+    "score": 0.25457147382634693,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//*[@content-desc=\"Navigate up\"]"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "event_type": "gui",
+    "score": 0.25457147382634693,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.yelp.android:id/signup_next_button_2",
+    "text": "Next",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "package": "com.yelp.android",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.yelp.android:id/signup_button",
+    "text": "Sign Up",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "I agree to Yelp's Terms of Service and confirm that I have read Yelp's Privacy Policy.",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activities.ActivityCreateAccount",
+    "package": "com.yelp.android",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.yelp.android:id/welcome_to_yelp",
+    "text": "Welcome to Yelp, Sealbot! Complete your profile by filling out the details below.",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "signup_next_button_2",
+        "id-prefix": "com.yelp.android:id/",
+        "text": "Next",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".ui.activities.ActivityCreateAccount",
+        "package": "com.yelp.android",
+        "event_type": "stepping"
+      },
+      {
+        "class": "android.widget.Button",
+        "resource-id": "signup_button",
+        "id-prefix": "com.yelp.android:id/",
+        "text": "Sign Up",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "I agree to Yelp's Terms of Service and confirm that I have read Yelp's Privacy Policy.",
+        "action": [
+          "click"
+        ],
+        "activity": ".ui.activities.ActivityCreateAccount",
+        "package": "com.yelp.android",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.yelp.android",
+    "activity": ".ui.activities.collections.ActivityCollectionsViewV2",
+    "event_type": "oracle",
+    "score": 0.36560463824488804,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Sealbot"
+    ]
+  }
+]

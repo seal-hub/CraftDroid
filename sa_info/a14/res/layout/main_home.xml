@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<de.baumann.browser.View.NinjaRelativeLayout android:padding="@dimen/layout_margin_8dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/home_buttons" app:cardCornerRadius="@dimen/cardview_default_radius" app:cardUseCompatPadding="true" app:elevation="0.0dip">
+        <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/home_buttons">
+                <org.askerov.dynamicgrid.DynamicGridView android:gravity="center" android:id="@id/home_grid" android:paddingTop="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchMode="columnWidth" android:numColumns="auto_fit" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" />
+                <ListView android:gravity="center" android:id="@id/home_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <View android:background="@drawable/shadow_above" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/home_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_margin_8dp" android:layout_alignParentBottom="true" android:elevation="2.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="42.0dip" android:layout_height="wrap_content">
+                    <View android:id="@id/open_newTabView" android:background="@color/colorAccent" android:visibility="invisible" android:layout_width="42.0dip" android:layout_height="2.0dip" />
+                    <ImageButton android:layout_gravity="center" android:id="@id/open_newTab" android:background="?actionBarItemBackground" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/icon_earth" android:foregroundGravity="center" android:contentDescription="@null" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="42.0dip" android:layout_height="wrap_content">
+                    <View android:id="@id/open_bookmarkView" android:background="@color/colorAccent" android:visibility="invisible" android:layout_width="42.0dip" android:layout_height="2.0dip" />
+                    <ImageButton android:layout_gravity="center" android:id="@id/open_bookmark" android:background="?actionBarItemBackground" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/icon_bookmark" android:contentDescription="@null" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="42.0dip" android:layout_height="wrap_content">
+                    <View android:id="@id/open_historyView" android:background="@color/colorAccent" android:visibility="invisible" android:layout_width="42.0dip" android:layout_height="2.0dip" />
+                    <ImageButton android:layout_gravity="center" android:id="@id/open_history" android:background="?actionBarItemBackground" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/ic_action_history" android:contentDescription="@null" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="42.0dip" android:layout_height="wrap_content">
+                    <View android:id="@id/open_passView" android:background="@color/colorAccent" android:visibility="invisible" android:layout_width="42.0dip" android:layout_height="2.0dip" />
+                    <ImageButton android:layout_gravity="center" android:id="@id/open_pass" android:background="?actionBarItemBackground" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/icon_key" android:contentDescription="@null" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</de.baumann.browser.View.NinjaRelativeLayout>

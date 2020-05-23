@@ -1,0 +1,11 @@
+digraph "CallGraph" {
+    node [style="rounded,bold,filled"];
+    node [shape=box];
+    "Root" [label="Root",];
+    "ru.mail.mailapp.SplashScreenActivity: void onStart()" [label="SplashScreenActivity(onStart)",];
+    "Root"->"ru.mail.mailapp.SplashScreenActivity: void onStart()" [label="SYMBOLIC",style=bold,color=black,];
+    "android.support.v4.app.Fragment$OnStartEnterTransitionListener: void onStartEnterTransition()" [label="Fragment$OnStartEnterTransitionListener(onStartEnterTransition)",];
+    "ru.mail.mailapp.SplashScreenActivity: void onStart()"->"android.support.v4.app.Fragment$OnStartEnterTransitionListener: void onStartEnterTransition()" [label="GUI (NULL)",style=bold,color=firebrick,];
+    "ru.mail.mailapp.SplashScreenActivity: void onStart()"->"android.support.v4.app.Fragment$OnStartEnterTransitionListener: void onStartEnterTransition()" [label="GUI (NULL)",style=bold,color=firebrick,];
+    "ru.mail.mailapp.SplashScreenActivity: void onStart()"->"android.support.v4.app.Fragment$OnStartEnterTransitionListener: void onStartEnterTransition()" [label="GUI (NULL)",style=bold,color=firebrick,];
+}

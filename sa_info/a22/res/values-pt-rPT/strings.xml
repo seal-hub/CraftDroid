@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navegar para a página inicial</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navegar para cima</string>
+    <string name="abc_action_menu_overflow_description">Mais opções</string>
+    <string name="abc_action_mode_done">Concluído</string>
+    <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
+    <string name="abc_activitychooserview_choose_application">Escolher uma aplicação</string>
+    <string name="abc_capital_off">DESATIVADO</string>
+    <string name="abc_capital_on">ATIVADO</string>
+    <string name="abc_search_hint">Pesquisar...</string>
+    <string name="abc_searchview_description_clear">Limpar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+    <string name="abc_searchview_description_search">Pesquisar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+    <string name="abc_shareactionprovider_share_with">Partilhar com</string>
+    <string name="abc_shareactionprovider_share_with_application">Partilhar com %s</string>
+    <string name="abc_toolbar_collapse_description">Reduzir</string>
+    <string name="mdtp_date_v1_monthyear">"MMMM 'de' yyyy"</string>
+    <string name="mdtp_day_picker_description">Grelha de dias do mês</string>
+    <string name="mdtp_deleted_key">%1$s eliminado</string>
+    <string name="mdtp_done_label">Concluído</string>
+    <string name="mdtp_hour_picker_description">Controlo de deslize circular das horas</string>
+    <string name="mdtp_item_is_selected">%1$s selecionado</string>
+    <string name="mdtp_minute_picker_description">Controlo de deslize circular dos minutos</string>
+    <string name="mdtp_select_day">Selecionar mês e dia</string>
+    <string name="mdtp_select_hours">Selecionar horas</string>
+    <string name="mdtp_select_minutes">Selecionar minutos</string>
+    <string name="mdtp_select_year">Selecionar ano</string>
+    <string name="mdtp_year_picker_description">Lista de anos</string>
+    <string name="status_bar_notification_info_overflow">+999</string>
+</resources>

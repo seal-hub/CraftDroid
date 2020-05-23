@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/view_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/header" android:layout_width="fill_parent" android:layout_height="?actionBarSize" layout="@layout/title_layout" />
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header" />
+    <TextView android:textSize="@dimen/txt_size_big" android:textColor="@color/textEmpty" android:gravity="center" android:id="@id/txt_empty" android:padding="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Everything is done" android:layout_centerInParent="true" />
+    <include android:id="@id/input_panel" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/input_panel" />
+    <com.github.clans.fab.FloatingActionButton android:id="@id/fab_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/fab_add" />
+    <include android:id="@id/action_panel" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/action_panel" />
+</RelativeLayout>

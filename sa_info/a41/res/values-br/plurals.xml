@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Chomlec’hioù eilet er golver</item>
+        <item quantity="one">Chomlec’h eilet er golver</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Sur oc’h e fell deoc’h dilemel %1$d a gemennadennoù?</item>
+        <item quantity="one">Sur oc’h e fell deoc’h dilemel ar gemennadenn-mañ?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Sur oc’h e fell deoc’h dilec’hiañ %1$d a gemennadennoù en teuliad lastez?</item>
+        <item quantity="one">Sur oc’h e fell deoc’h dilec’hiañ ar gemennadenn-mañ en teuliad lastez?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d a gemennadennoù nevez</item>
+        <item quantity="one">%d gemennadenn nevez</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">O kerc’hat %da zisoc’hoù</item>
+        <item quantity="one">O kerc’hat %ddisoc’h</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">O kerc’hat %1$dwar%2$da zisoc’hoù</item>
+        <item quantity="one">O kerc’hat %1$dwar%2$da zisoc’hoù</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s a gontoù</item>
+        <item quantity="one">1 gont</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">gerioù-tremen an dafariad</item>
+        <item quantity="one">ger-tremen an dafariad</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Oc’h arventennañ ar gerioù-tremen...</item>
+        <item quantity="one">Oc’h arventennañ ar ger-tremen...</item>
+    </plurals>
+</resources>

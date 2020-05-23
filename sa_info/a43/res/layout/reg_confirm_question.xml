@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:id="@id/scrollView" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:fillViewport="true">
+        <LinearLayout n1:gravity="center" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TableLayout n1:background="@drawable/bg_light_full" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="22.0dip" n1:stretchColumns="2" style="@style/LoginFormWidthStyle">
+                <include n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/captcha_block" />
+                <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:background="@drawable/login_content_background_bottom" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <Button n1:enabled="false" n1:id="@id/question_ok" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/domain_settings_field_padding_horizontal" n1:text="@string/reg_confirm_ok" />
+                    <ru.mail.uikit.view.FontButton n1:id="@id/tv_set_phone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dip" n1:layout_marginRight="16.0dip" n1:layout_marginBottom="16.0dip" n1:text="@string/reg_confirm_set_phone" style="?android:borderlessButtonStyle" />
+                </LinearLayout>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

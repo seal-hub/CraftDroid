@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="folder_settings">
+        <CheckBoxPreference android:persistent="false" android:title="@string/folder_settings_in_top_group_label" android:key="folder_settings_in_top_group" android:summary="@string/folder_settings_in_top_group_summary" />
+        <ListPreference android:persistent="false" android:entries="@array/folder_settings_folder_display_mode_entries" android:title="@string/folder_settings_folder_display_mode_label" android:key="folder_settings_folder_display_mode" android:dialogTitle="@string/folder_settings_folder_display_mode_label" android:entryValues="@array/folder_settings_folder_display_mode_values" />
+        <ListPreference android:persistent="false" android:entries="@array/folder_settings_folder_sync_mode_entries" android:title="@string/folder_settings_folder_sync_mode_label" android:key="folder_settings_folder_sync_mode" android:dialogTitle="@string/folder_settings_folder_sync_mode_label" android:entryValues="@array/folder_settings_folder_sync_mode_values" />
+        <ListPreference android:persistent="false" android:entries="@array/folder_settings_folder_push_mode_entries" android:title="@string/folder_settings_folder_push_mode_label" android:key="folder_settings_folder_push_mode" android:dialogTitle="@string/folder_settings_folder_push_mode_label" android:entryValues="@array/folder_settings_folder_push_mode_values" />
+        <ListPreference android:persistent="false" android:entries="@array/folder_settings_folder_notify_mode_entries" android:title="@string/folder_settings_folder_notify_mode_label" android:key="folder_settings_folder_notify_mode" android:dialogTitle="@string/folder_settings_folder_notify_mode_label" android:entryValues="@array/folder_settings_folder_notify_mode_values" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/folder_settings_include_in_integrated_inbox_label" android:key="folder_settings_include_in_integrated_inbox" android:summary="@string/folder_settings_include_in_integrated_inbox_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:id="@id/scrollView" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:fillViewport="true"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TableLayout n1:background="@drawable/bg_light_full" n1:layout_height="wrap_content" n1:layout_margin="22.0dip" n1:stretchColumns="2" style="@style/LoginFormWidthStyle">
+            <ru.mail.uikit.view.FontTextView n1:id="@id/title_data" n1:background="@drawable/login_content_background_top" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/your_data" style="@style/Reg.Header" />
+            <ru.mail.widget.RegErrorsView n1:id="@id/reg_erros" n1:background="@android:color/white" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+            <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+            <ru.mail.widget.RegView n1:id="@id/reg_username" n1:layout_width="fill_parent" n2:labelText="@string/user_name" xmlns:n2="http://schemas.android.com/apk/res-auto">
+                <ru.mail.widget.RegCheckEditText n1:id="@id/username" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/hint_name" n1:layout_weight="1.0" />
+            </ru.mail.widget.RegView>
+            <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+            <ru.mail.widget.RegView n1:id="@id/reg_last_name" n1:layout_width="fill_parent" n3:labelText="@string/surname" xmlns:n3="http://schemas.android.com/apk/res-auto">
+                <ru.mail.widget.RegCheckEditText n1:id="@id/last_name" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/hint_last_name" n1:layout_weight="1.0" n1:nextFocusForward="@id/email" />
+            </ru.mail.widget.RegView>
+            <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+            <ru.mail.widget.RegView n1:id="@id/reg_birth" n1:layout_width="fill_parent" n4:labelText="@string/birthday_abbreviate" xmlns:n4="http://schemas.android.com/apk/res-auto">
+                <ru.mail.widget.DateEditor n1:id="@id/birth" n1:focusable="false" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_weight="1.0" style="?android:editTextStyle" />
+            </ru.mail.widget.RegView>
+            <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+            <ru.mail.widget.RegView n1:id="@id/gender_view" n1:layout_width="fill_parent" n5:labelText="@string/gender" xmlns:n5="http://schemas.android.com/apk/res-auto">
+                <ru.mail.widget.RegCheckRadioGroup n1:orientation="horizontal" n1:id="@id/gender_radio_group" n1:paddingLeft="@dimen/domain_settings_field_padding_horizontal" n1:paddingRight="@dimen/domain_settings_field_padding_horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <RadioButton n1:id="@id/gender_male" n1:layout_width="32.0dip" n1:layout_height="32.0dip" n1:layout_marginRight="24.0dip" />
+                    <RadioButton n1:id="@id/gender_female" n1:layout_width="32.0dip" n1:layout_height="32.0dip" />
+                </ru.mail.widget.RegCheckRadioGroup>
+            </ru.mail.widget.RegView>
+            <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+            <ru.mail.uikit.view.FontTextView n1:id="@id/new_email" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/new_email" style="@style/Reg.Header" />
+            <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+            <RelativeLayout n1:id="@id/reg_email" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <ru.mail.widget.RegCheckAutoCompleteTextView n1:textColor="@color/reg_email" n1:id="@id/email" n1:nextFocusDown="@id/password" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/hint_email" n1:maxLength="@integer/email_max_length" n1:layout_toLeftOf="@id/domains" />
+                <Spinner n1:id="@id/domains" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/domain_settings_field_padding_horizontal" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+            <ru.mail.widget.RegView n1:id="@id/reg_password" n1:layout_width="fill_parent" n6:labelText="@string/reg_password" xmlns:n6="http://schemas.android.com/apk/res-auto">
+                <RelativeLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                    <ru.mail.widget.RegCheckEditText n1:id="@id/password" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/hint_required" n1:layout_toLeftOf="@id/password_show" n1:inputType="textPassword" />
+                    <CheckBox n1:gravity="center_vertical" n1:id="@id/password_show" n1:layout_width="32.0dip" n1:layout_height="32.0dip" n1:layout_marginLeft="@dimen/domain_settings_field_padding_horizontal" n1:layout_marginRight="@dimen/domain_settings_field_padding_horizontal" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+                </RelativeLayout>
+            </ru.mail.widget.RegView>
+            <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+            <LinearLayout n1:orientation="vertical" n1:background="@drawable/login_content_background_bottom" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <RelativeLayout n1:gravity="center_vertical" n1:paddingLeft="10.0dip" n1:paddingRight="@dimen/domain_settings_field_padding_horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dip">
+                    <CheckBox n1:gravity="center_vertical" n1:id="@id/agreement_checkbox" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="8.0dip" n1:layout_centerVertical="true" />
+                    <TextView n1:textColor="@color/text_primary_inverse" n1:id="@id/agreement_text" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/agreement_checkbox" n1:layout_centerVertical="true" style="?android:textAppearanceMedium" />
+                </RelativeLayout>
+                <Button n1:enabled="false" n1:id="@id/next" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/domain_settings_field_padding_horizontal" n1:text="@string/next" />
+            </LinearLayout>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

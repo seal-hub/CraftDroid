@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:key="push"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.fragments.settings.NotificationSoundPreference n1:entries="@array/entryvalues_sounds_name" n1:title="@string/notitification_sounds" n1:key="push_sound" n1:defaultValue="@string/prefs_push_sound_default" n1:entryValues="@array/entryvalues_sounds_path" />
+    <CheckBoxPreference n1:title="@string/mapp_settings_notitification_vibration" n1:key="push_vibration" n1:defaultValue="true" />
+    <ru.mail.fragments.settings.SwitchScreenPreference n1:title="@string/mapp_set_notif_dont_disturb" n1:key="push_dont_disturb" n1:defaultValue="true" n2:activity="ru.mail.fragments.settings.PushDontDisturbSettingsActivity" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <Preference n1:enabled="true" n1:title="@string/mapp_settings_filtration" n1:key="push_filtration_screen" />
+    <CheckBoxPreference n1:title="@string/unread_count_on_icon" n1:key="enable_counter_on_app_icon" n1:defaultValue="true" />
+</PreferenceScreen>

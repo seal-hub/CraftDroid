@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/alternate_container_header" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+        <com.fsck.k9.ui.ContactBadge android:id="@id/alternate_contact_photo" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?textColorPrimaryRecipientDropdown" android:ellipsize="end" android:id="@id/alternate_header_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:singleLine="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?textColorPrimaryRecipientDropdown" android:ellipsize="end" android:id="@id/alternate_header_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:id="@id/alternate_remove" android:background="?android:selectableItemBackground" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:src="?iconActionCancel" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/alternate_container_item" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?textColorSecondaryRecipientDropdown" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/alternate_address_label" android:layout_width="60.0dip" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?textColorSecondaryRecipientDropdown" android:ellipsize="end" android:id="@id/alternate_address" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/alternate_crypto_status" android:padding="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/status_dots" android:tint="?openpgp_grey" />
+            <ImageView android:layout_gravity="center|left" android:id="@id/alternate_crypto_status_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/alternate_crypto_status_simple" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_margin="13.0dip" android:src="@drawable/status_lock" android:tint="?openpgp_black" />
+    </LinearLayout>
+</LinearLayout>

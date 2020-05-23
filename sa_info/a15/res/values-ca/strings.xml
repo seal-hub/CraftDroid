@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">"Navega a la pàgina d'inici"</string>
+    <string name="abc_action_bar_up_description">Navega cap a dalt</string>
+    <string name="abc_action_menu_overflow_description">Més opcions</string>
+    <string name="abc_action_mode_done">Fet</string>
+    <string name="abc_activity_chooser_view_see_all">"Mostra'ls tots"</string>
+    <string name="abc_activitychooserview_choose_application">Selecciona una aplicació</string>
+    <string name="abc_capital_off">DESACTIVAT</string>
+    <string name="abc_capital_on">ACTIVAT</string>
+    <string name="abc_search_hint">Cerca...</string>
+    <string name="abc_searchview_description_clear">Esborra la consulta</string>
+    <string name="abc_searchview_description_query">Consulta de cerca</string>
+    <string name="abc_searchview_description_search">Cerca</string>
+    <string name="abc_searchview_description_submit">Envia la consulta</string>
+    <string name="abc_searchview_description_voice">Cerca per veu</string>
+    <string name="abc_shareactionprovider_share_with">Comparteix amb</string>
+    <string name="abc_shareactionprovider_share_with_application">Comparteix amb %s</string>
+    <string name="abc_toolbar_collapse_description">Replega</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>El %1$s us d&amp;#243;na el control.&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>Com a navegador privat, us permet:
+  &lt;ul>
+    &lt;li>Cercar i navegar directament des de l'aplicaci&amp;#243;&lt;/li>
+    &lt;li>Blocar els elements de seguiment (o canviar els par&amp;#224;metres per permetre'ls)&lt;/li>
+    &lt;li>Esborrar les galetes i l'historial de cerques i de navegaci&amp;#243;&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>El %1$s est&amp;#224; creat per Mozilla. La nostra missi&amp;#243; &amp;#233;s fomentar un Internet obert i saludable.&lt;br/>
+&lt;a href=%2$s>M&amp;#233;s informaci&amp;#243;&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">"S'està carregant…"</string>
+    <string name="accessibility_announcement_loading_finished">"S'ha carregat el lloc web"</string>
+    <string name="accessibility_dismiss_find_in_page">Tanca la cerca</string>
+    <string name="accessibility_find_in_page_result">%1$d de %2$d</string>
+    <string name="accessibility_next_result">Cerca el següent resultat</string>
+    <string name="accessibility_previous_result">Cerca el resultat anterior</string>
+    <string name="action_cancel">Cancel·la</string>
+    <string name="action_ok">"D'acord"</string>
+    <string name="action_option_add_search_engine">Afegeix un motor de cerca</string>
+    <string name="action_save">Desa</string>
+    <string name="common_google_play_services_enable_button">Activa</string>
+    <string name="common_google_play_services_enable_text">%1$s no funcionarà si no actives els Serveis de Google Play.</string>
+    <string name="common_google_play_services_enable_title">Activa els Serveis de Google Play</string>
+    <string name="common_google_play_services_install_button">Instal·la</string>
+    <string name="common_google_play_services_install_text">"%1$s no s'executarà si el dispositiu no té instal·lats els serveis de Google Play."</string>
+    <string name="common_google_play_services_install_title">Obtén els Serveis de Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Error dels Serveis de Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s té problemes amb els serveis de Google Play. Torna-ho a provar.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s no es pot executar sense els serveis de Google Play, però no són compatibles amb el teu dispositiu.</string>
+    <string name="common_google_play_services_update_button">Actualitza</string>
+    <string name="common_google_play_services_update_text">"%1$s no s'executarà si no actualitzes els Serveis de Google Play."</string>
+    <string name="common_google_play_services_update_title">Actualitza els Serveis de Google Play</string>
+    <string name="common_google_play_services_updating_text">"%1$s no s'executarà sense els Serveis de Google Play, que s'estan actualitzant en aquest moment."</string>
+    <string name="common_google_play_services_wear_update_text">"Cal una nova versió dels Serveis de Google Play. S'actualitzaran automàticament aviat."</string>
+    <string name="common_open_on_phone">Obre al telèfon</string>
+    <string name="common_signin_button_text">Inicia sessió</string>
+    <string name="common_signin_button_text_long">Inicia la sessió amb Google</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Vés enrere</string>
+    <string name="content_description_blocking_switch">Bloca els elements de seguiment</string>
+    <string name="content_description_clear_input">"Esborra l'entrada"</string>
+    <string name="content_description_customtab_exit">"Torna a l'aplicació anterior"</string>
+    <string name="content_description_dismiss_input">Descarta</string>
+    <string name="content_description_erase">"Esborra l'historial de navegació"</string>
+    <string name="content_description_forward">Navega cap endavant</string>
+    <string name="content_description_lock">Connexió segura</string>
+    <string name="content_description_menu">Més opcions</string>
+    <string name="content_description_reload">Actualitza el lloc web</string>
+    <string name="content_description_stop">Atura la càrrega del lloc web</string>
+    <string name="content_description_tab_counter">Pestanyes obertes: %1$s</string>
+    <string name="contextmenu_image_copy">"Copia l'adreça de la imatge"</string>
+    <string name="contextmenu_image_save">Desa la imatge</string>
+    <string name="contextmenu_image_share">Comparteix la imatge</string>
+    <string name="contextmenu_image_warning">"Les imatges que deseu i compartiu &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>no s'eliminaran&lt;/b> quan esborreu l'historial del %1$s."</string>
+    <string name="contextmenu_link_copy">"Copia l'adreça de l'enllaç"</string>
+    <string name="contextmenu_link_share">"Comparteix l'enllaç"</string>
+    <string name="contextmenu_open_in_new_tab">"Obre l'enllaç en una pestanya nova"</string>
+    <string name="custom_autocomplete_quick_add">Afegeix URL personalitzat</string>
+    <string name="custom_tab_copy_url_action">"S'ha copiat l'URL"</string>
+    <string name="dialog_addtohomescreen_action_add">Afegeix</string>
+    <string name="dialog_addtohomescreen_action_cancel">Cancel·la</string>
+    <string name="dialog_addtohomescreen_tracking_protection">"La drecera s'obrirà amb la protecció contra el seguiment desactivada"</string>
+    <string name="download_dialog_action_cancel">Cancel·la</string>
+    <string name="download_dialog_action_download">Baixa</string>
+    <string name="download_dialog_title">Baixa el fitxer</string>
+    <string name="download_dialog_warning">"Els fitxers que baixeu &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>no s'eliminaran&lt;/b> quan esborreu l'historial del %1$s."</string>
+    <string name="download_firefox">Baixa el Firefox</string>
+    <string name="download_snackbar_finished">%1$s ha acabat</string>
+    <string name="download_snackbar_open">Obre</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>El lloc web podria estar temporalment no disponible o massa ocupat. Torneu-ho a provar d'aqu&amp;#237; uns moments.&lt;/li>
+        &lt;li>Si no podeu carregar cap p&amp;#224;gina, comproveu la connexi&amp;#243; de dades o Wi-Fi del vostre dispositiu m&amp;#242;bil.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">"No s'ha pogut connectar"</string>
+    <string name="error_generic_message">"No s'ha pogut carregar aquesta pàgina per algun motiu."</string>
+    <string name="error_generic_title">Ups.</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Comproveu que no s'hagin introdu&amp;#239;t errors en teclejar l'adre&amp;#231;a, p. ex.
+          &lt;strong>ww&lt;/strong>.example.com en comptes de
+          &lt;strong>www&lt;/strong>.example.com&lt;/li>
+        &lt;li>Si no podeu carregar cap p&amp;#224;gina, comproveu la connexi&amp;#243; de dades o Wi-Fi del vostre dispositiu.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">"No s'ha trobat el servidor"</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Les adreces web normalment s'escriuen aix&amp;#237;: &lt;strong>http://www.example.com/&lt;/strong>&lt;/li>
+  &lt;li>Assegureu-vos que utilitzeu les barres inclinades (&lt;strong>/&lt;/strong>).&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">"L'adreça no és vàlida"</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+&lt;li>Aix&amp;#242; podria passar per haver inhabilitat o rebutjat l'acceptaci&amp;#243; de galetes.&lt;/li> 
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">La pàgina no està redirigint correctament</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Aix&amp;#242; podria ser un problema amb la configuraci&amp;#243; del servidor, o b&amp;#233; podria ser que alg&amp;#250; estigu&amp;#233;s intentant fer-se passar pel servidor.&lt;/li>
+  &lt;li>Si us hi heu connectat sense cap problema alguna altra vegada, l'error podria ser temporal i podeu tornar-ho a provar m&amp;#233;s tard.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">Ha fallat la connexió segura</string>
+    <string name="error_timeout_title">"S'ha esgotat el temps d'espera de la connexió"</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Pot ser que calgui que instal&amp;#183;leu altre programari per obrir l'adre&amp;#231;a.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">"No s'ha entès l'adreça"</string>
+    <string name="errorpage_refresh">Torna-ho a provar</string>
+    <string name="errorpage_title">"S'ha produït un problema en carregar la pàgina"</string>
+    <string name="external_app_prompt">Podeu sortir del %1$s per obrir aquest enllaç amb el %2$s.</string>
+    <string name="external_app_prompt_no_app">No hi ha cap aplicació en el dispositiu que pugui obrir aquest enllaç. Podeu sortir del %1$s per cercar al %2$s una aplicació que pugui obrir-lo.</string>
+    <string name="external_app_prompt_no_app_title">Cerca una aplicació que pugui obrir aquest enllaç</string>
+    <string name="external_app_prompt_title">"Obre l'enllaç en una altra aplicació"</string>
+    <string name="external_multiple_apps_matched_exit">Voleu sortir de la navegació privada?</string>
+    <string name="feedback_erase">"S'ha esborrat l'historial de navegació."</string>
+    <string name="find_in_page">Cerca a la pàgina</string>
+    <string name="find_in_page_input">Cerca a la pàgina</string>
+    <string name="find_in_page_result">%1$d/%2$d</string>
+    <string name="firstrun_close_button">Entesos</string>
+    <string name="firstrun_defaultbrowser_text2">Porteu la navegació privada a un altre nivell. Bloqueu anuncis i altre contingut que us fan el seguiment i alenteixen la càrrega de les pàgines.</string>
+    <string name="firstrun_defaultbrowser_title">Potencieu la privadesa</string>
+    <string name="firstrun_next_button">Següent</string>
+    <string name="firstrun_privacy_text">"Definiu el %1$s com a navegador per defecte i gaudiu de navegació privada en obrir pàgines web des d'altres aplicacions."</string>
+    <string name="firstrun_privacy_title">Feu de la privadesa un hàbit</string>
+    <string name="firstrun_search_text">Busqueu una altra cosa? Trieu un altre motor de cerca per defecte als Paràmetres.</string>
+    <string name="firstrun_search_title">Cerqueu com vulgueu</string>
+    <string name="firstrun_shortcut_text">"Retorneu ràpidament als vostres llocs preferits amb el %1$s. Trieu «Afegeix a la pantalla d'inici» en el menú del %1$s."</string>
+    <string name="firstrun_shortcut_title">"Afegiu dreceres a la pantalla d'inici"</string>
+    <string name="firstrun_skip_button">Omet</string>
+    <string name="gv_prompt_clear">Esborra</string>
+    <string name="gv_prompt_password_hint">Contrasenya</string>
+    <string name="gv_prompt_username_hint">"Nom d'usuari"</string>
+    <string name="http_auth_dialog_password">Contrasenya</string>
+    <string name="http_auth_dialog_title">Cal autenticació</string>
+    <string name="http_auth_dialog_username">"Nom d'usuari"</string>
+    <string name="menu_about">Quant a</string>
+    <string name="menu_add_to_home_screen">"Afegeix a la pantalla d'inici"</string>
+    <string name="menu_custom_tab_branding">Funciona amb el %1$s</string>
+    <string name="menu_help">Ajuda</string>
+    <string name="menu_open_with_a_browser2">Obre amb…</string>
+    <string name="menu_open_with_default_browser2">Obre amb el %1$s</string>
+    <string name="menu_report_site_issue">"Informa d'un problema amb el lloc"</string>
+    <string name="menu_rights">Els vostres drets</string>
+    <string name="menu_settings">Paràmetres</string>
+    <string name="menu_share">Comparteix…</string>
+    <string name="menu_trackers_blocked_title">Elements blocats</string>
+    <string name="menu_whats_new">Novetats</string>
+    <string name="notification_action_erase_and_open">Esborra i obre</string>
+    <string name="notification_action_open">Obre</string>
+    <string name="notification_browsing_session_channel_description">"Les notificacions permeten esborrar la sessió del %1$s amb un sol toc. No cal ni obrir l'aplicació ni mostrar el contingut del navegador."</string>
+    <string name="notification_browsing_session_channel_name">Sessió de navegació privada</string>
+    <string name="notification_erase_text">"Esborra l'historial de navegació"</string>
+    <string name="preference_about">Quant al %1$s</string>
+    <string name="preference_autocomplete_action_add">+ Afegeix un URL personalitzat</string>
+    <string name="preference_autocomplete_action_remove_content_description">Elimina</string>
+    <string name="preference_autocomplete_add_confirmation">"S'ha afegit un URL personalitzat nou."</string>
+    <string name="preference_autocomplete_add_error">"Reviseu l'URL que heu introduït."</string>
+    <string name="preference_autocomplete_add_example">Exemple: example.com</string>
+    <string name="preference_autocomplete_add_example2">Exemple: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">Enganxeu o escriviu un URL</string>
+    <string name="preference_autocomplete_add_title">URL per afegir</string>
+    <string name="preference_autocomplete_custom_summary">"Afegiu i gestioneu els URL d'emplenament automàtic personalitzats."</string>
+    <string name="preference_autocomplete_duplicate_url_error">"L'URL ja existeix"</string>
+    <string name="preference_autocomplete_learn_more">Més informació</string>
+    <string name="preference_autocomplete_menu_remove">Elimina</string>
+    <string name="preference_autocomplete_preinstalled_summary">"Activeu-lo per fer permetre que el %1$s empleni automàticament més de 450 URL populars a la barra d'adreces."</string>
+    <string name="preference_autocomplete_subitem_customlist">URL personalitzats</string>
+    <string name="preference_autocomplete_title_add">URL personalitzat nou</string>
+    <string name="preference_autocomplete_title_remove">Elimina URL personalitzats</string>
+    <string name="preference_category_autocomplete_custom_urls">URL personalitzats</string>
+    <string name="preference_category_autocomplete_preinstalled">"Llista d'URL per defecte"</string>
+    <string name="preference_category_cookies">Galetes i dades dels llocs</string>
+    <string name="preference_category_data_choices">Elecció de dades</string>
+    <string name="preference_category_data_collection_use">Ús i recollida de dades</string>
+    <string name="preference_category_general">General</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Rendiment</string>
+    <string name="preference_category_privacy">Privadesa</string>
+    <string name="preference_category_search">Cerca</string>
+    <string name="preference_category_switching_apps">"Canvi d'aplicacions"</string>
+    <string name="preference_category_tracking_protection">Protecció contra el seguiment</string>
+    <string name="preference_category_web_content">Contingut web</string>
+    <string name="preference_default_browser2">Fes que el %1$s sigui el navegador per defecte</string>
+    <string name="preference_language">Llengua</string>
+    <string name="preference_language_systemdefault">Valor per defecte del sistema</string>
+    <string name="preference_mozilla_summary">Quant al %1$s, ajuda</string>
+    <string name="preference_mozilla_telemetry2">"Envia dades d'ús"</string>
+    <string name="preference_mozilla_telemetry_summary">Més informació</string>
+    <string name="preference_mozilla_telemetry_summary2">"Mozilla s'esforça per recollir només les dades necessàries per oferir i millorar el %1$s per a tothom."</string>
+    <string name="preference_performance_block_javascript">Bloca el JavaScript</string>
+    <string name="preference_performance_block_javascript_summary">Les pàgines es poden carregar més ràpid, però també poden comportar-se de forma inesperada</string>
+    <string name="preference_performance_block_webfonts">Bloca tipus de lletra web</string>
+    <string name="preference_performance_block_webfonts_summary">Pot fer que no es vegin algunes icones o imatges</string>
+    <string name="preference_performance_request_desktop_site">"Mostra lloc d'escriptori"</string>
+    <string name="preference_privacy_and_security_header">Privadesa i seguretat</string>
+    <string name="preference_privacy_and_security_summary">Seguiment, galetes, elecció de dades</string>
+    <string name="preference_privacy_block_ads">Bloca els elements de seguiment de publicitat</string>
+    <string name="preference_privacy_block_ads_summary">Alguns anuncis fan el seguiment de les visites als llocs, fins i tot si no feu clic als anuncis</string>
+    <string name="preference_privacy_block_analytics">"Bloca els elements de seguiment d'anàlisi"</string>
+    <string name="preference_privacy_block_analytics_summary">"S'utilitzen per recollir, analitzar i mesurar activitats com ara els tocs i el desplaçament"</string>
+    <string name="preference_privacy_block_content">Bloca altres elements de seguiment de contingut</string>
+    <string name="preference_privacy_block_content_summary2">"Si s'activa, algunes pàgines podrien comportar-se de forma inesperada"</string>
+    <string name="preference_privacy_block_social">Bloca els elements de seguiment social</string>
+    <string name="preference_privacy_block_social_summary">Està incrustat en els llocs per fer el seguiment de les vostres visites i per mostrar alguns elements com els botons de compartició</string>
+    <string name="preference_privacy_category_cookies">Bloca les galetes</string>
+    <string name="preference_privacy_notice">Avís de privadesa</string>
+    <string name="preference_privacy_secure_mode">Invisible</string>
+    <string name="preference_privacy_should_block_cookies_no_option">No</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Bloca només les galetes de tercers</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Sí</string>
+    <string name="preference_privacy_stealth_summary">"Amaga les pàgines web en canviar d'aplicacions"</string>
+    <string name="preference_search_add2">+ Afegeix un altre motor de cerca</string>
+    <string name="preference_search_engine_default">Per defecte</string>
+    <string name="preference_search_installed_search_engines">Motors de cerca instal·lats</string>
+    <string name="preference_search_remove">Elimina</string>
+    <string name="preference_search_remove_title">Elimina motors de cerca</string>
+    <string name="preference_search_restore">Restaura els motors de cerca per defecte</string>
+    <string name="preference_search_summary">Valor per defecte, emplenament automàtic</string>
+    <string name="preference_state_off">Desactivat</string>
+    <string name="preference_state_on">Activat</string>
+    <string name="preference_subitem_autocomplete">"Emplenament automàtic d'URL"</string>
+    <string name="preference_switch_autocomplete">Emplenament automàtic</string>
+    <string name="search_add_confirmation">"S'ha afegit un motor de cerca nou."</string>
+    <string name="search_add_error_duplicate_name">Ja hi ha un motor de cerca instal·lat amb aquest nom.</string>
+    <string name="search_add_error_empty_name">Escriviu el nom del motor de cerca</string>
+    <string name="search_add_error_empty_search">Escriviu una cadena de cerca</string>
+    <string name="search_add_error_format">"Comproveu que la cadena de cerca coincideixi amb el format d'exemple"</string>
+    <string name="search_add_manually_example">Exemple: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">Nom del motor de cerca</string>
+    <string name="search_add_manually_save">Desa</string>
+    <string name="search_add_manually_string">"Cadena de cerca que s'utilitzarà"</string>
+    <string name="search_hint">Cerca %1$s</string>
+    <string name="search_menu_title">Cerca</string>
+    <string name="security_popup_insecure_connection">Connexió insegura</string>
+    <string name="security_popup_secure_connection">Connexió segura</string>
+    <string name="security_popup_security_verified">Verificat per: %1$s</string>
+    <string name="share_dialog_title">Comparteix mitjançant</string>
+    <string name="shortcut_erase_long_label">"Esborra l'historial de navegació"</string>
+    <string name="shortcut_erase_short_label">Esborra</string>
+    <string name="site_security_icon_content_description">Seguretat del lloc</string>
+    <string name="status_bar_notification_info_overflow">+999</string>
+    <string name="tabs_tray_action_erase">"Esborra l'historial de navegació"</string>
+    <string name="teaser">"Navegació privada automàtica.
+Navegueu. Esborreu. Torneu-hi."</string>
+    <string name="text_selection_search_action">Cerca privada</string>
+    <string name="urlbar_hint">Escriviu una cerca o adreça</string>
+    <string name="your_rights">Els vostres drets</string>
+    <string name="your_rights_content1">El %1$s és programari lliure i de codi obert creat per Mozilla i altres col·laboradors.</string>
+    <string name="your_rights_content2">El %1$s és a la vostra disposició sota els termes de la &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Mozilla Public License (Llic&amp;#232;ncia P&amp;#250;blica de Mozilla)&lt;/a> i altres llicències lliures.</string>
+    <string name="your_rights_content3">No se us atorga cap dret ni llicència sobre les marques registrades de la Fundació Mozilla, o de cap altra part, inclosos els noms o els logotips de Mozilla, Firefox o %1$s. Podeu trobar més informació &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>aqu&amp;#237;&lt;/a>.</string>
+    <string name="your_rights_content4">"Hi ha codi font addicional del %1$s que està disponible sota diverses altres  &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>llic&amp;#232;ncies&lt;/a> lliures i de codi obert."</string>
+    <string name="your_rights_content5">El %1$s també utilitza llistes de bloquejos proporcionades per Disconnect, Inc. que es mantenen de forma independentment i separada sota la &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Llic&amp;#232;ncia P&amp;#250;blica General de GNU v3&lt;/a> i que estan disponibles &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>aqu&amp;#237;&lt;/a>.</string>
+</resources>

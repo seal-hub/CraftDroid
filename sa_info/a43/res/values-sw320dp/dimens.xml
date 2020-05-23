@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="filter_dropdown_width">256.0dip</dimen>
+    <dimen name="footer_card_margin_right">64.0dip</dimen>
+    <dimen name="footer_card_padding_bottom">16.0dip</dimen>
+</resources>

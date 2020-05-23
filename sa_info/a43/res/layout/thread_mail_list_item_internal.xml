@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ImageView n1:id="@id/unread" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="6.0dip" n1:adjustViewBounds="true" n1:layout_centerVertical="true" n2:srcCompat="@drawable/ic_list_unread"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n3:id="@id/reply" n3:visibility="gone" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginRight="6.0dip" n3:adjustViewBounds="true" n4:srcCompat="@drawable/ic_list_reply"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <ImageView n5:id="@id/forward" n5:visibility="gone" n5:layout_width="wrap_content" n5:layout_height="wrap_content" n5:layout_marginRight="6.0dip" n5:adjustViewBounds="true" n6:srcCompat="@drawable/ic_list_forward"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <ru.mail.fragments.view.MailItemTextView n7:ellipsize="end" n7:id="@id/sender" n7:layout_width="wrap_content" n7:layout_height="wrap_content" n7:layout_marginTop="11.0dip" n7:singleLine="true" style="?android:textAppearanceLarge"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <TextView n8:ellipsize="end" n8:gravity="center" n8:id="@id/folder" n8:background="@drawable/bg_list_folder" n8:visibility="gone" n8:layout_width="wrap_content" n8:layout_height="wrap_content" n8:layout_marginLeft="8.0dip" n8:maxWidth="@dimen/mail_list_item_folder_maxwidth" n8:singleLine="true" n8:fontFamily="sans-serif-medium" style="?android:textAppearanceSmall"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <ImageView n9:id="@id/transaction_icon" n9:layout_width="wrap_content" n9:layout_height="wrap_content" n9:layout_marginLeft="8.0dip"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <ImageView n10:id="@id/attach" n10:layout_width="wrap_content" n10:layout_height="wrap_content" n10:layout_marginLeft="8.0dip" n10:layout_marginTop="1.0dip" n11:srcCompat="@drawable/ic_list_attach"
+      xmlns:n10="http://schemas.android.com/apk/res/android" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+    <ImageView n12:id="@id/important" n12:layout_width="wrap_content" n12:layout_height="wrap_content" n12:layout_marginLeft="8.0dip" n13:srcCompat="@drawable/ic_list_important"
+      xmlns:n12="http://schemas.android.com/apk/res/android" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+    <TextView n14:id="@id/date" n14:layout_width="wrap_content" n14:layout_height="wrap_content" n14:layout_marginLeft="8.0dip" style="?android:textAppearanceMedium"
+      xmlns:n14="http://schemas.android.com/apk/res/android" />
+    <ImageView n15:id="@id/flag" n15:layout_width="wrap_content" n15:layout_height="wrap_content" n15:layout_marginLeft="8.0dip" n15:layout_marginTop="2.0dip" n15:layout_marginRight="1.0dip" n16:srcCompat="@drawable/ic_list_flag"
+      xmlns:n15="http://schemas.android.com/apk/res/android" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+    <View n17:id="@id/divider" n17:background="@color/divider_primary" n17:layout_width="fill_parent" n17:layout_height="@dimen/divider_primary"
+      xmlns:n17="http://schemas.android.com/apk/res/android" />
+</merge>

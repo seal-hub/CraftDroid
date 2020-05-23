@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Adressen naar klembord gekopieerd</item>
+        <item quantity="one">Adres naar klembord gekopieerd</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Wil je echt %1$d berichten verwijderen?</item>
+        <item quantity="one">Wil je dit bericht echt verwijderen?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Wil je dit bericht echt verplaatsen naar de spam map?</item>
+        <item quantity="one">Wil je dit bericht echt verplaatsen naar de spam map?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d nieuwe berichten</item>
+        <item quantity="one">%d nieuwe berichten</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s accounts</item>
+        <item quantity="one">1 account</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">server wachtwoorden</item>
+        <item quantity="one">server wachtwoord</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Wachtwoorden zetten…</item>
+        <item quantity="one">Wachtwoord zetten…</item>
+    </plurals>
+</resources>

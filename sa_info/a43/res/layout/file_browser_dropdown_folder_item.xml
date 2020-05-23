@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/layout_drop_down_item" n1:paddingLeft="16.0dip" n1:paddingTop="16.0dip" n1:paddingRight="16.0dip" n1:paddingBottom="14.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/spinner_drop_down_folder_icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:srcCompat="@drawable/ic_fb_folder" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ru.mail.uikit.view.HighlightedTextView n1:textSize="16.0sp" n1:ellipsize="end" n1:id="@id/spinner_drop_down_folder_name" n1:paddingLeft="16.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:layout_toRightOf="@id/spinner_drop_down_folder_icon" n1:layout_alignTop="@id/spinner_drop_down_folder_icon" n1:layout_alignBottom="@id/spinner_drop_down_folder_icon" style="?android:textAppearanceLarge" />
+</RelativeLayout>

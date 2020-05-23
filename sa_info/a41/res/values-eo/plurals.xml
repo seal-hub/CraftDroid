@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Adresoj kopiitaj al tondejo</item>
+        <item quantity="one">Adreso kopiita al tondejo</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Ĉu vi certe volas forigi %1$d mesaĝojn?</item>
+        <item quantity="one">Ĉu vi certe volas forigi tiun ĉi mesaĝon?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Ĉu vi certe volas movi %1$d mesaĝojn al trudmesaĝujo (spamujo)?</item>
+        <item quantity="one">Ĉu vi certe volas movi tiun ĉi mesaĝon al trudmesaĝujo (spamujo)?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d novaj mesaĝoj</item>
+        <item quantity="one">%d nova mesaĝo</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Elŝutado de %d rezultoj</item>
+        <item quantity="one">Elŝutado de %d rezulto</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Elŝutado de %1$d el %2$d rezultoj</item>
+        <item quantity="one">Elŝutado de %1$d el %2$d rezultoj</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s kontoj</item>
+        <item quantity="one">1 konto</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">servilajn pasvortojn</item>
+        <item quantity="one">servilan pasvorton</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Agordado de pasvortoj…</item>
+        <item quantity="one">Agordado de pasvorto…</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@android:anim/accelerate_interpolator"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale android:duration="@integer/erase_animation_scale_duration" android:pivotX="50.0%p" android:pivotY="50.0%p" android:fromXScale="100.0%p" android:toXScale="95.00001%p" android:fromYScale="100.0%p" android:toYScale="95.00001%p" />
+    <translate android:duration="@integer/erase_animation_translate_duration" android:startOffset="@integer/erase_animation_translate_offset" android:fromYDelta="0.0" android:toYDelta="100.0%p" />
+    <alpha android:duration="@integer/erase_animation_alpha_duration" android:fromAlpha="1.0" android:toAlpha="0.0" />
+</set>

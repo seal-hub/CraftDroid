@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <View n1:background="@drawable/mask_media_attaches" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="@dimen/gallery_browser_folder_margin" n1:layout_alignLeft="@id/preview" n1:layout_alignTop="@id/preview" n1:layout_alignRight="@id/preview" n1:layout_alignBottom="@id/preview"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <ru.mail.filemanager.widget.CheckableView n2:id="@id/folder_foreground" n2:background="@drawable/gallery_browser_border" n2:duplicateParentState="true" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:button="@null" n2:layout_alignLeft="@id/preview" n2:layout_alignTop="@id/preview" n2:layout_alignRight="@id/preview" n2:layout_alignBottom="@id/preview"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</merge>

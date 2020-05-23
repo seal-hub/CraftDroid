@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="btn_settings_email_bg_focused" />
+    <item type="drawable" name="btn_settings_email_bg_normal" />
+    <item type="drawable" name="btn_settings_email_bg_pressed" />
+    <item type="drawable" name="btn_settings_email_bg_selected" />
+    <item type="drawable" name="btn_settings_share_bg_focused" />
+    <item type="drawable" name="btn_settings_share_bg_normal" />
+    <item type="drawable" name="btn_settings_share_bg_pressed" />
+    <item type="drawable" name="btn_settings_share_bg_selected" />
+    <item type="drawable" name="btn_settings_share_mail" />
+    <item type="drawable" name="btn_settings_share_share" />
+    <item type="drawable" name="btn_settings_share_sms" />
+    <item type="drawable" name="btn_settings_sms_bg_focused" />
+    <item type="drawable" name="btn_settings_sms_bg_normal" />
+    <item type="drawable" name="btn_settings_sms_bg_pressed" />
+    <item type="drawable" name="btn_settings_sms_bg_selected" />
+    <item type="drawable" name="ic_action_share_normal" />
+    <item type="drawable" name="ic_action_up_normal" />
+    <item type="drawable" name="ic_login_phone" />
+    <item type="drawable" name="ic_settings_share_mail" />
+    <item type="drawable" name="ic_settings_share_share" />
+    <item type="drawable" name="ic_settings_share_sms" />
+    <item type="drawable" name="img_signup_share_rocket" />
+    <item type="drawable" name="logo_mycom" />
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="picture_background" />
+    <item type="drawable" name="picture_background_landscape" />
+    <item type="drawable" name="picture_background_portrait" />
+    <item type="drawable" name="settings_btn_focused" />
+    <item type="drawable" name="share_chooser_list" />
+    <item type="drawable" name="spinner_popup_background" />
+    <item type="drawable" name="tutorial_big_size" />
+    <item type="drawable" name="tutorial_mobile_only" />
+    <item type="drawable" name="tutorial_security" />
+</resources>

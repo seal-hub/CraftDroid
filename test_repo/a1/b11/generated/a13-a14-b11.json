@@ -1,0 +1,94 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "de.baumann.browser:id/floatButton_ok",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".Activity.BrowserActivity",
+    "package": "de.baumann.browser",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "de.baumann.browser:id/main_omnibox_input",
+    "text": "Search or type URL",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.ImageButton",
+        "resource-id": "floatButton_ok",
+        "id-prefix": "de.baumann.browser:id/",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".Activity.BrowserActivity",
+        "package": "de.baumann.browser",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "de.baumann.browser",
+    "activity": ".Activity.BrowserActivity",
+    "event_type": "gui",
+    "score": 0.4425196319551794,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "de.baumann.browser:id/main_omnibox_input",
+    "text": "Search or type URL",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "de.baumann.browser",
+    "activity": ".Activity.BrowserActivity",
+    "event_type": "gui",
+    "score": 0.4425196319551794,
+    "action": [
+      "send_keys_and_enter",
+      "https://www.ics.uci.edu"
+    ]
+  },
+  {
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Donald Bren School of Information and Computer Sciences",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "de.baumann.browser",
+    "activity": ".Activity.BrowserActivity",
+    "event_type": "oracle",
+    "score": 0.4687265657854268,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//android.view.View[@content-desc=\"Donald Bren School of Information and Computer Sciences\"]"
+    ]
+  }
+]

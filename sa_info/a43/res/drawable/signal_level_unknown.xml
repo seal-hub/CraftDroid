@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item n1:drawable="@drawable/signal_level_transparent_1" n1:top="18.0dip" n1:right="18.0dip"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:drawable="@drawable/signal_level_transparent_2" n2:left="6.0dip" n2:top="12.0dip" n2:right="12.0dip"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:drawable="@drawable/signal_level_transparent_3" n3:left="12.0dip" n3:top="6.0dip" n3:right="6.0dip"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:drawable="@drawable/signal_level_transparent_4" n4:left="18.0dip"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+</layer-list>

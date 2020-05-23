@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Adres zkopírováno do schránky</item>
+        <item quantity="one">Adresa zkopírovaná do schránky</item>
+        <item quantity="few">Adresy zkopírované do schránky</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Opravdu si přejete smazat %1$d zpráv?</item>
+        <item quantity="one">Opravdu si přejete smazat tuto zprávu?</item>
+        <item quantity="few">Opravdu si přejete smazat %1$d zprávy?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Opravdu chcete přesunout %1$d zpráv do nevyžádané pošty?</item>
+        <item quantity="one">Opravdu chcete přesunout tuto zprávy do nevyžádané pošty?</item>
+        <item quantity="few">Opravdu chcete přesunout %1$d zprávy do nevyžádané pošty?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d nových zpráv</item>
+        <item quantity="one">%d nová zpráva</item>
+        <item quantity="few">%d nové zprávy</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Načítání %d výsledků</item>
+        <item quantity="one">Načítání %d výsledku</item>
+        <item quantity="few">Načítání %d výsledků</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s účtů</item>
+        <item quantity="one">1 účet</item>
+        <item quantity="few">%s účty</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">hesel</item>
+        <item quantity="one">heslo</item>
+        <item quantity="few">hesla</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Nastavuji hesla…</item>
+        <item quantity="one">Nastavuji heslo…</item>
+        <item quantity="few">Nastavuji hesla…</item>
+    </plurals>
+</resources>

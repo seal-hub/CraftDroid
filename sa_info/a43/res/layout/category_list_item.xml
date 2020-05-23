@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="48.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/category_icon" n1:padding="4.0dip" n1:duplicateParentState="true" n1:layout_width="24.0dip" n1:layout_height="24.0dip" n1:layout_marginLeft="24.0dip" n1:layout_marginTop="12.0dip" n1:layout_marginRight="24.0dip" n1:layout_marginBottom="12.0dip" n1:scaleType="fitCenter" n1:layout_centerVertical="true" />
+    <ru.mail.uikit.view.HighlightedTextView n1:textSize="16.0sp" n1:textColor="@color/folder_item_text" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/category_name" n1:duplicateParentState="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginBottom="1.0dip" n1:maxLines="1" n1:layout_toRightOf="@id/category_icon" n1:layout_centerVertical="true" n2:defaultFont="robotoRegular" n2:textFont="robotoMedium" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

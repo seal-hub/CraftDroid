@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set n1:background="#ff000000" n1:shareInterpolator="false" n1:zAdjustment="normal"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <translate n1:interpolator="@anim/decelerate_cubic" n1:duration="433" n1:fillBefore="true" n1:fillAfter="true" n1:startOffset="300" n1:fromYDelta="10.000002%" n1:toYDelta="0.0" n1:fillEnabled="true" />
+    <scale n1:duration="433" n1:pivotX="50.0%p" n1:pivotY="0.0%p" n1:fillBefore="true" n1:fillAfter="true" n1:startOffset="300" n1:fromXScale="0.9" n1:toXScale="1.0" n1:fromYScale="0.9" n1:toYScale="1.0" n1:fillEnabled="true" />
+</set>

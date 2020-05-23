@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/black" android:background="@android:color/transparent" android:padding="20.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/new_todo_task" android:maxLength="@integer/max_todo_titel_length" />
+    <EditText android:id="@id/et_new_task_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:hint="@string/name" android:inputType="text" />
+    <View android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <EditText android:id="@id/et_new_task_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:hint="@string/todo_list_description_hint" android:maxLines="15" android:minLines="1" android:inputType="textMultiLine" />
+    <View android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip">
+        <TextView android:gravity="center_vertical" android:id="@id/tv_todo_list_deadline" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/deadline" android:drawableLeft="@android:drawable/ic_menu_my_calendar" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+        <TextView android:gravity="center_vertical" android:id="@id/tv_todo_list_reminder" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/reminder" android:drawableLeft="@android:drawable/ic_lock_idle_alarm" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@id/tv_task_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/progress_colon" />
+        <SeekBar android:id="@id/sb_new_task_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="100" android:layout_toRightOf="@id/tv_task_progress" android:layout_alignParentRight="true" />
+        <TextView android:id="@id/new_task_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/zero_percent" android:layout_below="@id/sb_new_task_progress" android:layout_alignLeft="@id/sb_new_task_progress" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@id/tv_new_task_priority_str" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/priority_colon" android:layout_below="@id/new_task_progress" />
+        <TextView android:textSize="16.0sp" android:textStyle="italic" android:id="@id/tv_new_task_priority" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Click to select!" android:layout_alignBaseline="@id/tv_new_task_priority_str" android:layout_alignBottom="@id/tv_new_task_priority_str" android:layout_alignStart="@id/tv_new_task_listchoose" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@id/tv_new_task_listchoose_str" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Choose list:" android:layout_below="@id/tv_new_task_priority" />
+        <TextView android:textSize="16.0sp" android:textStyle="italic" android:id="@id/tv_new_task_listchoose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Click to select!" android:layout_alignBaseline="@id/tv_new_task_listchoose_str" android:layout_alignBottom="@id/tv_new_task_listchoose_str" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <View android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/bt_new_task_cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@android:string/cancel" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+        <Button android:id="@id/bt_new_task_ok" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/ok" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

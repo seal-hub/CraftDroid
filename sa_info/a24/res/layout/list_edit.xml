@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/list_edit_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/EditListLabelEditText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:lines="1" android:inputType="text" android:imeOptions="actionNone" />
+</LinearLayout>

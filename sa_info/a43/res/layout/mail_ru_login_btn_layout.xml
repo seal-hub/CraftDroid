@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:gravity="center_vertical" n1:orientation="horizontal"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:paddingStart="8.0dip">
+        <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_weight="0.0" n2:srcCompat="@drawable/mail_ru_ic_btn_logo" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <TextView n1:ellipsize="middle" n1:id="@id/loginText" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:singleLine="true" n1:includeFontPadding="false" n1:layout_weight="1.0" n1:paddingStart="8.0dip" n1:paddingEnd="16.0dip" />
+        <ImageView n1:layout_gravity="end" n1:id="@id/avatar" n1:visibility="gone" n1:layout_width="48.0dip" n1:layout_height="fill_parent" n1:scaleType="centerCrop" n1:layout_weight="0.0" />
+    </LinearLayout>
+</merge>

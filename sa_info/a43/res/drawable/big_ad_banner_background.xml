@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape n1:shape="rectangle"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <stroke n1:width="0.5dip" n1:color="@color/big_ad_banner_plate_border_color" />
+    <solid n1:color="@color/white" />
+    <corners n1:radius="2.5dip" />
+</shape>

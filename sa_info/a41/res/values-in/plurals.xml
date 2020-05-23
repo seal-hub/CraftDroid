@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Alamat disalin ke clipboard</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Apakah kamu benar ingin menghapus %1$d pesan?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Apakah Anda benar-benar ingin pindah %1$d pesan ke folder spam?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d pesan baru</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Mengambil %d hasil</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Mengambil %1$d dari %2$d hasil</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s akun</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">Kata kunci server</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Menetapkan kata sandi ...</item>
+    </plurals>
+</resources>

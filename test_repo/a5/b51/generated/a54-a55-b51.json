@@ -1,0 +1,79 @@
+[
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.jpstudiosonline.tipcalculator:id/etBillTotal",
+    "text": "1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "$",
+    "stepping_events": [],
+    "package": "com.jpstudiosonline.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.1636461810906924,
+    "action": [
+      "clear_and_send_keys",
+      "56.6"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.jpstudiosonline.tipcalculator:id/etTipAmount",
+    "text": "15",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "%",
+    "stepping_events": [],
+    "package": "com.jpstudiosonline.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.16661008620107387,
+    "action": [
+      "clear_and_send_keys_and_hide_keyboard",
+      "15"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.jpstudiosonline.tipcalculator:id/btCalculate",
+    "text": "Calculate",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.jpstudiosonline.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.23514578407289843,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.jpstudiosonline.tipcalculator:id/tvTotalWithTip",
+    "text": "$ 65.09",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Total with Tip: ",
+    "stepping_events": [],
+    "package": "com.jpstudiosonline.tipcalculator",
+    "activity": ".MainActivity",
+    "event_type": "oracle",
+    "score": 0.2626044234677731,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "65.09"
+    ]
+  }
+]

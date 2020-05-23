@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="account_phone_settings">@null</item>
+    <item type="layout" name="account_security_item">@null</item>
+    <item type="layout" name="change_phone_settings">@null</item>
+    <item type="layout" name="confirm_phone_fragment">@null</item>
+    <item type="layout" name="delete_account_fragment">@null</item>
+    <item type="layout" name="mycom_register_promo">@null</item>
+    <item type="layout" name="phone_settings_activity">@null</item>
+    <item type="layout" name="reg_share_chooser_fragment">@null</item>
+    <item type="layout" name="reg_share_chooser_header">@null</item>
+    <item type="layout" name="reg_share_chooser_item">@null</item>
+    <item type="layout" name="reg_share_fragment">@null</item>
+    <item type="layout" name="security_options_footer_view">@null</item>
+    <item type="layout" name="security_settings">@null</item>
+    <item type="layout" name="security_settings_fragment">@null</item>
+    <item type="layout" name="share_preference">@null</item>
+    <item type="layout" name="sms_authorization">@null</item>
+    <item type="layout" name="tutorial_activity">@null</item>
+    <item type="layout" name="tutorial_indicator_item">@null</item>
+    <item type="layout" name="tutorial_page">@null</item>
+</resources>

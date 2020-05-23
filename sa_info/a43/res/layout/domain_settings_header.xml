@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <ru.mail.uikit.view.FontTextView n2:layout_width="fill_parent" n2:layout_height="wrap_content" n2:text="@string/please_check_server" style="@style/Reg.Header"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <LinearLayout n3:orientation="vertical" n3:background="@android:color/white" n3:layout_width="fill_parent" n3:layout_height="wrap_content"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <TextView n3:textSize="@dimen/medium_text_appearance" n3:textColor="@android:color/white" n3:gravity="center_vertical" n3:id="@id/domain_settings_error" n3:background="@drawable/login_error_bg" n3:paddingLeft="@dimen/domain_settings_field_padding_horizontal" n3:paddingRight="@dimen/domain_settings_field_padding_horizontal" n3:visibility="gone" n3:layout_width="fill_parent" n3:layout_height="wrap_content" />
+    </LinearLayout>
+    <View n4:background="?horizontal_divider" n4:layout_width="fill_parent" n4:layout_height="1.0dip"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <RadioGroup n5:gravity="center" n5:orientation="horizontal" n5:id="@id/protocol" n5:layout_width="fill_parent" n5:layout_height="@dimen/domain_settings_field_height"
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <ru.mail.uikit.view.FontRadioButton n5:gravity="center" n5:id="@id/protocol_pop" n5:layout_width="0.0dip" n5:layout_height="wrap_content" n5:checked="true" n5:text="@string/pop" n5:maxLines="1" n5:layout_weight="1.0" />
+        <View n5:background="?horizontal_divider" n5:layout_width="1.0dip" n5:layout_height="wrap_content" />
+        <ru.mail.uikit.view.FontRadioButton n5:gravity="center" n5:id="@id/protocol_imap" n5:layout_width="0.0dip" n5:layout_height="wrap_content" n5:text="@string/imap" n5:maxLines="1" n5:layout_weight="1.0" />
+    </RadioGroup>
+</merge>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s ad k-d-yefk afus ad teqqime&amp;#7693; d aqe&amp;#7771;&amp;#7771;u.&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>Seqdec-it d iminig uslig:
+  &lt;ul>
+    &lt;li>Nadi sakin snirem akken iwata deg usnas&lt;/li>
+    &lt;li>Sew&amp;#7717;el imesfu&amp;#611;al (ne&amp;#947; snifel i&amp;#947;ewwa&amp;#7771;en akken ad tsirge&amp;#7693; imesfu&amp;#947;al)&lt;/li>
+    &lt;li>Sfe&amp;#7693; inagan n tuqna akked amazray n tunigin d unadi&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s yesnulfa-t-id Mozilla. Tu&amp;#947;da&amp;#7789;-nne&amp;#947; ad n&amp;#7717;areb &amp;#947;ef internet yeldin d tezmert-is.&lt;br/>
+&lt;a href=%2$s>Issin ugar&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">Asali</string>
+    <string name="accessibility_announcement_loading_finished">Asmel web yuli-d</string>
+    <string name="accessibility_dismiss_find_in_page">Mdel anadi deg usebter</string>
+    <string name="accessibility_find_in_page_result">%1$d ɣef %2$d</string>
+    <string name="accessibility_next_result">Af-d agmuḍ d-iteddun</string>
+    <string name="accessibility_previous_result">af-d agmuḍ yezrin</string>
+    <string name="action_cancel">Sefsex</string>
+    <string name="action_ok">IH</string>
+    <string name="action_option_add_search_engine">Rnu amsedday n unadi</string>
+    <string name="action_save">Sekles</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Inig ar deffir</string>
+    <string name="content_description_blocking_switch">Sewḥel ineḍfaṛen</string>
+    <string name="content_description_clear_input">Sfeḍ anekcam</string>
+    <string name="content_description_customtab_exit">Uγal ar usnas izrin</string>
+    <string name="content_description_dismiss_input">Kkes</string>
+    <string name="content_description_erase">Kkes amazray n tunigin</string>
+    <string name="content_description_forward">Inig ar zdat</string>
+    <string name="content_description_lock">Tuqqna taγelsant</string>
+    <string name="content_description_menu">Ugar n iγewwaṛen</string>
+    <string name="content_description_reload">Ales asali n usmel web</string>
+    <string name="content_description_stop">Seḥbes asali n usmel</string>
+    <string name="content_description_tab_counter">Iccaren ldin: %1$s</string>
+    <string name="contextmenu_image_copy">Nγel tansa n tugna</string>
+    <string name="contextmenu_image_save">Sekles tugna</string>
+    <string name="contextmenu_image_share">Bḍu tugna</string>
+    <string name="contextmenu_image_warning">"Tugniwin ittwaskelsen akked ittwabḍan&lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>ur ttwaksent ara &lt;/b> m'ara ad tekseḍ %1$samazray."</string>
+    <string name="contextmenu_link_copy">Nγel tansa n useγwen</string>
+    <string name="contextmenu_link_share">Bḍu aseγwen</string>
+    <string name="contextmenu_open_in_new_tab">Ldi aseɣwen deg iccer amaynut</string>
+    <string name="custom_autocomplete_quick_add">Rnu URL aganan</string>
+    <string name="custom_tab_copy_url_action">Tansa URL tettwanγel</string>
+    <string name="dialog_addtohomescreen_action_add">Rnu</string>
+    <string name="dialog_addtohomescreen_action_cancel">Sefsex</string>
+    <string name="dialog_addtohomescreen_tracking_protection">Anegzum ad d-yeldi s usensi n ummesten mgal aḍfaṛ</string>
+    <string name="download_dialog_action_cancel">Sefsex</string>
+    <string name="download_dialog_action_download">Sider</string>
+    <string name="download_dialog_title">Sider afaylu</string>
+    <string name="download_dialog_warning">"Ifuyla i d_saliḍ &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2> ur k-ttru&amp;#7717;un ara&lt;/b>m'ara ad tekseḍ amazray %1$s."</string>
+    <string name="download_firefox">Sider Firefox</string>
+    <string name="download_snackbar_finished">%1$s yefuk</string>
+    <string name="download_snackbar_open">Ldi</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Ahat asmel ulac-it akka tura ne&amp;#947; &amp;#947;ur-s tta&amp;#603;ebga. &amp;#931;re&amp;#7693; tikelt-nni&amp;#7693;en.&lt;/li>
+        &lt;li>Ma yella ur tezmire&amp;#7693; ara ad tinige&amp;#7693; ar usmel, senqed tuqqna-ik n isefka n&amp;#947; Wi-Fi n yibenk-ik.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">Igguma ad iqqen</string>
+    <string name="error_generic_message">Ur nezmir ara ad d-nsali asebter-agi, ur neẓri ara acuγer.</string>
+    <string name="error_generic_title">Ihuh</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+&lt;li>Senqed taseddast n tensa (tira n &lt;strong>ww&lt;/strong>.example.com deg um&amp;#7693;iq n &lt;strong>www&lt;/strong>.example.com par exemple)&amp;#160;;&lt;/li>
+&lt;li>Ma yella ur tessaw&amp;#7693;e&amp;#7693; ara ad tinige&amp;#7693; deg ismal, senqed tuqqna n isefka ne&amp;#611; Wi-Fi n yibenk-ik.&lt;/li>
+&lt;/ul> "</string>
+    <string name="error_hostLookup_title">Ulac aqeddac</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Tansiwin web ttwarunt am &lt;strong>http://www.example.com/&lt;/strong>&lt;/li>
+  &lt;li>Wali ma yella tseqdace&amp;#7693; amgal islacen (i.e. &lt;strong>/&lt;/strong>).&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">Tansa mačči d tameγtut</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Tikwal ugur-agi itekk-d seg usensi ne&amp;#947; tugwin n unqbal n inagan n tuqqna.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">Asebter ur yettuwelleh ara akken iwata</string>
+    <string name="error_sslhandshake_message">" &lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2> &lt;li>Ayagi yekka-d ahat seg ugur n twila n uqeddac ne&amp;#947; amdan yetta&amp;#603;ra&amp;#7693;en ad yakker timagit n uqeddac.&lt;/li>
+  &lt;li>Ma yella teqqne&amp;#7693; yakan ar uqeddac-agi, ahat tucc&amp;#7693;a d umatu kan, tzemre&amp;#7693; ad t&amp;#603;er&amp;#7693;e&amp;#7693; tikelt-nni&amp;#7693;en ticki.&lt;/li>&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">Tuqqna taγelsant ur teddi ara</string>
+    <string name="error_timeout_title">Akud n tuqqna yezri</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Issefk ahat ad tesbedde&amp;#7693; ase&amp;#947;zan-nni&amp;#7693;en akken ad d-ldi&amp;#7693; tansa-agi.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">Ur nessin ara tansa</string>
+    <string name="errorpage_refresh">Σreḍ tikelt-nniḍen</string>
+    <string name="errorpage_title">Ugur deg usali n usebter</string>
+    <string name="external_app_prompt">Tzemred ad tefγeḍ seg %1$s akken ad d-ldiḍ aseγwen di %2$s.</string>
+    <string name="external_app_prompt_no_app">Ulac asnas deg ibenk-ik izemren ad d-yeldi aseγwen-agi. Tebγiḍ ad teffγeḍ si %1$s sakin ad d-nadiḍ %2$s akken ad d-tafeḍ asnas ilaqen.</string>
+    <string name="external_app_prompt_no_app_title">Aff-d asnas izemren ad d-yeldi aseγwen</string>
+    <string name="external_app_prompt_title">Ldi aseγwen deg usnas-nniḍen</string>
+    <string name="external_multiple_apps_matched_exit">Ffeγ si tunigin tusligt?</string>
+    <string name="feedback_erase">Amazray-inek n unadi yettwasfeḍ.</string>
+    <string name="find_in_page">Af deg usebter</string>
+    <string name="find_in_page_input">Nadi deg usebter</string>
+    <string name="find_in_page_result">%1$d/%2$d</string>
+    <string name="firstrun_close_button">IH, Awi-t-id!</string>
+    <string name="firstrun_defaultbrowser_text2">Iminig uslig ad yali deg uswir.Dayen ur tuγaleḍ ad twaliḍ adellel neγ imsfuγal i k-ṭṭafaren u saẓayen tulya n isemal web.</string>
+    <string name="firstrun_defaultbrowser_title">Rmed tabaḍnit inek</string>
+    <string name="firstrun_next_button">Γer zdat</string>
+    <string name="firstrun_privacy_text">Sbadu %1$s d iminig-ik amezwar sakin faṛeṣ tagnit n tunigin tusligt ticki teldiḍ-d isebtar web seg isnasen-nniḍen.</string>
+    <string name="firstrun_privacy_title">Err tabaḍnit d tanumi</string>
+    <string name="firstrun_search_text">Tettnadiḍ ayen-nniḍen? Fren amsadday-nniḍen n unadi amezwer deg iɣewwaṛen.</string>
+    <string name="firstrun_search_title">Anadi-ik, abrid-ik</string>
+    <string name="firstrun_shortcut_text">Uɣal ar yesmal-ik inurifen deg %1$s s zreb. Fren kan \"Rnu ar ugdil agejdan\" seg umuɣ %1$s.</string>
+    <string name="firstrun_shortcut_title">Rnu anegzum ar ugdil-ik agejdan</string>
+    <string name="firstrun_skip_button">Suref</string>
+    <string name="gv_prompt_clear">Sfeḍ</string>
+    <string name="gv_prompt_password_hint">Awal uffir</string>
+    <string name="gv_prompt_username_hint">Isem n useqdac</string>
+    <string name="http_auth_dialog_password">Awal uffir</string>
+    <string name="http_auth_dialog_title">Yesra asesteb</string>
+    <string name="http_auth_dialog_username">Isem n useqdac</string>
+    <string name="menu_about">Γef</string>
+    <string name="menu_add_to_home_screen">Rnu γer ugdil agejdan</string>
+    <string name="menu_custom_tab_branding">Ddaw leɛnaya n %1$s</string>
+    <string name="menu_help">Tallalt</string>
+    <string name="menu_open_with_a_browser2">Ldi deg…</string>
+    <string name="menu_open_with_default_browser2">Ldi di %1$s</string>
+    <string name="menu_report_site_issue">Azen-d ugur-agi</string>
+    <string name="menu_rights">Izerfan-inek</string>
+    <string name="menu_settings">Iγewwaṛen</string>
+    <string name="menu_share">Bḍu…</string>
+    <string name="menu_trackers_blocked_title">Ineḍfaṛen ttwaḥebsen</string>
+    <string name="menu_whats_new">D acu yellan d amaynut</string>
+    <string name="notification_action_erase_and_open">Sfeḍ sakin Ldi</string>
+    <string name="notification_action_open">Ldi</string>
+    <string name="notification_browsing_session_channel_description">Ilɣa ad k-ǧǧen ad tsefḍeḍ tiɣimit n %1$s-ik s unali. Ur tesrid ara ad teldiḍ asnas neɣ ad twaliḍ ayen yettwaselkamen deg iminig-ik.</string>
+    <string name="notification_browsing_session_channel_name">Tiɣimit n tunigin tusligt</string>
+    <string name="notification_erase_text">Sfeḍ amazray n tunigin</string>
+    <string name="preference_about">Γef %1$s</string>
+    <string name="preference_autocomplete_action_add">+ Rnu URL aganan</string>
+    <string name="preference_autocomplete_action_remove_content_description">Kkes</string>
+    <string name="preference_autocomplete_add_confirmation">URL aganan amaynut ittwarna.</string>
+    <string name="preference_autocomplete_add_error">Senned snat γef URL i tesriḍ.</string>
+    <string name="preference_autocomplete_add_example">Amedya: example.com</string>
+    <string name="preference_autocomplete_add_example2">Amedya: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">Senṭeḍ neγ sekcem URL</string>
+    <string name="preference_autocomplete_add_title">URL ad ternuḍ</string>
+    <string name="preference_autocomplete_custom_summary">Rnu u sefrek taččart tawurmant n URLs.</string>
+    <string name="preference_autocomplete_duplicate_url_error">URL Yella yakan</string>
+    <string name="preference_autocomplete_learn_more">Issin ugar</string>
+    <string name="preference_autocomplete_menu_remove">Kkes</string>
+    <string name="preference_autocomplete_preinstalled_summary">%1$s ur yizmir ara ad yesεu taččart tawurmant i ugar n 450 n URLs deg ufeggag n tansiwin.</string>
+    <string name="preference_autocomplete_subitem_customlist">URLs iganen</string>
+    <string name="preference_autocomplete_title_add">Rnu URL aganan</string>
+    <string name="preference_autocomplete_title_remove">Kkes URLs iganen</string>
+    <string name="preference_category_autocomplete_custom_urls">URLs iganen</string>
+    <string name="preference_category_autocomplete_preinstalled">Tabdart URL tamezwart</string>
+    <string name="preference_category_cookies">Inagan n tuqqna d yisefka n yismal</string>
+    <string name="preference_category_data_choices">Alqaḍ n yisefka</string>
+    <string name="preference_category_data_collection_use">Alqaḍ &amp; Aseqdec n yisefka</string>
+    <string name="preference_category_general">Amatu</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Tamellit</string>
+    <string name="preference_category_privacy">Tabaḍnit</string>
+    <string name="preference_category_search">Nadi</string>
+    <string name="preference_category_switching_apps">Tunigin gar yisnasen</string>
+    <string name="preference_category_tracking_protection">Ammesten mgal adfaṛ</string>
+    <string name="preference_category_web_content">Agbur Web</string>
+    <string name="preference_default_browser2">Err %1$s d iminig amezwer</string>
+    <string name="preference_language">Tutlayt</string>
+    <string name="preference_language_systemdefault">Amezwer n unagraw</string>
+    <string name="preference_mozilla_summary">Ɣef %1$s, tallelt</string>
+    <string name="preference_mozilla_telemetry2">Azen isefka n useqdec</string>
+    <string name="preference_mozilla_telemetry_summary">Issin ugar</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla tettennaɣ akken ad telqeḍ kan ayen tesra i usnulfu d usnernu n %1$s i yal uiwen.</string>
+    <string name="preference_performance_block_javascript">Sewḥel JavaScript</string>
+    <string name="preference_performance_block_javascript_summary">Izmer ad d-yali usebter s wudem arurad, maca izmer daγen ad yili wugur</string>
+    <string name="preference_performance_block_webfonts">Sewḥel tisefsiyin Web</string>
+    <string name="preference_performance_block_webfonts_summary">Ahat yekka-d seg tigitin neγ tugniwin yettwattun</string>
+    <string name="preference_performance_request_desktop_site">Suter asmel n tnarit</string>
+    <string name="preference_privacy_and_security_header">"Tabaḍnit  &amp; Taɣellist"</string>
+    <string name="preference_privacy_and_security_summary">Aḍfaṛ, inagan n tuqqna, isefka yettwaleqḍen</string>
+    <string name="preference_privacy_block_ads">Sewḥel ineḍfaṛen</string>
+    <string name="preference_privacy_block_ads_summary">Kra n udellel iṭṭafaṛ tirza inek γer izmal web, Γas ur tsit ara γef udellel</string>
+    <string name="preference_privacy_block_analytics">Sewḥel ineḍfaṛen usliḍen</string>
+    <string name="preference_privacy_block_analytics_summary">Ittwaseqdec i welqqaḍ , Aslaḍ d uktili n wamud am usekcem n isekillen akked usenned</string>
+    <string name="preference_privacy_block_content">Sewḥel ineḍfaṛen-nniḍen n ugbur</string>
+    <string name="preference_privacy_block_content_summary2">Armad n uγwwaṛèagi izmer ad yeglu s kra n wuguren di kra n isebtar</string>
+    <string name="preference_privacy_block_social">Sewḥel ineḍfaṛen n tmetti</string>
+    <string name="preference_privacy_block_social_summary">Ittwarna deg kra n ismal akken ad isfuγel tirziwin inek , akken daγen ad d-yesken timahaltin am tqefalt n beṭṭu</string>
+    <string name="preference_privacy_category_cookies">Sewḥel inagan n tuqna</string>
+    <string name="preference_privacy_notice">Tasertit n tbaḍnit</string>
+    <string name="preference_privacy_secure_mode">Tusligt</string>
+    <string name="preference_privacy_should_block_cookies_no_option">Ala</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Sewḥel kan inagan n tuqqna n ufecku wis 3</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Ih</string>
+    <string name="preference_privacy_stealth_summary">Ffer isebtar web ticki tettbeddileḍ gar isnasen</string>
+    <string name="preference_search_add2">+ Rnu amsedday nniḍen n unadi</string>
+    <string name="preference_search_engine_default">Amezwer</string>
+    <string name="preference_search_installed_search_engines">Imseddayen n unadi ibedden</string>
+    <string name="preference_search_remove">Kkes</string>
+    <string name="preference_search_remove_title">Kkes imseddayen n unadi</string>
+    <string name="preference_search_restore">Err-d imseddayen n unadi imezwar</string>
+    <string name="preference_search_summary">Amsedday amezwer, tira tawurmant</string>
+    <string name="preference_state_off">Yensa</string>
+    <string name="preference_state_on">Yermed</string>
+    <string name="preference_subitem_autocomplete">Taččart tawurmant URL</string>
+    <string name="preference_switch_autocomplete">Taččart tawurmant</string>
+    <string name="search_add_confirmation">Amesday n unadi amaynut ittwarna.</string>
+    <string name="search_add_error_duplicate_name">Amsedday n unadi s yisem-a ittwasebded yakan.</string>
+    <string name="search_add_error_empty_name">Sekcem isem n umsedday n unadi</string>
+    <string name="search_add_error_empty_search">Sekcem aḍris n unadi</string>
+    <string name="search_add_error_format">Senqed akken aḍris n unadi yemsaḍa akked tawsit n umedya</string>
+    <string name="search_add_manually_example">Amedya: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">Isem n umsedday n unadi</string>
+    <string name="search_add_manually_save">Sekles</string>
+    <string name="search_add_manually_string">Nadi aḍris ad tesqedceḍ</string>
+    <string name="search_hint">Nadi %1$s</string>
+    <string name="security_popup_insecure_connection">Tuqqna taraɣelsant</string>
+    <string name="security_popup_secure_connection">Tuqqna taɣelsant</string>
+    <string name="security_popup_security_verified">Isenqed-it: %1$s</string>
+    <string name="share_dialog_title">Bdu s</string>
+    <string name="shortcut_erase_long_label">Sfeḍ amazray n tunigin</string>
+    <string name="shortcut_erase_short_label">Sfeḍ</string>
+    <string name="site_security_icon_content_description">Taɣellist n usmel web</string>
+    <string name="tabs_tray_action_erase">Sfeḍ amazray n tunigin</string>
+    <string name="teaser">"Tunigin tusligt tawurmant.
+Snirem. Kkes. Sniles."</string>
+    <string name="text_selection_search_action">Anadi uslig</string>
+    <string name="urlbar_hint">Nadi neγ sekcem tansa</string>
+    <string name="your_rights">Izerfan-ik</string>
+    <string name="your_rights_content1">"%1$s baṭṭel s waɣbalu yeldin ixeddem-it Mozilla d imettekiyen nniḍen. "</string>
+    <string name="your_rights_content2">%1$s yella ddaw tiwtilin n&lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Turagt tazayezt n Mozilla&lt;/a>akked turagt yeldin nniḍen.</string>
+    <string name="your_rights_content3">"UR k-netmudu ara ula d azref neγ  turagt ɣef ticṛaḍ yersen n Mozilla neɣ n wis kraḍ, am Mozilla neγ Firefox neγ ismawen %1$s akked iluguten. ugar n talγut ad t-tafeḍ di &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>dagi&lt;/a>."</string>
+    <string name="your_rights_content4">"Tangalt taγbalut nniḍen i %1$s tella deg waṭas n tiγbula tilleliyen nniḍen  &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>akked turagt nni&amp;#7693;en&lt;/a>."</string>
+    <string name="your_rights_content5">%1$s iseqdac daγen tiggayen d tebdarin sγur Disconnect, Inc am leqdic illeli daw turagt tazirazt &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>GNU v3&lt;/a>, aya &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>yella dagi&lt;/a>.</string>
+</resources>

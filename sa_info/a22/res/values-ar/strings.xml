@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">التنقل إلى الشاشة الرئيسية</string>
+    <string name="abc_action_bar_home_description_format">%1$s، %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s، %2$s، %3$s</string>
+    <string name="abc_action_bar_up_description">التنقل إلى أعلى</string>
+    <string name="abc_action_menu_overflow_description">خيارات إضافية</string>
+    <string name="abc_action_mode_done">تم</string>
+    <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
+    <string name="abc_activitychooserview_choose_application">اختيار تطبيق</string>
+    <string name="abc_capital_off">إيقاف</string>
+    <string name="abc_capital_on">تشغيل</string>
+    <string name="abc_search_hint">بحث…</string>
+    <string name="abc_searchview_description_clear">محو طلب البحث</string>
+    <string name="abc_searchview_description_query">طلب البحث</string>
+    <string name="abc_searchview_description_search">بحث</string>
+    <string name="abc_searchview_description_submit">إرسال طلب البحث</string>
+    <string name="abc_searchview_description_voice">البحث الصوتي</string>
+    <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
+    <string name="abc_shareactionprovider_share_with_application">‏مشاركة مع %s</string>
+    <string name="abc_toolbar_collapse_description">تصغير</string>
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+    <string name="mdtp_day_picker_description">شبكة الشهر مكونة من الأيام</string>
+    <string name="mdtp_deleted_key">تم حذف %1$s</string>
+    <string name="mdtp_done_label">تم</string>
+    <string name="mdtp_hour_picker_description">شريط التمرير الدائري للساعات</string>
+    <string name="mdtp_item_is_selected">تم تحديد %1$s</string>
+    <string name="mdtp_minute_picker_description">شريط التمرير الدائري للدقائق</string>
+    <string name="mdtp_select_day">تحديد الشهر واليوم</string>
+    <string name="mdtp_select_hours">تحديد الساعات</string>
+    <string name="mdtp_select_minutes">تحديد الدقائق</string>
+    <string name="mdtp_select_year">تحديد العام</string>
+    <string name="mdtp_year_picker_description">قائمة الأعوام</string>
+    <string name="status_bar_notification_info_overflow">+999</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/gridview_cell" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.filemanager.widget.SquareFrameLayout n1:id="@id/preview" n1:padding="@dimen/gallery_browser_folder_margin" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <ru.mail.filemanager.widget.CropCenterAndRotateImageView n1:id="@id/imageView" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+        <ImageView n1:layout_gravity="bottom|center|left" n1:id="@id/icon" n1:background="@drawable/gallery_video_bg" n1:visibility="gone" n1:layout_width="38.0dip" n1:layout_height="38.0dip" n1:scaleType="center" n2:srcCompat="@drawable/ic_media_video" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </ru.mail.filemanager.widget.SquareFrameLayout>
+    <View n1:background="@drawable/mask_media_attaches" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_margin="@dimen/gallery_browser_folder_margin" />
+    <ru.mail.filemanager.widget.CheckableView n1:id="@id/folder_foreground" n1:background="@drawable/gallery_browser_border" n1:duplicateParentState="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:button="@null" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/mapp_settings_filtration" n1:key="push_filtration_screen"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <Preference n1:title="@string/mapp_set_notif_disable_folders" n1:key="push_filtration_folder_screen">
+        <intent n1:targetPackage="@string/package_name" n1:targetClass="ru.mail.fragments.settings.FoldersPushFilterActivity" />/></Preference>
+    <Preference n1:title="@string/mapp_set_notif_disable_soc_networks" n1:key="push_filtration_social_screen">
+        <intent n1:targetPackage="@string/package_name" n1:targetClass="ru.mail.fragments.settings.SocialPushFilterActivity" />/></Preference>
+    <Preference n1:title="@string/mapp_set_notif_disable_coupon_services" n1:key="push_filtration_coupon_screen">
+        <intent n1:targetPackage="@string/package_name" n1:targetClass="ru.mail.fragments.settings.SocialPushFilterActivity" />/></Preference>
+</PreferenceScreen>

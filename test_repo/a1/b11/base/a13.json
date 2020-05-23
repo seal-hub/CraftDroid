@@ -1,0 +1,60 @@
+[
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.stoutner.privacybrowser.standard:id/url_edittext",
+    "text": "https://duckduckgo.com/?kao=-1&kak=-1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.stoutner.privacybrowser.standard",
+    "activity": "com.stoutner.privacybrowser.activities.MainWebViewActivity",
+    "event_type": "gui",
+    "score": 0.5311482586816626,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.stoutner.privacybrowser.standard:id/url_edittext",
+    "text": "https://duckduckgo.com/?kao=-1&kak=-1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.stoutner.privacybrowser.standard",
+    "activity": "com.stoutner.privacybrowser.activities.MainWebViewActivity",
+    "event_type": "gui",
+    "score": 0.5311482586816626,
+    "action": [
+      "send_keys_and_enter",
+      "https://www.ics.uci.edu"
+    ]
+  },
+  {
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Donald Bren School of Information and Computer Sciences",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.stoutner.privacybrowser.standard",
+    "activity": "com.stoutner.privacybrowser.activities.MainWebViewActivity",
+    "event_type": "oracle",
+    "score": 0.6,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//android.view.View[@content-desc=\"Donald Bren School of Information and Computer Sciences\"]"
+    ]
+  }
+]

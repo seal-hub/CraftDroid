@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Evə naviqasiya et</string>
+    <string name="abc_action_bar_up_description">Yuxarı get</string>
+    <string name="abc_action_menu_overflow_description">Digər variantlar</string>
+    <string name="abc_action_mode_done">Hazırdır</string>
+    <string name="abc_activity_chooser_view_see_all">Hamısına baxın</string>
+    <string name="abc_activitychooserview_choose_application">Tətbiq seçin</string>
+    <string name="abc_capital_off">DEAKTİV</string>
+    <string name="abc_capital_on">AKTİV</string>
+    <string name="abc_search_hint">Axtarış...</string>
+    <string name="abc_searchview_description_clear">Sorğunu təmizlə</string>
+    <string name="abc_searchview_description_query">Axtarış sorğusu</string>
+    <string name="abc_searchview_description_search">Axtarış</string>
+    <string name="abc_searchview_description_submit">Sorğunu göndərin</string>
+    <string name="abc_searchview_description_voice">Səsli axtarış</string>
+    <string name="abc_shareactionprovider_share_with">Bununla paylaşın</string>
+    <string name="abc_shareactionprovider_share_with_application">%s ilə paylaşın</string>
+    <string name="abc_toolbar_collapse_description">Yığışdırın</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s sizi idar&amp;#601;nin ba&amp;#351;&amp;#305;na qoyur&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>Bunu m&amp;#601;xfi s&amp;#601;yyah olaraq i&amp;#351;l&amp;#601;din:
+  &lt;ul>
+    &lt;li>Birba&amp;#351;a t&amp;#601;tbiqd&amp;#601; axtar&amp;#305;n v&amp;#601; g&amp;#601;zin&lt;/li>
+    &lt;li>&amp;#304;zl&amp;#601;yicil&amp;#601;ri &amp;#601;ng&amp;#601;ll&amp;#601;yin (v&amp;#601; ya t&amp;#601;nziml&amp;#601;m&amp;#601;d&amp;#601;n icaz&amp;#601; verin)&lt;/li>
+    &lt;li>&amp;#199;&amp;#601;r&amp;#601;zl&amp;#601;ri, axtar&amp;#305;&amp;#351; v&amp;#601; g&amp;#601;zm&amp;#601; tarix&amp;#231;&amp;#601;sini silm&amp;#601;k &amp;#252;&amp;#231;&amp;#252;n pozun&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s q&amp;#252;rurla Mozilla t&amp;#601;r&amp;#601;find&amp;#601;n. Missiyam&amp;#305;z sa&amp;#287;lam v&amp;#601; a&amp;#231;&amp;#305;q interneti t&amp;#601;min etm&amp;#601;kdir.&lt;br/>
+&lt;a href=%2$s>&amp;#399;trafl&amp;#305; &amp;#246;yr&amp;#601;n&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">Yüklənir</string>
+    <string name="accessibility_announcement_loading_finished">Sayt yükləndi</string>
+    <string name="accessibility_dismiss_find_in_page">Səhifədə axtarışı qapat</string>
+    <string name="accessibility_find_in_page_result">%2$d nəticədən %1$d dənəsi</string>
+    <string name="accessibility_next_result">Sonrakı nəticəni tap</string>
+    <string name="accessibility_previous_result">Əvvəlki nəticəni tap</string>
+    <string name="action_cancel">Ləğv et</string>
+    <string name="action_ok">Tamam</string>
+    <string name="action_option_add_search_engine">Axtarış mühərriyini əlavə et</string>
+    <string name="action_save">Saxla</string>
+    <string name="common_google_play_services_enable_button">Aktiv edin</string>
+    <string name="common_google_play_services_enable_text">%1$s Google Play xidmətlərini aktiv edənə kimi işləməyəcək.</string>
+    <string name="common_google_play_services_enable_title">Google Play xidmətlərini aktiv edin</string>
+    <string name="common_google_play_services_install_button">Quraşdırın</string>
+    <string name="common_google_play_services_install_text">%1$s cihazınızda mövcud olmayan Google Play xidmətləri olmadan çalışmayacaq.</string>
+    <string name="common_google_play_services_install_title">Google Play xidmətlərini əldə edin</string>
+    <string name="common_google_play_services_notification_ticker">Google Play xidmətləri xətası</string>
+    <string name="common_google_play_services_unknown_issue">%1$s tətbiqi ilə Google Play xidmətləri arasında problem var. Daha sonra yenidən cəhd edin.</string>
+    <string name="common_google_play_services_unsupported_text">Cihazınız tərəfindən dəstəklənməyən Google Play xidmətləri olmadan %1$s tətbiqi işləməyəcək.</string>
+    <string name="common_google_play_services_update_button">Güncəlləyin</string>
+    <string name="common_google_play_services_update_text">%1$s Google Play xidmətləri yeniləmə halda çalışmaz.</string>
+    <string name="common_google_play_services_update_title">Google Play xidmətlərini güncəlləşdirin</string>
+    <string name="common_google_play_services_updating_text">%1$s hal-hazırda güncəllənən Google Play xidmətləri olmadan çalışmayacaq.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play xidmətlərinin yeni versiyası lazımdır. Qısa müddətə özünü yeniləyəcək.</string>
+    <string name="common_open_on_phone">Telefonda açın</string>
+    <string name="common_signin_button_text">Daxil olun</string>
+    <string name="common_signin_button_text_long">Google ilə daxil olun</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Geri get</string>
+    <string name="content_description_blocking_switch">İzləyiciləri əngəllə</string>
+    <string name="content_description_clear_input">Girişi təmizlə</string>
+    <string name="content_description_customtab_exit">Əvvəlki tətbiqə qayıt</string>
+    <string name="content_description_dismiss_input">Ləğv et</string>
+    <string name="content_description_erase">Səyahət tarixçəsini təmizlə</string>
+    <string name="content_description_forward">İrəli keç</string>
+    <string name="content_description_lock">Təhlükəsiz əlaqə</string>
+    <string name="content_description_menu">Digər seçimlər</string>
+    <string name="content_description_reload">Saytı yenilə</string>
+    <string name="content_description_stop">Səhifəni yükləməyi dayandır</string>
+    <string name="content_description_tab_counter">Açıq vərəqlər: %1$s</string>
+    <string name="contextmenu_image_copy">Şəkil ünvanını köçür</string>
+    <string name="contextmenu_image_save">Şəkli saxla</string>
+    <string name="contextmenu_image_share">Şəkli paylaş</string>
+    <string name="contextmenu_image_warning">Saxlanılan və paylaşılan şəkillər %1$s tarixini pozduqda &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>silinm&amp;#601;y&amp;#601;c&amp;#601;kl&amp;#601;r&lt;/b>.</string>
+    <string name="contextmenu_link_copy">Keçid ünvanını köçür</string>
+    <string name="contextmenu_link_share">Keçidi paylaş</string>
+    <string name="contextmenu_open_in_new_tab">Keçidi yeni vərəqdə aç</string>
+    <string name="custom_autocomplete_quick_add">Fərdi ünvan əlavə et</string>
+    <string name="custom_tab_copy_url_action">URL köçürüldü</string>
+    <string name="dialog_addtohomescreen_action_add">Əlavə et</string>
+    <string name="dialog_addtohomescreen_action_cancel">Ləğv et</string>
+    <string name="dialog_addtohomescreen_tracking_protection">Qısayol İzlənmə Qoruması sönülü olaraq açılacaq</string>
+    <string name="download_dialog_action_cancel">Ləğv et</string>
+    <string name="download_dialog_action_download">Endir</string>
+    <string name="download_dialog_title">Fay Endir</string>
+    <string name="download_dialog_warning">Endirilən fayllar %1$s tarixçəsini pozduqda belə &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>silinm&amp;#601;y&amp;#601;c&amp;#601;kl&amp;#601;r&lt;/b>.</string>
+    <string name="download_firefox">Firefox Endir</string>
+    <string name="download_snackbar_finished">%1$s endirildi</string>
+    <string name="download_snackbar_open">Aç</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>Sayt m&amp;#252;v&amp;#601;qq&amp;#601;ti olaraq &amp;#601;l&amp;#231;atmaz v&amp;#601; ya &amp;#231;ox m&amp;#601;&amp;#351;&amp;#287;ul ola bil&amp;#601;r. Biraz sonra t&amp;#601;krar yoxlay&amp;#305;n.&lt;/li>
+        &lt;li>&amp;#399;g&amp;#601;r he&amp;#231; bir s&amp;#601;hif&amp;#601;ni y&amp;#252;kl&amp;#601;y&amp;#601; bilmirsizs&amp;#601;, mobil cihaz&amp;#305;n&amp;#305;z&amp;#305;n internet datas&amp;#305;n&amp;#305; v&amp;#601; ya Wi-Fi ba&amp;#287;lant&amp;#305;s&amp;#305;n&amp;#305; yoxlay&amp;#305;n.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">Qoşulmaq mümkün olmadı</string>
+    <string name="error_generic_message">Bəzi səbəblərdən bu səhifəni yükləyə bilmirik.</string>
+    <string name="error_generic_title">Uups</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&amp;#220;nvan&amp;#305; &lt;strong>www&lt;/strong>.example.com
+          yerin&amp;#601; &lt;strong>ww&lt;/strong>.example.com kimi
+          yazma x&amp;#601;talar&amp;#305; &amp;#252;&amp;#231;&amp;#252;n t&amp;#601;krar yaxlay&amp;#305;n&lt;/li>
+        &lt;li>&amp;#399;g&amp;#601;r he&amp;#231; bir sayt&amp;#305; y&amp;#252;kl&amp;#601;y&amp;#601; bilmirsizs&amp;#601;, cihaz&amp;#305;n&amp;#305;z&amp;#305;n data v&amp;#601; ya Wi-Fi ba&amp;#287;lant&amp;#305;s&amp;#305;n&amp;#305; yoxlay&amp;#305;n.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">Server tapılmadı</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Sayt &amp;#252;nvanlar&amp;#305; &amp;#601;sas&amp;#601;n &lt;strong>http://www.example.com/&lt;/strong> kimi yaz&amp;#305;l&amp;#305;rlar.&lt;/li>
+  &lt;li>&amp;#399;yri k&amp;#601;sm&amp;#601; i&amp;#351;ar&amp;#601;sind&amp;#601;n (yani &lt;strong>/&lt;/strong>) istifad&amp;#601; etdiyinizd&amp;#601;n &amp;#601;min olun.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">Ünvan səhvdir</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Bu problem &amp;#231;ox vaxt &amp;#231;&amp;#601;r&amp;#601;zl&amp;#601;ri qapatmaqdan v&amp;#601; ya q&amp;#601;bul etm&amp;#601;yi l&amp;#601;&amp;#287;v etm&amp;#601;kd&amp;#601;n olur.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">Səhifə düzgün yönləndirilmir</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Bu serverin konfiqurasiyas&amp;#305; il&amp;#601; v&amp;#601; ya biril&amp;#601;rinin server&amp;#601; h&amp;#252;c&amp;#252;m etm&amp;#601;si il&amp;#601; ba&amp;#287;l&amp;#305; ola bil&amp;#601;r.&lt;/li>
+  &lt;li>&amp;#399;g&amp;#601;r daha sonra bu server&amp;#601; u&amp;#287;urlu ba&amp;#287;lana bilmi&amp;#351;dinizs&amp;#601;, bu x&amp;#601;ta m&amp;#252;v&amp;#601;qq&amp;#601;ti ola bil&amp;#601;r v&amp;#601; daha sonra t&amp;#601;krar yoxlaya bil&amp;#601;rsiz.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">Təhlükəsiz bağlantı qurulmadı</string>
+    <string name="error_timeout_title">Qoşulma müddəti bitdi</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>Bu &amp;#252;nvan&amp;#305; a&amp;#231;maq &amp;#252;&amp;#231;&amp;#252;n ba&amp;#351;qa bir t&amp;#601;tbiq qurman&amp;#305;za ehtiyyac ola bil&amp;#601;r.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">Ünvan başa düşülmədi</string>
+    <string name="errorpage_refresh">Təkrar Yoxla</string>
+    <string name="errorpage_title">Səhifəni yükləmək mümkün olmadı</string>
+    <string name="external_app_prompt">%1$s səyyahını tərk edərək keçidi %2$s üzərində aça bilərsiz.</string>
+    <string name="external_app_prompt_no_app">Cihazınızdakı heç bir tətbiq bu keçidi aça bilmir. %1$s səyyahını tərk edərək %2$s ilə bunu bacaran tətbiq axtara bilərsiz.</string>
+    <string name="external_app_prompt_no_app_title">Keçid aça bilən tətbiq tap</string>
+    <string name="external_app_prompt_title">Keçidi başqa tətbiqdə aç</string>
+    <string name="external_multiple_apps_matched_exit">Məxfi Səyahətdən çıxırsın?</string>
+    <string name="feedback_erase">Səyahət tarixçəniz silindi.</string>
+    <string name="find_in_page">Səhifədə Tap</string>
+    <string name="find_in_page_input">Səhifədə tap</string>
+    <string name="find_in_page_result">%1$d/%2$d</string>
+    <string name="firstrun_close_button">Tamam, başa düşdüm!</string>
+    <string name="firstrun_defaultbrowser_text2">Məxfi səyahəti fərqli səviyyəyə götürün. Saytlar üzərindən sizə izləyə biləcək reklam və digər məzmunları bloklayın və yüklənmə sürətini artırın.</string>
+    <string name="firstrun_defaultbrowser_title">Məxfiliyinizi gücləndirin</string>
+    <string name="firstrun_next_button">Sonrakı</string>
+    <string name="firstrun_privacy_text">Əsas səyyahınız olaraq %1$s seçin və digər tətbiqlərdən keçid açarkən məxfi səyahətin üstünlüklərindən faydalanın.</string>
+    <string name="firstrun_privacy_title">Məxfiliyi vərdiş halına gətirin</string>
+    <string name="firstrun_search_text">Fərqli şeylər axtarırsız? Tənzimləmələrdən fərqli axtarış mühərriyi seçin.</string>
+    <string name="firstrun_search_title">Sizin axtarış, sizin qaydalar</string>
+    <string name="firstrun_shortcut_text">%1$s üzərindəki sevimli saytlarınıza cəld girin. %1$s menyusundan \"Ana ekrana əlavə et\" seçməyiniz kifayətdir.</string>
+    <string name="firstrun_shortcut_title">Ana ekranınıza keçidlər əlavə edin</string>
+    <string name="firstrun_skip_button">Keç</string>
+    <string name="gv_prompt_clear">Təmizlə</string>
+    <string name="gv_prompt_password_hint">Parol</string>
+    <string name="gv_prompt_username_hint">İstifadəçi adı</string>
+    <string name="http_auth_dialog_password">Parol</string>
+    <string name="http_auth_dialog_title">Təsdiqləmə tələb edilir</string>
+    <string name="http_auth_dialog_username">İstifadəçi adı</string>
+    <string name="menu_about">Haqqında</string>
+    <string name="menu_add_to_home_screen">Ana ekrana əlavə et</string>
+    <string name="menu_custom_tab_branding">%1$s Tərəfindən</string>
+    <string name="menu_help">Kömək</string>
+    <string name="menu_open_with_a_browser2">Bununla aç…</string>
+    <string name="menu_open_with_default_browser2">%1$s ilə aç</string>
+    <string name="menu_report_site_issue">Sayt Problemini Bildir</string>
+    <string name="menu_rights">Hüquqlarınız</string>
+    <string name="menu_settings">Tənzimləmələr</string>
+    <string name="menu_share">Paylaş…</string>
+    <string name="menu_trackers_blocked_title">İzləyicilər bloklandı</string>
+    <string name="menu_whats_new">Yeniliklər</string>
+    <string name="notification_action_erase_and_open">Poz və Aç</string>
+    <string name="notification_action_open">Aç</string>
+    <string name="notification_browsing_session_channel_description">Bildirişlər tək toxunuşla %1$s sessiyanınızı pozmağa imkan verəcək. Tətbiqi açmağa və ya səyyahınızda nəyin işlədiyinə baxmağa ehtiyyacınız yoxdur.</string>
+    <string name="notification_browsing_session_channel_name">Məxfi səyahət sessiyası</string>
+    <string name="notification_erase_text">Səyahət keçmişini poz</string>
+    <string name="preference_about">%1$s Haqqında</string>
+    <string name="preference_autocomplete_action_add">+ Fərdi ünvan əlavə et</string>
+    <string name="preference_autocomplete_action_remove_content_description">Sil</string>
+    <string name="preference_autocomplete_add_confirmation">Yeni fərdi ünvan əlavə edildi.</string>
+    <string name="preference_autocomplete_add_error">Daxil etdiyiniz ünvanı bir də yoxlayın.</string>
+    <string name="preference_autocomplete_add_example">Məsələn: example.com</string>
+    <string name="preference_autocomplete_add_example2">Məsələn: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">Ünvanı yapışdırın və ya daxil edin</string>
+    <string name="preference_autocomplete_add_title">Əlavə ediləcək ünvan</string>
+    <string name="preference_autocomplete_custom_summary">Avtomatik tamamlanacaq fərdi ünvanları idarə edin.</string>
+    <string name="preference_autocomplete_duplicate_url_error">URL artıq mövcuddur</string>
+    <string name="preference_autocomplete_learn_more">Ətraflı öyrən</string>
+    <string name="preference_autocomplete_menu_remove">Sil</string>
+    <string name="preference_autocomplete_preinstalled_summary">%1$s səyyahının 450 məşhur ünvanı avtomatik tamamlamasını aktivləşdirin.</string>
+    <string name="preference_autocomplete_subitem_customlist">Fərdi Ünvanlar</string>
+    <string name="preference_autocomplete_title_add">Fərdi ünvan əlavə et</string>
+    <string name="preference_autocomplete_title_remove">Fərdi ünvanı sil</string>
+    <string name="preference_category_autocomplete_custom_urls">Fərdi Ünvanlar</string>
+    <string name="preference_category_autocomplete_preinstalled">Ön seçili ünvan siyahısı</string>
+    <string name="preference_category_cookies">Çərəzlər və Sayt Məlumatları</string>
+    <string name="preference_category_data_choices">Məlumat Seçimləri</string>
+    <string name="preference_category_data_collection_use">Məlumat yığılması və istifadəsi</string>
+    <string name="preference_category_general">Ümumi</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Məhsuldarlıq</string>
+    <string name="preference_category_privacy">Məxfilik</string>
+    <string name="preference_category_search">Axtar</string>
+    <string name="preference_category_switching_apps">Tətbiq Keçidi</string>
+    <string name="preference_category_tracking_protection">İzlənmə Qoruması</string>
+    <string name="preference_category_web_content">Web Məzmun</string>
+    <string name="preference_default_browser2">%1$s səyyahını əsas et</string>
+    <string name="preference_language">Dil</string>
+    <string name="preference_language_systemdefault">Sistemin dili</string>
+    <string name="preference_mozilla_summary">%1$s haqqında, kömək</string>
+    <string name="preference_mozilla_telemetry2">İstifadə məlumatlarını göndər</string>
+    <string name="preference_mozilla_telemetry_summary">Ətraflı öyrən</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla ancaq %1$s səyyahını hamı üçün yaxşılaşdırmağa lazım olan məlumatları yığır.</string>
+    <string name="preference_performance_block_javascript">JavaScript-i əngəllə</string>
+    <string name="preference_performance_block_javascript_summary">Səhifələr daha sürətli yüklənə bilər, ancaq səhv işləyə bilərlər</string>
+    <string name="preference_performance_block_webfonts">Web şriftlərini əngəllə</string>
+    <string name="preference_performance_block_webfonts_summary">Əksik icon və şəkillərə səbəb ola bilər</string>
+    <string name="preference_performance_request_desktop_site">Masaüstü saytını istə</string>
+    <string name="preference_privacy_and_security_header">Məxfilik və Təhlükəsizlik</string>
+    <string name="preference_privacy_and_security_summary">İzlənmə, çərəzlər, məlumat seçimləri</string>
+    <string name="preference_privacy_block_ads">Reklam izləyicilərini əngəllə</string>
+    <string name="preference_privacy_block_ads_summary">Bəzi reklamlar onlara klikləməsəniz belə sayt ziyarətlərinizi izləyirlər</string>
+    <string name="preference_privacy_block_analytics">Analiz izləyicilərini əngəllə</string>
+    <string name="preference_privacy_block_analytics_summary">Toxunma və sürüşdürmə kimi aktivlikləri yığıb, ölçüb, analiz etmək üçün işlədilir</string>
+    <string name="preference_privacy_block_content">Digər məzmun izləyicilərini əngəllə</string>
+    <string name="preference_privacy_block_content_summary2">Aktivləşdirmə bəzi səhifələrdə gözlənilməz səhvlərə səbəb ola bilər</string>
+    <string name="preference_privacy_block_social">Sosial izləyiciləri əngəllə</string>
+    <string name="preference_privacy_block_social_summary">Ziyarətinizi izləmək və paylaşma düymələri kimi funksionallıqları göstərmək üçün saytlara yerləşdirilir</string>
+    <string name="preference_privacy_category_cookies">Çərəzləri əngəllə</string>
+    <string name="preference_privacy_notice">Məxfilik Bildirişi</string>
+    <string name="preference_privacy_secure_mode">Görünməzlik</string>
+    <string name="preference_privacy_should_block_cookies_no_option">Xeyr</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Ancaq 3cü tərəf çərəzləri əngəllə</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Bəli</string>
+    <string name="preference_privacy_stealth_summary">Tətbiqlər arası keçərkən saytları gizlət</string>
+    <string name="preference_search_add2">+ Digər axtarış mühərriyini əlavə et</string>
+    <string name="preference_search_engine_default">İlkin hal</string>
+    <string name="preference_search_installed_search_engines">Quraşdırılmış axtarış mühərrikləri</string>
+    <string name="preference_search_remove">Sil</string>
+    <string name="preference_search_remove_title">Axtarış mühərriklərini sil</string>
+    <string name="preference_search_restore">İlkin axtarış nizamlarını bərpa et</string>
+    <string name="preference_search_summary">Əsas olaraq qur, avto tamamlama</string>
+    <string name="preference_state_off">Bağlı</string>
+    <string name="preference_state_on">Açıq</string>
+    <string name="preference_subitem_autocomplete">Ünvan Avtomatik Tamamlama</string>
+    <string name="preference_switch_autocomplete">Avtomatik Tamamlama</string>
+    <string name="search_add_confirmation">Yeni axtarış mühərriyi əlavə edildi.</string>
+    <string name="search_add_error_duplicate_name">Qurulu axtarış mühərriyi artıq bu adı işlədir.</string>
+    <string name="search_add_error_empty_name">Axtarış mühərriyinin adını daxil edin</string>
+    <string name="search_add_error_empty_search">Axtarış mətnini daxil edin</string>
+    <string name="search_add_error_format">Axtarış mətninin nümunədəki formata uyğun olduğunu yoxlayın</string>
+    <string name="search_add_manually_example">Məsələn: mozillaz.org/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">Axtarış mühərriyinin adı</string>
+    <string name="search_add_manually_save">Saxla</string>
+    <string name="search_add_manually_string">İstifadə ediləcək axtarış sətri</string>
+    <string name="search_hint">%1$s üçün axtar</string>
+    <string name="search_menu_title">Axtarış</string>
+    <string name="security_popup_insecure_connection">Təhlükəli Əlaqə</string>
+    <string name="security_popup_secure_connection">Təhlükəsiz Əlaqə</string>
+    <string name="security_popup_security_verified">Doğrulayan: %1$s</string>
+    <string name="share_dialog_title">Bununla paylaş:</string>
+    <string name="shortcut_erase_long_label">Səyahət keçmişini poz</string>
+    <string name="shortcut_erase_short_label">Poz</string>
+    <string name="site_security_icon_content_description">Sayt Təhlükəsizliyi</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tabs_tray_action_erase">Səyahət keçmişini poz</string>
+    <string name="teaser">"Avtomatik məxfi səyahət.
+Gəz. Poz. Təkrarla."</string>
+    <string name="text_selection_search_action">Məxfi Axtar</string>
+    <string name="urlbar_hint">Ünvanı daxil et və ya axtar</string>
+    <string name="your_rights">Hüquqlarınız</string>
+    <string name="your_rights_content1">%1$s Mozilla və digər töhfəverənlər tərəfindən yaradılmış azad və açıq qaynaqlı proqramdır.</string>
+    <string name="your_rights_content2">%1$s &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Mozilla Public License&lt;/a> və digər açıq qaynaq lisenziyalarının şərtləri ilə təqdim edilir.</string>
+    <string name="your_rights_content3">Sizə Mozilla Fondunun və digər tərəflərin ticari markası olan Mozilla, Firefox və ya %1$s adları və loqoları üçün heç bir hüquq və ya lisenziya verilmir. Ətraflı məlumatı &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>buradan&lt;/a> tapa bilərsiz.</string>
+    <string name="your_rights_content4">%1$s üçün əlavə qaynaq kodu digər bir neçə azad və açıq qaynaq &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>lisenziyalar&amp;#305;&lt;/a> ilə mövcuddur.</string>
+    <string name="your_rights_content5">%1$s həmçinin Disconnect Inc. tərəfindən təchiz edilən qara siyahını işlədir, hansı ki, &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>GNU General Public License v3&lt;/a> ilə müstəqil tərtib edilir və &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>burada&lt;/a> mövcuddur.</string>
+</resources>

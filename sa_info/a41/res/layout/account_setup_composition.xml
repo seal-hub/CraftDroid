@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideInset" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_settings_name_label" />
+        <EditText android:id="@id/account_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPersonName" android:contentDescription="@string/account_settings_name_label" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_settings_email_label" />
+        <EditText android:id="@id/account_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textEmailAddress" android:contentDescription="@string/account_settings_email_label" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_settings_always_bcc_label" />
+        <EditText android:id="@id/account_always_bcc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textEmailAddress" android:contentDescription="@string/account_settings_always_bcc_label" />
+        <CheckBox android:id="@id/account_signature_use" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_settings_signature_use_label" />
+        <LinearLayout android:orientation="vertical" android:id="@id/account_signature_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_settings_signature_label" />
+            <EditText android:id="@id/account_signature" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:contentDescription="@string/account_settings_signature_label" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_settings_signature__location_label" />
+            <RadioGroup android:orientation="vertical" android:id="@id/account_signature_location" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/account_signature_location_before_quoted_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_settings_signature__location_before_quoted_text" android:contentDescription="@string/account_settings_signature__location_label" />
+                <RadioButton android:id="@id/account_signature_location_after_quoted_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_settings_signature__location_after_quoted_text" android:contentDescription="@string/account_settings_signature__location_label" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

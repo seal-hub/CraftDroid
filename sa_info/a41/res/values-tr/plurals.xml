@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Adresler panoya kopyalandı</item>
+        <item quantity="one">Adresler panoya kopyalandı</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">%1$d mesajını silmek istiyor musunuz?</item>
+        <item quantity="one">Bu mesajı silmek istiyor musunuz?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">%1$d mesajı Spam klasörüne gerçekten taşımak istiyor musunuz?</item>
+        <item quantity="one">Bu mesajı gerçekten Spam klasörüne taşımak istiyor musunuz?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d yeni mesaj</item>
+        <item quantity="one">%d yeni mesaj</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s hesap</item>
+        <item quantity="one">1 hesap</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">sunucu şifreleri</item>
+        <item quantity="one">sunucu şifresini</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Şifreler ayarlanıyor…</item>
+        <item quantity="one">Şifreyi ayarlıyor…</item>
+    </plurals>
+</resources>

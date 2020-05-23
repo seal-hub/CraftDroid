@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n1:state_pressed="false" n1:drawable="@drawable/red_border_gray_bg" n2:state_date_disabled="true" n2:state_date_today="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:state_pressed="false" n3:drawable="@drawable/red_border" n4:state_date_today="true"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:state_pressed="false" n5:drawable="@color/caldroid_white" n6:state_date_prev_next_month="true"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:drawable="@drawable/disable_cell" n8:state_date_disabled="true"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <item n9:state_pressed="false" n9:drawable="@color/caldroid_holo_blue_light" n10:state_date_selected="true"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <item n11:state_pressed="true" n11:drawable="@color/caldroid_holo_blue_light"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+    <item n12:state_pressed="false" n12:drawable="@color/caldroid_white"
+      xmlns:n12="http://schemas.android.com/apk/res/android" />
+</selector>

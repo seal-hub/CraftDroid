@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set n1:shareInterpolator="false" n1:zAdjustment="top"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <alpha n1:interpolator="@anim/linear" n1:duration="150" n1:fillBefore="false" n1:fillAfter="true" n1:startOffset="100" n1:fromAlpha="1.0" n1:toAlpha="0.0" n1:fillEnabled="true" />
+    <translate n1:interpolator="@anim/accelerate_quart" n1:duration="250" n1:fillBefore="true" n1:fillAfter="true" n1:fromYDelta="0.0%" n1:toYDelta="8.000004%" n1:fillEnabled="true" />
+</set>

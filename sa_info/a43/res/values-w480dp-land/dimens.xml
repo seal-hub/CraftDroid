@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="slide_close_multiple_slide_offset">80.0dip</dimen>
+    <dimen name="slide_close_slide_offset">200.0dip</dimen>
+    <dimen name="slide_right_overscroll">30.0dip</dimen>
+</resources>

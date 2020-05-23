@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/parentPanel" n1:paddingBottom="1.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/topPanel" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="54.0dip">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/title_template" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dip" n1:layout_marginRight="16.0dip" n1:layout_marginBottom="3.0dip" n1:minHeight="64.0dip" n1:layout_marginStart="16.0dip" n1:layout_marginEnd="16.0dip">
+            <ImageView n1:layout_gravity="center_vertical" n1:id="@id/icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@android:drawable/ic_dialog_info" />
+            <com.android.internal.widget.DialogTitle n1:ellipsize="end" n1:id="@id/alertTitle" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:singleLine="true" style="?android:windowTitleStyle" />
+        </LinearLayout>
+        <ImageView n1:gravity="fill_horizontal" n1:id="@id/titleDivider" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="2.0dip" n1:src="?alertDialogTitleDividerColor" n1:scaleType="fitXY" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/contentPanel" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+        <ScrollView n1:id="@id/scrollView" n1:paddingTop="2.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:overScrollMode="ifContentScrolls">
+            <TextView n1:id="@id/message" n1:paddingLeft="16.0dip" n1:paddingTop="8.0dip" n1:paddingRight="16.0dip" n1:paddingBottom="8.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="?android:textAppearanceMedium" />
+        </ScrollView>
+    </LinearLayout>
+    <FrameLayout n1:id="@id/customPanel" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+        <FrameLayout n1:id="@id/custom" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/buttonPanel" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="48.0dip">
+        <View n1:background="?android:dividerHorizontal" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:measureWithLargestChild="true" style="?android:buttonBarStyle">
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/leftSpacer" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="0.25" />
+            <Button n1:layout_gravity="end" n1:id="@id/button2" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+            <Button n1:layout_gravity="center_horizontal" n1:id="@id/button3" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+            <Button n1:layout_gravity="start" n1:id="@id/button1" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/rightSpacer" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="0.25" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

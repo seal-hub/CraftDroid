@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@color/hockeyapp_background_white" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textColor="@color/hockeyapp_text_black" n1:gravity="center" n1:id="@id/label_message" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="20.0dip" n1:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/switch_layout" n1:background="?selectableItemBackground" n1:clickable="true" n1:longClickable="true" n1:layout_width="fill_parent" n1:layout_height="56.0dip">
+        <android.support.v7.widget.SwitchCompat n1:id="@id/switch_widget" n1:focusable="false" n1:clickable="false" n1:longClickable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="20.0dip" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+        <TextView n1:gravity="center_vertical" n1:id="@id/switch_label" n1:paddingLeft="16.0dip" n1:layout_width="wrap_content" n1:layout_height="56.0dip" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" style="?android:textAppearanceLarge" />
+    </RelativeLayout>
+    <View n1:background="@drawable/shadow_ab" n1:layout_width="fill_parent" n1:layout_height="@dimen/shadow_height" n1:layout_below="@id/switch_label" />
+</LinearLayout>

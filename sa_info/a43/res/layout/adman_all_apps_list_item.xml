@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="horizontal" n1:paddingRight="16.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/left_icon" n1:layout_width="@dimen/adman_all_apps_item_icon_size" n1:layout_height="@dimen/adman_all_apps_item_icon_size" n1:layout_margin="@dimen/adman_all_apps_item_icon_margin" n1:layout_centerVertical="true" />
+    <android.widget.LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/adman_all_apps_item_icon_margin" n1:layout_marginRight="@dimen/adman_all_apps_item_icon_margin" n1:layout_marginBottom="@dimen/adman_all_apps_item_icon_margin" n1:layout_toRightOf="@id/left_icon" n1:layout_centerVertical="true">
+        <TextView n1:textSize="@dimen/adman_all_apps_item_title" n1:textColor="@android:color/black" n1:ellipsize="end" n1:id="@id/title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" />
+        <TextView n1:ellipsize="end" n1:id="@id/description" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" style="?android:textAppearanceMedium" />
+    </android.widget.LinearLayout>
+    <ImageView n1:id="@id/icon_crosspromo" n1:visibility="visible" n1:layout_width="@dimen/adman_all_apps_item_icon_size" n1:layout_height="@dimen/adman_all_apps_item_icon_size" n1:scaleType="center" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+</RelativeLayout>

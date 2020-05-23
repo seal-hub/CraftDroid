@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarStyle="outsideInset" android:padding="6.0dip" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:id="@id/account_server_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_pop_server_label" android:contentDescription="@string/account_setup_incoming_password_label" />
+            <EditText android:id="@id/account_server" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textUri" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_security_label" />
+            <Spinner android:id="@id/account_security_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/account_setup_incoming_security_label" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_port_label" />
+            <EditText android:id="@id/account_port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="number" android:contentDescription="@string/account_setup_incoming_port_label" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_username_label" />
+            <EditText android:id="@id/account_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textEmailAddress" android:contentDescription="@string/account_setup_incoming_username_label" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:id="@id/account_auth_type_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_auth_type_label" />
+            <Spinner android:id="@id/account_auth_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/account_setup_incoming_auth_type_label" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:id="@id/account_password_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_password_label" />
+            <EditText android:id="@id/account_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPassword" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:id="@id/account_client_certificate_label" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_client_certificate_label" />
+            <com.fsck.k9.view.ClientCertificateSpinner android:id="@id/account_client_certificate_spinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/imap_path_prefix_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:id="@id/imap_autodetect_namespace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_autodetect_namespace_label" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_imap_path_prefix_label" />
+                <EditText android:id="@id/imap_path_prefix" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:contentDescription="@string/account_setup_incoming_imap_path_prefix_label" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/imap_folder_setup_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:id="@id/subscribed_folders_only" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_subscribed_folders_only_label" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/webdav_advanced_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/advanced" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/webdav_mailbox_alias_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_webdav_mailbox_path_label" />
+                <EditText android:id="@id/webdav_mailbox_path" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_incoming_webdav_mailbox_path_hint" android:singleLine="true" android:contentDescription="@string/account_setup_incoming_webdav_mailbox_path_label" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/webdav_owa_path_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_webdav_path_prefix_label" />
+                <EditText android:id="@id/webdav_path_prefix" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_incoming_webdav_path_prefix_hint" android:singleLine="true" android:contentDescription="@string/account_setup_incoming_webdav_path_prefix_label" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/webdav_auth_path_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_webdav_auth_path_label" />
+                <EditText android:id="@id/webdav_auth_path" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_incoming_webdav_auth_path_hint" android:singleLine="true" android:contentDescription="@string/account_setup_incoming_webdav_auth_path_label" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:id="@id/compression_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_compression_label" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/compression_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:id="@id/compression_mobile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_mobile_label" />
+                <CheckBox android:id="@id/compression_wifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_wifi_label" android:contentDescription="@string/account_setup_incoming_compression_label" />
+                <CheckBox android:id="@id/compression_other" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_setup_incoming_other_label" android:contentDescription="@string/account_setup_incoming_compression_label" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/wizard_next" />
+</LinearLayout>

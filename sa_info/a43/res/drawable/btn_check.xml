@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n1:state_focused="false" n1:state_enabled="false" n1:state_checked="false" n1:drawable="@drawable/btn_check_off_disabled"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:state_focused="true" n2:state_enabled="true" n2:state_checked="false" n2:drawable="@drawable/btn_check_off_focused"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:state_focused="true" n3:state_enabled="false" n3:state_checked="false" n3:drawable="@drawable/btn_check_off_disabled_focused"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:state_checked="false" n4:drawable="@drawable/btn_check_off_normal"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:state_checked="false" n5:state_pressed="true" n5:drawable="@drawable/btn_check_off_pressed"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:state_focused="false" n6:state_enabled="false" n6:state_checked="true" n6:drawable="@drawable/btn_check_on_disabled"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:state_focused="true" n7:state_enabled="true" n7:state_checked="true" n7:drawable="@drawable/btn_check_on_focused"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:state_focused="true" n8:state_enabled="false" n8:state_checked="true" n8:drawable="@drawable/btn_check_on_disabled_focused"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <item n9:state_checked="true" n9:drawable="@drawable/btn_check_on_normal"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <item n10:state_checked="true" n10:state_pressed="true" n10:drawable="@drawable/btn_check_on_pressed"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+</selector>

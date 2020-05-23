@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Netföng afrituð á klippispjald</item>
+        <item quantity="one">Netfang afritað á klippispjald</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Viltu í alvörunni eyða %1$d skilaboðum?</item>
+        <item quantity="one">Viltu í alvörunni eyða þessum skilaboðum?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Viltu í alvörunni flytja %1$d skilaboð í ruslpóstmöppuna?</item>
+        <item quantity="one">Viltu í alvörunni flytja þessi skilaboð í ruslpóstmöppuna?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d ný skilaboð</item>
+        <item quantity="one">%d ný skilaboð</item>
+    </plurals>
+    <plurals name="remote_search_downloading">
+        <item quantity="other">Næ í %d niðurstöður</item>
+        <item quantity="one">Næ í %d niðurstöðu</item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="other">Næ í %1$d af %2$d niðurstöðum</item>
+        <item quantity="one">Næ í %1$d af %2$d niðurstöðum</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s aðgangar</item>
+        <item quantity="one">1 aðgangur</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">lykilorð á póstþjóni</item>
+        <item quantity="one">lykilorð á póstþjóni</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Set lykilorð…</item>
+        <item quantity="one">Set lykilorð…</item>
+    </plurals>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Endereços copiados para a área de transferência</item>
+        <item quantity="one">Endereço copiado para a área de transferência</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Pretende mesmo eliminar %1$d mensagens?</item>
+        <item quantity="one">Pretende mesmo eliminar esta mensagem?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Pretende mesmo mover %1$d mensagens para a pasta de spam?</item>
+        <item quantity="one">Pretende mesmo mover esta mensagem para a pasta de spam?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d novas mensagens</item>
+        <item quantity="one">%d nova mensagem</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s contas</item>
+        <item quantity="one">1 conta</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">as palavras-passe do servidor</item>
+        <item quantity="one">a palavra-passe do servidor</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">A definir as palavras-passe…</item>
+        <item quantity="one">A definir a palavra-passe…</item>
+    </plurals>
+</resources>

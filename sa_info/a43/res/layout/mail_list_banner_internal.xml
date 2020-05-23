@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/label" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dip" n1:text="@string/advertising" n1:fontFamily="sans-serif"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <TextView n2:textAppearance="?android:textAppearanceMedium" n2:textSize="@dimen/small_text_appearance" n2:textColor="@android:color/white" n2:id="@id/google_ad_label" n2:background="@drawable/google_ad_bage_bg" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:layout_marginTop="-2.0dip" n2:layout_marginRight="8.0dip" n2:text="AD" n2:fontFamily="sans-serif"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <View n3:id="@id/divider" n3:background="@color/divider_primary" n3:layout_width="fill_parent" n3:layout_height="@dimen/divider_primary"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+</merge>

@@ -1,0 +1,78 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.android.browser:id/tab_switcher",
+    "text": "",
+    "content-desc": "Page manager",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.android.browser",
+    "activity": ".BrowserActivity",
+    "event_type": "gui",
+    "score": 0.5230716323141589,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.android.browser:id/url",
+    "text": "https://www.google.com/webhp?client=ms-android-google&source=android-home",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.android.browser",
+    "activity": ".BrowserActivity",
+    "event_type": "gui",
+    "score": 0.5841271141710068,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.android.browser:id/url",
+    "text": "https://www.google.com/webhp?client=ms-android-google&source=android-home",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.android.browser",
+    "activity": ".BrowserActivity",
+    "event_type": "gui",
+    "score": 0.5841271141710068,
+    "action": [
+      "send_keys_and_enter",
+      "https://www.ics.uci.edu"
+    ]
+  },
+  {
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Donald Bren School of Information and Computer Sciences",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.android.browser",
+    "activity": ".BrowserActivity",
+    "event_type": "oracle",
+    "score": 0.6,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//android.view.View[@content-desc=\"Donald Bren School of Information and Computer Sciences\"]"
+    ]
+  }
+]

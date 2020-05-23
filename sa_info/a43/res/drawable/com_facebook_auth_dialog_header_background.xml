@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape>
+    <solid n1:color="#fffafafa"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <corners n2:topLeftRadius="@dimen/com_facebook_auth_dialog_corner_radius" n2:topRightRadius="@dimen/com_facebook_auth_dialog_corner_radius" n2:bottomLeftRadius="0.0dip" n2:bottomRightRadius="0.0dip"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</shape>

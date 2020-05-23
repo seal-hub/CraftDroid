@@ -1,0 +1,96 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.woefe.shoppinglist:id/fab_add",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.woefe.shoppinglist",
+    "activity": ".activity.MainActivity",
+    "event_type": "gui",
+    "score": 0.3329132278494731,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "/",
+    "text": "",
+    "content-desc": "Navigate up",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.woefe.shoppinglist",
+    "activity": ".activity.MainActivity",
+    "event_type": "gui",
+    "score": 0.5,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.woefe.shoppinglist:id/new_item_quantity",
+    "text": "Quantity",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "New Item",
+    "stepping_events": [],
+    "package": "com.woefe.shoppinglist",
+    "activity": ".activity.MainActivity",
+    "event_type": "gui",
+    "score": 0.5856944953791966,
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sample Todo"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.woefe.shoppinglist:id/button_add_new_item",
+    "text": "",
+    "content-desc": "Done",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "Quantity",
+    "stepping_events": [],
+    "package": "com.woefe.shoppinglist",
+    "activity": ".activity.MainActivity",
+    "event_type": "gui",
+    "score": 0.5593902447792831,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.woefe.shoppinglist:id/action_delete_checked",
+    "text": "",
+    "content-desc": "Delete checked items",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.woefe.shoppinglist",
+    "activity": ".activity.MainActivity",
+    "event_type": "oracle",
+    "score": 0.5222044295680134,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//android.widget.TextView[@text=\"\"]"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/mainBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+            <TextView android:textSize="22.0sp" android:textStyle="italic" android:textColor="@color/white" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/answerIs" android:layout_weight="1.0" />
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/answerTV" android:background="@drawable/result" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/zeroValue" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="@color/black" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_margin="8.0dip" />
+        <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/percentFormula" />
+        <RadioGroup android:gravity="center" android:orientation="vertical" android:id="@id/percentRG" android:background="@drawable/radio_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+            <RadioButton android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/xValueRB" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/xPercentOf" />
+            <RadioButton android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/yValueRB" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yWhatPercentOfZ" />
+            <RadioButton android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/zValueRB" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/xPercentOfWhat" />
+        </RadioGroup>
+        <LinearLayout android:orientation="horizontal" android:id="@id/percentLL" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+            <EditText android:id="@id/editWhatOf" android:background="@drawable/edit_box" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" android:inputType="numberDecimal" />
+            <TextView android:textSize="20.0sp" android:textStyle="italic" android:textColor="@color/white" android:id="@id/whatOfwhatTV" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+            <EditText android:id="@id/editOfWhat" android:background="@drawable/edit_box" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_weight="2.0" android:inputType="numberDecimal" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip">
+            <Button android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/resetBtn" android:background="@drawable/button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="@string/resetButton" android:layout_weight="1.0" style="?borderlessButtonStyle" />
+            <Button android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/calculateBtn" android:background="@drawable/button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="@string/calculateButton" android:layout_weight="1.0" style="?borderlessButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

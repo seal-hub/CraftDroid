@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.mozilla.focus.widget.AboutPreference android:icon="@drawable/ic_tab_new" android:layout="@layout/focus_preference" android:title="@string/menu_about" android:key="@string/pref_key_about" />
+    <Preference android:icon="@drawable/ic_tab_new" android:layout="@layout/focus_preference" android:title="@string/menu_help" android:key="@string/pref_key_help" />
+    <Preference android:icon="@drawable/ic_tab_new" android:layout="@layout/focus_preference" android:title="@string/menu_rights" android:key="@string/pref_key_rights" />
+    <Preference android:icon="@drawable/ic_tab_new" android:layout="@layout/focus_preference" android:title="@string/preference_privacy_notice" android:key="@string/pref_key_privacy_notice" />
+</PreferenceScreen>

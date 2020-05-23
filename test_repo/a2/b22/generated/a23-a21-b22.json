@@ -1,0 +1,289 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.rubenroy.minimaltodo:id/addToDoItemFAB",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".MainActivity",
+    "package": "com.rubenroy.minimaltodo",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.rubenroy.minimaltodo:id/makeToDoFloatingActionButton",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.ImageButton",
+        "resource-id": "addToDoItemFAB",
+        "id-prefix": "com.rubenroy.minimaltodo:id/",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".MainActivity",
+        "package": "com.rubenroy.minimaltodo",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.rubenroy.minimaltodo",
+    "activity": ".AddToDoActivity",
+    "event_type": "gui",
+    "score": 0.33948398964677756,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.rubenroy.minimaltodo:id/addToDoItemFAB",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rubenroy.minimaltodo",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.568371590769857,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.rubenroy.minimaltodo:id/userToDoEditText",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "Title",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rubenroy.minimaltodo",
+    "activity": ".AddToDoActivity",
+    "event_type": "gui",
+    "score": 0.33915427210623006,
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sample Todo"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.rubenroy.minimaltodo:id/makeToDoFloatingActionButton",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".AddToDoActivity",
+    "package": "com.rubenroy.minimaltodo",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.rubenroy.minimaltodo:id/addToDoItemFAB",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.ImageButton",
+        "resource-id": "makeToDoFloatingActionButton",
+        "id-prefix": "com.rubenroy.minimaltodo:id/",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".AddToDoActivity",
+        "package": "com.rubenroy.minimaltodo",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.rubenroy.minimaltodo",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.5447102597689828,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.rubenroy.minimaltodo:id/makeToDoFloatingActionButton",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".AddToDoActivity",
+    "package": "com.rubenroy.minimaltodo",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.rubenroy.minimaltodo:id/toDoListItemTextview",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.ImageButton",
+        "resource-id": "makeToDoFloatingActionButton",
+        "id-prefix": "com.rubenroy.minimaltodo:id/",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".AddToDoActivity",
+        "package": "com.rubenroy.minimaltodo",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.rubenroy.minimaltodo",
+    "activity": ".MainActivity",
+    "event_type": "oracle",
+    "score": 0.620692829140367,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Sample Todo"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.rubenroy.minimaltodo:id/toDoListItemTextview",
+    "text": "Sample Todo",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rubenroy.minimaltodo",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.620692829140367,
+    "action": [
+      "swipe_right"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.rubenroy.minimaltodo:id/addToDoItemFAB",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rubenroy.minimaltodo",
+    "activity": ".MainActivity",
+    "event_type": "gui",
+    "score": 0.516447832319421,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "com.rubenroy.minimaltodo:id/makeToDoFloatingActionButton",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".AddToDoActivity",
+    "package": "com.rubenroy.minimaltodo",
+    "event_type": "stepping"
+  },
+  {
+    "class": "",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "",
+    "clickable": "",
+    "password": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.ImageButton",
+        "resource-id": "makeToDoFloatingActionButton",
+        "id-prefix": "com.rubenroy.minimaltodo:id/",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".AddToDoActivity",
+        "package": "com.rubenroy.minimaltodo",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.rubenroy.minimaltodo",
+    "activity": ".MainActivity",
+    "event_type": "oracle",
+    "score": 0.5,
+    "action": [
+      "wait_until_text_invisible",
+      10,
+      "text",
+      "Sample Todo"
+    ]
+  }
+]

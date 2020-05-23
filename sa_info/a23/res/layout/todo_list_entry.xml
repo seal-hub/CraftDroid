@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/v_urgency_indicator" android:layout_width="5.0dip" android:layout_height="0.0px" android:layout_alignBottom="@id/v_separater" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/tv_todo_list_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="Test" android:layout_toRightOf="@id/v_urgency_indicator" />
+    <TextView android:id="@id/tv_todo_list_next_deadline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Test" android:layout_below="@id/tv_todo_list_title" android:layout_alignLeft="@id/tv_todo_list_title" />
+    <TextView android:id="@id/tv_todo_list_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="4/5" android:layout_toLeftOf="@id/tv_todo_str_done" android:layout_below="@id/tv_todo_list_title" />
+    <TextView android:id="@id/tv_todo_str_done" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/done" android:layout_below="@id/tv_todo_list_title" android:layout_alignParentRight="true" />
+    <View android:id="@id/v_separater" android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_toRightOf="@id/v_urgency_indicator" android:layout_below="@id/tv_todo_str_done" />
+</RelativeLayout>

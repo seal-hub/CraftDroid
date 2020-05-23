@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@color/window_background" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <ListView n1:id="@id/accounts_list" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:listSelector="@android:color/transparent" n1:divider="@null" n1:layout_below="@id/toolbar" />
+    <View n1:background="@drawable/shadow_ab" n1:layout_width="fill_parent" n1:layout_height="@dimen/shadow_height" n1:layout_below="@id/toolbar" />
+    <android.support.design.widget.CoordinatorLayout n1:id="@id/coordinator_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+</RelativeLayout>

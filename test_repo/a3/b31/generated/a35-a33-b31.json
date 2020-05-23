@@ -1,0 +1,363 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_log_in",
+    "text": "Log In",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.ProfileActivity",
+    "package": "com.rainbowshops",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "",
+    "text": "Join",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.LoginAndSignUpActivity",
+    "package": "com.rainbowshops",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Password",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "button_log_in",
+        "id-prefix": "com.rainbowshops:id/",
+        "text": "Log In",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.ProfileActivity",
+        "package": "com.rainbowshops",
+        "event_type": "stepping"
+      },
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "",
+        "id-prefix": "",
+        "text": "Join",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.LoginAndSignUpActivity",
+        "package": "com.rainbowshops",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "oracle",
+    "score": 0.2987426053110047,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "button_sign_up"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Password",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "gui",
+    "score": 0.2987426053110047,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Password",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "oracle",
+    "score": 0.3564989874064348,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "button_sign_up"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Password",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "gui",
+    "score": 0.3564989874064348,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Password",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "oracle",
+    "score": 0.29768369022912233,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "button_sign_up"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Password",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "gui",
+    "score": 0.29768369022912233,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.rainbowshops:id/text_email",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "true",
+    "parent_text": "Email",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "oracle",
+    "score": 0.3504031310025536,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "text_email"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.rainbowshops:id/text_email",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "true",
+    "parent_text": "Email",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "gui",
+    "score": 0.3504031310025536,
+    "action": [
+      "send_keys",
+      "n175773se@nkdjfq.al.net"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.rainbowshops:id/text_password",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "naf": "true",
+    "parent_text": "Password",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "gui",
+    "score": 0.3923119128356275,
+    "action": [
+      "send_keys",
+      "1qaz2wsX"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Password",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "gui",
+    "score": 0.3374715452661866,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.rainbowshops:id/text_last_name",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "true",
+    "parent_text": "Last Name",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "gui",
+    "score": 0.3923119128356275,
+    "action": [
+      "send_keys",
+      "Labfellow"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.rainbowshops:id/text_first_name",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "true",
+    "parent_text": "First Name",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "gui",
+    "score": 0.3923119128356275,
+    "action": [
+      "send_keys_and_hide_keyboard",
+      "Sealbot"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.rainbowshops:id/button_sign_up",
+    "text": "Create Account",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Password",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.LoginAndSignUpActivity",
+    "event_type": "gui",
+    "score": 0.3374715452661866,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.rainbowshops:id/text_customer_name",
+    "text": "Hi Sealbot",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.rainbowshops",
+    "activity": ".activity.ProfileActivity",
+    "event_type": "oracle",
+    "score": 0.497673589438414,
+    "action": [
+      "wait_until_text_presence",
+      10,
+      "text",
+      "Sealbot"
+    ]
+  }
+]

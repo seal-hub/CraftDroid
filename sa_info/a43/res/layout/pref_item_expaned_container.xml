@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/category" n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/pref_category_without_top" />
+    <include n1:id="@id/immutable_checkbox" n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/pref_item_multiple_lines" />
+    <include n1:id="@id/mutable_checkbox" n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/pref_item_multiple_lines" />
+    <include n1:id="@id/receive_newsletters_checkbox" n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/pref_item_multiple_lines" />
+</LinearLayout>

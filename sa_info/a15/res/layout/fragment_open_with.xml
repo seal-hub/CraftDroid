@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="#ff868686" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/menu_open_with_a_browser2" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    <android.support.v7.widget.RecyclerView android:id="@id/apps" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

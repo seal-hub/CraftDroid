@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_check_bottom_padding">0.0dip</dimen>
+    <dimen name="dialog_check_left_padding">18.0dip</dimen>
+    <dimen name="dialog_edit_left_padding">20.0dip</dimen>
+    <dimen name="dialog_edit_top_padding">8.0dip</dimen>
+    <dimen name="dialog_list_left_padding">26.0dip</dimen>
+    <dimen name="notification_content_margin_start">0.0dip</dimen>
+    <dimen name="notification_main_column_padding_top">0.0dip</dimen>
+    <dimen name="notification_media_narrow_margin">12.0dip</dimen>
+</resources>

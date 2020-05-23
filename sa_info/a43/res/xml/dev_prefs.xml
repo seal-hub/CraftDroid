@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/settings_label" n1:key="root_screen"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory n1:title="@string/prefs_develop_title" n1:key="develop_category" n1:summary="@string/pref_develop_summary">
+        <ru.mail.fragments.settings.IntPreference n1:maxLength="4" n1:numeric="integer" n1:title="Override local push check period" n1:key="ru.mail.key_pref_push_poll_time_override" n1:summary="In milliseconds" n1:defaultValue="0" />
+        <Preference n1:title="Crash me" n1:key="tratatata" />
+        <Preference n1:title="Make false assertion" n1:key="tratatatatam" />
+        <Preference n1:title="@string/transport">
+            <intent n1:targetPackage="@string/package_name" n1:targetClass="ru.mail.fragments.settings.TransportPreferenceActivity" />
+        </Preference>
+        <ru.mail.fragments.settings.ListPreference n1:entries="@array/absent_folder_id_labels" n1:layout="@layout/pref_item" n1:title="Эмулировать отсутствие папки" n1:key="emulated_absent_folder_id" n1:defaultValue="-1" n1:entryValues="@array/absent_folder_id_values" />
+        <CheckBoxPreference n1:title="Use USA Location" n1:key="use_usa_location_secret_key" />
+        <CheckBoxPreference n1:title="Show add contact footer" n1:key="add_contact_showed" />
+        <CheckBoxPreference n1:title="Network connection indicator" n1:key="is_signal_indicator" />
+        <CheckBoxPreference n1:title="Experimental segment" n1:key="is_experimental_segment" />
+        <CheckBoxPreference n1:title="Force segmentation filter accept" n1:key="force_filter_accept" />
+        <ru.mail.fragments.settings.EditTextPreference n1:title="Avatar lifetime duration" n1:key="ru.mail.avatar_reload_period_override" n1:summary="Seconds. Set in 0 to use server value" n1:defaultValue="0" />
+        <ru.mail.fragments.settings.EditTextPreference n1:title="Update timeout estimate dialog" n1:key="ru.mail.preference_estimate_dialog_application_update_timeout" n1:summary="Minutes" n1:defaultValue="1440" />
+        <ru.mail.fragments.settings.EditTextPreference n1:title="Undo snack bar duration" n1:key="undo_duration" n1:summary="seconds" n1:defaultValue="3000" />
+        <ru.mail.fragments.settings.EditTextPreference n1:title="@string/prefs_avatar_crop_title" n1:key="avatar_crop_factor" n1:defaultValue="1.35" n1:dialogTitle="@string/prefs_avatar_crop_dlg_title" n1:dialogMessage="@string/prefs_avatar_crop_dlg_message" n1:positiveButtonText="@string/ok" n1:negativeButtonText="@string/cancel" />
+        <CheckBoxPreference n1:title="Удалять аккаунт из настроек" n1:key="allow_remove_account_from_system" n1:defaultValue="@bool/allow_remove_account_from_system" />
+        <PreferenceScreen n1:title="Использование тестовых clientID" n1:key="test_clientid_screen">
+            <CheckBoxPreference n1:title="Google OAuth" n1:key="use_google_oauth_test_client_id" n1:defaultValue="@bool/use_google_oauth_test_client_id" />
+            <CheckBoxPreference n1:title="Outlook OAuth" n1:key="use_outlook_oauth_test_client_id" n1:defaultValue="@bool/use_outlook_oauth_test_client_id" />
+            <CheckBoxPreference n1:title="Mail.ru OAuth" n1:key="use_mailru_oauth_test_client_id" n1:defaultValue="@bool/use_mailru_oauth_test_client_id" />
+            <CheckBoxPreference n1:title="Yahoo OAuth" n1:key="use_yahoo_oauth_test_client_id" n1:defaultValue="@bool/use_yahoo_oauth_test_client_id" />
+        </PreferenceScreen>
+        <ru.mail.fragments.settings.EditTextPreference n1:title="Период проверки пуш-токена" n1:key="push_token_checking_period" n1:defaultValue="10800000" n1:dialogTitle="Период проверки пуш-токена" n1:dialogMessage="Период в миллисекундах" n1:positiveButtonText="@string/ok" n1:negativeButtonText="@string/cancel" />
+        <PreferenceScreen n1:title="Url для запросов" n1:key="test_urls_screen" n1:summary="Настройка урлов для запросов на сервер">
+            <PreferenceCategory n1:title="Авторизация" n1:key="test_urls_category_1" n1:summary="Запрос логина внутренними ящиками и внешними ящиками без OAuth,                 запросы обмена токенов и логина гугловыми ящиками">
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Схема" n1:key="ru.mail.preference_scheme_auth" n1:summary="Схема, например, https" n1:defaultValue="@string/auth_default_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Хост" n1:key="ru.mail.preference_host_auth" n1:summary="Хост, например aj-https.mail.ru" n1:defaultValue="@string/auth_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Reset" n1:key="auth" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="Дорегистрация" n1:key="test_urls_category_2" n1:summary="Запрос капчи, запрос имени и фамилии и дорегистрация">
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Капча.Схема" n1:key="ru.mail.preference_scheme_doreg_captcha" n1:summary="Схема, например, https" n1:defaultValue="@string/doreg_captcha_def_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Капча.Хост" n1:key="ru.mail.preference_host_doreg_captcha" n1:summary="Хост, например aj-https.mail.ru" n1:defaultValue="@string/doreg_captcha_def_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Капча.Reset" n1:key="doreg_captcha" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Дорегистрация.Схема" n1:key="ru.mail.preference_scheme_doreg" n1:summary="Схема, например, https" n1:defaultValue="@string/doreg_captcha_def_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Дорегистрация.Хост" n1:key="ru.mail.preference_host_doreg" n1:summary="Хост, например aj-https.mail.ru" n1:defaultValue="@string/doreg_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Дорегистрация.Reset" n1:key="doreg" />
+                <CheckBoxPreference n1:title="Имя и Фамилия. Зпрос" n1:key="enabledoreg_name" n1:summary="Отправлять запрос имени и фамилии или нет" n1:defaultValue="false" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Имя и Фамилия.Схема" n1:key="ru.mail.preference_scheme_doreg_name" n1:summary="Схема, например, https" n1:dependency="enabledoreg_name" n1:defaultValue="@string/doreg_name_default_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Имя и Фамилия.Хост" n1:key="ru.mail.preference_host_doreg_name" n1:summary="Хост, например aj-https.mail.ru" n1:dependency="enabledoreg_name" n1:defaultValue="@string/doreg_name_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Имя и Фамилия.Reset" n1:key="doreg_name" n1:dependency="enabledoreg_name" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="Почтовое API" n1:key="test_urls_category_3" n1:summary="Запросы списка писем, папок, тела письма и т.д.">
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Схема" n1:key="ru.mail.preference_scheme_mail_api" n1:summary="Схема, например, https" n1:defaultValue="@string/auth_default_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Хост" n1:key="ru.mail.preference_host_mail_api" n1:summary="Хост, например aj-https.mail.ru" n1:defaultValue="@string/auth_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Reset" n1:key="mail_api" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="Новое Почтовое API" n1:key="test_urls_category_4" n1:summary="Запросы списка писем, папок, тела письма и т.д.">
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Схема" n1:key="ru.mail.preference_scheme_new_mail_api" n1:summary="Схема, например, https" n1:defaultValue="@string/new_mail_api_defualt_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Хост" n1:key="ru.mail.preference_host_new_mail_api" n1:summary="Хост, например aj-https.mail.ru" n1:defaultValue="@string/new_mail_api_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Reset" n1:key="new_mail_api" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="Почтовое API" n1:key="test_urls_category_5" n1:summary="Запросы списка писем, папок, тела письма и т.д.">
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Схема" n1:key="ru.mail.preference_scheme_mail_api" n1:summary="Схема, например, https" n1:defaultValue="@string/mail_api_defualt_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Хост" n1:key="ru.mail.preference_host_mail_api" n1:summary="Хост, например aj-https.mail.ru" n1:defaultValue="@string/mail_api_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Reset" n1:key="mail_api" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="Пуши" n1:key="test_urls_category_6" n1:summary="Запросы сохранения, удаления настроек пуш уведомлений">
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Схема" n1:key="ru.mail.preference_scheme_push" n1:summary="Схема, например, https" n1:defaultValue="@string/push_default_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Хост" n1:key="ru.mail.preference_host_push" n1:summary="Хост, например aj-https.mail.ru" n1:defaultValue="@string/push_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Reset" n1:key="push_reset" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="Аттачи" n1:key="test_urls_category_7" n1:summary="Запросы на сохранение и удаление аттачей при отправке, пересылке                 писем, или изменении черновиков">
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Схема" n1:key="ru.mail.preference_scheme_attach" n1:summary="Схема, например, https" n1:defaultValue="@string/auth_default_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Хост" n1:key="ru.mail.preference_host_attach" n1:summary="Хост, например aj-https.mail.ru" n1:defaultValue="@string/auth_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Reset" n1:key="attach" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="Превью аттачей" n1:key="test_urls_category_8">
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Схема" n1:key="ru.mail.preference_scheme_attach_preview" n1:summary="Схема, например, https" n1:defaultValue="@string/attach_preview_default_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Хост" n1:key="ru.mail.preference_host_attach_preview" n1:summary="Хост, например aj-https.mail.ru" n1:defaultValue="@string/attach_preview_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Reset" n1:key="attach_preview" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="Аватары" n1:key="test_urls_category_9" n1:summary="Запросы загрузки аватаров">
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Схема" n1:key="ru.mail.preference_scheme_avatar" n1:summary="Схема, например, https" n1:defaultValue="@string/avatar_default_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Хост" n1:key="ru.mail.preference_host_avatar" n1:summary="Хост, например aj-https.mail.ru" n1:defaultValue="@string/avatar_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Reset" n1:key="avatar" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="Отправка настроек доменов" n1:key="test_urls_category_10">
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Схема" n1:key="ru.mail.preference_scheme_domain_settings" n1:summary="Схема, например, https" n1:defaultValue="@string/domain_settings_default_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Хост" n1:key="ru.mail.preference_host_domain_settings" n1:summary="Хост, например host.mail.ru" n1:defaultValue="@string/domain_settings_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Reset" n1:key="domain_settings" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="Статистика показов экрана авторизации" n1:key="test_urls_category_11">
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Схема" n1:key="ru.mail.preference_scheme_authstat" n1:summary="Схема, например, https" n1:defaultValue="@string/authstat_default_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Хост" n1:key="ru.mail.preference_host_authstat" n1:summary="Хост, например aj-https.mail.ru" n1:defaultValue="@string/authstat_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Reset" n1:key="authstat" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="Регистрация" n1:key="test_urls_category_12" n1:summary="Запросы регистрации">
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Схема" n1:key="ru.mail.preference_scheme_registration" n1:summary="Схема, например, https" n1:defaultValue="@string/registration_default_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Хост" n1:key="ru.mail.preference_host_registration" n1:summary="Хост, например android-mobile-api.e.mail.ru" n1:defaultValue="@string/registration_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Reset" n1:key="registration" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="Adman" n1:key="test_urls_category_13" n1:summary="Запросы крос промо">
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Схема" n1:key="ru.mail.preference_scheme_adman" n1:summary="Схема, например, http" n1:defaultValue="@string/rb_default_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Хост" n1:key="ru.mail.preference_host_adman" n1:summary="Хост, например ad.mail.ru/mobile/5567" n1:defaultValue="@string/rb_default_host" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Слот для загрузки списка промо" n1:key="ru.mail.preference_adman_slot" n1:summary="Хост, например 5567" n1:defaultValue="@string/adman_default_slot" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Reset" n1:key="adman" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="dispatcher для атачей" n1:key="test_urls_category_14">
+                <ru.mail.fragments.settings.EditTextPreference n1:id="@id/ru.mail.preference_scheme_cloud_dispatcher" n1:title="Схема" n1:summary="Схема, например, https" n1:defaultValue="@string/cloud_dispatcher_default_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:id="@id/ru.mail.preference_host_cloud_dispatcher" n1:title="Хост" n1:summary="Хост, например cloud.mail.ru" n1:defaultValue="@string/cloud_dispatcher_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:id="@id/cloud_attach" n1:title="Reset" n1:key="cloud_dispatcher" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="Аттачи из облака" n1:key="test_urls_category_15">
+                <ru.mail.fragments.settings.EditTextPreference n1:id="@id/ru.mail.preference_scheme_cloud_referer" n1:title="Схема" n1:summary="Схема, например, https" n1:defaultValue="@string/cloud_referer_default_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:id="@id/ru.mail.preference_host_cloud_referer" n1:title="Хост" n1:summary="Хост, например cloud.mail.ru" n1:defaultValue="@string/cloud_referer_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:id="@id/cloud_attach" n1:title="Reset" n1:key="cloud_referer" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="Debug Mode - отправка логов" n1:key="test_urls_category_11235">
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Схема" n1:key="ru.mail.preference_scheme_logdebugmode" n1:summary="Схема, например, https" n1:defaultValue="@string/logdebugmode_default_scheme" />
+                <ru.mail.fragments.settings.EditTextPreference n1:title="Хост" n1:key="ru.mail.preference_host_logdebugmode" n1:summary="Хост, например lalala.mail.ru" n1:defaultValue="@string/logdebugmode_default_host" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Reset" n1:key="logdebugmode" />
+            </PreferenceCategory>
+            <PreferenceCategory n1:title="Ping-pong push" n1:key="test_urls_category_16">
+                <ru.mail.fragments.settings.EditTextPreference n1:id="@id/ru.mail.preference_scheme_ping" n1:title="Схема" n1:summary="Схема, например, https" n1:defaultValue="" />
+                <ru.mail.fragments.settings.EditTextPreference n1:id="@id/ru.mail.preference_host_ping" n1:title="Хост" n1:summary="Хост, например cloud.mail.ru" n1:defaultValue="" />
+                <ru.mail.fragments.settings.UrlResetPreference n1:title="Reset" n1:key="ping_referer" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <ru.mail.fragments.settings.EditTextPreference n1:title="Длительность анимации экшен бара" n1:key="action_bar_animation_duration" n1:defaultValue="@android:integer/config_shortAnimTime" n1:dialogTitle="Время анимации тулбара и боттом бара" n1:dialogMessage="Время в миллисекундах" n1:positiveButtonText="@string/ok" n1:negativeButtonText="@string/cancel" />
+        <Preference n1:title="Save current account to SmartLock" n1:key="save_to_smart_lock" />
+        <Preference n1:title="Save wrong account to SmartLock" n1:key="save_wrong_account_to_smart_lock" />
+        <Preference n1:title="Save account with wrong pass to SmartLock" n1:key="save_account_with_wrong_pass" />
+    </PreferenceCategory>
+    <PreferenceScreen n1:title="Запись логов" n1:key="test_log_screen" n1:summary="Запись логов">
+        <PreferenceCategory n1:title="Запись логов" n1:key="file_logger_settings" n1:summary="Запись логов">
+            <ru.mail.fragments.settings.ListPreference n1:entries="@array/prefs_file_log_labels" n1:layout="@layout/pref_item" n1:title="Мин. уровень записи логов" n1:key="prefs_key_file_log_level" n1:summary="меньше этого уровня логи не пишутся" n1:defaultValue="OFF" n1:entryValues="@array/prefs_file_log_values" />
+            <ru.mail.fragments.settings.ValidatedTextPreference n1:title="Хост" n1:key="prefs_key_file_log_host" n1:summary="Хост куда логи слать" n1:defaultValue="http://buran.win76.dev.mail.ru/collect/" />
+            <ru.mail.fragments.settings.DirectoryValidatedTextPreference n1:title="Директория с логами" n1:key="prefs_key_file_log_directory" n1:summary="Директория с логами" />
+            <ru.mail.fragments.settings.UrlResetPreference n1:title="Отправить логи" n1:key="prefs_key_send_file_logs" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen n1:title="Shrinker" n1:key="shrinker_screen" n1:summary="Shrinker">
+        <PreferenceCategory n1:title="Shrinker settings" n1:key="shrinker_settings" n1:summary="Shrinker settings">
+            <CheckBoxPreference n1:title="Shrink scheduler" n1:key="db_shrink_alarm" n1:defaultValue="@bool/db_shrink_alarm_enabled" />
+            <Preference n1:title="Shrink db" n1:key="db_shrink" />
+            <ru.mail.fragments.settings.EditTextPreference n1:title="Shrinker delay" n1:key="shrinker_delay_dialog" n1:summary="Seconds" n1:defaultValue="0" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <ru.mail.fragments.settings.ListPreferenceWithValueSummary n1:entries="@array/test_signal_quality_names" n1:title="Signal Quality" n1:key="test_signal_quality" n1:summary="@string/mapp_set_notif_mode_summary" n1:defaultValue="@string/unknown" n1:entryValues="@array/signal_qualities" />
+    <CheckBoxPreference n1:title="Light mode override" n1:key="light_mode_enabled_override" n1:summary="If checked, enables light mode no matter what configuration contains" n1:defaultValue="false" />
+    <ru.mail.fragments.settings.EditTextPreference n1:id="@id/ru.mail.preference_feedback_account_override" n1:title="Feedback account override" n1:key="preference_feedback_account_override" n1:defaultValue="@string/feedback_email" />
+    <CheckBoxPreference n1:title="Use pre-defined stickers" n1:key="use_mock_stickers" n1:summary="If checked, ignore stickers from configuration and use pre defined" n1:defaultValue="false" />
+    <CheckBoxPreference n1:title="Disable purchased subscription" n1:key="disable_purchased_subscription" n1:summary="If checked, ignore real purchased subscriptions" n1:defaultValue="false" />
+</PreferenceScreen>

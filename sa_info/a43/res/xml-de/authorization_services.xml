@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<services>
+    <service name="MAILRU" />
+    <service name="WEBDE" />
+    <service name="GOOGLE" />
+    <service name="OUTLOOK" />
+    <service name="HOTMAIL" />
+    <service name="YAHOO" />
+    <service name="TONLINE" />
+    <service name="AOL" />
+    <service name="FREENET" />
+    <service name="ARCOR" />
+</services>

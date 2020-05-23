@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_content" android:background="#ffffffff" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar_about" android:background="?colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:titleTextColor="@color/white"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <LinearLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.36">
+            <ImageView android:id="@id/barcodeLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/privacyfriendlyappslogo" android:adjustViewBounds="true" />
+        </LinearLayout>
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/appName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name_long" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/textFieldVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/version_number" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/textFieldAuthor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/about_author" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/textFieldAuthorNames" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/about_author_names" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/textFieldContributors" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/about_author_contributors" />
+        <TextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/textFieldAffiliation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/about_affiliation" />
+        <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/secuso_logo_blau_blau" android:adjustViewBounds="true" />
+        <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/privacy_friendly" />
+        <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/more_info" />
+        <TextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/secusoWebsite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/url" />
+        <TextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/githubURL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/github" />
+    </LinearLayout>
+</ScrollView>

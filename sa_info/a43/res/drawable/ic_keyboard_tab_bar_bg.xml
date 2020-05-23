@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape n1:shape="rectangle"
+          xmlns:n1="http://schemas.android.com/apk/res/android">
+            <solid n1:color="@color/emojicon_keyboard_divider" />
+            <size n1:height="1.0dip" />
+        </shape>
+    </item>
+    <item n2:top="1.0dip"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <shape n2:shape="rectangle">
+            <solid n2:color="@color/white" />
+        </shape>
+    </item>
+    <item n3:top="45.0dip"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <shape n3:shape="rectangle">
+            <solid n3:color="@color/emojicon_keyboard_divider" />
+            <size n3:height="1.0dip" />
+        </shape>
+    </item>
+</layer-list>

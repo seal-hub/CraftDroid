@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingTop="21.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:minWidth="@dimen/license_agreement_dialog_min_width"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.uikit.view.FontTextView n1:textSize="20.0sp" n1:textColor="@color/black" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="24.0dip" n1:layout_marginRight="24.0dip" n1:text="@string/license_agreement_title" n1:maxLines="1" n2:textFont="robotoMedium" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ScrollView n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dip">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <ru.mail.uikit.view.FontTextView n1:textSize="16.0sp" n1:textColor="@color/black" n1:textColorLink="#ff168de2" n1:id="@id/message" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="24.0dip" n1:layout_marginTop="12.0dip" n1:layout_marginRight="24.0dip" n1:lineSpacingExtra="8.0dip" n3:textFont="robotoRegular" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <ru.mail.uikit.view.FontTextView n1:textSize="16.0sp" n1:textColor="@color/black" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="24.0dip" n1:layout_marginTop="24.0dip" n1:layout_marginRight="24.0dip" n1:text="@string/license_tick_below" n1:lineSpacingExtra="8.0dip" n4:textFont="robotoRegular" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="24.0dip" n1:layout_marginTop="14.0dip" n1:layout_marginRight="24.0dip">
+                <CheckBox n1:id="@id/receive_newsletters_checkbox" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                <ru.mail.uikit.view.FontTextView n1:textSize="16.0sp" n1:textColor="@color/black" n1:id="@id/receive_newsletters_checkbox_text" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="15.0dip" n1:text="@string/license_contact_you" n1:lineSpacingExtra="8.0dip" n5:textFont="robotoRegular" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="24.0dip" n1:layout_marginTop="8.0dip" n1:layout_marginRight="16.0dip" n1:layout_marginBottom="10.0dip">
+        <ru.mail.uikit.view.FontTextView n1:textSize="14.0sp" n1:textColor="@color/contrast_secondary" n1:gravity="center" n1:id="@id/cancel_btn" n1:paddingTop="7.0dip" n1:paddingBottom="7.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="24.5dip" n1:text="@string/cancel" n1:layout_toLeftOf="@id/accept_btn" n1:layout_alignParentTop="true" n1:textAllCaps="true" n6:textFont="robotoMedium" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <ru.mail.uikit.view.FontTextView n1:textSize="14.0sp" n1:textColor="@color/contrast_secondary" n1:gravity="center" n1:id="@id/accept_btn" n1:paddingTop="7.0dip" n1:paddingBottom="7.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/license_accept" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" n1:textAllCaps="true" n7:textFont="robotoMedium" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/content_view" n1:background="@drawable/bg_light_full" n1:layout_height="wrap_content" style="@style/LoginFormWidthStyle">
+        <FrameLayout n1:id="@id/login_title_text_layout" n1:background="@drawable/login_content_background_top" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textSize="19.0sp" n1:textColor="@color/dark_black" n1:gravity="center" n1:id="@id/textView" n1:layout_width="fill_parent" n1:layout_height="64.0dip" n1:text="@string/other_mail" n1:textAllCaps="true" />
+        </FrameLayout>
+        <RelativeLayout n1:id="@id/login_title_image_layout" n1:background="@drawable/login_content_background_top" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="96.0dip">
+            <ImageView n1:id="@id/email_service_logo_imageview" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/logo_aol" n1:maxWidth="121.0dip" n1:maxHeight="36.0dip" n1:layout_centerInParent="true" />
+        </RelativeLayout>
+        <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+        <LinearLayout n1:orientation="vertical" n1:background="@android:color/transparent" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <ru.mail.uikit.view.FontAutoCompleteTextView n1:id="@id/login" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/mapp_user_name_reg" n1:maxLength="96" n1:completionThreshold="@integer/login_threshold" n1:inputType="textEmailAddress" n2:textFont="robotoRegular" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:textColor="@android:color/white" n1:gravity="center" n1:id="@id/error_login" n1:background="@drawable/login_error_bg" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        </LinearLayout>
+        <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+        <LinearLayout n1:background="@android:color/transparent" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:weightSum="1.0">
+            <ru.mail.uikit.view.FontAutoCompleteTextView n1:id="@id/password" n1:paddingRight="0.0dip" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:hint="@string/mapp_password" n1:layout_weight="1.0" n1:inputType="textPassword" n3:textFont="robotoRegular" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <CheckBox n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@id/password_show" n1:layout_width="32.0dip" n1:layout_height="32.0dip" n1:layout_marginLeft="12.0dip" n1:layout_marginRight="12.0dip" n1:minWidth="24.0dip" n1:minHeight="24.0dip" n1:layout_weight="0.0" />
+        </LinearLayout>
+        <View n1:id="@id/active_sync_login_divider" n1:background="?horizontal_divider" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+        <ru.mail.uikit.view.FontAutoCompleteTextView n1:id="@id/active_sync_login" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/login_hint" />
+        <include n1:id="@id/domain_settings" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" layout="@layout/domain_settings" />
+        <View n1:background="?horizontal_divider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+        <LinearLayout n1:orientation="vertical" n1:background="@drawable/login_content_background_bottom" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:splitMotionEvents="false">
+            <Button n1:id="@id/sign_in" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/domain_settings_field_padding_horizontal" n1:text="@string/sign_in" />
+            <ru.mail.uikit.view.FontButton n1:layout_gravity="center_horizontal" n1:id="@id/restore_password" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/domain_settings_field_padding_horizontal" n1:layout_marginRight="@dimen/domain_settings_field_padding_horizontal" n1:layout_marginBottom="@dimen/domain_settings_field_padding_horizontal" n1:text="@string/restore_password" style="?android:borderlessButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Одлазак на Почетну</string>
+    <string name="abc_action_bar_up_description">Кретање нагоре</string>
+    <string name="abc_action_menu_overflow_description">Још опција</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Прикажи све</string>
+    <string name="abc_activitychooserview_choose_application">Избор апликације</string>
+    <string name="abc_capital_off">ИСКЉУЧИ</string>
+    <string name="abc_capital_on">УКЉУЧИ</string>
+    <string name="abc_search_hint">Претражите...</string>
+    <string name="abc_searchview_description_clear">Брисање упита</string>
+    <string name="abc_searchview_description_query">Упит за претрагу</string>
+    <string name="abc_searchview_description_search">Претрага</string>
+    <string name="abc_searchview_description_submit">Слање упита</string>
+    <string name="abc_searchview_description_voice">Гласовна претрага</string>
+    <string name="abc_shareactionprovider_share_with">Дели са</string>
+    <string name="abc_shareactionprovider_share_with_application">Дељење са апликацијом %s</string>
+    <string name="abc_toolbar_collapse_description">Скупи</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s &amp;#1074;&amp;#1072;&amp;#1084; &amp;#1076;&amp;#1072;&amp;#1112;&amp;#1077; &amp;#1082;&amp;#1086;&amp;#1085;&amp;#1090;&amp;#1088;&amp;#1086;&amp;#1083;&amp;#1091;.&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#1050;&amp;#1086;&amp;#1088;&amp;#1080;&amp;#1089;&amp;#1090;&amp;#1080;&amp;#1090;&amp;#1077; &amp;#1075;&amp;#1072; &amp;#1082;&amp;#1072;&amp;#1086; &amp;#1087;&amp;#1088;&amp;#1080;&amp;#1074;&amp;#1072;&amp;#1090;&amp;#1085;&amp;#1080; &amp;#1087;&amp;#1088;&amp;#1077;&amp;#1075;&amp;#1083;&amp;#1077;&amp;#1076;&amp;#1072;&amp;#1095;:
+  &lt;ul>
+    &lt;li>&amp;#1055;&amp;#1088;&amp;#1077;&amp;#1090;&amp;#1088;&amp;#1072;&amp;#1078;&amp;#1091;&amp;#1112;&amp;#1090;&amp;#1077; &amp;#1080; &amp;#1089;&amp;#1091;&amp;#1088;&amp;#1092;&amp;#1091;&amp;#1112;&amp;#1090;&amp;#1077; &amp;#1076;&amp;#1080;&amp;#1088;&amp;#1077;&amp;#1082;&amp;#1090;&amp;#1085;&amp;#1086; &amp;#1091; &amp;#1072;&amp;#1087;&amp;#1083;&amp;#1080;&amp;#1082;&amp;#1072;&amp;#1094;&amp;#1080;&amp;#1112;&amp;#1080;&lt;/li>
+    &lt;li>&amp;#1041;&amp;#1083;&amp;#1086;&amp;#1082;&amp;#1080;&amp;#1088;&amp;#1072;&amp;#1112;&amp;#1090;&amp;#1077; &amp;#1087;&amp;#1088;&amp;#1072;&amp;#1090;&amp;#1080;&amp;#1086;&amp;#1094;&amp;#1077; (&amp;#1080;&amp;#1083;&amp;#1080; &amp;#1080;&amp;#1093; &amp;#1086;&amp;#1084;&amp;#1086;&amp;#1075;&amp;#1091;&amp;#1115;&amp;#1080;&amp;#1090;&amp;#1077; &amp;#1091; &amp;#1087;&amp;#1086;&amp;#1089;&amp;#1090;&amp;#1072;&amp;#1074;&amp;#1082;&amp;#1072;&amp;#1084;&amp;#1072;)&lt;/li>
+    &lt;li>&amp;#1048;&amp;#1079;&amp;#1073;&amp;#1088;&amp;#1080;&amp;#1096;&amp;#1080;&amp;#1090;&amp;#1077; &amp;#1089;&amp;#1074;&amp;#1077; &amp;#1082;&amp;#1086;&amp;#1083;&amp;#1072;&amp;#1095;&amp;#1080;&amp;#1115;&amp;#1077; &amp;#1082;&amp;#1072;&amp;#1086; &amp;#1080; &amp;#1080;&amp;#1089;&amp;#1090;&amp;#1086;&amp;#1088;&amp;#1080;&amp;#1112;&amp;#1072;&amp;#1090; &amp;#1087;&amp;#1088;&amp;#1077;&amp;#1075;&amp;#1083;&amp;#1077;&amp;#1076;&amp;#1072;&amp;#1114;&amp;#1072; &amp;#1080; &amp;#1087;&amp;#1088;&amp;#1077;&amp;#1090;&amp;#1088;&amp;#1072;&amp;#1075;&amp;#1077;&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s &amp;#1112;&amp;#1077; &amp;#1089;&amp;#1090;&amp;#1074;&amp;#1086;&amp;#1088;&amp;#1080;&amp;#1083;&amp;#1072; Mozilla. &amp;#1053;&amp;#1072;&amp;#1096;&amp;#1072; &amp;#1084;&amp;#1080;&amp;#1089;&amp;#1080;&amp;#1112;&amp;#1072; &amp;#1112;&amp;#1077; &amp;#1085;&amp;#1077;&amp;#1075;&amp;#1086;&amp;#1074;&amp;#1072;&amp;#1114;&amp;#1077; &amp;#1079;&amp;#1076;&amp;#1088;&amp;#1072;&amp;#1074;&amp;#1086;&amp;#1075; &amp;#1080; &amp;#1086;&amp;#1090;&amp;#1074;&amp;#1086;&amp;#1088;&amp;#1077;&amp;#1085;&amp;#1086;&amp;#1075; &amp;#1080;&amp;#1085;&amp;#1090;&amp;#1077;&amp;#1088;&amp;#1085;&amp;#1077;&amp;#1090;&amp;#1072;.&lt;br/>
+&lt;a href=%2$s>&amp;#1057;&amp;#1072;&amp;#1079;&amp;#1085;&amp;#1072;&amp;#1112;&amp;#1090;&amp;#1077; &amp;#1074;&amp;#1080;&amp;#1096;&amp;#1077;&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">Учитавање</string>
+    <string name="accessibility_announcement_loading_finished">Веб сајт учитан</string>
+    <string name="accessibility_dismiss_find_in_page">Склони претрагу странице</string>
+    <string name="accessibility_find_in_page_result">%1$d од %2$d</string>
+    <string name="accessibility_next_result">Нађи следећи резултат</string>
+    <string name="accessibility_previous_result">Нађи претходни резултат</string>
+    <string name="action_cancel">Откажи</string>
+    <string name="action_ok">У реду</string>
+    <string name="action_option_add_search_engine">Додај претраживач</string>
+    <string name="action_save">Сачувај</string>
+    <string name="common_google_play_services_enable_button">Омогући</string>
+    <string name="common_google_play_services_enable_text">%1$s неће функционисати ако не омогућите Google Play услуге.</string>
+    <string name="common_google_play_services_enable_title">Омогућите Google Play услуге</string>
+    <string name="common_google_play_services_install_button">Инсталирај</string>
+    <string name="common_google_play_services_install_text">%1$s не може да се покрене без Google Play услуга, које нису инсталиране на уређају.</string>
+    <string name="common_google_play_services_install_title">Преузмите Google Play услуге</string>
+    <string name="common_google_play_services_notification_ticker">Грешка Google Play услуга</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблема са Google Play услугама. Пробајте поново.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s не може да се покрене без Google Play услуга, које уређај не подржава.</string>
+    <string name="common_google_play_services_update_button">Ажурирај</string>
+    <string name="common_google_play_services_update_text">%1$s не може да се покрене ако не ажурирате Google Play услуге.</string>
+    <string name="common_google_play_services_update_title">Ажурирајте Google Play услуге</string>
+    <string name="common_google_play_services_updating_text">%1$s не може да се покрене без Google Play услуга, које се тренутно ажурирају.</string>
+    <string name="common_google_play_services_wear_update_text">Потребна је нова верзија Google Play услуга. Ускоро ће се ажурирати.</string>
+    <string name="common_open_on_phone">Отвори на телефону</string>
+    <string name="common_signin_button_text">Пријави ме</string>
+    <string name="common_signin_button_text_long">Пријави ме на Google</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">Иди назад</string>
+    <string name="content_description_blocking_switch">Блокирај пратиоце</string>
+    <string name="content_description_clear_input">Празно поље</string>
+    <string name="content_description_customtab_exit">Повратак на претходну</string>
+    <string name="content_description_dismiss_input">Одбаци</string>
+    <string name="content_description_erase">Избриши историјат прегледања</string>
+    <string name="content_description_forward">Иди напред</string>
+    <string name="content_description_lock">Безбедна веза</string>
+    <string name="content_description_menu">Више опција</string>
+    <string name="content_description_reload">Обнови веб сајт</string>
+    <string name="content_description_stop">Престани са учитавањем веб сајта</string>
+    <string name="content_description_tab_counter">Отворених језичака: %1$s</string>
+    <string name="contextmenu_image_copy">Копирај адресу слике</string>
+    <string name="contextmenu_image_save">Сачувај слику</string>
+    <string name="contextmenu_image_share">Подели слику</string>
+    <string name="contextmenu_image_warning">Сачуване и дељене слике &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#1085;&amp;#1077;&amp;#1115;&amp;#1077; &amp;#1073;&amp;#1080;&amp;#1090;&amp;#1080; &amp;#1086;&amp;#1073;&amp;#1088;&amp;#1080;&amp;#1089;&amp;#1072;&amp;#1085;&amp;#1077;&lt;/b> када обришете %1$s историјат.</string>
+    <string name="contextmenu_link_copy">Копирај везу адресе</string>
+    <string name="contextmenu_link_share">Подели везу</string>
+    <string name="contextmenu_open_in_new_tab">Отвори везу у новом језичку</string>
+    <string name="custom_autocomplete_quick_add">Додај URL</string>
+    <string name="custom_tab_copy_url_action">URL копиран</string>
+    <string name="dialog_addtohomescreen_action_add">Додај</string>
+    <string name="dialog_addtohomescreen_action_cancel">Откажи</string>
+    <string name="dialog_addtohomescreen_tracking_protection">Пречица ће се отворити са онемогућеном заштитом од праћења</string>
+    <string name="download_dialog_action_cancel">Откажи</string>
+    <string name="download_dialog_action_download">Преузми</string>
+    <string name="download_dialog_title">Преузми датотеку</string>
+    <string name="download_dialog_warning">Преузете датотеке &lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#1085;&amp;#1077;&amp;#1115;&amp;#1077; &amp;#1073;&amp;#1080;&amp;#1090;&amp;#1080; &amp;#1086;&amp;#1073;&amp;#1088;&amp;#1080;&amp;#1089;&amp;#1072;&amp;#1085;&amp;#1077;&lt;/b> када обришете %1$s историју.</string>
+    <string name="download_firefox">Преузмите Firefox</string>
+    <string name="download_snackbar_finished">%1$s завршено</string>
+    <string name="download_snackbar_open">Отвори</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&amp;#1057;&amp;#1072;&amp;#1112;&amp;#1090; &amp;#1112;&amp;#1077; &amp;#1084;&amp;#1086;&amp;#1078;&amp;#1076;&amp;#1072; &amp;#1090;&amp;#1088;&amp;#1077;&amp;#1085;&amp;#1091;&amp;#1090;&amp;#1085;&amp;#1086; &amp;#1085;&amp;#1077;&amp;#1076;&amp;#1086;&amp;#1089;&amp;#1090;&amp;#1091;&amp;#1087;&amp;#1072;&amp;#1085; &amp;#1080;&amp;#1083;&amp;#1080; &amp;#1087;&amp;#1088;&amp;#1077;&amp;#1079;&amp;#1072;&amp;#1091;&amp;#1079;&amp;#1077;&amp;#1090;. &amp;#1055;&amp;#1086;&amp;#1082;&amp;#1091;&amp;#1096;&amp;#1072;&amp;#1112;&amp;#1090;&amp;#1077; &amp;#1087;&amp;#1086;&amp;#1085;&amp;#1086;&amp;#1074;&amp;#1086; &amp;#1079;&amp;#1072; &amp;#1087;&amp;#1072;&amp;#1088; &amp;#1084;&amp;#1080;&amp;#1085;&amp;#1091;&amp;#1090;&amp;#1072;.&lt;/li>
+        &lt;li>&amp;#1059;&amp;#1082;&amp;#1086;&amp;#1083;&amp;#1080;&amp;#1082;&amp;#1086; &amp;#1085;&amp;#1077; &amp;#1084;&amp;#1086;&amp;#1078;&amp;#1077;&amp;#1090;&amp;#1077; &amp;#1091;&amp;#1095;&amp;#1080;&amp;#1090;&amp;#1072;&amp;#1090;&amp;#1080; &amp;#1089;&amp;#1090;&amp;#1088;&amp;#1072;&amp;#1085;&amp;#1080;&amp;#1094;&amp;#1077;, &amp;#1087;&amp;#1088;&amp;#1086;&amp;#1074;&amp;#1077;&amp;#1088;&amp;#1080;&amp;#1090;&amp;#1077; &amp;#1080;&amp;#1085;&amp;#1090;&amp;#1077;&amp;#1088;&amp;#1085;&amp;#1077;&amp;#1090; &amp;#1085;&amp;#1072; &amp;#1074;&amp;#1072;&amp;#1096;&amp;#1077;&amp;#1084; &amp;#1090;&amp;#1077;&amp;#1083;&amp;#1077;&amp;#1092;&amp;#1086;&amp;#1085;&amp;#1091; &amp;#1080;&amp;#1083;&amp;#1080; Wi-Fi &amp;#1082;&amp;#1086;&amp;#1085;&amp;#1077;&amp;#1082;&amp;#1094;&amp;#1080;&amp;#1112;&amp;#1091;.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">Повезивање није успело</string>
+    <string name="error_generic_message">Из неких разлога не можемо учитати ову страницу.</string>
+    <string name="error_generic_title">Упс</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&amp;#1055;&amp;#1088;&amp;#1086;&amp;#1074;&amp;#1077;&amp;#1088;&amp;#1080;&amp;#1090;&amp;#1077; &amp;#1072;&amp;#1076;&amp;#1088;&amp;#1077;&amp;#1089;&amp;#1091; &amp;#1088;&amp;#1072;&amp;#1076;&amp;#1080; &amp;#1075;&amp;#1088;&amp;#1077;&amp;#1096;&amp;#1072;&amp;#1082;&amp;#1072; &amp;#1091; &amp;#1082;&amp;#1091;&amp;#1094;&amp;#1072;&amp;#1114;&amp;#1091; &amp;#1082;&amp;#1072;&amp;#1086; &amp;#1096;&amp;#1090;&amp;#1086; &amp;#1089;&amp;#1091;
+          &lt;strong>ww&lt;/strong>.example.com &amp;#1091;&amp;#1084;&amp;#1077;&amp;#1089;&amp;#1090;&amp;#1086;
+          &lt;strong>www&lt;/strong>.example.com&lt;/li>
+        &lt;li>&amp;#1059;&amp;#1082;&amp;#1086;&amp;#1083;&amp;#1080;&amp;#1082;&amp;#1086; &amp;#1085;&amp;#1077; &amp;#1084;&amp;#1086;&amp;#1078;&amp;#1077;&amp;#1090;&amp;#1077; &amp;#1091;&amp;#1095;&amp;#1080;&amp;#1090;&amp;#1072;&amp;#1090;&amp;#1080; &amp;#1089;&amp;#1090;&amp;#1088;&amp;#1072;&amp;#1085;&amp;#1080;&amp;#1094;&amp;#1077;, &amp;#1087;&amp;#1088;&amp;#1086;&amp;#1074;&amp;#1077;&amp;#1088;&amp;#1080;&amp;#1090;&amp;#1077; &amp;#1080;&amp;#1085;&amp;#1090;&amp;#1077;&amp;#1088;&amp;#1085;&amp;#1077;&amp;#1090; &amp;#1085;&amp;#1072; &amp;#1074;&amp;#1072;&amp;#1096;&amp;#1077;&amp;#1084; &amp;#1090;&amp;#1077;&amp;#1083;&amp;#1077;&amp;#1092;&amp;#1086;&amp;#1085;&amp;#1091; &amp;#1080;&amp;#1083;&amp;#1080; Wi-Fi &amp;#1082;&amp;#1086;&amp;#1085;&amp;#1077;&amp;#1082;&amp;#1094;&amp;#1080;&amp;#1112;&amp;#1091;.&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">Сервер није пронађен</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#1042;&amp;#1077;&amp;#1073; &amp;#1072;&amp;#1076;&amp;#1088;&amp;#1077;&amp;#1089;&amp;#1077; &amp;#1089;&amp;#1077; &amp;#1086;&amp;#1073;&amp;#1080;&amp;#1095;&amp;#1085;&amp;#1086; &amp;#1087;&amp;#1080;&amp;#1096;&amp;#1091; &amp;#1082;&amp;#1072;&amp;#1086; &lt;strong>http://www.example.com/&lt;/strong>&lt;/li>
+  &lt;li>&amp;#1059;&amp;#1074;&amp;#1077;&amp;#1088;&amp;#1080;&amp;#1090;&amp;#1077; &amp;#1089;&amp;#1077; &amp;#1076;&amp;#1072; &amp;#1082;&amp;#1086;&amp;#1088;&amp;#1080;&amp;#1089;&amp;#1090;&amp;#1080;&amp;#1090;&amp;#1077; &amp;#1082;&amp;#1086;&amp;#1089;&amp;#1077; &amp;#1094;&amp;#1088;&amp;#1090;&amp;#1077; (&amp;#1090;&amp;#1112;. &lt;strong>/&lt;/strong>).&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">Адреса је неважећа</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#1055;&amp;#1088;&amp;#1086;&amp;#1073;&amp;#1083;&amp;#1077;&amp;#1084; &amp;#1087;&amp;#1086;&amp;#1085;&amp;#1077;&amp;#1082;&amp;#1072;&amp;#1076; &amp;#1084;&amp;#1086;&amp;#1078;&amp;#1077; &amp;#1073;&amp;#1080;&amp;#1090;&amp;#1080; &amp;#1080;&amp;#1079;&amp;#1072;&amp;#1079;&amp;#1074;&amp;#1072;&amp;#1085; &amp;#1086;&amp;#1085;&amp;#1077;&amp;#1084;&amp;#1086;&amp;#1075;&amp;#1091;&amp;#1115;&amp;#1072;&amp;#1074;&amp;#1072;&amp;#1114;&amp;#1077;&amp;#1084; &amp;#1080;&amp;#1083;&amp;#1080; &amp;#1086;&amp;#1076;&amp;#1073;&amp;#1080;&amp;#1112;&amp;#1072;&amp;#1114;&amp;#1077;&amp;#1084; &amp;#1087;&amp;#1088;&amp;#1080;&amp;#1093;&amp;#1074;&amp;#1072;&amp;#1090;&amp;#1072;&amp;#1114;&amp;#1072; &amp;#1082;&amp;#1086;&amp;#1083;&amp;#1072;&amp;#1095;&amp;#1080;&amp;#1115;&amp;#1072;.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">Страница се не преусмерава исправно</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#1054;&amp;#1074;&amp;#1086; &amp;#1073;&amp;#1080; &amp;#1084;&amp;#1086;&amp;#1075;&amp;#1072;&amp;#1086; &amp;#1073;&amp;#1080;&amp;#1090;&amp;#1080; &amp;#1087;&amp;#1088;&amp;#1086;&amp;#1073;&amp;#1083;&amp;#1077;&amp;#1084; &amp;#1089;&amp;#1072; &amp;#1087;&amp;#1086;&amp;#1076;&amp;#1077;&amp;#1096;&amp;#1072;&amp;#1074;&amp;#1072;&amp;#1114;&amp;#1080;&amp;#1084;&amp;#1072; &amp;#1089;&amp;#1077;&amp;#1088;&amp;#1074;&amp;#1077;&amp;#1088;&amp;#1072; &amp;#1080;&amp;#1083;&amp;#1080; &amp;#1089;&amp;#1077; &amp;#1084;&amp;#1086;&amp;#1078;&amp;#1076;&amp;#1072; &amp;#1085;&amp;#1077;&amp;#1082;&amp;#1086; &amp;#1087;&amp;#1088;&amp;#1077;&amp;#1076;&amp;#1089;&amp;#1090;&amp;#1072;&amp;#1074;&amp;#1113;&amp;#1072; &amp;#1082;&amp;#1072;&amp;#1086; &amp;#1089;&amp;#1077;&amp;#1088;&amp;#1074;&amp;#1077;&amp;#1088;.&lt;/li>
+  &lt;li>&amp;#1040;&amp;#1082;&amp;#1086; &amp;#1089;&amp;#1090;&amp;#1077; &amp;#1089;&amp;#1077; &amp;#1080; &amp;#1088;&amp;#1072;&amp;#1085;&amp;#1080;&amp;#1112;&amp;#1077; &amp;#1091;&amp;#1089;&amp;#1087;&amp;#1077;&amp;#1096;&amp;#1085;&amp;#1086; &amp;#1087;&amp;#1086;&amp;#1074;&amp;#1077;&amp;#1079;&amp;#1080;&amp;#1074;&amp;#1072;&amp;#1083;&amp;#1080; &amp;#1085;&amp;#1072; &amp;#1086;&amp;#1074;&amp;#1072;&amp;#1112; &amp;#1089;&amp;#1077;&amp;#1088;&amp;#1074;&amp;#1077;&amp;#1088;, &amp;#1075;&amp;#1088;&amp;#1077;&amp;#1096;&amp;#1082;&amp;#1072; &amp;#1084;&amp;#1086;&amp;#1078;&amp;#1077; &amp;#1073;&amp;#1080;&amp;#1090;&amp;#1080; &amp;#1087;&amp;#1088;&amp;#1080;&amp;#1074;&amp;#1088;&amp;#1077;&amp;#1084;&amp;#1077;&amp;#1085;&amp;#1072; &amp;#1080; &amp;#1084;&amp;#1086;&amp;#1078;&amp;#1077;&amp;#1090;&amp;#1077; &amp;#1087;&amp;#1086;&amp;#1085;&amp;#1086;&amp;#1074;&amp;#1086; &amp;#1087;&amp;#1086;&amp;#1082;&amp;#1091;&amp;#1096;&amp;#1072;&amp;#1090;&amp;#1080; &amp;#1082;&amp;#1072;&amp;#1089;&amp;#1085;&amp;#1080;&amp;#1112;&amp;#1077; &amp;#1076;&amp;#1072; &amp;#1084;&amp;#1091; &amp;#1087;&amp;#1088;&amp;#1080;&amp;#1089;&amp;#1090;&amp;#1091;&amp;#1087;&amp;#1080;&amp;#1090;&amp;#1077;.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">Безбедна веза није успостављена</string>
+    <string name="error_timeout_title">Веза је истекла</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#1052;&amp;#1086;&amp;#1078;&amp;#1076;&amp;#1072; &amp;#1115;&amp;#1077;&amp;#1090;&amp;#1077; &amp;#1084;&amp;#1086;&amp;#1088;&amp;#1072;&amp;#1090;&amp;#1080; &amp;#1080;&amp;#1085;&amp;#1089;&amp;#1090;&amp;#1072;&amp;#1083;&amp;#1080;&amp;#1088;&amp;#1072;&amp;#1090;&amp;#1080; &amp;#1076;&amp;#1088;&amp;#1091;&amp;#1075;&amp;#1080; &amp;#1089;&amp;#1086;&amp;#1092;&amp;#1090;&amp;#1074;&amp;#1077;&amp;#1088; &amp;#1076;&amp;#1072; &amp;#1073;&amp;#1080;&amp;#1089;&amp;#1090;&amp;#1077; &amp;#1086;&amp;#1090;&amp;#1074;&amp;#1086;&amp;#1088;&amp;#1080;&amp;#1083;&amp;#1080; &amp;#1086;&amp;#1074;&amp;#1091; &amp;#1072;&amp;#1076;&amp;#1088;&amp;#1077;&amp;#1089;&amp;#1091;.&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">Нејасна адреса</string>
+    <string name="errorpage_refresh">Покушај поново</string>
+    <string name="errorpage_title">Проблем при учитавању странице</string>
+    <string name="external_app_prompt">Можете угасити %1$s да отворите ову везу у %2$s.</string>
+    <string name="external_app_prompt_no_app">Ниједна апликација на вашем уређају не може отворити ову везу. Можете угасити %1$s и претражити %2$s да бисте нашли неку.</string>
+    <string name="external_app_prompt_no_app_title">Пронађите апликацију која може отворити ову везу</string>
+    <string name="external_app_prompt_title">Отворите везу у другој апликацији</string>
+    <string name="external_multiple_apps_matched_exit">Изаћи из приватног режима?</string>
+    <string name="feedback_erase">Ваш историјат прегледања је обрисан.</string>
+    <string name="find_in_page">Пронађи на страници</string>
+    <string name="find_in_page_input">Пронађи на страници</string>
+    <string name="find_in_page_result">%1$d/%2$d</string>
+    <string name="firstrun_close_button">Разумем!</string>
+    <string name="firstrun_defaultbrowser_text2">Побољшајте приватност током сурфовања. Блокирајте рекламе и друге саржаје који вас прати путем сајтова и убрзајте учитавање страница.</string>
+    <string name="firstrun_defaultbrowser_title">Ојачајте вашу приватност</string>
+    <string name="firstrun_next_button">Следеће</string>
+    <string name="firstrun_privacy_text">Поставите %1$s као ваш подразумевани прегледач и побољшајте приватност током сурфовања када отворите веб странице из других апликација.</string>
+    <string name="firstrun_privacy_title">Учините приватност навиком</string>
+    <string name="firstrun_search_text">Тражите нешто другачије? Изаберите други подразумевани претраживач у поставкама.</string>
+    <string name="firstrun_search_title">Ваше претраге, ваш начин</string>
+    <string name="firstrun_shortcut_text">Вратите се на ваше омиљене сајтове у %1$s-у лако. Само изаберите \"Додај на екран телефона\" из %1$s менија.</string>
+    <string name="firstrun_shortcut_title">Додајте пречице на вашем почетном екрану</string>
+    <string name="firstrun_skip_button">Прескочи</string>
+    <string name="gv_prompt_clear">Обриши</string>
+    <string name="gv_prompt_password_hint">Лозинка</string>
+    <string name="gv_prompt_username_hint">Корисничко име</string>
+    <string name="http_auth_dialog_password">Лозинка</string>
+    <string name="http_auth_dialog_title">Потребна је провера идентитета</string>
+    <string name="http_auth_dialog_username">Корисничко име</string>
+    <string name="menu_about">О Focus-у за Android</string>
+    <string name="menu_add_to_home_screen">Додај на почетни екран</string>
+    <string name="menu_custom_tab_branding">Покреће га %1$s</string>
+    <string name="menu_help">Помоћ</string>
+    <string name="menu_open_with_a_browser2">Отвори у…</string>
+    <string name="menu_open_with_default_browser2">Отвори у %1$s</string>
+    <string name="menu_report_site_issue">Пријави проблем на сајту</string>
+    <string name="menu_rights">Ваша права</string>
+    <string name="menu_settings">Поставке</string>
+    <string name="menu_share">Подели…</string>
+    <string name="menu_trackers_blocked_title">Блокирани пратиоци</string>
+    <string name="menu_whats_new">Шта је ново</string>
+    <string name="notification_action_erase_and_open">Обриши и отвори</string>
+    <string name="notification_action_open">Отвори</string>
+    <string name="notification_browsing_session_channel_description">Обавештења вам омогућавају да обришете вашу %1$s сесију једним притиском. Не морате да отворите апликацију или да проверите шта се извршава у вашем прегледачу.</string>
+    <string name="notification_browsing_session_channel_name">Сесија за приватно прегледање</string>
+    <string name="notification_erase_text">Обришите историју прегледања</string>
+    <string name="preference_about">О %1$s</string>
+    <string name="preference_autocomplete_action_add">+ Додај URL</string>
+    <string name="preference_autocomplete_action_remove_content_description">Уклони</string>
+    <string name="preference_autocomplete_add_confirmation">Нови URL додат.</string>
+    <string name="preference_autocomplete_add_error">Добро проверите URL који сте унели.</string>
+    <string name="preference_autocomplete_add_example">Пример: example.com</string>
+    <string name="preference_autocomplete_add_example2">Пример: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">Налепите или унесите URL</string>
+    <string name="preference_autocomplete_add_title">URL за додавање</string>
+    <string name="preference_autocomplete_custom_summary">Додавање и управљање аутоматски завршеним URL адресама.</string>
+    <string name="preference_autocomplete_duplicate_url_error">URL већ постоји</string>
+    <string name="preference_autocomplete_learn_more">Сазнајте више</string>
+    <string name="preference_autocomplete_menu_remove">Уклони</string>
+    <string name="preference_autocomplete_preinstalled_summary">Омогућите како би %1$s аутоматски завршавао преко 450 популарних URL адреса у адресној траци.</string>
+    <string name="preference_autocomplete_subitem_customlist">Прилагођене URL адресе</string>
+    <string name="preference_autocomplete_title_add">Додај URL</string>
+    <string name="preference_autocomplete_title_remove">Уклони URL адресе</string>
+    <string name="preference_category_autocomplete_custom_urls">Прилагођене URL адресе</string>
+    <string name="preference_category_autocomplete_preinstalled">Подразумевана URL листа</string>
+    <string name="preference_category_cookies">Колачићи и подаци сајта</string>
+    <string name="preference_category_data_choices">Избори података</string>
+    <string name="preference_category_data_collection_use">Сакупљање и коришћење података</string>
+    <string name="preference_category_general">Општа</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">Перформансе</string>
+    <string name="preference_category_privacy">Приватност</string>
+    <string name="preference_category_search">Претраживач</string>
+    <string name="preference_category_switching_apps">Мењање апликација</string>
+    <string name="preference_category_tracking_protection">Заштита од праћења</string>
+    <string name="preference_category_web_content">Веб садржај</string>
+    <string name="preference_default_browser2">Постави %1$s као подразумевани прегледач</string>
+    <string name="preference_language">Језик</string>
+    <string name="preference_language_systemdefault">Системски подразумеван</string>
+    <string name="preference_mozilla_summary">О %1$s-у, помоћ</string>
+    <string name="preference_mozilla_telemetry2">Шаљи податке о употреби</string>
+    <string name="preference_mozilla_telemetry_summary">Сазнајте више</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla тежи ка прикупљању само оних података који су потребни да бисмо пружали и побољшали %1$s за све.</string>
+    <string name="preference_performance_block_javascript">Блокирај JavaScript</string>
+    <string name="preference_performance_block_javascript_summary">Странице се могу брже учитавати, али се могу и лоше понашати</string>
+    <string name="preference_performance_block_webfonts">Блокирај веб фонтове</string>
+    <string name="preference_performance_block_webfonts_summary">Иконице и слике се можда неће приказивати</string>
+    <string name="preference_performance_request_desktop_site">Захтевај десктоп сајт</string>
+    <string name="preference_privacy_and_security_header">Приватност и безбедност</string>
+    <string name="preference_privacy_and_security_summary">Праћење, колачићи, избори података</string>
+    <string name="preference_privacy_block_ads">Блокирај оглашиваче</string>
+    <string name="preference_privacy_block_ads_summary">Неке рекламе прате посете сајтова чак и када не кликнете на њих</string>
+    <string name="preference_privacy_block_analytics">Блокирај аналитичке пратиоце</string>
+    <string name="preference_privacy_block_analytics_summary">Користи се за сакупљање, анализирање и мерење активности као што су кликтање и скроловање</string>
+    <string name="preference_privacy_block_content">Блокирај пратиоце осталог садржаја</string>
+    <string name="preference_privacy_block_content_summary2">Омогућавање може утицати лоше на неке странице</string>
+    <string name="preference_privacy_block_social">Блокирај друштвене пратиоце</string>
+    <string name="preference_privacy_block_social_summary">Уграђене у сајтове како би пратиле ваше посете и приказивале дугмиће за дељење</string>
+    <string name="preference_privacy_category_cookies">Блокирај колачиће</string>
+    <string name="preference_privacy_notice">Обавештење о приватности</string>
+    <string name="preference_privacy_secure_mode">Потајни режим</string>
+    <string name="preference_privacy_should_block_cookies_no_option">Не</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">Само колачиће од трећих лица</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">Да</string>
+    <string name="preference_privacy_stealth_summary">Сакриј веб странице приликом мењања између апликација</string>
+    <string name="preference_search_add2">+ Додај претраживач</string>
+    <string name="preference_search_engine_default">Подразумевано</string>
+    <string name="preference_search_installed_search_engines">Инсталирани претраживачи</string>
+    <string name="preference_search_remove">Уклони</string>
+    <string name="preference_search_remove_title">Уклони претраживач</string>
+    <string name="preference_search_restore">Врати на подразумеване</string>
+    <string name="preference_search_summary">Постави подразумевано, аутоматски заврши</string>
+    <string name="preference_state_off">Искључено</string>
+    <string name="preference_state_on">Укључено</string>
+    <string name="preference_subitem_autocomplete">URL aутоматско завршавање</string>
+    <string name="preference_switch_autocomplete">Аутоматско завршавање</string>
+    <string name="search_add_confirmation">Нови претраживач додат.</string>
+    <string name="search_add_error_duplicate_name">Инсталирани претраживач већ користи то име.</string>
+    <string name="search_add_error_empty_name">Унесите име претраживача</string>
+    <string name="search_add_error_empty_search">Унесите текст за претрагу</string>
+    <string name="search_add_error_format">Проверите да ли се текст за претрагу поклапа са форматом примера</string>
+    <string name="search_add_manually_example">Пример: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">Име претраживача</string>
+    <string name="search_add_manually_save">Сачувај</string>
+    <string name="search_add_manually_string">Претражи текст за коришћење</string>
+    <string name="search_hint">Претражи %1$s</string>
+    <string name="search_menu_title">Претражи</string>
+    <string name="security_popup_insecure_connection">Несигурна веза</string>
+    <string name="security_popup_secure_connection">Безбедна веза</string>
+    <string name="security_popup_security_verified">Проверио: %1$s</string>
+    <string name="share_dialog_title">Подели преко</string>
+    <string name="shortcut_erase_long_label">Обриши историју прегледања</string>
+    <string name="shortcut_erase_short_label">Обриши</string>
+    <string name="site_security_icon_content_description">Безбедност сајта</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="tabs_tray_action_erase">Обриши историјат прегледања</string>
+    <string name="teaser">"Аутоматско приватно сурфовање.
+Сурфуј. Обриши. Понови."</string>
+    <string name="text_selection_search_action">Претражујте приватно</string>
+    <string name="urlbar_hint">Претражите или унесите адресу</string>
+    <string name="your_rights">Ваша права</string>
+    <string name="your_rights_content1">%1$s је бесплатан софтвер и отвореног кода направљен од стране Mozilla-е и других доприносиоца.</string>
+    <string name="your_rights_content2">%1$s вам је омогућен под условима &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Mozilla &amp;#1112;&amp;#1072;&amp;#1074;&amp;#1085;&amp;#1077; &amp;#1083;&amp;#1080;&amp;#1094;&amp;#1077;&amp;#1085;&amp;#1094;&amp;#1077;&lt;/a> и других лиценци отвореног кода.</string>
+    <string name="your_rights_content3">Немате никаква права нити лиценцу на заштитне знакове Mozilla фондације нити било шта слично, укључујући и Mozilla, Firefox или %1$s имена или логотипе. Додатне информације можете пронаћи &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>&amp;#1086;&amp;#1074;&amp;#1076;&amp;#1077;&lt;/a>.</string>
+    <string name="your_rights_content4">Додатни изворни код за %1$s је доступан под различитим бесплатним и &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>&amp;#1083;&amp;#1080;&amp;#1094;&amp;#1077;&amp;#1085;&amp;#1094;&amp;#1072;&amp;#1084;&amp;#1072;&lt;/a> отвореног кода.</string>
+    <string name="your_rights_content5">%1$s такође користи блок-листе пружане од стране Disconnect инкорпорације као одвојени и независни радови под &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>GNU General Public License v3&lt;/a> и доступним &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>&amp;#1086;&amp;#1074;&amp;#1076;&amp;#1077;&lt;/a>.</string>
+</resources>

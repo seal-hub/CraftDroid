@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/item_root" n1:background="@drawable/big_banner_bg" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/item_view_base_internal" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/big_banner_vertical_margin" n1:layout_marginBottom="@dimen/big_banner_vertical_margin">
+        <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginTop="16.0dip" n1:layout_marginBottom="16.0dip">
+            <ru.mail.fragments.view.RoundedImageView n1:id="@id/ad_icon" n1:layout_width="56.0dip" n1:layout_height="56.0dip" n1:layout_marginLeft="16.0dip" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" n2:cropMargin="0.0dip" n2:cropRadius="10.0dip" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dip" n1:layout_marginRight="16.0dip" n1:layout_toLeftOf="@id/age_restriction" n1:layout_toRightOf="@id/ad_icon" n1:layout_centerVertical="true">
+                <TextView n1:textSize="12.0sp" n1:textColor="@color/big_ad_banner_advertisement_text_color" n1:id="@id/ad_title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/advertising" />
+                <TextView n1:textSize="16.0sp" n1:textStyle="bold" n1:textColor="@color/black" n1:id="@id/subject" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="2" />
+                <TextView n1:textSize="14.0sp" n1:textColor="@color/big_ad_banner_advertisement_text_color" n1:id="@id/ad_social_context" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <include layout="@layout/big_banner_img_with_placeholder" />
+        <include layout="@layout/big_ad_body_container" />
+    </LinearLayout>
+    <ImageView n1:layout_gravity="end" n1:id="@id/ad_choices" n1:layout_width="15.0dip" n1:layout_height="16.0dip" n1:layout_marginTop="10.0dip" />
+    <FrameLayout n1:id="@id/progress_bar" n1:background="@color/white" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginTop="@dimen/big_banner_vertical_margin" n1:layout_marginBottom="@dimen/big_banner_vertical_margin">
+        <ProgressBar n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

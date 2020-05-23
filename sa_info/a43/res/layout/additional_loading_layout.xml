@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="80.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ProgressBar n1:id="@id/pull_to_refresh_progress" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:indeterminate="true" n1:layout_centerInParent="true" style="@style/ProgressBar.Large" />
+    <ImageView n1:id="@id/pull_to_refresh_image" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dip" n1:layout_centerVertical="true" n2:srcCompat="@drawable/mail_app_no_connection" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <Button n1:textSize="13.0sp" n1:id="@id/repeat" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="35.0dip" n1:layout_marginRight="3.0dip" n1:minHeight="0.0dip" n1:text="@string/repeat" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+    <TextView n1:textSize="13.0sp" n1:textStyle="bold" n1:textColor="@color/mapp_light_gray" n1:id="@id/center_title" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dip" n1:text="@string/no_connection" n1:layout_toLeftOf="@id/repeat" n1:layout_toRightOf="@id/pull_to_refresh_image" n1:layout_centerVertical="true" />
+</RelativeLayout>

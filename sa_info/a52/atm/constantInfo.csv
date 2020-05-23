@@ -1,0 +1,41 @@
+constantId,packageIn,methodIn,methodRefClass,methodRef,codeUnit,varName,varClass,varRefClass
+2130903040,com.appsbyvir.tipcalculator.MainActivity,onCreate,com.appsbyvir.tipcalculator.MainActivity,setContentView,virtualinvoke $r0.<com.appsbyvir.tipcalculator.MainActivity: void setContentView(int)>(2130903040),,,
+255,com.appsbyvir.tipcalculator.MainActivity,onCreate,com.appflood.AppFlood,initialize,staticinvoke <com.appflood.AppFlood: void initialize(android.content.Context,java.lang.String,java.lang.String,int)>($r0, "lZXiVJ0O6TvojUm8", "VSiRZaCA2ee0L52d6a92f", 255),,,
+0,com.appsbyvir.tipcalculator.MainActivity,onCreate,com.appflood.AppFlood,showBanner,staticinvoke <com.appflood.AppFlood: void showBanner(android.app.Activity,int,int)>($r0, 0, 17),,,
+17,com.appsbyvir.tipcalculator.MainActivity,onCreate,com.appflood.AppFlood,showBanner,staticinvoke <com.appflood.AppFlood: void showBanner(android.app.Activity,int,int)>($r0, 0, 17),,,
+2131230725,com.appsbyvir.tipcalculator.MainActivity,onCreate,com.appsbyvir.tipcalculator.MainActivity,findViewById,$r2 = virtualinvoke $r0.<com.appsbyvir.tipcalculator.MainActivity: android.view.View findViewById(int)>(2131230725),billBeforeTipET,android.widget.EditText,com.appsbyvir.tipcalculator.MainActivity
+2131230721,com.appsbyvir.tipcalculator.MainActivity,onCreate,com.appsbyvir.tipcalculator.MainActivity,findViewById,$r2 = virtualinvoke $r0.<com.appsbyvir.tipcalculator.MainActivity: android.view.View findViewById(int)>(2131230721),tipAmountET,android.widget.EditText,com.appsbyvir.tipcalculator.MainActivity
+2131230722,com.appsbyvir.tipcalculator.MainActivity,onCreate,com.appsbyvir.tipcalculator.MainActivity,findViewById,$r2 = virtualinvoke $r0.<com.appsbyvir.tipcalculator.MainActivity: android.view.View findViewById(int)>(2131230722),finalBillET,android.widget.EditText,com.appsbyvir.tipcalculator.MainActivity
+2131230724,com.appsbyvir.tipcalculator.MainActivity,onCreate,com.appsbyvir.tipcalculator.MainActivity,findViewById,$r2 = virtualinvoke $r0.<com.appsbyvir.tipcalculator.MainActivity: android.view.View findViewById(int)>(2131230724),finalTipET,android.widget.EditText,com.appsbyvir.tipcalculator.MainActivity
+2131230734,com.appsbyvir.tipcalculator.MainActivity,onCreate,com.appsbyvir.tipcalculator.MainActivity,findViewById,$r2 = virtualinvoke $r0.<com.appsbyvir.tipcalculator.MainActivity: android.view.View findViewById(int)>(2131230734),perPersonET,android.widget.EditText,com.appsbyvir.tipcalculator.MainActivity
+2131230731,com.appsbyvir.tipcalculator.MainActivity,onCreate,com.appsbyvir.tipcalculator.MainActivity,findViewById,$r2 = virtualinvoke $r0.<com.appsbyvir.tipcalculator.MainActivity: android.view.View findViewById(int)>(2131230731),splitBillET,android.widget.EditText,com.appsbyvir.tipcalculator.MainActivity
+2131230720,com.appsbyvir.tipcalculator.MainActivity,onCreate,com.appsbyvir.tipcalculator.MainActivity,findViewById,$r2 = virtualinvoke $r0.<com.appsbyvir.tipcalculator.MainActivity: android.view.View findViewById(int)>(2131230720),tipSeekBar,android.widget.SeekBar,com.appsbyvir.tipcalculator.MainActivity
+1,com.appflood.AppFlood,initialize,com.appflood.AppFlood,initialize,staticinvoke <com.appflood.AppFlood: void initialize(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)>($r0, $r1, $r2, null, null, $i0, 1),,,
+-1,com.appflood.AppFlood,showBanner,android.widget.FrameLayout$LayoutParams,<init>,specialinvoke $r2.<android.widget.FrameLayout$LayoutParams: void <init>(int,int)>(-1, -2),,,
+-2,com.appflood.AppFlood,showBanner,android.widget.FrameLayout$LayoutParams,<init>,specialinvoke $r2.<android.widget.FrameLayout$LayoutParams: void <init>(int,int)>(-1, -2),,,
+1,com.appflood.c.e,a,com.appflood.c.f,a,staticinvoke <com.appflood.c.f: void a(android.content.Context,boolean)>($r1, 1),,,
+0,com.appflood.AFBannerView,init,com.appflood.AFBannerView,setBackgroundColor,virtualinvoke $r0.<com.appflood.AFBannerView: void setBackgroundColor(int)>(0),,,
+0,com.appflood.e.c,a,android.location.LocationManager,getBestProvider,$r4 = virtualinvoke $r5.<android.location.LocationManager: java.lang.String getBestProvider(android.location.Criteria,boolean)>($r6, 0),,,
+0,com.appflood.e.c,a,android.net.ConnectivityManager,getNetworkInfo,$r17 = virtualinvoke $r16.<android.net.ConnectivityManager: android.net.NetworkInfo getNetworkInfo(int)>(0),,,
+1,com.appflood.e.c,a,android.net.ConnectivityManager,getNetworkInfo,$r17 = virtualinvoke $r16.<android.net.ConnectivityManager: android.net.NetworkInfo getNetworkInfo(int)>(1),,,
+0,com.appflood.e.c,a,android.content.pm.PackageManager,queryIntentActivities,$r23 = virtualinvoke $r22.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r20, 0),,,
+0,com.appflood.c.f,a,java.lang.String,charAt,$c1 = virtualinvoke $r7.<java.lang.String: char charAt(int)>(0),,,
+0,com.appflood.c.f,a,java.lang.String,charAt,$c1 = virtualinvoke $r7.<java.lang.String: char charAt(int)>(0),,,
+1,com.appflood.c.d,i,java.lang.String,substring,$r0 = virtualinvoke $r0.<java.lang.String: java.lang.String substring(int)>(1),,,
+0,com.appflood.c.d,i,com.appflood.b.b,<init>,specialinvoke $r7.<com.appflood.b.b: void <init>(java.lang.String,byte)>($r0, 0),,,
+4,com.appflood.b.a,<init>,java.util.ArrayList,<init>,specialinvoke $r3.<java.util.ArrayList: void <init>(int)>(4),,,
+1,com.appflood.a.a,<init>,android.content.Context,getDir,$r3 = virtualinvoke $r2.<android.content.Context: java.io.File getDir(java.lang.String,int)>($r1, 1),a,java.io.File,com.appflood.a.a
+63,com.appflood.e.k,a,java.lang.StringBuilder,append,virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(63),,,
+61,com.appflood.e.k,a,java.lang.StringBuilder,append,$r7 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(61),,,
+38,com.appflood.e.k,a,java.lang.StringBuilder,append,virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(38),,,
+38,com.appflood.e.k,a,java.lang.StringBuilder,append,virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(38),,,
+0,com.appflood.e.a,a,java.io.ByteArrayOutputStream,write,virtualinvoke $r1.<java.io.ByteArrayOutputStream: void write(byte[],int,int)>($r2, 0, $i0),,,
+0,com.appflood.b.a,c,com.appflood.b.b,a,virtualinvoke $r1.<com.appflood.b.b: void a(boolean)>(0),,,
+61,com.appflood.e.a,a,java.lang.String,indexOf,$i0 = virtualinvoke $r6.<java.lang.String: int indexOf(int)>(61),,,
+0,com.appflood.e.a,a,java.lang.String,substring,$r5 = virtualinvoke $r6.<java.lang.String: java.lang.String substring(int,int)>(0, $i0),,,
+1,com.appflood.e.j$b,a,javax.crypto.Cipher,init,virtualinvoke $r4.<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>(1, $r2, $r3),,,
+1,com.appflood.e.j$b,a,javax.crypto.Cipher,init,virtualinvoke $r4.<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>(1, $r2, $r3),,,
+1,com.appflood.e.j$b,a,javax.crypto.Cipher,init,virtualinvoke $r4.<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>(1, $r2, $r3),,,
+1,com.appflood.e.j$b,a,javax.crypto.Cipher,init,virtualinvoke $r4.<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>(1, $r2, $r3),,,
+1,com.appflood.e.j$b,a,javax.crypto.Cipher,init,virtualinvoke $r4.<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>(1, $r2, $r3),,,
+0,com.appflood.b.a,a,com.appflood.b.b,a,virtualinvoke $r6.<com.appflood.b.b: void a(boolean)>(0),,,

@@ -1,0 +1,511 @@
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_forgot_password_button",
+    "text": "Forgot Password?",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "oracle",
+    "score": 0.2942929678837079,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "sign_in_fragment_forgot_password_button"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_forgot_password_button",
+    "text": "Forgot Password?",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "gui",
+    "score": 0.2942929678837079,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/forgot_password_fragment_reset_password_button",
+    "text": "Reset Password",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Email",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "forgot_password_fragment_reset_password_button",
+        "id-prefix": "com.contextlogic.wish:id/",
+        "text": "Reset Password",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "Email",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "event_type": "gui",
+    "score": 0.20072446036883815,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/forgot_password_fragment_reset_password_button",
+    "text": "Reset Password",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Email",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "forgot_password_fragment_reset_password_button",
+        "id-prefix": "com.contextlogic.wish:id/",
+        "text": "Reset Password",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "Email",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "event_type": "gui",
+    "score": 0.18310771750084434,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.wish:id/forgot_password_fragment_email_text",
+    "text": "Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Type your email address",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "event_type": "oracle",
+    "score": 0.37026261096151025,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "id",
+      "forgot_password_fragment_email_text"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.wish:id/forgot_password_fragment_email_text",
+    "text": "Email",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Type your email address",
+    "stepping_events": [],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "event_type": "gui",
+    "score": 0.37026261096151025,
+    "action": [
+      "send_keys",
+      "n175773se@nkdjfq.al.net"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/forgot_password_fragment_reset_password_button",
+    "text": "Reset Password",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "b487750se@pkjekj.al.net",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_password_text",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "true",
+    "naf": "true",
+    "parent_text": "",
+    "sibling_text": "Email",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "forgot_password_fragment_reset_password_button",
+        "id-prefix": "com.contextlogic.wish:id/",
+        "text": "Reset Password",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "b487750se@pkjekj.al.net",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      },
+      {
+        "class": "android.widget.Button",
+        "resource-id": "",
+        "id-prefix": "",
+        "text": "OK",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.signin.SignInActivity",
+    "event_type": "gui",
+    "score": 0.33497997883441244,
+    "action": [
+      "send_keys",
+      "1qaz2wsX"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/sign_in_fragment_forgot_password_button",
+    "text": "Forgot Password?",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.login.signin.SignInActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/forgot_password_fragment_reset_password_button",
+    "text": "Reset Password",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Email",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "sign_in_fragment_forgot_password_button",
+        "id-prefix": "com.contextlogic.wish:id/",
+        "text": "Forgot Password?",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.login.signin.SignInActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      },
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "forgot_password_fragment_reset_password_button",
+        "id-prefix": "com.contextlogic.wish:id/",
+        "text": "Reset Password",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "Email",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "event_type": "gui",
+    "score": 0.19378105647247212,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/forgot_password_fragment_reset_password_button",
+    "text": "Reset Password",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Email",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "forgot_password_fragment_reset_password_button",
+        "id-prefix": "com.contextlogic.wish:id/",
+        "text": "Reset Password",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "Email",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "event_type": "gui",
+    "score": 0.19378105647247212,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.contextlogic.wish:id/forgot_password_fragment_reset_password_button",
+    "text": "Reset Password",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "Email",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "package": "com.contextlogic.wish",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "forgot_password_fragment_reset_password_button",
+        "id-prefix": "com.contextlogic.wish:id/",
+        "text": "Reset Password",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "Email",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+        "package": "com.contextlogic.wish",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "com.contextlogic.wish",
+    "activity": ".activity.login.forgotpassword.ForgotPasswordActivity",
+    "event_type": "gui",
+    "score": 0.18316267506250072,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "EMPTY_EVENT",
+    "score": 0,
+    "event_type": "oracle"
+  }
+]

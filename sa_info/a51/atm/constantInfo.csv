@@ -1,0 +1,16 @@
+constantId,packageIn,methodIn,methodRefClass,methodRef,codeUnit,varName,varClass,varRefClass
+2130903040,anti.tip.Tip,onCreate,anti.tip.Tip,setContentView,virtualinvoke $r0.<anti.tip.Tip: void setContentView(int)>(2130903040),,,
+2131034113,anti.tip.Tip,onCreate,anti.tip.Tip,findViewById,$r2 = virtualinvoke $r0.<anti.tip.Tip: android.view.View findViewById(int)>(2131034113),textBill,android.widget.TextView,anti.tip.Tip
+2131034117,anti.tip.Tip,onCreate,anti.tip.Tip,findViewById,$r2 = virtualinvoke $r0.<anti.tip.Tip: android.view.View findViewById(int)>(2131034117),textPercent,android.widget.TextView,anti.tip.Tip
+2131034115,anti.tip.Tip,onCreate,anti.tip.Tip,findViewById,$r2 = virtualinvoke $r0.<anti.tip.Tip: android.view.View findViewById(int)>(2131034115),textPeople,android.widget.TextView,anti.tip.Tip
+2131034119,anti.tip.Tip,onCreate,anti.tip.Tip,findViewById,$r2 = virtualinvoke $r0.<anti.tip.Tip: android.view.View findViewById(int)>(2131034119),textTipEach,android.widget.TextView,anti.tip.Tip
+2131034121,anti.tip.Tip,onCreate,anti.tip.Tip,findViewById,$r2 = virtualinvoke $r0.<anti.tip.Tip: android.view.View findViewById(int)>(2131034121),textTip,android.widget.TextView,anti.tip.Tip
+2131034123,anti.tip.Tip,onCreate,anti.tip.Tip,findViewById,$r2 = virtualinvoke $r0.<anti.tip.Tip: android.view.View findViewById(int)>(2131034123),textEach,android.widget.TextView,anti.tip.Tip
+2131034125,anti.tip.Tip,onCreate,anti.tip.Tip,findViewById,$r2 = virtualinvoke $r0.<anti.tip.Tip: android.view.View findViewById(int)>(2131034125),textTotal,android.widget.TextView,anti.tip.Tip
+2131034114,anti.tip.Tip,onCreate,anti.tip.Tip,findViewById,$r2 = virtualinvoke $r0.<anti.tip.Tip: android.view.View findViewById(int)>(2131034114),editBill,android.widget.EditText,anti.tip.Tip
+2131034118,anti.tip.Tip,onCreate,anti.tip.Tip,findViewById,$r2 = virtualinvoke $r0.<anti.tip.Tip: android.view.View findViewById(int)>(2131034118),editPercent,android.widget.EditText,anti.tip.Tip
+2131034116,anti.tip.Tip,onCreate,anti.tip.Tip,findViewById,$r2 = virtualinvoke $r0.<anti.tip.Tip: android.view.View findViewById(int)>(2131034116),editPeople,android.widget.EditText,anti.tip.Tip
+2131034120,anti.tip.Tip,onCreate,anti.tip.Tip,findViewById,$r2 = virtualinvoke $r0.<anti.tip.Tip: android.view.View findViewById(int)>(2131034120),editTipEach,android.widget.EditText,anti.tip.Tip
+2131034122,anti.tip.Tip,onCreate,anti.tip.Tip,findViewById,$r2 = virtualinvoke $r0.<anti.tip.Tip: android.view.View findViewById(int)>(2131034122),editTip,android.widget.EditText,anti.tip.Tip
+2131034124,anti.tip.Tip,onCreate,anti.tip.Tip,findViewById,$r2 = virtualinvoke $r0.<anti.tip.Tip: android.view.View findViewById(int)>(2131034124),editEach,android.widget.EditText,anti.tip.Tip
+2131034126,anti.tip.Tip,onCreate,anti.tip.Tip,findViewById,$r2 = virtualinvoke $r0.<anti.tip.Tip: android.view.View findViewById(int)>(2131034126),editTotal,android.widget.EditText,anti.tip.Tip

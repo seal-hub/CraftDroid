@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Οι διευθύνσεις αντιγράφηκαν στο πρόχειρο</item>
+        <item quantity="one">Η διεύθυνση αντιγράφηκε στο πρόχειρο</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Θέλετε πράγματι να διαγράψετε %1$d μηνύματα;</item>
+        <item quantity="one">Θέλετε πράγματι να διαγράψετε αυτό το μήνυμα;</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Θέλετε πραγματικά να μετακινήσετε %1$d μηνύματα στο φάκελο ανεπιθύμητης αλληλογραφίας;</item>
+        <item quantity="one">Θέλετε πράγματι να μετακινήσετε αυτό το μήνυμα στο φάκελο σκουπιδιών;</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d νέα μηνύματα</item>
+        <item quantity="one">%d νέο μήνυμα</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s λογαριασμοί</item>
+        <item quantity="one">1 λογαριασμός</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">συνθηματικά για τον εξυπηρέτη</item>
+        <item quantity="one">συνθηματικό για τον εξυπηρέτη</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Καθορισμός συνθηματικών…</item>
+        <item quantity="one">Καθορισμός συνθηματικού…</item>
+    </plurals>
+</resources>

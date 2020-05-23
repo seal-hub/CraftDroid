@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <color n1:color="@color/big_ad_banner_bg_color"
+          xmlns:n1="http://schemas.android.com/apk/res/android" />
+    </item>
+    <item n2:left="-1.0dip" n2:top="-1.0dip" n2:right="-1.0dip"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <shape>
+            <stroke n2:width="0.5dip" n2:color="@color/divider_primary" />
+        </shape>
+    </item>
+</layer-list>

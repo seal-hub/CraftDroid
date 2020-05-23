@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">นำทางไปหน้าแรก</string>
+    <string name="abc_action_bar_up_description">นำทางขึ้น</string>
+    <string name="abc_action_menu_overflow_description">ตัวเลือกอื่น</string>
+    <string name="abc_action_mode_done">เสร็จสิ้น</string>
+    <string name="abc_activity_chooser_view_see_all">ดูทั้งหมด</string>
+    <string name="abc_activitychooserview_choose_application">เลือกแอป</string>
+    <string name="abc_capital_off">ปิด</string>
+    <string name="abc_capital_on">เปิด</string>
+    <string name="abc_search_hint">ค้นหา…</string>
+    <string name="abc_searchview_description_clear">ล้างข้อความค้นหา</string>
+    <string name="abc_searchview_description_query">ข้อความค้นหา</string>
+    <string name="abc_searchview_description_search">ค้นหา</string>
+    <string name="abc_searchview_description_submit">ส่งข้อความค้นหา</string>
+    <string name="abc_searchview_description_voice">ค้นหาด้วยเสียง</string>
+    <string name="abc_shareactionprovider_share_with">แชร์กับ</string>
+    <string name="abc_shareactionprovider_share_with_application">แชร์ทาง %s</string>
+    <string name="abc_toolbar_collapse_description">ยุบ</string>
+    <string name="about_content">"&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s &amp;#3651;&amp;#3627;&amp;#3657;&amp;#3588;&amp;#3640;&amp;#3603;&amp;#3652;&amp;#3604;&amp;#3657;&amp;#3588;&amp;#3623;&amp;#3610;&amp;#3588;&amp;#3640;&amp;#3617;&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#3651;&amp;#3594;&amp;#3657;&amp;#3648;&amp;#3611;&amp;#3655;&amp;#3609;&amp;#3648;&amp;#3610;&amp;#3619;&amp;#3634;&amp;#3623;&amp;#3660;&amp;#3648;&amp;#3595;&amp;#3629;&amp;#3619;&amp;#3660;&amp;#3626;&amp;#3656;&amp;#3623;&amp;#3609;&amp;#3605;&amp;#3633;&amp;#3623;:
+  &lt;ul>
+    &lt;li>&amp;#3588;&amp;#3657;&amp;#3609;&amp;#3627;&amp;#3634;&amp;#3649;&amp;#3621;&amp;#3632;&amp;#3607;&amp;#3656;&amp;#3629;&amp;#3591;&amp;#3648;&amp;#3623;&amp;#3655;&amp;#3610;&amp;#3592;&amp;#3634;&amp;#3585;&amp;#3651;&amp;#3609;&amp;#3649;&amp;#3629;&amp;#3611;&lt;/li>
+    &lt;li>&amp;#3611;&amp;#3636;&amp;#3604;&amp;#3585;&amp;#3633;&amp;#3657;&amp;#3609;&amp;#3605;&amp;#3633;&amp;#3623;&amp;#3605;&amp;#3636;&amp;#3604;&amp;#3605;&amp;#3634;&amp;#3617; (&amp;#3627;&amp;#3619;&amp;#3639;&amp;#3629;&amp;#3629;&amp;#3633;&amp;#3611;&amp;#3648;&amp;#3604;&amp;#3605;&amp;#3585;&amp;#3634;&amp;#3619;&amp;#3605;&amp;#3633;&amp;#3657;&amp;#3591;&amp;#3588;&amp;#3656;&amp;#3634;&amp;#3648;&amp;#3614;&amp;#3639;&amp;#3656;&amp;#3629;&amp;#3629;&amp;#3609;&amp;#3640;&amp;#3597;&amp;#3634;&amp;#3605;&amp;#3605;&amp;#3633;&amp;#3623;&amp;#3605;&amp;#3636;&amp;#3604;&amp;#3605;&amp;#3634;&amp;#3617;)&lt;/li>
+    &lt;li>&amp;#3621;&amp;#3657;&amp;#3634;&amp;#3591;&amp;#3648;&amp;#3614;&amp;#3639;&amp;#3656;&amp;#3629;&amp;#3621;&amp;#3610;&amp;#3588;&amp;#3640;&amp;#3585;&amp;#3585;&amp;#3637;&amp;#3657;&amp;#3619;&amp;#3623;&amp;#3617;&amp;#3607;&amp;#3633;&amp;#3657;&amp;#3591;&amp;#3611;&amp;#3619;&amp;#3632;&amp;#3623;&amp;#3633;&amp;#3605;&amp;#3636;&amp;#3585;&amp;#3634;&amp;#3619;&amp;#3588;&amp;#3657;&amp;#3609;&amp;#3627;&amp;#3634;&amp;#3649;&amp;#3621;&amp;#3632;&amp;#3585;&amp;#3634;&amp;#3619;&amp;#3607;&amp;#3656;&amp;#3629;&amp;#3591;&amp;#3648;&amp;#3623;&amp;#3655;&amp;#3610;&lt;/li>
+  &lt;/ul>
+&lt;/p>
+&lt;p xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>%1$s &amp;#3606;&amp;#3641;&amp;#3585;&amp;#3626;&amp;#3619;&amp;#3657;&amp;#3634;&amp;#3591;&amp;#3586;&amp;#3638;&amp;#3657;&amp;#3609;&amp;#3650;&amp;#3604;&amp;#3618; Mozilla &amp;#3616;&amp;#3634;&amp;#3619;&amp;#3585;&amp;#3636;&amp;#3592;&amp;#3586;&amp;#3629;&amp;#3591;&amp;#3648;&amp;#3619;&amp;#3634;&amp;#3588;&amp;#3639;&amp;#3629;&amp;#3626;&amp;#3656;&amp;#3591;&amp;#3648;&amp;#3626;&amp;#3619;&amp;#3636;&amp;#3617;&amp;#3629;&amp;#3636;&amp;#3609;&amp;#3648;&amp;#3607;&amp;#3629;&amp;#3619;&amp;#3660;&amp;#3648;&amp;#3609;&amp;#3655;&amp;#3605;&amp;#3607;&amp;#3637;&amp;#3656;&amp;#3626;&amp;#3617;&amp;#3610;&amp;#3641;&amp;#3619;&amp;#3603;&amp;#3660;&amp;#3649;&amp;#3621;&amp;#3632;&amp;#3648;&amp;#3611;&amp;#3636;&amp;#3604;&amp;#3585;&amp;#3623;&amp;#3657;&amp;#3634;&amp;#3591;&lt;br/>
+&lt;a href=%2$s>&amp;#3648;&amp;#3619;&amp;#3637;&amp;#3618;&amp;#3609;&amp;#3619;&amp;#3641;&amp;#3657;&amp;#3648;&amp;#3614;&amp;#3636;&amp;#3656;&amp;#3617;&amp;#3648;&amp;#3605;&amp;#3636;&amp;#3617;&lt;/a>&lt;/p>"</string>
+    <string name="accessibility_announcement_loading">กำลังโหลด</string>
+    <string name="accessibility_announcement_loading_finished">โหลดเว็บไซต์แล้ว</string>
+    <string name="accessibility_dismiss_find_in_page">ยกเลิกการค้นหาในหน้า</string>
+    <string name="accessibility_find_in_page_result">%1$d จาก %2$d</string>
+    <string name="accessibility_next_result">ค้นหาผลลัพธ์ถัดไป</string>
+    <string name="accessibility_previous_result">ค้นหาผลลัพธ์ก่อนหน้า</string>
+    <string name="action_cancel">ยกเลิก</string>
+    <string name="action_ok">ตกลง</string>
+    <string name="action_option_add_search_engine">เพิ่มเครื่องมือค้นหา</string>
+    <string name="action_save">บันทึก</string>
+    <string name="common_google_play_services_enable_button">เปิดใช้</string>
+    <string name="common_google_play_services_enable_text">%1$s จะไม่ทำงานจนกว่าคุณจะเปิดใช้บริการ Google Play</string>
+    <string name="common_google_play_services_enable_title">เปิดใช้บริการ Google Play</string>
+    <string name="common_google_play_services_install_button">ติดตั้ง</string>
+    <string name="common_google_play_services_install_text">%1$s จะไม่ทำงานหากไม่มีบริการ Google Play ซี่งไม่มีในอุปกรณ์ของคุณ</string>
+    <string name="common_google_play_services_install_title">ติดตั้งบริการ Google Play</string>
+    <string name="common_google_play_services_notification_ticker">ข้อผิดพลาดของบริการ Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s มีปัญหาเกี่ยวกับบริการของ Google Play โปรดลองอีกครั้ง</string>
+    <string name="common_google_play_services_unsupported_text">%1$s จะไม่ทำงานหากไม่มีบริการ Google Play ซึ่งอุปกรณ์ของคุณไม่สนับสนุน</string>
+    <string name="common_google_play_services_update_button">อัปเดต</string>
+    <string name="common_google_play_services_update_text">%1$s จะไม่ทำงานจนกว่าคุณจะอัปเดตบริการ Google Play</string>
+    <string name="common_google_play_services_update_title">อัปเดตบริการ Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s จะไม่ทำงานหากไม่มีบริการ Google Play ซึ่งกำลังอัปเดตอยู่ในขณะนี้</string>
+    <string name="common_google_play_services_wear_update_text">จำเป็นต้องใช้บริการ Google Play เวอร์ชันใหม่ ซึ่งจะอัปเดตอัตโนมัติในอีกไม่ช้า</string>
+    <string name="common_open_on_phone">เปิดบนโทรศัพท์</string>
+    <string name="common_signin_button_text">ลงชื่อเข้าใช้</string>
+    <string name="common_signin_button_text_long">ลงชื่อเข้าใช้ด้วย Google</string>
+    <string name="content_blocking_disabled">-</string>
+    <string name="content_description_back">นำทางย้อนกลับ</string>
+    <string name="content_description_blocking_switch">ปิดกั้นตัวติดตาม</string>
+    <string name="content_description_clear_input">ล้างข้อมูลที่ป้อน</string>
+    <string name="content_description_customtab_exit">กลับไปที่แอปก่อนหน้า</string>
+    <string name="content_description_dismiss_input">ยกเลิก</string>
+    <string name="content_description_erase">ล้างประวัติการท่องเว็บ</string>
+    <string name="content_description_forward">นำทางเดินหน้า</string>
+    <string name="content_description_lock">การเชื่อมต่อปลอดภัย</string>
+    <string name="content_description_menu">ตัวเลือกเพิ่มเติม</string>
+    <string name="content_description_reload">โหลดเว็บไซต์ใหม่</string>
+    <string name="content_description_stop">หยุดการโหลดเว็บไซต์</string>
+    <string name="content_description_tab_counter">แท็บที่เปิดอยู่: %1$s</string>
+    <string name="contextmenu_image_copy">คัดลอกที่อยู่ภาพ</string>
+    <string name="contextmenu_image_save">บันทึกภาพ</string>
+    <string name="contextmenu_image_share">แบ่งปันภาพ</string>
+    <string name="contextmenu_image_warning">ภาพที่บันทึกไว้และแบ่งปัน&lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#3592;&amp;#3632;&amp;#3652;&amp;#3617;&amp;#3656;&amp;#3606;&amp;#3641;&amp;#3585;&amp;#3621;&amp;#3610;&lt;/b>เมื่อคุณล้างประวัติของ %1$s</string>
+    <string name="contextmenu_link_copy">คัดลอกที่อยู่ลิงก์</string>
+    <string name="contextmenu_link_share">แบ่งปันลิงก์</string>
+    <string name="contextmenu_open_in_new_tab">เปิดลิงก์ในแท็บใหม่</string>
+    <string name="custom_autocomplete_quick_add">เพิ่ม URL ที่กำหนดเอง</string>
+    <string name="custom_tab_copy_url_action">คัดลอก URL แล้ว</string>
+    <string name="dialog_addtohomescreen_action_add">เพิ่ม</string>
+    <string name="dialog_addtohomescreen_action_cancel">ยกเลิก</string>
+    <string name="dialog_addtohomescreen_tracking_protection">ทางลัดจะเปิดพร้อมปิดใช้งานการป้องกันการติดตาม</string>
+    <string name="download_dialog_action_cancel">ยกเลิก</string>
+    <string name="download_dialog_action_download">ดาวน์โหลด</string>
+    <string name="download_dialog_title">ดาวน์โหลดไฟล์</string>
+    <string name="download_dialog_warning">ไฟล์ที่ดาวน์โหลด&lt;b xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>&amp;#3592;&amp;#3632;&amp;#3652;&amp;#3617;&amp;#3656;&amp;#3606;&amp;#3641;&amp;#3585;&amp;#3621;&amp;#3610;&lt;/b>เมื่อคุณล้างประวัติของ %1$s</string>
+    <string name="download_firefox">ดาวน์โหลด Firefox</string>
+    <string name="download_snackbar_finished">%1$s เสร็จแล้ว</string>
+    <string name="download_snackbar_open">เปิด</string>
+    <string name="error_connectionfailure_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&amp;#3652;&amp;#3595;&amp;#3605;&amp;#3660;&amp;#3629;&amp;#3634;&amp;#3592;&amp;#3652;&amp;#3617;&amp;#3656;&amp;#3614;&amp;#3619;&amp;#3657;&amp;#3629;&amp;#3617;&amp;#3651;&amp;#3594;&amp;#3657;&amp;#3591;&amp;#3634;&amp;#3609;&amp;#3594;&amp;#3633;&amp;#3656;&amp;#3623;&amp;#3588;&amp;#3619;&amp;#3634;&amp;#3623;&amp;#3627;&amp;#3619;&amp;#3639;&amp;#3629;&amp;#3585;&amp;#3635;&amp;#3621;&amp;#3633;&amp;#3591;&amp;#3607;&amp;#3635;&amp;#3591;&amp;#3634;&amp;#3609;&amp;#3627;&amp;#3609;&amp;#3633;&amp;#3585;&amp;#3648;&amp;#3585;&amp;#3636;&amp;#3609;&amp;#3652;&amp;#3611; &amp;#3621;&amp;#3629;&amp;#3591;&amp;#3629;&amp;#3637;&amp;#3585;&amp;#3588;&amp;#3619;&amp;#3633;&amp;#3657;&amp;#3591;&amp;#3651;&amp;#3609;&amp;#3629;&amp;#3637;&amp;#3585;&amp;#3626;&amp;#3633;&amp;#3585;&amp;#3588;&amp;#3619;&amp;#3641;&amp;#3656;&lt;/li>
+        &lt;li>&amp;#3627;&amp;#3634;&amp;#3585;&amp;#3588;&amp;#3640;&amp;#3603;&amp;#3652;&amp;#3617;&amp;#3656;&amp;#3626;&amp;#3634;&amp;#3617;&amp;#3634;&amp;#3619;&amp;#3606;&amp;#3650;&amp;#3627;&amp;#3621;&amp;#3604;&amp;#3627;&amp;#3609;&amp;#3657;&amp;#3634;&amp;#3651;&amp;#3604; &amp;#3654; &amp;#3652;&amp;#3604;&amp;#3657; &amp;#3605;&amp;#3619;&amp;#3623;&amp;#3592;&amp;#3626;&amp;#3629;&amp;#3610;&amp;#3585;&amp;#3634;&amp;#3619;&amp;#3648;&amp;#3594;&amp;#3639;&amp;#3656;&amp;#3629;&amp;#3617;&amp;#3605;&amp;#3656;&amp;#3629;&amp;#3586;&amp;#3657;&amp;#3629;&amp;#3617;&amp;#3641;&amp;#3621;&amp;#3627;&amp;#3619;&amp;#3639;&amp;#3629; Wi-Fi &amp;#3586;&amp;#3629;&amp;#3591;&amp;#3629;&amp;#3640;&amp;#3611;&amp;#3585;&amp;#3619;&amp;#3603;&amp;#3660;&amp;#3617;&amp;#3639;&amp;#3629;&amp;#3606;&amp;#3639;&amp;#3629;&amp;#3586;&amp;#3629;&amp;#3591;&amp;#3588;&amp;#3640;&amp;#3603;&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_connectionfailure_title">ไม่สามารถเชื่อมต่อ</string>
+    <string name="error_generic_message">เราไม่สามารถโหลดหน้านี้ได้ด้วยเหตุผลบางอย่าง</string>
+    <string name="error_generic_title">อุปส์</string>
+    <string name="error_hostLookup_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+        &lt;li>&amp;#3605;&amp;#3619;&amp;#3623;&amp;#3592;&amp;#3626;&amp;#3629;&amp;#3610;&amp;#3586;&amp;#3657;&amp;#3629;&amp;#3612;&amp;#3636;&amp;#3604;&amp;#3614;&amp;#3621;&amp;#3634;&amp;#3604;&amp;#3651;&amp;#3609;&amp;#3585;&amp;#3634;&amp;#3619;&amp;#3614;&amp;#3636;&amp;#3617;&amp;#3614;&amp;#3660;&amp;#3607;&amp;#3637;&amp;#3656;&amp;#3629;&amp;#3618;&amp;#3641;&amp;#3656; &amp;#3629;&amp;#3618;&amp;#3656;&amp;#3634;&amp;#3591;&amp;#3648;&amp;#3594;&amp;#3656;&amp;#3609; &lt;strong>ww&lt;/strong>.example.com &amp;#3649;&amp;#3607;&amp;#3609;&amp;#3607;&amp;#3637;&amp;#3656;&amp;#3592;&amp;#3632;&amp;#3648;&amp;#3611;&amp;#3655;&amp;#3609; &lt;strong>www&lt;/strong>.example.com&lt;/li>
+        &lt;li>&amp;#3627;&amp;#3634;&amp;#3585;&amp;#3588;&amp;#3640;&amp;#3603;&amp;#3652;&amp;#3617;&amp;#3656;&amp;#3626;&amp;#3634;&amp;#3617;&amp;#3634;&amp;#3619;&amp;#3606;&amp;#3650;&amp;#3627;&amp;#3621;&amp;#3604;&amp;#3627;&amp;#3609;&amp;#3657;&amp;#3634;&amp;#3651;&amp;#3604; &amp;#3654; &amp;#3652;&amp;#3604;&amp;#3657; &amp;#3605;&amp;#3619;&amp;#3623;&amp;#3592;&amp;#3626;&amp;#3629;&amp;#3610;&amp;#3585;&amp;#3634;&amp;#3619;&amp;#3648;&amp;#3594;&amp;#3639;&amp;#3656;&amp;#3629;&amp;#3617;&amp;#3605;&amp;#3656;&amp;#3629;&amp;#3586;&amp;#3657;&amp;#3629;&amp;#3617;&amp;#3641;&amp;#3621;&amp;#3627;&amp;#3619;&amp;#3639;&amp;#3629; Wi-Fi &amp;#3586;&amp;#3629;&amp;#3591;&amp;#3629;&amp;#3640;&amp;#3611;&amp;#3585;&amp;#3619;&amp;#3603;&amp;#3660;&amp;#3586;&amp;#3629;&amp;#3591;&amp;#3588;&amp;#3640;&amp;#3603;&lt;/li>
+      &lt;/ul>"</string>
+    <string name="error_hostLookup_title">ไม่พบเซิร์ฟเวอร์</string>
+    <string name="error_malformedURI_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#3607;&amp;#3637;&amp;#3656;&amp;#3629;&amp;#3618;&amp;#3641;&amp;#3656;&amp;#3648;&amp;#3623;&amp;#3655;&amp;#3610;&amp;#3617;&amp;#3633;&amp;#3585;&amp;#3592;&amp;#3632;&amp;#3648;&amp;#3586;&amp;#3637;&amp;#3618;&amp;#3609;&amp;#3648;&amp;#3611;&amp;#3655;&amp;#3609; &lt;strong>http://www.example.com/&lt;/strong>&lt;/li>
+  &lt;li>&amp;#3605;&amp;#3619;&amp;#3623;&amp;#3592;&amp;#3626;&amp;#3629;&amp;#3610;&amp;#3651;&amp;#3627;&amp;#3657;&amp;#3649;&amp;#3609;&amp;#3656;&amp;#3651;&amp;#3592;&amp;#3623;&amp;#3656;&amp;#3634;&amp;#3588;&amp;#3640;&amp;#3603;&amp;#3651;&amp;#3594;&amp;#3657;&amp;#3648;&amp;#3588;&amp;#3619;&amp;#3639;&amp;#3656;&amp;#3629;&amp;#3591;&amp;#3627;&amp;#3617;&amp;#3634;&amp;#3618;&amp;#3607;&amp;#3633;&amp;#3610;&amp;#3652;&amp;#3611;&amp;#3586;&amp;#3657;&amp;#3634;&amp;#3591;&amp;#3627;&amp;#3609;&amp;#3657;&amp;#3634; (&amp;#3585;&amp;#3621;&amp;#3656;&amp;#3634;&amp;#3623;&amp;#3588;&amp;#3639;&amp;#3629; &lt;strong>/&lt;/strong>)&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_malformedURI_title">ที่อยู่ไม่ถูกต้อง</string>
+    <string name="error_redirectLoop_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#3611;&amp;#3633;&amp;#3597;&amp;#3627;&amp;#3634;&amp;#3609;&amp;#3637;&amp;#3657;&amp;#3610;&amp;#3634;&amp;#3591;&amp;#3588;&amp;#3619;&amp;#3633;&amp;#3657;&amp;#3591;&amp;#3629;&amp;#3634;&amp;#3592;&amp;#3617;&amp;#3637;&amp;#3626;&amp;#3634;&amp;#3648;&amp;#3627;&amp;#3605;&amp;#3640;&amp;#3617;&amp;#3634;&amp;#3592;&amp;#3634;&amp;#3585;&amp;#3585;&amp;#3634;&amp;#3619;&amp;#3611;&amp;#3636;&amp;#3604;&amp;#3651;&amp;#3594;&amp;#3657;&amp;#3591;&amp;#3634;&amp;#3609;&amp;#3627;&amp;#3619;&amp;#3639;&amp;#3629;&amp;#3611;&amp;#3599;&amp;#3636;&amp;#3648;&amp;#3626;&amp;#3608;&amp;#3585;&amp;#3634;&amp;#3619;&amp;#3618;&amp;#3629;&amp;#3617;&amp;#3619;&amp;#3633;&amp;#3610;&amp;#3588;&amp;#3640;&amp;#3585;&amp;#3585;&amp;#3637;&amp;#3657;&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_redirectLoop_title">หน้าไม่ได้เปลี่ยนเส้นทางอย่างถูกต้อง</string>
+    <string name="error_sslhandshake_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#3626;&amp;#3636;&amp;#3656;&amp;#3591;&amp;#3609;&amp;#3637;&amp;#3657;&amp;#3629;&amp;#3634;&amp;#3592;&amp;#3648;&amp;#3611;&amp;#3655;&amp;#3609;&amp;#3611;&amp;#3633;&amp;#3597;&amp;#3627;&amp;#3634;&amp;#3592;&amp;#3634;&amp;#3585;&amp;#3585;&amp;#3634;&amp;#3619;&amp;#3585;&amp;#3635;&amp;#3627;&amp;#3609;&amp;#3604;&amp;#3588;&amp;#3656;&amp;#3634;&amp;#3586;&amp;#3629;&amp;#3591;&amp;#3648;&amp;#3595;&amp;#3636;&amp;#3619;&amp;#3660;&amp;#3615;&amp;#3648;&amp;#3623;&amp;#3629;&amp;#3619;&amp;#3660; &amp;#3627;&amp;#3619;&amp;#3639;&amp;#3629;&amp;#3629;&amp;#3634;&amp;#3592;&amp;#3617;&amp;#3637;&amp;#3651;&amp;#3588;&amp;#3619;&amp;#3610;&amp;#3634;&amp;#3591;&amp;#3588;&amp;#3609;&amp;#3585;&amp;#3635;&amp;#3621;&amp;#3633;&amp;#3591;&amp;#3614;&amp;#3618;&amp;#3634;&amp;#3618;&amp;#3634;&amp;#3617;&amp;#3611;&amp;#3621;&amp;#3629;&amp;#3617;&amp;#3649;&amp;#3611;&amp;#3621;&amp;#3591;&amp;#3648;&amp;#3595;&amp;#3636;&amp;#3619;&amp;#3660;&amp;#3615;&amp;#3648;&amp;#3623;&amp;#3629;&amp;#3619;&amp;#3660;&lt;/li>
+  &lt;li>&amp;#3627;&amp;#3634;&amp;#3585;&amp;#3588;&amp;#3640;&amp;#3603;&amp;#3648;&amp;#3588;&amp;#3618;&amp;#3648;&amp;#3594;&amp;#3639;&amp;#3656;&amp;#3629;&amp;#3617;&amp;#3605;&amp;#3656;&amp;#3629;&amp;#3585;&amp;#3633;&amp;#3610;&amp;#3648;&amp;#3595;&amp;#3636;&amp;#3619;&amp;#3660;&amp;#3615;&amp;#3648;&amp;#3623;&amp;#3629;&amp;#3619;&amp;#3660;&amp;#3609;&amp;#3637;&amp;#3657;&amp;#3626;&amp;#3635;&amp;#3648;&amp;#3619;&amp;#3655;&amp;#3592;&amp;#3651;&amp;#3609;&amp;#3629;&amp;#3604;&amp;#3637;&amp;#3605; &amp;#3586;&amp;#3657;&amp;#3629;&amp;#3612;&amp;#3636;&amp;#3604;&amp;#3614;&amp;#3621;&amp;#3634;&amp;#3604;&amp;#3629;&amp;#3634;&amp;#3592;&amp;#3648;&amp;#3585;&amp;#3636;&amp;#3604;&amp;#3586;&amp;#3638;&amp;#3657;&amp;#3609;&amp;#3648;&amp;#3614;&amp;#3637;&amp;#3618;&amp;#3591;&amp;#3594;&amp;#3633;&amp;#3656;&amp;#3623;&amp;#3588;&amp;#3619;&amp;#3634;&amp;#3623; &amp;#3649;&amp;#3621;&amp;#3632;&amp;#3588;&amp;#3640;&amp;#3603;&amp;#3626;&amp;#3634;&amp;#3617;&amp;#3634;&amp;#3619;&amp;#3606;&amp;#3621;&amp;#3629;&amp;#3591;&amp;#3629;&amp;#3637;&amp;#3585;&amp;#3588;&amp;#3619;&amp;#3633;&amp;#3657;&amp;#3591;&amp;#3651;&amp;#3609;&amp;#3616;&amp;#3634;&amp;#3618;&amp;#3627;&amp;#3621;&amp;#3633;&amp;#3591;&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_sslhandshake_title">การเชื่อมต่อปลอดภัยล้มเหลว</string>
+    <string name="error_timeout_title">การเชื่อมต่อหมดเวลา</string>
+    <string name="error_unsupportedprotocol_message">"&lt;ul xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2>
+  &lt;li>&amp;#3588;&amp;#3640;&amp;#3603;&amp;#3629;&amp;#3634;&amp;#3592;&amp;#3592;&amp;#3635;&amp;#3648;&amp;#3611;&amp;#3655;&amp;#3609;&amp;#3605;&amp;#3657;&amp;#3629;&amp;#3591;&amp;#3605;&amp;#3636;&amp;#3604;&amp;#3605;&amp;#3633;&amp;#3657;&amp;#3591;&amp;#3595;&amp;#3629;&amp;#3615;&amp;#3605;&amp;#3660;&amp;#3649;&amp;#3623;&amp;#3619;&amp;#3660;&amp;#3629;&amp;#3639;&amp;#3656;&amp;#3609;&amp;#3648;&amp;#3614;&amp;#3639;&amp;#3656;&amp;#3629;&amp;#3648;&amp;#3611;&amp;#3636;&amp;#3604;&amp;#3607;&amp;#3637;&amp;#3656;&amp;#3629;&amp;#3618;&amp;#3641;&amp;#3656;&amp;#3609;&amp;#3637;&amp;#3657;&lt;/li>
+&lt;/ul>"</string>
+    <string name="error_unsupportedprotocol_title">ไม่เข้าใจที่อยู่</string>
+    <string name="errorpage_refresh">ลองอีกครั้ง</string>
+    <string name="errorpage_title">เกิดปัญหาในการโหลดหน้า</string>
+    <string name="external_app_prompt">คุณสามารถออกจาก %1$s เพื่อเปิดลิงก์นี้ใน %2$s</string>
+    <string name="external_app_prompt_no_app">ไม่มีแอปในอุปกรณ์ของคุณที่สามารถเปิดลิงก์นี้ คุณสามารถออกจาก %1$s เพื่อค้นหา %2$s สำหรับแอปที่สามารถทำได้</string>
+    <string name="external_app_prompt_no_app_title">ค้นหาแอปที่สามารถเปิดลิงก์</string>
+    <string name="external_app_prompt_title">เปิดลิงก์ในแอปอื่น</string>
+    <string name="external_multiple_apps_matched_exit">ออกจากการท่องเว็บแบบส่วนตัว?</string>
+    <string name="feedback_erase">ล้างประวัติการท่องเว็บของคุณแล้ว</string>
+    <string name="find_in_page">ค้นหาในหน้า</string>
+    <string name="find_in_page_input">ค้นหาในหน้า</string>
+    <string name="find_in_page_result">%1$d/%2$d</string>
+    <string name="firstrun_close_button">ตกลง เข้าใจแล้ว!</string>
+    <string name="firstrun_defaultbrowser_text2">นำการท่องเว็บแบบส่วนตัวไปสู่ระดับถัดไป ปิดกั้นโฆษณาและเนื้อหาอื่น ๆ ที่สามารถติดตามคุณในไซต์ต่าง ๆ และลดเวลาในการโหลดหน้า</string>
+    <string name="firstrun_defaultbrowser_title">เพิ่มความเป็นส่วนตัวของคุณ</string>
+    <string name="firstrun_next_button">ถัดไป</string>
+    <string name="firstrun_privacy_text">ตั้ง %1$s เป็นเบราว์เซอร์เริ่มต้นของคุณและรับประโยชน์จากการท่องเว็บแบบส่วนตัวเมื่อคุณเปิดหน้าเว็บจากแอปอื่น ๆ</string>
+    <string name="firstrun_privacy_title">สร้างนิสัยความเป็นส่วนตัว</string>
+    <string name="firstrun_search_text">กำลังค้นหาอย่างอื่น? เลือกเครื่องมือค้นหาเริ่มต้นอื่นในการตั้งค่า</string>
+    <string name="firstrun_search_title">การค้นหาของคุณในแบบของคุณ</string>
+    <string name="firstrun_shortcut_text">กลับไปที่ไซต์โปรดของคุณใน %1$s ได้อย่างรวดเร็ว เพียงเลือก \"เพิ่มไปยังหน้าจอหลัก\" จากเมนู %1$s</string>
+    <string name="firstrun_shortcut_title">เพิ่มทางลัดไปยังหน้าจอหลักของคุณ</string>
+    <string name="firstrun_skip_button">ข้าม</string>
+    <string name="gv_prompt_clear">ล้าง</string>
+    <string name="gv_prompt_password_hint">รหัสผ่าน</string>
+    <string name="gv_prompt_username_hint">ชื่อผู้ใช้</string>
+    <string name="http_auth_dialog_password">รหัสผ่าน</string>
+    <string name="http_auth_dialog_title">ต้องมีการรับรองความถูกต้อง</string>
+    <string name="http_auth_dialog_username">ชื่อผู้ใช้</string>
+    <string name="menu_about">เกี่ยวกับ</string>
+    <string name="menu_add_to_home_screen">เพิ่มไปยังหน้าจอหลัก</string>
+    <string name="menu_custom_tab_branding">ขับเคลื่อนโดย %1$s</string>
+    <string name="menu_help">ช่วยเหลือ</string>
+    <string name="menu_open_with_a_browser2">เปิดใน…</string>
+    <string name="menu_open_with_default_browser2">เปิดใน %1$s</string>
+    <string name="menu_report_site_issue">รายงานปัญหาไซต์</string>
+    <string name="menu_rights">สิทธิของคุณ</string>
+    <string name="menu_settings">การตั้งค่า</string>
+    <string name="menu_share">แบ่งปัน…</string>
+    <string name="menu_trackers_blocked_title">ตัวติดตามที่ถูกปิดกั้น</string>
+    <string name="menu_whats_new">มีอะไรใหม่</string>
+    <string name="notification_action_erase_and_open">ล้างและเปิด</string>
+    <string name="notification_action_open">เปิด</string>
+    <string name="notification_browsing_session_channel_description">การแจ้งเตือนช่วยให้คุณล้างวาระ %1$s ของคุณด้วยการแตะ คุณไม่จำเป็นต้องเปิดแอปหรือดูสิ่งที่กำลังทำงานในเบราว์เซอร์ของคุณ</string>
+    <string name="notification_browsing_session_channel_name">วาระการท่องเว็บแบบส่วนตัว</string>
+    <string name="notification_erase_text">ล้างประวัติการท่องเว็บ</string>
+    <string name="preference_about">เกี่ยวกับ %1$s</string>
+    <string name="preference_autocomplete_action_add">+ เพิ่ม URL ที่กำหนดเอง</string>
+    <string name="preference_autocomplete_action_remove_content_description">เอาออก</string>
+    <string name="preference_autocomplete_add_confirmation">เพิ่ม URL ที่กำหนดเองใหม่แล้ว</string>
+    <string name="preference_autocomplete_add_error">ตรวจสอบ URL ที่คุณป้อนอีกครั้ง</string>
+    <string name="preference_autocomplete_add_example">ตัวอย่าง: example.com</string>
+    <string name="preference_autocomplete_add_example2">ตัวอย่าง: mozilla.org</string>
+    <string name="preference_autocomplete_add_hint">วางหรือป้อน URL</string>
+    <string name="preference_autocomplete_add_title">URL ที่จะเพิ่ม</string>
+    <string name="preference_autocomplete_custom_summary">เพิ่มและจัดการ URL เติมอัตโนมัติที่กำหนดเอง</string>
+    <string name="preference_autocomplete_duplicate_url_error">มี URL อยู่แล้ว</string>
+    <string name="preference_autocomplete_learn_more">เรียนรู้เพิ่มเติม</string>
+    <string name="preference_autocomplete_menu_remove">เอาออก</string>
+    <string name="preference_autocomplete_preinstalled_summary">เปิดใช้งานเพื่อให้มีการเติมอัตโนมัติของ %1$s ผ่าน 450 URL ยอดนิยมในแถบที่อยู่</string>
+    <string name="preference_autocomplete_subitem_customlist">URL ที่กำหนดเอง</string>
+    <string name="preference_autocomplete_title_add">เพิ่ม URL ที่กำหนดเอง</string>
+    <string name="preference_autocomplete_title_remove">เอา URL ที่กำหนดเองออก</string>
+    <string name="preference_category_autocomplete_custom_urls">URL ที่กำหนดเอง</string>
+    <string name="preference_category_autocomplete_preinstalled">รายการ URL เริ่มต้น</string>
+    <string name="preference_category_cookies">คุกกี้และข้อมูลไซต์</string>
+    <string name="preference_category_data_choices">ทางเลือกข้อมูล</string>
+    <string name="preference_category_data_collection_use">การเก็บรวบรวมและใช้ข้อมูล</string>
+    <string name="preference_category_general">ทั่วไป</string>
+    <string name="preference_category_mozilla">Mozilla</string>
+    <string name="preference_category_performance">ประสิทธิภาพ</string>
+    <string name="preference_category_privacy">ความเป็นส่วนตัว</string>
+    <string name="preference_category_search">ค้นหา</string>
+    <string name="preference_category_switching_apps">การสลับแอป</string>
+    <string name="preference_category_tracking_protection">การป้องกันการติดตาม</string>
+    <string name="preference_category_web_content">เนื้อหาเว็บ</string>
+    <string name="preference_default_browser2">ทำให้ %1$s เป็นเบราว์เซอร์เริ่มต้น</string>
+    <string name="preference_language">ภาษา</string>
+    <string name="preference_language_systemdefault">ค่าเริ่มต้นของระบบ</string>
+    <string name="preference_mozilla_summary">เกี่ยวกับ %1$s, ช่วยเหลือ</string>
+    <string name="preference_mozilla_telemetry2">ส่งข้อมูลการใช้งาน</string>
+    <string name="preference_mozilla_telemetry_summary">เรียนรู้เพิ่มเติม</string>
+    <string name="preference_mozilla_telemetry_summary2">Mozilla มุ่งมั่นที่จะเก็บรวบรวมเฉพาะสิ่งที่เราจำเป็นต้องจัดหาและปรับปรุง %1$s สำหรับทุกคน</string>
+    <string name="preference_performance_block_javascript">ปิดกั้น JavaScript</string>
+    <string name="preference_performance_block_javascript_summary">หน้าอาจโหลดเร็วขึ้น แต่อาจทำงานอย่างไม่คาดคิด</string>
+    <string name="preference_performance_block_webfonts">ปิดกั้นแบบอักษรเว็บ</string>
+    <string name="preference_performance_block_webfonts_summary">อาจส่งผลให้ไอคอนหรือภาพขาดหายไป</string>
+    <string name="preference_performance_request_desktop_site">ขอไซต์สำหรับเดสก์ท็อป</string>
+    <string name="preference_privacy_and_security_header">ความเป็นส่วนตัวและความปลอดภัย</string>
+    <string name="preference_privacy_and_security_summary">การติดตาม, คุกกี้, ทางเลือกข้อมูล</string>
+    <string name="preference_privacy_block_ads">ปิดกั้นตัวติดตามของโฆษณา</string>
+    <string name="preference_privacy_block_ads_summary">โฆษณาบางตัวติดตามการเยี่ยมชมไซต์ แม้ว่าคุณไม่ได้คลิกโฆษณา</string>
+    <string name="preference_privacy_block_analytics">ปิดกั้นตัวติดตามของการวิเคราะห์</string>
+    <string name="preference_privacy_block_analytics_summary">ใช้เพื่อเก็บรวบรวม วิเคราะห์ และวัดกิจกรรมอย่างการแตะและการเลื่อน</string>
+    <string name="preference_privacy_block_content">ปิดกั้นตัวติดตามของเนื้อหาอื่น ๆ</string>
+    <string name="preference_privacy_block_content_summary2">การเปิดใช้งานอาจส่งผลให้หน้าบางส่วนทำงานอย่างไม่คาดคิด</string>
+    <string name="preference_privacy_block_social">ปิดกั้นตัวติดตามทางสังคม</string>
+    <string name="preference_privacy_block_social_summary">ฝังอยู่ในไซต์เพื่อติดตามการเยี่ยมชมของคุณและแสดงผลฟังก์ชันการทำงานอย่างปุ่มแบ่งปัน</string>
+    <string name="preference_privacy_category_cookies">ปิดกั้นคุกกี้</string>
+    <string name="preference_privacy_notice">ประกาศความเป็นส่วนตัว</string>
+    <string name="preference_privacy_secure_mode">พรางตัว</string>
+    <string name="preference_privacy_should_block_cookies_no_option">ไม่</string>
+    <string name="preference_privacy_should_block_cookies_third_party_only_option">ปิดกั้นคุกกี้จากบุคคลที่สามเท่านั้น</string>
+    <string name="preference_privacy_should_block_cookies_yes_option">ใช่</string>
+    <string name="preference_privacy_stealth_summary">ซ่อนหน้าเว็บเมื่อสลับแอป</string>
+    <string name="preference_search_add2">+ เพิ่มเครื่องมือค้นหาอื่น</string>
+    <string name="preference_search_engine_default">ค่าเริ่มต้น</string>
+    <string name="preference_search_installed_search_engines">เครื่องมือค้นหาที่ติดตั้งไว้</string>
+    <string name="preference_search_remove">เอาออก</string>
+    <string name="preference_search_remove_title">เอาเครื่องมือค้นหาออก</string>
+    <string name="preference_search_restore">เรียกคืนเครื่องมือค้นหาเริ่มต้น</string>
+    <string name="preference_search_summary">ตั้งค่าเริ่มต้น, การเติมอัตโนมัติ</string>
+    <string name="preference_state_off">ปิด</string>
+    <string name="preference_state_on">เปิด</string>
+    <string name="preference_subitem_autocomplete">การเติม URL อัตโนมัติ</string>
+    <string name="preference_switch_autocomplete">การเติมอัตโนมัติ</string>
+    <string name="search_add_confirmation">เพิ่มเครื่องมือค้นหาใหม่แล้ว</string>
+    <string name="search_add_error_duplicate_name">เครื่องมือค้นหาที่ติดตั้งไว้กำลังใช้ชื่อนั้นอยู่แล้ว</string>
+    <string name="search_add_error_empty_name">ป้อนชื่อเครื่องมือค้นหา</string>
+    <string name="search_add_error_empty_search">ป้อนสตริงการค้นหา</string>
+    <string name="search_add_error_format">ตรวจสอบว่าสตริงการค้นหาตรงกับรูปแบบตัวอย่าง</string>
+    <string name="search_add_manually_example">ตัวอย่าง: example.com/search/?q=%s</string>
+    <string name="search_add_manually_name_hint">ชื่อเครื่องมือค้นหา</string>
+    <string name="search_add_manually_save">บันทึก</string>
+    <string name="search_add_manually_string">สตริงการค้นหาที่จะใช้</string>
+    <string name="search_hint">ค้นหา %1$s</string>
+    <string name="search_menu_title">ค้นหา</string>
+    <string name="security_popup_insecure_connection">การเชื่อมต่อไม่ปลอดภัย</string>
+    <string name="security_popup_secure_connection">การเชื่อมต่อปลอดภัย</string>
+    <string name="security_popup_security_verified">ยืนยันโดย: %1$s</string>
+    <string name="share_dialog_title">แบ่งปันผ่าน</string>
+    <string name="shortcut_erase_long_label">ล้างประวัติการท่องเว็บ</string>
+    <string name="shortcut_erase_short_label">ล้าง</string>
+    <string name="site_security_icon_content_description">ความปลอดภัยของไซต์</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tabs_tray_action_erase">ล้างประวัติการท่องเว็บ</string>
+    <string name="teaser">"การท่องเว็บแบบส่วนตัวอัตโนมัติ
+ท่องเว็บ ล้าง ทำซ้ำ"</string>
+    <string name="text_selection_search_action">ค้นหาแบบส่วนตัว</string>
+    <string name="urlbar_hint">ค้นหาหรือป้อนที่อยู่</string>
+    <string name="your_rights">สิทธิของคุณ</string>
+    <string name="your_rights_content1">%1$s เป็นซอฟต์แวร์ฟรีและเปิดต้นฉบับที่สร้างขึ้นโดย Mozilla และผู้มีส่วนร่วมอื่น ๆ</string>
+    <string name="your_rights_content2">%1$s ให้คุณใช้ภายใต้เงื่อนไขของ &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>Mozilla Public License&lt;/a> และสัญญาอนุญาตการเปิดต้นฉบับอื่น ๆ</string>
+    <string name="your_rights_content3">คุณไม่ได้รับสิทธิหรือสัญญาอนุญาตใด ๆ ในเครื่องหมายการค้าของมูลนิธิ Mozilla หรือบุคคลใด ๆ รวมทั้งชื่อหรือโลโก้ Mozilla, Firefox หรือ %1$s ข้อมูลเพิ่มเติมอาจพบได้ &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>&amp;#3607;&amp;#3637;&amp;#3656;&amp;#3609;&amp;#3637;&amp;#3656;&lt;/a></string>
+    <string name="your_rights_content4">โค้ดต้นฉบับเพิ่มเติมสำหรับ %1$s ใช้ได้ภายใต้ &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>&amp;#3626;&amp;#3633;&amp;#3597;&amp;#3597;&amp;#3634;&amp;#3629;&amp;#3609;&amp;#3640;&amp;#3597;&amp;#3634;&amp;#3605;&lt;/a> ฟรีและเปิดต้นฉบับต่าง ๆ</string>
+    <string name="your_rights_content5">%1$s ยังใช้รายการปิดกั้นที่จัดหาโดย Disconnect, Inc. ซึ่งเป็นงานแยกและเป็นอิสระภายใต้ &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%2$s>GNU General Public License v3&lt;/a> และใช้ได้ &lt;a xmlns:xliff=urn:oasis:names:tc:xliff:document:1.2 href=%3$s>&amp;#3607;&amp;#3637;&amp;#3656;&amp;#3609;&amp;#3637;&amp;#3656;&lt;/a></string>
+</resources>

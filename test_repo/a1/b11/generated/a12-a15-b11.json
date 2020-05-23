@@ -1,0 +1,94 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "org.mozilla.focus:id/skip",
+    "text": "Skip",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.MainActivity",
+    "package": "org.mozilla.focus",
+    "event_type": "stepping"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "org.mozilla.focus:id/urlView",
+    "text": "Search or enter address",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [
+      {
+        "class": "android.widget.Button",
+        "resource-id": "skip",
+        "id-prefix": "org.mozilla.focus:id/",
+        "text": "Skip",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+          "click"
+        ],
+        "activity": ".activity.MainActivity",
+        "package": "org.mozilla.focus",
+        "event_type": "stepping"
+      }
+    ],
+    "package": "org.mozilla.focus",
+    "activity": ".activity.MainActivity",
+    "event_type": "gui",
+    "score": 0.3798394318712429,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "org.mozilla.focus:id/urlView",
+    "text": "Search or enter address",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "org.mozilla.focus",
+    "activity": ".activity.MainActivity",
+    "event_type": "gui",
+    "score": 0.3798394318712429,
+    "action": [
+      "send_keys_and_enter",
+      "https://www.ics.uci.edu"
+    ]
+  },
+  {
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Donald Bren School of Information and Computer Sciences",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "org.mozilla.focus",
+    "activity": ".activity.MainActivity",
+    "event_type": "oracle",
+    "score": 0.3576287439040169,
+    "action": [
+      "wait_until_element_presence",
+      10,
+      "xpath",
+      "//android.view.View[@content-desc=\"Donald Bren School of Information and Computer Sciences\"]"
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="other">Címek a vágólapra másolva</item>
+        <item quantity="one">Cím a vágólapra másolva</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="other">Biztos hogy törli ezt: %1$d ?</item>
+        <item quantity="one">Biztos hogy törli ezt a levelet?</item>
+    </plurals>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="other">Valóban át akarja helyezni ezt a levelet a spam mappába: %1$d ?</item>
+        <item quantity="one">Valóban át akarja helyezni ezt a levelet a spam mappába?</item>
+    </plurals>
+    <plurals name="notification_new_messages_title">
+        <item quantity="other">%d új üzenet</item>
+        <item quantity="one">%d új üzenet</item>
+    </plurals>
+    <plurals name="settings_import_accounts">
+        <item quantity="other">%s fiók</item>
+        <item quantity="one">1 fiók</item>
+    </plurals>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="other">szerver jelszavai</item>
+        <item quantity="one">szerver jelszava</item>
+    </plurals>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="other">Jelszavak beállítása…</item>
+        <item quantity="one">Jelszó beállítása…</item>
+    </plurals>
+</resources>

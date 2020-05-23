@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.mail.fragments.view.VerticalParallaxHeaderView n1:id="@id/parallax_area" n1:paddingBottom="16.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <ImageView n1:id="@id/picture_background" n1:layout_width="fill_parent" n1:layout_height="@dimen/about_header_height" n1:src="@color/main_background_color" n1:scaleType="centerCrop" />
+        <ImageView n1:id="@id/app_icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="56.0dip" n1:src="@drawable/ic_about_app" n1:layout_centerHorizontal="true" />
+        <TextView n1:textAppearance="?android:textAppearanceLarge" n1:textColor="@color/white" n1:id="@id/app_name" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dip" n1:text="@string/about_app_name" n1:layout_below="@id/app_icon" n1:layout_centerHorizontal="true" />
+        <TextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="@color/semi_transparent_white" n1:ellipsize="end" n1:id="@id/version" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dip" n1:singleLine="true" n1:layout_below="@id/app_name" n1:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ru.mail.fragments.view.VerticalParallaxHeaderView>

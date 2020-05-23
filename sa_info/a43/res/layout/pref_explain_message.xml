@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:paddingLeft="16.0dip" n1:paddingTop="6.0dip" n1:paddingRight="16.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_weight="1.0"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceSmall" n1:textColor="#48000000" n1:id="@android:id/title" n1:fadingEdge="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/prefs_personal_data_processing_message" n2:textFont="robotoMedium" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ru.mail.uikit.view.FontTextView n1:textAppearance="?android:textAppearanceSmall" n1:textColor="?android:textColorSecondary" n1:id="@android:id/summary" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_below="@android:id/title" n1:layout_alignLeft="@android:id/title" n3:textFont="robotoMedium" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

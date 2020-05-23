@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item n1:left="@dimen/gallery_browser_folder_margin" n1:top="@dimen/gallery_browser_folder_margin" n1:right="@dimen/gallery_browser_folder_margin" n1:bottom="@dimen/gallery_browser_folder_margin"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <shape n1:shape="rectangle">
+            <stroke n1:width="@dimen/media_picker_border_thickness" n1:color="@color/media_picker_border" />
+            <corners n1:radius="@dimen/media_picker_radius" />
+            <solid n1:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item>
+        <shape n2:shape="rectangle"
+          xmlns:n2="http://schemas.android.com/apk/res/android">
+            <stroke n2:width="@dimen/media_picker_border_thickness" n2:color="@color/media_picker_border_focused" />
+            <corners n2:radius="@dimen/media_picker_radius" />
+            <solid n2:color="@android:color/transparent" />
+        </shape>
+    </item>
+</layer-list>

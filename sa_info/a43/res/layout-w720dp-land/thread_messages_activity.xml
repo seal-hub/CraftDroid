@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.mail.fragments.view.RelativeLayoutPosition n1:orientation="vertical" n1:id="@id/fragment_root_view" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.design.widget.CoordinatorLayout n1:id="@id/coordinator_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent" n2:layout_behavior="ru.mail.fragments.view.behavior.TwoPanelThreadBehavior" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/thread_messages_fragment_container" n1:layout_width="@dimen/slide_stack_landscape_width" n1:layout_height="fill_parent" />
+            <FrameLayout n1:id="@id/mail_view_and_floating_menu" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_toRightOf="@id/thread_messages_fragment_container">
+                <FrameLayout n1:id="@id/message_fragment_container" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+                <FrameLayout n1:id="@id/floating_menu_fragment" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+            </FrameLayout>
+            <View n1:background="@color/divider_primary" n1:layout_width="@dimen/divider_primary" n1:layout_height="fill_parent" n1:layout_toRightOf="@id/thread_messages_fragment_container" />
+        </RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/toolbar_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentTop="true">
+        <ru.mail.ui.CustomTabletLandscapeToolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n3:leftFragmentWidth="360.0dip" n3:middleMunuRightMargin="4.0dip" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <View n1:background="@drawable/shadow_ab" n1:layout_width="fill_parent" n1:layout_height="@dimen/shadow_height" />
+    </LinearLayout>
+</ru.mail.fragments.view.RelativeLayoutPosition>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/content_main" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="320.0dip" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+                <com.google.android.gms.ads.AdView android:layout_gravity="center" android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-4474607680624911/3498801093" xmlns:ads="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:gravity="center_vertical" android:layout_gravity="start" android:layout_width="150.0dip" android:layout_height="40.0dip" android:text="Bill" style="@style/CustomFont" />
+                <EditText android:gravity="right" android:layout_gravity="end" android:id="@id/editTextBill" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="100.00" android:inputType="numberDecimal" style="@style/CustomFont" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:gravity="center_vertical" android:layout_gravity="start" android:layout_width="150.0dip" android:layout_height="40.0dip" android:text="Tip (%)" style="@style/CustomFont" />
+                <Button android:id="@id/buttonTipMinus" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginRight="5.0dip" android:text="-" android:onClick="onButtonTipMinusClicked" android:layout_marginEnd="5.0dip" style="@style/CustomFontSmallButton" />
+                <Button android:id="@id/buttonTipPlus" android:layout_width="35.0dip" android:layout_height="35.0dip" android:text="+" android:onClick="onButtonTipPlusClicked" style="@style/CustomFontSmallButton" />
+                <EditText android:gravity="right" android:layout_gravity="end" android:id="@id/editTextTip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="15" android:inputType="number" style="@style/CustomFont" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:gravity="center_vertical" android:layout_gravity="start" android:layout_width="150.0dip" android:layout_height="40.0dip" android:text="Split" style="@style/CustomFont" />
+                <Button android:id="@id/buttonSplitMinus" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginRight="5.0dip" android:text="-" android:onClick="onButtonSplitMinusClicked" android:layout_marginEnd="5.0dip" style="@style/CustomFontSmallButton" />
+                <Button android:id="@id/buttonSplitPlus" android:layout_width="35.0dip" android:layout_height="35.0dip" android:text="+" android:onClick="onButtonSplitPlusClicked" style="@style/CustomFontSmallButton" />
+                <EditText android:gravity="right" android:layout_gravity="end" android:id="@id/editTextSplit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1" android:inputType="number" style="@style/CustomFont" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <Button android:id="@id/buttonCalculate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="Calculate" android:onClick="onButtonCalculateClicked" android:layout_marginEnd="5.0dip" style="@style/CustomFontButton" />
+                <Button android:id="@id/buttonShare" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="Share" android:onClick="onButtonShareClicked" android:layout_marginEnd="5.0dip" style="@style/CustomFontButton" />
+                <Button android:id="@id/buttonCopyResult" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Copy" android:onClick="onButtonCopyResultClicked" style="@style/CustomFontButton" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="10.0dip">
+                <TextView android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Total Bill" android:layout_weight="1.0" android:textAlignment="textStart" style="@style/CustomFont" />
+                <TextView android:layout_gravity="end|center" android:id="@id/textViewTotalToPay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$0.00" android:layout_weight="1.0" android:textAlignment="textEnd" style="@style/CustomFont" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Total Tip" android:layout_weight="1.0" android:textAlignment="textStart" style="@style/CustomFont" />
+                <TextView android:layout_gravity="end|center" android:id="@id/textViewTotalTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$0.00" android:layout_weight="1.0" android:textAlignment="textEnd" style="@style/CustomFont" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Per person" android:layout_weight="1.0" android:textAlignment="textStart" style="@style/CustomFont" />
+                <TextView android:textColor="@color/colorAccent" android:layout_gravity="end|center" android:id="@id/textViewTotalPerPerson" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$0.00" android:layout_weight="1.0" android:textAlignment="textEnd" style="@style/CustomFont" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

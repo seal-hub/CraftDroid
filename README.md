@@ -77,4 +77,4 @@ Generally, a setting of `use_stopwords=True, expand_btn_to_text=False, reset_dat
 
 # Publication
 
-* J. Lin, R. Jabbarvand and S. Malek, "Test Transfer Across Mobile Apps Through Semantic Mapping," 2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE), San Diego, CA, USA, 2019, pp. 42-53, doi: 10.1109/ASE.2019.00015.
+* J. Lin, R. Jabbarvand and S. Malek, "Test Transfer Across Mobile Apps Through Semantic Mapping," 2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE), San Diego, CA, USA, 2019, pp. 42-53, doi: 10.1109/ASE.2019.00015. ([pdf](https://www.ics.uci.edu/~seal/publications/2019_ASE.pdf))

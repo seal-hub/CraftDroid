@@ -15,7 +15,7 @@ from StrUtil import StrUtil
 from Configuration import Configuration
 from Runner import Runner
 from WidgetUtil import WidgetUtil
-from misc import teardown_mail
+# from misc import teardown_mail
 from CallGraphParser import CallGraphParser
 from ResourceParser import ResourceParser
 from const import SA_INFO_FOLDER, SNAPSHOT_FOLDER
@@ -474,6 +474,15 @@ class Explorer:
         gui = mean(gui_scores) if gui_scores else 0
         oracle = mean(oracle_scores) if oracle_scores else 0
         return 0.5*gui + 0.5*oracle
+    
+    def __reduce__(self):
+        attributes_to_exclude = ('socket','config', 'runner')
+        state = self.__dict__.copy()
+        for attr in attributes_to_exclude:
+            if str(attr) in state:
+                del state[attr]
+
+        return (self.__class__, (), state)
 
     def snapshot(self):
         with open(os.path.join(SNAPSHOT_FOLDER, self.config.id + '.pkl'), 'wb') as f:

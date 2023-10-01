@@ -2,7 +2,7 @@ from appium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import WebDriverException
-from appium.webdriver.common.mobileby import MobileBy
+from appium.webdriver.common.appiumby import AppiumBy as MobileBy
 from appium.webdriver.common.touch_action import TouchAction
 
 from selenium.common.exceptions import NoSuchElementException
@@ -11,14 +11,18 @@ import re
 from subprocess import call
 # local import
 from Databank import Databank
-from misc import teardown_mail
+# from misc import teardown_mail
 from StrUtil import StrUtil
+from appium.options.android import UiAutomator2Options
 
+
+appium_server_url = 'http://localhost'
 
 class Runner:
     def __init__(self, pkg, act, no_reset=False, appium_port='4723', udid=None):
         desired_caps = Runner.set_caps(pkg, act, no_reset, udid)
-        self.driver = webdriver.Remote('http://localhost:' + appium_port + '/wd/hub', desired_caps)
+        capabilities_options = UiAutomator2Options().load_capabilities(desired_caps)
+        self.driver = webdriver.Remote(command_executor=appium_server_url + ':' + appium_port, options=capabilities_options)
         self.databank = Databank()
         self.act_interval = 2
 
@@ -28,7 +32,7 @@ class Runner:
             'platformName': 'Android',
             'platformVersion': '6.0',
             'deviceName': 'Android Emulator',
-            'app': app_name,
+            'appPackage': app_name,
             'appActivity': app_activity,
             'autoGrantPermissions': True,
             'noReset': no_reset
@@ -40,9 +44,11 @@ class Runner:
     def perform_actions(self, action_list, require_wait=False, reset=True, cgp=None):
         if reset:
             if self.driver.desired_capabilities['desired']['noReset']:
-                self.driver.launch_app()  # don't clear app data
+                self.driver.activate_app(app_id=self.driver.desired_capabilities['appPackage'])  # don't clear app data
             else:
-                self.driver.reset()
+                self.driver.terminate_app(app_id=self.driver.desired_capabilities['appPackage'])
+                self.driver.activate_app(app_id=self.driver.desired_capabilities['appPackage'])
+
         #time.sleep(self.act_interval)
 
         # specific for Ru email apps: a43-a45
@@ -83,7 +89,7 @@ class Runner:
                 elif action['action'][0] == 'KEY_BACK':
                     self.driver.press_keycode(4)  # AndroidKeyCode for 'Back'
                 elif action['action'][0] == 'restart_app':
-                    self.driver.activate_app(self.driver.desired_capabilities['app'])
+                    self.driver.activate_app(self.driver.desired_capabilities['appPackage'])
                 else:
                     assert False, 'Unknown SYS_EVENT'
                 continue

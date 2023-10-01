@@ -1,0 +1,14 @@
+Appium-Python-Client
+beautifulsoup4
+Flask
+Flask-RESTful
+gensim
+html5lib
+lxml
+numpy
+requests
+scipy
+selenium
+bs4
+pydot
+networkx

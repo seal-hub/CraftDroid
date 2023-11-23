@@ -30,6 +30,9 @@ It will start transferring the test case of `a21-Minimal` to `a22-Clear` List fo
 
 5. The source test cases are under test-repo/[CATEGORY]/[FUNCTIONALITY]/base/[APP_ID].json, e.g., `test-repo/a2/b21/base/a21.json`. The generated test cases for the target app is under generated/[APP_FROM]-/[APP_TO]-[FUNCTIONALITY].json, e.g., `test-repo/a2/b21/generated/a21-a22-b21.json`
 
+We also suggest turning off animations on the emulator to avoid potential interaction issues.
+
+![animation-off](./animation-off.jpg)
 # FAQ
 
 ## What's inside `sa_info`?

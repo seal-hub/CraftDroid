@@ -15,7 +15,6 @@ from StrUtil import StrUtil
 from Configuration import Configuration
 from Runner import Runner
 from WidgetUtil import WidgetUtil
-from misc import teardown_mail
 from CallGraphParser import CallGraphParser
 from ResourceParser import ResourceParser
 from const import SA_INFO_FOLDER, SNAPSHOT_FOLDER
@@ -475,6 +474,16 @@ class Explorer:
         oracle = mean(oracle_scores) if oracle_scores else 0
         return 0.5*gui + 0.5*oracle
 
+    # Runner class contains 'socket' object and cannot be pickled   
+    def __getstate__(self):
+        state = self.__dict__.copy()        
+        del state['runner']
+        return state
+    
+    def __setstate__(self, state):        
+        self.__dict__.update(state)        
+        self.runner = None
+    
     def snapshot(self):
         with open(os.path.join(SNAPSHOT_FOLDER, self.config.id + '.pkl'), 'wb') as f:
             pickle.dump(self, f)

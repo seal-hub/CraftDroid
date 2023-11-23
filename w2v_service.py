@@ -1,14 +1,15 @@
-from flask import Flask
+from flask import Flask, request
 from flask_restful import Api, Resource, reqparse
 import gensim
 import pickle
 import os
 
-model = gensim.models.KeyedVectors.load_word2vec_format('/GoogleNews-vectors-negative300.bin', binary=True)
+model = gensim.models.KeyedVectors.load_word2vec_format('./GoogleNews-vectors-negative300.bin', binary=True)
 cached_sim = dict()
+pkl_path = "./w2v_sim_cache.pkl"
 
-if os.path.exists('/w2v_sim_cache.pkl'):
-    with open('/w2v_sim_cache.pkl', 'rb') as f:
+if os.path.exists(pkl_path ):
+    with open(pkl_path , 'rb') as f:
         cached_sim = pickle.load(f)
 
 
@@ -20,12 +21,12 @@ def w2v_sim(w_from, w_to):
     else:
         if w_from.lower() == w_to.lower():
             sim = 1.0
-        elif w_from in model.vocab and w_to in model.vocab:
+        elif w_from in model.key_to_index and w_to in model.key_to_index:
             sim = model.similarity(w1=w_from, w2=w_to)
         else:
             sim = None
         cached_sim[(w_from, w_to)] = sim
-        with open('/w2v_sim_cache.pkl', 'wb') as f:
+        with open(pkl_path , 'wb') as f:
             pickle.dump(cached_sim, f)
         return sim
 
@@ -86,11 +87,8 @@ class WordSim(Resource):
         return {'error': 'Non-supported HTTP Method'}, 200
 
     def post(self):
-        parser = reqparse.RequestParser()
-        parser.add_argument('s_new', action='append')
-        parser.add_argument('s_old', action='append')
-        args = parser.parse_args()
-        sent_sim = w2v_sent_sim(args['s_new'], args['s_old'])
+        args = request.json
+        sent_sim = w2v_sent_sim(args['s_new'], args['s_old'])        
         return {'sent_sim': sent_sim}, 200
 
     def put(self):

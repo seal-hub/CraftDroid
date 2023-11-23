@@ -2,13 +2,13 @@ from appium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import WebDriverException
-from appium.webdriver.common.mobileby import MobileBy
+from appium.webdriver.common.appiumby import AppiumBy as MobileBy
 from appium.webdriver.common.touch_action import TouchAction
-
+from appium.options.android import UiAutomator2Options
 from selenium.common.exceptions import NoSuchElementException
 import time
 import re
-from subprocess import call
+import subprocess
 # local import
 from Databank import Databank
 from misc import teardown_mail
@@ -18,7 +18,8 @@ from StrUtil import StrUtil
 class Runner:
     def __init__(self, pkg, act, no_reset=False, appium_port='4723', udid=None):
         desired_caps = Runner.set_caps(pkg, act, no_reset, udid)
-        self.driver = webdriver.Remote('http://localhost:' + appium_port + '/wd/hub', desired_caps)
+        capabilities_options = UiAutomator2Options().load_capabilities(desired_caps)
+        self.driver = webdriver.Remote(command_executor='http://localhost:' + appium_port, options=capabilities_options)
         self.databank = Databank()
         self.act_interval = 2
 
@@ -26,9 +27,10 @@ class Runner:
     def set_caps(app_name, app_activity, no_reset=False, udid=None):
         caps = {
             'platformName': 'Android',
+            'automationName': 'uiautomator2',
             'platformVersion': '6.0',
-            'deviceName': 'Android Emulator',
-            'app': app_name,
+            'deviceName': 'Android',
+            'appPackage': app_name,
             'appActivity': app_activity,
             'autoGrantPermissions': True,
             'noReset': no_reset
@@ -40,9 +42,14 @@ class Runner:
     def perform_actions(self, action_list, require_wait=False, reset=True, cgp=None):
         if reset:
             if self.driver.desired_capabilities['desired']['noReset']:
-                self.driver.launch_app()  # don't clear app data
+                # self.driver.launch_app() is deprecated
+                self.driver.activate_app(app_id=self.driver.desired_capabilities['appPackage'])  # don't clear app data
             else:
-                self.driver.reset()
+                # self.driver.reset() is deprecated
+                self.driver.terminate_app(app_id=self.driver.desired_capabilities['appPackage'])
+                subprocess.run(f"adb shell pm clear {self.driver.desired_capabilities['appPackage']}".split(),
+                                stdout=subprocess.DEVNULL)
+                self.driver.activate_app(app_id=self.driver.desired_capabilities['appPackage'])
         #time.sleep(self.act_interval)
 
         # specific for Ru email apps: a43-a45
@@ -83,7 +90,7 @@ class Runner:
                 elif action['action'][0] == 'KEY_BACK':
                     self.driver.press_keycode(4)  # AndroidKeyCode for 'Back'
                 elif action['action'][0] == 'restart_app':
-                    self.driver.activate_app(self.driver.desired_capabilities['app'])
+                    self.driver.activate_app(self.driver.desired_capabilities['appPackage'])
                 else:
                     assert False, 'Unknown SYS_EVENT'
                 continue
@@ -156,6 +163,7 @@ class Runner:
                     ele.send_keys(value_for_input)
                     if action['action'][0].endswith('hide_keyboard'):
                         ele.click()
+                        time.sleep(self.act_interval/2)
                         self.hide_keyboard()
                     elif action['action'][0].endswith('enter'):
                         self.driver.press_keycode(66)  # AndroidKeyCode for 'Enter'
@@ -317,5 +325,5 @@ class Runner:
     # def clear_browser_data(self):
     #     # specific for Target app (register through website;
     #     # need to clear registered data when restarting app)
-    #     call(['adb', 'shell', 'pm', 'clear', 'com.android.browser'])
+    #     subprocess.call(['adb', 'shell', 'pm', 'clear', 'com.android.browser'])
     #     print('Cleared browser data')

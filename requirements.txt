@@ -1,0 +1,13 @@
+Appium-Python-Client==3.1.0
+beautifulsoup4==4.12.2
+Flask==3.0.0
+Flask-RESTful==0.3.10
+gensim==4.3.2
+html5lib==1.1
+lxml==4.9.3
+numpy==1.26.1
+requests==2.31.0
+scipy==1.11.3
+selenium==4.15.2
+pydot==1.4.2
+networkx==3.2.1

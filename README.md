@@ -1,15 +1,23 @@
+# CraftDroid v.2023
+
+This is a quick patch of CraftDroid to accommodate recent versions of its dependent frameworks/Python libraries, e.g., Appium, Flask, BeautifulSoup, gensim, etc. This patch is tested with the environment below:
+
+* Windows 11 / Python 3.12.0
+* node.js v20.9.0 / appium v2.2.1 / uiautomator2@2.34.0
+* Android Studio Giraffe | 2022.3.1 Patch 2 / Nexus_5X Emulator w/ API_23 (x86_64 image)
+
 # Prerequisites
 
-* Python 3.6 with the following packages installed: `Appium-Python-Client, beautifulsoup4, Flask, Flask-RESTful, gensim, html5lib, lxml, numpy, requests, scipy, selenium`
-* [Appium-Desktop 1.10.0](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fappium%2Fappium-desktop%2Freleases%2Ftag%2Fv1.10.0&sa=D&sntz=1&usg=AFQjCNGsfo5xiY2Qn-P-ML7NlhKu73FT1A)
+* Python 3.12 with the packages in `requirements.txt` installed
+* [Appium v2.2.1](https://appium.io/docs/en/2.1/quickstart/install/) with [UiAutomator2 Driver](https://appium.io/docs/en/2.1/quickstart/uiauto2-driver/) installed
 * [GoogleNews-vectors-negative300.bin.gz](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit)
-* Tested on Android Studio 3.4 / Nexus_5X Emulator w/ API_23 (x86_64 image) / Windows 10
+* Android Studio Giraffe | 2022.3.1 Patch 2 / Nexus_5X Emulator w/ API_23 (x86_64 image)
 * Download the [subject apks](https://drive.google.com/open?id=1wb9ODzqMfsRCLqU80QF-g_1IrF0r7-vj) and `git clone` this project.
 
 # Getting Started
-1. Install subject apps on an emulator; we suggest starting with the apps under a2-todo/ to avoid some network issues of apps
-2. Start the emulator; Start Appium-desktop
-3. Run `word2vec_service.py` first to activate the background web service for similarity query (modify the path in source code pointing to `GoogleNews-vectors-negative300.bin`)
+1. Install subject apps on the emulator; we suggest starting with the apps under a2-todo/ to avoid some network issues of apps
+2. Start the emulator; Start appium
+3. `python w2v_service.py` first to activate the background web service for similarity query (modify the path to `GoogleNews-vectors-negative300.bin` in the source code)
 4. Run Explorer.py with arguments: 
 ```
 python3 Explorer.py ${TRANSFER_ID} ${APPIUM_PORT} ${EMULATOR}

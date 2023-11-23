@@ -1,5 +1,6 @@
 import re
 import requests
+import json
 
 
 class StrUtil:
@@ -160,7 +161,7 @@ class StrUtil:
         data = {'s_new': s_new, 's_old': s_old}
         if len(s_new) == 0 or len(s_old) == 0:
             return None
-        resp = requests.post(url='http://127.0.0.1:5000/w2v', data=data).json()
+        resp = requests.post(url='http://127.0.0.1:5000/w2v', headers={'Content-Type': 'application/json'}, data=json.dumps(data)).json()
         if 'sent_sim' in resp and resp['sent_sim']:
             return resp['sent_sim']
         else:
